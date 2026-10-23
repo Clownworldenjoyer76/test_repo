@@ -1,0 +1,4918 @@
+{
+  "snapshot_id": "2026_10_04_114931_291300",
+  "fetched_at": "2026-10-04T11:49:31.291300+00:00",
+  "sport": "football",
+  "league": "college-football",
+  "source": "ESPN Core API",
+  "schedule_input": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/2026_schedule.csv",
+  "selected_schedule_group": {
+    "season": "2026",
+    "season_type": "2",
+    "week": "6"
+  },
+  "request_urls": [
+    {
+      "game_id": "401871090",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871090/competitions/401871090/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401871051",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871051/competitions/401871051/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401871066",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871066/competitions/401871066/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401870766",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401870766/competitions/401870766/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401871052",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871052/competitions/401871052/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401862794",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401862794/competitions/401862794/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401869933",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401869933/competitions/401869933/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858254",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858254/competitions/401858254/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401858487",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858487/competitions/401858487/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401860922",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401860922/competitions/401860922/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401864519",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401864519/competitions/401864519/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856826",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856826/competitions/401856826/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401856716",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856716/competitions/401856716/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401856823",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856823/competitions/401856823/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856824",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856824/competitions/401856824/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858256",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858256/competitions/401858256/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858260",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858260/competitions/401858260/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858481",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858481/competitions/401858481/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401862795",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401862795/competitions/401862795/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401866436",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401866436/competitions/401866436/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858482",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858482/competitions/401858482/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856714",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856714/competitions/401856714/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401869843",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401869843/competitions/401869843/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401866440",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401866440/competitions/401866440/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856717",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856717/competitions/401856717/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401856718",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856718/competitions/401856718/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401856825",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856825/competitions/401856825/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858255",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858255/competitions/401858255/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858257",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858257/competitions/401858257/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401858259",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858259/competitions/401858259/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858480",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858480/competitions/401858480/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858484",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858484/competitions/401858484/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401862796",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401862796/competitions/401862796/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401862799",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401862799/competitions/401862799/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401866435",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401866435/competitions/401866435/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401866437",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401866437/competitions/401866437/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401866438",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401866438/competitions/401866438/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401866439",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401866439/competitions/401866439/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401861964",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401861964/competitions/401861964/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401862797",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401862797/competitions/401862797/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856713",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856713/competitions/401856713/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858483",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858483/competitions/401858483/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401860902",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401860902/competitions/401860902/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856715",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856715/competitions/401856715/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401862798",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401862798/competitions/401862798/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401864517",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401864517/competitions/401864517/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401864518",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401864518/competitions/401864518/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401869943",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401869943/competitions/401869943/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856712",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856712/competitions/401856712/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401858258",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858258/competitions/401858258/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858485",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858485/competitions/401858485/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "AVAILABLE"
+    },
+    {
+      "game_id": "401864516",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401864516/competitions/401864516/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401869949",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401869949/competitions/401869949/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401869965",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401869965/competitions/401869965/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401858486",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858486/competitions/401858486/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856827",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856827/competitions/401856827/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401856808",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856808/competitions/401856808/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    },
+    {
+      "game_id": "401860901",
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401860901/competitions/401860901/odds?limit=100&lang=en&region=us",
+      "status": 200,
+      "result": "EMPTY"
+    }
+  ],
+  "target_games_count": 58,
+  "locked_games_count": 0,
+  "empty_odds_games_count": 41,
+  "events_count": 17,
+  "odds_events_count": 17,
+  "events": [
+    {
+      "id": "401871090",
+      "date": "2026-10-07T00:00:00Z",
+      "home": "Troy Trojans",
+      "away": "Southern Miss Golden Eagles"
+    },
+    {
+      "id": "401871051",
+      "date": "2026-10-07T23:00:00Z",
+      "home": "Kennesaw State Owls",
+      "away": "Jacksonville State Gamecocks"
+    },
+    {
+      "id": "401871066",
+      "date": "2026-10-07T23:30:00Z",
+      "home": "Florida International Panthers",
+      "away": "New Mexico State Aggies"
+    },
+    {
+      "id": "401858254",
+      "date": "2026-10-09T23:00:00Z",
+      "home": "Louisville Cardinals",
+      "away": "Florida State Seminoles"
+    },
+    {
+      "id": "401858487",
+      "date": "2026-10-10T01:00:00Z",
+      "home": "Washington Huskies",
+      "away": "Iowa Hawkeyes"
+    },
+    {
+      "id": "401856826",
+      "date": "2026-10-10T02:15:00Z",
+      "home": "BYU Cougars",
+      "away": "Iowa State Cyclones"
+    },
+    {
+      "id": "401856716",
+      "date": "2026-10-10T16:00:00Z",
+      "home": "Missouri Tigers",
+      "away": "Texas A&M Aggies"
+    },
+    {
+      "id": "401858481",
+      "date": "2026-10-10T16:00:00Z",
+      "home": "Nebraska Cornhuskers",
+      "away": "Indiana Hoosiers"
+    },
+    {
+      "id": "401856714",
+      "date": "2026-10-10T16:45:00Z",
+      "home": "Florida Gators",
+      "away": "South Carolina Gamecocks"
+    },
+    {
+      "id": "401856717",
+      "date": "2026-10-10T19:30:00Z",
+      "home": "Oklahoma Sooners",
+      "away": "Texas Longhorns"
+    },
+    {
+      "id": "401856718",
+      "date": "2026-10-10T19:30:00Z",
+      "home": "Vanderbilt Commodores",
+      "away": "Ole Miss Rebels"
+    },
+    {
+      "id": "401858257",
+      "date": "2026-10-10T19:30:00Z",
+      "home": "Notre Dame Fighting Irish",
+      "away": "Stanford Cardinal"
+    },
+    {
+      "id": "401858484",
+      "date": "2026-10-10T19:30:00Z",
+      "home": "Oregon Ducks",
+      "away": "UCLA Bruins"
+    },
+    {
+      "id": "401858483",
+      "date": "2026-10-10T20:15:00Z",
+      "home": "Ohio State Buckeyes",
+      "away": "Maryland Terrapins"
+    },
+    {
+      "id": "401856715",
+      "date": "2026-10-10T23:00:00Z",
+      "home": "Kentucky Wildcats",
+      "away": "LSU Tigers"
+    },
+    {
+      "id": "401856712",
+      "date": "2026-10-10T23:30:00Z",
+      "home": "Alabama Crimson Tide",
+      "away": "Georgia Bulldogs"
+    },
+    {
+      "id": "401858485",
+      "date": "2026-10-10T23:30:00Z",
+      "home": "Penn State Nittany Lions",
+      "away": "USC Trojans"
+    }
+  ],
+  "odds": [
+    {
+      "game_id": "401871090",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871090/competitions/401871090/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "TROY -9.5",
+        "overUnder": 48.5,
+        "spread": -9.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 280,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+8.5",
+              "american": "+8.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 3.7,
+              "displayValue": "27/10",
+              "alternateDisplayValue": "+270",
+              "decimal": 3.7,
+              "fraction": "27/10",
+              "american": "+270"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+9.5",
+              "american": "+9.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 3.8,
+              "displayValue": "14/5",
+              "alternateDisplayValue": "+280",
+              "decimal": 3.8,
+              "fraction": "14/5",
+              "american": "+280"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/2572?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -355,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-8.5",
+              "american": "-8.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.29,
+              "displayValue": "5/17",
+              "alternateDisplayValue": "-340",
+              "decimal": 1.29,
+              "fraction": "5/17",
+              "american": "-340"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-9.5",
+              "american": "-9.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.28,
+              "displayValue": "20/71",
+              "alternateDisplayValue": "-355",
+              "decimal": 1.28,
+              "fraction": "20/71",
+              "american": "-355"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/2653?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765%3Foutcomes%3D0ML86517514_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765%3Foutcomes%3D0ML86517514_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765%3Foutcomes%3D0HC86517514N950_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765%3Foutcomes%3D0HC86517514P950_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765%3Foutcomes%3D0OU86517514O4850_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765%3Foutcomes%3D0OU86517514U4850_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745765",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "48.5",
+            "american": "48.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "48.5",
+            "american": "48.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401871051",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871051/competitions/401871051/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "JXST -3.5",
+        "spread": 3.5,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -180,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-2.5",
+              "american": "-2.5"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 1.74,
+              "displayValue": "20/27",
+              "alternateDisplayValue": "-135",
+              "decimal": 1.74,
+              "fraction": "20/27",
+              "american": "-135"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-3.5",
+              "american": "-3.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.55,
+              "displayValue": "5/9",
+              "alternateDisplayValue": "-180",
+              "decimal": 1.55,
+              "fraction": "5/9",
+              "american": "-180"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/55?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 150,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+2.5",
+              "american": "+2.5"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 2.14,
+              "displayValue": "57/50",
+              "alternateDisplayValue": "+114",
+              "decimal": 2.14,
+              "fraction": "57/50",
+              "american": "+114"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+3.5",
+              "american": "+3.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 2.5,
+              "displayValue": "6/4",
+              "alternateDisplayValue": "+150",
+              "decimal": 2.5,
+              "fraction": "6/4",
+              "american": "+150"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/338?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745766%3Foutcomes%3D0ML86517515_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745766%3Foutcomes%3D0ML86517515_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745766%3Foutcomes%3D0HC86517515P350_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745766%3Foutcomes%3D0HC86517515N350_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745766%3Foutcomes%3D0OU86517515U4950_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745766",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "under": {
+            "value": 1.95,
+            "displayValue": "20/21",
+            "alternateDisplayValue": "-105",
+            "decimal": 1.95,
+            "fraction": "20/21",
+            "american": "-105"
+          }
+        },
+        "current": {
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401871066",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401871066/competitions/401871066/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "FIU -3.5",
+        "overUnder": 47.5,
+        "spread": -3.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 136,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+3.5",
+              "american": "+3.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 2.36,
+              "displayValue": "34/25",
+              "alternateDisplayValue": "+136",
+              "decimal": 2.36,
+              "fraction": "34/25",
+              "american": "+136"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+3.5",
+              "american": "+3.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 2.36,
+              "displayValue": "34/25",
+              "alternateDisplayValue": "+136",
+              "decimal": 2.36,
+              "fraction": "34/25",
+              "american": "+136"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/166?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -162,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-3.5",
+              "american": "-3.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.61,
+              "displayValue": "50/81",
+              "alternateDisplayValue": "-162",
+              "decimal": 1.61,
+              "fraction": "50/81",
+              "american": "-162"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-3.5",
+              "american": "-3.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.61,
+              "displayValue": "50/81",
+              "alternateDisplayValue": "-162",
+              "decimal": 1.61,
+              "fraction": "50/81",
+              "american": "-162"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/2229?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767%3Foutcomes%3D0ML86517516_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767%3Foutcomes%3D0ML86517516_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767%3Foutcomes%3D0HC86517516N350_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767%3Foutcomes%3D0HC86517516P350_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767%3Foutcomes%3D0OU86517516O4750_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767%3Foutcomes%3D0OU86517516U4750_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745767",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "47.5",
+            "american": "47.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "47.5",
+            "american": "47.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858254",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858254/competitions/401858254/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "LOU -6.5",
+        "overUnder": 58.5,
+        "spread": -6.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 195,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+7.5",
+              "american": "+7.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 3.45,
+              "displayValue": "49/20",
+              "alternateDisplayValue": "+245",
+              "decimal": 3.45,
+              "fraction": "49/20",
+              "american": "+245"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+6.5",
+              "american": "+6.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 2.95,
+              "displayValue": "39/20",
+              "alternateDisplayValue": "+195",
+              "decimal": 2.95,
+              "fraction": "39/20",
+              "american": "+195"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/52?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -238,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-7.5",
+              "american": "-7.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.32,
+              "displayValue": "20/61",
+              "alternateDisplayValue": "-305",
+              "decimal": 1.32,
+              "fraction": "20/61",
+              "american": "-305"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-6.5",
+              "american": "-6.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.42,
+              "displayValue": "50/119",
+              "alternateDisplayValue": "-238",
+              "decimal": 1.42,
+              "fraction": "50/119",
+              "american": "-238"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/97?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935%3Foutcomes%3D0ML86517853_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935%3Foutcomes%3D0ML86517853_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935%3Foutcomes%3D0HC86517853N650_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935%3Foutcomes%3D0HC86517853P650_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935%3Foutcomes%3D0OU86517853O5850_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935%3Foutcomes%3D0OU86517853U5850_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745935",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "58.5",
+            "american": "58.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "58.5",
+            "american": "58.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858487",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858487/competitions/401858487/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "WASH -2.5",
+        "overUnder": 41.5,
+        "spread": -2.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 105,
+          "spreadOdds": -115.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.98,
+              "displayValue": "50/51",
+              "alternateDisplayValue": "-102",
+              "decimal": 1.98,
+              "fraction": "50/51",
+              "american": "-102"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+2.5",
+              "american": "+2.5"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 2.05,
+              "displayValue": "21/20",
+              "alternateDisplayValue": "+105",
+              "decimal": 2.05,
+              "fraction": "21/20",
+              "american": "+105"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/2294?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -125,
+          "spreadOdds": -105.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.84,
+              "displayValue": "50/59",
+              "alternateDisplayValue": "-118",
+              "decimal": 1.84,
+              "fraction": "50/59",
+              "american": "-118"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-2.5",
+              "american": "-2.5"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 1.8,
+              "displayValue": "4/5",
+              "alternateDisplayValue": "-125",
+              "decimal": 1.8,
+              "fraction": "4/5",
+              "american": "-125"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/264?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936%3Foutcomes%3D0ML86517854_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936%3Foutcomes%3D0ML86517854_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936%3Foutcomes%3D0HC86517854N250_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936%3Foutcomes%3D0HC86517854P250_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936%3Foutcomes%3D0OU86517854O4150_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936%3Foutcomes%3D0OU86517854U4150_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745936",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "41.5",
+            "american": "41.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "41.5",
+            "american": "41.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856826",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856826/competitions/401856826/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "BYU -11.5",
+        "overUnder": 49.5,
+        "spread": -11.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 330,
+          "spreadOdds": -115.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+14.5",
+              "american": "+14.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 5.7,
+              "displayValue": "47/10",
+              "alternateDisplayValue": "+470",
+              "decimal": 5.7,
+              "fraction": "47/10",
+              "american": "+470"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+11.5",
+              "american": "+11.5"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 4.3,
+              "displayValue": "33/10",
+              "alternateDisplayValue": "+330",
+              "decimal": 4.3,
+              "fraction": "33/10",
+              "american": "+330"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/66?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -425,
+          "spreadOdds": -105.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-14.5",
+              "american": "-14.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.15,
+              "displayValue": "2/13",
+              "alternateDisplayValue": "-650",
+              "decimal": 1.15,
+              "fraction": "2/13",
+              "american": "-650"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-11.5",
+              "american": "-11.5"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 1.23,
+              "displayValue": "4/17",
+              "alternateDisplayValue": "-425",
+              "decimal": 1.23,
+              "fraction": "4/17",
+              "american": "-425"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/252?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944%3Foutcomes%3D0ML86517893_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944%3Foutcomes%3D0ML86517893_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944%3Foutcomes%3D0HC86517893N1150_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944%3Foutcomes%3D0HC86517893P1150_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944%3Foutcomes%3D0OU86517893O4950_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944%3Foutcomes%3D0OU86517893U4950_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745944",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "50.5",
+            "american": "50.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "49.5",
+            "american": "49.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856716",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856716/competitions/401856716/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "MIZ -3",
+        "overUnder": 50.5,
+        "spread": -3.0,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 120,
+          "spreadOdds": -115.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.98,
+              "displayValue": "50/51",
+              "alternateDisplayValue": "-102",
+              "decimal": 1.98,
+              "fraction": "50/51",
+              "american": "-102"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+3",
+              "american": "+3"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 2.2,
+              "displayValue": "6/5",
+              "alternateDisplayValue": "+120",
+              "decimal": 2.2,
+              "fraction": "6/5",
+              "american": "+120"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/245?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -142,
+          "spreadOdds": -105.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.84,
+              "displayValue": "50/59",
+              "alternateDisplayValue": "-118",
+              "decimal": 1.84,
+              "fraction": "50/59",
+              "american": "-118"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-3",
+              "american": "-3"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 1.7,
+              "displayValue": "50/71",
+              "alternateDisplayValue": "-142",
+              "decimal": 1.7,
+              "fraction": "50/71",
+              "american": "-142"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/142?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985%3Foutcomes%3D0ML86517990_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985%3Foutcomes%3D0ML86517990_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985%3Foutcomes%3D0HC86517990N300_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985%3Foutcomes%3D0HC86517990P300_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985%3Foutcomes%3D0OU86517990O5050_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985%3Foutcomes%3D0OU86517990U5050_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745985",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "50.5",
+            "american": "50.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "50.5",
+            "american": "50.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858481",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858481/competitions/401858481/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "IU -8.5",
+        "overUnder": 51.5,
+        "spread": 8.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -325,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-9.5",
+              "american": "-9.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.25,
+              "displayValue": "20/79",
+              "alternateDisplayValue": "-395",
+              "decimal": 1.25,
+              "fraction": "20/79",
+              "american": "-395"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-8.5",
+              "american": "-8.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.3,
+              "displayValue": "4/13",
+              "alternateDisplayValue": "-325",
+              "decimal": 1.3,
+              "fraction": "4/13",
+              "american": "-325"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/84?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 260,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+9.5",
+              "american": "+9.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 4.1,
+              "displayValue": "31/10",
+              "alternateDisplayValue": "+310",
+              "decimal": 4.1,
+              "fraction": "31/10",
+              "american": "+310"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+8.5",
+              "american": "+8.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 3.6,
+              "displayValue": "13/5",
+              "alternateDisplayValue": "+260",
+              "decimal": 3.6,
+              "fraction": "13/5",
+              "american": "+260"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/158?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945%3Foutcomes%3D0ML86517894_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945%3Foutcomes%3D0ML86517894_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945%3Foutcomes%3D0HC86517894P850_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945%3Foutcomes%3D0HC86517894N850_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945%3Foutcomes%3D0OU86517894O5150_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945%3Foutcomes%3D0OU86517894U5150_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745945",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "50.5",
+            "american": "50.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "51.5",
+            "american": "51.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856714",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856714/competitions/401856714/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "FLA -14",
+        "overUnder": 58.5,
+        "spread": -14.0,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 425,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+14.5",
+              "american": "+14.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 5.9,
+              "displayValue": "49/10",
+              "alternateDisplayValue": "+490",
+              "decimal": 5.9,
+              "fraction": "49/10",
+              "american": "+490"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+14",
+              "american": "+14"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 5.25,
+              "displayValue": "17/4",
+              "alternateDisplayValue": "+425",
+              "decimal": 5.25,
+              "fraction": "17/4",
+              "american": "+425"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/2579?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -575,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-14.5",
+              "american": "-14.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.14,
+              "displayValue": "4/27",
+              "alternateDisplayValue": "-675",
+              "decimal": 1.14,
+              "fraction": "4/27",
+              "american": "-675"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-14",
+              "american": "-14"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.17,
+              "displayValue": "4/23",
+              "alternateDisplayValue": "-575",
+              "decimal": 1.17,
+              "fraction": "4/23",
+              "american": "-575"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/57?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981%3Foutcomes%3D0ML86517973_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981%3Foutcomes%3D0ML86517973_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981%3Foutcomes%3D0HC86517973N1400_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981%3Foutcomes%3D0HC86517973P1400_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981%3Foutcomes%3D0OU86517973O5850_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981%3Foutcomes%3D0OU86517973U5850_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745981",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "57.5",
+            "american": "57.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "58.5",
+            "american": "58.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856717",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856717/competitions/401856717/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "TEX -9.5",
+        "overUnder": 41.5,
+        "spread": 9.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -325,
+          "spreadOdds": -105.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-6",
+              "american": "-6"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.45,
+              "displayValue": "50/109",
+              "alternateDisplayValue": "-218",
+              "decimal": 1.45,
+              "fraction": "50/109",
+              "american": "-218"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-9.5",
+              "american": "-9.5"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 1.3,
+              "displayValue": "4/13",
+              "alternateDisplayValue": "-325",
+              "decimal": 1.3,
+              "fraction": "4/13",
+              "american": "-325"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/251?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 260,
+          "spreadOdds": -115.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+6",
+              "american": "+6"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 2.8,
+              "displayValue": "9/5",
+              "alternateDisplayValue": "+180",
+              "decimal": 2.8,
+              "fraction": "9/5",
+              "american": "+180"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+9.5",
+              "american": "+9.5"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 3.6,
+              "displayValue": "13/5",
+              "alternateDisplayValue": "+260",
+              "decimal": 3.6,
+              "fraction": "13/5",
+              "american": "+260"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/201?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071%3Foutcomes%3D0ML84998409_3",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071%3Foutcomes%3D0ML84998409_1",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071%3Foutcomes%3D0HC84998409P950_3",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071%3Foutcomes%3D0HC84998409N950_1",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071%3Foutcomes%3D0OU84998409O4150_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071%3Foutcomes%3D0OU84998409U4150_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226071",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.89,
+            "displayValue": "25/28",
+            "alternateDisplayValue": "-112",
+            "decimal": 1.89,
+            "fraction": "25/28",
+            "american": "-112"
+          },
+          "under": {
+            "value": 1.92,
+            "displayValue": "25/27",
+            "alternateDisplayValue": "-108",
+            "decimal": 1.92,
+            "fraction": "25/27",
+            "american": "-108"
+          },
+          "total": {
+            "alternateDisplayValue": "48.5",
+            "american": "48.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "41.5",
+            "american": "41.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856718",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856718/competitions/401856718/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "MISS -10.5",
+        "overUnder": 57.5,
+        "spread": 10.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -410,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-10.5",
+              "american": "-10.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.24,
+              "displayValue": "10/41",
+              "alternateDisplayValue": "-410",
+              "decimal": 1.24,
+              "fraction": "10/41",
+              "american": "-410"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-10.5",
+              "american": "-10.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.24,
+              "displayValue": "10/41",
+              "alternateDisplayValue": "-410",
+              "decimal": 1.24,
+              "fraction": "10/41",
+              "american": "-410"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/145?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 320,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+10.5",
+              "american": "+10.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 4.2,
+              "displayValue": "16/5",
+              "alternateDisplayValue": "+320",
+              "decimal": 4.2,
+              "fraction": "16/5",
+              "american": "+320"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+10.5",
+              "american": "+10.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 4.2,
+              "displayValue": "16/5",
+              "alternateDisplayValue": "+320",
+              "decimal": 4.2,
+              "fraction": "16/5",
+              "american": "+320"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/238?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021%3Foutcomes%3D0ML86518056_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021%3Foutcomes%3D0ML86518056_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021%3Foutcomes%3D0HC86518056P1050_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021%3Foutcomes%3D0HC86518056N1050_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021%3Foutcomes%3D0OU86518056O5750_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021%3Foutcomes%3D0OU86518056U5750_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746021",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "57.5",
+            "american": "57.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "57.5",
+            "american": "57.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858257",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858257/competitions/401858257/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "ND -35.5",
+        "overUnder": 55.5,
+        "spread": -35.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+35.5",
+              "american": "+35.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+35.5",
+              "american": "+35.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/24?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-35.5",
+              "american": "-35.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-35.5",
+              "american": "-35.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/87?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746030%3Foutcomes%3D0HC86518080N3550_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746030%3Foutcomes%3D0HC86518080P3550_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746030%3Foutcomes%3D0OU86518080O5550_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746030%3Foutcomes%3D0OU86518080U5550_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746030",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "55.5",
+            "american": "55.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "55.5",
+            "american": "55.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858484",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858484/competitions/401858484/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "ORE -12.5",
+        "overUnder": 60.5,
+        "spread": -12.5,
+        "overOdds": -115.0,
+        "underOdds": -105.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 370,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+12.5",
+              "american": "+12.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 5.0,
+              "displayValue": "4/1",
+              "alternateDisplayValue": "+400",
+              "decimal": 5.0,
+              "fraction": "4/1",
+              "american": "+400"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+12.5",
+              "american": "+12.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 4.7,
+              "displayValue": "37/10",
+              "alternateDisplayValue": "+370",
+              "decimal": 4.7,
+              "fraction": "37/10",
+              "american": "+370"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/26?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -485,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-12.5",
+              "american": "-12.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.18,
+              "displayValue": "20/107",
+              "alternateDisplayValue": "-535",
+              "decimal": 1.18,
+              "fraction": "20/107",
+              "american": "-535"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-12.5",
+              "american": "-12.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.2,
+              "displayValue": "20/97",
+              "alternateDisplayValue": "-485",
+              "decimal": 1.2,
+              "fraction": "20/97",
+              "american": "-485"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/2483?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994%3Foutcomes%3D0ML86518011_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994%3Foutcomes%3D0ML86518011_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994%3Foutcomes%3D0HC86518011N1250_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994%3Foutcomes%3D0HC86518011P1250_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994%3Foutcomes%3D0OU86518011O6050_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994%3Foutcomes%3D0OU86518011U6050_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34745994",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "60.5",
+            "american": "60.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.86,
+            "displayValue": "20/23",
+            "alternateDisplayValue": "-115",
+            "decimal": 1.86,
+            "fraction": "20/23",
+            "american": "-115"
+          },
+          "under": {
+            "value": 1.95,
+            "displayValue": "20/21",
+            "alternateDisplayValue": "-105",
+            "decimal": 1.95,
+            "fraction": "20/21",
+            "american": "-105"
+          },
+          "total": {
+            "alternateDisplayValue": "60.5",
+            "american": "60.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858483",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858483/competitions/401858483/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "OSU -35.5",
+        "overUnder": 55.5,
+        "spread": -35.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+37.5",
+              "american": "+37.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+35.5",
+              "american": "+35.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/120?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-37.5",
+              "american": "-37.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-35.5",
+              "american": "-35.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/194?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746035%3Foutcomes%3D0HC86518104N3550_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746035%3Foutcomes%3D0HC86518104P3550_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746035%3Foutcomes%3D0OU86518104O5550_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746035%3Foutcomes%3D0OU86518104U5550_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746035",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "54.5",
+            "american": "54.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "55.5",
+            "american": "55.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856715",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856715/competitions/401856715/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "LSU -9.5",
+        "overUnder": 53.5,
+        "spread": 9.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -375,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-10.5",
+              "american": "-10.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.23,
+              "displayValue": "4/17",
+              "alternateDisplayValue": "-425",
+              "decimal": 1.23,
+              "fraction": "4/17",
+              "american": "-425"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-9.5",
+              "american": "-9.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.26,
+              "displayValue": "4/15",
+              "alternateDisplayValue": "-375",
+              "decimal": 1.26,
+              "fraction": "4/15",
+              "american": "-375"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/99?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 295,
+          "spreadOdds": -110.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+10.5",
+              "american": "+10.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 4.3,
+              "displayValue": "33/10",
+              "alternateDisplayValue": "+330",
+              "decimal": 4.3,
+              "fraction": "33/10",
+              "american": "+330"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+9.5",
+              "american": "+9.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 3.95,
+              "displayValue": "59/20",
+              "alternateDisplayValue": "+295",
+              "decimal": 3.95,
+              "fraction": "59/20",
+              "american": "+295"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/96?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039%3Foutcomes%3D0ML86518108_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039%3Foutcomes%3D0ML86518108_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039%3Foutcomes%3D0HC86518108P950_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039%3Foutcomes%3D0HC86518108N950_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039%3Foutcomes%3D0OU86518108O5350_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039%3Foutcomes%3D0OU86518108U5350_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34746039",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "49.5",
+            "american": "49.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "53.5",
+            "american": "53.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401856712",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401856712/competitions/401856712/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "UGA -2.5",
+        "overUnder": 56.5,
+        "spread": 2.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -125,
+          "spreadOdds": -105.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-3",
+              "american": "-3"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.7,
+              "displayValue": "50/71",
+              "alternateDisplayValue": "-142",
+              "decimal": 1.7,
+              "fraction": "50/71",
+              "american": "-142"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-2.5",
+              "american": "-2.5"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 1.8,
+              "displayValue": "4/5",
+              "alternateDisplayValue": "-125",
+              "decimal": 1.8,
+              "fraction": "4/5",
+              "american": "-125"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/61?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 105,
+          "spreadOdds": -115.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+3",
+              "american": "+3"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 2.2,
+              "displayValue": "6/5",
+              "alternateDisplayValue": "+120",
+              "decimal": 2.2,
+              "fraction": "6/5",
+              "american": "+120"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+2.5",
+              "american": "+2.5"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 2.05,
+              "displayValue": "21/20",
+              "alternateDisplayValue": "+105",
+              "decimal": 2.05,
+              "fraction": "21/20",
+              "american": "+105"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/333?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065%3Foutcomes%3D0ML84998403_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065%3Foutcomes%3D0ML84998403_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065%3Foutcomes%3D0HC84998403P250_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065%3Foutcomes%3D0HC84998403N250_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065%3Foutcomes%3D0OU84998403O5650_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065%3Foutcomes%3D0OU84998403U5650_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226065",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.98,
+            "displayValue": "50/51",
+            "alternateDisplayValue": "-102",
+            "decimal": 1.98,
+            "fraction": "50/51",
+            "american": "-102"
+          },
+          "under": {
+            "value": 1.84,
+            "displayValue": "50/59",
+            "alternateDisplayValue": "-118",
+            "decimal": 1.84,
+            "fraction": "50/59",
+            "american": "-118"
+          },
+          "total": {
+            "alternateDisplayValue": "51.5",
+            "american": "51.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "56.5",
+            "american": "56.5"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "401858485",
+      "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1.0
+      },
+      "odds": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401858485/competitions/401858485/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "USC -2.5",
+        "overUnder": 56.5,
+        "spread": 2.5,
+        "overOdds": -110.0,
+        "underOdds": -110.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -125,
+          "spreadOdds": -105.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.92,
+              "displayValue": "25/27",
+              "alternateDisplayValue": "-108",
+              "decimal": 1.92,
+              "fraction": "25/27",
+              "american": "-108"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-2.5",
+              "american": "-2.5"
+            },
+            "spread": {
+              "value": 1.95,
+              "displayValue": "20/21",
+              "alternateDisplayValue": "-105",
+              "decimal": 1.95,
+              "fraction": "20/21",
+              "american": "-105"
+            },
+            "moneyLine": {
+              "value": 1.8,
+              "displayValue": "4/5",
+              "alternateDisplayValue": "-125",
+              "decimal": 1.8,
+              "fraction": "4/5",
+              "american": "-125"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/30?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 105,
+          "spreadOdds": -115.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.9,
+              "displayValue": "10/11",
+              "alternateDisplayValue": "-110",
+              "decimal": 1.9,
+              "fraction": "10/11",
+              "american": "-110"
+            },
+            "moneyLine": {
+              "value": 1.89,
+              "displayValue": "25/28",
+              "alternateDisplayValue": "-112",
+              "decimal": 1.89,
+              "fraction": "25/28",
+              "american": "-112"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+2.5",
+              "american": "+2.5"
+            },
+            "spread": {
+              "value": 1.86,
+              "displayValue": "20/23",
+              "alternateDisplayValue": "-115",
+              "decimal": 1.86,
+              "fraction": "20/23",
+              "american": "-115"
+            },
+            "moneyLine": {
+              "value": 2.05,
+              "displayValue": "21/20",
+              "alternateDisplayValue": "+105",
+              "decimal": 2.05,
+              "fraction": "21/20",
+              "american": "+105"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/teams/213?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077%3Foutcomes%3D0ML84998420_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077%3Foutcomes%3D0ML84998420_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077%3Foutcomes%3D0HC84998420P250_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077%3Foutcomes%3D0HC84998420N250_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077%3Foutcomes%3D0OU84998420O5650_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077%3Foutcomes%3D0OU84998420U5650_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34226077",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.89,
+            "displayValue": "25/28",
+            "alternateDisplayValue": "-112",
+            "decimal": 1.89,
+            "fraction": "25/28",
+            "american": "-112"
+          },
+          "under": {
+            "value": 1.92,
+            "displayValue": "25/27",
+            "alternateDisplayValue": "-108",
+            "decimal": 1.92,
+            "fraction": "25/27",
+            "american": "-108"
+          },
+          "total": {
+            "alternateDisplayValue": "56.5",
+            "american": "56.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "under": {
+            "value": 1.9,
+            "displayValue": "10/11",
+            "alternateDisplayValue": "-110",
+            "decimal": 1.9,
+            "fraction": "10/11",
+            "american": "-110"
+          },
+          "total": {
+            "alternateDisplayValue": "56.5",
+            "american": "56.5"
+          }
+        }
+      }
+    }
+  ]
+}

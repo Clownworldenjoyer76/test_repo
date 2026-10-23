@@ -21,7 +21,9 @@ import csv
 import json
 import os
 import re
+import ssl
 import sys
+import time
 import uuid
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -202,7 +204,7 @@ def roster_url(
     )
 
 
-def fetch_json(
+def _fetch_json_once(
     url: str,
     *,
     label: str,
@@ -372,6 +374,67 @@ def fetch_json(
 
     return payload
 
+
+def _roster_retryable_error(cause: BaseException | None) -> bool:
+    if isinstance(cause, HTTPError):
+        return cause.code in (408, 429) or 500 <= cause.code <= 599
+
+    if isinstance(cause, URLError):
+        reason = cause.reason
+        return isinstance(reason, (OSError, HTTPException)) and not isinstance(
+            reason, ssl.SSLCertVerificationError
+        )
+
+    return isinstance(cause, (OSError, HTTPException)) and not isinstance(
+        cause, ssl.SSLCertVerificationError
+    )
+
+
+def fetch_json(
+    url: str,
+    *,
+    label: str,
+    state: RuntimeState,
+    timeout: int = 30,
+) -> dict:
+    max_attempts = 4
+
+    for attempt in range(1, max_attempts + 1):
+        prior_failures = len(state.request_failures)
+
+        try:
+            return _fetch_json_once(
+                url, label=label, state=state, timeout=timeout
+            )
+        except RuntimeError as exc:
+            if (
+                attempt == max_attempts
+                or not _roster_retryable_error(exc.__cause__)
+            ):
+                raise
+
+            # Retain only unresolved failures in the final report.
+            del state.request_failures[prior_failures:]
+
+            print(
+                "ROSTER_ESPN_REQUEST_RETRY "
+                + json.dumps(
+                    {
+                        "label": label,
+                        "attempt": attempt,
+                        "next_attempt": attempt + 1,
+                        "max_attempts": max_attempts,
+                        "error": str(exc),
+                    },
+                    sort_keys=True,
+                ),
+                file=sys.stderr,
+                flush=True,
+            )
+
+            time.sleep(2 ** (attempt - 1))
+
+    raise AssertionError("Unreachable roster retry state")
 
 def flatten(
     obj: object,
@@ -1578,6 +1641,13 @@ def run(
     )
 
     if processing_failures:
+        for failure in processing_failures:
+            print(
+                "ROSTER_TEAM_FAILURE "
+                + json.dumps(failure, sort_keys=True),
+                file=sys.stderr,
+                flush=True,
+            )
         raise RuntimeError(
             "One or more roster teams "
             "failed validation or retrieval; "
@@ -1730,6 +1800,13 @@ def main() -> int:
             )
 
         finally:
+            for failure in state.request_failures:
+                print(
+                    "ROSTER_ESPN_REQUEST_FAILURE "
+                    + json.dumps(failure, sort_keys=True),
+                    file=sys.stderr,
+                    flush=True,
+                )
             report.update_details(
                 {
                     "espn_request_count": (

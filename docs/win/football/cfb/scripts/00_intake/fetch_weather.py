@@ -2183,11 +2183,8 @@ def validate_weather_schedule_time(
     game_id: str,
     strict_blank_timestamp: bool,
 ) -> datetime:
-    allow_locked_existing_drift = (
-        schedule_game_locked(
-            game
-        )
-        and not strict_blank_timestamp
+    allow_existing_drift = (
+        not strict_blank_timestamp
     )
 
     if (
@@ -2197,7 +2194,7 @@ def validate_weather_schedule_time(
         != clean(
             game.get("game_time")
         )
-        and not allow_locked_existing_drift
+        and not allow_existing_drift
     ):
         raise WeatherValidationError(
             "Weather game_time mismatch "
@@ -2229,14 +2226,14 @@ def validate_weather_schedule_time(
                 - expected_kickoff
             ).total_seconds()
         ) > 1
-        and not allow_locked_existing_drift
+        and not allow_existing_drift
     ):
         raise WeatherValidationError(
             "Weather kickoff mismatch "
             f"for game_id={game_id}"
         )
 
-    if allow_locked_existing_drift:
+    if allow_existing_drift:
         return actual_kickoff
 
     return expected_kickoff

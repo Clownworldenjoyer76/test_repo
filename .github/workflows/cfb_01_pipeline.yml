@@ -13,7 +13,7 @@ jobs:
   run-cfb-pipeline:
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
 
     steps:
@@ -124,7 +124,17 @@ jobs:
         run: python docs/win/football/cfb/scripts/00_intake/league_master.py
 
       - name: Pull raw rosters
+        id: cfb_raw_roster
         run: python docs/win/football/cfb/scripts/00_intake/pull_raw_roster.py
+
+      - name: Upload raw roster failure diagnostics
+        if: ${{ failure() && steps.cfb_raw_roster.outcome == 'failure' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: cfb-roster-failure-${{ github.run_id }}-${{ github.run_attempt }}
+          path: docs/win/football/cfb/errors/00_intake/pull_raw_roster.json
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Clean rosters
         run: python docs/win/football/cfb/scripts/00_intake/roster_cleanup.py
@@ -996,6 +1006,10 @@ jobs:
           )
           PY
 
+      - name: Build CFB dashboard data
+        run: |
+          python docs/win/football/cfb/scripts/04_final_results/04_cfb_results_dashboard.py
+
       # ----------------------------------------------------------------------
       # PIPELINE HEALTH GATE
       #
@@ -1033,6 +1047,7 @@ jobs:
 
           git add docs/win/football/cfb
           git add frontend/data/pipeline_health/cfb.json
+          git add frontend/data/dashboards/cfb.json
 
           if git diff --cached --quiet; then
             echo "No CFB pipeline changes to commit."

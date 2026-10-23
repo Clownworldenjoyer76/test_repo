@@ -31,7 +31,7 @@ import pandas as pd
 import yaml
 
 
-SCRIPT_VERSION = "cfb-results-reports-v2-hardened-2026-09-16"
+SCRIPT_VERSION = "cfb-results-reports-v3-signed-spread-sort-2026-10-01"
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 CFB_ROOT = SCRIPT_DIR.parents[1]
@@ -86,6 +86,28 @@ VALID_RESULTS = {
 }
 SETTLED_RESULTS = {"Win", "Loss", "Push", "Void"}
 MARKET_TYPES = {"moneyline", "spread", "total"}
+
+SPREAD_LINE_BUCKET_ORDER = {
+    "negative_28.0_plus": 0,
+    "negative_21.0_to_27.9": 1,
+    "negative_14.0_to_20.9": 2,
+    "negative_10.0_to_13.9": 3,
+    "negative_7.0_to_9.9": 4,
+    "negative_3.0_to_6.9": 5,
+    "negative_0.0_to_2.9": 6,
+    "0.0": 7,
+    "positive_0.0_to_2.9": 8,
+    "positive_3.0_to_6.9": 9,
+    "positive_7.0_to_9.9": 10,
+    "positive_10.0_to_13.9": 11,
+    "positive_14.0_to_20.9": 12,
+    "positive_21.0_to_27.9": 13,
+    "positive_28.0_plus": 14,
+}
+SIDE_GROUP_ORDER = {
+    "HOME": 0,
+    "AWAY": 1,
+}
 
 
 # ---------------------------------------------------------------------------
@@ -856,6 +878,81 @@ def write_bucket_report(
     write_csv(report, output_dir / filename)
 
 
+def write_spread_line_home_away_report(
+    src: pd.DataFrame,
+    output_dir: Path,
+) -> None:
+    bucket_col = "spread_line_bucket"
+
+    if src.empty or bucket_col not in src.columns:
+        return
+
+    usable = src[src[bucket_col].astype(str).ne("UNBUCKETED")].copy()
+    if usable.empty:
+        return
+
+    report = aggregate(
+        usable,
+        [
+            "league",
+            "season",
+            "market_type",
+            "side_group",
+            bucket_col,
+        ],
+        variable_label=bucket_col,
+    )
+
+    report["_side_sort"] = report["side_group"].map(
+        SIDE_GROUP_ORDER
+    )
+    report["_variable_sort"] = report["variable"].map(
+        SPREAD_LINE_BUCKET_ORDER
+    )
+
+    if report["_side_sort"].isna().any():
+        unknown = sorted(
+            report.loc[
+                report["_side_sort"].isna(),
+                "side_group",
+            ].astype(str).unique().tolist()
+        )
+        raise RuntimeError(
+            "Unsupported side_group in spread line report: "
+            f"{unknown}"
+        )
+
+    if report["_variable_sort"].isna().any():
+        unknown = sorted(
+            report.loc[
+                report["_variable_sort"].isna(),
+                "variable",
+            ].astype(str).unique().tolist()
+        )
+        raise RuntimeError(
+            "Unsupported spread_line_bucket in spread line report: "
+            f"{unknown}"
+        )
+
+    report = report.sort_values(
+        [
+            "_side_sort",
+            "_variable_sort",
+        ],
+        kind="stable",
+    ).drop(
+        columns=[
+            "_side_sort",
+            "_variable_sort",
+        ]
+    )
+
+    write_csv(
+        report,
+        output_dir / "cfb_spread_by_line_home_away_summary.csv",
+    )
+
+
 # ---------------------------------------------------------------------------
 # Enrichment / reports
 # ---------------------------------------------------------------------------
@@ -1213,7 +1310,6 @@ def build_spread(
         ("odds_bucket", "cfb_spread_by_odds_home_away_summary.csv"),
         ("kelly_bucket", "cfb_spread_by_kelly_home_away_summary.csv"),
         ("win_prob_bucket", "cfb_spread_by_win_prob_home_away_summary.csv"),
-        ("spread_line_bucket", "cfb_spread_by_line_home_away_summary.csv"),
     ]:
         write_bucket_report(
             home_away,
@@ -1222,6 +1318,11 @@ def build_spread(
             filename,
             extra_group_cols=["side_group"],
         )
+
+    write_spread_line_home_away_report(
+        home_away,
+        paths.spread_dir,
+    )
 
 
 def build_totals(

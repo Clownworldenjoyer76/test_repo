@@ -21,7 +21,9 @@ import csv
 import json
 import os
 import re
+import ssl
 import sys
+import time
 import uuid
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -47,7 +49,7 @@ LEAGUE_MASTER_PATH = CFB_ROOT / "data" / "master" / "league_master.csv"
 OUTPUT_PATH = CFB_ROOT / "data" / "master" / "coaches_master.csv"
 REPORT_ROOT = CFB_ROOT / "errors"
 
-SCRIPT_VERSION = "cfb-coaches-v4-2026-09-15"
+SCRIPT_VERSION = "cfb-coaches-v5-2026-10-23-retries"
 
 COACHES_URL_TEMPLATE = (
     "https://sports.core.api.espn.com/v2/sports/football/"
@@ -83,6 +85,18 @@ _REQUEST_COUNTS = {
 }
 _REQUEST_FAILURES: list[dict[str, str]] = []
 
+MAX_REQUEST_ATTEMPTS = 4
+RETRY_BACKOFF_SECONDS = (1.0, 2.0, 4.0)
+RETRYABLE_HTTP_STATUSES = {408, 429, 500, 502, 503, 504}
+
+_RETRY_STATS = {
+    "request_attempt_count": 0,
+    "request_retry_count": 0,
+    "recovered_transient_requests": 0,
+    "exhausted_transient_failures": 0,
+}
+_REQUEST_RETRY_DETAILS: list[dict[str, str]] = []
+
 
 class CoachValidationError(RuntimeError):
     pass
@@ -92,6 +106,9 @@ def reset_runtime_state() -> None:
     for key in _REQUEST_COUNTS:
         _REQUEST_COUNTS[key] = 0
     _REQUEST_FAILURES.clear()
+    _REQUEST_RETRY_DETAILS.clear()
+    for key in _RETRY_STATS:
+        _RETRY_STATS[key] = 0
 
 
 def _require_league_master_path() -> None:
@@ -255,6 +272,79 @@ def validate_espn_ref(url: str, *, label: str) -> str:
     return text
 
 
+def _is_retryable_http_status(status: int) -> bool:
+    return status in RETRYABLE_HTTP_STATUSES or 500 <= status <= 599
+
+
+def _is_retryable_transport_error(exc: BaseException) -> bool:
+    cause = exc.reason if isinstance(exc, URLError) else exc
+    return (
+        isinstance(cause, (OSError, HTTPException))
+        and not isinstance(cause, ssl.SSLError)
+    )
+
+
+def _read_http_error_body(exc: HTTPError) -> str:
+    try:
+        return exc.read().decode("utf-8")
+    except (HTTPException, OSError, UnicodeError, ValueError):
+        return ""
+
+
+def _record_request_failure(
+    *,
+    request_kind: str,
+    label: str,
+    url: str,
+    http_status: str,
+    error: str,
+    attempt: int,
+) -> dict[str, str]:
+    failure = {
+        "request_kind": request_kind,
+        "label": label,
+        "url": url,
+        "http_status": http_status,
+        "error": error,
+        "attempt": str(attempt),
+        "max_attempts": str(MAX_REQUEST_ATTEMPTS),
+    }
+    _REQUEST_FAILURES.append(failure)
+    return failure
+
+
+def _retry_request(
+    *,
+    request_kind: str,
+    label: str,
+    url: str,
+    http_status: str,
+    error: str,
+    attempt: int,
+) -> None:
+    # Only called when another attempt is available.
+    delay_seconds = RETRY_BACKOFF_SECONDS[attempt - 1]
+    detail = {
+        "request_kind": request_kind,
+        "label": label,
+        "url": url,
+        "http_status": http_status,
+        "error": error,
+        "attempt": str(attempt),
+        "next_attempt": str(attempt + 1),
+        "max_attempts": str(MAX_REQUEST_ATTEMPTS),
+        "delay_seconds": str(delay_seconds),
+    }
+    _RETRY_STATS["request_retry_count"] += 1
+    _REQUEST_RETRY_DETAILS.append(detail)
+    print(
+        "COACHES_ESPN_REQUEST_RETRY " + json.dumps(detail, sort_keys=True),
+        file=sys.stderr,
+        flush=True,
+    )
+    time.sleep(delay_seconds)
+
+
 def fetch_json(
     url: str,
     *,
@@ -270,98 +360,145 @@ def fetch_json(
 
     _REQUEST_COUNTS[request_kind] += 1
 
-    request = Request(
-        url,
-        headers={
-            "User-Agent": "cfb-coaches/2.0",
-            "Accept": "application/json",
-        },
-    )
+    for attempt in range(1, MAX_REQUEST_ATTEMPTS + 1):
+        _RETRY_STATS["request_attempt_count"] += 1
+        request = Request(
+            url,
+            headers={
+                "User-Agent": "cfb-coaches/2.0",
+                "Accept": "application/json",
+            },
+        )
 
-    try:
-        with open_https(
-            request,
-            allowed_hosts={ESPN_CORE_HOST},
-            timeout=timeout,
-        ) as response:
-            status = response.status
-            body = response.read().decode("utf-8")
-    except HTTPError as exc:
-        error_body = ""
         try:
-            error_body = exc.read().decode("utf-8")
-        except (HTTPException, OSError, UnicodeError, ValueError):
-            pass
+            with open_https(
+                request,
+                allowed_hosts={ESPN_CORE_HOST},
+                timeout=timeout,
+            ) as response:
+                status = int(response.status)
+                body = response.read().decode("utf-8")
+        except HTTPError as exc:
+            error_body = _read_http_error_body(exc) or str(exc)
+            transient = _is_retryable_http_status(exc.code)
+            if transient and attempt < MAX_REQUEST_ATTEMPTS:
+                _retry_request(
+                    request_kind=request_kind,
+                    label=label,
+                    url=url,
+                    http_status=str(exc.code),
+                    error=error_body,
+                    attempt=attempt,
+                )
+                continue
+            if transient:
+                _RETRY_STATS["exhausted_transient_failures"] += 1
+            failure = _record_request_failure(
+                request_kind=request_kind,
+                label=label,
+                url=url,
+                http_status=str(exc.code),
+                error=error_body,
+                attempt=attempt,
+            )
+            raise RuntimeError(
+                f"{label} request failed: status={exc.code}, "
+                f"attempt={attempt}/{MAX_REQUEST_ATTEMPTS}, "
+                f"error={failure['error']}"
+            ) from exc
+        except (URLError, HTTPException, OSError) as exc:
+            transient = _is_retryable_transport_error(exc)
+            if transient and attempt < MAX_REQUEST_ATTEMPTS:
+                _retry_request(
+                    request_kind=request_kind,
+                    label=label,
+                    url=url,
+                    http_status="",
+                    error=str(exc),
+                    attempt=attempt,
+                )
+                continue
+            if transient:
+                _RETRY_STATS["exhausted_transient_failures"] += 1
+            _record_request_failure(
+                request_kind=request_kind,
+                label=label,
+                url=url,
+                http_status="",
+                error=str(exc),
+                attempt=attempt,
+            )
+            raise RuntimeError(
+                f"{label} request failed: "
+                f"attempt={attempt}/{MAX_REQUEST_ATTEMPTS}, error={exc}"
+            ) from exc
+        except Exception as exc:
+            _record_request_failure(
+                request_kind=request_kind,
+                label=label,
+                url=url,
+                http_status="",
+                error=str(exc),
+                attempt=attempt,
+            )
+            raise RuntimeError(f"{label} request failed: {exc}") from exc
 
-        failure = {
-            "request_kind": request_kind,
-            "label": label,
-            "url": url,
-            "http_status": str(exc.code),
-            "error": error_body or str(exc),
-        }
-        _REQUEST_FAILURES.append(failure)
-        raise RuntimeError(
-            f"{label} request failed: status={exc.code}, "
-            f"error={failure['error']}"
-        ) from exc
-    except URLError as exc:
-        failure = {
-            "request_kind": request_kind,
-            "label": label,
-            "url": url,
-            "http_status": "",
-            "error": str(exc),
-        }
-        _REQUEST_FAILURES.append(failure)
-        raise RuntimeError(f"{label} request failed: {exc}") from exc
-    except Exception as exc:
-        failure = {
-            "request_kind": request_kind,
-            "label": label,
-            "url": url,
-            "http_status": "",
-            "error": str(exc),
-        }
-        _REQUEST_FAILURES.append(failure)
-        raise RuntimeError(f"{label} request failed: {exc}") from exc
+        if status < 200 or status >= 300:
+            transient = _is_retryable_http_status(status)
+            if transient and attempt < MAX_REQUEST_ATTEMPTS:
+                _retry_request(
+                    request_kind=request_kind,
+                    label=label,
+                    url=url,
+                    http_status=str(status),
+                    error=body,
+                    attempt=attempt,
+                )
+                continue
+            if transient:
+                _RETRY_STATS["exhausted_transient_failures"] += 1
+            _record_request_failure(
+                request_kind=request_kind,
+                label=label,
+                url=url,
+                http_status=str(status),
+                error=body,
+                attempt=attempt,
+            )
+            raise RuntimeError(
+                f"{label} request failed: status={status}, "
+                f"attempt={attempt}/{MAX_REQUEST_ATTEMPTS}"
+            )
 
-    if status < 200 or status >= 300:
-        failure = {
-            "request_kind": request_kind,
-            "label": label,
-            "url": url,
-            "http_status": str(status),
-            "error": body,
-        }
-        _REQUEST_FAILURES.append(failure)
-        raise RuntimeError(f"{label} request failed: status={status}")
+        try:
+            payload = json.loads(body)
+        except (ValueError, TypeError) as exc:
+            _record_request_failure(
+                request_kind=request_kind,
+                label=label,
+                url=url,
+                http_status=str(status),
+                error=f"JSON parse failed: {exc}",
+                attempt=attempt,
+            )
+            raise RuntimeError(f"{label} returned malformed JSON") from exc
 
-    try:
-        payload = json.loads(body)
-    except Exception as exc:
-        failure = {
-            "request_kind": request_kind,
-            "label": label,
-            "url": url,
-            "http_status": str(status),
-            "error": f"JSON parse failed: {exc}",
-        }
-        _REQUEST_FAILURES.append(failure)
-        raise RuntimeError(f"{label} returned malformed JSON") from exc
+        if not isinstance(payload, dict):
+            _record_request_failure(
+                request_kind=request_kind,
+                label=label,
+                url=url,
+                http_status=str(status),
+                error="JSON root is not an object",
+                attempt=attempt,
+            )
+            raise RuntimeError(f"{label} returned non-object JSON")
 
-    if not isinstance(payload, dict):
-        failure = {
-            "request_kind": request_kind,
-            "label": label,
-            "url": url,
-            "http_status": str(status),
-            "error": "JSON root is not an object",
-        }
-        _REQUEST_FAILURES.append(failure)
-        raise RuntimeError(f"{label} returned non-object JSON")
+        if attempt > 1:
+            _RETRY_STATS["recovered_transient_requests"] += 1
+        return payload
 
-    return payload
+    raise AssertionError("Unreachable coaches HTTP retry state")
 
 
 def extract_season_from_coach_ref(
@@ -1064,6 +1201,15 @@ def update_report_diagnostics(
         ),
         "espn_request_failure_count": len(_REQUEST_FAILURES),
         "espn_request_failure_details": _REQUEST_FAILURES,
+        "espn_request_attempt_count": _RETRY_STATS["request_attempt_count"],
+        "espn_request_retry_count": _RETRY_STATS["request_retry_count"],
+        "espn_recovered_transient_request_count": _RETRY_STATS[
+            "recovered_transient_requests"
+        ],
+        "espn_exhausted_transient_failure_count": _RETRY_STATS[
+            "exhausted_transient_failures"
+        ],
+        "espn_request_retry_details": _REQUEST_RETRY_DETAILS,
         "explicit_role_selections": diagnostics["explicit_role_selections"],
         "sole_provider_candidate_selections": diagnostics[
             "sole_provider_candidate_selections"

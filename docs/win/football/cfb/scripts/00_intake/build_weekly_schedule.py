@@ -43,7 +43,7 @@ CURRENT_WEEK_CONFIG_PATH = (
 REPORT_ROOT = CFB_ROOT / "errors"
 
 SCRIPT_VERSION = (
-    "cfb-weekly-schedule-v2-2026-09-15"
+    "cfb-weekly-schedule-v2-2026-10-02-schedule-drift"
 )
 
 OUTPUT_COLUMNS = [
@@ -1226,57 +1226,11 @@ def _validate_existing_weekly_rows(
                 f"game_id={game_id}"
             )
 
-        if str(
-            row.get(
-                "game_date",
-                "",
-            )
-        ).strip() != str(
-            target.get(
-                "game_date",
-                "",
-            )
-        ).strip():
-            raise ValueError(
-                "Existing weekly schedule "
-                "game_date mismatch for "
-                f"game_id={game_id}"
-            )
-
-        if str(
-            row.get(
-                "game_time",
-                "",
-            )
-        ).strip() != str(
-            target.get(
-                "game_time",
-                "",
-            )
-        ).strip():
-            raise ValueError(
-                "Existing weekly schedule "
-                "game_time mismatch for "
-                f"game_id={game_id}"
-            )
-
-        expected_kickoff = (
-            kickoff_iso(
-                target
-            )
-        )
-
-        if str(
-            row.get(
-                "kickoff_utc",
-                "",
-            )
-        ).strip() != expected_kickoff:
-            raise ValueError(
-                "Existing weekly schedule "
-                "kickoff_utc mismatch for "
-                f"game_id={game_id}"
-            )
+        # Schedule timing is mutable until kickoff. Do not reject an
+        # existing weekly row solely because ESPN changed game_date,
+        # game_time, or the derived kickoff_utc. build_output_rows()
+        # refreshes those fields from the current canonical schedule
+        # while preserving previously captured odds for locked games.
 
         locked = str(
             row.get(
@@ -1939,7 +1893,13 @@ def _stage1_validate_weekly_odds_fields(
             raise ValueError(
                 f"Weekly schedule odds_away_team mismatch for game_id={game_id}"
             )
-        if str(row.get("commence_time", "")).strip() != expected_kickoff:
+        commence_time = str(row.get("commence_time", "")).strip()
+        if str(row.get("game_locked", "")).strip() == "1":
+            parse_aware_iso(
+                commence_time,
+                f"preserved locked odds commence_time for game_id={game_id}",
+            )
+        elif commence_time != expected_kickoff:
             raise ValueError(
                 f"Weekly schedule commence_time mismatch for game_id={game_id}"
             )

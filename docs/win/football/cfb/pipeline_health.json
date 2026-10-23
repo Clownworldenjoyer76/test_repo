@@ -1,37 +1,40 @@
 {
   "fatal_errors": [],
-  "game_date_new_york": "2026_09_29",
-  "generated_at_utc": "2026-09-29T10:25:36.290139+00:00",
+  "game_date_new_york": "2026_10_23",
+  "generated_at_utc": "2026-10-23T11:20:33.754147+00:00",
   "leagues": {
     "cfb": {
       "completed_history_coverage": {
-        "completed_result_games": 331,
-        "expected_team_week_rows": 650,
+        "completed_result_games": 510,
+        "expected_team_week_rows": 1008,
         "pbp_path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/pbp/2026_pbp.parquet",
-        "pbp_prior_games": 331,
+        "pbp_prior_games": 510,
         "result_files": [
           "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_1.csv",
           "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_2.csv",
           "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_3.csv",
-          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_4.csv"
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_4.csv",
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_5.csv",
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_6.csv",
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_7.csv"
         ],
         "team_stats_path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/team_stats/2026_team_stats.csv",
-        "team_stats_team_week_rows": 650
+        "team_stats_team_week_rows": 1008
       },
       "counts": {
-        "all_games_games": 59,
-        "completed_prior_games": 331,
-        "expected_team_week_rows": 650,
-        "locked_bets": 20,
-        "locked_games": 17,
-        "merged_games": 59,
-        "pbp_prior_games": 331,
-        "prediction_games": 59,
-        "scheduled_games": 59,
-        "selected_bets": 20,
-        "selected_games": 17,
+        "all_games_games": 56,
+        "completed_prior_games": 510,
+        "expected_team_week_rows": 1008,
+        "locked_bets": 12,
+        "locked_games": 11,
+        "merged_games": 56,
+        "pbp_prior_games": 510,
+        "prediction_games": 56,
+        "scheduled_games": 56,
+        "selected_bets": 12,
+        "selected_games": 11,
         "sportsbook_games": 56,
-        "team_stats_team_week_rows": 650
+        "team_stats_team_week_rows": 1008
       },
       "coverage": {
         "all_games_not_scheduled": [],
@@ -41,11 +44,7 @@
         "scheduled_missing_all_games": [],
         "scheduled_missing_merged": [],
         "scheduled_missing_predictions": [],
-        "scheduled_missing_sportsbook": [
-          "401856706",
-          "401862790",
-          "401862793"
-        ],
+        "scheduled_missing_sportsbook": [],
         "selected_not_scheduled": []
       },
       "history_paths": {
@@ -54,7 +53,10 @@
           "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_1.csv",
           "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_2.csv",
           "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_3.csv",
-          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_4.csv"
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_4.csv",
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_5.csv",
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_6.csv",
+          "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/04_final_results/results/2026_2_7.csv"
         ],
         "team_stats": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/team_stats/2026_team_stats.csv"
       },
@@ -71,23 +73,23 @@
       },
       "in_season": true,
       "paths": {
-        "all_games": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/all_games/all_week_5_CFB_picks.csv",
-        "candidates": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_5_CFB_selected.csv",
-        "clean_picks": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/cleaned/week_5_CFB_clean_picks.csv",
-        "locked": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/locked/week_5_CFB_select_picks.csv",
-        "merged": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/01_merge/week_5_CFB_enriched.csv",
-        "picks": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_5_CFB_picks.csv",
-        "predictions": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/predictions/final/2026_2_5_clean_predictions.csv",
+        "all_games": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/all_games/all_week_8_CFB_picks.csv",
+        "candidates": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_8_CFB_selected.csv",
+        "clean_picks": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/cleaned/week_8_CFB_clean_picks.csv",
+        "locked": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/locked/week_8_CFB_select_picks.csv",
+        "merged": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/01_merge/week_8_CFB_enriched.csv",
+        "picks": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_8_CFB_picks.csv",
+        "predictions": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/predictions/final/2026_2_8_clean_predictions.csv",
         "season_schedule": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/2026_schedule.csv",
-        "selected": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/week_5_CFB_select_picks.csv",
-        "weekly_schedule": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_5_CFB_weekly_schedule.csv"
+        "selected": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/week_8_CFB_select_picks.csv",
+        "weekly_schedule": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_8_CFB_weekly_schedule.csv"
       },
       "season": "2026",
       "season_type": 2,
-      "week": 5
+      "week": 8
     }
   },
-  "report_week": 5,
+  "report_week": 8,
   "schema_version": 1,
   "season": "2026",
   "season_type": 2,
@@ -103,84 +105,82 @@
     {
       "exists": true,
       "name": "Weekly Schedule",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_5_CFB_weekly_schedule.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_8_CFB_weekly_schedule.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Final Predictions",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/predictions/final/2026_2_5_clean_predictions.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/predictions/final/2026_2_8_clean_predictions.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Projection",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/01_merge/week_5_CFB_enriched.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/01_merge/week_8_CFB_enriched.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Betting Candidates",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_5_CFB_selected.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_8_CFB_selected.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Market Picks",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_5_CFB_picks.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_8_CFB_picks.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Clean Weekly Picks",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/cleaned/week_5_CFB_clean_picks.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/cleaned/week_8_CFB_clean_picks.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "All Games Picks",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/all_games/all_week_5_CFB_picks.csv",
-      "rows": 59,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/all_games/all_week_8_CFB_picks.csv",
+      "rows": 56,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Final Selected Picks",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/week_5_CFB_select_picks.csv",
-      "rows": 17,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/week_8_CFB_select_picks.csv",
+      "rows": 11,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Locked Selected Picks",
-      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/locked/week_5_CFB_select_picks.csv",
-      "rows": 17,
+      "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/selected/locked/week_8_CFB_select_picks.csv",
+      "rows": 11,
       "status": "STATUS: SUCCESS"
     },
     {
       "exists": true,
       "name": "Completed History Coverage",
       "path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/pbp/2026_pbp.parquet",
-      "rows": 331,
+      "rows": 510,
       "status": "STATUS: SUCCESS"
     }
   ],
-  "status": "warning",
-  "warnings": [
-    "CFB Week 5: 3 scheduled game(s) do not have sportsbook odds"
-  ],
+  "status": "healthy",
+  "warnings": [],
   "workflow": {
     "name": "CFB Pipeline",
     "ref_name": "main",
     "run_attempt": "1",
-    "run_id": "36554394771",
-    "sha": "93653dbe561d93556ec85b29830fa9dfc11970cc",
+    "run_id": "39944230931",
+    "sha": "f7b104c487dcfebcc2ae22f8fcebd6f6b400c627",
     "status": "success"
   }
 }

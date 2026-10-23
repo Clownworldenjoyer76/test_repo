@@ -13,12 +13,12 @@ jobs:
   cfb-rebuild-all-picks:
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           persist-credentials: true
@@ -718,6 +718,10 @@ jobs:
           print("CFB grading analysis and reports verified.")
           PY
 
+      - name: Build CFB dashboard data
+        run: |
+          python docs/win/football/cfb/scripts/04_final_results/04_cfb_results_dashboard.py
+
       # ----------------------------------------------------------------------
       # COMMIT AND PUSH
       #
@@ -740,6 +744,7 @@ jobs:
 
           git add docs/win/football/cfb/03_picks
           git add docs/win/football/cfb/04_final_results
+          git add frontend/data/dashboards/cfb.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

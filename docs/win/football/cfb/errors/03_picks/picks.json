@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "run_id": "github-36554394771-attempt-1",
+  "run_id": "github-39944230931-attempt-1",
   "status": "SUCCESS",
   "exit_code": 0,
   "pipeline": "cfb",
@@ -9,22 +9,22 @@
   "script": "picks.py",
   "script_path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/scripts/03_picks/picks.py",
   "report_path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/errors/03_picks/picks.json",
-  "started_at_utc": "2026-09-29T10:25:23.261695+00:00",
-  "finished_at_utc": "2026-09-29T10:25:26.319552+00:00",
-  "duration_seconds": 3.058,
+  "started_at_utc": "2026-10-23T11:20:21.494479+00:00",
+  "finished_at_utc": "2026-10-23T11:20:24.389326+00:00",
+  "duration_seconds": 2.895,
   "environment": {
-    "hostname": "runnervmtr4k5",
-    "python_version": "3.12.14",
-    "python_executable": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "hostname": "runnervm8k3b6",
+    "python_version": "3.12.15",
+    "python_executable": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python",
     "platform": "linux",
-    "process_id": 2455,
+    "process_id": 2557,
     "working_directory": "/home/runner/work/bet_tracker/bet_tracker",
-    "github_run_id": "36554394771",
+    "github_run_id": "39944230931",
     "github_run_attempt": "1",
     "github_workflow": "CFB 01 Pipeline",
     "github_job": "run-cfb-pipeline",
     "github_ref_name": "main",
-    "github_sha": "93653dbe561d93556ec85b29830fa9dfc11970cc",
+    "github_sha": "f7b104c487dcfebcc2ae22f8fcebd6f6b400c627",
     "github_actor": "Clownworldenjoyer76",
     "github_repository": "Clownworldenjoyer76/bet_tracker"
   },
@@ -46,17 +46,26 @@
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_4_CFB_selected.csv",
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_4_CFB_weekly_schedule.csv",
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_5_CFB_selected.csv",
-    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_5_CFB_weekly_schedule.csv"
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_5_CFB_weekly_schedule.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_6_CFB_selected.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_6_CFB_weekly_schedule.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_7_CFB_selected.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_7_CFB_weekly_schedule.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/02_select/week_8_CFB_selected.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/weekly/week_8_CFB_weekly_schedule.csv"
   ],
   "outputs": [
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_1_CFB_picks.csv",
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_2_CFB_picks.csv",
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_3_CFB_picks.csv",
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_4_CFB_picks.csv",
-    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_5_CFB_picks.csv"
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_5_CFB_picks.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_6_CFB_picks.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_7_CFB_picks.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/03_picks/week_8_CFB_picks.csv"
   ],
-  "rows_in": 390,
-  "rows_out": 390,
+  "rows_in": 566,
+  "rows_out": 566,
   "warning_count": 0,
   "error_count": 0,
   "warnings": [],
@@ -74,64 +83,63 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      7,
+      8
     ],
-    "files_processed": 5,
-    "games": 390,
-    "ml_picks": 9,
-    "spread_picks": 97,
-    "total_picks": 29,
-    "cross_market_exclusions": 0,
+    "files_processed": 8,
+    "games": 566,
+    "ml_picks": 21,
+    "spread_picks": 63,
+    "total_picks": 23,
+    "cross_market_exclusions": 5,
     "candidate_available_counts": {
-      "ml_home": 316,
-      "ml_away": 316,
-      "spread_home": 387,
-      "spread_away": 387,
-      "total_over": 386,
-      "total_under": 386
+      "ml_home": 487,
+      "ml_away": 487,
+      "spread_home": 566,
+      "spread_away": 566,
+      "total_over": 564,
+      "total_under": 564
     },
     "qualifying_side_counts": {
-      "ml_home": 8,
-      "ml_away": 1,
-      "spread_home": 87,
-      "spread_away": 10,
-      "total_over": 13,
-      "total_under": 16
+      "ml_home": 11,
+      "ml_away": 10,
+      "spread_home": 38,
+      "spread_away": 30,
+      "total_over": 15,
+      "total_under": 8
     },
     "rejection_counts": {
       "ml_home": {
-        "min_ev": 238,
-        "model_probability_range": 151,
-        "band:odds_bands": 165,
-        "candidate_unavailable": 74,
-        "band:kelly_bands": 9
+        "min_ev": 365,
+        "model_probability_range": 276,
+        "band:odds_bands": 217,
+        "candidate_unavailable": 79
       },
       "ml_away": {
-        "model_probability_range": 278,
-        "candidate_unavailable": 74,
-        "min_ev": 194,
-        "band:kelly_bands": 11,
-        "band:odds_bands": 58
+        "model_probability_range": 420,
+        "candidate_unavailable": 79,
+        "min_ev": 289,
+        "band:odds_bands": 84
       },
       "spread_home": {
-        "band:prob_bands": 250,
-        "band:odds_bands": 160,
-        "candidate_unavailable": 3
+        "band:ev_bands": 510,
+        "band:prob_bands": 57
       },
       "spread_away": {
-        "band:prob_bands": 377,
-        "candidate_unavailable": 3
+        "band:ev_bands": 517,
+        "band:odds_bands": 240,
+        "band:prob_bands": 10
       },
       "total_over": {
-        "min_ev": 373,
-        "model_probability_range": 347,
-        "candidate_unavailable": 4
+        "min_ev": 549,
+        "candidate_unavailable": 2
       },
       "total_under": {
-        "min_ev": 105,
-        "model_probability_range": 361,
-        "band:odds_bands": 167,
-        "candidate_unavailable": 4
+        "min_ev": 140,
+        "model_probability_range": 556,
+        "candidate_unavailable": 2
       }
     },
     "modified_files": 1,
@@ -141,7 +149,10 @@
       "week_2_CFB_picks.csv": false,
       "week_3_CFB_picks.csv": false,
       "week_4_CFB_picks.csv": false,
-      "week_5_CFB_picks.csv": true
+      "week_5_CFB_picks.csv": false,
+      "week_6_CFB_picks.csv": false,
+      "week_7_CFB_picks.csv": false,
+      "week_8_CFB_picks.csv": true
     }
   }
 }

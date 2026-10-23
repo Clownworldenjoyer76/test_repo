@@ -30,7 +30,7 @@ import pandas as pd
 import yaml
 
 
-SCRIPT_VERSION = "cfb-results-analyze-v3-rounding-contract-2026-09-16"
+SCRIPT_VERSION = "cfb-results-analyze-v4-signed-spread-buckets-2026-10-01"
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 CFB_ROOT = SCRIPT_DIR.parents[1]
@@ -620,23 +620,30 @@ def spread_line_bucket(value: Any) -> str:
 
     if value is None:
         return "UNBUCKETED"
+    if value == 0:
+        return "0.0"
 
+    prefix = (
+        "negative"
+        if value < 0
+        else "positive"
+    )
     absolute = abs(value)
 
     if absolute < 3:
-        return "0.0_to_2.9"
+        return f"{prefix}_0.0_to_2.9"
     if absolute < 7:
-        return "3.0_to_6.9"
+        return f"{prefix}_3.0_to_6.9"
     if absolute < 10:
-        return "7.0_to_9.9"
+        return f"{prefix}_7.0_to_9.9"
     if absolute < 14:
-        return "10.0_to_13.9"
+        return f"{prefix}_10.0_to_13.9"
     if absolute < 21:
-        return "14.0_to_20.9"
+        return f"{prefix}_14.0_to_20.9"
     if absolute < 28:
-        return "21.0_to_27.9"
+        return f"{prefix}_21.0_to_27.9"
 
-    return "28.0_plus"
+    return f"{prefix}_28.0_plus"
 
 
 def spread_role(value: Any) -> str:

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "run_id": "github-36554394771-attempt-1",
+  "run_id": "github-39944230931-attempt-1",
   "status": "SUCCESS",
   "exit_code": 0,
   "pipeline": "cfb",
@@ -9,28 +9,28 @@
   "script": "pull_schedule.py",
   "script_path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/scripts/00_intake/pull_schedule.py",
   "report_path": "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/errors/00_intake/pull_schedule.json",
-  "started_at_utc": "2026-09-29T10:17:12.273529+00:00",
-  "finished_at_utc": "2026-09-29T10:17:31.876568+00:00",
-  "duration_seconds": 19.603,
+  "started_at_utc": "2026-10-23T11:12:11.611229+00:00",
+  "finished_at_utc": "2026-10-23T11:12:46.345634+00:00",
+  "duration_seconds": 34.734,
   "environment": {
-    "hostname": "runnervmtr4k5",
-    "python_version": "3.12.14",
-    "python_executable": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "hostname": "runnervm8k3b6",
+    "python_version": "3.12.15",
+    "python_executable": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python",
     "platform": "linux",
-    "process_id": 2157,
+    "process_id": 2264,
     "working_directory": "/home/runner/work/bet_tracker/bet_tracker",
-    "github_run_id": "36554394771",
+    "github_run_id": "39944230931",
     "github_run_attempt": "1",
     "github_workflow": "CFB 01 Pipeline",
     "github_job": "run-cfb-pipeline",
     "github_ref_name": "main",
-    "github_sha": "93653dbe561d93556ec85b29830fa9dfc11970cc",
+    "github_sha": "f7b104c487dcfebcc2ae22f8fcebd6f6b400c627",
     "github_actor": "Clownworldenjoyer76",
     "github_repository": "Clownworldenjoyer76/bet_tracker"
   },
   "context": {
     "season": 2026,
-    "week": 5
+    "week": 8
   },
   "inputs": [
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/config/current_week.yaml",
@@ -38,7 +38,7 @@
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/config/mapping/stadium_map.csv"
   ],
   "outputs": [
-    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/updates/2026_schedule_20260929_101731.csv",
+    "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/updates/2026_schedule_20261023_111246.csv",
     "/home/runner/work/bet_tracker/bet_tracker/docs/win/football/cfb/00_intake/schedule/2026_schedule.csv"
   ],
   "rows_in": 1653,
@@ -62,8 +62,8 @@
     "existing_schedule_rows": 892,
     "schedule_rows_written": 892,
     "schedule_games_added": 0,
-    "schedule_games_updated": 8,
-    "schedule_games_unchanged": 884,
+    "schedule_games_updated": 0,
+    "schedule_games_unchanged": 892,
     "schedule_games_preserved": 0,
     "missing_stadium": 0,
     "missing_surface": 7,
