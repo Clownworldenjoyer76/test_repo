@@ -1,0 +1,1031 @@
+{
+  "playerId": 8481668,
+  "isActive": true,
+  "currentTeamId": 5,
+  "currentTeamAbbrev": "PIT",
+  "fullTeamName": {
+    "default": "Pittsburgh Penguins",
+    "fr": "Penguins de Pittsburgh"
+  },
+  "teamCommonName": {
+    "default": "Penguins"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Pittsburgh",
+    "fr": "de Pittsburgh"
+  },
+  "firstName": {
+    "default": "Arturs"
+  },
+  "lastName": {
+    "default": "Silovs",
+    "cs": "Šilovs",
+    "sk": "Šilovs"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+  "sweaterNumber": 37,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481668.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8481668.jpg",
+  "heightInInches": 76,
+  "heightInCentimeters": 193,
+  "weightInPounds": 219,
+  "weightInKilograms": 99,
+  "birthDate": "2001-03-22",
+  "birthCity": {
+    "default": "Riga",
+    "fi": "Riika"
+  },
+  "birthCountry": "LVA",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2019,
+    "teamAbbrev": "VAN",
+    "round": 6,
+    "pickInRound": 1,
+    "overallPick": 156
+  },
+  "playerSlug": "arturs-silovs-8481668",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 3,
+        "goalsAgainstAvg": 3.378061,
+        "losses": 1,
+        "otLosses": 0,
+        "savePctg": 0.859155,
+        "shutouts": 1,
+        "wins": 2
+      },
+      "career": {
+        "gamesPlayed": 61,
+        "goalsAgainstAvg": 3.105947,
+        "losses": 21,
+        "otLosses": 10,
+        "savePctg": 0.884345,
+        "shutouts": 3,
+        "wins": 29
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 3,
+      "gamesPlayed": 61,
+      "gamesStarted": 59,
+      "goals": 0,
+      "goalsAgainst": 182,
+      "goalsAgainstAvg": 3.105947,
+      "losses": 21,
+      "otLosses": 10,
+      "pim": 6,
+      "savePctg": 0.884345,
+      "shotsAgainst": 1565,
+      "shutouts": 3,
+      "timeOnIce": "3515:50",
+      "wins": 29
+    },
+    "playoffs": {
+      "assists": 0,
+      "gamesPlayed": 13,
+      "gamesStarted": 13,
+      "goals": 0,
+      "goalsAgainst": 34,
+      "goalsAgainstAvg": 2.564208,
+      "losses": 6,
+      "otLosses": 0,
+      "savePctg": 0.906849,
+      "shotsAgainst": 365,
+      "shutouts": 1,
+      "timeOnIce": "795:34",
+      "wins": 7
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-10-07",
+      "gameId": 2026020053,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 5,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "WSH",
+      "penaltyMins": 0,
+      "savePctg": 0.814815,
+      "shotsAgainst": 27,
+      "teamAbbrev": "PIT",
+      "toi": "56:04"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-10-03",
+      "gameId": 2026020026,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 5,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "MTL",
+      "penaltyMins": 0,
+      "savePctg": 0.8,
+      "shotsAgainst": 25,
+      "teamAbbrev": "PIT",
+      "toi": "61:33"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-09-30",
+      "gameId": 2026020006,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 0,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "PHI",
+      "penaltyMins": 0,
+      "savePctg": 1.0,
+      "shotsAgainst": 19,
+      "teamAbbrev": "PIT",
+      "toi": "60:00"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainstAvg": 1.4,
+      "leagueAbbrev": "Latvia U16",
+      "season": 20152016,
+      "sequence": 231015,
+      "teamName": {
+        "default": "HS Riga 15"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainst": 27,
+      "goalsAgainstAvg": 1.61,
+      "leagueAbbrev": "Latvia U18",
+      "season": 20162017,
+      "sequence": 110037,
+      "shutouts": 4,
+      "teamName": {
+        "default": "HS Riga 16"
+      },
+      "timeOnIce": "1007:58"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 16,
+      "goalsAgainstAvg": 3.44,
+      "leagueAbbrev": "Russia U16",
+      "savePctg": 0.884,
+      "season": 20162017,
+      "sequence": 110357,
+      "teamName": {
+        "default": "HS Riga 16"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "WJC-18 D1A",
+      "losses": 0,
+      "savePctg": 0.96,
+      "season": 20172018,
+      "sequence": 17465,
+      "shotsAgainst": 50,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Latvia U18"
+      },
+      "timeOnIce": "120:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 8,
+      "goalsAgainst": 17,
+      "goalsAgainstAvg": 2.28,
+      "leagueAbbrev": "Latvia2",
+      "season": 20172018,
+      "sequence": 97909,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HS Riga 17"
+      },
+      "timeOnIce": "447:51"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 16,
+      "goalsAgainstAvg": 3.32,
+      "leagueAbbrev": "Russia U17",
+      "savePctg": 0.882,
+      "season": 20172018,
+      "sequence": 98228,
+      "teamName": {
+        "default": "HS Riga 17"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 6,
+      "goalsAgainst": 14,
+      "goalsAgainstAvg": 3.22,
+      "leagueAbbrev": "Latvia2",
+      "season": 20172018,
+      "sequence": 97909,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HS Riga 17"
+      },
+      "timeOnIce": "260:33"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 3.32,
+      "leagueAbbrev": "WJC-18",
+      "losses": 4,
+      "savePctg": 0.918,
+      "season": 20182019,
+      "sequence": 17463,
+      "shotsAgainst": 182,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Latvia U18"
+      },
+      "timeOnIce": "271:24",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainst": 60,
+      "goalsAgainstAvg": 3.26,
+      "leagueAbbrev": "Latvia",
+      "losses": 11,
+      "savePctg": 0.914,
+      "season": 20182019,
+      "sequence": 29312,
+      "shotsAgainst": 701,
+      "shutouts": 2,
+      "teamName": {
+        "default": "HS Riga"
+      },
+      "timeOnIce": "1103:38",
+      "wins": 8
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "goalsAgainst": 14,
+      "goalsAgainstAvg": 2.45,
+      "leagueAbbrev": "MHL",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.92,
+      "season": 20182019,
+      "sequence": 76532,
+      "shotsAgainst": 174,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HK Riga"
+      },
+      "timeOnIce": "342:30",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 36,
+      "goalsAgainst": 131,
+      "goalsAgainstAvg": 3.87,
+      "leagueAbbrev": "OHL",
+      "losses": 13,
+      "otLosses": 4,
+      "savePctg": 0.891,
+      "season": 20192020,
+      "sequence": 9368,
+      "shotsAgainst": 1206,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Barrie Colts"
+      },
+      "timeOnIce": "2030:06",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.07,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.92,
+      "season": 20202021,
+      "sequence": 877,
+      "shotsAgainst": 25,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Manitoba Moose"
+      },
+      "timeOnIce": "57:53",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 4.34,
+      "leagueAbbrev": "Latvia",
+      "savePctg": 0.923,
+      "season": 20202021,
+      "sequence": 29312,
+      "shotsAgainst": 117,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HS Riga"
+      },
+      "timeOnIce": "124:25"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 2.56,
+      "leagueAbbrev": "Latvia",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.899,
+      "season": 20202021,
+      "sequence": 51122,
+      "shotsAgainst": 99,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HK Mogo"
+      },
+      "timeOnIce": "234:14",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 1.22,
+      "leagueAbbrev": "WC",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.952,
+      "season": 20212022,
+      "sequence": 17425,
+      "shotsAgainst": 84,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Latvia"
+      },
+      "timeOnIce": "196:21",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 28,
+      "goalsAgainstAvg": 3.1,
+      "leagueAbbrev": "AHL",
+      "losses": 6,
+      "otLosses": 0,
+      "savePctg": 0.888,
+      "season": 20212022,
+      "sequence": 33767,
+      "shotsAgainst": 249,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Abbotsford Canucks"
+      },
+      "timeOnIce": "541:44",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 24,
+      "goalsAgainstAvg": 2.37,
+      "leagueAbbrev": "ECHL",
+      "losses": 3,
+      "otLosses": 1,
+      "savePctg": 0.92,
+      "season": 20212022,
+      "sequence": 326125,
+      "shotsAgainst": 300,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Trois-Rivières Lions"
+      },
+      "timeOnIce": "608:46",
+      "wins": 6
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "gamesStarted": 5,
+      "goals": 0,
+      "goalsAgainst": 14,
+      "goalsAgainstAvg": 2.745695,
+      "leagueAbbrev": "NHL",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.907895,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 152,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "305:56",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 2.2,
+      "leagueAbbrev": "WC",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.921,
+      "season": 20222023,
+      "sequence": 17425,
+      "shotsAgainst": 280,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Latvia"
+      },
+      "timeOnIce": "601:00",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 44,
+      "goalsAgainst": 104,
+      "goalsAgainstAvg": 2.44,
+      "leagueAbbrev": "AHL",
+      "losses": 12,
+      "otLosses": 3,
+      "savePctg": 0.909,
+      "season": 20222023,
+      "sequence": 33767,
+      "shotsAgainst": 1138,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Abbotsford Canucks"
+      },
+      "timeOnIce": "2554:16",
+      "wins": 26
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 2.85,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 5,
+      "savePctg": 0.914,
+      "season": 20222023,
+      "sequence": 33767,
+      "shotsAgainst": 70,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Abbotsford Canucks"
+      },
+      "timeOnIce": "126:25",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "gamesStarted": 4,
+      "goals": 0,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 2.466936,
+      "leagueAbbrev": "NHL",
+      "losses": 0,
+      "otLosses": 1,
+      "savePctg": 0.880952,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 84,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "243:13",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 34,
+      "goalsAgainst": 92,
+      "goalsAgainstAvg": 2.74,
+      "leagueAbbrev": "AHL",
+      "losses": 11,
+      "otLosses": 5,
+      "savePctg": 0.907,
+      "season": 20232024,
+      "sequence": 33767,
+      "shotsAgainst": 988,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Abbotsford Canucks"
+      },
+      "timeOnIce": "2014:45",
+      "wins": 16
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 10,
+      "gamesStarted": 10,
+      "goals": 0,
+      "goalsAgainst": 29,
+      "goalsAgainstAvg": 2.908238,
+      "leagueAbbrev": "NHL",
+      "losses": 5,
+      "otLosses": 0,
+      "savePctg": 0.897527,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 283,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "598:18",
+      "wins": 5
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "gamesStarted": 9,
+      "goals": 0,
+      "goalsAgainst": 33,
+      "goalsAgainstAvg": 3.649655,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 1,
+      "pim": 2,
+      "savePctg": 0.861345,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 238,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "542:31",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "goalsAgainst": 50,
+      "goalsAgainstAvg": 2.41,
+      "leagueAbbrev": "AHL",
+      "losses": 5,
+      "otLosses": 1,
+      "savePctg": 0.908,
+      "season": 20242025,
+      "sequence": 33767,
+      "shotsAgainst": 542,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Abbotsford Canucks"
+      },
+      "timeOnIce": "1245:41",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 24,
+      "goalsAgainst": 50,
+      "goalsAgainstAvg": 2.01,
+      "leagueAbbrev": "AHL",
+      "losses": 7,
+      "otLosses": 2,
+      "savePctg": 0.931,
+      "season": 20242025,
+      "sequence": 33767,
+      "shotsAgainst": 722,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Abbotsford Canucks"
+      },
+      "timeOnIce": "1492:35",
+      "wins": 16
+    },
+    {
+      "assists": 3,
+      "gameTypeId": 2,
+      "gamesPlayed": 39,
+      "gamesStarted": 38,
+      "goals": 0,
+      "goalsAgainst": 115,
+      "goalsAgainstAvg": 3.071376,
+      "leagueAbbrev": "NHL",
+      "losses": 12,
+      "otLosses": 8,
+      "pim": 4,
+      "savePctg": 0.888235,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 1020,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "2246:33",
+      "wins": 19
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 1.520784,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.939024,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 82,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "197:16",
+      "wins": 2
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 3.378061,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.859155,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 71,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "177:37",
+      "wins": 2
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8479638,
+      "lastName": {
+        "default": "Brazeau"
+      },
+      "firstName": {
+        "default": "Justin"
+      },
+      "playerSlug": "justin-brazeau-8479638"
+    },
+    {
+      "playerId": 8483398,
+      "lastName": {
+        "default": "Carlile"
+      },
+      "firstName": {
+        "default": "Declan"
+      },
+      "playerSlug": "declan-carlile-8483398"
+    },
+    {
+      "playerId": 8482475,
+      "lastName": {
+        "default": "Chinakhov",
+        "cs": "Činachov",
+        "fi": "Tshinahov",
+        "sk": "Činachov"
+      },
+      "firstName": {
+        "default": "Egor"
+      },
+      "playerSlug": "egor-chinakhov-8482475"
+    },
+    {
+      "playerId": 8471675,
+      "lastName": {
+        "default": "Crosby"
+      },
+      "firstName": {
+        "default": "Sidney"
+      },
+      "playerSlug": "sidney-crosby-8471675"
+    },
+    {
+      "playerId": 8480980,
+      "lastName": {
+        "default": "Dewar"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-dewar-8480980"
+    },
+    {
+      "playerId": 8479398,
+      "lastName": {
+        "default": "Girard"
+      },
+      "firstName": {
+        "default": "Samuel"
+      },
+      "playerSlug": "samuel-girard-8479398"
+    },
+    {
+      "playerId": 8474578,
+      "lastName": {
+        "default": "Karlsson"
+      },
+      "firstName": {
+        "default": "Erik"
+      },
+      "playerSlug": "erik-karlsson-8474578"
+    },
+    {
+      "playerId": 8485414,
+      "lastName": {
+        "default": "Kindel"
+      },
+      "firstName": {
+        "default": "Ben"
+      },
+      "playerSlug": "ben-kindel-8485414"
+    },
+    {
+      "playerId": 8482758,
+      "lastName": {
+        "default": "Koivunen"
+      },
+      "firstName": {
+        "default": "Ville"
+      },
+      "playerSlug": "ville-koivunen-8482758"
+    },
+    {
+      "playerId": 8481527,
+      "lastName": {
+        "default": "Korczak"
+      },
+      "firstName": {
+        "default": "Kaedan"
+      },
+      "playerSlug": "kaedan-korczak-8481527"
+    },
+    {
+      "playerId": 8483808,
+      "lastName": {
+        "default": "Kuzmenko"
+      },
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "playerSlug": "andrei-kuzmenko-8483808"
+    },
+    {
+      "playerId": 8482148,
+      "lastName": {
+        "default": "Lapierre"
+      },
+      "firstName": {
+        "default": "Hendrix"
+      },
+      "playerSlug": "hendrix-lapierre-8482148"
+    },
+    {
+      "playerId": 8471724,
+      "lastName": {
+        "default": "Letang"
+      },
+      "firstName": {
+        "default": "Kris"
+      },
+      "playerSlug": "kris-letang-8471724"
+    },
+    {
+      "playerId": 8481481,
+      "lastName": {
+        "default": "Lizotte"
+      },
+      "firstName": {
+        "default": "Blake"
+      },
+      "playerSlug": "blake-lizotte-8481481"
+    },
+    {
+      "playerId": 8471215,
+      "lastName": {
+        "default": "Malkin"
+      },
+      "firstName": {
+        "default": "Evgeni",
+        "cs": "Jevgenij",
+        "fi": "Jevgeni",
+        "sk": "Jevgenij"
+      },
+      "playerSlug": "evgeni-malkin-8471215"
+    },
+    {
+      "playerId": 8483703,
+      "lastName": {
+        "default": "Murashov"
+      },
+      "firstName": {
+        "default": "Sergei"
+      },
+      "playerSlug": "sergei-murashov-8483703"
+    },
+    {
+      "playerId": 8478438,
+      "lastName": {
+        "default": "Novak"
+      },
+      "firstName": {
+        "default": "Tommy"
+      },
+      "playerSlug": "tommy-novak-8478438"
+    },
+    {
+      "playerId": 8476483,
+      "lastName": {
+        "default": "Rakell"
+      },
+      "firstName": {
+        "default": "Rickard"
+      },
+      "playerSlug": "rickard-rakell-8476483"
+    },
+    {
+      "playerId": 8481582,
+      "lastName": {
+        "default": "Robertson"
+      },
+      "firstName": {
+        "default": "Nick"
+      },
+      "playerSlug": "nick-robertson-8481582"
+    },
+    {
+      "playerId": 8475810,
+      "lastName": {
+        "default": "Rust"
+      },
+      "firstName": {
+        "default": "Bryan"
+      },
+      "playerSlug": "bryan-rust-8475810"
+    },
+    {
+      "playerId": 8481668,
+      "lastName": {
+        "default": "Silovs",
+        "cs": "Šilovs",
+        "sk": "Šilovs"
+      },
+      "firstName": {
+        "default": "Arturs"
+      },
+      "playerSlug": "arturs-silovs-8481668"
+    },
+    {
+      "playerId": 8481725,
+      "lastName": {
+        "default": "Soderblom",
+        "sv": "Söderblom"
+      },
+      "firstName": {
+        "default": "Elmer"
+      },
+      "playerSlug": "elmer-soderblom-8481725"
+    },
+    {
+      "playerId": 8482470,
+      "lastName": {
+        "default": "Solovyov"
+      },
+      "firstName": {
+        "default": "Ilya"
+      },
+      "playerSlug": "ilya-solovyov-8482470"
+    },
+    {
+      "playerId": 8481056,
+      "lastName": {
+        "default": "Stastney"
+      },
+      "firstName": {
+        "default": "Spencer"
+      },
+      "playerSlug": "spencer-stastney-8481056"
+    },
+    {
+      "playerId": 8477845,
+      "lastName": {
+        "default": "van Riemsdyk"
+      },
+      "firstName": {
+        "default": "Trevor"
+      },
+      "playerSlug": "trevor-van-riemsdyk-8477845"
+    }
+  ]
+}

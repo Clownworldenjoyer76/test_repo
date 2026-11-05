@@ -1,0 +1,713 @@
+{
+  "playerId": 8482465,
+  "isActive": true,
+  "currentTeamId": 1,
+  "currentTeamAbbrev": "NJD",
+  "fullTeamName": {
+    "default": "New Jersey Devils",
+    "fr": "Devils du New Jersey"
+  },
+  "teamCommonName": {
+    "default": "Devils"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "New Jersey",
+    "fr": "du New Jersey"
+  },
+  "firstName": {
+    "default": "Rémi"
+  },
+  "lastName": {
+    "default": "Poirier"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+  "sweaterNumber": 1,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8482465.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8482465.jpg",
+  "heightInInches": 75,
+  "heightInCentimeters": 191,
+  "weightInPounds": 211,
+  "weightInKilograms": 96,
+  "birthDate": "2001-10-06",
+  "birthCity": {
+    "default": "Farnham"
+  },
+  "birthStateProvince": {
+    "default": "Quebec",
+    "fr": "Québec"
+  },
+  "birthCountry": "CAN",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2020,
+    "teamAbbrev": "DAL",
+    "round": 6,
+    "pickInRound": 30,
+    "overallPick": 185
+  },
+  "playerSlug": "remi-poirier-8482465",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 18,
+      "goalsAgainstAvg": 3.08,
+      "leagueAbbrev": "QBAAA",
+      "season": 20142015,
+      "sequence": 168086,
+      "teamName": {
+        "default": "Triolet Harfangs U15 AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 18,
+      "goalsAgainstAvg": 2.06,
+      "leagueAbbrev": "QM15AAA",
+      "season": 20152016,
+      "sequence": 169267,
+      "teamName": {
+        "default": "Triolet Harfangs M15 AAA"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "QM15AAA",
+      "season": 20152016,
+      "sequence": 169267,
+      "teamName": {
+        "default": "Triolet Harfangs M15 AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainst": 57,
+      "goalsAgainstAvg": 3.17,
+      "leagueAbbrev": "QM18AAA",
+      "losses": 9,
+      "otLosses": 1,
+      "savePctg": 0.901,
+      "season": 20162017,
+      "sequence": 63594,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Magog Cantonniers"
+      },
+      "timeOnIce": "1079:00",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 4.01,
+      "leagueAbbrev": "QM18AAA",
+      "losses": 3,
+      "savePctg": 0.83,
+      "season": 20162017,
+      "sequence": 63594,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Magog Cantonniers"
+      },
+      "timeOnIce": "135:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainst": 48,
+      "goalsAgainstAvg": 2.75,
+      "leagueAbbrev": "QM18AAA",
+      "losses": 4,
+      "otLosses": 2,
+      "savePctg": 0.903,
+      "season": 20172018,
+      "sequence": 63594,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Magog Cantonniers"
+      },
+      "timeOnIce": "1048:00",
+      "wins": 13
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 18,
+      "goalsAgainst": 39,
+      "goalsAgainstAvg": 2.11,
+      "leagueAbbrev": "QM18AAA",
+      "losses": 4,
+      "savePctg": 0.917,
+      "season": 20172018,
+      "sequence": 63594,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Magog Cantonniers"
+      },
+      "timeOnIce": "1109:00",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainst": 68,
+      "goalsAgainstAvg": 3.78,
+      "leagueAbbrev": "QMJHL",
+      "losses": 9,
+      "otLosses": 2,
+      "savePctg": 0.89,
+      "season": 20182019,
+      "sequence": 18240,
+      "shotsAgainst": 616,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "1079:00",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 4.42,
+      "leagueAbbrev": "QMJHL",
+      "losses": 4,
+      "savePctg": 0.902,
+      "season": 20182019,
+      "sequence": 18240,
+      "shotsAgainst": 224,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "299:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 45,
+      "goalsAgainst": 147,
+      "goalsAgainstAvg": 3.49,
+      "leagueAbbrev": "QMJHL",
+      "losses": 22,
+      "otLosses": 3,
+      "savePctg": 0.9,
+      "season": 20192020,
+      "sequence": 18240,
+      "shotsAgainst": 1466,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "2527:00",
+      "wins": 19
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 24,
+      "goalsAgainst": 64,
+      "goalsAgainstAvg": 2.63,
+      "leagueAbbrev": "QMJHL",
+      "losses": 8,
+      "otLosses": 2,
+      "savePctg": 0.908,
+      "season": 20202021,
+      "sequence": 18240,
+      "shotsAgainst": 696,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "1458:00",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainst": 16,
+      "goalsAgainstAvg": 4.4,
+      "leagueAbbrev": "QMJHL",
+      "losses": 3,
+      "savePctg": 0.873,
+      "season": 20202021,
+      "sequence": 18240,
+      "shotsAgainst": 126,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "218:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 37,
+      "goalsAgainst": 89,
+      "goalsAgainstAvg": 2.48,
+      "leagueAbbrev": "QMJHL",
+      "losses": 7,
+      "otLosses": 6,
+      "savePctg": 0.907,
+      "season": 20212022,
+      "sequence": 18240,
+      "shotsAgainst": 961,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "2157:00",
+      "wins": 22
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "goalsAgainst": 19,
+      "goalsAgainstAvg": 2.58,
+      "leagueAbbrev": "QMJHL",
+      "losses": 4,
+      "savePctg": 0.898,
+      "season": 20212022,
+      "sequence": 18240,
+      "shotsAgainst": 186,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Gatineau Olympiques"
+      },
+      "timeOnIce": "443:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "goalsAgainst": 48,
+      "goalsAgainstAvg": 2.07,
+      "leagueAbbrev": "ECHL",
+      "losses": 2,
+      "otLosses": 1,
+      "savePctg": 0.928,
+      "season": 20222023,
+      "sequence": 7155,
+      "shotsAgainst": 669,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Idaho Steelheads"
+      },
+      "timeOnIce": "1389:39",
+      "wins": 19
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 16,
+      "goalsAgainst": 42,
+      "goalsAgainstAvg": 2.74,
+      "leagueAbbrev": "AHL",
+      "losses": 5,
+      "otLosses": 1,
+      "savePctg": 0.907,
+      "season": 20222023,
+      "sequence": 45177,
+      "shotsAgainst": 450,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "920:28",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 2.56,
+      "leagueAbbrev": "ECHL",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.919,
+      "season": 20222023,
+      "sequence": 7155,
+      "shotsAgainst": 62,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Idaho Steelheads"
+      },
+      "timeOnIce": "117:18",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 2,
+      "savePctg": 1.0,
+      "season": 20222023,
+      "sequence": 45177,
+      "shotsAgainst": 10,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "37:22",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 38,
+      "goalsAgainst": 118,
+      "goalsAgainstAvg": 3.19,
+      "leagueAbbrev": "AHL",
+      "losses": 16,
+      "otLosses": 4,
+      "savePctg": 0.904,
+      "season": 20232024,
+      "sequence": 45177,
+      "shotsAgainst": 1226,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "2217:14",
+      "wins": 17
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "goalsAgainst": 16,
+      "goalsAgainstAvg": 2.6,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 4,
+      "savePctg": 0.907,
+      "season": 20232024,
+      "sequence": 45177,
+      "shotsAgainst": 172,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "369:18",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 31,
+      "goalsAgainst": 75,
+      "goalsAgainstAvg": 2.5,
+      "leagueAbbrev": "AHL",
+      "losses": 11,
+      "otLosses": 1,
+      "savePctg": 0.908,
+      "season": 20242025,
+      "sequence": 45177,
+      "shotsAgainst": 818,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "1800:32",
+      "wins": 17
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 10,
+      "goalsAgainst": 21,
+      "goalsAgainstAvg": 2.19,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 2,
+      "savePctg": 0.919,
+      "season": 20242025,
+      "sequence": 45177,
+      "shotsAgainst": 259,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "576:20",
+      "wins": 5
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 52,
+      "goalsAgainst": 131,
+      "goalsAgainstAvg": 2.61,
+      "leagueAbbrev": "AHL",
+      "losses": 19,
+      "otLosses": 6,
+      "savePctg": 0.912,
+      "season": 20252026,
+      "sequence": 45177,
+      "shotsAgainst": 1493,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "3017:08",
+      "wins": 27
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 2.92,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 8,
+      "savePctg": 0.883,
+      "season": 20252026,
+      "sequence": 45177,
+      "shotsAgainst": 128,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "307:59",
+      "wins": 2
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8474596,
+      "lastName": {
+        "default": "Allen"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-allen-8474596"
+    },
+    {
+      "playerId": 8480003,
+      "lastName": {
+        "default": "Boqvist"
+      },
+      "firstName": {
+        "default": "Jesper"
+      },
+      "playerSlug": "jesper-boqvist-8480003"
+    },
+    {
+      "playerId": 8479407,
+      "lastName": {
+        "default": "Bratt"
+      },
+      "firstName": {
+        "default": "Jesper"
+      },
+      "playerSlug": "jesper-bratt-8479407"
+    },
+    {
+      "playerId": 8477015,
+      "lastName": {
+        "default": "Brown"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-brown-8477015"
+    },
+    {
+      "playerId": 8480990,
+      "lastName": {
+        "default": "Chisholm"
+      },
+      "firstName": {
+        "default": "Declan"
+      },
+      "playerSlug": "declan-chisholm-8480990"
+    },
+    {
+      "playerId": 8482076,
+      "lastName": {
+        "default": "Daws"
+      },
+      "firstName": {
+        "default": "Nico"
+      },
+      "playerSlug": "nico-daws-8482076"
+    },
+    {
+      "playerId": 8475455,
+      "lastName": {
+        "default": "Dillon"
+      },
+      "firstName": {
+        "default": "Brenden"
+      },
+      "playerSlug": "brenden-dillon-8475455"
+    },
+    {
+      "playerId": 8482146,
+      "lastName": {
+        "default": "Evangelista"
+      },
+      "firstName": {
+        "default": "Luke"
+      },
+      "playerSlug": "luke-evangelista-8482146"
+    },
+    {
+      "playerId": 8479996,
+      "lastName": {
+        "default": "Glass"
+      },
+      "firstName": {
+        "default": "Cody"
+      },
+      "playerSlug": "cody-glass-8479996"
+    },
+    {
+      "playerId": 8481721,
+      "lastName": {
+        "default": "Gritsyuk"
+      },
+      "firstName": {
+        "default": "Arseny"
+      },
+      "playerSlug": "arseny-gritsyuk-8481721"
+    },
+    {
+      "playerId": 8476462,
+      "lastName": {
+        "default": "Hamilton"
+      },
+      "firstName": {
+        "default": "Dougie"
+      },
+      "playerSlug": "dougie-hamilton-8476462"
+    },
+    {
+      "playerId": 8480002,
+      "lastName": {
+        "default": "Hischier"
+      },
+      "firstName": {
+        "default": "Nico"
+      },
+      "playerSlug": "nico-hischier-8480002"
+    },
+    {
+      "playerId": 8481559,
+      "lastName": {
+        "default": "Hughes"
+      },
+      "firstName": {
+        "default": "Jack"
+      },
+      "playerSlug": "jack-hughes-8481559"
+    },
+    {
+      "playerId": 8482684,
+      "lastName": {
+        "default": "Hughes"
+      },
+      "firstName": {
+        "default": "Luke"
+      },
+      "playerSlug": "luke-hughes-8482684"
+    },
+    {
+      "playerId": 8483695,
+      "lastName": {
+        "default": "Lombardi"
+      },
+      "firstName": {
+        "default": "Amadeus"
+      },
+      "playerSlug": "amadeus-lombardi-8483695"
+    },
+    {
+      "playerId": 8477511,
+      "lastName": {
+        "default": "Mantha"
+      },
+      "firstName": {
+        "default": "Anthony"
+      },
+      "playerSlug": "anthony-mantha-8477511"
+    },
+    {
+      "playerId": 8478414,
+      "lastName": {
+        "default": "Meier"
+      },
+      "firstName": {
+        "default": "Timo"
+      },
+      "playerSlug": "timo-meier-8478414"
+    },
+    {
+      "playerId": 8482110,
+      "lastName": {
+        "default": "Mercer"
+      },
+      "firstName": {
+        "default": "Dawson"
+      },
+      "playerSlug": "dawson-mercer-8482110"
+    },
+    {
+      "playerId": 8476474,
+      "lastName": {
+        "default": "Noesen"
+      },
+      "firstName": {
+        "default": "Stefan"
+      },
+      "playerSlug": "stefan-noesen-8476474"
+    },
+    {
+      "playerId": 8477488,
+      "lastName": {
+        "default": "Pesce"
+      },
+      "firstName": {
+        "default": "Brett"
+      },
+      "playerSlug": "brett-pesce-8477488"
+    },
+    {
+      "playerId": 8482465,
+      "lastName": {
+        "default": "Poirier"
+      },
+      "firstName": {
+        "default": "Rémi"
+      },
+      "playerSlug": "remi-poirier-8482465"
+    },
+    {
+      "playerId": 8478542,
+      "lastName": {
+        "default": "Rodrigues"
+      },
+      "firstName": {
+        "default": "Evan"
+      },
+      "playerSlug": "evan-rodrigues-8478542"
+    },
+    {
+      "playerId": 8478399,
+      "lastName": {
+        "default": "Siegenthaler"
+      },
+      "firstName": {
+        "default": "Jonas"
+      },
+      "playerSlug": "jonas-siegenthaler-8478399"
+    }
+  ]
+}

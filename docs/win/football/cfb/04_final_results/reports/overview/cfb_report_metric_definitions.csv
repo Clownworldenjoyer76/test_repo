@@ -1,8 +1,0 @@
-metric,definition,push_handling
-Win_Pct,wins / (wins + losses),pushes excluded from denominator
-Win_Pct_All_Bets,wins / (wins + losses + pushes),pushes included in denominator
-units,sum of grader-produced bet_units,pushes and voids contribute 0 units
-ROI_Excluding_Pushes,units / (wins + losses),pushes excluded from denominator
-ROI_Including_Pushes,units / (wins + losses + pushes),pushes included in denominator
-Total,wins + losses + pushes,"void, pending, and invalid bets excluded"
-Selected,all selected wagers present in work_cfb.csv,"includes void, pending, and invalid selected wagers"

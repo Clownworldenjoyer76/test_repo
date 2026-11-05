@@ -1,0 +1,30 @@
+NHL 2025-26 FULL-SEASON MARKETS BACKTEST
+========================================
+season_master_first_date=2025_10_07
+season_master_last_date=2026_06_14
+season_master_games=1394
+season_master_prediction_rows=1393
+season_master_sportsbook_rows=1393
+daily_merged_files=211
+games_with_prediction=1393
+games_with_moneyline=1393
+games_with_puck_line=1287
+games_with_total=1393
+selector_input_files=618
+final_score_first_date=2025_10_07
+final_score_last_date=2026_06_14
+final_score_rows=1394
+selected_files=211
+selected_rows=7252
+graded_rows=7252
+graded_first_date=2025_10_07
+graded_last_date=2026_06_14
+secondary_model_enabled=false
+pick_preference=all
+output=C:\Users\Mat\Documents\GitHub\NHL_for_mat\docs\win\hockey\nhl\backtest\2025_2026
+
+Primary file:
+C:\Users\Mat\Documents\GitHub\NHL_for_mat\docs\win\hockey\nhl\backtest\2025_2026\graded\NHL_final.csv
+
+Reports:
+C:\Users\Mat\Documents\GitHub\NHL_for_mat\docs\win\hockey\nhl\backtest\2025_2026\reports

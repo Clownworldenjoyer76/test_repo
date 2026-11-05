@@ -1,0 +1,1094 @@
+{
+  "playerId": 8483710,
+  "isActive": true,
+  "currentTeamId": 14,
+  "currentTeamAbbrev": "TBL",
+  "fullTeamName": {
+    "default": "Tampa Bay Lightning",
+    "fr": "Lightning de Tampa Bay"
+  },
+  "teamCommonName": {
+    "default": "Lightning"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Tampa Bay",
+    "fr": "de Tampa Bay"
+  },
+  "firstName": {
+    "default": "Dennis"
+  },
+  "lastName": {
+    "default": "Hildeby"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+  "sweaterNumber": 35,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8483710.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8483710.jpg",
+  "heightInInches": 78,
+  "heightInCentimeters": 198,
+  "weightInPounds": 227,
+  "weightInKilograms": 103,
+  "birthDate": "2001-08-19",
+  "birthCity": {
+    "default": "Jarfalla"
+  },
+  "birthCountry": "SWE",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2022,
+    "teamAbbrev": "TOR",
+    "round": 4,
+    "pickInRound": 25,
+    "overallPick": 122
+  },
+  "playerSlug": "dennis-hildeby-8483710",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20252026,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 20,
+        "goalsAgainstAvg": 2.855066,
+        "losses": 7,
+        "otLosses": 4,
+        "savePctg": 0.914234,
+        "shutouts": 1,
+        "wins": 5
+      },
+      "career": {
+        "gamesPlayed": 26,
+        "goalsAgainstAvg": 2.979079,
+        "losses": 10,
+        "otLosses": 4,
+        "savePctg": 0.90625,
+        "shutouts": 1,
+        "wins": 8
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 0,
+      "gamesPlayed": 26,
+      "gamesStarted": 20,
+      "goals": 0,
+      "goalsAgainst": 68,
+      "goalsAgainstAvg": 2.979079,
+      "losses": 10,
+      "otLosses": 4,
+      "savePctg": 0.90625,
+      "shotsAgainst": 704,
+      "shutouts": 1,
+      "timeOnIce": "1369:33",
+      "wins": 8
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-04-15",
+      "gameId": 2025021304,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "OTT",
+      "penaltyMins": 0,
+      "savePctg": 0.945946,
+      "shotsAgainst": 37,
+      "teamAbbrev": "TOR",
+      "toi": "58:08"
+    },
+    {
+      "gameDate": "2026-01-19",
+      "gameId": 2025020774,
+      "gameTypeId": 2,
+      "gamesStarted": 0,
+      "goalsAgainst": 0,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "MIN",
+      "penaltyMins": 0,
+      "savePctg": 1.0,
+      "shotsAgainst": 9,
+      "teamAbbrev": "TOR",
+      "toi": "19:24"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-01-17",
+      "gameId": 2025020762,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "WPG",
+      "penaltyMins": 0,
+      "savePctg": 0.9,
+      "shotsAgainst": 30,
+      "teamAbbrev": "TOR",
+      "toi": "63:08"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-01-13",
+      "gameId": 2025020733,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 6,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "UTA",
+      "penaltyMins": 0,
+      "savePctg": 0.853659,
+      "shotsAgainst": 41,
+      "teamAbbrev": "TOR",
+      "toi": "60:00"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-01-08",
+      "gameId": 2025020686,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "PHI",
+      "penaltyMins": 0,
+      "savePctg": 0.956522,
+      "shotsAgainst": 23,
+      "teamAbbrev": "TOR",
+      "toi": "62:41"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainstAvg": 5.5,
+      "leagueAbbrev": "U16 Div.2",
+      "savePctg": 0.842,
+      "season": 20152016,
+      "sequence": 165895,
+      "teamName": {
+        "default": "Åker/Strängnäs U16"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 5.25,
+      "leagueAbbrev": "J18 Div.1",
+      "savePctg": 0.889,
+      "season": 20162017,
+      "sequence": 57030,
+      "teamName": {
+        "default": "Hudiksvalls HC J18 2"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainstAvg": 3.25,
+      "leagueAbbrev": "U16 Div.1",
+      "savePctg": 0.896,
+      "season": 20162017,
+      "sequence": 209834,
+      "teamName": {
+        "default": "Hudiksvalls HC U16"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "U16 Div.1",
+      "savePctg": 0.926,
+      "season": 20162017,
+      "sequence": 209834,
+      "teamName": {
+        "default": "Hudiksvalls HC U16"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainst": 23,
+      "goalsAgainstAvg": 1.99,
+      "leagueAbbrev": "J18 Elit",
+      "losses": 5,
+      "savePctg": 0.929,
+      "season": 20172018,
+      "sequence": 11,
+      "shotsAgainst": 326,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Timrå IK U18"
+      },
+      "timeOnIce": "694:52",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 27,
+      "goalsAgainstAvg": 2.68,
+      "leagueAbbrev": "J18 Allsvenskan",
+      "losses": 3,
+      "savePctg": 0.899,
+      "season": 20172018,
+      "sequence": 12,
+      "shotsAgainst": 268,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Timrå IK U18"
+      },
+      "timeOnIce": "605:04",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainst": 23,
+      "goalsAgainstAvg": 1.99,
+      "leagueAbbrev": "J18 Region",
+      "losses": 5,
+      "savePctg": 0.929,
+      "season": 20172018,
+      "sequence": 7188,
+      "shotsAgainst": 326,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Timrå IK J18"
+      },
+      "timeOnIce": "694:52",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 27,
+      "goalsAgainstAvg": 2.68,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 3,
+      "savePctg": 0.899,
+      "season": 20172018,
+      "sequence": 7948,
+      "shotsAgainst": 268,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Timrå IK J18"
+      },
+      "timeOnIce": "605:04",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 2.51,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 1,
+      "savePctg": 0.857,
+      "season": 20172018,
+      "sequence": 7948,
+      "shotsAgainst": 35,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Timrå IK J18"
+      },
+      "timeOnIce": "119:43",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "goalsAgainst": 79,
+      "goalsAgainstAvg": 3.68,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 14,
+      "savePctg": 0.873,
+      "season": 20182019,
+      "sequence": 5909,
+      "shotsAgainst": 620,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Timrå IK J20"
+      },
+      "timeOnIce": "1287:57",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 3.5,
+      "leagueAbbrev": "J18 Region",
+      "losses": 1,
+      "savePctg": 0.881,
+      "season": 20182019,
+      "sequence": 7188,
+      "shotsAgainst": 59,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Timrå IK J18"
+      },
+      "timeOnIce": "120:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "goalsAgainst": 79,
+      "goalsAgainstAvg": 3.68,
+      "leagueAbbrev": "J20 SuperElit",
+      "losses": 14,
+      "savePctg": 0.873,
+      "season": 20182019,
+      "sequence": 7679,
+      "shotsAgainst": 620,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Timrå IK U20"
+      },
+      "timeOnIce": "1287:57",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 5.76,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 1,
+      "savePctg": 0.857,
+      "season": 20182019,
+      "sequence": 7948,
+      "shotsAgainst": 49,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Timrå IK J18"
+      },
+      "timeOnIce": "72:58",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 5.76,
+      "leagueAbbrev": "J18 Allsvenskan",
+      "losses": 1,
+      "savePctg": 0.857,
+      "season": 20182019,
+      "sequence": 8956,
+      "shotsAgainst": 49,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Timrå IK U18"
+      },
+      "timeOnIce": "72:58",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 3.5,
+      "leagueAbbrev": "J18 Elit",
+      "losses": 1,
+      "savePctg": 0.881,
+      "season": 20182019,
+      "sequence": 8957,
+      "shotsAgainst": 59,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Timrå IK U18"
+      },
+      "timeOnIce": "120:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 0,
+      "savePctg": 0.938,
+      "season": 20182019,
+      "sequence": 5909,
+      "shotsAgainst": 32,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Timrå IK J20"
+      },
+      "timeOnIce": "120:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "J20 SuperElit",
+      "losses": 0,
+      "savePctg": 0.938,
+      "season": 20182019,
+      "sequence": 7679,
+      "shotsAgainst": 32,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Timrå IK U20"
+      },
+      "timeOnIce": "120:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 27,
+      "goalsAgainst": 74,
+      "goalsAgainstAvg": 2.75,
+      "leagueAbbrev": "J20 SuperElit",
+      "losses": 10,
+      "savePctg": 0.911,
+      "season": 20192020,
+      "sequence": 5909,
+      "shotsAgainst": 829,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Timrå IK J20"
+      },
+      "timeOnIce": "1612:53",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 27,
+      "goalsAgainst": 74,
+      "goalsAgainstAvg": 2.75,
+      "leagueAbbrev": "J20 SuperElit",
+      "losses": 10,
+      "savePctg": 0.911,
+      "season": 20192020,
+      "sequence": 7679,
+      "shotsAgainst": 829,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Timrå IK U20"
+      },
+      "timeOnIce": "1612:53",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 3.26,
+      "leagueAbbrev": "HockeyEttan",
+      "losses": 2,
+      "savePctg": 0.913,
+      "season": 20202021,
+      "sequence": 4181,
+      "shotsAgainst": 46,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Linden Hockey"
+      },
+      "timeOnIce": "73:39",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 18,
+      "goalsAgainst": 56,
+      "goalsAgainstAvg": 3.1,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 11,
+      "savePctg": 0.911,
+      "season": 20202021,
+      "sequence": 5799,
+      "shotsAgainst": 627,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Färjestad BK J20"
+      },
+      "timeOnIce": "1085:33",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 18,
+      "goalsAgainst": 56,
+      "goalsAgainstAvg": 3.1,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 11,
+      "savePctg": 0.911,
+      "season": 20202021,
+      "sequence": 7569,
+      "shotsAgainst": 627,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Färjestad BK U20"
+      },
+      "timeOnIce": "1085:33",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "goalsAgainst": 11,
+      "goalsAgainstAvg": 1.93,
+      "leagueAbbrev": "SHL",
+      "losses": 2,
+      "savePctg": 0.931,
+      "season": 20212022,
+      "sequence": 839,
+      "shotsAgainst": 159,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Färjestad BK"
+      },
+      "timeOnIce": "342:09",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainst": 33,
+      "goalsAgainstAvg": 2.8,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 5,
+      "savePctg": 0.931,
+      "season": 20212022,
+      "sequence": 5799,
+      "shotsAgainst": 479,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Färjestad BK J20"
+      },
+      "timeOnIce": "707:16",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainst": 33,
+      "goalsAgainstAvg": 2.8,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 5,
+      "savePctg": 0.931,
+      "season": 20212022,
+      "sequence": 7569,
+      "shotsAgainst": 479,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Färjestad BK U20"
+      },
+      "timeOnIce": "707:16",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "goalsAgainst": 46,
+      "goalsAgainstAvg": 2.26,
+      "leagueAbbrev": "SHL",
+      "losses": 9,
+      "savePctg": 0.918,
+      "season": 20222023,
+      "sequence": 839,
+      "shotsAgainst": 561,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Färjestad BK"
+      },
+      "timeOnIce": "1221:33",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 5.28,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.849,
+      "season": 20222023,
+      "sequence": 13377,
+      "shotsAgainst": 53,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "90:56",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "SHL",
+      "losses": 0,
+      "savePctg": 1.0,
+      "season": 20222023,
+      "sequence": 839,
+      "shotsAgainst": 5,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Färjestad BK"
+      },
+      "timeOnIce": "11:53",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 1.0,
+      "season": 20222023,
+      "sequence": 13377,
+      "shotsAgainst": 2,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "11:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 41,
+      "goalsAgainst": 96,
+      "goalsAgainstAvg": 2.41,
+      "leagueAbbrev": "AHL",
+      "losses": 11,
+      "otLosses": 7,
+      "savePctg": 0.913,
+      "season": 20232024,
+      "sequence": 13377,
+      "shotsAgainst": 1098,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "2394:27",
+      "wins": 21
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 3.35,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 7,
+      "savePctg": 0.896,
+      "season": 20232024,
+      "sequence": 13377,
+      "shotsAgainst": 96,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "179:13",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 20,
+      "goalsAgainstAvg": 3.325788,
+      "leagueAbbrev": "NHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.878205,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 156,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Maple Leafs"
+      },
+      "teamName": {
+        "default": "Toronto Maple Leafs",
+        "fr": "Maple Leafs de Toronto"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Toronto",
+        "fr": "de Toronto"
+      },
+      "timeOnIce": "360:49",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 30,
+      "goalsAgainst": 72,
+      "goalsAgainstAvg": 2.55,
+      "leagueAbbrev": "AHL",
+      "losses": 9,
+      "otLosses": 4,
+      "savePctg": 0.908,
+      "season": 20242025,
+      "sequence": 13377,
+      "shotsAgainst": 781,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "1691:47",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 3.5,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 7,
+      "savePctg": 0.886,
+      "season": 20242025,
+      "sequence": 13377,
+      "shotsAgainst": 35,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "68:36",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "gamesStarted": 14,
+      "goals": 0,
+      "goalsAgainst": 48,
+      "goalsAgainstAvg": 2.855066,
+      "leagueAbbrev": "NHL",
+      "losses": 7,
+      "otLosses": 4,
+      "pim": 0,
+      "savePctg": 0.914234,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 548,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Maple Leafs"
+      },
+      "teamName": {
+        "default": "Toronto Maple Leafs",
+        "fr": "Maple Leafs de Toronto"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Toronto",
+        "fr": "de Toronto"
+      },
+      "timeOnIce": "1008:44",
+      "wins": 5
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 2.17,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 8,
+      "savePctg": 0.921,
+      "season": 20252026,
+      "sequence": 13377,
+      "shotsAgainst": 63,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Toronto Marlies"
+      },
+      "timeOnIce": "138:17",
+      "wins": 1
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8474590,
+      "lastName": {
+        "default": "Carlson"
+      },
+      "firstName": {
+        "default": "John"
+      },
+      "playerSlug": "john-carlson-8474590"
+    },
+    {
+      "playerId": 8478416,
+      "lastName": {
+        "default": "Cernak",
+        "cs": "Černák",
+        "sk": "Černák"
+      },
+      "firstName": {
+        "default": "Erik"
+      },
+      "playerSlug": "erik-cernak-8478416"
+    },
+    {
+      "playerId": 8478519,
+      "lastName": {
+        "default": "Cirelli"
+      },
+      "firstName": {
+        "default": "Anthony"
+      },
+      "playerSlug": "anthony-cirelli-8478519"
+    },
+    {
+      "playerId": 8481719,
+      "lastName": {
+        "default": "Crozier"
+      },
+      "firstName": {
+        "default": "Max"
+      },
+      "playerSlug": "max-crozier-8481719"
+    },
+    {
+      "playerId": 8480426,
+      "lastName": {
+        "default": "D'Astous"
+      },
+      "firstName": {
+        "default": "Charle-Edouard"
+      },
+      "playerSlug": "charle-edouard-d-astous-8480426"
+    },
+    {
+      "playerId": 8483447,
+      "lastName": {
+        "default": "Geekie"
+      },
+      "firstName": {
+        "default": "Conor"
+      },
+      "playerSlug": "conor-geekie-8483447"
+    },
+    {
+      "playerId": 8476878,
+      "lastName": {
+        "default": "Girgensons"
+      },
+      "firstName": {
+        "default": "Zemgus"
+      },
+      "playerSlug": "zemgus-girgensons-8476878"
+    },
+    {
+      "playerId": 8482201,
+      "lastName": {
+        "default": "Goncalves"
+      },
+      "firstName": {
+        "default": "Gage"
+      },
+      "playerSlug": "gage-goncalves-8482201"
+    },
+    {
+      "playerId": 8476826,
+      "lastName": {
+        "default": "Gourde"
+      },
+      "firstName": {
+        "default": "Yanni"
+      },
+      "playerSlug": "yanni-gourde-8476826"
+    },
+    {
+      "playerId": 8477404,
+      "lastName": {
+        "default": "Guentzel"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-guentzel-8477404"
+    },
+    {
+      "playerId": 8479542,
+      "lastName": {
+        "default": "Hagel"
+      },
+      "firstName": {
+        "default": "Brandon"
+      },
+      "playerSlug": "brandon-hagel-8479542"
+    },
+    {
+      "playerId": 8478424,
+      "lastName": {
+        "default": "Harkins"
+      },
+      "firstName": {
+        "default": "Jansen"
+      },
+      "playerSlug": "jansen-harkins-8478424"
+    },
+    {
+      "playerId": 8475167,
+      "lastName": {
+        "default": "Hedman"
+      },
+      "firstName": {
+        "default": "Victor"
+      },
+      "playerSlug": "victor-hedman-8475167"
+    },
+    {
+      "playerId": 8483710,
+      "lastName": {
+        "default": "Hildeby"
+      },
+      "firstName": {
+        "default": "Dennis"
+      },
+      "playerSlug": "dennis-hildeby-8483710"
+    },
+    {
+      "playerId": 8480995,
+      "lastName": {
+        "default": "Holmberg"
+      },
+      "firstName": {
+        "default": "Pontus"
+      },
+      "playerSlug": "pontus-holmberg-8480995"
+    },
+    {
+      "playerId": 8483752,
+      "lastName": {
+        "default": "James"
+      },
+      "firstName": {
+        "default": "Dominic"
+      },
+      "playerSlug": "dominic-james-8483752"
+    },
+    {
+      "playerId": 8476453,
+      "lastName": {
+        "default": "Kucherov",
+        "cs": "Kučerov",
+        "fi": "Kutsherov",
+        "sk": "Kučerov"
+      },
+      "firstName": {
+        "default": "Nikita"
+      },
+      "playerSlug": "nikita-kucherov-8476453"
+    },
+    {
+      "playerId": 8482929,
+      "lastName": {
+        "default": "Lilleberg"
+      },
+      "firstName": {
+        "default": "Emil"
+      },
+      "playerSlug": "emil-lilleberg-8482929"
+    },
+    {
+      "playerId": 8474151,
+      "lastName": {
+        "default": "McDonagh"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-mcdonagh-8474151"
+    },
+    {
+      "playerId": 8481624,
+      "lastName": {
+        "default": "Mikheyev",
+        "cs": "Michejev",
+        "fi": "Mihejev",
+        "sk": "Michejev"
+      },
+      "firstName": {
+        "default": "Ilya",
+        "cs": "Ilja",
+        "fi": "Ilja",
+        "sk": "Iľja"
+      },
+      "playerSlug": "ilya-mikheyev-8481624"
+    },
+    {
+      "playerId": 8482655,
+      "lastName": {
+        "default": "Moser"
+      },
+      "firstName": {
+        "default": "J.J."
+      },
+      "playerSlug": "j-j-moser-8482655"
+    },
+    {
+      "playerId": 8478010,
+      "lastName": {
+        "default": "Point"
+      },
+      "firstName": {
+        "default": "Brayden"
+      },
+      "playerSlug": "brayden-point-8478010"
+    },
+    {
+      "playerId": 8477149,
+      "lastName": {
+        "default": "Sabourin"
+      },
+      "firstName": {
+        "default": "Scott"
+      },
+      "playerSlug": "scott-sabourin-8477149"
+    },
+    {
+      "playerId": 8476883,
+      "lastName": {
+        "default": "Vasilevskiy",
+        "cs": "Vasilevskij",
+        "fi": "Vasilevski",
+        "sk": "Vasilevskij"
+      },
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "playerSlug": "andrei-vasilevskiy-8476883"
+    },
+    {
+      "playerId": 8479705,
+      "lastName": {
+        "default": "Viel"
+      },
+      "firstName": {
+        "default": "Jeffrey"
+      },
+      "playerSlug": "jeff-viel-8479705"
+    }
+  ]
+}

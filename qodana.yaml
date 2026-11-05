@@ -1,17 +1,48 @@
 version: "1.0"
 
-linter: qodana-python
+linter: qodana-python-community
 
 profile:
   name: qodana.recommended
 
 bootstrap: |
-  python -m pip install --upgrade pip==26.2.1
-  python -m pip install -r docs/win/football/cfb/requirements.txt
+  python -m pip install --upgrade pip
+  python -m pip install -r docs/win/hockey/nhl/requirements.txt
+
+onlyDirectory: docs/win/hockey/nhl
 
 exclude:
+  - name: DuplicatedCode
+    paths:
+      - docs/win/hockey/nhl/scripts/00_intake/hockey_drat_scraper.py
+      - docs/win/hockey/nhl/scripts/01_merge/build_juice_files.py
+      - docs/win/hockey/nhl/scripts/00_intake/name_normalization_common.py
+      - docs/win/hockey/nhl/scripts/00_intake/team_map_common.py
+      - docs/win/hockey/nhl/scripts/02_juice/apply_moneyline_juice.py
+      - docs/win/hockey/nhl/scripts/02_juice/apply_puck_line_juice.py
+      - docs/win/hockey/nhl/scripts/02_juice/apply_total_juice.py
+      - docs/win/hockey/nhl/scripts/05_final_scores/01_nhl_results_grade.py
+      - docs/win/hockey/nhl/scripts/05_final_scores/02_nhl_results_analyze.py
+      - docs/win/hockey/nhl/scripts/05_final_scores/03_nhl_results_reports.py
+  - name: PyTypeHintsInspection
+    paths:
+      - docs/win/hockey/nhl/scripts/research/evaluate_sdv_edge_microstats.py
+      - docs/win/hockey/nhl/scripts/00_intake/transform_hockey_odds.py
+      - docs/win/hockey/nhl/scripts/research/build_sdv_challenger.py
+      - docs/win/hockey/nhl/scripts/05_final_scores/transform_final_scores.py
+      - docs/win/hockey/nhl/scripts/00_intake/team_map_common.py
+      - docs/win/hockey/nhl/scripts/pipeline_health.py
+      - docs/win/hockey/nhl/scripts/tests/validate_pipeline.py
+      - docs/win/hockey/nhl/scripts/03_edges/edge_pipeline_common.py
+      - docs/win/hockey/nhl/scripts/02_juice/validate_juice_config.py
+      - docs/win/hockey/nhl/scripts/00_intake/hockey_drat_scraper.py
+      - docs/win/hockey/nhl/scripts/05_final_scores/04_nhl_clv.py
+      - docs/win/hockey/nhl/scripts/00_intake/pull_sdv.py
+      - docs/win/hockey/nhl/scripts/research/build_sdv_history.py
+      - docs/win/hockey/nhl/scripts/01_merge/merge_intake.py
+      - docs/win/hockey/nhl/scripts/00_intake/reconcile_game_ids.py
+      - docs/win/hockey/nhl/scripts/02_juice/juice_common.py
   - name: PyClassHasNoInitInspection
   - name: All
     paths:
-      - docs/win/football/cfb/05_backtest/output
-      - docs/win/football/cfb/archive
+      - docs/win/hockey/nhl/00_intake/predictions/archive

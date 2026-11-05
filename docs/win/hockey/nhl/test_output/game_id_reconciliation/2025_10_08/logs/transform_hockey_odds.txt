@@ -1,0 +1,21 @@
+=== transform_hockey_odds RUN 2026-11-05T03:03:19.444693-05:00 ===
+2026-11-05T03:03:19.444959-05:00 | Odds input directory: /tmp/nhl_game_id_reconciliation_2025_10_08_pyf2i579/docs/win/hockey/nhl/odds
+2026-11-05T03:03:19.444993-05:00 | JSON files found: 1
+2026-11-05T03:03:19.445184-05:00 | PRICE RECONCILED home_team_odds_current_spread_decimal: american=-167 raw_decimal=1.6 canonical_decimal=1.59880239520958
+2026-11-05T03:03:19.445251-05:00 | PRICE RECONCILED current_over_decimal: american=-110 raw_decimal=1.91 canonical_decimal=1.90909090909091
+2026-11-05T03:03:19.445288-05:00 | PRICE RECONCILED current_under_decimal: american=-110 raw_decimal=1.91 canonical_decimal=1.90909090909091
+2026-11-05T03:03:19.445355-05:00 | READ /tmp/nhl_game_id_reconciliation_2025_10_08_pyf2i579/docs/win/hockey/nhl/odds/2025_10_08.json | events=1 | provider_rows=1
+2026-11-05T03:03:19.445782-05:00 | WROTE /tmp/nhl_game_id_reconciliation_2025_10_08_pyf2i579/docs/win/hockey/nhl/00_intake/sportsbook/NHL_2025_10_08.csv rows=1
+2026-11-05T03:03:19.445839-05:00 | Provider priority: Titanbets -> MGM -> Bet365 -> Caesars Sportsbook -> SugarHouse -> others
+2026-11-05T03:03:19.445865-05:00 | Live Odds providers excluded from production selection
+2026-11-05T03:03:19.445887-05:00 | --- SUMMARY ---
+2026-11-05T03:03:19.445912-05:00 | csv_files_written: 1
+2026-11-05T03:03:19.445934-05:00 | events_found: 1
+2026-11-05T03:03:19.445967-05:00 | json_files_processed: 1
+2026-11-05T03:03:19.445990-05:00 | moneyline_provider:Titanbets: 1
+2026-11-05T03:03:19.446010-05:00 | odds_provider_rows_found: 1
+2026-11-05T03:03:19.446031-05:00 | puck_line_provider:Titanbets: 1
+2026-11-05T03:03:19.446052-05:00 | rows_added: 1
+2026-11-05T03:03:19.446072-05:00 | rows_built: 1
+2026-11-05T03:03:19.446093-05:00 | total_provider:Titanbets: 1
+2026-11-05T03:03:19.446113-05:00 | STATUS: SUCCESS

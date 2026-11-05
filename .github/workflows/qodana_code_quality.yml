@@ -1,49 +1,45 @@
-name: Qodana
+﻿name: Qodana
 
 on:
   workflow_dispatch:
   pull_request:
-    branches:
-      - main
   push:
     branches:
       - main
 
-permissions:
-  contents: read
-
 jobs:
   qodana:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+
+    permissions:
+      contents: write
+      pull-requests: write
+      checks: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         id: python
         uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: docs/win/football/cfb/requirements.txt
+          python-version: "3.11"
 
       - name: Qodana Scan
         uses: JetBrains/qodana-action@v2026.2
         with:
           args: |
-            --linter qodana-python
+            --linter qodana-python-community
             --within-docker false
-            --baseline .qodana/baseline.sarif.json
-            --only-directory docs/win/football/cfb
-          pr-mode: false
-          use-annotations: false
-          post-pr-comment: false
-          push-fixes: none
+            --clear-cache
+          use-caches: false
+          upload-result: true
+          artifact-name: qodana-clean-project-model
         env:
-          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_8361585 }}
-          QODANA_ENDPOINT: https://qodana.cloud
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_960613749 }}
+          QODANA_ENDPOINT: "https://qodana.cloud"
           QODANA_PYTHON_PATH: ${{ steps.python.outputs.python-path }}
-          PYTHONPATH: ${{ github.workspace }}/docs/win/football/cfb/scripts

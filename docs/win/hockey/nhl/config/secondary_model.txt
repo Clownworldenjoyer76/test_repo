@@ -1,0 +1,21 @@
+secondary_model controls whether your pipeline uses the newer SDV/challenger model as a gate on top of the main D-Ratings model.
+
+In your setup:
+
+secondary_model:
+  enabled: true
+
+means:
+
+D-Ratings is still the primary model
+a bet first has to qualify under your normal markets.yaml rules
+then the secondary model can block it only when model disagreement is unusually high
+if the secondary model is unavailable, the pipeline falls back to the primary D-Ratings decision instead of blocking the bet
+
+With:
+
+enabled: false
+
+the selector ignores the secondary-model gate and uses only the primary D-Ratings output plus your market filters.
+
+That is why your backtest file has it disabled: you wanted to evaluate the raw relationship between prob_bands, odds_bands, ev_bands, and kelly_bands without the secondary model filtering some candidates first.

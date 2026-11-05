@@ -1,0 +1,964 @@
+{
+  "playerId": 8480981,
+  "isActive": true,
+  "currentTeamId": 19,
+  "currentTeamAbbrev": "STL",
+  "fullTeamName": {
+    "default": "St. Louis Blues",
+    "fr": "Blues de St. Louis"
+  },
+  "teamCommonName": {
+    "default": "Blues"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "St. Louis",
+    "fr": "de St. Louis"
+  },
+  "firstName": {
+    "default": "Joel"
+  },
+  "lastName": {
+    "default": "Hofer"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+  "sweaterNumber": 30,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/STL/8480981.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8480981.jpg",
+  "heightInInches": 77,
+  "heightInCentimeters": 196,
+  "weightInPounds": 197,
+  "weightInKilograms": 89,
+  "birthDate": "2000-07-30",
+  "birthCity": {
+    "default": "Winnipeg"
+  },
+  "birthStateProvince": {
+    "default": "Manitoba"
+  },
+  "birthCountry": "CAN",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2018,
+    "teamAbbrev": "STL",
+    "round": 4,
+    "pickInRound": 14,
+    "overallPick": 107
+  },
+  "playerSlug": "joel-hofer-8480981",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 1,
+        "goalsAgainstAvg": 0.0,
+        "losses": 0,
+        "otLosses": 0,
+        "savePctg": 1.0,
+        "shutouts": 1,
+        "wins": 1
+      },
+      "career": {
+        "gamesPlayed": 116,
+        "goalsAgainstAvg": 2.642198,
+        "losses": 35,
+        "otLosses": 10,
+        "savePctg": 0.909384,
+        "shutouts": 9,
+        "wins": 60
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 4,
+      "gamesPlayed": 116,
+      "gamesStarted": 107,
+      "goals": 0,
+      "goalsAgainst": 283,
+      "goalsAgainstAvg": 2.642198,
+      "losses": 35,
+      "otLosses": 10,
+      "pim": 10,
+      "savePctg": 0.909384,
+      "shotsAgainst": 3101,
+      "shutouts": 9,
+      "timeOnIce": "6426:28",
+      "wins": 60
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "W",
+      "gameDate": "2026-10-02",
+      "gameId": 2026020020,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 0,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "DAL",
+      "penaltyMins": 0,
+      "savePctg": 1.0,
+      "shotsAgainst": 25,
+      "teamAbbrev": "STL",
+      "toi": "60:00"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainstAvg": 2.92,
+      "leagueAbbrev": "NAPHL 16U",
+      "savePctg": 0.89,
+      "season": 20152016,
+      "sequence": 61360,
+      "teamName": {
+        "default": "Pursuit of Excellence U16 AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 16,
+      "goalsAgainstAvg": 3.2,
+      "leagueAbbrev": "CSSHL U18",
+      "losses": 1,
+      "otLosses": 1,
+      "savePctg": 0.887,
+      "season": 20152016,
+      "sequence": 83926,
+      "shotsAgainst": 158,
+      "shutouts": 1,
+      "teamName": {
+        "default": "RINK Hockey Academy Kelowna U18"
+      },
+      "timeOnIce": "300:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 15,
+      "goalsAgainst": 26,
+      "goalsAgainstAvg": 1.74,
+      "leagueAbbrev": "CSSHL U17",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.937,
+      "season": 20152016,
+      "sequence": 100525,
+      "shotsAgainst": 413,
+      "shutouts": 5,
+      "teamName": {
+        "default": "RINK Hockey Academy Kelowna U17"
+      },
+      "timeOnIce": "895:00",
+      "wins": 12
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 3.5,
+      "leagueAbbrev": "CSSHL U17",
+      "savePctg": 0.879,
+      "season": 20152016,
+      "sequence": 100525,
+      "teamName": {
+        "default": "RINK Hockey Academy Kelowna U17"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 32,
+      "goalsAgainstAvg": 2.85,
+      "leagueAbbrev": "CSSHL U18",
+      "losses": 5,
+      "otLosses": 0,
+      "savePctg": 0.915,
+      "season": 20162017,
+      "sequence": 83926,
+      "shotsAgainst": 376,
+      "shutouts": 2,
+      "teamName": {
+        "default": "RINK Hockey Academy Kelowna U18"
+      },
+      "timeOnIce": "820:00",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 11,
+      "goalsAgainstAvg": 3.1,
+      "leagueAbbrev": "NAPHL 18U",
+      "savePctg": 0.883,
+      "season": 20162017,
+      "sequence": 112241,
+      "teamName": {
+        "default": "Pursuit of Excellence U18 AAA"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 8.0,
+      "leagueAbbrev": "CSSHL U18",
+      "savePctg": 0.826,
+      "season": 20162017,
+      "sequence": 83926,
+      "teamName": {
+        "default": "RINK Hockey Academy Kelowna U18"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 1.92,
+      "leagueAbbrev": "NAPHL 18U",
+      "savePctg": 0.918,
+      "season": 20162017,
+      "sequence": 112241,
+      "teamName": {
+        "default": "Pursuit of Excellence U18 AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainst": 39,
+      "goalsAgainstAvg": 2.61,
+      "leagueAbbrev": "WHL",
+      "losses": 3,
+      "otLosses": 2,
+      "savePctg": 0.914,
+      "season": 20172018,
+      "sequence": 9491,
+      "shotsAgainst": 456,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Swift Current Broncos"
+      },
+      "timeOnIce": "897:07",
+      "wins": 8
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.6,
+      "leagueAbbrev": "WHL",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.875,
+      "season": 20172018,
+      "sequence": 9491,
+      "shotsAgainst": 16,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Swift Current Broncos"
+      },
+      "timeOnIce": "46:04",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 4.11,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.886,
+      "season": 20182019,
+      "sequence": 8497,
+      "shotsAgainst": 35,
+      "shutouts": 0,
+      "teamName": {
+        "default": "San Antonio Rampage"
+      },
+      "timeOnIce": "58:26",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 18,
+      "goalsAgainst": 54,
+      "goalsAgainstAvg": 3.18,
+      "leagueAbbrev": "WHL",
+      "losses": 8,
+      "otLosses": 0,
+      "savePctg": 0.911,
+      "season": 20182019,
+      "sequence": 8511,
+      "shotsAgainst": 605,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Portland Winterhawks"
+      },
+      "timeOnIce": "1019:16",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 30,
+      "goalsAgainst": 121,
+      "goalsAgainstAvg": 4.02,
+      "leagueAbbrev": "WHL",
+      "losses": 21,
+      "otLosses": 3,
+      "savePctg": 0.904,
+      "season": 20182019,
+      "sequence": 9491,
+      "shotsAgainst": 1257,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Swift Current Broncos"
+      },
+      "timeOnIce": "1805:34",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 21,
+      "goalsAgainstAvg": 4.03,
+      "leagueAbbrev": "WHL",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.871,
+      "season": 20182019,
+      "sequence": 8511,
+      "shotsAgainst": 163,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Portland Winterhawks"
+      },
+      "timeOnIce": "312:24",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 48,
+      "goalsAgainst": 118,
+      "goalsAgainstAvg": 2.49,
+      "leagueAbbrev": "WHL",
+      "losses": 8,
+      "otLosses": 5,
+      "savePctg": 0.915,
+      "season": 20192020,
+      "sequence": 8511,
+      "shotsAgainst": 1383,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Portland Winterhawks"
+      },
+      "timeOnIce": "2839:00",
+      "wins": 34
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 1.3,
+      "leagueAbbrev": "WJC-20",
+      "losses": 0,
+      "savePctg": 0.946,
+      "season": 20192020,
+      "sequence": 17216,
+      "shotsAgainst": 148,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Canada U20"
+      },
+      "timeOnIce": "337:42",
+      "wins": 5
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 31,
+      "goalsAgainstAvg": 3.33,
+      "leagueAbbrev": "AHL",
+      "losses": 6,
+      "otLosses": 0,
+      "savePctg": 0.898,
+      "season": 20202021,
+      "sequence": 152247,
+      "shotsAgainst": 303,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "558:13",
+      "wins": 4
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 3.072982,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.88,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 50,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "St. Louis",
+        "fr": "de St. Louis"
+      },
+      "timeOnIce": "117:09",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 39,
+      "goalsAgainst": 111,
+      "goalsAgainstAvg": 2.96,
+      "leagueAbbrev": "AHL",
+      "losses": 14,
+      "otLosses": 2,
+      "savePctg": 0.905,
+      "season": 20212022,
+      "sequence": 39667,
+      "shotsAgainst": 1171,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Springfield Thunderbirds"
+      },
+      "timeOnIce": "2252:28",
+      "wins": 18
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 10,
+      "goalsAgainst": 26,
+      "goalsAgainstAvg": 2.56,
+      "leagueAbbrev": "AHL",
+      "losses": 4,
+      "otLosses": 8,
+      "savePctg": 0.934,
+      "season": 20212022,
+      "sequence": 39667,
+      "shotsAgainst": 391,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Springfield Thunderbirds"
+      },
+      "timeOnIce": "608:46",
+      "wins": 6
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 17,
+      "goalsAgainstAvg": 3.215635,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 1,
+      "savePctg": 0.905028,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 179,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "St. Louis",
+        "fr": "de St. Louis"
+      },
+      "timeOnIce": "317:12",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 1.46,
+      "leagueAbbrev": "WC",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.925,
+      "season": 20222023,
+      "sequence": 17155,
+      "shotsAgainst": 40,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Canada"
+      },
+      "timeOnIce": "123:33",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 47,
+      "goalsAgainst": 116,
+      "goalsAgainstAvg": 2.5,
+      "leagueAbbrev": "AHL",
+      "losses": 15,
+      "otLosses": 5,
+      "savePctg": 0.921,
+      "season": 20222023,
+      "sequence": 39667,
+      "shotsAgainst": 1473,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Springfield Thunderbirds"
+      },
+      "timeOnIce": "2779:46",
+      "wins": 27
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 5.25,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 5,
+      "savePctg": 0.853,
+      "season": 20222023,
+      "sequence": 39667,
+      "shotsAgainst": 68,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Springfield Thunderbirds"
+      },
+      "timeOnIce": "114:16",
+      "wins": 0
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 30,
+      "gamesStarted": 27,
+      "goals": 0,
+      "goalsAgainst": 72,
+      "goalsAgainstAvg": 2.652502,
+      "leagueAbbrev": "NHL",
+      "losses": 12,
+      "otLosses": 1,
+      "pim": 4,
+      "savePctg": 0.914458,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 830,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "St. Louis",
+        "fr": "de St. Louis"
+      },
+      "timeOnIce": "1628:39",
+      "wins": 15
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.0,
+      "leagueAbbrev": "WC",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.867,
+      "season": 20232024,
+      "sequence": 17155,
+      "shotsAgainst": 15,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Canada"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 31,
+      "gamesStarted": 28,
+      "goals": 0,
+      "goalsAgainst": 74,
+      "goalsAgainstAvg": 2.644718,
+      "leagueAbbrev": "NHL",
+      "losses": 8,
+      "otLosses": 3,
+      "pim": 2,
+      "savePctg": 0.90352,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 767,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "St. Louis",
+        "fr": "de St. Louis"
+      },
+      "timeOnIce": "1678:49",
+      "wins": 16
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 46,
+      "gamesStarted": 43,
+      "goals": 0,
+      "goalsAgainst": 114,
+      "goalsAgainstAvg": 2.606062,
+      "leagueAbbrev": "NHL",
+      "losses": 13,
+      "otLosses": 5,
+      "pim": 4,
+      "savePctg": 0.9096,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 1250,
+      "shutouts": 6,
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "St. Louis",
+        "fr": "de St. Louis"
+      },
+      "timeOnIce": "2624:39",
+      "wins": 24
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "NHL",
+      "losses": 0,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 1.0,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 25,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "St. Louis",
+        "fr": "de St. Louis"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8482111,
+      "lastName": {
+        "default": "Barron"
+      },
+      "firstName": {
+        "default": "Justin"
+      },
+      "playerSlug": "justin-barron-8482111"
+    },
+    {
+      "playerId": 8481013,
+      "lastName": {
+        "default": "Berggren"
+      },
+      "firstName": {
+        "default": "Jonatan"
+      },
+      "playerSlug": "jonatan-berggren-8481013"
+    },
+    {
+      "playerId": 8476412,
+      "lastName": {
+        "default": "Binnington"
+      },
+      "firstName": {
+        "default": "Jordan"
+      },
+      "playerSlug": "jordan-binnington-8476412"
+    },
+    {
+      "playerId": 8481598,
+      "lastName": {
+        "default": "Broberg"
+      },
+      "firstName": {
+        "default": "Philip"
+      },
+      "playerSlug": "philip-broberg-8481598"
+    },
+    {
+      "playerId": 8477402,
+      "lastName": {
+        "default": "Buchnevich",
+        "cs": "Bučněvič",
+        "fi": "Butshnevitsh",
+        "sk": "Bučněvič"
+      },
+      "firstName": {
+        "default": "Pavel"
+      },
+      "playerSlug": "pavel-buchnevich-8477402"
+    },
+    {
+      "playerId": 8478443,
+      "lastName": {
+        "default": "Carlo"
+      },
+      "firstName": {
+        "default": "Brandon"
+      },
+      "playerSlug": "brandon-carlo-8478443"
+    },
+    {
+      "playerId": 8482784,
+      "lastName": {
+        "default": "Dean"
+      },
+      "firstName": {
+        "default": "Zach"
+      },
+      "playerSlug": "zach-dean-8482784"
+    },
+    {
+      "playerId": 8479346,
+      "lastName": {
+        "default": "Dube"
+      },
+      "firstName": {
+        "default": "Dillon"
+      },
+      "playerSlug": "dillon-dube-8479346"
+    },
+    {
+      "playerId": 8484164,
+      "lastName": {
+        "default": "Dvorsky"
+      },
+      "firstName": {
+        "default": "Dalibor"
+      },
+      "playerSlug": "dalibor-dvorsky-8484164"
+    },
+    {
+      "playerId": 8475764,
+      "lastName": {
+        "default": "Fowler"
+      },
+      "firstName": {
+        "default": "Cam"
+      },
+      "playerSlug": "cam-fowler-8475764"
+    },
+    {
+      "playerId": 8480981,
+      "lastName": {
+        "default": "Hofer"
+      },
+      "firstName": {
+        "default": "Joel"
+      },
+      "playerSlug": "joel-hofer-8480981"
+    },
+    {
+      "playerId": 8482077,
+      "lastName": {
+        "default": "Holloway"
+      },
+      "firstName": {
+        "default": "Dylan"
+      },
+      "playerSlug": "dylan-holloway-8482077"
+    },
+    {
+      "playerId": 8484790,
+      "lastName": {
+        "default": "Jiricek"
+      },
+      "firstName": {
+        "default": "Adam"
+      },
+      "playerSlug": "adam-jiricek-8484790"
+    },
+    {
+      "playerId": 8477527,
+      "lastName": {
+        "default": "Johnston"
+      },
+      "firstName": {
+        "default": "Ross"
+      },
+      "playerSlug": "ross-johnston-8477527"
+    },
+    {
+      "playerId": 8484188,
+      "lastName": {
+        "default": "Lindstein"
+      },
+      "firstName": {
+        "default": "Theo"
+      },
+      "playerSlug": "theo-lindstein-8484188"
+    },
+    {
+      "playerId": 8482733,
+      "lastName": {
+        "default": "Mailloux"
+      },
+      "firstName": {
+        "default": "Logan"
+      },
+      "playerSlug": "logan-mailloux-8482733"
+    },
+    {
+      "playerId": 8481580,
+      "lastName": {
+        "default": "McMichael"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-mcmichael-8481580"
+    },
+    {
+      "playerId": 8482745,
+      "lastName": {
+        "default": "McTavish"
+      },
+      "firstName": {
+        "default": "Mason"
+      },
+      "playerSlug": "mason-mctavish-8482745"
+    },
+    {
+      "playerId": 8482089,
+      "lastName": {
+        "default": "Neighbours"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-neighbours-8482089"
+    },
+    {
+      "playerId": 8476892,
+      "lastName": {
+        "default": "Parayko"
+      },
+      "firstName": {
+        "default": "Colton"
+      },
+      "playerSlug": "colton-parayko-8476892"
+    },
+    {
+      "playerId": 8483516,
+      "lastName": {
+        "default": "Snuggerud"
+      },
+      "firstName": {
+        "default": "Jimmy"
+      },
+      "playerSlug": "jimmy-snuggerud-8483516"
+    },
+    {
+      "playerId": 8480459,
+      "lastName": {
+        "default": "Suter"
+      },
+      "firstName": {
+        "default": "Pius"
+      },
+      "playerSlug": "pius-suter-8480459"
+    },
+    {
+      "playerId": 8480023,
+      "lastName": {
+        "default": "Thomas"
+      },
+      "firstName": {
+        "default": "Robert"
+      },
+      "playerSlug": "robert-thomas-8480023"
+    },
+    {
+      "playerId": 8480281,
+      "lastName": {
+        "default": "Toropchenko",
+        "cs": "Toropčenko",
+        "fi": "Toroptshenko",
+        "sk": "Toropčenko"
+      },
+      "firstName": {
+        "default": "Alexey",
+        "cs": "Alexej",
+        "de": "Alexei",
+        "es": "Alexei",
+        "fi": "Aleksei",
+        "sk": "Alexej",
+        "sv": "Alexei"
+      },
+      "playerSlug": "alexey-toropchenko-8480281"
+    },
+    {
+      "playerId": 8481006,
+      "lastName": {
+        "default": "Tucker"
+      },
+      "firstName": {
+        "default": "Tyler"
+      },
+      "playerSlug": "tyler-tucker-8481006"
+    }
+  ]
+}

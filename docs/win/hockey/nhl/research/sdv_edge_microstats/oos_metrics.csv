@@ -1,0 +1,7 @@
+candidate,model,metric,value,baseline_value,delta_candidate_minus_baseline,oos_rows,incremental_value,status,reason
+shot_microstats,candidate,ml_brier,0.24306248555727136,0.24039094561926314,0.002671539938008227,5126,NOT_DEMONSTRATED,evaluated,
+shot_microstats,candidate,ml_log_loss,0.6792278974796668,0.6735632700504295,0.0056646274292373455,5126,NOT_DEMONSTRATED,evaluated,
+shot_microstats,candidate,margin_mae,1.8711282985620126,1.8681785046254353,0.0029497939365772385,5126,NOT_DEMONSTRATED,evaluated,
+shot_microstats,candidate,margin_rmse,2.2333090178070676,2.2194642311609107,0.013844786646156848,5126,NOT_DEMONSTRATED,evaluated,
+shot_microstats,candidate,total_mae,1.6116228729126794,1.5859644054348423,0.025658467477837066,5126,NOT_DEMONSTRATED,evaluated,
+shot_microstats,candidate,total_rmse,1.9927621471613315,1.9724625688131658,0.020299578348165648,5126,NOT_DEMONSTRATED,evaluated,
