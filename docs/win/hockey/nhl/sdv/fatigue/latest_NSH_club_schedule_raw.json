@@ -1,6 +1,10 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
+  "howToWatch": {
+    "url": "https://www.nhl.com/predators/multimedia/broadcast",
+    "text": "How to Watch"
+  },
   "clubTimezone": "US/Central",
   "clubUTCOffset": "-05:00",
   "games": [
@@ -1235,7 +1239,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1269,7 +1273,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+        "score": 0
       },
       "homeTeam": {
         "id": 6,
@@ -1287,15 +1291,43 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC4FA79D5?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC4FA79D5?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480022,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "DiPietro",
+          "cs": "Dipietro",
+          "de": "Dipietro",
+          "es": "Dipietro",
+          "fi": "Dipietro",
+          "sk": "Dipietro",
+          "sv": "Dipietro"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8479999,
+        "firstInitial": {
+          "default": "C."
+        },
+        "lastName": {
+          "default": "Mittelstadt"
+        }
+      },
+      "threeMinRecap": "/video/nsh-at-bos-recap-6407265065112",
+      "threeMinRecapFr": "/fr/video/nsh-vs-bos-22-10-2026-resume-6407266932112",
+      "condensedGame": "/video/nsh-at-bos-condensed-game-6407267896112",
       "gameCenterLink": "/gamecenter/nsh-vs-bos/2026/10/22/2026020154"
     },
     {
@@ -1311,7 +1343,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1345,13 +1377,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 5,
@@ -1369,21 +1399,43 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.nhl.com/penguins/tickets/promotional-schedule",
-        "promoDesc": "Iceburgh Building Blocks Set | Presented by PPG | First 7,500 Fans",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 4,
+        "periodType": "OT",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/160064EAF583B8AA?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM5&camefrom=NHLPENGUINS_WEB_SCHEDULE",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF583B8AA?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM5&camefrom=NHLPENGUINS_WEB_SCHEDULE",
+      "gameOutcome": {
+        "lastPeriodType": "OT"
+      },
+      "winningGoalie": {
+        "playerId": 8481668,
+        "firstInitial": {
+          "default": "A."
+        },
+        "lastName": {
+          "default": "Silovs",
+          "cs": "Šilovs",
+          "sk": "Šilovs"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8482758,
+        "firstInitial": {
+          "default": "V."
+        },
+        "lastName": {
+          "default": "Koivunen"
+        }
+      },
+      "threeMinRecap": "/video/nsh-at-pit-recap-6407362521112",
+      "threeMinRecapFr": "/fr/video/nsh-vs-pit-24-10-2026-resume-6407363083112",
+      "condensedGame": "/video/nsh-at-pit-condensed-game-6407361314112",
       "gameCenterLink": "/gamecenter/nsh-vs-pit/2026/10/24/2026020172"
     },
     {
@@ -1399,7 +1451,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1433,13 +1485,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 18,
@@ -1457,21 +1507,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.gofevo.com/event/262761?ref=Web&utm_source=Web&utm_medium=FEVO&utm_campaign=2627Preds",
-        "promoDesc": "Faith & Family Night",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507EFFAE44B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM6&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507EFFAE44B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM6&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481020,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Annunen"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8475158,
+        "firstInitial": {
+          "default": "R."
+        },
+        "lastName": {
+          "default": "O'Reilly"
+        }
+      },
+      "threeMinRecap": "/video/col-at-nsh-recap-6407404354112",
+      "threeMinRecapFr": "/fr/video/col-vs-nsh-25-10-2026-resume-6407403178112",
+      "condensedGame": "/video/col-at-nsh-condensed-game-6407403179112",
       "gameCenterLink": "/gamecenter/col-vs-nsh/2026/10/25/2026020183"
     },
     {
@@ -1487,7 +1557,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1528,13 +1598,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20262027/NYI-radio.m3u8",
         "airlineLink": "https://www.jetblue.com/?utm_source=nyi_website&utm_medium=schedulepage&utm_campaign=nyi_belmontdepositcampaign&utm_content=jetblueicon",
         "airlineDesc": "Fly JetBlue",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "homeTeam": {
         "id": 18,
@@ -1552,21 +1620,32 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.gofevo.com/event/Starwars345?ref=Web&utm_source=Web&utm_medium=FEVO&utm_campaign=2627Preds",
-        "promoDesc": "Star Wars Night",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 5,
+        "periodType": "SO",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507F000E459?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM7&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM7",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F000E459?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM7&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "SO"
+      },
+      "winningGoalie": {
+        "playerId": 8473575,
+        "firstInitial": {
+          "default": "S."
+        },
+        "lastName": {
+          "default": "Varlamov"
+        }
+      },
+      "threeMinRecap": "/video/nyi-at-nsh-recap-6407510425112",
+      "threeMinRecapFr": "/fr/video/nyi-vs-nsh-27-10-2026-resume-6407507765112",
+      "condensedGame": "/video/nyi-at-nsh-condensed-game-6407509523112",
       "gameCenterLink": "/gamecenter/nyi-vs-nsh/2026/10/27/2026020192"
     },
     {
@@ -1582,7 +1661,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1616,13 +1695,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8",
         "airlineLink": "https://www.united.com/en/us?utm_source=washcaps_schedulepage&utm_medium=web_organic&utm_campaign=2627_washcaps&utm_content=united",
         "airlineDesc": "Fly with United Airlines",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "homeTeam": {
         "id": 18,
@@ -1640,21 +1717,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.ticketmaster.com/event/1B006507F005E46B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM8&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM8",
-        "promoDesc": "Golden Hall Induction",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507F005E46B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM8&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM8",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F005E46B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM8&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM8",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8479292,
+        "firstInitial": {
+          "default": "C."
+        },
+        "lastName": {
+          "default": "Lindgren"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8477949,
+        "firstInitial": {
+          "default": "A."
+        },
+        "lastName": {
+          "default": "Tuch"
+        }
+      },
+      "threeMinRecap": "/video/wsh-at-nsh-recap-6407635911112",
+      "threeMinRecapFr": "/fr/video/wsh-vs-nsh-29-10-2026-resume-6407636126112",
+      "condensedGame": "/video/wsh-at-nsh-condensed-game-6407636702112",
       "gameCenterLink": "/gamecenter/wsh-vs-nsh/2026/10/29/2026020208"
     },
     {
@@ -1670,7 +1767,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1704,13 +1801,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "homeTeam": {
         "id": 18,
@@ -1728,21 +1823,32 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM9&utm_source=NHL.com&utm_medium=PredsWeb&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM9&_gl=1*d014lk*_ga*MjE0MzQ2OTg0LjE3NjgyNTIyMDA.*_ga_XZHCNEQSGP*czE3ODgyODE3NzMkbzYwMyRnMSR0MTc4ODI4MTc5NiRqMzckbDAkaDA.*_gcl_au*MTEyMjIyODE3OC4xNzgzMjY3MDg0Li0uLS4xNzg1ODU3MTAzLjI4Njg5ODYxOC4xNzg1ODU3MTA0LjE3ODU4NTcxMDM.*_ga_MB8CF1F45B*czE3ODgyODE3NzMkbzU5NyRnMSR0MTc4ODI4MTc4OSRqNDQkbDAkaDA.",
-        "promoDesc": "Halloween",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 5
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 5,
+        "periodType": "SO",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM9&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM9",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM9&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM9",
+      "gameOutcome": {
+        "lastPeriodType": "SO"
+      },
+      "winningGoalie": {
+        "playerId": 8481020,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Annunen"
+        }
+      },
+      "threeMinRecap": "/video/tbl-at-nsh-recap-6407724249112",
+      "threeMinRecapFr": "/fr/video/tbl-vs-nsh-31-10-2026-resume-6407725041112",
+      "condensedGame": "/video/tbl-at-nsh-condensed-game-6407724342112",
       "gameCenterLink": "/gamecenter/tbl-vs-nsh/2026/10/31/2026020219"
     },
     {
@@ -1758,7 +1864,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1807,13 +1913,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 1
       },
       "homeTeam": {
         "id": 18,
@@ -1831,21 +1935,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://predators.spinzo.com/nashville-predators-vs-carolina-hurricanes-2026-11-03-SPRNZ?group=hockey-fights-cancer-night-7jjk&affiliate=web-jyg7&utm_source=Preds Web&utm_medium=Spinzo&utm_campaign=2627Preds",
-        "promoDesc": "Pekka Rinne HOF Celebration & Hockey Fights Cancer",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507F012E48A?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM10&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM10",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F012E48A?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM10&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM10",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8477424,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Saros"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8474600,
+        "firstInitial": {
+          "default": "R."
+        },
+        "lastName": {
+          "default": "Josi"
+        }
+      },
+      "threeMinRecap": "/video/car-at-nsh-recap-6407883604112",
+      "threeMinRecapFr": "/fr/video/car-vs-nsh-03-11-2026-resume-6407881747112",
+      "condensedGame": "/video/car-at-nsh-condensed-game-6407882516112",
       "gameCenterLink": "/gamecenter/car-vs-nsh/2026/11/03/2026020245"
     },
     {
@@ -3146,11 +3270,11 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 283,
+          "id": 549,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
+          "network": "SN+",
+          "sequenceNumber": 117
         },
         {
           "id": 521,
@@ -3242,7 +3366,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-09T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4370,7 +4494,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-08T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6767,7 +6891,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-12T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6843,7 +6967,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-13T20:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",

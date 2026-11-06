@@ -1543,7 +1543,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Vancouver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1577,7 +1577,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
+        "score": 5
       },
       "homeTeam": {
         "id": 23,
@@ -1595,15 +1595,37 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+        "score": 2
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.ca/event/11006503F091BB53?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F091BB53?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8476434,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Gibson"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8482078,
+        "firstInitial": {
+          "default": "L."
+        },
+        "lastName": {
+          "default": "Raymond"
+        }
+      },
+      "threeMinRecap": "/video/det-at-van-recap-6407276497112",
+      "threeMinRecapFr": "/fr/video/det-vs-van-22-10-2026-resume-6407276296112",
+      "condensedGame": "/video/det-at-van-condensed-game-6407277003112",
       "gameCenterLink": "/gamecenter/det-vs-van/2026/10/22/2026020165"
     },
     {
@@ -1619,7 +1641,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Vancouver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1660,7 +1682,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
+        "score": 4
       },
       "homeTeam": {
         "id": 23,
@@ -1678,15 +1700,37 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+        "score": 2
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.ca/event/11006503F097BB64?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F097BB64?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8475717,
+        "firstInitial": {
+          "default": "C."
+        },
+        "lastName": {
+          "default": "Pickard"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8480800,
+        "firstInitial": {
+          "default": "Q."
+        },
+        "lastName": {
+          "default": "Hughes"
+        }
+      },
+      "threeMinRecap": "/video/min-at-van-recap-6407406406112",
+      "threeMinRecapFr": "/fr/video/min-vs-van-25-10-2026-resume-6407405925112",
+      "condensedGame": "/video/min-at-van-condensed-game-6407407583112",
       "gameCenterLink": "/gamecenter/min-vs-van/2026/10/25/2026020184"
     },
     {
@@ -1702,7 +1746,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Los_Angeles",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1743,13 +1787,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8",
         "airlineLink": "https://www.aircanada.com/?utm_source=canuckscom&utm_medium=calendar",
         "airlineDesc": "Book with Air Canada",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 6
       },
       "homeTeam": {
         "id": 24,
@@ -1767,21 +1809,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.nhl.com/ducks/fans/promotional-schedule",
-        "promoDesc": "Native American  Heritage Hat Giveaway presented by Yuhaaviatam of San Manuel Nation",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20262027/ANA-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 5
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 4,
+        "periodType": "OT",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/090064EA2CBB8427?brand=ducks&artistid=805893&wt.mc_id=NHL_TEAM_ANA_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_ANA&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/090064EA2CBB8427?brand=ducks&artistid=805893&wt.mc_id=NHL_TEAM_ANA_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_ANA&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "OT"
+      },
+      "winningGoalie": {
+        "playerId": 8482447,
+        "firstInitial": {
+          "default": "L."
+        },
+        "lastName": {
+          "default": "Meriläinen"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8479425,
+        "firstInitial": {
+          "default": "F."
+        },
+        "lastName": {
+          "default": "Hronek"
+        }
+      },
+      "threeMinRecap": "/video/van-at-ana-recap-6407514091112",
+      "threeMinRecapFr": "/fr/video/van-vs-ana-27-10-2026-resume-6407512998112",
+      "condensedGame": "/video/van-at-ana-condensed-game-6407513281112",
       "gameCenterLink": "/gamecenter/van-vs-ana/2026/10/27/2026020197"
     },
     {
@@ -1799,7 +1861,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "US/Pacific",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1833,9 +1895,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8",
         "airlineLink": "https://www.aircanada.com/?utm_source=canuckscom&utm_medium=calendar",
-        "airlineDesc": "Book with Air Canada"
+        "airlineDesc": "Book with Air Canada",
+        "score": 2
       },
       "homeTeam": {
         "id": 28,
@@ -1853,18 +1915,39 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://teal.sjsharks.com/trk/Fpmqc",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
         "hotelLink": "https://teal.sjsharks.com/trk/ibdqc",
-        "hotelDesc": "Rest Easy at San Jose Marriott"
+        "hotelDesc": "Rest Easy at San Jose Marriott",
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1C0064E79ACB9B69?brand=sharks&artistid=806018&wt.mc_id=NHL_TEAM_SJS_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_SJS&utm_content=SCHEDULE_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1C0064E79ACB9B69?brand=sharks&artistid=806018&wt.mc_id=NHL_TEAM_SJS_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_SJS&utm_content=SCHEDULE_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8482137,
+        "firstInitial": {
+          "default": "Y."
+        },
+        "lastName": {
+          "default": "Askarov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8478975,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "Marchment"
+        }
+      },
+      "threeMinRecap": "/video/van-at-sjs-recap-6407639953112",
+      "threeMinRecapFr": "/fr/video/van-vs-sjs-29-10-2026-resume-6407641512112",
+      "condensedGame": "/video/van-at-sjs-condensed-game-6407640814112",
       "gameCenterLink": "/gamecenter/van-vs-sjs/2026/10/29/2026020213"
     },
     {
@@ -1880,7 +1963,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Vancouver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1907,9 +1990,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8",
         "hotelLink": "https://marriott.com/search/findHotels.mi?destinationAddress.destination=ROGERS+ARENA,+VANCOUVER,+BRITISH+COLUMBIA&cid=DIS_GLB000791Q_GLE000HJ7H_GLF0017UVZ",
-        "hotelDesc": "Book Now"
+        "hotelDesc": "Book Now",
+        "score": 4
       },
       "homeTeam": {
         "id": 23,
@@ -1927,15 +2010,43 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+        "score": 2
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.ca/event/11006503F09CBB6E?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM7",
-      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F09CBB6E?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8476932,
+        "firstInitial": {
+          "default": "A."
+        },
+        "lastName": {
+          "default": "Stolarz"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8479772,
+        "firstInitial": {
+          "default": "Z."
+        },
+        "lastName": {
+          "default": "MacEwen",
+          "cs": "Macewen",
+          "de": "Macewen",
+          "es": "Macewen",
+          "fi": "Macewen",
+          "sk": "Macewen",
+          "sv": "Macewen"
+        }
+      },
+      "threeMinRecap": "/video/tor-at-van-recap-6407732739112",
+      "threeMinRecapFr": "/fr/video/tor-vs-van-31-10-2026-resume-6407733421112",
+      "condensedGame": "/video/tor-at-van-condensed-game-6407732637112",
       "gameCenterLink": "/gamecenter/tor-vs-van/2026/10/31/2026020224"
     },
     {
@@ -1951,7 +2062,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Vancouver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1985,7 +2096,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20262027/ANA-radio.m3u8"
+        "score": 5
       },
       "homeTeam": {
         "id": 23,
@@ -2003,15 +2114,37 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+        "score": 4
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.ca/event/11006503F0A2BB81?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM8",
-      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F0A2BB81?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM8",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8476316,
+        "firstInitial": {
+          "default": "L."
+        },
+        "lastName": {
+          "default": "Brossoit"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8483445,
+        "firstInitial": {
+          "default": "C."
+        },
+        "lastName": {
+          "default": "Gauthier"
+        }
+      },
+      "threeMinRecap": "/video/ana-at-van-recap-6407884801112",
+      "threeMinRecapFr": "/fr/video/ana-vs-van-03-11-2026-resume-6407886024112",
+      "condensedGame": "/video/ana-at-van-condensed-game-6407884185112",
       "gameCenterLink": "/gamecenter/ana-vs-van/2026/11/03/2026020246"
     },
     {
@@ -2025,7 +2158,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-06T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2103,7 +2236,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-08T03:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3846,7 +3979,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-27T03:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",

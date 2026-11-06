@@ -1,6 +1,10 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
+  "howToWatch": {
+    "url": "https://www.nhl.com/bruins/team/broadcast-schedule",
+    "text": "Where to Watch"
+  },
   "clubTimezone": "US/Eastern",
   "clubUTCOffset": "-04:00",
   "games": [
@@ -1500,7 +1504,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1534,7 +1538,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+        "score": 0
       },
       "homeTeam": {
         "id": 6,
@@ -1552,15 +1556,43 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC4FA79D5?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC4FA79D5?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480022,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "DiPietro",
+          "cs": "Dipietro",
+          "de": "Dipietro",
+          "es": "Dipietro",
+          "fi": "Dipietro",
+          "sk": "Dipietro",
+          "sv": "Dipietro"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8479999,
+        "firstInitial": {
+          "default": "C."
+        },
+        "lastName": {
+          "default": "Mittelstadt"
+        }
+      },
+      "threeMinRecap": "/video/nsh-at-bos-recap-6407265065112",
+      "threeMinRecapFr": "/fr/video/nsh-vs-bos-22-10-2026-resume-6407266932112",
+      "condensedGame": "/video/nsh-at-bos-condensed-game-6407267896112",
       "gameCenterLink": "/gamecenter/nsh-vs-bos/2026/10/22/2026020154"
     },
     {
@@ -1576,7 +1608,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1610,7 +1642,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+        "score": 4
       },
       "homeTeam": {
         "id": 6,
@@ -1628,15 +1660,37 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC4FF79F2?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC4FF79F2?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480280,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Swayman"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8483489,
+        "firstInitial": {
+          "default": "F."
+        },
+        "lastName": {
+          "default": "Minten"
+        }
+      },
+      "threeMinRecap": "/video/sjs-at-bos-recap-6407362017112",
+      "threeMinRecapFr": "/fr/video/sjs-vs-bos-24-10-2026-resume-6407362015112",
+      "condensedGame": "/video/sjs-at-bos-condensed-game-6407363664112",
       "gameCenterLink": "/gamecenter/sjs-vs-bos/2026/10/24/2026020170"
     },
     {
@@ -1652,7 +1706,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1686,13 +1740,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 1
       },
       "homeTeam": {
         "id": 12,
@@ -1711,21 +1763,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.sportsgirlsclub.com/event-details/carolina-hurricanes-x-sgc-2026",
-        "promoDesc": "SGC Ticket Pack",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://cmchotels.com/hurricanes/",
-        "hotelDesc": "CMC Hotels"
+        "hotelDesc": "CMC Hotels",
+        "score": 2
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD5BD1A0?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD5BD1A0?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481611,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kochetkov",
+          "fi": "Kotshetkov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8478427,
+        "firstInitial": {
+          "default": "S."
+        },
+        "lastName": {
+          "default": "Aho"
+        }
+      },
+      "threeMinRecap": "/video/bos-at-car-recap-6407507563112",
+      "threeMinRecapFr": "/fr/video/bos-vs-car-27-10-2026-resume-6407509614112",
+      "condensedGame": "/video/bos-at-car-condensed-game-6407506956112",
       "gameCenterLink": "/gamecenter/bos-vs-car/2026/10/27/2026020189"
     },
     {
@@ -1741,7 +1814,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1782,13 +1855,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 1
       },
       "homeTeam": {
         "id": 19,
@@ -1806,21 +1877,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station"
+        "hotelDesc": "Stay at Union Station",
+        "score": 4
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/060064EECE071B2F?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM7",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECE071B2F?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480981,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Hofer"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8481598,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Broberg"
+        }
+      },
+      "threeMinRecap": "/video/bos-at-stl-recap-6407635008112",
+      "threeMinRecapFr": "/fr/video/bos-vs-stl-29-10-2026-resume-6407636464112",
+      "condensedGame": "/video/bos-at-stl-condensed-game-6407635319112",
       "gameCenterLink": "/gamecenter/bos-vs-stl/2026/10/29/2026020207"
     },
     {
@@ -1836,7 +1927,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1877,7 +1968,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
+        "score": 4
       },
       "homeTeam": {
         "id": 6,
@@ -1895,15 +1986,43 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+        "score": 5
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 4,
+        "periodType": "OT",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC5047A13?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM7",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC5047A13?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "OT"
+      },
+      "winningGoalie": {
+        "playerId": 8480022,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "DiPietro",
+          "cs": "Dipietro",
+          "de": "Dipietro",
+          "es": "Dipietro",
+          "fi": "Dipietro",
+          "sk": "Dipietro",
+          "sv": "Dipietro"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8477496,
+        "firstInitial": {
+          "default": "E."
+        },
+        "lastName": {
+          "default": "Lindholm"
+        }
+      },
+      "threeMinRecap": "/video/chi-at-bos-recap-6407722711112",
+      "threeMinRecapFr": "/fr/video/chi-vs-bos-31-10-2026-resume-6407722044112",
+      "condensedGame": "/video/chi-at-bos-condensed-game-6407722125112",
       "gameCenterLink": "/gamecenter/chi-vs-bos/2026/10/31/2026020217"
     },
     {
@@ -1919,7 +2038,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1974,7 +2093,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
+        "score": 2
       },
       "homeTeam": {
         "id": 6,
@@ -1992,15 +2111,29 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 5,
+        "periodType": "SO",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC5097A28?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM8",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC5097A28?brand=bostonbruins&artistid=805902&wt.mc_id=NHL_TEAM_BOS_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_BOS&utm_content=SCHEDULE_GM8",
+      "gameOutcome": {
+        "lastPeriodType": "SO"
+      },
+      "winningGoalie": {
+        "playerId": 8480280,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Swayman"
+        }
+      },
+      "threeMinRecap": "/video/vgk-at-bos-recap-6407818133112",
+      "threeMinRecapFr": "/fr/video/vgk-vs-bos-02-11-2026-resume-6407820578112",
+      "condensedGame": "/video/vgk-at-bos-condensed-game-6407818334112",
+      "condensedGameFr": "/fr/video/match-condense-knights-bruins-02-11-2026-6407819834112",
       "gameCenterLink": "/gamecenter/vgk-vs-bos/2026/11/02/2026020232"
     },
     {
@@ -5660,7 +5793,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-18T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5736,7 +5869,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-20T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6109,11 +6242,11 @@
           "sequenceNumber": 1
         },
         {
-          "id": 282,
+          "id": 284,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 21
+          "network": "SN1",
+          "sequenceNumber": 113
         },
         {
           "id": 281,
@@ -6357,11 +6490,18 @@
           "sequenceNumber": 1
         },
         {
-          "id": 284,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
+          "network": "SN",
+          "sequenceNumber": 21
+        },
+        {
+          "id": 283,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN360",
+          "sequenceNumber": 114
         },
         {
           "id": 281,

@@ -1,6 +1,10 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
+  "howToWatch": {
+    "url": "https://www.nhl.com/blues/fans/where-to-watch",
+    "text": "Where to Watch"
+  },
   "clubTimezone": "US/Central",
   "clubUTCOffset": "-05:00",
   "games": [
@@ -1437,7 +1441,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1485,13 +1489,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 19,
@@ -1509,21 +1511,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station"
+        "hotelDesc": "Stay at Union Station",
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/060064EECDF61B0A?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM4",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECDF61B0A?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM4",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480981,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Hofer"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8482745,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "McTavish"
+        }
+      },
+      "threeMinRecap": "/video/vgk-at-stl-recap-6407268787112",
+      "threeMinRecapFr": "/fr/video/vgk-vs-stl-22-10-2026-resume-6407270551112",
+      "condensedGame": "/video/vgk-at-stl-condensed-game-6407270448112",
       "gameCenterLink": "/gamecenter/vgk-vs-stl/2026/10/22/2026020160"
     },
     {
@@ -1539,7 +1561,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1588,13 +1610,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "homeTeam": {
         "id": 19,
@@ -1612,21 +1632,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station"
+        "hotelDesc": "Stay at Union Station",
+        "score": 0
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/060064EECDFC1B17?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECDFC1B17?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481611,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kochetkov",
+          "fi": "Kotshetkov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8480336,
+        "firstInitial": {
+          "default": "S."
+        },
+        "lastName": {
+          "default": "Walker"
+        }
+      },
+      "threeMinRecap": "/video/car-at-stl-recap-6407362501112",
+      "threeMinRecapFr": "/fr/video/car-vs-stl-24-10-2026-resume-6407361103112",
+      "condensedGame": "/video/car-at-stl-condensed-game-6407363179112",
       "gameCenterLink": "/gamecenter/car-vs-stl/2026/10/24/2026020175"
     },
     {
@@ -1642,7 +1683,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1690,13 +1731,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 19,
@@ -1714,21 +1753,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station"
+        "hotelDesc": "Stay at Union Station",
+        "score": 0
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/060064EECE021B24?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECE021B24?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8484170,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Fowler"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8482737,
+        "firstInitial": {
+          "default": "Z."
+        },
+        "lastName": {
+          "default": "Bolduc"
+        }
+      },
+      "threeMinRecap": "/video/mtl-at-stl-recap-6407510307112",
+      "threeMinRecapFr": "/fr/video/mtl-vs-stl-27-10-2026-resume-6407509320112",
+      "condensedGame": "/video/mtl-at-stl-condensed-game-6407510118112",
+      "condensedGameFr": "/fr/video/match-condense-canadiens-blues-27-10-2026-6407509455112",
       "gameCenterLink": "/gamecenter/mtl-vs-stl/2026/10/27/2026020191"
     },
     {
@@ -1744,7 +1804,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1785,13 +1845,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 1
       },
       "homeTeam": {
         "id": 19,
@@ -1809,21 +1867,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station"
+        "hotelDesc": "Stay at Union Station",
+        "score": 4
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/060064EECE071B2F?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM7",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECE071B2F?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480981,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Hofer"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8481598,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Broberg"
+        }
+      },
+      "threeMinRecap": "/video/bos-at-stl-recap-6407635008112",
+      "threeMinRecapFr": "/fr/video/bos-vs-stl-29-10-2026-resume-6407636464112",
+      "condensedGame": "/video/bos-at-stl-condensed-game-6407635319112",
       "gameCenterLink": "/gamecenter/bos-vs-stl/2026/10/29/2026020207"
     },
     {
@@ -1839,7 +1917,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "America/Detroit",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1880,7 +1958,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8"
+        "score": 5
       },
       "homeTeam": {
         "id": 17,
@@ -1898,15 +1976,37 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
+        "score": 4
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/080064EED7CD7FCE?brand=redwings&artistid=805938&wt.mc_id=NHL_TEAM_DET_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DET&utm_content=SCHEDULE_GM9",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7CD7FCE?brand=redwings&artistid=805938&wt.mc_id=NHL_TEAM_DET_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DET&utm_content=SCHEDULE_GM9",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8480981,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Hofer"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8483463,
+        "firstInitial": {
+          "default": "A."
+        },
+        "lastName": {
+          "default": "Kaskimaki"
+        }
+      },
+      "threeMinRecap": "/video/stl-at-det-recap-6407721601112",
+      "threeMinRecapFr": "/fr/video/stl-vs-det-31-10-2026-resume-6407721596112",
+      "condensedGame": "/video/stl-at-det-condensed-game-6407721994112",
       "gameCenterLink": "/gamecenter/stl-vs-det/2026/10/31/2026020218"
     },
     {
@@ -1922,7 +2022,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/New_York",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1963,7 +2063,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8"
+        "score": 1
       },
       "homeTeam": {
         "id": 3,
@@ -1981,15 +2081,37 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/3B0064F1B1DA444E?brand=nyrangers&artistid=805991&landing=s&wt.mc_id=NHL_TEAM_NYR_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_NYR&utm_content=SCHEDULE_GM9&CAMEFROM=CFC_RANGERS_WEB_NYR_SCHED_260803",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/3B0064F1B1DA444E?brand=nyrangers&artistid=805991&landing=s&wt.mc_id=NHL_TEAM_NYR_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_NYR&utm_content=SCHEDULE_GM9&CAMEFROM=CFC_RANGERS_WEB_NYR_SCHED_260803",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8482193,
+        "firstInitial": {
+          "default": "D."
+        },
+        "lastName": {
+          "default": "Garand"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8477416,
+        "firstInitial": {
+          "default": "O."
+        },
+        "lastName": {
+          "default": "Bjorkstrand"
+        }
+      },
+      "threeMinRecap": "/video/stl-at-nyr-recap-6407881779112",
+      "threeMinRecapFr": "/fr/video/stl-vs-nyr-03-11-2026-resume-6407881786112",
+      "condensedGame": "/video/stl-at-nyr-condensed-game-6407882898112",
       "gameCenterLink": "/gamecenter/stl-vs-nyr/2026/11/03/2026020240"
     },
     {
@@ -2797,11 +2919,18 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 282,
+          "id": 289,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 21
+          "network": "SNW",
+          "sequenceNumber": 34
+        },
+        {
+          "id": 284,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN1",
+          "sequenceNumber": 113
         },
         {
           "id": 649,
@@ -3369,11 +3498,11 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 283,
+          "id": 549,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
+          "network": "SN+",
+          "sequenceNumber": 117
         },
         {
           "id": 649,
@@ -5988,7 +6117,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-13T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6364,7 +6493,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-20T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",

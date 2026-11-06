@@ -1,6 +1,10 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
+  "howToWatch": {
+    "url": "https://www.nhl.com/hurricanes/team/broadcast-info/",
+    "text": "How To Watch"
+  },
   "clubTimezone": "US/Eastern",
   "clubUTCOffset": "-04:00",
   "games": [
@@ -1654,7 +1658,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1703,13 +1707,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 5
       },
       "homeTeam": {
         "id": 22,
@@ -1727,21 +1729,33 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.nhl.com/oilers/tickets/promotional-games",
-        "promoDesc": "Indigenous Celebration",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
-        "periodType": "REG",
+        "number": 5,
+        "periodType": "SO",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A5F6A473?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A5F6A473?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "SO"
+      },
+      "winningGoalie": {
+        "playerId": 8482221,
+        "firstInitial": {
+          "default": "D."
+        },
+        "lastName": {
+          "default": "Levi"
+        }
+      },
+      "threeMinRecap": "/video/car-at-edm-recap-6407275101112",
+      "threeMinRecapFr": "/fr/video/car-vs-edm-22-10-2026-resume-6407273898112",
+      "condensedGame": "/video/car-at-edm-condensed-game-6407275677112",
+      "condensedGameFr": "/fr/video/match-condense-hurricanes-oilers-22-10-2026-6407274817112",
       "gameCenterLink": "/gamecenter/car-vs-edm/2026/10/22/2026020163"
     },
     {
@@ -1757,7 +1771,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1806,13 +1820,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "homeTeam": {
         "id": 19,
@@ -1830,21 +1842,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station"
+        "hotelDesc": "Stay at Union Station",
+        "score": 0
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/060064EECDFC1B17?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECDFC1B17?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481611,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kochetkov",
+          "fi": "Kotshetkov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8480336,
+        "firstInitial": {
+          "default": "S."
+        },
+        "lastName": {
+          "default": "Walker"
+        }
+      },
+      "threeMinRecap": "/video/car-at-stl-recap-6407362501112",
+      "threeMinRecapFr": "/fr/video/car-vs-stl-24-10-2026-resume-6407361103112",
+      "condensedGame": "/video/car-at-stl-condensed-game-6407363179112",
       "gameCenterLink": "/gamecenter/car-vs-stl/2026/10/24/2026020175"
     },
     {
@@ -1860,7 +1893,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1894,13 +1927,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 1
       },
       "homeTeam": {
         "id": 12,
@@ -1919,21 +1950,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.sportsgirlsclub.com/event-details/carolina-hurricanes-x-sgc-2026",
-        "promoDesc": "SGC Ticket Pack",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://cmchotels.com/hurricanes/",
-        "hotelDesc": "CMC Hotels"
+        "hotelDesc": "CMC Hotels",
+        "score": 2
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD5BD1A0?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM5",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD5BD1A0?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM5",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481611,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kochetkov",
+          "fi": "Kotshetkov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8478427,
+        "firstInitial": {
+          "default": "S."
+        },
+        "lastName": {
+          "default": "Aho"
+        }
+      },
+      "threeMinRecap": "/video/bos-at-car-recap-6407507563112",
+      "threeMinRecapFr": "/fr/video/bos-vs-car-27-10-2026-resume-6407509614112",
+      "condensedGame": "/video/bos-at-car-condensed-game-6407506956112",
       "gameCenterLink": "/gamecenter/bos-vs-car/2026/10/27/2026020189"
     },
     {
@@ -1949,7 +2001,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1997,13 +2049,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 12,
@@ -2022,21 +2072,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://hurricanes.spinzo.com/grateful-dead-night-canes-vs-blue-jackets-2026-10-29-VWURS?group=grateful-dead-tribute-night-y5mu&_gl=1*29ea1*_ga*MTEwODYzNzA5OC4xNzkxODE5MzAw*_ga_93ZV6892NM*czE3OTE4MTY2MjMkbzE5NyRnMSR0MTc5MTgyMDQ1MSRqOSRsMCRoNjQ4NzEyMjc3",
-        "promoDesc": "Grateful Dead Ticket Pack",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://cmchotels.com/hurricanes/",
-        "hotelDesc": "CMC Hotels"
+        "hotelDesc": "CMC Hotels",
+        "score": 3
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD60D1A8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD60D1A8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481611,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kochetkov",
+          "fi": "Kotshetkov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8476873,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "Jankowski"
+        }
+      },
+      "threeMinRecap": "/video/cbj-at-car-recap-6407632722112",
+      "threeMinRecapFr": "/fr/video/cbj-vs-car-29-10-2026-resume-6407631665112",
+      "condensedGame": "/video/cbj-at-car-condensed-game-6407630962112",
       "gameCenterLink": "/gamecenter/cbj-vs-car/2026/10/29/2026020206"
     },
     {
@@ -2052,7 +2123,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2107,7 +2178,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
+        "score": 0
       },
       "homeTeam": {
         "id": 12,
@@ -2126,17 +2197,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "hotelLink": "https://cmchotels.com/hurricanes/",
-        "hotelDesc": "CMC Hotels"
+        "hotelDesc": "CMC Hotels",
+        "score": 7
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD65D1B8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM7",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD65D1B8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481611,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kochetkov",
+          "fi": "Kotshetkov"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8480336,
+        "firstInitial": {
+          "default": "S."
+        },
+        "lastName": {
+          "default": "Walker"
+        }
+      },
+      "threeMinRecap": "/video/wpg-at-car-recap-6407758806112",
+      "threeMinRecapFr": "/fr/video/wpg-vs-car-01-11-2026-resume-6407759880112",
+      "condensedGame": "/video/wpg-at-car-condensed-game-6407760078112",
+      "condensedGameFr": "/fr/video/match-condense-jets-hurricanes-01-11-2026-6407758423112",
       "gameCenterLink": "/gamecenter/wpg-vs-car/2026/11/01/2026020227"
     },
     {
@@ -2152,7 +2247,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2201,13 +2296,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 1
       },
       "homeTeam": {
         "id": 18,
@@ -2225,21 +2318,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://predators.spinzo.com/nashville-predators-vs-carolina-hurricanes-2026-11-03-SPRNZ?group=hockey-fights-cancer-night-7jjk&affiliate=web-jyg7&utm_source=Preds Web&utm_medium=Spinzo&utm_campaign=2627Preds",
-        "promoDesc": "Pekka Rinne HOF Celebration & Hockey Fights Cancer",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 4
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507F012E48A?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM10&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM10",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F012E48A?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM10&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM10",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8477424,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Saros"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8474600,
+        "firstInitial": {
+          "default": "R."
+        },
+        "lastName": {
+          "default": "Josi"
+        }
+      },
+      "threeMinRecap": "/video/car-at-nsh-recap-6407883604112",
+      "threeMinRecapFr": "/fr/video/car-vs-nsh-03-11-2026-resume-6407881747112",
+      "condensedGame": "/video/car-at-nsh-condensed-game-6407882516112",
       "gameCenterLink": "/gamecenter/car-vs-nsh/2026/11/03/2026020245"
     },
     {
@@ -2775,18 +2888,18 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
+          "id": 282,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN",
+          "sequenceNumber": 21
+        },
+        {
           "id": 324,
           "market": "N",
           "countryCode": "US",
           "network": "NHLN",
           "sequenceNumber": 35
-        },
-        {
-          "id": 282,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 107
         },
         {
           "id": 646,
@@ -2875,11 +2988,11 @@
           "sequenceNumber": 35
         },
         {
-          "id": 284,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
+          "network": "SN",
+          "sequenceNumber": 107
         },
         {
           "id": 281,
@@ -6417,11 +6530,11 @@
           "sequenceNumber": 19
         },
         {
-          "id": 282,
+          "id": 284,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 107
+          "network": "SN1",
+          "sequenceNumber": 113
         }
       ],
       "awayTeam": {
@@ -7040,6 +7153,13 @@
           "countryCode": "CA",
           "network": "SN",
           "sequenceNumber": 21
+        },
+        {
+          "id": 283,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN360",
+          "sequenceNumber": 114
         },
         {
           "id": 646,

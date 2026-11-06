@@ -1480,7 +1480,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1528,13 +1528,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 3
       },
       "homeTeam": {
         "id": 21,
@@ -1552,21 +1550,42 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://avalanchepremium.com/events/Colorado-Avalanche-vs-Tampa-Bay-Lightning-125241/",
-        "promoDesc": "Premium Spaces",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://avs.social/2627_SCHEDULE_GM6",
-      "ticketsLinkFr": "https://avs.social/2627_SCHEDULE_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8478406,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "Blackwood"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8477476,
+        "firstInitial": {
+          "default": "A."
+        },
+        "lastName": {
+          "default": "Lehkonen"
+        }
+      },
+      "threeMinRecap": "/video/tbl-at-col-recap-6407323125112",
+      "threeMinRecapFr": "/fr/video/tbl-vs-col-23-10-2026-resume-6407324275112",
+      "condensedGame": "/video/tbl-at-col-condensed-game-6407325168112",
+      "condensedGameFr": "/fr/video/match-condense-lightning-avalanche-23-10-2026-6407325389112",
       "gameCenterLink": "/gamecenter/tbl-vs-col/2026/10/23/2026020167"
     },
     {
@@ -1582,7 +1601,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1616,13 +1635,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 18,
@@ -1640,21 +1657,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://www.gofevo.com/event/262761?ref=Web&utm_source=Web&utm_medium=FEVO&utm_campaign=2627Preds",
-        "promoDesc": "Faith & Family Night",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 6
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/1B006507EFFAE44B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM6&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM6",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507EFFAE44B?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM6&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM6",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8481020,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Annunen"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8475158,
+        "firstInitial": {
+          "default": "R."
+        },
+        "lastName": {
+          "default": "O'Reilly"
+        }
+      },
+      "threeMinRecap": "/video/col-at-nsh-recap-6407404354112",
+      "threeMinRecapFr": "/fr/video/col-vs-nsh-25-10-2026-resume-6407403178112",
+      "condensedGame": "/video/col-at-nsh-condensed-game-6407403179112",
       "gameCenterLink": "/gamecenter/col-vs-nsh/2026/10/25/2026020183"
     },
     {
@@ -1670,7 +1707,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1704,13 +1741,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 21,
@@ -1728,21 +1763,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://avalanchepremium.com/events/Colorado-Avalanche-vs-New-Jersey-Devils-125242/",
-        "promoDesc": "Premium Spaces",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 5
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://avs.social/2627_SCHEDULE_GM7",
-      "ticketsLinkFr": "https://avs.social/2627_SCHEDULE_GM7",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8478406,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "Blackwood"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8480448,
+        "firstInitial": {
+          "default": "P."
+        },
+        "lastName": {
+          "default": "Kelly"
+        }
+      },
+      "threeMinRecap": "/video/njd-at-col-recap-6407572774112",
+      "threeMinRecapFr": "/fr/video/njd-vs-col-28-10-2026-resume-6407572402112",
+      "condensedGame": "/video/njd-at-col-condensed-game-6407574837112",
       "gameCenterLink": "/gamecenter/njd-vs-col/2026/10/28/2026020201"
     },
     {
@@ -1758,7 +1813,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1792,13 +1847,11 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
         "awaySplitSquad": false,
-        "promoLink": "",
-        "promoDesc": "",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 2
       },
       "homeTeam": {
         "id": 21,
@@ -1816,21 +1869,41 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "homeSplitSquad": false,
-        "promoLink": "https://avalanchepremium.com/events/Colorado-Avalanche-vs-Calgary-Flames-125243/",
-        "promoDesc": "Premium Spaces",
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": ""
+        "hotelDesc": "",
+        "score": 5
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://avs.social/2627_SCHEDULE_GM8",
-      "ticketsLinkFr": "https://avs.social/2627_SCHEDULE_GM8",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8478406,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "Blackwood"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8477476,
+        "firstInitial": {
+          "default": "A."
+        },
+        "lastName": {
+          "default": "Lehkonen"
+        }
+      },
+      "threeMinRecap": "/video/cgy-at-col-recap-6407738258112",
+      "threeMinRecapFr": "/fr/video/cgy-vs-col-31-10-2026-resume-6407736214112",
+      "condensedGame": "/video/cgy-at-col-condensed-game-6407735497112",
       "gameCenterLink": "/gamecenter/cgy-vs-col/2026/10/31/2026020226"
     },
     {
@@ -1846,7 +1919,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Chicago",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1880,7 +1953,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+        "score": 5
       },
       "homeTeam": {
         "id": 16,
@@ -1898,15 +1971,36 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
+        "score": 2
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/040064F09053781C?brand=blackhawks&artistid=805913&wt.mc_id=NHL_TEAM_CHI_SCHEDULE_GM9",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/040064F09053781C?brand=blackhawks&artistid=805913&wt.mc_id=NHL_TEAM_CHI_SCHEDULE_GM9",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8478406,
+        "firstInitial": {
+          "default": "M."
+        },
+        "lastName": {
+          "default": "Blackwood"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8475172,
+        "firstInitial": {
+          "default": "N."
+        },
+        "lastName": {
+          "default": "Kadri"
+        }
+      },
+      "threeMinRecapFr": "/fr/video/col-vs-chi-02-11-2026-resume-6407822410112",
+      "condensedGame": "/video/col-at-chi-condensed-game-6407821149112",
       "gameCenterLink": "/gamecenter/col-vs-chi/2026/11/02/2026020234"
     },
     {
@@ -1922,7 +2016,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "FUT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1963,7 +2057,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "awaySplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+        "score": 2
       },
       "homeTeam": {
         "id": 29,
@@ -1981,17 +2075,39 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "homeSplitSquad": false,
-        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "hotelLink": "https://www.sonesta.com/sonesta-hotels-resorts/oh/columbus/sonesta-columbus-downtown?isGroupCode=false&promoCode=CBJPROMO",
-        "hotelDesc": "Stay at Sonesta Columbus Downtown"
+        "hotelDesc": "Stay at Sonesta Columbus Downtown",
+        "score": 7
       },
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.ticketmaster.com/event/050064EDB0C5802A?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM8&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM8",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/050064EDB0C5802A?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM8&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM8",
+      "gameOutcome": {
+        "lastPeriodType": "REG"
+      },
+      "winningGoalie": {
+        "playerId": 8475660,
+        "firstInitial": {
+          "default": "C."
+        },
+        "lastName": {
+          "default": "Talbot"
+        }
+      },
+      "winningGoalScorer": {
+        "playerId": 8481161,
+        "firstInitial": {
+          "default": "J."
+        },
+        "lastName": {
+          "default": "Christiansen"
+        }
+      },
+      "threeMinRecap": "/video/col-at-cbj-recap-6407878235112",
+      "threeMinRecapFr": "/fr/video/col-vs-cbj-03-11-2026-resume-6407878105112",
+      "condensedGame": "/video/col-at-cbj-condensed-game-6407879481112",
       "gameCenterLink": "/gamecenter/col-vs-cbj/2026/11/03/2026020244"
     },
     {
@@ -5994,7 +6110,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-18T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-07:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6726,6 +6842,13 @@
           "countryCode": "CA",
           "network": "SN",
           "sequenceNumber": 107
+        },
+        {
+          "id": 283,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN360",
+          "sequenceNumber": 114
         },
         {
           "id": 281,
