@@ -1,4 +1,4 @@
-name: NHL Player Strength Snapshots (Manual)
+name: NHL SDV MANUAL PULL
 
 # No cron schedule. External cron-job.org dispatches this workflow when wanted.
 on:
