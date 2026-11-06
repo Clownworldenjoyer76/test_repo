@@ -490,7 +490,7 @@
           "default": "Guenther"
         }
       },
-      "threeMinRecap": "/video/chi-at-uta-recap-6406088086112",
+      "threeMinRecap": "/video/chi-at-uta-recap-6406089859112",
       "threeMinRecapFr": "/fr/video/chi-vs-uta-01-10-2026-resume-6406090854112",
       "condensedGame": "/video/chi-at-uta-condensed-game-6406090347112",
       "gameCenterLink": "/gamecenter/chi-vs-uta/2026/10/01/2026020013"
@@ -1492,7 +1492,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "US/Pacific",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1540,11 +1540,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 55,
@@ -1562,41 +1564,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20262027/SEA-radio.m3u8",
         "airlineLink": "https://www.alaskaair.com/?semid=Google%7C%7CSEMGenDSA%7C%7C&gclsrc=aw.ds&gad_source=1&gad_campaignid=660331606&gbraid=0AAAAAD_kHFupH8866Nh75IX24W5OQP7Tj&gclid=Cj0KCQjw-MDTBhCgARIsAKAkdlSNlbWYmerwmIIkyu0fgP7j-PbhNdH_6cMsgRLt_ZYJSghl1MWKEKUaAmIfEALw_wcB",
         "airlineDesc": "The official airline of the Kraken",
         "hotelLink": "https://stayinglevel.com/offers/seattle-climate-pledge-arena-fans/?utm_source=kraken-logo-schedule&utm_medium=logo&utm_campaign=level-cpa-kraken&utm_content=",
-        "hotelDesc": "Stay close to the action at Level",
-        "score": 5
+        "hotelDesc": "Stay close to the action at Level"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8475831,
-        "firstInitial": {
-          "default": "P."
-        },
-        "lastName": {
-          "default": "Grubauer"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482713,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Samoskevich"
-        }
-      },
-      "threeMinRecap": "/video/uta-at-sea-recap-6407277510112",
-      "threeMinRecapFr": "/fr/video/uta-vs-sea-22-10-2026-resume-6407275929112",
-      "condensedGame": "/video/uta-at-sea-condensed-game-6407276826112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0F0064C4A045A24C?brand=seattlekraken&artistid=2763657&wt.mc_id=NHL_TEAM_SEA_SCHEDULE_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_SEA&utm_content=SCHEDULE_GM4",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0F0064C4A045A24C?brand=seattlekraken&artistid=2763657&wt.mc_id=NHL_TEAM_SEA_SCHEDULE_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_SEA&utm_content=SCHEDULE_GM4",
       "gameCenterLink": "/gamecenter/uta-vs-sea/2026/10/22/2026020164"
     },
     {
@@ -1612,7 +1594,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1653,7 +1635,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
       },
       "homeTeam": {
         "id": 68,
@@ -1671,37 +1653,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "homeSplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8478872,
-        "firstInitial": {
-          "default": "K."
-        },
-        "lastName": {
-          "default": "Vejmelka"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8484386,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Simashev"
-        }
-      },
-      "threeMinRecap": "/video/tbl-at-uta-recap-6407368804112",
-      "threeMinRecapFr": "/fr/video/tbl-vs-uta-24-10-2026-resume-6407366351112",
-      "condensedGame": "/video/tbl-at-uta-condensed-game-6407367228112",
+      "ticketsLink": "https://seatgeek.com/utah-mammoth-tickets/7-13-2026-salt-lake-city-utah-delta-center-1/nhl/18242284?wid=club-web-schedule",
+      "ticketsLinkFr": "https://seatgeek.com/utah-mammoth-tickets/7-13-2026-salt-lake-city-utah-delta-center-1/nhl/18242284?wid=club-web-schedule",
       "gameCenterLink": "/gamecenter/tbl-vs-uta/2026/10/24/2026020177"
     },
     {
@@ -1717,7 +1677,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1765,7 +1725,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
         "awaySplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
       },
       "homeTeam": {
         "id": 68,
@@ -1783,37 +1743,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "homeSplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8482661,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Wallstedt"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478864,
-        "firstInitial": {
-          "default": "K."
-        },
-        "lastName": {
-          "default": "Kaprizov"
-        }
-      },
-      "threeMinRecap": "/video/min-at-uta-recap-6407511566112",
-      "threeMinRecapFr": "/fr/video/min-vs-uta-27-10-2026-resume-6407511569112",
-      "condensedGame": "/video/min-at-uta-condensed-game-6407513228112",
+      "ticketsLink": "https://seatgeek.com/utah-mammoth-tickets/7-14-2026-salt-lake-city-utah-delta-center-1/nhl/18242285?wid=club-web-schedule",
+      "ticketsLinkFr": "https://seatgeek.com/utah-mammoth-tickets/7-14-2026-salt-lake-city-utah-delta-center-1/nhl/18242285?wid=club-web-schedule",
       "gameCenterLink": "/gamecenter/min-vs-uta/2026/10/27/2026020195"
     },
     {
@@ -1829,7 +1767,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1884,11 +1822,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 4
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 5,
@@ -1906,45 +1846,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/penguins/tickets/promotional-schedule",
+        "promoDesc": "Kids Trick-or-Treat Tote | First 5,000 Fans (14 and under)",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8482657,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Cossa"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8479410,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Sergachev",
-          "cs": "Sergačov",
-          "fi": "Sergatshov",
-          "sk": "Sergačov"
-        }
-      },
-      "threeMinRecap": "/video/uta-at-pit-recap-6407633753112",
-      "threeMinRecapFr": "/fr/video/uta-vs-pit-29-10-2026-resume-6407633948112",
-      "condensedGame": "/video/uta-at-pit-condensed-game-6407634330112",
-      "condensedGameFr": "/fr/video/match-condense-mammoth-penguins-29-10-2026-6407634226112",
+      "ticketsLink": "https://www.ticketmaster.com/event/160064EAF588B8B9?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM6&camefrom=NHLPENGUINS_WEB_SCHEDULE",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF588B8B9?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM6&camefrom=NHLPENGUINS_WEB_SCHEDULE",
       "gameCenterLink": "/gamecenter/uta-vs-pit/2026/10/29/2026020205"
     },
     {
@@ -1960,7 +1876,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2008,7 +1924,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "awaySplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
       },
       "homeTeam": {
         "id": 4,
@@ -2027,39 +1943,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
         "homeSplitSquad": false,
-        "score": 6
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8478435,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Vladar",
-          "cs": "Vladař",
-          "sk": "Vladař"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8477989,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Dvorak"
-        }
-      },
-      "threeMinRecap": "/video/uta-at-phi-recap-6407764145112",
-      "threeMinRecapFr": "/fr/video/uta-vs-phi-01-11-2026-resume-6407764350112",
-      "condensedGame": "/video/uta-at-phi-condensed-game-6407762893112",
+      "ticketsLink": "https://www.ticketmaster.com/event/300064EEEEB1E179?brand=flyers&artistid=806000&wt.mc_id=NHL_TEAM_PHI_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PHI&utm_content=SCHEDULE_GM9",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/300064EEEEB1E179?brand=flyers&artistid=806000&wt.mc_id=NHL_TEAM_PHI_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PHI&utm_content=SCHEDULE_GM9",
       "gameCenterLink": "/gamecenter/uta-vs-phi/2026/11/01/2026020229"
     },
     {
@@ -2075,7 +1967,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Toronto",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2116,7 +2008,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "awaySplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
       },
       "homeTeam": {
         "id": 10,
@@ -2134,39 +2026,17 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
         "homeSplitSquad": false,
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8",
         "hotelLink": "https://www.marriott.com/search/findHotels.mi?destinationAddress.destination=SCOTIABANK+ARENA,+TORONTO,+CANADA&cid=DIS_GLB000791Q_GLE000HJ7H_GLF0017USO",
-        "hotelDesc": "Book Now",
-        "score": 2
+        "hotelDesc": "Book Now"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8482657,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Cossa"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8477951,
-        "firstInitial": {
-          "default": "N."
-        },
-        "lastName": {
-          "default": "Schmaltz"
-        }
-      },
-      "threeMinRecap": "/video/uta-at-tor-recap-6407880463112",
-      "threeMinRecapFr": "/fr/video/uta-vs-tor-03-11-2026-resume-6407879997112",
-      "condensedGame": "/video/uta-at-tor-condensed-game-6407879507112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/100064FECCECF818?brand=torontomapleleafs&artistid=806033&wt.mc_id=NHL_TEAM_TOR_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_TOR&utm_content=SCHEDULE_GM9",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/100064FECCECF818?brand=torontomapleleafs&artistid=806033&wt.mc_id=NHL_TEAM_TOR_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_TOR&utm_content=SCHEDULE_GM9",
       "gameCenterLink": "/gamecenter/uta-vs-tor/2026/11/03/2026020236"
     },
     {
@@ -2887,7 +2757,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-24T00:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4078,7 +3948,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-19T20:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4795,7 +4665,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-10T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5777,7 +5647,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-04T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6856,13 +6726,6 @@
           "sequenceNumber": 21
         },
         {
-          "id": 283,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
-        },
-        {
           "id": 783,
           "market": "A",
           "countryCode": "US",
@@ -7400,6 +7263,13 @@
       "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
+        {
+          "id": 282,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN",
+          "sequenceNumber": 107
+        },
         {
           "id": 783,
           "market": "A",

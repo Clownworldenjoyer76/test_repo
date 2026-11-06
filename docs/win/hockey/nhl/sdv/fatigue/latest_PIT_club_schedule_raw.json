@@ -1494,7 +1494,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1543,7 +1543,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
         "awaySplitSquad": false,
-        "score": 0
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
       },
       "homeTeam": {
         "id": 5,
@@ -1561,40 +1561,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8481668,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Silovs",
-          "cs": "Šilovs",
-          "sk": "Šilovs"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8481582,
-        "firstInitial": {
-          "default": "N."
-        },
-        "lastName": {
-          "default": "Robertson"
-        }
-      },
-      "threeMinRecap": "/video/fla-at-pit-recap-6407266256112",
-      "threeMinRecapFr": "/fr/video/fla-vs-pit-22-10-2026-resume-6407267511112",
-      "condensedGame": "/video/fla-at-pit-condensed-game-6407267021112",
-      "condensedGameFr": "/fr/video/match-condense-panthers-penguins-22-10-2026-6407267139112",
+      "ticketsLink": "https://www.ticketmaster.com/event/160064EAF57EB8A7?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM4&camefrom=NHLPENGUINS_WEB_SCHEDULE",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF57EB8A7?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM4&camefrom=NHLPENGUINS_WEB_SCHEDULE",
       "gameCenterLink": "/gamecenter/fla-vs-pit/2026/10/22/2026020158"
     },
     {
@@ -1610,7 +1585,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1644,11 +1619,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 2
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 5,
@@ -1666,43 +1643,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/penguins/tickets/promotional-schedule",
+        "promoDesc": "Iceburgh Building Blocks Set | Presented by PPG | First 7,500 Fans",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8481668,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Silovs",
-          "cs": "Šilovs",
-          "sk": "Šilovs"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482758,
-        "firstInitial": {
-          "default": "V."
-        },
-        "lastName": {
-          "default": "Koivunen"
-        }
-      },
-      "threeMinRecap": "/video/nsh-at-pit-recap-6407362521112",
-      "threeMinRecapFr": "/fr/video/nsh-vs-pit-24-10-2026-resume-6407363083112",
-      "condensedGame": "/video/nsh-at-pit-condensed-game-6407361314112",
+      "ticketsLink": "https://www.ticketmaster.com/event/160064EAF583B8AA?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM5&camefrom=NHLPENGUINS_WEB_SCHEDULE",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF583B8AA?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM5&camefrom=NHLPENGUINS_WEB_SCHEDULE",
       "gameCenterLink": "/gamecenter/nsh-vs-pit/2026/10/24/2026020172"
     },
     {
@@ -1718,7 +1673,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1773,11 +1728,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 4
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 5,
@@ -1795,45 +1752,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/penguins/tickets/promotional-schedule",
+        "promoDesc": "Kids Trick-or-Treat Tote | First 5,000 Fans (14 and under)",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8482657,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Cossa"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8479410,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Sergachev",
-          "cs": "Sergačov",
-          "fi": "Sergatshov",
-          "sk": "Sergačov"
-        }
-      },
-      "threeMinRecap": "/video/uta-at-pit-recap-6407633753112",
-      "threeMinRecapFr": "/fr/video/uta-vs-pit-29-10-2026-resume-6407633948112",
-      "condensedGame": "/video/uta-at-pit-condensed-game-6407634330112",
-      "condensedGameFr": "/fr/video/match-condense-mammoth-penguins-29-10-2026-6407634226112",
+      "ticketsLink": "https://www.ticketmaster.com/event/160064EAF588B8B9?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM6&camefrom=NHLPENGUINS_WEB_SCHEDULE",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF588B8B9?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM6&camefrom=NHLPENGUINS_WEB_SCHEDULE",
       "gameCenterLink": "/gamecenter/uta-vs-pit/2026/10/29/2026020205"
     },
     {
@@ -1849,7 +1782,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "America/Montreal",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1858,13 +1791,6 @@
           "countryCode": "CA",
           "network": "SNE",
           "sequenceNumber": 30
-        },
-        {
-          "id": 284,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
         },
         {
           "id": 281,
@@ -1897,7 +1823,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
       },
       "homeTeam": {
         "id": 8,
@@ -1915,38 +1841,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "homeSplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8484170,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Fowler"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8476981,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Anderson"
-        }
-      },
-      "threeMinRecap": "/video/pit-at-mtl-recap-6407731374112",
-      "threeMinRecapFr": "/fr/video/pit-vs-mtl-31-10-2026-resume-6407733340112",
-      "condensedGame": "/video/pit-at-mtl-condensed-game-6407733538112",
-      "condensedGameFr": "/fr/video/match-condense-penguins-canadiens-31-10-2026-6407733917112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/310064FACABD873B?lang=en-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/310064FACABD873B?lang=fr-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/pit-vs-mtl/2026/10/31/2026020223"
     },
     {
@@ -1962,7 +1865,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2003,7 +1906,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
         "awaySplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
       },
       "homeTeam": {
         "id": 5,
@@ -2021,38 +1924,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8478499,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Hill"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8476881,
-        "firstInitial": {
-          "default": "T."
-        },
-        "lastName": {
-          "default": "Hertl"
-        }
-      },
-      "threeMinRecap": "/video/vgk-at-pit-recap-6407880070112",
-      "threeMinRecapFr": "/fr/video/vgk-vs-pit-03-11-2026-resume-6407879788112",
-      "condensedGame": "/video/vgk-at-pit-condensed-game-6407880562112",
-      "condensedGameFr": "/fr/video/match-condense-knights-penguins-03-11-2026-6407882390112",
+      "ticketsLink": "https://www.ticketmaster.com/event/160064EAF58CB8C3?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM7&camefrom=NHLPENGUINS_WEB_SCHEDULE",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF58CB8C3?brand=penguins&artistid=806005&wt.mc_id=NHL_TEAM_PIT_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PIT&utm_content=SCHEDULE_GM7&camefrom=NHLPENGUINS_WEB_SCHEDULE",
       "gameCenterLink": "/gamecenter/vgk-vs-pit/2026/11/03/2026020242"
     },
     {
@@ -5654,7 +5534,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-14T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5907,7 +5787,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-20T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5983,7 +5863,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-21T22:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6278,13 +6158,6 @@
           "sequenceNumber": 107
         },
         {
-          "id": 283,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
-        },
-        {
           "id": 281,
           "market": "N",
           "countryCode": "CA",
@@ -6366,11 +6239,11 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 284,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
+          "network": "SN",
+          "sequenceNumber": 21
         },
         {
           "id": 281,
@@ -6571,18 +6444,11 @@
           "sequenceNumber": 1
         },
         {
-          "id": 282,
+          "id": 284,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 21
-        },
-        {
-          "id": 283,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
+          "network": "SN1",
+          "sequenceNumber": 113
         },
         {
           "id": 281,
@@ -7042,11 +6908,11 @@
           "sequenceNumber": 19
         },
         {
-          "id": 283,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
+          "network": "SN",
+          "sequenceNumber": 21
         },
         {
           "id": 281,

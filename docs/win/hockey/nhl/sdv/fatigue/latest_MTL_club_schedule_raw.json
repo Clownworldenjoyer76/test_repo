@@ -1,14 +1,6 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
-  "howToWatch": {
-    "url": "https://www.nhl.com/canadiens/fans/broadcast",
-    "text": "How to Watch"
-  },
-  "howToWatchFr": {
-    "url": "https://www.nhl.com/fr/canadiens/fans/diffusion",
-    "text": "Comment visionner"
-  },
   "clubTimezone": "America/Montreal",
   "clubUTCOffset": "-04:00",
   "games": [
@@ -1493,7 +1485,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Chicago",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1541,7 +1533,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "homeTeam": {
         "id": 16,
@@ -1559,38 +1551,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
         "homeSplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8484170,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Fowler"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478133,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Evans"
-        }
-      },
-      "threeMinRecap": "/video/mtl-at-chi-recap-6407320678112",
-      "threeMinRecapFr": "/fr/video/mtl-vs-chi-23-10-2026-resume-6407321180112",
-      "condensedGame": "/video/mtl-at-chi-condensed-game-6407322670112",
-      "condensedGameFr": "/fr/video/match-condense-canadiens-blackhawks-23-10-2026-6407321971112",
+      "ticketsLink": "https://www.ticketmaster.com/event/040064F0904477E7?brand=blackhawks&artistid=805913&wt.mc_id=NHL_TEAM_CHI_SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/040064F0904477E7?brand=blackhawks&artistid=805913&wt.mc_id=NHL_TEAM_CHI_SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/mtl-vs-chi/2026/10/23/2026020166"
     },
     {
@@ -1606,7 +1575,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1661,7 +1630,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "awaySplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "homeTeam": {
         "id": 52,
@@ -1679,33 +1648,12 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "homeSplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
-      },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8484170,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Fowler"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482087,
-        "firstInitial": {
-          "default": "K."
-        },
-        "lastName": {
-          "default": "Guhle"
-        }
       },
       "specialEvent": {
         "parentId": 18,
@@ -1718,10 +1666,8 @@
           "fr": "https://assets.nhle.com/special_event_season/20262027/svg/hc-20262027-matchup-fr-light.svg"
         }
       },
-      "threeMinRecap": "/video/mtl-at-wpg-recap-6407403539112",
-      "threeMinRecapFr": "/fr/video/mtl-vs-wpg-25-10-2026-resume-6407403843112",
-      "condensedGame": "/video/mtl-at-wpg-condensed-game-6407403142112",
-      "condensedGameFr": "/fr/video/match-condense-canadiens-jets-25-10-2026-6407403559112",
+      "ticketsLink": "https://www.nhl.com/jets/tickets/",
+      "ticketsLinkFr": "https://www.nhl.com/jets/tickets/",
       "gameCenterLink": "/gamecenter/mtl-vs-wpg/2026/10/25/2026020182"
     },
     {
@@ -1737,7 +1683,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1785,11 +1731,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 2
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 19,
@@ -1807,42 +1755,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://www.stlouisunionstation.com/hotel-packages",
-        "hotelDesc": "Stay at Union Station",
-        "score": 0
+        "hotelDesc": "Stay at Union Station"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8484170,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Fowler"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482737,
-        "firstInitial": {
-          "default": "Z."
-        },
-        "lastName": {
-          "default": "Bolduc"
-        }
-      },
-      "threeMinRecap": "/video/mtl-at-stl-recap-6407510307112",
-      "threeMinRecapFr": "/fr/video/mtl-vs-stl-27-10-2026-resume-6407509320112",
-      "condensedGame": "/video/mtl-at-stl-condensed-game-6407510118112",
-      "condensedGameFr": "/fr/video/match-condense-canadiens-blues-27-10-2026-6407509455112",
+      "ticketsLink": "https://www.ticketmaster.com/event/060064EECE021B24?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECE021B24?brand=blues&artistid=806025&wt.mc_id=NHL_TEAM_STL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_STL&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/mtl-vs-stl/2026/10/27/2026020191"
     },
     {
@@ -1858,7 +1785,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1899,11 +1826,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 5
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 25,
@@ -1921,42 +1850,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/stars/tickets/promotional-schedule",
+        "promoDesc": "View promotional schedule",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8",
         "airlineLink": "https://www.aa.com/homePage.do?c=SPNS%7CDSP%7CSTR%7C2026%7CSCH%7C_STARS_2026_SCHEDULE_PAGE",
         "airlineDesc": "Book flights with American Airlines",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 2
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8482487,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Dobes"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8481540,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Caufield"
-        }
-      },
-      "threeMinRecap": "/video/mtl-at-dal-recap-6407636455112",
-      "threeMinRecapFr": "/fr/video/mtl-vs-dal-29-10-2026-resume-6407636588112",
-      "condensedGame": "/video/mtl-at-dal-condensed-game-6407635622112",
-      "condensedGameFr": "/fr/video/match-condense-canadiens-stars-29-10-2026-6407635920112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0C0064EDDB92A48B?brand=dallas_stars&wt.mc_id=NHL_TEAM_DAL_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DAL&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0C0064EDDB92A48B?brand=dallas_stars&wt.mc_id=NHL_TEAM_DAL_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DAL&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/mtl-vs-dal/2026/10/29/2026020209"
     },
     {
@@ -1972,7 +1880,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "America/Montreal",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1981,13 +1889,6 @@
           "countryCode": "CA",
           "network": "SNE",
           "sequenceNumber": 30
-        },
-        {
-          "id": 284,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
         },
         {
           "id": 281,
@@ -2020,7 +1921,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
       },
       "homeTeam": {
         "id": 8,
@@ -2038,38 +1939,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "homeSplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8484170,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Fowler"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8476981,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Anderson"
-        }
-      },
-      "threeMinRecap": "/video/pit-at-mtl-recap-6407731374112",
-      "threeMinRecapFr": "/fr/video/pit-vs-mtl-31-10-2026-resume-6407733340112",
-      "condensedGame": "/video/pit-at-mtl-condensed-game-6407733538112",
-      "condensedGameFr": "/fr/video/match-condense-penguins-canadiens-31-10-2026-6407733917112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/310064FACABD873B?lang=en-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/310064FACABD873B?lang=fr-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/pit-vs-mtl/2026/10/31/2026020223"
     },
     {
@@ -2085,7 +1963,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Montreal",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2126,7 +2004,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "homeTeam": {
         "id": 8,
@@ -2144,37 +2022,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8479973,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Skinner"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8480049,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Samberg"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-mtl-recap-6407881618112",
-      "condensedGame": "/video/wpg-at-mtl-condensed-game-6407881825112",
-      "condensedGameFr": "/fr/video/match-condense-jets-canadiens-03-11-2026-6407882548112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/310064FACAC28742?lang=en-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/310064FACAC28742?lang=fr-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/wpg-vs-mtl/2026/11/03/2026020237"
     },
     {
@@ -5596,7 +5452,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-29T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5679,7 +5535,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-31T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",

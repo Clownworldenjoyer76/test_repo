@@ -35,7 +35,7 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_10_01,2026020009,New Jersey Devils,Philadelphia Flyers,team-strength,COMPLETE,2,,,
 2026_10_01,2026020009,New Jersey Devils,Philadelphia Flyers,goalie,COMPLETE,1,,,
 2026_10_01,2026020009,New Jersey Devils,Philadelphia Flyers,lineup-strength,COMPLETE,1,,,home;away
-2026_10_01,2026020010,New York Rangers,Tampa Bay Lightning,fatigue,SOURCE_MISSING,1,away,,
+2026_10_01,2026020010,New York Rangers,Tampa Bay Lightning,fatigue,COMPLETE,2,,,
 2026_10_01,2026020010,New York Rangers,Tampa Bay Lightning,team-strength,COMPLETE,2,,,
 2026_10_01,2026020010,New York Rangers,Tampa Bay Lightning,goalie,COMPLETE,1,,,
 2026_10_01,2026020010,New York Rangers,Tampa Bay Lightning,lineup-strength,COMPLETE,1,,,home;away
@@ -47,7 +47,7 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_10_01,2026020012,Nashville Predators,Minnesota Wild,team-strength,COMPLETE,2,,,
 2026_10_01,2026020012,Nashville Predators,Minnesota Wild,goalie,COMPLETE,1,,,
 2026_10_01,2026020012,Nashville Predators,Minnesota Wild,lineup-strength,COMPLETE,1,,,home;away
-2026_10_01,2026020013,Utah Mammoth,Chicago Blackhawks,fatigue,SOURCE_MISSING,1,home,,
+2026_10_01,2026020013,Utah Mammoth,Chicago Blackhawks,fatigue,COMPLETE,2,,,
 2026_10_01,2026020013,Utah Mammoth,Chicago Blackhawks,team-strength,COMPLETE,2,,,
 2026_10_01,2026020013,Utah Mammoth,Chicago Blackhawks,goalie,COMPLETE,1,,,
 2026_10_01,2026020013,Utah Mammoth,Chicago Blackhawks,lineup-strength,COMPLETE,1,,,home;away
@@ -55,7 +55,7 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_10_01,2026020014,Calgary Flames,Seattle Kraken,team-strength,COMPLETE,2,,,
 2026_10_01,2026020014,Calgary Flames,Seattle Kraken,goalie,COMPLETE,1,,,
 2026_10_01,2026020014,Calgary Flames,Seattle Kraken,lineup-strength,COMPLETE,1,,,home;away
-2026_10_01,2026020015,Vancouver Canucks,Edmonton Oilers,fatigue,SOURCE_MISSING,1,home,,
+2026_10_01,2026020015,Vancouver Canucks,Edmonton Oilers,fatigue,COMPLETE,2,,,
 2026_10_01,2026020015,Vancouver Canucks,Edmonton Oilers,team-strength,COMPLETE,2,,,
 2026_10_01,2026020015,Vancouver Canucks,Edmonton Oilers,goalie,COMPLETE,1,,,
 2026_10_01,2026020015,Vancouver Canucks,Edmonton Oilers,lineup-strength,COMPLETE,1,,,home;away
@@ -87,7 +87,7 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_10_03,2026020022,Buffalo Sabres,Chicago Blackhawks,team-strength,COMPLETE,2,,,
 2026_10_03,2026020022,Buffalo Sabres,Chicago Blackhawks,goalie,COMPLETE,1,,,
 2026_10_03,2026020022,Buffalo Sabres,Chicago Blackhawks,lineup-strength,COMPLETE,1,,,home;away
-2026_10_03,2026020023,Toronto Maple Leafs,Ottawa Senators,fatigue,SOURCE_MISSING,1,away,,
+2026_10_03,2026020023,Toronto Maple Leafs,Ottawa Senators,fatigue,COMPLETE,2,,,
 2026_10_03,2026020023,Toronto Maple Leafs,Ottawa Senators,team-strength,COMPLETE,2,,,
 2026_10_03,2026020023,Toronto Maple Leafs,Ottawa Senators,goalie,COMPLETE,1,,,
 2026_10_03,2026020023,Toronto Maple Leafs,Ottawa Senators,lineup-strength,COMPLETE,1,,,home;away
@@ -95,11 +95,11 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_10_03,2026020024,Tampa Bay Lightning,Washington Capitals,team-strength,COMPLETE,2,,,
 2026_10_03,2026020024,Tampa Bay Lightning,Washington Capitals,goalie,COMPLETE,1,,,
 2026_10_03,2026020024,Tampa Bay Lightning,Washington Capitals,lineup-strength,COMPLETE,1,,,home;away
-2026_10_03,2026020025,Philadelphia Flyers,Carolina Hurricanes,fatigue,SOURCE_MISSING,1,home,,
+2026_10_03,2026020025,Philadelphia Flyers,Carolina Hurricanes,fatigue,COMPLETE,2,,,
 2026_10_03,2026020025,Philadelphia Flyers,Carolina Hurricanes,team-strength,COMPLETE,2,,,
 2026_10_03,2026020025,Philadelphia Flyers,Carolina Hurricanes,goalie,COMPLETE,1,,,
 2026_10_03,2026020025,Philadelphia Flyers,Carolina Hurricanes,lineup-strength,COMPLETE,1,,,home;away
-2026_10_03,2026020026,Pittsburgh Penguins,Montreal Canadiens,fatigue,SOURCE_MISSING,1,home,,
+2026_10_03,2026020026,Pittsburgh Penguins,Montreal Canadiens,fatigue,COMPLETE,2,,,
 2026_10_03,2026020026,Pittsburgh Penguins,Montreal Canadiens,team-strength,COMPLETE,2,,,
 2026_10_03,2026020026,Pittsburgh Penguins,Montreal Canadiens,goalie,COMPLETE,1,,,
 2026_10_03,2026020026,Pittsburgh Penguins,Montreal Canadiens,lineup-strength,COMPLETE,1,,,home;away
@@ -111,11 +111,11 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_10_03,2026020028,Edmonton Oilers,Seattle Kraken,team-strength,COMPLETE,2,,,
 2026_10_03,2026020028,Edmonton Oilers,Seattle Kraken,goalie,COMPLETE,1,,,
 2026_10_03,2026020028,Edmonton Oilers,Seattle Kraken,lineup-strength,COMPLETE,1,,,home;away
-2026_10_03,2026020029,New York Islanders,New Jersey Devils,fatigue,SOURCE_MISSING,1,home,,
+2026_10_03,2026020029,New York Islanders,New Jersey Devils,fatigue,COMPLETE,2,,,
 2026_10_03,2026020029,New York Islanders,New Jersey Devils,team-strength,COMPLETE,2,,,
 2026_10_03,2026020029,New York Islanders,New Jersey Devils,goalie,COMPLETE,1,,,
 2026_10_03,2026020029,New York Islanders,New Jersey Devils,lineup-strength,COMPLETE,1,,,home;away
-2026_10_03,2026020030,Nashville Predators,Dallas Stars,fatigue,SOURCE_MISSING,1,home,,
+2026_10_03,2026020030,Nashville Predators,Dallas Stars,fatigue,COMPLETE,2,,,
 2026_10_03,2026020030,Nashville Predators,Dallas Stars,team-strength,COMPLETE,2,,,
 2026_10_03,2026020030,Nashville Predators,Dallas Stars,goalie,COMPLETE,1,,,
 2026_10_03,2026020030,Nashville Predators,Dallas Stars,lineup-strength,COMPLETE,1,,,home;away
@@ -1043,3 +1043,15 @@ game_date,game_id,home_team,away_team,feature_family,status,source_records,missi
 2026_11_05,2026020261,Colorado Avalanche,Nashville Predators,team-strength,COMPLETE,2,,,
 2026_11_05,2026020261,Colorado Avalanche,Nashville Predators,goalie,COMPLETE,1,,,
 2026_11_05,2026020261,Colorado Avalanche,Nashville Predators,lineup-strength,COMPLETE,1,,,home;away
+2026_11_06,2026020262,Buffalo Sabres,Columbus Blue Jackets,fatigue,COMPLETE,2,,,
+2026_11_06,2026020262,Buffalo Sabres,Columbus Blue Jackets,team-strength,COMPLETE,2,,,
+2026_11_06,2026020262,Buffalo Sabres,Columbus Blue Jackets,goalie,COMPLETE,1,,,
+2026_11_06,2026020262,Buffalo Sabres,Columbus Blue Jackets,lineup-strength,COMPLETE,1,,,home;away
+2026_11_06,2026020263,Minnesota Wild,San Jose Sharks,fatigue,COMPLETE,2,,,
+2026_11_06,2026020263,Minnesota Wild,San Jose Sharks,team-strength,COMPLETE,2,,,
+2026_11_06,2026020263,Minnesota Wild,San Jose Sharks,goalie,COMPLETE,1,,,
+2026_11_06,2026020263,Minnesota Wild,San Jose Sharks,lineup-strength,COMPLETE,1,,,home;away
+2026_11_06,2026020264,Calgary Flames,Anaheim Ducks,fatigue,COMPLETE,2,,,
+2026_11_06,2026020264,Calgary Flames,Anaheim Ducks,team-strength,COMPLETE,2,,,
+2026_11_06,2026020264,Calgary Flames,Anaheim Ducks,goalie,COMPLETE,1,,,
+2026_11_06,2026020264,Calgary Flames,Anaheim Ducks,lineup-strength,COMPLETE,1,,,home;away

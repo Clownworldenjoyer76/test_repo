@@ -4242,6 +4242,184 @@ def compute_lineup_team_metrics(
     }
 
 
+
+@lru_cache(maxsize=1)
+def load_player_strength_snapshots() -> list[dict[str, Any]]:
+    """Read immutable, independently refreshed player-strength snapshots.
+
+    Reject malformed schemas; do not silently substitute a different season,
+    a future snapshot, or a snapshot containing games on/after the target date.
+    """
+    import csv
+    import math
+
+    folder = ROOT / "lineup-strength" / "player_strength_snapshots"
+    paths = sorted(folder.glob("*_team_player_strength.csv"))
+    if not paths:
+        raise RuntimeError(
+            f"No weekly player-strength snapshots at {folder}; "
+            "run nhl_player_strength_manual workflow before daily NHL pipeline"
+        )
+
+    required = {
+        "schema_version", "season", "history_exclusive_date",
+        "snapshot_as_of_utc", "team", *LINEUP_TEAM_METRICS,
+    }
+    output: list[dict[str, Any]] = []
+    for path in paths:
+        with path.open("r", newline="", encoding="utf-8-sig") as handle:
+            reader = csv.DictReader(handle)
+            headers = reader.fieldnames or []
+            if len(headers) != len(set(headers)) or not required.issubset(headers):
+                raise RuntimeError(f"Invalid player-strength snapshot headers: {path}")
+            rows = list(reader)
+        if not rows:
+            raise RuntimeError(f"Empty player-strength snapshot: {path}")
+        first = rows[0]
+        if first.get("schema_version") != "1":
+            raise RuntimeError(f"Unknown player-strength snapshot schema: {path}")
+        try:
+            season = int(first["season"])
+            exclusive_date = date.fromisoformat(first["history_exclusive_date"])
+        except (ValueError, TypeError) as exc:
+            raise RuntimeError(f"Invalid player-strength date/season: {path}") from exc
+        asof = parse_timestamp_utc(first.get("snapshot_as_of_utc"))
+        if asof is None:
+            raise RuntimeError(f"Missing snapshot as-of timestamp: {path}")
+
+        teams: dict[str, dict[str, float | None]] = {}
+        for number, rec in enumerate(rows, start=2):
+            if rec.get(None) is not None:
+                raise RuntimeError(f"Extra CSV fields {path}:{number}")
+            if (
+                rec.get("schema_version") != "1"
+                or rec.get("season") != str(season)
+                or rec.get("history_exclusive_date") != exclusive_date.isoformat()
+                or parse_timestamp_utc(rec.get("snapshot_as_of_utc")) != asof
+            ):
+                raise RuntimeError(f"Inconsistent snapshot metadata: {path}:{number}")
+            team = str(rec.get("team") or "").strip()
+            if not team or team in teams:
+                raise RuntimeError(f"Missing/duplicate player team {team!r}: {path}:{number}")
+            metrics: dict[str, float | None] = {}
+            for metric in LINEUP_TEAM_METRICS:
+                raw = str(rec.get(metric) or "").strip()
+                if not raw:
+                    metrics[metric] = None
+                    continue
+                try:
+                    number_value = float(raw)
+                except (TypeError, ValueError) as exc:
+                    raise RuntimeError(
+                        f"Invalid {metric} for {team} in {path}:{number}"
+                    ) from exc
+                if not math.isfinite(number_value):
+                    raise RuntimeError(f"Non-finite {metric} for {team}: {path}:{number}")
+                metrics[metric] = number_value
+            teams[team] = metrics
+        output.append({
+            "asof": asof,
+            "history_exclusive_date": exclusive_date,
+            "season": season,
+            "teams": teams,
+            "source": path.name,
+        })
+    return sorted(output, key=lambda row: row["asof"], reverse=True)
+
+
+def build_game_lineup_features_from_snapshots(
+    schedule: Any, *, generated_at_utc: datetime,
+) -> pl.DataFrame:
+    """Produce original game-level lineup schema WITHOUT expensive recomputation.
+
+    Snapshots contain historical team performance, not confirmed lineups.
+    The snapshot creation timestamp must precede the game's fixed T-60 cutoff.
+    Snapshot statistics must exclude the target date and subsequent dates.
+    """
+    if frame_empty(schedule):
+        return pl.DataFrame()
+    games = schedule_games_with_cutoffs(schedule)
+    if games.empty:
+        return pl.DataFrame()
+
+    snapshots = load_player_strength_snapshots()
+    generated_at_utc = generated_at_utc.astimezone(UTC)
+    rows: list[dict[str, Any]] = []
+    for _, game in games.iterrows():
+        game_id = str(game.get("game_id") or "").strip()
+        game_date = str(game.get("game_date") or "").strip()
+        try:
+            game_day = date.fromisoformat(game_date)
+        except ValueError:
+            continue
+        game_start = parse_timestamp_utc(game.get("pregame_cutoff_utc"))
+        cutoff_source = str(game.get("pregame_cutoff_source") or "").strip()
+        if (
+            not game_id or game_start is None
+            or cutoff_source == "conservative_game_date_start_et"
+        ):
+            continue
+        decision_cutoff = lineup_production_cutoff_utc(game_start)
+        if generated_at_utc > decision_cutoff:
+            # Preserve original current-run T-60 behavior: do not backfill late.
+            continue
+
+        current_season = season_start_for_day(game_day)
+        candidates = [
+            snap for snap in snapshots
+            if (
+                snap["season"] == current_season
+                and snap["asof"] <= decision_cutoff
+                and snap["history_exclusive_date"] <= game_day
+                and 0 <= (game_day - snap["history_exclusive_date"]).days <= 8
+            )
+        ]
+        if not candidates:
+            raise RuntimeError(
+                f"No eligible <=8-day pregame player-strength snapshot "
+                f"for game_id={game_id} date={game_date} "
+                f"T-60={utc_iso(decision_cutoff)}; run the weekly workflow"
+            )
+        selected = candidates[0]
+        row: dict[str, Any] = {
+            "game_id": game_id,
+            "game_date": game_date,
+            "home_team": str(game.get("home_team") or "").strip(),
+            "away_team": str(game.get("away_team") or "").strip(),
+            "pregame_cutoff_utc": utc_iso(game_start),
+            "lineup_decision_cutoff_utc": utc_iso(decision_cutoff),
+            "lineup_decision_cutoff_source": LINEUP_PRODUCTION_CUTOFF_SOURCE,
+            "lineup_snapshot_as_of_utc": utc_iso(selected["asof"]),
+            "pregame_cutoff_source": cutoff_source,
+        }
+        for side in ("home", "away"):
+            team = row[f"{side}_team"]
+            if team not in selected["teams"]:
+                raise RuntimeError(
+                    f"Team {team!r} absent from player snapshot {selected['source']} "
+                    f"for game_id={game_id}; no silent fallback permitted"
+                )
+            metrics = selected["teams"][team]
+            for metric in LINEUP_TEAM_METRICS:
+                row[f"{side}_{metric}"] = metrics[metric]
+            row[f"{side}_lineup_status"] = "unknown"
+            row[f"{side}_lineup_observed_at"] = ""
+            row[f"{side}_lineup_source"] = (
+                "sportsdataverse_cached_historical_player_strength_no_lineup_confirmation"
+            )
+
+        for metric in LINEUP_TEAM_METRICS:
+            h = row[f"home_{metric}"]
+            a = row[f"away_{metric}"]
+            row[f"{metric}_differential"] = (
+                float(h) - float(a)
+                if h is not None and a is not None
+                else None
+            )
+        rows.append(row)
+    return pl.from_pandas(pd.DataFrame(rows)) if rows else pl.DataFrame()
+
+
 def build_game_lineup_features_asof(
     schedule: Any,
     pbp: Any,
@@ -5382,28 +5560,31 @@ def run_one(
             current=current,
         )
 
-    if (
-        "lineup-strength" in categories
-        and context is not None
-    ):
-        lineup_features = timed_call(
-            "stage/lineup_feature_calculation", safe_pull,
-            failures,
-            "lineup-strength",
-            "game_lineup_features_asof",
-            build_game_lineup_features_asof,
-            relevant_schedule,
-            context.get(
-                "pbp"
-            ),
-            context.get(
-                "shifts"
-            ),
-            current=current,
-            generated_at_utc=datetime.now(
-                UTC
-            ),
-        )
+    if "lineup-strength" in categories:
+        if current:
+            # Daily current-slate run: read independently refreshed historical
+            # player-strength snapshots. No RAPM/WAR/unit ratings computed here.
+            lineup_features = timed_call(
+                "stage/lineup_strength_snapshot_read",
+                build_game_lineup_features_from_snapshots,
+                relevant_schedule,
+                generated_at_utc=datetime.now(UTC),
+            )
+        elif context is not None:
+            # Historical --season replay retains the original strictly-as-of
+            # per-game calculation, preserving past reprocessing behavior.
+            lineup_features = timed_call(
+                "stage/historical_lineup_feature_calculation",
+                safe_pull, failures, "lineup-strength",
+                "game_lineup_features_asof",
+                build_game_lineup_features_asof,
+                relevant_schedule,
+                context.get("pbp"), context.get("shifts"),
+                current=False,
+                generated_at_utc=datetime.now(UTC),
+            )
+        else:
+            lineup_features = None
 
         if lineup_features is not None:
             save_object(

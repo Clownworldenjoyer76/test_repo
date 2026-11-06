@@ -1359,7 +1359,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1408,11 +1408,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 5
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 22,
@@ -1430,33 +1432,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/oilers/tickets/promotional-games",
+        "promoDesc": "Indigenous Celebration",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 6
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 5,
-        "periodType": "SO",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "SO"
-      },
-      "winningGoalie": {
-        "playerId": 8482221,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Levi"
-        }
-      },
-      "threeMinRecap": "/video/car-at-edm-recap-6407275101112",
-      "threeMinRecapFr": "/fr/video/car-vs-edm-22-10-2026-resume-6407273898112",
-      "condensedGame": "/video/car-at-edm-condensed-game-6407275677112",
-      "condensedGameFr": "/fr/video/match-condense-hurricanes-oilers-22-10-2026-6407274817112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A5F6A473?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM5",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A5F6A473?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM5",
       "gameCenterLink": "/gamecenter/car-vs-edm/2026/10/22/2026020163"
     },
     {
@@ -1472,7 +1462,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1499,9 +1489,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
         "awaySplitSquad": false,
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8",
         "hotelLink": "https://marriott.com/search/findHotels.mi?destinationAddress.destination=ROGERS+PLACE,+EDMONTON,+ALBERTA&cid=DIS_GLB000791Q_GLE000HJ7H_GLF0017UWS",
-        "hotelDesc": "Book Now",
-        "score": 7
+        "hotelDesc": "Book Now"
       },
       "homeTeam": {
         "id": 22,
@@ -1519,37 +1509,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "homeSplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476932,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Stolarz"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8479442,
-        "firstInitial": {
-          "default": "T."
-        },
-        "lastName": {
-          "default": "Stecher"
-        }
-      },
-      "threeMinRecap": "/video/tor-at-edm-recap-6407364054112",
-      "threeMinRecapFr": "/fr/video/tor-vs-edm-24-10-2026-resume-6407362789112",
-      "condensedGame": "/video/tor-at-edm-condensed-game-6407362986112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A5FCA483?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A5FCA483?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/tor-vs-edm/2026/10/24/2026020176"
     },
     {
@@ -1565,7 +1533,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1606,7 +1574,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "homeTeam": {
         "id": 22,
@@ -1624,29 +1592,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "homeSplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 5,
-        "periodType": "SO",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "SO"
-      },
-      "winningGoalie": {
-        "playerId": 8485545,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Postava"
-        }
-      },
-      "threeMinRecap": "/video/det-at-edm-recap-6407454661112",
-      "threeMinRecapFr": "/fr/video/det-vs-edm-26-10-2026-resume-6407454472112",
-      "condensedGame": "/video/det-at-edm-condensed-game-6407454092112",
-      "condensedGameFr": "/fr/video/match-condense-red-wings-oilers-26-10-2026-6407454665112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A602A493?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A602A493?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/det-vs-edm/2026/10/26/2026020187"
     },
     {
@@ -1662,7 +1616,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1689,7 +1643,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
         "awaySplitSquad": false,
-        "score": 0
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
       },
       "homeTeam": {
         "id": 22,
@@ -1707,38 +1661,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8477465,
-        "firstInitial": {
-          "default": "T."
-        },
-        "lastName": {
-          "default": "Jarry"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478472,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Joseph"
-        }
-      },
-      "threeMinRecap": "/video/cgy-at-edm-recap-6407573225112",
-      "threeMinRecapFr": "/fr/video/cgy-vs-edm-28-10-2026-resume-6407572054112",
-      "condensedGame": "/video/cgy-at-edm-condensed-game-6407573229112",
-      "condensedGameFr": "/fr/video/match-condense-flames-oilers-28-10-2026-6407571985112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A607A4A3?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A607A4A3?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/cgy-vs-edm/2026/10/28/2026020200"
     },
     {
@@ -1754,7 +1685,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "America/New_York",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1788,7 +1719,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "homeTeam": {
         "id": 2,
@@ -1806,37 +1737,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
         "homeSplitSquad": false,
-        "score": 0
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20262027/NYI-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8477465,
-        "firstInitial": {
-          "default": "T."
-        },
-        "lastName": {
-          "default": "Jarry"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8476454,
-        "firstInitial": {
-          "default": "R."
-        },
-        "lastName": {
-          "default": "Nugent-Hopkins"
-        }
-      },
-      "threeMinRecap": "/video/edm-at-nyi-recap-6407722856112",
-      "threeMinRecapFr": "/fr/video/edm-vs-nyi-31-10-2026-resume-6407721685112",
-      "condensedGame": "/video/edm-at-nyi-condensed-game-6407721965112",
+      "ticketsLink": "https://www.ticketmaster.com/event/300064E2D26961C3?brand=nyislanders&artistid=805986&wt.mc_id=NHL_TEAM_NYI_SCHEDULE_GM7&utm_source=nyi_website&utm_medium=schedulepage&utm_campaign=NHL_TEAM_NYI&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/300064E2D26961C3?brand=nyislanders&artistid=805986&wt.mc_id=NHL_TEAM_NYI_SCHEDULE_GM7&utm_source=nyi_website&utm_medium=schedulepage&utm_campaign=NHL_TEAM_NYI&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/edm-vs-nyi/2026/10/31/2026020220"
     },
     {
@@ -1852,7 +1761,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/New_York",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1900,7 +1809,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "homeTeam": {
         "id": 3,
@@ -1918,38 +1827,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
         "homeSplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8477035,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Tomkins"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482703,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Dach"
-        }
-      },
-      "threeMinRecap": "/video/edm-at-nyr-recap-6407767487112",
-      "threeMinRecapFr": "/fr/video/edm-vs-nyr-01-11-2026-resume-6407767675112",
-      "condensedGame": "/video/edm-at-nyr-condensed-game-6407766208112",
-      "condensedGameFr": "/fr/video/match-condense-oilers-rangers-01-11-2026-6407768669112",
+      "ticketsLink": "https://www.ticketmaster.com/event/3B0064F1B1D9444C?brand=nyrangers&artistid=805991&landing=s&wt.mc_id=NHL_TEAM_NYR_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_NYR&utm_content=SCHEDULE_GM8&CAMEFROM=CFC_RANGERS_WEB_NYR_SCHED_260803",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/3B0064F1B1D9444C?brand=nyrangers&artistid=805991&landing=s&wt.mc_id=NHL_TEAM_NYR_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_NYR&utm_content=SCHEDULE_GM8&CAMEFROM=CFC_RANGERS_WEB_NYR_SCHED_260803",
       "gameCenterLink": "/gamecenter/edm-vs-nyr/2026/11/01/2026020230"
     },
     {
@@ -1965,7 +1851,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2013,7 +1899,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "awaySplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "homeTeam": {
         "id": 1,
@@ -2031,28 +1917,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 5,
-        "periodType": "SO",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "SO"
-      },
-      "winningGoalie": {
-        "playerId": 8476945,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Hellebuyck"
-        }
-      },
-      "threeMinRecap": "/video/edm-at-njd-recap-6407882213112",
-      "threeMinRecapFr": "/fr/video/edm-vs-njd-03-11-2026-resume-6407880156112",
-      "condensedGame": "/video/edm-at-njd-condensed-game-6407881124112",
+      "ticketsLink": "https://www.ticketmaster.com/event/020064F091B59CAC?brand=devils&artistid=805982&wt.mc_id=NHL_TEAM_NJD_SCHEDULE_GM9&camefrom=CFC_DEVILS_NHL_TEAM_NJD_SCHEDULE_GM9",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/020064F091B59CAC?brand=devils&artistid=805982&wt.mc_id=NHL_TEAM_NJD_SCHEDULE_GM9&camefrom=CFC_DEVILS_NHL_TEAM_NJD_SCHEDULE_GM9",
       "gameCenterLink": "/gamecenter/edm-vs-njd/2026/11/03/2026020239"
     },
     {
@@ -2066,7 +1939,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-06T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2142,7 +2015,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-08T03:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2230,7 +2103,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-10T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2313,7 +2186,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-12T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2756,18 +2629,18 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 282,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 21
-        },
-        {
           "id": 324,
           "market": "N",
           "countryCode": "US",
           "network": "NHLN",
           "sequenceNumber": 35
+        },
+        {
+          "id": 282,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN",
+          "sequenceNumber": 107
         },
         {
           "id": 646,
@@ -2849,18 +2722,11 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 289,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SNW",
-          "sequenceNumber": 34
-        },
-        {
-          "id": 284,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
+          "network": "SN",
+          "sequenceNumber": 21
         },
         {
           "id": 649,
@@ -2945,7 +2811,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-25T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3042,7 +2908,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-28T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3229,7 +3095,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-02T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3319,7 +3185,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-04T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3818,7 +3684,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-18T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3906,7 +3772,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-19T20:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4003,7 +3869,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-21T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4593,7 +4459,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-08T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4677,7 +4543,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-09T20:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4772,7 +4638,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-12T01:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4855,7 +4721,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-14T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4943,7 +4809,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-16T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5026,7 +4892,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-18T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5472,7 +5338,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-29T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5548,7 +5414,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-31T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5624,7 +5490,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-04T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5712,7 +5578,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-13T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5807,7 +5673,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-14T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5883,7 +5749,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-18T02:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5980,7 +5846,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-20T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6063,7 +5929,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-23T00:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6406,7 +6272,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-04T01:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6475,7 +6341,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-07T03:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6551,7 +6417,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-10T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6639,7 +6505,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-12T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",

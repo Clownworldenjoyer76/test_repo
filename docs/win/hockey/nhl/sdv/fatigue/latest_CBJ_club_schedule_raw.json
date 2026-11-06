@@ -1,10 +1,6 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
-  "howToWatch": {
-    "url": "https://www.nhl.com/bluejackets/multimedia/tv-broadcast",
-    "text": "How to Watch"
-  },
   "clubTimezone": "US/Eastern",
   "clubUTCOffset": "-04:00",
   "games": [
@@ -1148,7 +1144,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1189,9 +1185,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
         "awaySplitSquad": false,
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8",
         "hotelLink": "https://marriott.com/search/findHotels.mi?destinationAddress.destination=NATIONWIDE+ARENA,+COLUMBUS,+OHIO,+USA&cid=DIS_GLB000791Q_GLE000HJ7H_GLF0017UVE",
-        "hotelDesc": "Book Now",
-        "score": 6
+        "hotelDesc": "Book Now"
       },
       "homeTeam": {
         "id": 29,
@@ -1209,39 +1205,17 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "homeSplitSquad": false,
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "hotelLink": "https://www.sonesta.com/sonesta-hotels-resorts/oh/columbus/sonesta-columbus-downtown?isGroupCode=false&promoCode=CBJPROMO",
-        "hotelDesc": "Stay at Sonesta Columbus Downtown",
-        "score": 2
+        "hotelDesc": "Stay at Sonesta Columbus Downtown"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476932,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Stolarz"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8479318,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Matthews"
-        }
-      },
-      "threeMinRecap": "/video/tor-at-cbj-recap-6407162763112",
-      "threeMinRecapFr": "/fr/video/tor-vs-cbj-20-10-2026-resume-6407163161112",
-      "condensedGame": "/video/tor-at-cbj-condensed-game-6407161322112",
+      "ticketsLink": "https://www.ticketmaster.com/event/050064EDB0C08016?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM6&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/050064EDB0C08016?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM6&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/tor-vs-cbj/2026/10/20/2026020145"
     },
     {
@@ -1257,7 +1231,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1298,7 +1272,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
         "awaySplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
       },
       "homeTeam": {
         "id": 29,
@@ -1316,39 +1290,19 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://bluejackets.spinzo.com/?group=peanuts-night-evv7",
+        "promoDesc": "Purchase a Peanuts Ticket Package",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "hotelLink": "https://www.sonesta.com/sonesta-hotels-resorts/oh/columbus/sonesta-columbus-downtown?isGroupCode=false&promoCode=CBJPROMO",
-        "hotelDesc": "Stay at Sonesta Columbus Downtown",
-        "score": 2
+        "hotelDesc": "Stay at Sonesta Columbus Downtown"
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8475660,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Talbot"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8484166,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Fantilli"
-        }
-      },
-      "threeMinRecap": "/video/vgk-at-cbj-recap-6407363088112",
-      "threeMinRecapFr": "/fr/video/vgk-vs-cbj-24-10-2026-resume-6407363953112",
-      "condensedGame": "/video/vgk-at-cbj-condensed-game-6407363959112",
+      "ticketsLink": "https://www.ticketmaster.com/event/050064EDD46DC968?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM7&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/050064EDD46DC968?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM7&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/vgk-vs-cbj/2026/10/24/2026020174"
     },
     {
@@ -1364,7 +1318,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1412,7 +1366,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8"
       },
       "homeTeam": {
         "id": 4,
@@ -1431,37 +1385,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
         "homeSplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8475660,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Talbot"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482660,
-        "firstInitial": {
-          "default": "K."
-        },
-        "lastName": {
-          "default": "Johnson"
-        }
-      },
-      "threeMinRecap": "/video/cbj-at-phi-recap-6407504506112",
-      "threeMinRecapFr": "/fr/video/cbj-vs-phi-27-10-2026-resume-6407503513112",
-      "condensedGame": "/video/cbj-at-phi-condensed-game-6407505381112",
+      "ticketsLink": "https://www.ticketmaster.com/event/300064EEEEADE170?brand=flyers&artistid=806000&wt.mc_id=NHL_TEAM_PHI_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PHI&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/300064EEEEADE170?brand=flyers&artistid=806000&wt.mc_id=NHL_TEAM_PHI_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_PHI&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/cbj-vs-phi/2026/10/27/2026020188"
     },
     {
@@ -1477,7 +1409,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1525,11 +1457,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 2
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 12,
@@ -1548,42 +1482,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://hurricanes.spinzo.com/grateful-dead-night-canes-vs-blue-jackets-2026-10-29-VWURS?group=grateful-dead-tribute-night-y5mu&_gl=1*29ea1*_ga*MTEwODYzNzA5OC4xNzkxODE5MzAw*_ga_93ZV6892NM*czE3OTE4MTY2MjMkbzE5NyRnMSR0MTc5MTgyMDQ1MSRqOSRsMCRoNjQ4NzEyMjc3",
+        "promoDesc": "Grateful Dead Ticket Pack",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "https://cmchotels.com/hurricanes/",
-        "hotelDesc": "CMC Hotels",
-        "score": 3
+        "hotelDesc": "CMC Hotels"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8481611,
-        "firstInitial": {
-          "default": "P."
-        },
-        "lastName": {
-          "default": "Kochetkov",
-          "fi": "Kotshetkov"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8476873,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Jankowski"
-        }
-      },
-      "threeMinRecap": "/video/cbj-at-car-recap-6407632722112",
-      "threeMinRecapFr": "/fr/video/cbj-vs-car-29-10-2026-resume-6407631665112",
-      "condensedGame": "/video/cbj-at-car-condensed-game-6407630962112",
+      "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD60D1A8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD60D1A8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/cbj-vs-car/2026/10/29/2026020206"
     },
     {
@@ -1599,7 +1512,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1640,11 +1553,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 1
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 25,
@@ -1662,41 +1577,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/stars/tickets/promotional-schedule",
+        "promoDesc": "View promotional schedule",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8",
         "airlineLink": "https://www.aa.com/homePage.do?c=SPNS%7CDSP%7CSTR%7C2026%7CSCH%7C_STARS_2026_SCHEDULE_PAGE",
         "airlineDesc": "Book flights with American Airlines",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8479979,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Oettinger"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8481581,
-        "firstInitial": {
-          "default": "T."
-        },
-        "lastName": {
-          "default": "Harley"
-        }
-      },
-      "threeMinRecap": "/video/cbj-at-dal-recap-6407734168112",
-      "threeMinRecapFr": "/fr/video/cbj-vs-dal-31-10-2026-resume-6407732978112",
-      "condensedGame": "/video/cbj-at-dal-condensed-game-6407733569112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0C0064EDD8F9A0B2?brand=dallas_stars&wt.mc_id=NHL_TEAM_DAL_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DAL&utm_content=SCHEDULE_GM9",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0C0064EDD8F9A0B2?brand=dallas_stars&wt.mc_id=NHL_TEAM_DAL_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DAL&utm_content=SCHEDULE_GM9",
       "gameCenterLink": "/gamecenter/cbj-vs-dal/2026/10/31/2026020225"
     },
     {
@@ -1712,7 +1607,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1753,7 +1648,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "awaySplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
       },
       "homeTeam": {
         "id": 29,
@@ -1771,39 +1666,17 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
         "homeSplitSquad": false,
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
         "hotelLink": "https://www.sonesta.com/sonesta-hotels-resorts/oh/columbus/sonesta-columbus-downtown?isGroupCode=false&promoCode=CBJPROMO",
-        "hotelDesc": "Stay at Sonesta Columbus Downtown",
-        "score": 7
+        "hotelDesc": "Stay at Sonesta Columbus Downtown"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8475660,
-        "firstInitial": {
-          "default": "C."
-        },
-        "lastName": {
-          "default": "Talbot"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8481161,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Christiansen"
-        }
-      },
-      "threeMinRecap": "/video/col-at-cbj-recap-6407878235112",
-      "threeMinRecapFr": "/fr/video/col-vs-cbj-03-11-2026-resume-6407878105112",
-      "condensedGame": "/video/col-at-cbj-condensed-game-6407879481112",
+      "ticketsLink": "https://www.ticketmaster.com/event/050064EDB0C5802A?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM8&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/050064EDB0C5802A?brand=bluejackets&artistid=805927&wt.mc_id=NHL_TEAM_CBJ_SCHEDULE_GM8&utm_source=web_schedule_club&utm_medium=NHL.com&utm_campaign=single_game_tickets&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/col-vs-cbj/2026/11/03/2026020244"
     },
     {
@@ -1834,13 +1707,6 @@
           "market": "H",
           "countryCode": "US",
           "network": "CBJHN",
-          "sequenceNumber": 1
-        },
-        {
-          "id": 789,
-          "market": "H",
-          "countryCode": "US",
-          "network": "WWHO",
           "sequenceNumber": 1
         },
         {
@@ -4707,7 +4573,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-13T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4790,7 +4656,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-16T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",

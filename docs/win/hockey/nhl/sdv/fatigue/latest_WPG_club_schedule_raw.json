@@ -1334,7 +1334,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1375,11 +1375,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 2
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 25,
@@ -1397,41 +1399,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.nhl.com/stars/tickets/promotional-schedule",
+        "promoDesc": "View promotional schedule",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8",
         "airlineLink": "https://www.aa.com/homePage.do?c=SPNS%7CDSP%7CSTR%7C2026%7CSCH%7C_STARS_2026_SCHEDULE_PAGE",
         "airlineDesc": "Book flights with American Airlines",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8479979,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Oettinger"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478449,
-        "firstInitial": {
-          "default": "R."
-        },
-        "lastName": {
-          "default": "Hintz"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-dal-recap-6407270565112",
-      "threeMinRecapFr": "/fr/video/wpg-vs-dal-22-10-2026-resume-6407269393112",
-      "condensedGame": "/video/wpg-at-dal-condensed-game-6407269974112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0C0064EDDB87A47E?brand=dallas_stars&wt.mc_id=NHL_TEAM_DAL_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DAL&utm_content=SCHEDULE_GM5",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0C0064EDDB87A47E?brand=dallas_stars&wt.mc_id=NHL_TEAM_DAL_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DAL&utm_content=SCHEDULE_GM5",
       "gameCenterLink": "/gamecenter/wpg-vs-dal/2026/10/22/2026020161"
     },
     {
@@ -1447,7 +1429,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1502,7 +1484,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "awaySplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "homeTeam": {
         "id": 52,
@@ -1520,33 +1502,12 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "homeSplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
-      },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8484170,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Fowler"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482087,
-        "firstInitial": {
-          "default": "K."
-        },
-        "lastName": {
-          "default": "Guhle"
-        }
       },
       "specialEvent": {
         "parentId": 18,
@@ -1559,10 +1520,8 @@
           "fr": "https://assets.nhle.com/special_event_season/20262027/svg/hc-20262027-matchup-fr-light.svg"
         }
       },
-      "threeMinRecap": "/video/mtl-at-wpg-recap-6407403539112",
-      "threeMinRecapFr": "/fr/video/mtl-vs-wpg-25-10-2026-resume-6407403843112",
-      "condensedGame": "/video/mtl-at-wpg-condensed-game-6407403142112",
-      "condensedGameFr": "/fr/video/match-condense-canadiens-jets-25-10-2026-6407403559112",
+      "ticketsLink": "https://www.nhl.com/jets/tickets/",
+      "ticketsLinkFr": "https://www.nhl.com/jets/tickets/",
       "gameCenterLink": "/gamecenter/mtl-vs-wpg/2026/10/25/2026020182"
     },
     {
@@ -1578,7 +1537,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Winnipeg",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1613,11 +1572,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 5
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 52,
@@ -1635,40 +1596,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.ticketmaster.ca/event/11006505D0B2AFEC",
+        "promoDesc": "Halloween Game",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 1
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8481033,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Schmid"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478859,
-        "firstInitial": {
-          "default": "N."
-        },
-        "lastName": {
-          "default": "Mikkola"
-        }
-      },
-      "threeMinRecapFr": "/fr/video/fla-vs-wpg-27-10-2026-resume-6407509026112",
-      "condensedGame": "/video/fla-at-wpg-condensed-game-6407509902112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006505D0B2AFEC?brand=winnipegjets&artistid=1613893&wt.mc_id=NHL_TEAM_WPG_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_WPG&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006505D0B2AFEC?brand=winnipegjets&artistid=1613893&wt.mc_id=NHL_TEAM_WPG_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_WPG&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/fla-vs-wpg/2026/10/27/2026020194"
     },
     {
@@ -1684,7 +1626,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1718,7 +1660,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "homeTeam": {
         "id": 14,
@@ -1736,40 +1678,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "homeSplitSquad": false,
-        "score": 6
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476883,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Vasilevskiy",
-          "cs": "Vasilevskij",
-          "fi": "Vasilevski",
-          "sk": "Vasilevskij"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8479542,
-        "firstInitial": {
-          "default": "B."
-        },
-        "lastName": {
-          "default": "Hagel"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-tbl-recap-6407632940112",
-      "threeMinRecapFr": "/fr/video/wpg-vs-tbl-29-10-2026-resume-6407632941112",
-      "condensedGame": "/video/wpg-at-tbl-condensed-game-6407631175112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0D0064F8CF359D8A?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0D0064F8CF359D8A?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/wpg-vs-tbl/2026/10/29/2026020204"
     },
     {
@@ -1785,7 +1702,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1826,11 +1743,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 2
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 13,
@@ -1849,42 +1768,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8",
         "airlineLink": "https://www.jetblue.com/",
         "airlineDesc": "Fly with JetBlue",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 5
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8481033,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Schmid"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8477495,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Jones"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-fla-recap-6407690884112",
-      "threeMinRecapFr": "/fr/video/wpg-vs-fla-30-10-2026-resume-6407688543112",
-      "condensedGame": "/video/wpg-at-fla-condensed-game-6407688441112",
-      "condensedGameFr": "/fr/video/match-condense-jets-panthers-30-10-2026-6407689718112",
+      "ticketsLink": "https://www.nhl.com/panthers/tickets/",
+      "ticketsLinkFr": "https://www.nhl.com/panthers/tickets/",
       "gameCenterLink": "/gamecenter/wpg-vs-fla/2026/10/30/2026020215"
     },
     {
@@ -1900,7 +1798,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1955,7 +1853,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
-        "score": 0
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "homeTeam": {
         "id": 12,
@@ -1974,41 +1872,17 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
         "homeSplitSquad": false,
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8",
         "hotelLink": "https://cmchotels.com/hurricanes/",
-        "hotelDesc": "CMC Hotels",
-        "score": 7
+        "hotelDesc": "CMC Hotels"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8481611,
-        "firstInitial": {
-          "default": "P."
-        },
-        "lastName": {
-          "default": "Kochetkov",
-          "fi": "Kotshetkov"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8480336,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Walker"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-car-recap-6407758806112",
-      "threeMinRecapFr": "/fr/video/wpg-vs-car-01-11-2026-resume-6407759880112",
-      "condensedGame": "/video/wpg-at-car-condensed-game-6407760078112",
-      "condensedGameFr": "/fr/video/match-condense-jets-hurricanes-01-11-2026-6407758423112",
+      "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD65D1B8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD65D1B8?brand=carolinahurricanes&artistid=805908&wt.mc_id=NHL_TEAM_CAR_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CAR&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/wpg-vs-car/2026/11/01/2026020227"
     },
     {
@@ -2024,7 +1898,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "America/Montreal",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -2065,7 +1939,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "homeTeam": {
         "id": 8,
@@ -2083,37 +1957,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8479973,
-        "firstInitial": {
-          "default": "S."
-        },
-        "lastName": {
-          "default": "Skinner"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8480049,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Samberg"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-mtl-recap-6407881618112",
-      "condensedGame": "/video/wpg-at-mtl-condensed-game-6407881825112",
-      "condensedGameFr": "/fr/video/match-condense-jets-canadiens-03-11-2026-6407882548112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/310064FACAC28742?lang=en-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/310064FACAC28742?lang=fr-ca&brand=canadiens&artistid=805975&wt.mc_id=NHL_TEAM_MTL_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_MTL&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/wpg-vs-mtl/2026/11/03/2026020237"
     },
     {
@@ -2127,7 +1979,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-06T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2205,7 +2057,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-08T23:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2293,7 +2145,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-11T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2552,7 +2404,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-18T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2648,7 +2500,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-20T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2726,7 +2578,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-22T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2802,7 +2654,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-24T00:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3125,7 +2977,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-01T00:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3448,7 +3300,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-09T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3537,7 +3389,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-11T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3791,7 +3643,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-20T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -3879,7 +3731,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-20T22:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4138,7 +3990,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-12-29T00:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4214,7 +4066,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-01T01:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4290,7 +4142,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-03T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4447,7 +4299,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-08T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4535,7 +4387,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-10T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4797,7 +4649,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-17T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4892,7 +4744,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-18T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4980,7 +4832,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-20T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5063,7 +4915,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-22T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5139,7 +4991,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-24T20:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5701,7 +5553,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-18T00:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5789,7 +5641,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-20T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -5872,7 +5724,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-02-21T22:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6245,7 +6097,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-02T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6340,7 +6192,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-06T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6418,7 +6270,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-07T19:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6506,7 +6358,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-10T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6582,7 +6434,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-12T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6660,7 +6512,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-13T20:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",

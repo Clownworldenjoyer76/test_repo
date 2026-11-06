@@ -1,10 +1,6 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
-  "howToWatch": {
-    "url": "https://www.nhl.com/redwings/tickets/broadcast#schedule",
-    "text": "How to Watch"
-  },
   "clubTimezone": "America/Detroit",
   "clubUTCOffset": "-04:00",
   "games": [
@@ -1324,7 +1320,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Vancouver",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1358,7 +1354,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "homeTeam": {
         "id": 23,
@@ -1376,37 +1372,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
         "homeSplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476434,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Gibson"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482078,
-        "firstInitial": {
-          "default": "L."
-        },
-        "lastName": {
-          "default": "Raymond"
-        }
-      },
-      "threeMinRecap": "/video/det-at-van-recap-6407276497112",
-      "threeMinRecapFr": "/fr/video/det-vs-van-22-10-2026-resume-6407276296112",
-      "condensedGame": "/video/det-at-van-condensed-game-6407277003112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006503F091BB53?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM5",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F091BB53?brand=canucks&artistid=806037&wt.mc_id=NHL_TEAM_VAN_SCHEDULE_GM5&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_VAN&utm_content=SCHEDULE_GM5",
       "gameCenterLink": "/gamecenter/det-vs-van/2026/10/22/2026020165"
     },
     {
@@ -1422,7 +1396,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1463,7 +1437,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "homeTeam": {
         "id": 20,
@@ -1481,38 +1455,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8482445,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Cooley"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8484768,
-        "firstInitial": {
-          "default": "Z."
-        },
-        "lastName": {
-          "default": "Parekh"
-        }
-      },
-      "threeMinRecap": "/video/det-at-cgy-recap-6407369333112",
-      "threeMinRecapFr": "/fr/video/det-vs-cgy-24-10-2026-resume-6407369824112",
-      "condensedGame": "/video/det-at-cgy-condensed-game-6407367468112",
-      "condensedGameFr": "/fr/video/match-condense-red-wings-flames-24-10-2026-6407369732112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/110064FBA5AF5431?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/110064FBA5AF5431?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/det-vs-cgy/2026/10/24/2026020178"
     },
     {
@@ -1528,7 +1479,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Edmonton",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1569,7 +1520,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "homeTeam": {
         "id": 22,
@@ -1587,29 +1538,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
         "homeSplitSquad": false,
-        "score": 3
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 5,
-        "periodType": "SO",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "SO"
-      },
-      "winningGoalie": {
-        "playerId": 8485545,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Postava"
-        }
-      },
-      "threeMinRecap": "/video/det-at-edm-recap-6407454661112",
-      "threeMinRecapFr": "/fr/video/det-vs-edm-26-10-2026-resume-6407454472112",
-      "condensedGame": "/video/det-at-edm-condensed-game-6407454092112",
-      "condensedGameFr": "/fr/video/match-condense-red-wings-oilers-26-10-2026-6407454665112",
+      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A602A493?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A602A493?brand=edmontonoilers&artistid=805943&wt.mc_id=NHL_TEAM_EDM_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_TEAM_EDM&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/det-vs-edm/2026/10/26/2026020187"
     },
     {
@@ -1625,7 +1562,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "America/Detroit",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1673,7 +1610,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
         "awaySplitSquad": false,
-        "score": 1
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
       },
       "homeTeam": {
         "id": 17,
@@ -1691,37 +1628,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476434,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Gibson"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8482078,
-        "firstInitial": {
-          "default": "L."
-        },
-        "lastName": {
-          "default": "Raymond"
-        }
-      },
-      "threeMinRecap": "/video/chi-at-det-recap-6407633760112",
-      "threeMinRecapFr": "/fr/video/chi-vs-det-29-10-2026-resume-6407633647112",
-      "condensedGame": "/video/chi-at-det-condensed-game-6407632770112",
+      "ticketsLink": "https://www.ticketmaster.com/event/080064EED7C87FC5?brand=redwings&artistid=805938&wt.mc_id=NHL_TEAM_DET_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DET&utm_content=SCHEDULE_GM8",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7C87FC5?brand=redwings&artistid=805938&wt.mc_id=NHL_TEAM_DET_SCHEDULE_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DET&utm_content=SCHEDULE_GM8",
       "gameCenterLink": "/gamecenter/chi-vs-det/2026/10/29/2026020203"
     },
     {
@@ -1737,7 +1652,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "America/Detroit",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1778,7 +1693,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
         "awaySplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8"
       },
       "homeTeam": {
         "id": 17,
@@ -1796,37 +1711,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8480981,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Hofer"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8483463,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Kaskimaki"
-        }
-      },
-      "threeMinRecap": "/video/stl-at-det-recap-6407721601112",
-      "threeMinRecapFr": "/fr/video/stl-vs-det-31-10-2026-resume-6407721596112",
-      "condensedGame": "/video/stl-at-det-condensed-game-6407721994112",
+      "ticketsLink": "https://www.ticketmaster.com/event/080064EED7CD7FCE?brand=redwings&artistid=805938&wt.mc_id=NHL_TEAM_DET_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DET&utm_content=SCHEDULE_GM9",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7CD7FCE?brand=redwings&artistid=805938&wt.mc_id=NHL_TEAM_DET_SCHEDULE_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_DET&utm_content=SCHEDULE_GM9",
       "gameCenterLink": "/gamecenter/stl-vs-det/2026/10/31/2026020218"
     },
     {
@@ -1842,7 +1735,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1876,11 +1769,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 5
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 13,
@@ -1899,41 +1794,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8",
         "airlineLink": "https://www.jetblue.com/",
         "airlineDesc": "Fly with JetBlue",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8480193,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Tarasov"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8484794,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Brandsegg-Nygård"
-        }
-      },
-      "threeMinRecap": "/video/det-at-fla-recap-6407817911112",
-      "threeMinRecapFr": "/fr/video/det-vs-fla-02-11-2026-resume-6407818790112",
-      "condensedGame": "/video/det-at-fla-condensed-game-6407820066112",
+      "ticketsLink": "https://www.nhl.com/panthers/tickets/",
+      "ticketsLinkFr": "https://www.nhl.com/panthers/tickets/",
       "gameCenterLink": "/gamecenter/det-vs-fla/2026/11/02/2026020233"
     },
     {
@@ -1949,7 +1824,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1983,7 +1858,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "homeTeam": {
         "id": 14,
@@ -2001,40 +1876,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476883,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Vasilevskiy",
-          "cs": "Vasilevskij",
-          "fi": "Vasilevski",
-          "sk": "Vasilevskij"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478519,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Cirelli"
-        }
-      },
-      "threeMinRecap": "/video/det-at-tbl-recap-6407878533112",
-      "threeMinRecapFr": "/fr/video/det-vs-tbl-03-11-2026-resume-6407880480112",
-      "condensedGame": "/video/det-at-tbl-condensed-game-6407880566112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0D0064F8CF609DBB?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0D0064F8CF609DBB?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/det-vs-tbl/2026/11/03/2026020238"
     },
     {
@@ -5827,11 +5677,11 @@
           "sequenceNumber": 19
         },
         {
-          "id": 284,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
+          "network": "SN",
+          "sequenceNumber": 107
         },
         {
           "id": 281,
@@ -6077,11 +5927,11 @@
           "sequenceNumber": 1
         },
         {
-          "id": 284,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN1",
-          "sequenceNumber": 113
+          "network": "SN",
+          "sequenceNumber": 21
         },
         {
           "id": 281,
@@ -6396,7 +6246,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-03-10T00:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -6582,11 +6432,11 @@
           "sequenceNumber": 19
         },
         {
-          "id": 283,
+          "id": 282,
           "market": "N",
           "countryCode": "CA",
-          "network": "SN360",
-          "sequenceNumber": 114
+          "network": "SN",
+          "sequenceNumber": 21
         },
         {
           "id": 281,

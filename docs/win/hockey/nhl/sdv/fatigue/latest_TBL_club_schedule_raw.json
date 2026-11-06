@@ -1,10 +1,6 @@
 {
   "previousSeason": 20252026,
   "currentSeason": 20262027,
-  "howToWatch": {
-    "url": "https://www.nhl.com/lightning/multimedia/how-to-watch",
-    "text": "How to Watch"
-  },
   "clubTimezone": "US/Eastern",
   "clubUTCOffset": "-04:00",
   "games": [
@@ -1354,7 +1350,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1402,11 +1398,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 3
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 21,
@@ -1424,42 +1422,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://avalanchepremium.com/events/Colorado-Avalanche-vs-Tampa-Bay-Lightning-125241/",
+        "promoDesc": "Premium Spaces",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 6
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8478406,
-        "firstInitial": {
-          "default": "M."
-        },
-        "lastName": {
-          "default": "Blackwood"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8477476,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Lehkonen"
-        }
-      },
-      "threeMinRecap": "/video/tbl-at-col-recap-6407323125112",
-      "threeMinRecapFr": "/fr/video/tbl-vs-col-23-10-2026-resume-6407324275112",
-      "condensedGame": "/video/tbl-at-col-condensed-game-6407325168112",
-      "condensedGameFr": "/fr/video/match-condense-lightning-avalanche-23-10-2026-6407325389112",
+      "ticketsLink": "https://avs.social/2627_SCHEDULE_GM6",
+      "ticketsLinkFr": "https://avs.social/2627_SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/tbl-vs-col/2026/10/23/2026020167"
     },
     {
@@ -1475,7 +1452,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Denver",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1516,7 +1493,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
       },
       "homeTeam": {
         "id": 68,
@@ -1534,37 +1511,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
         "homeSplitSquad": false,
-        "score": 5
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 4,
-        "periodType": "OT",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "OT"
-      },
-      "winningGoalie": {
-        "playerId": 8478872,
-        "firstInitial": {
-          "default": "K."
-        },
-        "lastName": {
-          "default": "Vejmelka"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8484386,
-        "firstInitial": {
-          "default": "D."
-        },
-        "lastName": {
-          "default": "Simashev"
-        }
-      },
-      "threeMinRecap": "/video/tbl-at-uta-recap-6407368804112",
-      "threeMinRecapFr": "/fr/video/tbl-vs-uta-24-10-2026-resume-6407366351112",
-      "condensedGame": "/video/tbl-at-uta-condensed-game-6407367228112",
+      "ticketsLink": "https://seatgeek.com/utah-mammoth-tickets/7-13-2026-salt-lake-city-utah-delta-center-1/nhl/18242284?wid=club-web-schedule",
+      "ticketsLinkFr": "https://seatgeek.com/utah-mammoth-tickets/7-13-2026-salt-lake-city-utah-delta-center-1/nhl/18242284?wid=club-web-schedule",
       "gameCenterLink": "/gamecenter/tbl-vs-uta/2026/10/24/2026020177"
     },
     {
@@ -1580,7 +1535,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1614,7 +1569,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
         "awaySplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
       },
       "homeTeam": {
         "id": 14,
@@ -1632,40 +1587,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "homeSplitSquad": false,
-        "score": 6
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476883,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Vasilevskiy",
-          "cs": "Vasilevskij",
-          "fi": "Vasilevski",
-          "sk": "Vasilevskij"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8479542,
-        "firstInitial": {
-          "default": "B."
-        },
-        "lastName": {
-          "default": "Hagel"
-        }
-      },
-      "threeMinRecap": "/video/wpg-at-tbl-recap-6407632940112",
-      "threeMinRecapFr": "/fr/video/wpg-vs-tbl-29-10-2026-resume-6407632941112",
-      "condensedGame": "/video/wpg-at-tbl-condensed-game-6407631175112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0D0064F8CF359D8A?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM6",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0D0064F8CF359D8A?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM6",
       "gameCenterLink": "/gamecenter/wpg-vs-tbl/2026/10/29/2026020204"
     },
     {
@@ -1681,7 +1611,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Central",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1715,11 +1645,13 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "awaySplitSquad": false,
+        "promoLink": "",
+        "promoDesc": "",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 4
+        "hotelDesc": ""
       },
       "homeTeam": {
         "id": 18,
@@ -1737,32 +1669,21 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
         "homeSplitSquad": false,
+        "promoLink": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM9&utm_source=NHL.com&utm_medium=PredsWeb&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM9&_gl=1*d014lk*_ga*MjE0MzQ2OTg0LjE3NjgyNTIyMDA.*_ga_XZHCNEQSGP*czE3ODgyODE3NzMkbzYwMyRnMSR0MTc4ODI4MTc5NiRqMzckbDAkaDA.*_gcl_au*MTEyMjIyODE3OC4xNzgzMjY3MDg0Li0uLS4xNzg1ODU3MTAzLjI4Njg5ODYxOC4xNzg1ODU3MTA0LjE3ODU4NTcxMDM.*_ga_MB8CF1F45B*czE3ODgyODE3NzMkbzU5NyRnMSR0MTc4ODI4MTc4OSRqNDQkbDAkaDA.",
+        "promoDesc": "Halloween",
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
         "airlineLink": "",
         "airlineDesc": "",
         "hotelLink": "",
-        "hotelDesc": "",
-        "score": 5
+        "hotelDesc": ""
       },
       "periodDescriptor": {
-        "number": 5,
-        "periodType": "SO",
+        "number": 1,
+        "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "SO"
-      },
-      "winningGoalie": {
-        "playerId": 8481020,
-        "firstInitial": {
-          "default": "J."
-        },
-        "lastName": {
-          "default": "Annunen"
-        }
-      },
-      "threeMinRecap": "/video/tbl-at-nsh-recap-6407724249112",
-      "threeMinRecapFr": "/fr/video/tbl-vs-nsh-31-10-2026-resume-6407725041112",
-      "condensedGame": "/video/tbl-at-nsh-condensed-game-6407724342112",
+      "ticketsLink": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM9&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM9",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=predators&artistid=805978&landing=s&wt.mc_id=NHL_TEAM_NSH_SGT_PG_GM9&utm_source=NHL.com&utm_medium=PredsWebSchedule&utm_campaign=NHL_TEAM_NSH_SGT_PG_GM9",
       "gameCenterLink": "/gamecenter/tbl-vs-nsh/2026/10/31/2026020219"
     },
     {
@@ -1778,7 +1699,7 @@
       "easternUTCOffset": "-05:00",
       "venueUTCOffset": "-05:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "OFF",
+      "gameState": "FUT",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -1812,7 +1733,7 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
         "awaySplitSquad": false,
-        "score": 2
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
       },
       "homeTeam": {
         "id": 14,
@@ -1830,40 +1751,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
         "homeSplitSquad": false,
-        "score": 4
+        "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
       },
       "periodDescriptor": {
-        "number": 3,
+        "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "gameOutcome": {
-        "lastPeriodType": "REG"
-      },
-      "winningGoalie": {
-        "playerId": 8476883,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Vasilevskiy",
-          "cs": "Vasilevskij",
-          "fi": "Vasilevski",
-          "sk": "Vasilevskij"
-        }
-      },
-      "winningGoalScorer": {
-        "playerId": 8478519,
-        "firstInitial": {
-          "default": "A."
-        },
-        "lastName": {
-          "default": "Cirelli"
-        }
-      },
-      "threeMinRecap": "/video/det-at-tbl-recap-6407878533112",
-      "threeMinRecapFr": "/fr/video/det-vs-tbl-03-11-2026-resume-6407880480112",
-      "condensedGame": "/video/det-at-tbl-condensed-game-6407880566112",
+      "ticketsLink": "https://www.ticketmaster.com/event/0D0064F8CF609DBB?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM7",
+      "ticketsLinkFr": "https://www.ticketmaster.com/event/0D0064F8CF609DBB?brand=tblightning&artistid=806028&landing=s&wt.mc_id=NHL_TEAM_TBL_SCHEDULE_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_TBL&utm_content=SCHEDULE_GM7",
       "gameCenterLink": "/gamecenter/det-vs-tbl/2026/11/03/2026020238"
     },
     {
@@ -2038,7 +1934,7 @@
       "neutralSite": false,
       "startTimeUTC": "2026-11-08T23:00:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-05:00",
+      "venueUTCOffset": "-06:00",
       "venueTimezone": "America/Winnipeg",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -2572,18 +2468,18 @@
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
-          "id": 282,
-          "market": "N",
-          "countryCode": "CA",
-          "network": "SN",
-          "sequenceNumber": 21
-        },
-        {
           "id": 324,
           "market": "N",
           "countryCode": "US",
           "network": "NHLN",
           "sequenceNumber": 35
+        },
+        {
+          "id": 549,
+          "market": "N",
+          "countryCode": "CA",
+          "network": "SN+",
+          "sequenceNumber": 117
         },
         {
           "id": 281,
@@ -4466,7 +4362,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-09T20:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
@@ -4542,7 +4438,7 @@
       "neutralSite": false,
       "startTimeUTC": "2027-01-12T01:30:00Z",
       "easternUTCOffset": "-05:00",
-      "venueUTCOffset": "-06:00",
+      "venueUTCOffset": "-07:00",
       "venueTimezone": "America/Edmonton",
       "gameState": "FUT",
       "gameScheduleState": "OK",
