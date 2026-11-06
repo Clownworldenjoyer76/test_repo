@@ -1,0 +1,40 @@
+
+name: Export NHL Frontend CSV
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Create combined NHL frontend CSVs
+        run: python docs/win/hockey/nhl/scripts/frontend.py
+
+      - name: Commit and push NHL frontend CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add frontend/data/nhl_slate.csv
+          git add frontend/data/nhl/nhl_final.csv
+
+          if git diff --cached --quiet; then
+            echo "No NHL frontend changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update NHL frontend CSVs"
+          git push origin HEAD:main

@@ -1,0 +1,212 @@
+{
+  "finished_at_utc": "2026-11-06T08:39:03.821983+00:00",
+  "wall_seconds": 2146.127,
+  "cache": {
+    "hit": 0,
+    "miss": 2,
+    "write": 2,
+    "invalid": 2
+  },
+  "summary": {
+    "request/schedule/nhl_web_schedule": {
+      "count": 1,
+      "seconds": 0.09506
+    },
+    "stage/schedule": {
+      "count": 1,
+      "seconds": 0.10944
+    },
+    "request/team-strength/nhl_team_ratings": {
+      "count": 1,
+      "seconds": 1.78666
+    },
+    "request/team-strength/normalize_team_ratings_asof": {
+      "count": 1,
+      "seconds": 0.05424
+    },
+    "stage/team_strength": {
+      "count": 1,
+      "seconds": 1.84488
+    },
+    "request/season-context/pbp": {
+      "count": 1,
+      "seconds": 1.36135
+    },
+    "request/season-context/shifts": {
+      "count": 1,
+      "seconds": 0.52388
+    },
+    "stage/season_context": {
+      "count": 1,
+      "seconds": 18.33516
+    },
+    "stage/save_season_context": {
+      "count": 1,
+      "seconds": 1e-05
+    },
+    "request/lineup-strength/game_lineup_features_asof": {
+      "count": 1,
+      "seconds": 1926.84464
+    },
+    "stage/lineup_feature_calculation": {
+      "count": 1,
+      "seconds": 1926.84468
+    },
+    "request/goalie/game_goalie_features_asof": {
+      "count": 1,
+      "seconds": 197.80297
+    },
+    "stage/goalie_feature_calculation": {
+      "count": 1,
+      "seconds": 197.80396
+    },
+    "request/fatigue/ANA_club_schedule_attempt_1": {
+      "count": 1,
+      "seconds": 0.56947
+    },
+    "request/fatigue/BUF_club_schedule_attempt_1": {
+      "count": 1,
+      "seconds": 0.58973
+    },
+    "request/fatigue/CBJ_club_schedule_attempt_1": {
+      "count": 1,
+      "seconds": 0.59299
+    },
+    "request/fatigue/MIN_club_schedule_attempt_1": {
+      "count": 1,
+      "seconds": 0.12697
+    },
+    "request/fatigue/SJS_club_schedule_attempt_1": {
+      "count": 1,
+      "seconds": 0.13681
+    },
+    "request/fatigue/CGY_club_schedule_attempt_1": {
+      "count": 1,
+      "seconds": 0.29166
+    },
+    "stage/fatigue": {
+      "count": 1,
+      "seconds": 0.93745
+    },
+    "request/sdv_predictions/nhl_predict_games": {
+      "count": 1,
+      "seconds": 0.04166
+    },
+    "stage/sdv_predictions": {
+      "count": 1,
+      "seconds": 0.05994
+    }
+  },
+  "events": [
+    {
+      "name": "request/schedule/nhl_web_schedule",
+      "seconds": 0.09506,
+      "status": "ok"
+    },
+    {
+      "name": "stage/schedule",
+      "seconds": 0.10944,
+      "status": "ok"
+    },
+    {
+      "name": "request/team-strength/nhl_team_ratings",
+      "seconds": 1.78666,
+      "status": "ok"
+    },
+    {
+      "name": "request/team-strength/normalize_team_ratings_asof",
+      "seconds": 0.05424,
+      "status": "ok"
+    },
+    {
+      "name": "stage/team_strength",
+      "seconds": 1.84488,
+      "status": "ok"
+    },
+    {
+      "name": "request/season-context/pbp",
+      "seconds": 1.36135,
+      "status": "ok"
+    },
+    {
+      "name": "request/season-context/shifts",
+      "seconds": 0.52388,
+      "status": "ok"
+    },
+    {
+      "name": "stage/season_context",
+      "seconds": 18.33516,
+      "status": "ok"
+    },
+    {
+      "name": "stage/save_season_context",
+      "seconds": 1e-05,
+      "status": "ok"
+    },
+    {
+      "name": "request/lineup-strength/game_lineup_features_asof",
+      "seconds": 1926.84464,
+      "status": "ok"
+    },
+    {
+      "name": "stage/lineup_feature_calculation",
+      "seconds": 1926.84468,
+      "status": "ok"
+    },
+    {
+      "name": "request/goalie/game_goalie_features_asof",
+      "seconds": 197.80297,
+      "status": "ok"
+    },
+    {
+      "name": "stage/goalie_feature_calculation",
+      "seconds": 197.80396,
+      "status": "ok"
+    },
+    {
+      "name": "request/fatigue/ANA_club_schedule_attempt_1",
+      "seconds": 0.56947,
+      "status": "ok"
+    },
+    {
+      "name": "request/fatigue/BUF_club_schedule_attempt_1",
+      "seconds": 0.58973,
+      "status": "ok"
+    },
+    {
+      "name": "request/fatigue/CBJ_club_schedule_attempt_1",
+      "seconds": 0.59299,
+      "status": "ok"
+    },
+    {
+      "name": "request/fatigue/MIN_club_schedule_attempt_1",
+      "seconds": 0.12697,
+      "status": "ok"
+    },
+    {
+      "name": "request/fatigue/SJS_club_schedule_attempt_1",
+      "seconds": 0.13681,
+      "status": "ok"
+    },
+    {
+      "name": "request/fatigue/CGY_club_schedule_attempt_1",
+      "seconds": 0.29166,
+      "status": "ok"
+    },
+    {
+      "name": "stage/fatigue",
+      "seconds": 0.93745,
+      "status": "ok"
+    },
+    {
+      "name": "request/sdv_predictions/nhl_predict_games",
+      "seconds": 0.04166,
+      "status": "ok"
+    },
+    {
+      "name": "stage/sdv_predictions",
+      "seconds": 0.05994,
+      "status": "ok"
+    }
+  ]
+}

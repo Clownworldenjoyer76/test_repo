@@ -1,0 +1,5 @@
+[2026-11-06T08:39:25.710885+00:00] START 02_nhl_results_analyze.py
+[2026-11-06T08:39:25.710941+00:00] INPUT_FILE=docs/win/hockey/nhl/05_final_scores/graded/NHL_final.csv
+[2026-11-06T08:39:25.710956+00:00] WORK_FILE=docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
+[2026-11-06T08:39:25.766683+00:00] NHL WORK FILE CREATED | rows=165 | out=docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
+[2026-11-06T08:39:25.766885+00:00] END 02_nhl_results_analyze.py

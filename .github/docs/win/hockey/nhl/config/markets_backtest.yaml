@@ -1,0 +1,64 @@
+markets:
+  nhl:
+    secondary_model:
+      enabled: false
+      selection_mode: high_disagreement_requires_secondary_support
+      unavailable_behavior: use_primary
+      min_train_rows: 100
+      disagreement_quantile: 0.75
+      derived_signal_by_market:
+        moneyline: weighted
+        puck_line: meta
+        total: meta
+
+    moneyline:
+      enabled: true
+      pick_preference: all
+      home:
+        enabled: true
+        prob_bands: [[0.0, 1.0]]
+        odds_bands: [[-10000, 10000]]
+        ev_bands: [[-1.0, 999.9999]]
+        kelly_bands: [[0.0, 999.9999]]
+      away:
+        enabled: true
+        prob_bands: [[0.0, 1.0]]
+        odds_bands: [[-10000, 10000]]
+        ev_bands: [[-1.0, 999.9999]]
+        kelly_bands: [[0.0, 999.9999]]
+
+    puck_line:
+      enabled: true
+      pick_preference: all
+      home:
+        enabled: true
+        prob_bands: [[0.0, 1.0]]
+        line_bands: [[-100.0, 100.0]]
+        odds_bands: [[-10000, 10000]]
+        ev_bands: [[-1.0, 999.9999]]
+        kelly_bands: [[0.0, 999.9999]]
+      away:
+        enabled: true
+        prob_bands: [[0.0, 1.0]]
+        line_bands: [[-100.0, 100.0]]
+        odds_bands: [[-10000, 10000]]
+        ev_bands: [[-1.0, 999.9999]]
+        kelly_bands: [[0.0, 999.9999]]
+
+    total:
+      enabled: true
+      pick_preference: all
+      over:
+        enabled: true
+        prob_bands: [[0.0, 1.0]]
+        line_bands: [[0.0, 100.0]]
+        odds_bands: [[-10000, 10000]]
+        ev_bands: [[-1.0, 999.9999]]
+        kelly_bands: [[0.0, 999.9999]]
+      under:
+        enabled: true
+        prob_bands: [[0.0, 1.0]]
+        line_bands: [[0.0, 100.0]]
+        odds_bands: [[-10000, 10000]]
+        ev_bands: [[-1.0, 999.9999]]
+        kelly_bands: [[0.0, 999.9999]]

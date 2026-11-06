@@ -1,0 +1,4113 @@
+{
+  "run_date": "2026_09_30",
+  "generated_at_et": "2026-09-30T04:41:14.676324-04:00",
+  "source": "espn",
+  "league": "nhl",
+  "bookmaker_strategy": {
+    "type": "priority_fallback_per_market",
+    "priority": [
+      "Titanbets",
+      "MGM",
+      "Bet365",
+      "Caesars Sportsbook",
+      "SugarHouse"
+    ],
+    "exclude_live_odds_providers": true
+  },
+  "events": [
+    {
+      "id": "401891821",
+      "date": "2026-09-30T23:30Z",
+      "status": "pending",
+      "home": "Philadelphia Flyers",
+      "away": "Pittsburgh Penguins"
+    },
+    {
+      "id": "401892431",
+      "date": "2026-09-30T23:30Z",
+      "status": "pending",
+      "home": "Toronto Maple Leafs",
+      "away": "New York Islanders"
+    },
+    {
+      "id": "401891780",
+      "date": "2026-10-01T02:00Z",
+      "status": "pending",
+      "home": "Colorado Avalanche",
+      "away": "Los Angeles Kings"
+    }
+  ],
+  "odds": [
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891821/competitions/401891821/odds/100?lang=en&region=us",
+      "details": "PHI -142",
+      "over_under": 5.5,
+      "spread": -1.5,
+      "over_odds": -135.0,
+      "under_odds": 114.0,
+      "links": "[{'language': 'en-US', 'rel': ['home', 'desktop', 'bets', 'draft-kings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0ML85513139_1', 'text': 'Home Bet', 'shortText': 'Home Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['away', 'desktop', 'bets', 'draft-kings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0ML85513139_3', 'text': 'Away Bet', 'shortText': 'Away Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['homeSpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0HC85513139N150_1', 'text': 'Home Point Spread', 'shortText': 'Home Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['awaySpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0HC85513139P150_3', 'text': 'Away Point Spread', 'shortText': 'Away Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['over', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0OU85513139O550_1', 'text': 'Over Odds', 'shortText': 'Over Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['under', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0OU85513139U550_3', 'text': 'Under Odds', 'shortText': 'Under Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['game', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087', 'text': 'Game', 'shortText': 'Game', 'isExternal': True, 'isPremium': False}]",
+      "moneyline_winner": false,
+      "spread_winner": false,
+      "provider_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+      "provider_id": "100",
+      "provider_name": "Draft Kings",
+      "provider_priority": 1,
+      "away_team_odds_favorite": false,
+      "away_team_odds_underdog": true,
+      "away_team_odds_money_line": 120,
+      "away_team_odds_spread_odds": -218.0,
+      "away_team_odds_open_favorite": false,
+      "away_team_odds_open_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_open_point_spread_american": "+1.5",
+      "away_team_odds_open_spread_value": 1.45,
+      "away_team_odds_open_spread_display_value": "50/109",
+      "away_team_odds_open_spread_alternate_display_value": "-218",
+      "away_team_odds_open_spread_decimal": 1.45,
+      "away_team_odds_open_spread_fraction": "50/109",
+      "away_team_odds_open_spread_american": "-218",
+      "away_team_odds_open_money_line_value": 2.2,
+      "away_team_odds_open_money_line_display_value": "6/5",
+      "away_team_odds_open_money_line_alternate_display_value": "+120",
+      "away_team_odds_open_money_line_decimal": 2.2,
+      "away_team_odds_open_money_line_fraction": "6/5",
+      "away_team_odds_open_money_line_american": "+120",
+      "away_team_odds_current_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_current_point_spread_american": "+1.5",
+      "away_team_odds_current_spread_value": 1.45,
+      "away_team_odds_current_spread_display_value": "50/109",
+      "away_team_odds_current_spread_alternate_display_value": "-218",
+      "away_team_odds_current_spread_decimal": 1.45,
+      "away_team_odds_current_spread_fraction": "50/109",
+      "away_team_odds_current_spread_american": "-218",
+      "away_team_odds_current_money_line_value": 2.2,
+      "away_team_odds_current_money_line_display_value": "6/5",
+      "away_team_odds_current_money_line_alternate_display_value": "+120",
+      "away_team_odds_current_money_line_decimal": 2.2,
+      "away_team_odds_current_money_line_fraction": "6/5",
+      "away_team_odds_current_money_line_american": "+120",
+      "away_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/16?lang=en&region=us",
+      "home_team_odds_favorite": true,
+      "home_team_odds_underdog": false,
+      "home_team_odds_money_line": -142,
+      "home_team_odds_spread_odds": 180.0,
+      "home_team_odds_open_favorite": true,
+      "home_team_odds_open_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_open_point_spread_american": "-1.5",
+      "home_team_odds_open_spread_value": 2.8,
+      "home_team_odds_open_spread_display_value": "9/5",
+      "home_team_odds_open_spread_alternate_display_value": "+180",
+      "home_team_odds_open_spread_decimal": 2.8,
+      "home_team_odds_open_spread_fraction": "9/5",
+      "home_team_odds_open_spread_american": "+180",
+      "home_team_odds_open_money_line_value": 1.7,
+      "home_team_odds_open_money_line_display_value": "50/71",
+      "home_team_odds_open_money_line_alternate_display_value": "-142",
+      "home_team_odds_open_money_line_decimal": 1.7,
+      "home_team_odds_open_money_line_fraction": "50/71",
+      "home_team_odds_open_money_line_american": "-142",
+      "home_team_odds_current_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_current_point_spread_american": "-1.5",
+      "home_team_odds_current_spread_value": 2.8,
+      "home_team_odds_current_spread_display_value": "9/5",
+      "home_team_odds_current_spread_alternate_display_value": "+180",
+      "home_team_odds_current_spread_decimal": 2.8,
+      "home_team_odds_current_spread_fraction": "9/5",
+      "home_team_odds_current_spread_american": "+180",
+      "home_team_odds_current_money_line_value": 1.7,
+      "home_team_odds_current_money_line_display_value": "50/71",
+      "home_team_odds_current_money_line_alternate_display_value": "-142",
+      "home_team_odds_current_money_line_decimal": 1.7,
+      "home_team_odds_current_money_line_fraction": "50/71",
+      "home_team_odds_current_money_line_american": "-142",
+      "home_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/15?lang=en&region=us",
+      "open_over_value": 1.8,
+      "open_over_display_value": "4/5",
+      "open_over_alternate_display_value": "-125",
+      "open_over_decimal": 1.8,
+      "open_over_fraction": "4/5",
+      "open_over_american": "-125",
+      "open_under_value": 2.05,
+      "open_under_display_value": "21/20",
+      "open_under_alternate_display_value": "+105",
+      "open_under_decimal": 2.05,
+      "open_under_fraction": "21/20",
+      "open_under_american": "+105",
+      "open_total_alternate_display_value": "5.5",
+      "open_total_american": "5.5",
+      "current_over_value": 1.74,
+      "current_over_display_value": "20/27",
+      "current_over_alternate_display_value": "-135",
+      "current_over_decimal": 1.74,
+      "current_over_fraction": "20/27",
+      "current_over_american": "-135",
+      "current_under_value": 2.14,
+      "current_under_display_value": "57/50",
+      "current_under_alternate_display_value": "+114",
+      "current_under_decimal": 2.14,
+      "current_under_fraction": "57/50",
+      "current_under_american": "+114",
+      "current_total_alternate_display_value": "5.5",
+      "current_total_american": "5.5",
+      "prop_bets_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891821/competitions/401891821/odds/100/propBets?lang=en&region=us",
+      "espn_event_id": "401891821"
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892431/competitions/401892431/odds/100?lang=en&region=us",
+      "details": "TOR -120",
+      "over_under": 5.5,
+      "spread": -1.5,
+      "over_odds": -130.0,
+      "under_odds": 110.0,
+      "links": "[{'language': 'en-US', 'rel': ['home', 'desktop', 'bets', 'draft-kings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0ML86316511_1', 'text': 'Home Bet', 'shortText': 'Home Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['away', 'desktop', 'bets', 'draft-kings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0ML86316511_3', 'text': 'Away Bet', 'shortText': 'Away Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['homeSpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0HC86316511N150_1', 'text': 'Home Point Spread', 'shortText': 'Home Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['awaySpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0HC86316511P150_3', 'text': 'Away Point Spread', 'shortText': 'Away Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['over', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0OU86316511O550_1', 'text': 'Over Odds', 'shortText': 'Over Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['under', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0OU86316511U550_3', 'text': 'Under Odds', 'shortText': 'Under Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['game', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776', 'text': 'Game', 'shortText': 'Game', 'isExternal': True, 'isPremium': False}]",
+      "moneyline_winner": false,
+      "spread_winner": false,
+      "provider_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+      "provider_id": "100",
+      "provider_name": "Draft Kings",
+      "provider_priority": 1,
+      "away_team_odds_favorite": false,
+      "away_team_odds_underdog": true,
+      "away_team_odds_money_line": 100,
+      "away_team_odds_spread_odds": -238.0,
+      "away_team_odds_open_favorite": false,
+      "away_team_odds_open_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_open_point_spread_american": "+1.5",
+      "away_team_odds_open_spread_value": 1.37,
+      "away_team_odds_open_spread_display_value": "20/53",
+      "away_team_odds_open_spread_alternate_display_value": "-265",
+      "away_team_odds_open_spread_decimal": 1.37,
+      "away_team_odds_open_spread_fraction": "20/53",
+      "away_team_odds_open_spread_american": "-265",
+      "away_team_odds_open_money_line_value": 1.9,
+      "away_team_odds_open_money_line_display_value": "10/11",
+      "away_team_odds_open_money_line_alternate_display_value": "-110",
+      "away_team_odds_open_money_line_decimal": 1.9,
+      "away_team_odds_open_money_line_fraction": "10/11",
+      "away_team_odds_open_money_line_american": "-110",
+      "away_team_odds_current_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_current_point_spread_american": "+1.5",
+      "away_team_odds_current_spread_value": 1.42,
+      "away_team_odds_current_spread_display_value": "50/119",
+      "away_team_odds_current_spread_alternate_display_value": "-238",
+      "away_team_odds_current_spread_decimal": 1.42,
+      "away_team_odds_current_spread_fraction": "50/119",
+      "away_team_odds_current_spread_american": "-238",
+      "away_team_odds_current_money_line_value": 2.0,
+      "away_team_odds_current_money_line_display_value": "1/1",
+      "away_team_odds_current_money_line_alternate_display_value": "+100",
+      "away_team_odds_current_money_line_decimal": 2.0,
+      "away_team_odds_current_money_line_fraction": "1/1",
+      "away_team_odds_current_money_line_american": "+100",
+      "away_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/12?lang=en&region=us",
+      "home_team_odds_favorite": true,
+      "home_team_odds_underdog": false,
+      "home_team_odds_money_line": -120,
+      "home_team_odds_spread_odds": 195.0,
+      "home_team_odds_open_favorite": true,
+      "home_team_odds_open_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_open_point_spread_american": "-1.5",
+      "home_team_odds_open_spread_value": 3.15,
+      "home_team_odds_open_spread_display_value": "43/20",
+      "home_team_odds_open_spread_alternate_display_value": "+215",
+      "home_team_odds_open_spread_decimal": 3.15,
+      "home_team_odds_open_spread_fraction": "43/20",
+      "home_team_odds_open_spread_american": "+215",
+      "home_team_odds_open_money_line_value": 1.9,
+      "home_team_odds_open_money_line_display_value": "10/11",
+      "home_team_odds_open_money_line_alternate_display_value": "-110",
+      "home_team_odds_open_money_line_decimal": 1.9,
+      "home_team_odds_open_money_line_fraction": "10/11",
+      "home_team_odds_open_money_line_american": "-110",
+      "home_team_odds_current_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_current_point_spread_american": "-1.5",
+      "home_team_odds_current_spread_value": 2.95,
+      "home_team_odds_current_spread_display_value": "39/20",
+      "home_team_odds_current_spread_alternate_display_value": "+195",
+      "home_team_odds_current_spread_decimal": 2.95,
+      "home_team_odds_current_spread_fraction": "39/20",
+      "home_team_odds_current_spread_american": "+195",
+      "home_team_odds_current_money_line_value": 1.83,
+      "home_team_odds_current_money_line_display_value": "5/6",
+      "home_team_odds_current_money_line_alternate_display_value": "-120",
+      "home_team_odds_current_money_line_decimal": 1.83,
+      "home_team_odds_current_money_line_fraction": "5/6",
+      "home_team_odds_current_money_line_american": "-120",
+      "home_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/21?lang=en&region=us",
+      "open_over_value": 2.1,
+      "open_over_display_value": "11/10",
+      "open_over_alternate_display_value": "+110",
+      "open_over_decimal": 2.1,
+      "open_over_fraction": "11/10",
+      "open_over_american": "+110",
+      "open_under_value": 1.76,
+      "open_under_display_value": "10/13",
+      "open_under_alternate_display_value": "-130",
+      "open_under_decimal": 1.76,
+      "open_under_fraction": "10/13",
+      "open_under_american": "-130",
+      "open_total_alternate_display_value": "6.5",
+      "open_total_american": "6.5",
+      "current_over_value": 1.76,
+      "current_over_display_value": "10/13",
+      "current_over_alternate_display_value": "-130",
+      "current_over_decimal": 1.76,
+      "current_over_fraction": "10/13",
+      "current_over_american": "-130",
+      "current_under_value": 2.1,
+      "current_under_display_value": "11/10",
+      "current_under_alternate_display_value": "+110",
+      "current_under_decimal": 2.1,
+      "current_under_fraction": "11/10",
+      "current_under_american": "+110",
+      "current_total_alternate_display_value": "5.5",
+      "current_total_american": "5.5",
+      "prop_bets_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892431/competitions/401892431/odds/100/propBets?lang=en&region=us",
+      "espn_event_id": "401892431"
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891780/competitions/401891780/odds/100?lang=en&region=us",
+      "details": "COL -180",
+      "over_under": 6.5,
+      "spread": -1.5,
+      "over_odds": 110.0,
+      "under_odds": -130.0,
+      "links": "[{'language': 'en-US', 'rel': ['home', 'desktop', 'bets', 'draft-kings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0ML85513143_1', 'text': 'Home Bet', 'shortText': 'Home Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['away', 'desktop', 'bets', 'draft-kings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0ML85513143_3', 'text': 'Away Bet', 'shortText': 'Away Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['homeSpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0HC85513143N150_1', 'text': 'Home Point Spread', 'shortText': 'Home Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['awaySpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0HC85513143P150_3', 'text': 'Away Point Spread', 'shortText': 'Away Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['over', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0OU85513143O650_1', 'text': 'Over Odds', 'shortText': 'Over Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['under', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0OU85513143U650_3', 'text': 'Under Odds', 'shortText': 'Under Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['game', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090', 'text': 'Game', 'shortText': 'Game', 'isExternal': True, 'isPremium': False}]",
+      "moneyline_winner": false,
+      "spread_winner": false,
+      "provider_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+      "provider_id": "100",
+      "provider_name": "Draft Kings",
+      "provider_priority": 1,
+      "away_team_odds_favorite": false,
+      "away_team_odds_underdog": true,
+      "away_team_odds_money_line": 150,
+      "away_team_odds_spread_odds": -162.0,
+      "away_team_odds_open_favorite": false,
+      "away_team_odds_open_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_open_point_spread_american": "+1.5",
+      "away_team_odds_open_spread_value": 1.57,
+      "away_team_odds_open_spread_display_value": "4/7",
+      "away_team_odds_open_spread_alternate_display_value": "-175",
+      "away_team_odds_open_spread_decimal": 1.57,
+      "away_team_odds_open_spread_fraction": "4/7",
+      "away_team_odds_open_spread_american": "-175",
+      "away_team_odds_open_money_line_value": 2.54,
+      "away_team_odds_open_money_line_display_value": "77/50",
+      "away_team_odds_open_money_line_alternate_display_value": "+154",
+      "away_team_odds_open_money_line_decimal": 2.54,
+      "away_team_odds_open_money_line_fraction": "77/50",
+      "away_team_odds_open_money_line_american": "+154",
+      "away_team_odds_current_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_current_point_spread_american": "+1.5",
+      "away_team_odds_current_spread_value": 1.61,
+      "away_team_odds_current_spread_display_value": "50/81",
+      "away_team_odds_current_spread_alternate_display_value": "-162",
+      "away_team_odds_current_spread_decimal": 1.61,
+      "away_team_odds_current_spread_fraction": "50/81",
+      "away_team_odds_current_spread_american": "-162",
+      "away_team_odds_current_money_line_value": 2.5,
+      "away_team_odds_current_money_line_display_value": "6/4",
+      "away_team_odds_current_money_line_alternate_display_value": "+150",
+      "away_team_odds_current_money_line_decimal": 2.5,
+      "away_team_odds_current_money_line_fraction": "6/4",
+      "away_team_odds_current_money_line_american": "+150",
+      "away_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/8?lang=en&region=us",
+      "home_team_odds_favorite": true,
+      "home_team_odds_underdog": false,
+      "home_team_odds_money_line": -180,
+      "home_team_odds_spread_odds": 136.0,
+      "home_team_odds_open_favorite": true,
+      "home_team_odds_open_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_open_point_spread_american": "-1.5",
+      "home_team_odds_open_spread_value": 2.45,
+      "home_team_odds_open_spread_display_value": "29/20",
+      "home_team_odds_open_spread_alternate_display_value": "+145",
+      "home_team_odds_open_spread_decimal": 2.45,
+      "home_team_odds_open_spread_fraction": "29/20",
+      "home_team_odds_open_spread_american": "+145",
+      "home_team_odds_open_money_line_value": 1.54,
+      "home_team_odds_open_money_line_display_value": "20/37",
+      "home_team_odds_open_money_line_alternate_display_value": "-185",
+      "home_team_odds_open_money_line_decimal": 1.54,
+      "home_team_odds_open_money_line_fraction": "20/37",
+      "home_team_odds_open_money_line_american": "-185",
+      "home_team_odds_current_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_current_point_spread_american": "-1.5",
+      "home_team_odds_current_spread_value": 2.36,
+      "home_team_odds_current_spread_display_value": "34/25",
+      "home_team_odds_current_spread_alternate_display_value": "+136",
+      "home_team_odds_current_spread_decimal": 2.36,
+      "home_team_odds_current_spread_fraction": "34/25",
+      "home_team_odds_current_spread_american": "+136",
+      "home_team_odds_current_money_line_value": 1.55,
+      "home_team_odds_current_money_line_display_value": "5/9",
+      "home_team_odds_current_money_line_alternate_display_value": "-180",
+      "home_team_odds_current_money_line_decimal": 1.55,
+      "home_team_odds_current_money_line_fraction": "5/9",
+      "home_team_odds_current_money_line_american": "-180",
+      "home_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/17?lang=en&region=us",
+      "open_over_value": 1.83,
+      "open_over_display_value": "5/6",
+      "open_over_alternate_display_value": "-120",
+      "open_over_decimal": 1.83,
+      "open_over_fraction": "5/6",
+      "open_over_american": "-120",
+      "open_under_value": 2.0,
+      "open_under_display_value": "1/1",
+      "open_under_alternate_display_value": "+100",
+      "open_under_decimal": 2.0,
+      "open_under_fraction": "1/1",
+      "open_under_american": "+100",
+      "open_total_alternate_display_value": "5.5",
+      "open_total_american": "5.5",
+      "current_over_value": 2.1,
+      "current_over_display_value": "11/10",
+      "current_over_alternate_display_value": "+110",
+      "current_over_decimal": 2.1,
+      "current_over_fraction": "11/10",
+      "current_over_american": "+110",
+      "current_under_value": 1.76,
+      "current_under_display_value": "10/13",
+      "current_under_alternate_display_value": "-130",
+      "current_under_decimal": 1.76,
+      "current_under_fraction": "10/13",
+      "current_under_american": "-130",
+      "current_total_alternate_display_value": "6.5",
+      "current_total_american": "6.5",
+      "prop_bets_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891780/competitions/401891780/odds/100/propBets?lang=en&region=us",
+      "espn_event_id": "401891780"
+    }
+  ],
+  "scoreboard_raw": {
+    "leagues": [
+      {
+        "id": "90",
+        "uid": "s:70~l:90",
+        "name": "National Hockey League",
+        "abbreviation": "NHL",
+        "slug": "nhl",
+        "season": {
+          "year": 2027,
+          "startDate": "2026-09-15T07:00Z",
+          "endDate": "2027-07-01T06:59Z",
+          "displayName": "2026-27",
+          "type": {
+            "id": "2",
+            "type": 2,
+            "name": "Regular Season",
+            "abbreviation": "reg"
+          }
+        },
+        "logos": [
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "lastUpdated": "2018-06-05T12:07Z"
+          },
+          {
+            "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nhl.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "dark"
+            ],
+            "lastUpdated": "2021-08-10T20:37Z"
+          }
+        ],
+        "calendarType": "day",
+        "calendarIsWhitelist": true,
+        "calendarStartDate": "2026-09-15T07:00Z",
+        "calendarEndDate": "2027-07-01T06:59Z",
+        "calendar": [
+          "2026-09-19T07:00Z",
+          "2026-09-20T07:00Z",
+          "2026-09-21T07:00Z",
+          "2026-09-22T07:00Z",
+          "2026-09-23T07:00Z",
+          "2026-09-24T07:00Z",
+          "2026-09-25T07:00Z",
+          "2026-09-26T07:00Z",
+          "2026-09-29T07:00Z",
+          "2026-09-30T07:00Z",
+          "2026-10-01T07:00Z",
+          "2026-10-02T07:00Z",
+          "2026-10-03T07:00Z",
+          "2026-10-04T07:00Z",
+          "2026-10-05T07:00Z",
+          "2026-10-06T07:00Z",
+          "2026-10-07T07:00Z",
+          "2026-10-08T07:00Z",
+          "2026-10-09T07:00Z",
+          "2026-10-10T07:00Z",
+          "2026-10-11T07:00Z",
+          "2026-10-12T07:00Z",
+          "2026-10-13T07:00Z",
+          "2026-10-14T07:00Z",
+          "2026-10-15T07:00Z",
+          "2026-10-16T07:00Z",
+          "2026-10-17T07:00Z",
+          "2026-10-18T07:00Z",
+          "2026-10-19T07:00Z",
+          "2026-10-20T07:00Z",
+          "2026-10-21T07:00Z",
+          "2026-10-22T07:00Z",
+          "2026-10-23T07:00Z",
+          "2026-10-24T07:00Z",
+          "2026-10-25T07:00Z",
+          "2026-10-26T07:00Z",
+          "2026-10-27T07:00Z",
+          "2026-10-28T07:00Z",
+          "2026-10-29T07:00Z",
+          "2026-10-30T07:00Z",
+          "2026-10-31T07:00Z",
+          "2026-11-01T07:00Z",
+          "2026-11-02T08:00Z",
+          "2026-11-03T08:00Z",
+          "2026-11-04T08:00Z",
+          "2026-11-05T08:00Z",
+          "2026-11-06T08:00Z",
+          "2026-11-07T08:00Z",
+          "2026-11-08T08:00Z",
+          "2026-11-09T08:00Z",
+          "2026-11-10T08:00Z",
+          "2026-11-11T08:00Z",
+          "2026-11-12T08:00Z",
+          "2026-11-13T08:00Z",
+          "2026-11-14T08:00Z",
+          "2026-11-15T08:00Z",
+          "2026-11-16T08:00Z",
+          "2026-11-17T08:00Z",
+          "2026-11-18T08:00Z",
+          "2026-11-19T08:00Z",
+          "2026-11-21T08:00Z",
+          "2026-11-22T08:00Z",
+          "2026-11-23T08:00Z",
+          "2026-11-24T08:00Z",
+          "2026-11-25T08:00Z",
+          "2026-11-27T08:00Z",
+          "2026-11-28T08:00Z",
+          "2026-11-29T08:00Z",
+          "2026-11-30T08:00Z",
+          "2026-12-01T08:00Z",
+          "2026-12-02T08:00Z",
+          "2026-12-03T08:00Z",
+          "2026-12-04T08:00Z",
+          "2026-12-05T08:00Z",
+          "2026-12-06T08:00Z",
+          "2026-12-07T08:00Z",
+          "2026-12-08T08:00Z",
+          "2026-12-09T08:00Z",
+          "2026-12-10T08:00Z",
+          "2026-12-11T08:00Z",
+          "2026-12-12T08:00Z",
+          "2026-12-13T08:00Z",
+          "2026-12-14T08:00Z",
+          "2026-12-15T08:00Z",
+          "2026-12-16T08:00Z",
+          "2026-12-17T08:00Z",
+          "2026-12-18T08:00Z",
+          "2026-12-19T08:00Z",
+          "2026-12-20T08:00Z",
+          "2026-12-21T08:00Z",
+          "2026-12-22T08:00Z",
+          "2026-12-26T08:00Z",
+          "2026-12-27T08:00Z",
+          "2026-12-28T08:00Z",
+          "2026-12-29T08:00Z",
+          "2026-12-30T08:00Z",
+          "2026-12-31T08:00Z",
+          "2027-01-01T08:00Z",
+          "2027-01-02T08:00Z",
+          "2027-01-03T08:00Z",
+          "2027-01-04T08:00Z",
+          "2027-01-05T08:00Z",
+          "2027-01-06T08:00Z",
+          "2027-01-07T08:00Z",
+          "2027-01-08T08:00Z",
+          "2027-01-09T08:00Z",
+          "2027-01-10T08:00Z",
+          "2027-01-11T08:00Z",
+          "2027-01-12T08:00Z",
+          "2027-01-13T08:00Z",
+          "2027-01-14T08:00Z",
+          "2027-01-15T08:00Z",
+          "2027-01-16T08:00Z",
+          "2027-01-17T08:00Z",
+          "2027-01-18T08:00Z",
+          "2027-01-19T08:00Z",
+          "2027-01-20T08:00Z",
+          "2027-01-21T08:00Z",
+          "2027-01-22T08:00Z",
+          "2027-01-23T08:00Z",
+          "2027-01-24T08:00Z",
+          "2027-01-25T08:00Z",
+          "2027-01-26T08:00Z",
+          "2027-01-27T08:00Z",
+          "2027-01-28T08:00Z",
+          "2027-01-29T08:00Z",
+          "2027-01-30T08:00Z",
+          "2027-01-31T08:00Z",
+          "2027-02-01T08:00Z",
+          "2027-02-02T08:00Z",
+          "2027-02-03T08:00Z",
+          "2027-02-08T08:00Z",
+          "2027-02-09T08:00Z",
+          "2027-02-10T08:00Z",
+          "2027-02-11T08:00Z",
+          "2027-02-12T08:00Z",
+          "2027-02-13T08:00Z",
+          "2027-02-14T08:00Z",
+          "2027-02-15T08:00Z",
+          "2027-02-16T08:00Z",
+          "2027-02-17T08:00Z",
+          "2027-02-18T08:00Z",
+          "2027-02-19T08:00Z",
+          "2027-02-20T08:00Z",
+          "2027-02-21T08:00Z",
+          "2027-02-22T08:00Z",
+          "2027-02-23T08:00Z",
+          "2027-02-24T08:00Z",
+          "2027-02-25T08:00Z",
+          "2027-02-26T08:00Z",
+          "2027-02-27T08:00Z",
+          "2027-02-28T08:00Z",
+          "2027-03-01T08:00Z",
+          "2027-03-02T08:00Z",
+          "2027-03-03T08:00Z",
+          "2027-03-04T08:00Z",
+          "2027-03-05T08:00Z",
+          "2027-03-06T08:00Z",
+          "2027-03-07T08:00Z",
+          "2027-03-08T08:00Z",
+          "2027-03-09T08:00Z",
+          "2027-03-10T08:00Z",
+          "2027-03-11T08:00Z",
+          "2027-03-12T08:00Z",
+          "2027-03-13T08:00Z",
+          "2027-03-14T08:00Z",
+          "2027-03-15T07:00Z",
+          "2027-03-16T07:00Z",
+          "2027-03-17T07:00Z",
+          "2027-03-18T07:00Z",
+          "2027-03-19T07:00Z",
+          "2027-03-20T07:00Z",
+          "2027-03-21T07:00Z",
+          "2027-03-22T07:00Z",
+          "2027-03-23T07:00Z",
+          "2027-03-24T07:00Z",
+          "2027-03-25T07:00Z",
+          "2027-03-26T07:00Z",
+          "2027-03-27T07:00Z",
+          "2027-03-28T07:00Z",
+          "2027-03-29T07:00Z",
+          "2027-03-30T07:00Z",
+          "2027-03-31T07:00Z",
+          "2027-04-01T07:00Z",
+          "2027-04-02T07:00Z",
+          "2027-04-03T07:00Z",
+          "2027-04-04T07:00Z",
+          "2027-04-05T07:00Z",
+          "2027-04-06T07:00Z",
+          "2027-04-07T07:00Z",
+          "2027-04-08T07:00Z",
+          "2027-04-09T07:00Z",
+          "2027-04-10T07:00Z"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "id": "401891821",
+        "uid": "s:70~l:90~e:401891821",
+        "date": "2026-09-30T23:30Z",
+        "name": "Pittsburgh Penguins at Philadelphia Flyers",
+        "shortName": "PIT @ PHI",
+        "season": {
+          "year": 2027,
+          "type": 2,
+          "slug": "regular-season"
+        },
+        "competitions": [
+          {
+            "id": "401891821",
+            "uid": "s:70~l:90~e:401891821~c:401891821",
+            "date": "2026-09-30T23:30Z",
+            "attendance": 0,
+            "type": {
+              "id": "1",
+              "abbreviation": "STD"
+            },
+            "timeValid": true,
+            "neutralSite": false,
+            "playByPlayAvailable": false,
+            "recent": false,
+            "venue": {
+              "id": "1845",
+              "fullName": "Xfinity Mobile Arena",
+              "address": {
+                "city": "Philadelphia",
+                "state": "PA",
+                "country": "USA"
+              },
+              "indoor": true
+            },
+            "competitors": [
+              {
+                "id": "15",
+                "uid": "s:70~l:90~t:15",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "team": {
+                  "id": "15",
+                  "uid": "s:70~l:90~t:15",
+                  "location": "Philadelphia",
+                  "name": "Flyers",
+                  "abbreviation": "PHI",
+                  "displayName": "Philadelphia Flyers",
+                  "shortDisplayName": "Flyers",
+                  "color": "fe5823",
+                  "isActive": true,
+                  "venue": {
+                    "id": "1845"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/_/name/phi/philadelphia-flyers",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "mobile",
+                        "team"
+                      ],
+                      "href": "https://m.espn.com/nhl/clubhouse?teamId=15",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/roster/_/name/phi/philadelphia-flyers",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:15&section=roster",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/stats/_/name/phi/philadelphia-flyers",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:15&section=stats",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/schedule/_/name/phi",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:15&section=scores",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ],
+                  "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png"
+                },
+                "score": "0",
+                "probables": [
+                  {
+                    "name": "probableStartingGoalie",
+                    "displayName": "Probable Starting Goalie",
+                    "shortDisplayName": "Starter",
+                    "abbreviation": "SG",
+                    "playerId": 3942459,
+                    "athlete": {
+                      "id": "3942459",
+                      "fullName": "Dan Vladar",
+                      "displayName": "Dan Vladar",
+                      "shortName": "D. Vladar",
+                      "links": [
+                        {
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ],
+                          "href": "https://www.espn.com/nhl/player/_/id/3942459"
+                        }
+                      ],
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3942459.png",
+                      "jersey": "80",
+                      "position": "G",
+                      "team": {
+                        "id": "15"
+                      }
+                    },
+                    "status": {
+                      "id": "101",
+                      "name": "Expected",
+                      "type": "expected",
+                      "abbreviation": "Expected"
+                    },
+                    "statistics": [],
+                    "record": ""
+                  }
+                ],
+                "curatedRank": {
+                  "current": 99
+                },
+                "statistics": [],
+                "records": [
+                  {
+                    "name": "overall",
+                    "abbreviation": "TOTAL",
+                    "type": "total",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Home",
+                    "abbreviation": "HOME",
+                    "type": "home",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Road",
+                    "abbreviation": "AWAY",
+                    "type": "road",
+                    "summary": "0-0-0"
+                  }
+                ]
+              },
+              {
+                "id": "16",
+                "uid": "s:70~l:90~t:16",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "team": {
+                  "id": "16",
+                  "uid": "s:70~l:90~t:16",
+                  "location": "Pittsburgh",
+                  "name": "Penguins",
+                  "abbreviation": "PIT",
+                  "displayName": "Pittsburgh Penguins",
+                  "shortDisplayName": "Penguins",
+                  "color": "000000",
+                  "isActive": true,
+                  "venue": {
+                    "id": "1837"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/_/name/pit/pittsburgh-penguins",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "mobile",
+                        "team"
+                      ],
+                      "href": "https://m.espn.com/nhl/clubhouse?teamId=16",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/roster/_/name/pit/pittsburgh-penguins",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:16&section=roster",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/stats/_/name/pit/pittsburgh-penguins",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:16&section=stats",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/schedule/_/name/pit",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:16&section=scores",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ],
+                  "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png"
+                },
+                "score": "0",
+                "probables": [
+                  {
+                    "name": "probableStartingGoalie",
+                    "displayName": "Probable Starting Goalie",
+                    "shortDisplayName": "Starter",
+                    "abbreviation": "SG",
+                    "playerId": 4576894,
+                    "athlete": {
+                      "id": "4576894",
+                      "fullName": "Arturs Silovs",
+                      "displayName": "Arturs Silovs",
+                      "shortName": "A. Silovs",
+                      "links": [
+                        {
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ],
+                          "href": "https://www.espn.com/nhl/player/_/id/4576894"
+                        }
+                      ],
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4576894.png",
+                      "jersey": "37",
+                      "position": "G",
+                      "team": {
+                        "id": "16"
+                      }
+                    },
+                    "status": {
+                      "id": "101",
+                      "name": "Expected",
+                      "type": "expected",
+                      "abbreviation": "Expected"
+                    },
+                    "statistics": [],
+                    "record": ""
+                  }
+                ],
+                "curatedRank": {
+                  "current": 99
+                },
+                "statistics": [],
+                "records": [
+                  {
+                    "name": "overall",
+                    "abbreviation": "TOTAL",
+                    "type": "total",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Home",
+                    "abbreviation": "HOME",
+                    "type": "home",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Road",
+                    "abbreviation": "AWAY",
+                    "type": "road",
+                    "summary": "0-0-0"
+                  }
+                ]
+              }
+            ],
+            "notes": [],
+            "status": {
+              "clock": 0.0,
+              "displayClock": "0:00",
+              "period": 0,
+              "type": {
+                "id": "1",
+                "name": "STATUS_SCHEDULED",
+                "state": "pre",
+                "completed": false,
+                "description": "Scheduled",
+                "detail": "Wed, September 30th at 7:30 PM EDT",
+                "shortDetail": "9/30 - 7:30 PM EDT"
+              }
+            },
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "TNT",
+                  "truTV"
+                ]
+              }
+            ],
+            "format": {
+              "regulation": {
+                "periods": 3
+              }
+            },
+            "tickets": [
+              {
+                "summary": "Tickets as low as $76",
+                "numberAvailable": 805,
+                "links": [
+                  {
+                    "href": "https://www.vividseats.com/Philadelphia-Flyers-tickets-bridgestone-arena-9-30-2026--sports-nhl-hockey/production/7292434?wsUser=717"
+                  },
+                  {
+                    "href": "https://www.vividseats.com/wells-fargo-center-pa-tickets/venue/564?wsUser=717"
+                  }
+                ]
+              }
+            ],
+            "startDate": "2026-09-30T23:30Z",
+            "broadcast": "TNT/truTV",
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "TNT"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "truTV"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "odds": [
+              {
+                "provider": {
+                  "id": "100",
+                  "name": "Draft Kings",
+                  "priority": 1,
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                      "rel": [
+                        "light"
+                      ]
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                      "rel": [
+                        "dark"
+                      ]
+                    }
+                  ],
+                  "displayName": "Draft Kings"
+                },
+                "details": "PHI -142",
+                "overUnder": 5.5,
+                "spread": -1.5,
+                "awayTeamOdds": {
+                  "favorite": false,
+                  "underdog": true,
+                  "team": {
+                    "id": "16",
+                    "uid": "s:70~l:90~t:16",
+                    "abbreviation": "PIT",
+                    "name": "Penguins",
+                    "displayName": "Pittsburgh Penguins",
+                    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png"
+                  },
+                  "favoriteAtOpen": false
+                },
+                "homeTeamOdds": {
+                  "favorite": true,
+                  "underdog": false,
+                  "team": {
+                    "id": "15",
+                    "uid": "s:70~l:90~t:15",
+                    "abbreviation": "PHI",
+                    "name": "Flyers",
+                    "displayName": "Philadelphia Flyers",
+                    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png"
+                  },
+                  "favoriteAtOpen": true
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "close": {
+                      "odds": "-142",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "home",
+                          "desktop",
+                          "bets",
+                          "draft-kings"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0ML85513139_1",
+                        "text": "Home Bet",
+                        "shortText": "Home Bet",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891821,
+                            "betSide": "home",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "odds": "-142"
+                    }
+                  },
+                  "away": {
+                    "close": {
+                      "odds": "+120",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "away",
+                          "desktop",
+                          "bets",
+                          "draft-kings"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0ML85513139_3",
+                        "text": "Away Bet",
+                        "shortText": "Away Bet",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891821,
+                            "betSide": "away",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "odds": "+120"
+                    }
+                  }
+                },
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "close": {
+                      "line": "-1.5",
+                      "odds": "+180",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "homeSpread",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0HC85513139N150_1",
+                        "text": "Home Point Spread",
+                        "shortText": "Home Point Spread",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891821,
+                            "betSide": "none",
+                            "betType": "straight",
+                            "betDetails": "Spread:PHI-1.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "-1.5",
+                      "odds": "+180"
+                    }
+                  },
+                  "away": {
+                    "close": {
+                      "line": "+1.5",
+                      "odds": "-218",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "awaySpread",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0HC85513139P150_3",
+                        "text": "Away Point Spread",
+                        "shortText": "Away Point Spread",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891821,
+                            "betSide": "none",
+                            "betType": "straight",
+                            "betDetails": "Spread:PIT+1.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "+1.5",
+                      "odds": "-218"
+                    }
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "close": {
+                      "line": "o5.5",
+                      "odds": "-135",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "over",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0OU85513139O550_1",
+                        "text": "Over Odds",
+                        "shortText": "Over Odds",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891821,
+                            "betSide": "over",
+                            "betType": "straight",
+                            "betDetails": "Over:5.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "o5.5",
+                      "odds": "-125"
+                    }
+                  },
+                  "under": {
+                    "close": {
+                      "line": "u5.5",
+                      "odds": "+114",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "under",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0OU85513139U550_3",
+                        "text": "Under Odds",
+                        "shortText": "Under Odds",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891821,
+                            "betSide": "under",
+                            "betType": "straight",
+                            "betDetails": "Under:5.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "u5.5",
+                      "odds": "+105"
+                    }
+                  }
+                },
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "game",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087",
+                  "text": "See More Odds",
+                  "shortText": "Game",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "nhl",
+                      "sport": "hockey",
+                      "gameId": 401891821,
+                      "betSide": "none",
+                      "betType": "straight"
+                    }
+                  }
+                },
+                "header": {
+                  "logo": {
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                    "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                    "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                    "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                  },
+                  "text": "Game Odds"
+                },
+                "footer": {
+                  "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
+                }
+              }
+            ],
+            "highlights": []
+          }
+        ],
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/nhl/game/_/gameId/401891821/penguins-flyers",
+            "text": "Gamecast",
+            "shortText": "Gamecast",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0:00",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Wed, September 30th at 7:30 PM EDT",
+            "shortDetail": "9/30 - 7:30 PM EDT"
+          }
+        }
+      },
+      {
+        "id": "401892431",
+        "uid": "s:70~l:90~e:401892431",
+        "date": "2026-09-30T23:30Z",
+        "name": "New York Islanders at Toronto Maple Leafs",
+        "shortName": "NYI @ TOR",
+        "season": {
+          "year": 2027,
+          "type": 2,
+          "slug": "regular-season"
+        },
+        "competitions": [
+          {
+            "id": "401892431",
+            "uid": "s:70~l:90~e:401892431~c:401892431",
+            "date": "2026-09-30T23:30Z",
+            "attendance": 0,
+            "type": {
+              "id": "1",
+              "abbreviation": "STD"
+            },
+            "timeValid": true,
+            "neutralSite": false,
+            "playByPlayAvailable": false,
+            "recent": false,
+            "venue": {
+              "id": "1838",
+              "fullName": "Scotiabank Arena",
+              "address": {
+                "city": "Toronto",
+                "state": "ON",
+                "country": "Canada"
+              },
+              "indoor": true
+            },
+            "competitors": [
+              {
+                "id": "21",
+                "uid": "s:70~l:90~t:21",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "team": {
+                  "id": "21",
+                  "uid": "s:70~l:90~t:21",
+                  "location": "Toronto",
+                  "name": "Maple Leafs",
+                  "abbreviation": "TOR",
+                  "displayName": "Toronto Maple Leafs",
+                  "shortDisplayName": "Maple Leafs",
+                  "color": "003e7e",
+                  "isActive": true,
+                  "venue": {
+                    "id": "1838"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/_/name/tor/toronto-maple-leafs",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "mobile",
+                        "team"
+                      ],
+                      "href": "https://m.espn.com/nhl/clubhouse?teamId=21",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/roster/_/name/tor/toronto-maple-leafs",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=roster",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=stats",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/schedule/_/name/tor",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=scores",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ],
+                  "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+                },
+                "score": "0",
+                "probables": [
+                  {
+                    "name": "probableStartingGoalie",
+                    "displayName": "Probable Starting Goalie",
+                    "shortDisplayName": "Starter",
+                    "abbreviation": "SG",
+                    "playerId": 3067313,
+                    "athlete": {
+                      "id": "3067313",
+                      "fullName": "Anthony Stolarz",
+                      "displayName": "Anthony Stolarz",
+                      "shortName": "A. Stolarz",
+                      "links": [
+                        {
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ],
+                          "href": "https://www.espn.com/nhl/player/_/id/3067313"
+                        }
+                      ],
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3067313.png",
+                      "jersey": "41",
+                      "position": "G",
+                      "team": {
+                        "id": "21"
+                      }
+                    },
+                    "status": {
+                      "id": "101",
+                      "name": "Expected",
+                      "type": "expected",
+                      "abbreviation": "Expected"
+                    },
+                    "statistics": [],
+                    "record": ""
+                  }
+                ],
+                "curatedRank": {
+                  "current": 99
+                },
+                "statistics": [
+                  {
+                    "name": "saves",
+                    "abbreviation": "SV",
+                    "displayValue": "21",
+                    "rankDisplayValue": "6th"
+                  },
+                  {
+                    "name": "savePct",
+                    "abbreviation": "SV%",
+                    "displayValue": ".875",
+                    "rankDisplayValue": "8th"
+                  },
+                  {
+                    "name": "plusMinus",
+                    "abbreviation": "+/-",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "goals",
+                    "abbreviation": "G",
+                    "displayValue": "2",
+                    "rankDisplayValue": "Tied-6th"
+                  },
+                  {
+                    "name": "ytdGoals",
+                    "abbreviation": "YTDG",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "assists",
+                    "abbreviation": "A",
+                    "displayValue": "4",
+                    "rankDisplayValue": "Tied-5th"
+                  },
+                  {
+                    "name": "points",
+                    "abbreviation": "PTS",
+                    "displayValue": "6",
+                    "rankDisplayValue": "6th"
+                  }
+                ],
+                "records": [
+                  {
+                    "name": "overall",
+                    "abbreviation": "TOTAL",
+                    "type": "total",
+                    "summary": "0-1-0"
+                  },
+                  {
+                    "name": "Home",
+                    "abbreviation": "HOME",
+                    "type": "home",
+                    "summary": "0-1-0"
+                  },
+                  {
+                    "name": "Road",
+                    "abbreviation": "AWAY",
+                    "type": "road",
+                    "summary": "0-0-0"
+                  }
+                ],
+                "leaders": [
+                  {
+                    "name": "goals",
+                    "displayName": "Goals",
+                    "shortDisplayName": "Goals",
+                    "abbreviation": "G",
+                    "leaders": [
+                      {
+                        "displayValue": "2",
+                        "value": 2.0,
+                        "athlete": {
+                          "id": "3114736",
+                          "fullName": "William Nylander",
+                          "displayName": "William Nylander",
+                          "shortName": "W. Nylander",
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/nhl/player/_/id/3114736"
+                            }
+                          ],
+                          "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3114736.png",
+                          "jersey": "88",
+                          "position": {
+                            "abbreviation": "RW"
+                          },
+                          "team": {
+                            "id": "21"
+                          },
+                          "active": true
+                        },
+                        "team": {
+                          "id": "21"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "assists",
+                    "displayName": "Assists",
+                    "shortDisplayName": "Assists",
+                    "abbreviation": "A",
+                    "leaders": [
+                      {
+                        "displayValue": "1",
+                        "value": 1.0,
+                        "athlete": {
+                          "id": "4587996",
+                          "fullName": "Kirill Marchenko",
+                          "displayName": "Kirill Marchenko",
+                          "shortName": "K. Marchenko",
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/nhl/player/_/id/4587996"
+                            }
+                          ],
+                          "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/4587996.png",
+                          "jersey": "86",
+                          "position": {
+                            "abbreviation": "RW"
+                          },
+                          "team": {
+                            "id": "21"
+                          },
+                          "active": true
+                        },
+                        "team": {
+                          "id": "21"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "points",
+                    "displayName": "Points",
+                    "shortDisplayName": "Points",
+                    "abbreviation": "PTS",
+                    "leaders": [
+                      {
+                        "displayValue": "2",
+                        "value": 2.0,
+                        "athlete": {
+                          "id": "3114736",
+                          "fullName": "William Nylander",
+                          "displayName": "William Nylander",
+                          "shortName": "W. Nylander",
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/nhl/player/_/id/3114736"
+                            }
+                          ],
+                          "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3114736.png",
+                          "jersey": "88",
+                          "position": {
+                            "abbreviation": "RW"
+                          },
+                          "team": {
+                            "id": "21"
+                          },
+                          "active": true
+                        },
+                        "team": {
+                          "id": "21"
+                        },
+                        "statistics": [
+                          {
+                            "name": "saves",
+                            "displayName": "Saves",
+                            "shortDisplayName": "Saves",
+                            "description": "Total saves.",
+                            "abbreviation": "SV",
+                            "value": 0.0,
+                            "displayValue": "0"
+                          },
+                          {
+                            "name": "savePct",
+                            "displayName": "Save Percentage",
+                            "shortDisplayName": "Save Percentage",
+                            "description": "Percentage of shots saved.",
+                            "abbreviation": "SV%",
+                            "value": 0.0,
+                            "displayValue": ".000"
+                          },
+                          {
+                            "name": "plusMinus",
+                            "displayName": "Plus/Minus Rating",
+                            "shortDisplayName": "Plus/Minus",
+                            "description": "Plus/Minus Rating",
+                            "abbreviation": "+/-",
+                            "value": -1.0,
+                            "displayValue": "-1"
+                          },
+                          {
+                            "name": "goals",
+                            "displayName": "Goals",
+                            "shortDisplayName": "Goals",
+                            "description": "Total goals scored.",
+                            "abbreviation": "G",
+                            "value": 2.0,
+                            "displayValue": "2"
+                          },
+                          {
+                            "name": "assists",
+                            "displayName": "Assists",
+                            "shortDisplayName": "Assists",
+                            "description": "Total goal assists.",
+                            "abbreviation": "A",
+                            "value": 0.0,
+                            "displayValue": "0"
+                          },
+                          {
+                            "name": "points",
+                            "displayName": "Points",
+                            "shortDisplayName": "Points",
+                            "description": "Points",
+                            "abbreviation": "PTS",
+                            "value": 2.0,
+                            "displayValue": "2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "12",
+                "uid": "s:70~l:90~t:12",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "team": {
+                  "id": "12",
+                  "uid": "s:70~l:90~t:12",
+                  "location": "New York",
+                  "name": "Islanders",
+                  "abbreviation": "NYI",
+                  "displayName": "New York Islanders",
+                  "shortDisplayName": "Islanders",
+                  "color": "00529b",
+                  "isActive": true,
+                  "venue": {
+                    "id": "7226"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/_/name/nyi/new-york-islanders",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "mobile",
+                        "team"
+                      ],
+                      "href": "https://m.espn.com/nhl/clubhouse?teamId=12",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/roster/_/name/nyi/new-york-islanders",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:12&section=roster",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/stats/_/name/nyi/new-york-islanders",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:12&section=stats",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/schedule/_/name/nyi",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:12&section=scores",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ],
+                  "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png"
+                },
+                "score": "0",
+                "probables": [
+                  {
+                    "name": "probableStartingGoalie",
+                    "displayName": "Probable Starting Goalie",
+                    "shortDisplayName": "Starter",
+                    "abbreviation": "SG",
+                    "playerId": 3151981,
+                    "athlete": {
+                      "id": "3151981",
+                      "fullName": "Ilya Sorokin",
+                      "displayName": "Ilya Sorokin",
+                      "shortName": "I. Sorokin",
+                      "links": [
+                        {
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ],
+                          "href": "https://www.espn.com/nhl/player/_/id/3151981"
+                        }
+                      ],
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3151981.png",
+                      "jersey": "30",
+                      "position": "G",
+                      "team": {
+                        "id": "12"
+                      }
+                    },
+                    "status": {
+                      "id": "102",
+                      "name": "Confirmed",
+                      "type": "confirmed",
+                      "abbreviation": "Confirmed"
+                    },
+                    "statistics": [],
+                    "record": ""
+                  }
+                ],
+                "curatedRank": {
+                  "current": 99
+                },
+                "statistics": [],
+                "records": [
+                  {
+                    "name": "overall",
+                    "abbreviation": "TOTAL",
+                    "type": "total",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Home",
+                    "abbreviation": "HOME",
+                    "type": "home",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Road",
+                    "abbreviation": "AWAY",
+                    "type": "road",
+                    "summary": "0-0-0"
+                  }
+                ]
+              }
+            ],
+            "notes": [],
+            "status": {
+              "clock": 0.0,
+              "displayClock": "0:00",
+              "period": 0,
+              "type": {
+                "id": "1",
+                "name": "STATUS_SCHEDULED",
+                "state": "pre",
+                "completed": false,
+                "description": "Scheduled",
+                "detail": "Wed, September 30th at 7:30 PM EDT",
+                "shortDetail": "9/30 - 7:30 PM EDT"
+              }
+            },
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "ESPN+"
+                ]
+              },
+              {
+                "market": "home",
+                "names": [
+                  "MSGSN"
+                ]
+              }
+            ],
+            "format": {
+              "regulation": {
+                "periods": 3
+              }
+            },
+            "tickets": [
+              {
+                "summary": "Tickets as low as $84",
+                "numberAvailable": 352,
+                "links": [
+                  {
+                    "href": "https://www.vividseats.com/toronto-maple-leafs-tickets-scotiabank-arena-9-30-2026--sports-nhl-hockey/production/7302542?wsUser=717"
+                  },
+                  {
+                    "href": "https://www.vividseats.com/scotiabank-arena-tickets/venue/24?wsUser=717"
+                  }
+                ]
+              }
+            ],
+            "startDate": "2026-09-30T23:30Z",
+            "broadcast": "ESPN+",
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "Streaming"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "ESPN+",
+                  "logo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default.png",
+                  "darkLogo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default-dark.png"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "2",
+                  "type": "Home"
+                },
+                "media": {
+                  "shortName": "MSGSN"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "odds": [
+              {
+                "provider": {
+                  "id": "100",
+                  "name": "Draft Kings",
+                  "priority": 1,
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                      "rel": [
+                        "light"
+                      ]
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                      "rel": [
+                        "dark"
+                      ]
+                    }
+                  ]
+                },
+                "details": "TOR -120",
+                "overUnder": 5.5,
+                "spread": -1.5,
+                "awayTeamOdds": {
+                  "favorite": false,
+                  "underdog": true,
+                  "team": {
+                    "id": "12",
+                    "uid": "s:70~l:90~t:12",
+                    "abbreviation": "NYI",
+                    "name": "Islanders",
+                    "displayName": "New York Islanders",
+                    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png"
+                  },
+                  "favoriteAtOpen": false
+                },
+                "homeTeamOdds": {
+                  "favorite": true,
+                  "underdog": false,
+                  "team": {
+                    "id": "21",
+                    "uid": "s:70~l:90~t:21",
+                    "abbreviation": "TOR",
+                    "name": "Maple Leafs",
+                    "displayName": "Toronto Maple Leafs",
+                    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+                  },
+                  "favoriteAtOpen": true
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "close": {
+                      "odds": "-120",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "home",
+                          "desktop",
+                          "bets",
+                          "draft-kings"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0ML86316511_1",
+                        "text": "Home Bet",
+                        "shortText": "Home Bet",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401892431,
+                            "betSide": "home",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "odds": "-110"
+                    }
+                  },
+                  "away": {
+                    "close": {
+                      "odds": "+100",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "away",
+                          "desktop",
+                          "bets",
+                          "draft-kings"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0ML86316511_3",
+                        "text": "Away Bet",
+                        "shortText": "Away Bet",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401892431,
+                            "betSide": "away",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "odds": "-110"
+                    }
+                  }
+                },
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "close": {
+                      "line": "-1.5",
+                      "odds": "+195",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "homeSpread",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0HC86316511N150_1",
+                        "text": "Home Point Spread",
+                        "shortText": "Home Point Spread",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401892431,
+                            "betSide": "none",
+                            "betType": "straight",
+                            "betDetails": "Spread:TOR-1.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "-1.5",
+                      "odds": "+215"
+                    }
+                  },
+                  "away": {
+                    "close": {
+                      "line": "+1.5",
+                      "odds": "-238",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "awaySpread",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0HC86316511P150_3",
+                        "text": "Away Point Spread",
+                        "shortText": "Away Point Spread",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401892431,
+                            "betSide": "none",
+                            "betType": "straight",
+                            "betDetails": "Spread:NYI+1.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "+1.5",
+                      "odds": "-265"
+                    }
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "close": {
+                      "line": "o5.5",
+                      "odds": "-130",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "over",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0OU86316511O550_1",
+                        "text": "Over Odds",
+                        "shortText": "Over Odds",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401892431,
+                            "betSide": "over",
+                            "betType": "straight",
+                            "betDetails": "Over:5.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "o6.5",
+                      "odds": "+110"
+                    }
+                  },
+                  "under": {
+                    "close": {
+                      "line": "u5.5",
+                      "odds": "+110",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "under",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0OU86316511U550_3",
+                        "text": "Under Odds",
+                        "shortText": "Under Odds",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401892431,
+                            "betSide": "under",
+                            "betType": "straight",
+                            "betDetails": "Under:5.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "u6.5",
+                      "odds": "-130"
+                    }
+                  }
+                },
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "game",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776",
+                  "text": "See More Odds",
+                  "shortText": "Game",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "nhl",
+                      "sport": "hockey",
+                      "gameId": 401892431,
+                      "betSide": "none",
+                      "betType": "straight"
+                    }
+                  }
+                },
+                "header": {
+                  "logo": {
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                    "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                    "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                    "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                  },
+                  "text": "Game Odds"
+                },
+                "footer": {
+                  "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
+                }
+              }
+            ],
+            "highlights": []
+          }
+        ],
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/nhl/game/_/gameId/401892431/islanders-maple-leafs",
+            "text": "Gamecast",
+            "shortText": "Gamecast",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0:00",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Wed, September 30th at 7:30 PM EDT",
+            "shortDetail": "9/30 - 7:30 PM EDT"
+          }
+        }
+      },
+      {
+        "id": "401891780",
+        "uid": "s:70~l:90~e:401891780",
+        "date": "2026-10-01T02:00Z",
+        "name": "Los Angeles Kings at Colorado Avalanche",
+        "shortName": "LA @ COL",
+        "season": {
+          "year": 2027,
+          "type": 2,
+          "slug": "regular-season"
+        },
+        "competitions": [
+          {
+            "id": "401891780",
+            "uid": "s:70~l:90~e:401891780~c:401891780",
+            "date": "2026-10-01T02:00Z",
+            "attendance": 0,
+            "type": {
+              "id": "1",
+              "abbreviation": "STD"
+            },
+            "timeValid": true,
+            "neutralSite": false,
+            "playByPlayAvailable": false,
+            "recent": false,
+            "venue": {
+              "id": "892",
+              "fullName": "Ball Arena",
+              "address": {
+                "city": "Denver",
+                "state": "CO",
+                "country": "USA"
+              },
+              "indoor": true
+            },
+            "competitors": [
+              {
+                "id": "17",
+                "uid": "s:70~l:90~t:17",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "team": {
+                  "id": "17",
+                  "uid": "s:70~l:90~t:17",
+                  "location": "Colorado",
+                  "name": "Avalanche",
+                  "abbreviation": "COL",
+                  "displayName": "Colorado Avalanche",
+                  "shortDisplayName": "Avalanche",
+                  "color": "860038",
+                  "isActive": true,
+                  "venue": {
+                    "id": "892"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/_/name/col/colorado-avalanche",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "mobile",
+                        "team"
+                      ],
+                      "href": "https://m.espn.com/nhl/clubhouse?teamId=17",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/roster/_/name/col/colorado-avalanche",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:17&section=roster",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/stats/_/name/col/colorado-avalanche",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:17&section=stats",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/schedule/_/name/col",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:17&section=scores",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ],
+                  "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+                },
+                "score": "0",
+                "probables": [
+                  {
+                    "name": "probableStartingGoalie",
+                    "displayName": "Probable Starting Goalie",
+                    "shortDisplayName": "Starter",
+                    "abbreviation": "SG",
+                    "playerId": 3904177,
+                    "athlete": {
+                      "id": "3904177",
+                      "fullName": "Mackenzie Blackwood",
+                      "displayName": "Mackenzie Blackwood",
+                      "shortName": "M. Blackwood",
+                      "links": [
+                        {
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ],
+                          "href": "https://www.espn.com/nhl/player/_/id/3904177"
+                        }
+                      ],
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/3904177.png",
+                      "jersey": "39",
+                      "position": "G",
+                      "team": {
+                        "id": "17"
+                      }
+                    },
+                    "status": {
+                      "id": "101",
+                      "name": "Expected",
+                      "type": "expected",
+                      "abbreviation": "Expected"
+                    },
+                    "statistics": [],
+                    "record": ""
+                  }
+                ],
+                "curatedRank": {
+                  "current": 99
+                },
+                "statistics": [],
+                "records": [
+                  {
+                    "name": "overall",
+                    "abbreviation": "TOTAL",
+                    "type": "total",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Home",
+                    "abbreviation": "HOME",
+                    "type": "home",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Road",
+                    "abbreviation": "AWAY",
+                    "type": "road",
+                    "summary": "0-0-0"
+                  }
+                ]
+              },
+              {
+                "id": "8",
+                "uid": "s:70~l:90~t:8",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "team": {
+                  "id": "8",
+                  "uid": "s:70~l:90~t:8",
+                  "location": "Los Angeles",
+                  "name": "Kings",
+                  "abbreviation": "LA",
+                  "displayName": "Los Angeles Kings",
+                  "shortDisplayName": "Kings",
+                  "color": "121212",
+                  "isActive": true,
+                  "venue": {
+                    "id": "1841"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/_/name/la/los-angeles-kings",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "mobile",
+                        "team"
+                      ],
+                      "href": "https://m.espn.com/nhl/clubhouse?teamId=8",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/roster/_/name/la/los-angeles-kings",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "roster",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:8&section=roster",
+                      "text": "Roster",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/stats/_/name/la/los-angeles-kings",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:8&section=stats",
+                      "text": "Statistics",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/nhl/team/schedule/_/name/la",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:8&section=scores",
+                      "text": "Schedule",
+                      "isExternal": false,
+                      "isPremium": false
+                    }
+                  ],
+                  "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+                },
+                "score": "0",
+                "probables": [
+                  {
+                    "name": "probableStartingGoalie",
+                    "displayName": "Probable Starting Goalie",
+                    "shortDisplayName": "Starter",
+                    "abbreviation": "SG",
+                    "playerId": 2610321,
+                    "athlete": {
+                      "id": "2610321",
+                      "fullName": "Darcy Kuemper",
+                      "displayName": "Darcy Kuemper",
+                      "shortName": "D. Kuemper",
+                      "links": [
+                        {
+                          "rel": [
+                            "playercard",
+                            "desktop",
+                            "athlete"
+                          ],
+                          "href": "https://www.espn.com/nhl/player/_/id/2610321"
+                        }
+                      ],
+                      "headshot": "https://a.espncdn.com/i/headshots/nhl/players/full/2610321.png",
+                      "jersey": "35",
+                      "position": "G",
+                      "team": {
+                        "id": "8"
+                      }
+                    },
+                    "status": {
+                      "id": "101",
+                      "name": "Expected",
+                      "type": "expected",
+                      "abbreviation": "Expected"
+                    },
+                    "statistics": [],
+                    "record": ""
+                  }
+                ],
+                "curatedRank": {
+                  "current": 99
+                },
+                "statistics": [],
+                "records": [
+                  {
+                    "name": "overall",
+                    "abbreviation": "TOTAL",
+                    "type": "total",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Home",
+                    "abbreviation": "HOME",
+                    "type": "home",
+                    "summary": "0-0-0"
+                  },
+                  {
+                    "name": "Road",
+                    "abbreviation": "AWAY",
+                    "type": "road",
+                    "summary": "0-0-0"
+                  }
+                ]
+              }
+            ],
+            "notes": [],
+            "status": {
+              "clock": 0.0,
+              "displayClock": "0:00",
+              "period": 0,
+              "type": {
+                "id": "1",
+                "name": "STATUS_SCHEDULED",
+                "state": "pre",
+                "completed": false,
+                "description": "Scheduled",
+                "detail": "Wed, September 30th at 10:00 PM EDT",
+                "shortDetail": "9/30 - 10:00 PM EDT"
+              }
+            },
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "TNT",
+                  "truTV"
+                ]
+              }
+            ],
+            "format": {
+              "regulation": {
+                "periods": 3
+              }
+            },
+            "tickets": [
+              {
+                "summary": "Tickets as low as $65",
+                "numberAvailable": 1391,
+                "links": [
+                  {
+                    "href": "https://www.vividseats.com/Colorado-Avalanche-tickets-ball-arena-9-30-2026--sports-nhl-hockey/production/7292413?wsUser=717"
+                  },
+                  {
+                    "href": "https://www.vividseats.com/ball-arena-tickets/venue/1315?wsUser=717"
+                  }
+                ]
+              }
+            ],
+            "startDate": "2026-10-01T02:00Z",
+            "broadcast": "TNT/truTV",
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "TNT"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "truTV"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "odds": [
+              {
+                "provider": {
+                  "id": "100",
+                  "name": "Draft Kings",
+                  "priority": 1,
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                      "rel": [
+                        "light"
+                      ]
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                      "rel": [
+                        "dark"
+                      ]
+                    }
+                  ]
+                },
+                "details": "COL -180",
+                "overUnder": 6.5,
+                "spread": -1.5,
+                "awayTeamOdds": {
+                  "favorite": false,
+                  "underdog": true,
+                  "team": {
+                    "id": "8",
+                    "uid": "s:70~l:90~t:8",
+                    "abbreviation": "LA",
+                    "name": "Kings",
+                    "displayName": "Los Angeles Kings",
+                    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+                  },
+                  "favoriteAtOpen": false
+                },
+                "homeTeamOdds": {
+                  "favorite": true,
+                  "underdog": false,
+                  "team": {
+                    "id": "17",
+                    "uid": "s:70~l:90~t:17",
+                    "abbreviation": "COL",
+                    "name": "Avalanche",
+                    "displayName": "Colorado Avalanche",
+                    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+                  },
+                  "favoriteAtOpen": true
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "close": {
+                      "odds": "-180",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "home",
+                          "desktop",
+                          "bets",
+                          "draft-kings"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0ML85513143_1",
+                        "text": "Home Bet",
+                        "shortText": "Home Bet",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891780,
+                            "betSide": "home",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "odds": "-185"
+                    }
+                  },
+                  "away": {
+                    "close": {
+                      "odds": "+150",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "away",
+                          "desktop",
+                          "bets",
+                          "draft-kings"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0ML85513143_3",
+                        "text": "Away Bet",
+                        "shortText": "Away Bet",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891780,
+                            "betSide": "away",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "odds": "+154"
+                    }
+                  }
+                },
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "close": {
+                      "line": "-1.5",
+                      "odds": "+136",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "homeSpread",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0HC85513143N150_1",
+                        "text": "Home Point Spread",
+                        "shortText": "Home Point Spread",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891780,
+                            "betSide": "none",
+                            "betType": "straight",
+                            "betDetails": "Spread:COL-1.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "-1.5",
+                      "odds": "+145"
+                    }
+                  },
+                  "away": {
+                    "close": {
+                      "line": "+1.5",
+                      "odds": "-162",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "awaySpread",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0HC85513143P150_3",
+                        "text": "Away Point Spread",
+                        "shortText": "Away Point Spread",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891780,
+                            "betSide": "none",
+                            "betType": "straight",
+                            "betDetails": "Spread:LA+1.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "+1.5",
+                      "odds": "-175"
+                    }
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "close": {
+                      "line": "o6.5",
+                      "odds": "+110",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "over",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0OU85513143O650_1",
+                        "text": "Over Odds",
+                        "shortText": "Over Odds",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891780,
+                            "betSide": "over",
+                            "betType": "straight",
+                            "betDetails": "Over:6.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "o5.5",
+                      "odds": "-120"
+                    }
+                  },
+                  "under": {
+                    "close": {
+                      "line": "u6.5",
+                      "odds": "-130",
+                      "link": {
+                        "language": "en-US",
+                        "rel": [
+                          "under",
+                          "desktop",
+                          "bets"
+                        ],
+                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0OU85513143U650_3",
+                        "text": "Under Odds",
+                        "shortText": "Under Odds",
+                        "isExternal": true,
+                        "isPremium": false,
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nhl",
+                            "sport": "hockey",
+                            "gameId": 401891780,
+                            "betSide": "under",
+                            "betType": "straight",
+                            "betDetails": "Under:6.5"
+                          }
+                        }
+                      }
+                    },
+                    "open": {
+                      "line": "u5.5",
+                      "odds": "+100"
+                    }
+                  }
+                },
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "game",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090",
+                  "text": "See More Odds",
+                  "shortText": "Game",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "tracking": {
+                    "campaign": "betting-integrations",
+                    "tags": {
+                      "league": "nhl",
+                      "sport": "hockey",
+                      "gameId": 401891780,
+                      "betSide": "none",
+                      "betType": "straight"
+                    }
+                  }
+                },
+                "header": {
+                  "logo": {
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+                    "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+                    "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+                    "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+                  },
+                  "text": "Game Odds"
+                },
+                "footer": {
+                  "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
+                }
+              }
+            ],
+            "highlights": []
+          }
+        ],
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/nhl/game/_/gameId/401891780/kings-avalanche",
+            "text": "Gamecast",
+            "shortText": "Gamecast",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0:00",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Wed, September 30th at 10:00 PM EDT",
+            "shortDetail": "9/30 - 10:00 PM EDT"
+          }
+        }
+      }
+    ],
+    "provider": {
+      "id": "100",
+      "name": "Draft Kings",
+      "priority": 1,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+          "rel": [
+            "light"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+          "rel": [
+            "dark"
+          ]
+        }
+      ],
+      "displayName": "Draft Kings"
+    }
+  },
+  "odds_raw_by_event": {
+    "401891821": {
+      "count": 1,
+      "pageIndex": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "items": [
+        {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891821/competitions/401891821/odds/100?lang=en&region=us",
+          "provider": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+            "id": "100",
+            "name": "Draft Kings",
+            "priority": 1
+          },
+          "details": "PHI -142",
+          "overUnder": 5.5,
+          "spread": -1.5,
+          "overOdds": -135.0,
+          "underOdds": 114.0,
+          "awayTeamOdds": {
+            "favorite": false,
+            "underdog": true,
+            "moneyLine": 120,
+            "spreadOdds": -218.0,
+            "open": {
+              "favorite": false,
+              "pointSpread": {
+                "alternateDisplayValue": "+1.5",
+                "american": "+1.5"
+              },
+              "spread": {
+                "value": 1.45,
+                "displayValue": "50/109",
+                "alternateDisplayValue": "-218",
+                "decimal": 1.45,
+                "fraction": "50/109",
+                "american": "-218"
+              },
+              "moneyLine": {
+                "value": 2.2,
+                "displayValue": "6/5",
+                "alternateDisplayValue": "+120",
+                "decimal": 2.2,
+                "fraction": "6/5",
+                "american": "+120"
+              }
+            },
+            "current": {
+              "pointSpread": {
+                "alternateDisplayValue": "+1.5",
+                "american": "+1.5"
+              },
+              "spread": {
+                "value": 1.45,
+                "displayValue": "50/109",
+                "alternateDisplayValue": "-218",
+                "decimal": 1.45,
+                "fraction": "50/109",
+                "american": "-218"
+              },
+              "moneyLine": {
+                "value": 2.2,
+                "displayValue": "6/5",
+                "alternateDisplayValue": "+120",
+                "decimal": 2.2,
+                "fraction": "6/5",
+                "american": "+120"
+              }
+            },
+            "team": {
+              "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/16?lang=en&region=us"
+            }
+          },
+          "homeTeamOdds": {
+            "favorite": true,
+            "underdog": false,
+            "moneyLine": -142,
+            "spreadOdds": 180.0,
+            "open": {
+              "favorite": true,
+              "pointSpread": {
+                "alternateDisplayValue": "-1.5",
+                "american": "-1.5"
+              },
+              "spread": {
+                "value": 2.8,
+                "displayValue": "9/5",
+                "alternateDisplayValue": "+180",
+                "decimal": 2.8,
+                "fraction": "9/5",
+                "american": "+180"
+              },
+              "moneyLine": {
+                "value": 1.7,
+                "displayValue": "50/71",
+                "alternateDisplayValue": "-142",
+                "decimal": 1.7,
+                "fraction": "50/71",
+                "american": "-142"
+              }
+            },
+            "current": {
+              "pointSpread": {
+                "alternateDisplayValue": "-1.5",
+                "american": "-1.5"
+              },
+              "spread": {
+                "value": 2.8,
+                "displayValue": "9/5",
+                "alternateDisplayValue": "+180",
+                "decimal": 2.8,
+                "fraction": "9/5",
+                "american": "+180"
+              },
+              "moneyLine": {
+                "value": 1.7,
+                "displayValue": "50/71",
+                "alternateDisplayValue": "-142",
+                "decimal": 1.7,
+                "fraction": "50/71",
+                "american": "-142"
+              }
+            },
+            "team": {
+              "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/15?lang=en&region=us"
+            }
+          },
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "home",
+                "desktop",
+                "bets",
+                "draft-kings"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0ML85513139_1",
+              "text": "Home Bet",
+              "shortText": "Home Bet",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "away",
+                "desktop",
+                "bets",
+                "draft-kings"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0ML85513139_3",
+              "text": "Away Bet",
+              "shortText": "Away Bet",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "homeSpread",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0HC85513139N150_1",
+              "text": "Home Point Spread",
+              "shortText": "Home Point Spread",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "awaySpread",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0HC85513139P150_3",
+              "text": "Away Point Spread",
+              "shortText": "Away Point Spread",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "over",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0OU85513139O550_1",
+              "text": "Over Odds",
+              "shortText": "Over Odds",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "under",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087%3Foutcomes%3D0OU85513139U550_3",
+              "text": "Under Odds",
+              "shortText": "Under Odds",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "game",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400087",
+              "text": "Game",
+              "shortText": "Game",
+              "isExternal": true,
+              "isPremium": false
+            }
+          ],
+          "moneylineWinner": false,
+          "spreadWinner": false,
+          "open": {
+            "over": {
+              "value": 1.8,
+              "displayValue": "4/5",
+              "alternateDisplayValue": "-125",
+              "decimal": 1.8,
+              "fraction": "4/5",
+              "american": "-125"
+            },
+            "under": {
+              "value": 2.05,
+              "displayValue": "21/20",
+              "alternateDisplayValue": "+105",
+              "decimal": 2.05,
+              "fraction": "21/20",
+              "american": "+105"
+            },
+            "total": {
+              "alternateDisplayValue": "5.5",
+              "american": "5.5"
+            }
+          },
+          "current": {
+            "over": {
+              "value": 1.74,
+              "displayValue": "20/27",
+              "alternateDisplayValue": "-135",
+              "decimal": 1.74,
+              "fraction": "20/27",
+              "american": "-135"
+            },
+            "under": {
+              "value": 2.14,
+              "displayValue": "57/50",
+              "alternateDisplayValue": "+114",
+              "decimal": 2.14,
+              "fraction": "57/50",
+              "american": "+114"
+            },
+            "total": {
+              "alternateDisplayValue": "5.5",
+              "american": "5.5"
+            }
+          },
+          "propBets": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891821/competitions/401891821/odds/100/propBets?lang=en&region=us"
+          }
+        }
+      ]
+    },
+    "401892431": {
+      "count": 1,
+      "pageIndex": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "items": [
+        {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892431/competitions/401892431/odds/100?lang=en&region=us",
+          "provider": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+            "id": "100",
+            "name": "Draft Kings",
+            "priority": 1
+          },
+          "details": "TOR -120",
+          "overUnder": 5.5,
+          "spread": -1.5,
+          "overOdds": -130.0,
+          "underOdds": 110.0,
+          "awayTeamOdds": {
+            "favorite": false,
+            "underdog": true,
+            "moneyLine": 100,
+            "spreadOdds": -238.0,
+            "open": {
+              "favorite": false,
+              "pointSpread": {
+                "alternateDisplayValue": "+1.5",
+                "american": "+1.5"
+              },
+              "spread": {
+                "value": 1.37,
+                "displayValue": "20/53",
+                "alternateDisplayValue": "-265",
+                "decimal": 1.37,
+                "fraction": "20/53",
+                "american": "-265"
+              },
+              "moneyLine": {
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
+              }
+            },
+            "current": {
+              "pointSpread": {
+                "alternateDisplayValue": "+1.5",
+                "american": "+1.5"
+              },
+              "spread": {
+                "value": 1.42,
+                "displayValue": "50/119",
+                "alternateDisplayValue": "-238",
+                "decimal": 1.42,
+                "fraction": "50/119",
+                "american": "-238"
+              },
+              "moneyLine": {
+                "value": 2.0,
+                "displayValue": "1/1",
+                "alternateDisplayValue": "+100",
+                "decimal": 2.0,
+                "fraction": "1/1",
+                "american": "+100"
+              }
+            },
+            "team": {
+              "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/12?lang=en&region=us"
+            }
+          },
+          "homeTeamOdds": {
+            "favorite": true,
+            "underdog": false,
+            "moneyLine": -120,
+            "spreadOdds": 195.0,
+            "open": {
+              "favorite": true,
+              "pointSpread": {
+                "alternateDisplayValue": "-1.5",
+                "american": "-1.5"
+              },
+              "spread": {
+                "value": 3.15,
+                "displayValue": "43/20",
+                "alternateDisplayValue": "+215",
+                "decimal": 3.15,
+                "fraction": "43/20",
+                "american": "+215"
+              },
+              "moneyLine": {
+                "value": 1.9,
+                "displayValue": "10/11",
+                "alternateDisplayValue": "-110",
+                "decimal": 1.9,
+                "fraction": "10/11",
+                "american": "-110"
+              }
+            },
+            "current": {
+              "pointSpread": {
+                "alternateDisplayValue": "-1.5",
+                "american": "-1.5"
+              },
+              "spread": {
+                "value": 2.95,
+                "displayValue": "39/20",
+                "alternateDisplayValue": "+195",
+                "decimal": 2.95,
+                "fraction": "39/20",
+                "american": "+195"
+              },
+              "moneyLine": {
+                "value": 1.83,
+                "displayValue": "5/6",
+                "alternateDisplayValue": "-120",
+                "decimal": 1.83,
+                "fraction": "5/6",
+                "american": "-120"
+              }
+            },
+            "team": {
+              "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/21?lang=en&region=us"
+            }
+          },
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "home",
+                "desktop",
+                "bets",
+                "draft-kings"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0ML86316511_1",
+              "text": "Home Bet",
+              "shortText": "Home Bet",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "away",
+                "desktop",
+                "bets",
+                "draft-kings"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0ML86316511_3",
+              "text": "Away Bet",
+              "shortText": "Away Bet",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "homeSpread",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0HC86316511N150_1",
+              "text": "Home Point Spread",
+              "shortText": "Home Point Spread",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "awaySpread",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0HC86316511P150_3",
+              "text": "Away Point Spread",
+              "shortText": "Away Point Spread",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "over",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0OU86316511O550_1",
+              "text": "Over Odds",
+              "shortText": "Over Odds",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "under",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776%3Foutcomes%3D0OU86316511U550_3",
+              "text": "Under Odds",
+              "shortText": "Under Odds",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "game",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34673776",
+              "text": "Game",
+              "shortText": "Game",
+              "isExternal": true,
+              "isPremium": false
+            }
+          ],
+          "moneylineWinner": false,
+          "spreadWinner": false,
+          "open": {
+            "over": {
+              "value": 2.1,
+              "displayValue": "11/10",
+              "alternateDisplayValue": "+110",
+              "decimal": 2.1,
+              "fraction": "11/10",
+              "american": "+110"
+            },
+            "under": {
+              "value": 1.76,
+              "displayValue": "10/13",
+              "alternateDisplayValue": "-130",
+              "decimal": 1.76,
+              "fraction": "10/13",
+              "american": "-130"
+            },
+            "total": {
+              "alternateDisplayValue": "6.5",
+              "american": "6.5"
+            }
+          },
+          "current": {
+            "over": {
+              "value": 1.76,
+              "displayValue": "10/13",
+              "alternateDisplayValue": "-130",
+              "decimal": 1.76,
+              "fraction": "10/13",
+              "american": "-130"
+            },
+            "under": {
+              "value": 2.1,
+              "displayValue": "11/10",
+              "alternateDisplayValue": "+110",
+              "decimal": 2.1,
+              "fraction": "11/10",
+              "american": "+110"
+            },
+            "total": {
+              "alternateDisplayValue": "5.5",
+              "american": "5.5"
+            }
+          },
+          "propBets": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892431/competitions/401892431/odds/100/propBets?lang=en&region=us"
+          }
+        }
+      ]
+    },
+    "401891780": {
+      "count": 1,
+      "pageIndex": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "items": [
+        {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891780/competitions/401891780/odds/100?lang=en&region=us",
+          "provider": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+            "id": "100",
+            "name": "Draft Kings",
+            "priority": 1
+          },
+          "details": "COL -180",
+          "overUnder": 6.5,
+          "spread": -1.5,
+          "overOdds": 110.0,
+          "underOdds": -130.0,
+          "awayTeamOdds": {
+            "favorite": false,
+            "underdog": true,
+            "moneyLine": 150,
+            "spreadOdds": -162.0,
+            "open": {
+              "favorite": false,
+              "pointSpread": {
+                "alternateDisplayValue": "+1.5",
+                "american": "+1.5"
+              },
+              "spread": {
+                "value": 1.57,
+                "displayValue": "4/7",
+                "alternateDisplayValue": "-175",
+                "decimal": 1.57,
+                "fraction": "4/7",
+                "american": "-175"
+              },
+              "moneyLine": {
+                "value": 2.54,
+                "displayValue": "77/50",
+                "alternateDisplayValue": "+154",
+                "decimal": 2.54,
+                "fraction": "77/50",
+                "american": "+154"
+              }
+            },
+            "current": {
+              "pointSpread": {
+                "alternateDisplayValue": "+1.5",
+                "american": "+1.5"
+              },
+              "spread": {
+                "value": 1.61,
+                "displayValue": "50/81",
+                "alternateDisplayValue": "-162",
+                "decimal": 1.61,
+                "fraction": "50/81",
+                "american": "-162"
+              },
+              "moneyLine": {
+                "value": 2.5,
+                "displayValue": "6/4",
+                "alternateDisplayValue": "+150",
+                "decimal": 2.5,
+                "fraction": "6/4",
+                "american": "+150"
+              }
+            },
+            "team": {
+              "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/8?lang=en&region=us"
+            }
+          },
+          "homeTeamOdds": {
+            "favorite": true,
+            "underdog": false,
+            "moneyLine": -180,
+            "spreadOdds": 136.0,
+            "open": {
+              "favorite": true,
+              "pointSpread": {
+                "alternateDisplayValue": "-1.5",
+                "american": "-1.5"
+              },
+              "spread": {
+                "value": 2.45,
+                "displayValue": "29/20",
+                "alternateDisplayValue": "+145",
+                "decimal": 2.45,
+                "fraction": "29/20",
+                "american": "+145"
+              },
+              "moneyLine": {
+                "value": 1.54,
+                "displayValue": "20/37",
+                "alternateDisplayValue": "-185",
+                "decimal": 1.54,
+                "fraction": "20/37",
+                "american": "-185"
+              }
+            },
+            "current": {
+              "pointSpread": {
+                "alternateDisplayValue": "-1.5",
+                "american": "-1.5"
+              },
+              "spread": {
+                "value": 2.36,
+                "displayValue": "34/25",
+                "alternateDisplayValue": "+136",
+                "decimal": 2.36,
+                "fraction": "34/25",
+                "american": "+136"
+              },
+              "moneyLine": {
+                "value": 1.55,
+                "displayValue": "5/9",
+                "alternateDisplayValue": "-180",
+                "decimal": 1.55,
+                "fraction": "5/9",
+                "american": "-180"
+              }
+            },
+            "team": {
+              "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/17?lang=en&region=us"
+            }
+          },
+          "links": [
+            {
+              "language": "en-US",
+              "rel": [
+                "home",
+                "desktop",
+                "bets",
+                "draft-kings"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0ML85513143_1",
+              "text": "Home Bet",
+              "shortText": "Home Bet",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "away",
+                "desktop",
+                "bets",
+                "draft-kings"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0ML85513143_3",
+              "text": "Away Bet",
+              "shortText": "Away Bet",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "homeSpread",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0HC85513143N150_1",
+              "text": "Home Point Spread",
+              "shortText": "Home Point Spread",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "awaySpread",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0HC85513143P150_3",
+              "text": "Away Point Spread",
+              "shortText": "Away Point Spread",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "over",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0OU85513143O650_1",
+              "text": "Over Odds",
+              "shortText": "Over Odds",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "under",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090%3Foutcomes%3D0OU85513143U650_3",
+              "text": "Under Odds",
+              "shortText": "Under Odds",
+              "isExternal": true,
+              "isPremium": false
+            },
+            {
+              "language": "en-US",
+              "rel": [
+                "game",
+                "desktop",
+                "bets"
+              ],
+              "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400090",
+              "text": "Game",
+              "shortText": "Game",
+              "isExternal": true,
+              "isPremium": false
+            }
+          ],
+          "moneylineWinner": false,
+          "spreadWinner": false,
+          "open": {
+            "over": {
+              "value": 1.83,
+              "displayValue": "5/6",
+              "alternateDisplayValue": "-120",
+              "decimal": 1.83,
+              "fraction": "5/6",
+              "american": "-120"
+            },
+            "under": {
+              "value": 2.0,
+              "displayValue": "1/1",
+              "alternateDisplayValue": "+100",
+              "decimal": 2.0,
+              "fraction": "1/1",
+              "american": "+100"
+            },
+            "total": {
+              "alternateDisplayValue": "5.5",
+              "american": "5.5"
+            }
+          },
+          "current": {
+            "over": {
+              "value": 2.1,
+              "displayValue": "11/10",
+              "alternateDisplayValue": "+110",
+              "decimal": 2.1,
+              "fraction": "11/10",
+              "american": "+110"
+            },
+            "under": {
+              "value": 1.76,
+              "displayValue": "10/13",
+              "alternateDisplayValue": "-130",
+              "decimal": 1.76,
+              "fraction": "10/13",
+              "american": "-130"
+            },
+            "total": {
+              "alternateDisplayValue": "6.5",
+              "american": "6.5"
+            }
+          },
+          "propBets": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401891780/competitions/401891780/odds/100/propBets?lang=en&region=us"
+          }
+        }
+      ]
+    }
+  },
+  "warnings": []
+}

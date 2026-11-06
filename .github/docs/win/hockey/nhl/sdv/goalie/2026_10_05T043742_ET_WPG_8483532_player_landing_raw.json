@@ -1,0 +1,761 @@
+{
+  "playerId": 8483532,
+  "isActive": true,
+  "currentTeamId": 52,
+  "currentTeamAbbrev": "WPG",
+  "fullTeamName": {
+    "default": "Winnipeg Jets",
+    "fr": "Jets de Winnipeg"
+  },
+  "teamCommonName": {
+    "default": "Jets"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Winnipeg",
+    "fr": "de Winnipeg"
+  },
+  "firstName": {
+    "default": "Clay"
+  },
+  "lastName": {
+    "default": "Stevenson"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+  "sweaterNumber": 33,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WPG/8483532.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8483532.jpg",
+  "heightInInches": 76,
+  "heightInCentimeters": 193,
+  "weightInPounds": 195,
+  "weightInKilograms": 88,
+  "birthDate": "1999-03-03",
+  "birthCity": {
+    "default": "Drayton Valley"
+  },
+  "birthStateProvince": {
+    "default": "Alberta"
+  },
+  "birthCountry": "CAN",
+  "shootsCatches": "L",
+  "playerSlug": "clay-stevenson-8483532",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20252026,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 4,
+        "goalsAgainstAvg": 2.002225,
+        "losses": 1,
+        "otLosses": 0,
+        "savePctg": 0.920792,
+        "shutouts": 0,
+        "wins": 3
+      },
+      "career": {
+        "gamesPlayed": 5,
+        "goalsAgainstAvg": 2.60231,
+        "losses": 2,
+        "otLosses": 0,
+        "savePctg": 0.906475,
+        "shutouts": 0,
+        "wins": 3
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 0,
+      "gamesPlayed": 5,
+      "gamesStarted": 5,
+      "goals": 0,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 2.60231,
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.906475,
+      "shotsAgainst": 139,
+      "shutouts": 0,
+      "timeOnIce": "299:44",
+      "wins": 3
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "W",
+      "gameDate": "2026-04-14",
+      "gameId": 2025021295,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "CBJ",
+      "penaltyMins": 0,
+      "savePctg": 0.964286,
+      "shotsAgainst": 28,
+      "teamAbbrev": "WSH",
+      "toi": "59:37"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-02-03",
+      "gameId": 2025020889,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "PHI",
+      "penaltyMins": 0,
+      "savePctg": 0.857143,
+      "shotsAgainst": 21,
+      "teamAbbrev": "WSH",
+      "toi": "58:25"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-02-02",
+      "gameId": 2025020878,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "NYI",
+      "penaltyMins": 0,
+      "savePctg": 0.966667,
+      "shotsAgainst": 30,
+      "teamAbbrev": "WSH",
+      "toi": "60:00"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-01-31",
+      "gameId": 2025020864,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "CAR",
+      "penaltyMins": 0,
+      "savePctg": 0.863636,
+      "shotsAgainst": 22,
+      "teamAbbrev": "WSH",
+      "toi": "61:42"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainstAvg": 7.41,
+      "leagueAbbrev": "NAHL U15",
+      "savePctg": 0.846,
+      "season": 20122013,
+      "sequence": 109602,
+      "teamName": {
+        "default": "Brazeau Parkland Selects U15 AA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 15,
+      "goalsAgainstAvg": 5.02,
+      "leagueAbbrev": "NAHL U15",
+      "savePctg": 0.9,
+      "season": 20132014,
+      "sequence": 109602,
+      "teamName": {
+        "default": "Brazeau Parkland Selects U15 AA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 25,
+      "goalsAgainstAvg": 3.12,
+      "leagueAbbrev": "KIJHL",
+      "savePctg": 0.907,
+      "season": 20162017,
+      "sequence": 149956,
+      "teamName": {
+        "default": "100 Mile House Wranglers"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "goalsAgainst": 79,
+      "goalsAgainstAvg": 3.89,
+      "leagueAbbrev": "BCHL",
+      "losses": 16,
+      "otLosses": 0,
+      "savePctg": 0.885,
+      "season": 20172018,
+      "sequence": 20174,
+      "shotsAgainst": 686,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Coquitlam Express"
+      },
+      "timeOnIce": "1219:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 1.99,
+      "leagueAbbrev": "BCHL",
+      "losses": 1,
+      "savePctg": 0.961,
+      "season": 20172018,
+      "sequence": 20174,
+      "shotsAgainst": 77,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Coquitlam Express"
+      },
+      "timeOnIce": "91:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 27,
+      "goalsAgainst": 90,
+      "goalsAgainstAvg": 3.36,
+      "leagueAbbrev": "BCHL",
+      "losses": 11,
+      "otLosses": 1,
+      "savePctg": 0.889,
+      "season": 20182019,
+      "sequence": 20174,
+      "shotsAgainst": 812,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Coquitlam Express"
+      },
+      "timeOnIce": "1608:00",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 2.36,
+      "leagueAbbrev": "BCHL",
+      "losses": 2,
+      "otLosses": 1,
+      "savePctg": 0.929,
+      "season": 20182019,
+      "sequence": 20174,
+      "shotsAgainst": 98,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Coquitlam Express"
+      },
+      "timeOnIce": "178:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 35,
+      "goalsAgainst": 61,
+      "goalsAgainstAvg": 1.77,
+      "leagueAbbrev": "BCHL",
+      "losses": 2,
+      "otLosses": 2,
+      "savePctg": 0.936,
+      "season": 20192020,
+      "sequence": 20174,
+      "shotsAgainst": 950,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Coquitlam Express"
+      },
+      "timeOnIce": "2067:00",
+      "wins": 30
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "goalsAgainst": 60,
+      "goalsAgainstAvg": 2.7,
+      "leagueAbbrev": "NCAA",
+      "losses": 14,
+      "otLosses": 2,
+      "savePctg": 0.922,
+      "season": 20212022,
+      "sequence": 19730,
+      "shotsAgainst": 769,
+      "teamName": {
+        "default": "Dartmouth College"
+      },
+      "timeOnIce": "1334:00",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 1.96,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.924,
+      "season": 20222023,
+      "sequence": 997,
+      "shotsAgainst": 79,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Hershey Bears"
+      },
+      "timeOnIce": "183:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 36,
+      "goalsAgainst": 87,
+      "goalsAgainstAvg": 2.54,
+      "leagueAbbrev": "ECHL",
+      "losses": 12,
+      "otLosses": 3,
+      "savePctg": 0.916,
+      "season": 20222023,
+      "sequence": 2725,
+      "shotsAgainst": 1036,
+      "shutouts": 3,
+      "teamName": {
+        "default": "South Carolina Stingrays"
+      },
+      "timeOnIce": "2056:00",
+      "wins": 19
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 11,
+      "goalsAgainstAvg": 2.11,
+      "leagueAbbrev": "ECHL",
+      "losses": 1,
+      "otLosses": 2,
+      "savePctg": 0.926,
+      "season": 20222023,
+      "sequence": 2725,
+      "shotsAgainst": 148,
+      "shutouts": 1,
+      "teamName": {
+        "default": "South Carolina Stingrays"
+      },
+      "timeOnIce": "312:09",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 36,
+      "goalsAgainst": 74,
+      "goalsAgainstAvg": 2.06,
+      "leagueAbbrev": "AHL",
+      "losses": 10,
+      "otLosses": 2,
+      "savePctg": 0.922,
+      "season": 20232024,
+      "sequence": 997,
+      "shotsAgainst": 951,
+      "shutouts": 7,
+      "teamName": {
+        "default": "Hershey Bears"
+      },
+      "timeOnIce": "2159:20",
+      "wins": 24
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 1.86,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 2,
+      "savePctg": 0.9,
+      "season": 20232024,
+      "sequence": 997,
+      "shotsAgainst": 10,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Hershey Bears"
+      },
+      "timeOnIce": "32:15",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 4.999997,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.868421,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 38,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Capitals"
+      },
+      "teamName": {
+        "default": "Washington Capitals",
+        "fr": "Capitals de Washington"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Washington",
+        "fr": "de Washington"
+      },
+      "timeOnIce": "60:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "goalsAgainst": 90,
+      "goalsAgainstAvg": 2.94,
+      "leagueAbbrev": "AHL",
+      "losses": 8,
+      "otLosses": 4,
+      "savePctg": 0.888,
+      "season": 20242025,
+      "sequence": 997,
+      "shotsAgainst": 802,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Hershey Bears"
+      },
+      "timeOnIce": "1837:59",
+      "wins": 18
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 4.0,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 5,
+      "savePctg": 0.875,
+      "season": 20242025,
+      "sequence": 997,
+      "shotsAgainst": 32,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Hershey Bears"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "gamesStarted": 4,
+      "goals": 0,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 2.002225,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.920792,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 101,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Capitals"
+      },
+      "teamName": {
+        "default": "Washington Capitals",
+        "fr": "Capitals de Washington"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Washington",
+        "fr": "de Washington"
+      },
+      "timeOnIce": "239:44",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 6,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 2.15,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 4,
+      "savePctg": 0.921,
+      "season": 20252026,
+      "sequence": 997,
+      "shotsAgainst": 165,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Hershey Bears"
+      },
+      "timeOnIce": "362:00",
+      "wins": 3
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8480289,
+      "lastName": {
+        "default": "Barron"
+      },
+      "firstName": {
+        "default": "Morgan"
+      },
+      "playerSlug": "morgan-barron-8480289"
+    },
+    {
+      "playerId": 8482459,
+      "lastName": {
+        "default": "Bauer"
+      },
+      "firstName": {
+        "default": "Tyrel"
+      },
+      "playerSlug": "tyrel-bauer-8482459"
+    },
+    {
+      "playerId": 8486025,
+      "lastName": {
+        "default": "Björck"
+      },
+      "firstName": {
+        "default": "Viggo"
+      },
+      "playerSlug": "viggo-björck-8486025"
+    },
+    {
+      "playerId": 8478398,
+      "lastName": {
+        "default": "Connor"
+      },
+      "firstName": {
+        "default": "Kyle"
+      },
+      "playerSlug": "kyle-connor-8478398"
+    },
+    {
+      "playerId": 8476331,
+      "lastName": {
+        "default": "DeMelo",
+        "cs": "Demelo",
+        "de": "Demelo",
+        "fi": "Demelo",
+        "sk": "Demelo",
+        "sv": "Demelo"
+      },
+      "firstName": {
+        "default": "Dylan"
+      },
+      "playerSlug": "dylan-demelo-8476331"
+    },
+    {
+      "playerId": 8479983,
+      "lastName": {
+        "default": "Ferraro"
+      },
+      "firstName": {
+        "default": "Mario"
+      },
+      "playerSlug": "mario-ferraro-8479983"
+    },
+    {
+      "playerId": 8477938,
+      "lastName": {
+        "default": "Fleury"
+      },
+      "firstName": {
+        "default": "Haydn"
+      },
+      "playerSlug": "haydn-fleury-8477938"
+    },
+    {
+      "playerId": 8476945,
+      "lastName": {
+        "default": "Hellebuyck"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-hellebuyck-8476945"
+    },
+    {
+      "playerId": 8480113,
+      "lastName": {
+        "default": "Iafallo"
+      },
+      "firstName": {
+        "default": "Alex"
+      },
+      "playerSlug": "alex-iafallo-8480113"
+    },
+    {
+      "playerId": 8481043,
+      "lastName": {
+        "default": "Koepke"
+      },
+      "firstName": {
+        "default": "Cole"
+      },
+      "playerSlug": "cole-koepke-8481043"
+    },
+    {
+      "playerId": 8483471,
+      "lastName": {
+        "default": "Lambert"
+      },
+      "firstName": {
+        "default": "Brad"
+      },
+      "playerSlug": "brad-lambert-8483471"
+    },
+    {
+      "playerId": 8476392,
+      "lastName": {
+        "default": "Lowry"
+      },
+      "firstName": {
+        "default": "Adam"
+      },
+      "playerSlug": "adam-lowry-8476392"
+    },
+    {
+      "playerId": 8477504,
+      "lastName": {
+        "default": "Morrissey"
+      },
+      "firstName": {
+        "default": "Josh"
+      },
+      "playerSlug": "josh-morrissey-8477504"
+    },
+    {
+      "playerId": 8476480,
+      "lastName": {
+        "default": "Namestnikov",
+        "cs": "Naměstnikov"
+      },
+      "firstName": {
+        "default": "Vladislav"
+      },
+      "playerSlug": "vladislav-namestnikov-8476480"
+    },
+    {
+      "playerId": 8475799,
+      "lastName": {
+        "default": "Niederreiter"
+      },
+      "firstName": {
+        "default": "Nino"
+      },
+      "playerSlug": "nino-niederreiter-8475799"
+    },
+    {
+      "playerId": 8482149,
+      "lastName": {
+        "default": "Perfetti"
+      },
+      "firstName": {
+        "default": "Cole"
+      },
+      "playerSlug": "cole-perfetti-8482149"
+    },
+    {
+      "playerId": 8480145,
+      "lastName": {
+        "default": "Pionk"
+      },
+      "firstName": {
+        "default": "Neal"
+      },
+      "playerSlug": "neal-pionk-8480145"
+    },
+    {
+      "playerId": 8482765,
+      "lastName": {
+        "default": "Rosen"
+      },
+      "firstName": {
+        "default": "Isak"
+      },
+      "playerSlug": "isak-rosén-8482765"
+    },
+    {
+      "playerId": 8480049,
+      "lastName": {
+        "default": "Samberg"
+      },
+      "firstName": {
+        "default": "Dylan"
+      },
+      "playerSlug": "dylan-samberg-8480049"
+    },
+    {
+      "playerId": 8476460,
+      "lastName": {
+        "default": "Scheifele"
+      },
+      "firstName": {
+        "default": "Mark"
+      },
+      "playerSlug": "mark-scheifele-8476460"
+    },
+    {
+      "playerId": 8479973,
+      "lastName": {
+        "default": "Skinner"
+      },
+      "firstName": {
+        "default": "Stuart"
+      },
+      "playerSlug": "stuart-skinner-8479973"
+    },
+    {
+      "playerId": 8481030,
+      "lastName": {
+        "default": "St. Ivany"
+      },
+      "firstName": {
+        "default": "Jack"
+      },
+      "playerSlug": "jack-st-ivany-8481030"
+    },
+    {
+      "playerId": 8483532,
+      "lastName": {
+        "default": "Stevenson"
+      },
+      "firstName": {
+        "default": "Clay"
+      },
+      "playerSlug": "clay-stevenson-8483532"
+    },
+    {
+      "playerId": 8480014,
+      "lastName": {
+        "default": "Vilardi"
+      },
+      "firstName": {
+        "default": "Gabriel"
+      },
+      "playerSlug": "gabriel-vilardi-8480014"
+    }
+  ]
+}

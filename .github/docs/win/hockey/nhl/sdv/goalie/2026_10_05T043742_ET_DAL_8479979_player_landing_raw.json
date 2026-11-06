@@ -1,0 +1,1085 @@
+{
+  "playerId": 8479979,
+  "isActive": true,
+  "currentTeamId": 25,
+  "currentTeamAbbrev": "DAL",
+  "fullTeamName": {
+    "default": "Dallas Stars",
+    "fr": "Stars de Dallas"
+  },
+  "teamCommonName": {
+    "default": "Stars"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Dallas",
+    "fr": "de Dallas"
+  },
+  "firstName": {
+    "default": "Jake"
+  },
+  "lastName": {
+    "default": "Oettinger"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+  "sweaterNumber": 29,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8479979.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8479979.jpg",
+  "heightInInches": 78,
+  "heightInCentimeters": 198,
+  "weightInPounds": 225,
+  "weightInKilograms": 102,
+  "birthDate": "1998-12-18",
+  "birthCity": {
+    "default": "Lakeville"
+  },
+  "birthStateProvince": {
+    "default": "Minnesota"
+  },
+  "birthCountry": "USA",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2017,
+    "teamAbbrev": "DAL",
+    "round": 1,
+    "pickInRound": 26,
+    "overallPick": 26
+  },
+  "playerSlug": "jake-oettinger-8479979",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 1,
+        "goalsAgainstAvg": 2.058908,
+        "losses": 1,
+        "otLosses": 0,
+        "savePctg": 0.909091,
+        "shutouts": 0,
+        "wins": 0
+      },
+      "career": {
+        "gamesPlayed": 306,
+        "goalsAgainstAvg": 2.535055,
+        "losses": 79,
+        "otLosses": 33,
+        "savePctg": 0.909978,
+        "shutouts": 16,
+        "wins": 184
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 6,
+      "gamesPlayed": 306,
+      "gamesStarted": 297,
+      "goals": 0,
+      "goalsAgainst": 748,
+      "goalsAgainstAvg": 2.535055,
+      "losses": 79,
+      "otLosses": 33,
+      "pim": 8,
+      "savePctg": 0.909978,
+      "shotsAgainst": 8298,
+      "shutouts": 16,
+      "timeOnIce": "17703:44",
+      "wins": 184
+    },
+    "playoffs": {
+      "assists": 1,
+      "gamesPlayed": 71,
+      "gamesStarted": 69,
+      "goals": 0,
+      "goalsAgainst": 180,
+      "goalsAgainstAvg": 2.586452,
+      "losses": 34,
+      "otLosses": 0,
+      "pim": 4,
+      "savePctg": 0.911166,
+      "shotsAgainst": 2015,
+      "shutouts": 2,
+      "timeOnIce": "4175:36",
+      "wins": 34
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-10-02",
+      "gameId": 2026020020,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "STL",
+      "penaltyMins": 0,
+      "savePctg": 0.909091,
+      "shotsAgainst": 22,
+      "teamAbbrev": "DAL",
+      "toi": "58:17"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 9,
+      "goalsAgainstAvg": 1.86,
+      "leagueAbbrev": "USHS-MN",
+      "savePctg": 0.931,
+      "season": 20132014,
+      "sequence": 99422,
+      "teamName": {
+        "default": "Lakeville North High"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 0.5,
+      "leagueAbbrev": "USHS-MN",
+      "savePctg": 0.973,
+      "season": 20132014,
+      "sequence": 99438,
+      "teamName": {
+        "default": "Lakeville North High"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainstAvg": 2.8,
+      "leagueAbbrev": "USDP",
+      "savePctg": 0.889,
+      "season": 20142015,
+      "sequence": 19564,
+      "teamName": {
+        "default": "U.S. National U18 Team"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 29,
+      "goalsAgainst": 66,
+      "goalsAgainstAvg": 2.57,
+      "leagueAbbrev": "USDP",
+      "savePctg": 0.916,
+      "season": 20142015,
+      "sequence": 19734,
+      "shotsAgainst": 786,
+      "shutouts": 2,
+      "teamName": {
+        "default": "U.S. National U17 Team"
+      },
+      "timeOnIce": "1543:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainst": 57,
+      "goalsAgainstAvg": 3.23,
+      "leagueAbbrev": "USHL",
+      "losses": 10,
+      "otLosses": 0,
+      "savePctg": 0.907,
+      "season": 20142015,
+      "sequence": 52486,
+      "shotsAgainst": 611,
+      "shutouts": 1,
+      "teamName": {
+        "default": "USNTDP Juniors"
+      },
+      "timeOnIce": "1058:00",
+      "wins": 5
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 1.34,
+      "leagueAbbrev": "WHC-17",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.934,
+      "season": 20142015,
+      "sequence": 61270,
+      "shotsAgainst": 61,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USA U17"
+      },
+      "timeOnIce": "178:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 1.5,
+      "leagueAbbrev": "WJC-18",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.934,
+      "season": 20152016,
+      "sequence": 17253,
+      "shotsAgainst": 91,
+      "shutouts": 1,
+      "teamName": {
+        "default": "USA U18"
+      },
+      "timeOnIce": "240:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 37,
+      "goalsAgainst": 81,
+      "goalsAgainstAvg": 2.38,
+      "leagueAbbrev": "USDP",
+      "savePctg": 0.908,
+      "season": 20152016,
+      "sequence": 19564,
+      "shotsAgainst": 880,
+      "shutouts": 2,
+      "teamName": {
+        "default": "U.S. National U18 Team"
+      },
+      "timeOnIce": "2038:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 15,
+      "goalsAgainst": 32,
+      "goalsAgainstAvg": 2.24,
+      "leagueAbbrev": "USHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.919,
+      "season": 20152016,
+      "sequence": 52486,
+      "shotsAgainst": 393,
+      "shutouts": 1,
+      "teamName": {
+        "default": "USNTDP Juniors"
+      },
+      "timeOnIce": "858:00",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 35,
+      "goalsAgainst": 75,
+      "goalsAgainstAvg": 2.11,
+      "leagueAbbrev": "NCAA",
+      "losses": 11,
+      "savePctg": 0.927,
+      "season": 20162017,
+      "sequence": 6890,
+      "shotsAgainst": 1032,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Boston Univ."
+      },
+      "ties": 3,
+      "timeOnIce": "2131:00",
+      "wins": 21
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 38,
+      "goalsAgainst": 95,
+      "goalsAgainstAvg": 2.45,
+      "leagueAbbrev": "NCAA",
+      "losses": 13,
+      "savePctg": 0.915,
+      "season": 20172018,
+      "sequence": 6890,
+      "shotsAgainst": 1116,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Boston Univ."
+      },
+      "ties": 4,
+      "timeOnIce": "2325:00",
+      "wins": 21
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 2.77,
+      "leagueAbbrev": "WJC-20",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.889,
+      "season": 20172018,
+      "sequence": 17276,
+      "shotsAgainst": 54,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USA U20"
+      },
+      "timeOnIce": "130:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 36,
+      "goalsAgainst": 86,
+      "goalsAgainstAvg": 2.45,
+      "leagueAbbrev": "NCAA",
+      "losses": 16,
+      "otLosses": 4,
+      "savePctg": 0.926,
+      "season": 20182019,
+      "sequence": 6890,
+      "shotsAgainst": 1162,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Boston Univ."
+      },
+      "timeOnIce": "2110:00",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 2.47,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 2,
+      "savePctg": 0.895,
+      "season": 20182019,
+      "sequence": 45177,
+      "shotsAgainst": 143,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "364:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 38,
+      "goalsAgainst": 90,
+      "goalsAgainstAvg": 2.57,
+      "leagueAbbrev": "AHL",
+      "losses": 16,
+      "otLosses": 3,
+      "savePctg": 0.917,
+      "season": 20192020,
+      "sequence": 45177,
+      "shotsAgainst": 1083,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "2104:00",
+      "wins": 15
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "gamesStarted": 0,
+      "goals": 0,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "NHL",
+      "otLosses": 0,
+      "savePctg": 1.0,
+      "season": 20192020,
+      "sequence": 1,
+      "shotsAgainst": 8,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "36:40"
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 29,
+      "gamesStarted": 24,
+      "goals": 0,
+      "goalsAgainst": 63,
+      "goalsAgainstAvg": 2.356412,
+      "leagueAbbrev": "NHL",
+      "losses": 8,
+      "otLosses": 7,
+      "pim": 4,
+      "savePctg": 0.911268,
+      "season": 20202021,
+      "sequence": 1,
+      "shotsAgainst": 710,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "1604:08",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 1.37,
+      "leagueAbbrev": "WC",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.934,
+      "season": 20202021,
+      "sequence": 17215,
+      "shotsAgainst": 61,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USA"
+      },
+      "timeOnIce": "175:00",
+      "wins": 3
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 48,
+      "gamesStarted": 46,
+      "goals": 0,
+      "goalsAgainst": 114,
+      "goalsAgainstAvg": 2.526221,
+      "leagueAbbrev": "NHL",
+      "losses": 15,
+      "otLosses": 1,
+      "savePctg": 0.91435,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 1331,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "2707:36",
+      "wins": 30
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 26,
+      "goalsAgainstAvg": 2.62,
+      "leagueAbbrev": "AHL",
+      "losses": 5,
+      "otLosses": 1,
+      "savePctg": 0.913,
+      "season": 20212022,
+      "sequence": 45177,
+      "shotsAgainst": 300,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Texas Stars"
+      },
+      "timeOnIce": "596:00",
+      "wins": 4
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "gamesStarted": 7,
+      "goals": 0,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 1.814724,
+      "leagueAbbrev": "NHL",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.954386,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 285,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "429:49",
+      "wins": 3
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 62,
+      "gamesStarted": 61,
+      "goals": 0,
+      "goalsAgainst": 144,
+      "goalsAgainstAvg": 2.370445,
+      "leagueAbbrev": "NHL",
+      "losses": 11,
+      "otLosses": 11,
+      "pim": 2,
+      "savePctg": 0.919482,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 1776,
+      "shutouts": 5,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "3644:53",
+      "wins": 37
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 19,
+      "gamesStarted": 19,
+      "goals": 0,
+      "goalsAgainst": 55,
+      "goalsAgainstAvg": 3.061886,
+      "leagueAbbrev": "NHL",
+      "losses": 9,
+      "otLosses": 0,
+      "savePctg": 0.895238,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 525,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "1077:46",
+      "wins": 10
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 54,
+      "gamesStarted": 53,
+      "goals": 0,
+      "goalsAgainst": 140,
+      "goalsAgainstAvg": 2.72322,
+      "leagueAbbrev": "NHL",
+      "losses": 14,
+      "otLosses": 4,
+      "pim": 2,
+      "savePctg": 0.905149,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 1476,
+      "shutouts": 3,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "3084:35",
+      "wins": 35
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 3,
+      "gamesPlayed": 19,
+      "gamesStarted": 19,
+      "goals": 0,
+      "goalsAgainst": 45,
+      "goalsAgainstAvg": 2.23735,
+      "leagueAbbrev": "NHL",
+      "losses": 9,
+      "otLosses": 0,
+      "pim": 2,
+      "savePctg": 0.914729,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 516,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "1206:47",
+      "wins": 10
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 58,
+      "gamesStarted": 58,
+      "goals": 0,
+      "goalsAgainst": 147,
+      "goalsAgainstAvg": 2.58646,
+      "leagueAbbrev": "NHL",
+      "losses": 18,
+      "otLosses": 4,
+      "savePctg": 0.908752,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 1611,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "3410:04",
+      "wins": 36
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.0601,
+      "leagueAbbrev": "4 Nations",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.913,
+      "season": 20242025,
+      "sequence": 44,
+      "shotsAgainst": 23,
+      "shutouts": 0,
+      "teamName": {
+        "default": "United States"
+      },
+      "timeOnIce": "58:15",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 18,
+      "gamesStarted": 18,
+      "goals": 0,
+      "goalsAgainst": 48,
+      "goalsAgainstAvg": 2.819797,
+      "leagueAbbrev": "NHL",
+      "losses": 8,
+      "otLosses": 0,
+      "pim": 2,
+      "savePctg": 0.904573,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 503,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "1021:21",
+      "wins": 9
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 54,
+      "gamesStarted": 54,
+      "goals": 0,
+      "goalsAgainst": 138,
+      "goalsAgainstAvg": 2.592212,
+      "leagueAbbrev": "NHL",
+      "losses": 12,
+      "otLosses": 6,
+      "pim": 0,
+      "savePctg": 0.899417,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 1372,
+      "shutouts": 4,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "3194:11",
+      "wins": 35
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 6,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 19,
+      "goalsAgainstAvg": 2.827264,
+      "leagueAbbrev": "NHL",
+      "losses": 4,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.893258,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 178,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "403:13",
+      "wins": 2
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.058908,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.909091,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 22,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Stars"
+      },
+      "teamName": {
+        "default": "Dallas Stars",
+        "fr": "Stars de Dallas"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Dallas",
+        "fr": "de Dallas"
+      },
+      "timeOnIce": "58:17",
+      "wins": 0
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8473994,
+      "lastName": {
+        "default": "Benn"
+      },
+      "firstName": {
+        "default": "Jamie"
+      },
+      "playerSlug": "jamie-benn-8473994"
+    },
+    {
+      "playerId": 8483425,
+      "lastName": {
+        "default": "Bichsel"
+      },
+      "firstName": {
+        "default": "Lian"
+      },
+      "playerSlug": "lian-bichsel-8483425"
+    },
+    {
+      "playerId": 8476278,
+      "lastName": {
+        "default": "Blackwell"
+      },
+      "firstName": {
+        "default": "Colin"
+      },
+      "playerSlug": "colin-blackwell-8476278"
+    },
+    {
+      "playerId": 8477335,
+      "lastName": {
+        "default": "Burroughs"
+      },
+      "firstName": {
+        "default": "Kyle"
+      },
+      "playerSlug": "kyle-burroughs-8477335"
+    },
+    {
+      "playerId": 8480840,
+      "lastName": {
+        "default": "Bäck"
+      },
+      "firstName": {
+        "default": "Oskar"
+      },
+      "playerSlug": "oskar-bäck-8480840"
+    },
+    {
+      "playerId": 8478476,
+      "lastName": {
+        "default": "Capobianco"
+      },
+      "firstName": {
+        "default": "Kyle"
+      },
+      "playerSlug": "kyle-capobianco-8478476"
+    },
+    {
+      "playerId": 8479193,
+      "lastName": {
+        "default": "DeSmith"
+      },
+      "firstName": {
+        "default": "Casey"
+      },
+      "playerSlug": "casey-desmith-8479193"
+    },
+    {
+      "playerId": 8475168,
+      "lastName": {
+        "default": "Duchene"
+      },
+      "firstName": {
+        "default": "Matt"
+      },
+      "playerSlug": "matt-duchene-8475168"
+    },
+    {
+      "playerId": 8476889,
+      "lastName": {
+        "default": "Faksa"
+      },
+      "firstName": {
+        "default": "Radek"
+      },
+      "playerSlug": "radek-faksa-8476889"
+    },
+    {
+      "playerId": 8481581,
+      "lastName": {
+        "default": "Harley"
+      },
+      "firstName": {
+        "default": "Thomas"
+      },
+      "playerSlug": "thomas-harley-8481581"
+    },
+    {
+      "playerId": 8480036,
+      "lastName": {
+        "default": "Heiskanen"
+      },
+      "firstName": {
+        "default": "Miro"
+      },
+      "playerSlug": "miro-heiskanen-8480036"
+    },
+    {
+      "playerId": 8478449,
+      "lastName": {
+        "default": "Hintz"
+      },
+      "firstName": {
+        "default": "Roope"
+      },
+      "playerSlug": "roope-hintz-8478449"
+    },
+    {
+      "playerId": 8484829,
+      "lastName": {
+        "default": "Hryckowian"
+      },
+      "firstName": {
+        "default": "Justin"
+      },
+      "playerSlug": "justin-hryckowian-8484829"
+    },
+    {
+      "playerId": 8484938,
+      "lastName": {
+        "default": "Hyry"
+      },
+      "firstName": {
+        "default": "Arttu"
+      },
+      "playerSlug": "arttu-hyry-8484938"
+    },
+    {
+      "playerId": 8482740,
+      "lastName": {
+        "default": "Johnston"
+      },
+      "firstName": {
+        "default": "Wyatt"
+      },
+      "playerSlug": "wyatt-johnston-8482740"
+    },
+    {
+      "playerId": 8481641,
+      "lastName": {
+        "default": "Kiviranta"
+      },
+      "firstName": {
+        "default": "Joel"
+      },
+      "playerSlug": "joel-kiviranta-8481641"
+    },
+    {
+      "playerId": 8476902,
+      "lastName": {
+        "default": "Lindell"
+      },
+      "firstName": {
+        "default": "Esa"
+      },
+      "playerSlug": "esa-lindell-8476902"
+    },
+    {
+      "playerId": 8480878,
+      "lastName": {
+        "default": "Lundkvist"
+      },
+      "firstName": {
+        "default": "Nils"
+      },
+      "playerSlug": "nils-lundkvist-8480878"
+    },
+    {
+      "playerId": 8474574,
+      "lastName": {
+        "default": "Myers"
+      },
+      "firstName": {
+        "default": "Tyler"
+      },
+      "playerSlug": "tyler-myers-8474574"
+    },
+    {
+      "playerId": 8479979,
+      "lastName": {
+        "default": "Oettinger"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-oettinger-8479979"
+    },
+    {
+      "playerId": 8478420,
+      "lastName": {
+        "default": "Rantanen"
+      },
+      "firstName": {
+        "default": "Mikko"
+      },
+      "playerSlug": "mikko-rantanen-8478420"
+    },
+    {
+      "playerId": 8480027,
+      "lastName": {
+        "default": "Robertson"
+      },
+      "firstName": {
+        "default": "Jason"
+      },
+      "playerSlug": "jason-robertson-8480027"
+    },
+    {
+      "playerId": 8475794,
+      "lastName": {
+        "default": "Seguin"
+      },
+      "firstName": {
+        "default": "Tyler"
+      },
+      "playerSlug": "tyler-seguin-8475794"
+    },
+    {
+      "playerId": 8479351,
+      "lastName": {
+        "default": "Steel"
+      },
+      "firstName": {
+        "default": "Sam"
+      },
+      "playerSlug": "sam-steel-8479351"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "canonical_join_key": "official 10-digit NHL game_id",
+  "deployment_candidates": [
+    "standalone replacement",
+    "weighted ensemble",
+    "secondary confirmation model",
+    "feature input",
+    "disagreement filter"
+  ],
+  "deployment_role": "UNRESOLVED",
+  "dratings_source": "docs/win/hockey/nhl/00_intake/predictions",
+  "ensemble_methods": {
+    "calibrated_weighted": "Each model probability is Platt-calibrated on prior rows only; D-Ratings weight is selected on a 0..1 grid by prior log loss. Margin and total weights are selected independently by prior RMSE.",
+    "disagreement_filter": "High disagreement is defined by the prior-row 75th percentile of absolute moneyline probability disagreement.",
+    "sdv_features_feeding_another_model": "Past-only logistic/linear meta-models use D-Ratings prediction, SDV prediction, and model disagreement as features."
+  },
+  "ensemble_metrics": [
+    {
+      "market": "moneyline",
+      "metric": "brier",
+      "model": "weighted",
+      "rows": 1189,
+      "value": 0.24307457604924998
+    },
+    {
+      "market": "moneyline",
+      "metric": "log_loss",
+      "model": "weighted",
+      "rows": 1189,
+      "value": 0.6789697709753809
+    },
+    {
+      "market": "margin",
+      "metric": "mae",
+      "model": "weighted",
+      "rows": 1189,
+      "value": 2.1590442919485326
+    },
+    {
+      "market": "margin",
+      "metric": "rmse",
+      "model": "weighted",
+      "rows": 1189,
+      "value": 2.5443568266578236
+    },
+    {
+      "market": "total",
+      "metric": "mae",
+      "model": "weighted",
+      "rows": 1189,
+      "value": 1.838158116063919
+    },
+    {
+      "market": "total",
+      "metric": "rmse",
+      "model": "weighted",
+      "rows": 1189,
+      "value": 2.293975306789094
+    },
+    {
+      "market": "moneyline",
+      "metric": "brier",
+      "model": "meta",
+      "rows": 1189,
+      "value": 0.24416141432297941
+    },
+    {
+      "market": "moneyline",
+      "metric": "log_loss",
+      "model": "meta",
+      "rows": 1189,
+      "value": 0.6811669906069381
+    },
+    {
+      "market": "margin",
+      "metric": "mae",
+      "model": "meta",
+      "rows": 1189,
+      "value": 2.1299692337442657
+    },
+    {
+      "market": "margin",
+      "metric": "rmse",
+      "model": "meta",
+      "rows": 1189,
+      "value": 2.5332770001591745
+    },
+    {
+      "market": "total",
+      "metric": "mae",
+      "model": "meta",
+      "rows": 1189,
+      "value": 1.8254722196226467
+    },
+    {
+      "market": "total",
+      "metric": "rmse",
+      "model": "meta",
+      "rows": 1189,
+      "value": 2.281623312588915
+    },
+    {
+      "market": "moneyline",
+      "metric": "brier",
+      "model": "drat:low_or_normal_disagreement",
+      "rows": 965,
+      "value": 0.24384364145077722
+    },
+    {
+      "market": "moneyline",
+      "metric": "log_loss",
+      "model": "drat:low_or_normal_disagreement",
+      "rows": 965,
+      "value": 0.6807179965538386
+    },
+    {
+      "market": "moneyline",
+      "metric": "brier",
+      "model": "sdv:low_or_normal_disagreement",
+      "rows": 965,
+      "value": 0.24459173863269865
+    },
+    {
+      "market": "moneyline",
+      "metric": "log_loss",
+      "model": "sdv:low_or_normal_disagreement",
+      "rows": 965,
+      "value": 0.6821162742272624
+    },
+    {
+      "market": "moneyline",
+      "metric": "brier",
+      "model": "drat:high_disagreement",
+      "rows": 224,
+      "value": 0.2532852633928572
+    },
+    {
+      "market": "moneyline",
+      "metric": "log_loss",
+      "model": "drat:high_disagreement",
+      "rows": 224,
+      "value": 0.6997102154662661
+    },
+    {
+      "market": "moneyline",
+      "metric": "brier",
+      "model": "sdv:high_disagreement",
+      "rows": 224,
+      "value": 0.24428776126005466
+    },
+    {
+      "market": "moneyline",
+      "metric": "log_loss",
+      "model": "sdv:high_disagreement",
+      "rows": 224,
+      "value": 0.6816372163695059
+    }
+  ],
+  "ensemble_min_prior_rows": 100,
+  "ensemble_requested": true,
+  "ensemble_status": "evaluated_walkforward",
+  "ensemble_walkforward_test_rows": 1189,
+  "generated_at_utc": "2026-08-30T11:53:46.893200Z",
+  "grading_source": "docs/win/hockey/nhl/05_final_scores/final_scores",
+  "include_playoffs": false,
+  "leakage_rule": "source_game_date < target_game_date",
+  "mode": "research_only",
+  "nhl_season_start_year": 2025,
+  "production_change": "none",
+  "same_day_source_games": "excluded",
+  "script_version": "SDV-P6-2026-08-30-v1",
+  "sdv_history_source": "docs/win/hockey/nhl/research/sdv_history",
+  "sdv_predictions_rows": 1292,
+  "sdv_season_year": 2026,
+  "sportsdataverse_version": "0.0.75",
+  "standalone_matched_completed_rows": 1291,
+  "standalone_metrics": {
+    "drat": {
+      "margin_mae": 2.1144848954298996,
+      "margin_rmse": 2.5530995120662223,
+      "moneyline_brier": 0.24564782416731218,
+      "moneyline_log_loss": 0.684368296803959,
+      "total_mae": 1.8475290472501935,
+      "total_rmse": 2.3087790221671436
+    },
+    "sdv": {
+      "margin_mae": 2.1714346903738115,
+      "margin_rmse": 2.5411265513551893,
+      "moneyline_brier": 0.2451381580771509,
+      "moneyline_log_loss": 0.6832587186587793,
+      "total_mae": 2.445709249942813,
+      "total_rmse": 3.054508036644038
+    }
+  }
+}

@@ -1,0 +1,14 @@
+NHL GAME ID RECONCILIATION TEST
+TEST_DATE=2026_09_29
+STATUS=PASSED
+
+official_nhl_game_id=2026020002
+sportsbook_event_id=fixture_sb_20260929_001
+odds_source=espn
+official_home_team=Toronto Maple Leafs
+official_away_team=Montréal Canadiens
+moneyline_provider=Titanbets (53)
+puck_line_provider=Titanbets (53)
+total_provider=Titanbets (53)
+fixture_source=game_id_reconciliation
+workspace=isolated_temp_directory

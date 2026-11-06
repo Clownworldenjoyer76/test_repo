@@ -1,0 +1,107 @@
+{
+  "evaluation_status": "VERIFIED",
+  "decision_cutoff_minutes_before_puck_drop": 60,
+  "historical_input_rule": "PBP and shifts supplied to pregame player/microstat calculations must contain only games strictly before the target game date.",
+  "missing_or_late_lineup_behavior": "unknown status with lineup-dependent fields blank; never backfill observations after T-60",
+  "families": [
+    {
+      "function": "nhl_xg",
+      "family": "xg_quality",
+      "available": true,
+      "decision": "covered_elsewhere",
+      "as_of_capability": "prior_pbp_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "Used upstream by team-strength/RAPM; do not duplicate as a separate lineup feature."
+    },
+    {
+      "function": "nhl_goalie_gsax",
+      "family": "goalie_performance",
+      "available": true,
+      "decision": "covered_elsewhere",
+      "as_of_capability": "prior_pbp_and_shifts_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "Integrated in SDV-P3 goalie strength."
+    },
+    {
+      "function": "nhl_skater_rapm",
+      "family": "player_impact",
+      "available": true,
+      "decision": "production",
+      "as_of_capability": "prior_pbp_and_shifts_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "Aggregate leakage-safe prior-game skater xG RAPM to team/game level."
+    },
+    {
+      "function": "nhl_skater_war",
+      "family": "player_impact",
+      "available": true,
+      "decision": "production",
+      "as_of_capability": "prior_pbp_and_shifts_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "Aggregate leakage-safe prior-game WAR to team/game level."
+    },
+    {
+      "function": "nhl_special_teams_value",
+      "family": "power_play_penalty_kill",
+      "available": true,
+      "decision": "production",
+      "as_of_capability": "prior_pbp_and_shifts_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "Aggregate PP and PK value to team/game level."
+    },
+    {
+      "function": "nhl_unit_ratings",
+      "family": "forward_line_defense_pair",
+      "available": true,
+      "decision": "production",
+      "as_of_capability": "prior_pbp_and_shifts_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "Aggregate forward-line and defense-pair unit_value to team/game level."
+    },
+    {
+      "function": "nhl_penalty_value",
+      "family": "penalty_value",
+      "available": true,
+      "decision": "evaluated_not_selected",
+      "as_of_capability": "prior_pbp_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "WAR already contains a penalty component; separate production use would duplicate signal."
+    },
+    {
+      "function": "nhl_faceoff_value",
+      "family": "faceoff_value",
+      "available": true,
+      "decision": "evaluated_not_selected",
+      "as_of_capability": "prior_pbp_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "WAR already contains a faceoff component; separate production use would duplicate signal."
+    },
+    {
+      "function": "nhl_edge_skating_value",
+      "family": "edge_skating",
+      "available": true,
+      "decision": "research_only_not_production_safe",
+      "as_of_capability": "not_reconstructable_at_t60",
+      "evaluation_status": "VERIFIED",
+      "reason": "SportsDataverse requires caller-supplied season aggregate EDGE detail_frames; the live detail path is not implemented and the aggregate has no historical observation timestamp, so it cannot reproduce a T-60 historical information state."
+    },
+    {
+      "function": "nhl_expected_assists",
+      "family": "expected_assists",
+      "available": true,
+      "decision": "research_only",
+      "as_of_capability": "prior_pbp_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "SportsDataverse computes entirely from the supplied PBP, so the metric is leakage-safe when the pipeline supplies only games strictly before the target date; keep research-only until incremental predictive value is demonstrated."
+    },
+    {
+      "function": "nhl_zone_transitions",
+      "family": "zone_transitions",
+      "available": true,
+      "decision": "research_only",
+      "as_of_capability": "prior_pbp_safe",
+      "evaluation_status": "VERIFIED",
+      "reason": "SportsDataverse computes from the supplied PBP and is leakage-safe on prior-game input, but controlled-entry classification is a documented PBP heuristic without ground-truth microstat tags, so keep it research-only."
+    }
+  ]
+}

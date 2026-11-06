@@ -1,0 +1,986 @@
+{
+  "playerId": 8481035,
+  "isActive": true,
+  "currentTeamId": 9,
+  "currentTeamAbbrev": "OTT",
+  "fullTeamName": {
+    "default": "Ottawa Senators",
+    "fr": "Sénateurs d'Ottawa"
+  },
+  "teamCommonName": {
+    "default": "Senators",
+    "fr": "Sénateurs"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Ottawa",
+    "fr": "d'Ottawa"
+  },
+  "firstName": {
+    "default": "Samuel"
+  },
+  "lastName": {
+    "default": "Ersson"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+  "sweaterNumber": 30,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/OTT/8481035.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8481035.jpg",
+  "heightInInches": 75,
+  "heightInCentimeters": 191,
+  "weightInPounds": 194,
+  "weightInKilograms": 88,
+  "birthDate": "1999-10-20",
+  "birthCity": {
+    "default": "Falun"
+  },
+  "birthCountry": "SWE",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2018,
+    "teamAbbrev": "PHI",
+    "round": 5,
+    "pickInRound": 19,
+    "overallPick": 143
+  },
+  "playerSlug": "samuel-ersson-8481035",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20252026,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 33,
+        "goalsAgainstAvg": 3.117996,
+        "losses": 11,
+        "otLosses": 5,
+        "savePctg": 0.869624,
+        "shutouts": 0,
+        "wins": 14
+      },
+      "career": {
+        "gamesPlayed": 143,
+        "goalsAgainstAvg": 3.014104,
+        "losses": 50,
+        "otLosses": 17,
+        "savePctg": 0.884201,
+        "shutouts": 7,
+        "wins": 65
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 1,
+      "gamesPlayed": 143,
+      "gamesStarted": 133,
+      "goals": 0,
+      "goalsAgainst": 398,
+      "goalsAgainstAvg": 3.014104,
+      "losses": 50,
+      "otLosses": 17,
+      "pim": 8,
+      "savePctg": 0.884201,
+      "shotsAgainst": 3437,
+      "shutouts": 7,
+      "timeOnIce": "7922:45",
+      "wins": 65
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "W",
+      "gameDate": "2026-04-14",
+      "gameId": 2025021294,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "MTL",
+      "penaltyMins": 0,
+      "savePctg": 0.931034,
+      "shotsAgainst": 29,
+      "teamAbbrev": "PHI",
+      "toi": "59:48"
+    },
+    {
+      "gameDate": "2026-04-09",
+      "gameId": 2025021250,
+      "gameTypeId": 2,
+      "gamesStarted": 0,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "DET",
+      "penaltyMins": 0,
+      "savePctg": 0.857143,
+      "shotsAgainst": 14,
+      "teamAbbrev": "PHI",
+      "toi": "35:04"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-04-02",
+      "gameId": 2025021196,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 4,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "DET",
+      "penaltyMins": 0,
+      "savePctg": 0.789474,
+      "shotsAgainst": 19,
+      "teamAbbrev": "PHI",
+      "toi": "57:23"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-03-29",
+      "gameId": 2025021172,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "DAL",
+      "penaltyMins": 0,
+      "savePctg": 0.944444,
+      "shotsAgainst": 18,
+      "teamAbbrev": "PHI",
+      "toi": "63:27"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-03-26",
+      "gameId": 2025021142,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "CHI",
+      "penaltyMins": 0,
+      "savePctg": 0.961538,
+      "shotsAgainst": 26,
+      "teamAbbrev": "PHI",
+      "toi": "59:49"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainstAvg": 7.95,
+      "leagueAbbrev": "J18 Div.1",
+      "savePctg": 0.889,
+      "season": 20132014,
+      "sequence": 84738,
+      "teamName": {
+        "default": "Falu IF J18 2"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainstAvg": 3.17,
+      "leagueAbbrev": "Division 2",
+      "savePctg": 0.909,
+      "season": 20142015,
+      "sequence": 3679,
+      "teamName": {
+        "default": "Falu IF"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 9,
+      "goalsAgainstAvg": 2.38,
+      "leagueAbbrev": "J18 Div.1",
+      "savePctg": 0.934,
+      "season": 20142015,
+      "sequence": 84950,
+      "teamName": {
+        "default": "Falu IF J18 2"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 7.33,
+      "leagueAbbrev": "U16 SM",
+      "losses": 3,
+      "savePctg": 0.842,
+      "season": 20142015,
+      "sequence": 102907,
+      "shotsAgainst": 139,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Falu IF U16"
+      },
+      "timeOnIce": "180:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 15,
+      "goalsAgainst": 28,
+      "goalsAgainstAvg": 1.86,
+      "leagueAbbrev": "J18 Region",
+      "losses": 3,
+      "savePctg": 0.918,
+      "season": 20152016,
+      "sequence": 7078,
+      "shotsAgainst": 343,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Brynäs IF J18"
+      },
+      "timeOnIce": "903:14",
+      "wins": 12
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "goalsAgainst": 18,
+      "goalsAgainstAvg": 2.56,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 1,
+      "savePctg": 0.922,
+      "season": 20152016,
+      "sequence": 7838,
+      "shotsAgainst": 231,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Brynäs IF J18"
+      },
+      "timeOnIce": "422:04",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 2.5,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 0,
+      "savePctg": 0.912,
+      "season": 20152016,
+      "sequence": 7838,
+      "shotsAgainst": 57,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynäs IF J18"
+      },
+      "timeOnIce": "120:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainst": 34,
+      "goalsAgainstAvg": 2.95,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 5,
+      "savePctg": 0.906,
+      "season": 20162017,
+      "sequence": 5789,
+      "shotsAgainst": 361,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynäs IF J20"
+      },
+      "timeOnIce": "691:10",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 13,
+      "goalsAgainst": 19,
+      "goalsAgainstAvg": 1.45,
+      "leagueAbbrev": "J18 Region",
+      "losses": 1,
+      "savePctg": 0.94,
+      "season": 20162017,
+      "sequence": 7078,
+      "shotsAgainst": 314,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Brynäs IF J18"
+      },
+      "timeOnIce": "785:00",
+      "wins": 12
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 23,
+      "goalsAgainstAvg": 1.64,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 0,
+      "savePctg": 0.943,
+      "season": 20162017,
+      "sequence": 7838,
+      "shotsAgainst": 401,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Brynäs IF J18"
+      },
+      "timeOnIce": "840:00",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 2.02,
+      "leagueAbbrev": "J18 Nationell",
+      "losses": 2,
+      "savePctg": 0.921,
+      "season": 20162017,
+      "sequence": 7838,
+      "shotsAgainst": 101,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Brynäs IF J18"
+      },
+      "timeOnIce": "238:09",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "SHL",
+      "losses": 0,
+      "savePctg": 0.882,
+      "season": 20172018,
+      "sequence": 819,
+      "shotsAgainst": 17,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynäs IF"
+      },
+      "timeOnIce": "40:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 40,
+      "goalsAgainst": 101,
+      "goalsAgainstAvg": 2.53,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 13,
+      "savePctg": 0.92,
+      "season": 20172018,
+      "sequence": 5789,
+      "shotsAgainst": 1261,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Brynäs IF J20"
+      },
+      "timeOnIce": "2395:01",
+      "wins": 27
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 4.44,
+      "leagueAbbrev": "J20 Nationell",
+      "losses": 3,
+      "savePctg": 0.857,
+      "season": 20172018,
+      "sequence": 5789,
+      "shotsAgainst": 154,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynäs IF J20"
+      },
+      "timeOnIce": "297:17",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 36,
+      "goalsAgainst": 70,
+      "goalsAgainstAvg": 1.95,
+      "leagueAbbrev": "HockeyAllsvenskan",
+      "losses": 9,
+      "savePctg": 0.933,
+      "season": 20182019,
+      "sequence": 4310,
+      "shotsAgainst": 1045,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Västerås IK"
+      },
+      "timeOnIce": "2158:47",
+      "wins": 27
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 2.23,
+      "leagueAbbrev": "WJC-20",
+      "losses": 1,
+      "savePctg": 0.922,
+      "season": 20182019,
+      "sequence": 8596,
+      "shotsAgainst": 116,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Sweden U20"
+      },
+      "timeOnIce": "242:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 1.6,
+      "leagueAbbrev": "HockeyAllsvenskan",
+      "losses": 1,
+      "savePctg": 0.938,
+      "season": 20182019,
+      "sequence": 4310,
+      "shotsAgainst": 128,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Västerås IK"
+      },
+      "timeOnIce": "299:22",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 35,
+      "goalsAgainst": 97,
+      "goalsAgainstAvg": 2.9,
+      "leagueAbbrev": "SHL",
+      "losses": 20,
+      "savePctg": 0.895,
+      "season": 20192020,
+      "sequence": 819,
+      "shotsAgainst": 920,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Brynäs IF"
+      },
+      "timeOnIce": "2010:10",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 42,
+      "goalsAgainst": 116,
+      "goalsAgainstAvg": 2.96,
+      "leagueAbbrev": "SHL",
+      "losses": 26,
+      "savePctg": 0.911,
+      "season": 20202021,
+      "sequence": 819,
+      "shotsAgainst": 1299,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Brynäs IF"
+      },
+      "timeOnIce": "2352:39",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 1.3,
+      "leagueAbbrev": "SHL",
+      "losses": 1,
+      "savePctg": 0.949,
+      "season": 20202021,
+      "sequence": 819,
+      "shotsAgainst": 138,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynäs IF"
+      },
+      "timeOnIce": "323:43",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 2.96,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.893,
+      "season": 20212022,
+      "sequence": 173347,
+      "shotsAgainst": 121,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Lehigh Valley Phantoms"
+      },
+      "timeOnIce": "263:50",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "gamesStarted": 10,
+      "goals": 0,
+      "goalsAgainst": 33,
+      "goalsAgainstAvg": 3.070163,
+      "leagueAbbrev": "NHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.899083,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 327,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Flyers"
+      },
+      "teamName": {
+        "default": "Philadelphia Flyers",
+        "fr": "Flyers de Philadelphie"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Philadelphia",
+        "fr": "de Philadelphie"
+      },
+      "timeOnIce": "644:55",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 42,
+      "goalsAgainst": 119,
+      "goalsAgainstAvg": 2.84,
+      "leagueAbbrev": "AHL",
+      "losses": 17,
+      "otLosses": 1,
+      "savePctg": 0.9,
+      "season": 20222023,
+      "sequence": 173347,
+      "shotsAgainst": 1189,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Lehigh Valley Phantoms"
+      },
+      "timeOnIce": "2511:42",
+      "wins": 24
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 3.71,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 1,
+      "savePctg": 0.875,
+      "season": 20222023,
+      "sequence": 173347,
+      "shotsAgainst": 96,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Lehigh Valley Phantoms"
+      },
+      "timeOnIce": "194:08",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 51,
+      "gamesStarted": 49,
+      "goals": 0,
+      "goalsAgainst": 132,
+      "goalsAgainstAvg": 2.819038,
+      "leagueAbbrev": "NHL",
+      "losses": 19,
+      "otLosses": 7,
+      "pim": 4,
+      "savePctg": 0.890365,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 1204,
+      "shutouts": 4,
+      "teamCommonName": {
+        "default": "Flyers"
+      },
+      "teamName": {
+        "default": "Philadelphia Flyers",
+        "fr": "Flyers de Philadelphie"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Philadelphia",
+        "fr": "de Philadelphie"
+      },
+      "timeOnIce": "2809:28",
+      "wins": 23
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 1.44,
+      "leagueAbbrev": "WC",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.891,
+      "season": 20232024,
+      "sequence": 6815,
+      "shotsAgainst": 46,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "208:02",
+      "wins": 3
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 47,
+      "gamesStarted": 45,
+      "goals": 0,
+      "goalsAgainst": 136,
+      "goalsAgainstAvg": 3.136309,
+      "leagueAbbrev": "NHL",
+      "losses": 17,
+      "otLosses": 5,
+      "pim": 2,
+      "savePctg": 0.88296,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 1162,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Flyers"
+      },
+      "teamName": {
+        "default": "Philadelphia Flyers",
+        "fr": "Flyers de Philadelphie"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Philadelphia",
+        "fr": "de Philadelphie"
+      },
+      "timeOnIce": "2601:47",
+      "wins": 22
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "4 Nations",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.9697,
+      "season": 20242025,
+      "sequence": 44,
+      "shotsAgainst": 33,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 1.16,
+      "leagueAbbrev": "WC",
+      "losses": 0,
+      "savePctg": 0.934,
+      "season": 20242025,
+      "sequence": 6815,
+      "shotsAgainst": 76,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "259:06",
+      "wins": 4
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "gamesStarted": 29,
+      "goals": 0,
+      "goalsAgainst": 97,
+      "goalsAgainstAvg": 3.117996,
+      "leagueAbbrev": "NHL",
+      "losses": 11,
+      "otLosses": 5,
+      "pim": 2,
+      "savePctg": 0.869624,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 744,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Flyers"
+      },
+      "teamName": {
+        "default": "Philadelphia Flyers",
+        "fr": "Flyers de Philadelphie"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Philadelphia",
+        "fr": "de Philadelphie"
+      },
+      "timeOnIce": "1866:35",
+      "wins": 14
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8478020,
+      "lastName": {
+        "default": "Amadio"
+      },
+      "firstName": {
+        "default": "Michael"
+      },
+      "playerSlug": "michael-amadio-8478020"
+    },
+    {
+      "playerId": 8480208,
+      "lastName": {
+        "default": "Batherson"
+      },
+      "firstName": {
+        "default": "Drake"
+      },
+      "playerSlug": "drake-batherson-8480208"
+    },
+    {
+      "playerId": 8477444,
+      "lastName": {
+        "default": "Burakovsky"
+      },
+      "firstName": {
+        "default": "Andre",
+        "cs": "André",
+        "sk": "André",
+        "sv": "André"
+      },
+      "playerSlug": "andre-burakovsky-8477444"
+    },
+    {
+      "playerId": 8478469,
+      "lastName": {
+        "default": "Chabot"
+      },
+      "firstName": {
+        "default": "Thomas"
+      },
+      "playerSlug": "thomas-chabot-8478469"
+    },
+    {
+      "playerId": 8476393,
+      "lastName": {
+        "default": "Cousins"
+      },
+      "firstName": {
+        "default": "Nick"
+      },
+      "playerSlug": "nick-cousins-8476393"
+    },
+    {
+      "playerId": 8481528,
+      "lastName": {
+        "default": "Cozens"
+      },
+      "firstName": {
+        "default": "Dylan"
+      },
+      "playerSlug": "dylan-cozens-8481528"
+    },
+    {
+      "playerId": 8480075,
+      "lastName": {
+        "default": "Crotty"
+      },
+      "firstName": {
+        "default": "Cameron"
+      },
+      "playerSlug": "cameron-crotty-8480075"
+    },
+    {
+      "playerId": 8482667,
+      "lastName": {
+        "default": "Eklund"
+      },
+      "firstName": {
+        "default": "William"
+      },
+      "playerSlug": "william-eklund-8482667"
+    },
+    {
+      "playerId": 8481035,
+      "lastName": {
+        "default": "Ersson"
+      },
+      "firstName": {
+        "default": "Samuel"
+      },
+      "playerSlug": "samuel-ersson-8481035"
+    },
+    {
+      "playerId": 8477998,
+      "lastName": {
+        "default": "Foegele"
+      },
+      "firstName": {
+        "default": "Warren"
+      },
+      "playerSlug": "warren-foegele-8477998"
+    },
+    {
+      "playerId": 8473512,
+      "lastName": {
+        "default": "Giroux"
+      },
+      "firstName": {
+        "default": "Claude"
+      },
+      "playerSlug": "claude-giroux-8473512"
+    },
+    {
+      "playerId": 8482092,
+      "lastName": {
+        "default": "Greig"
+      },
+      "firstName": {
+        "default": "Ridly"
+      },
+      "playerSlug": "ridly-greig-8482092"
+    },
+    {
+      "playerId": 8483676,
+      "lastName": {
+        "default": "Halliday"
+      },
+      "firstName": {
+        "default": "Stephen"
+      },
+      "playerSlug": "stephen-halliday-8483676"
+    },
+    {
+      "playerId": 8478173,
+      "lastName": {
+        "default": "Hodgson"
+      },
+      "firstName": {
+        "default": "Hayden"
+      },
+      "playerSlug": "hayden-hodgson-8478173"
+    },
+    {
+      "playerId": 8482095,
+      "lastName": {
+        "default": "Kleven"
+      },
+      "firstName": {
+        "default": "Tyler"
+      },
+      "playerSlug": "tyler-kleven-8482095"
+    },
+    {
+      "playerId": 8484321,
+      "lastName": {
+        "default": "Matinpalo"
+      },
+      "firstName": {
+        "default": "Nikolas"
+      },
+      "playerSlug": "nikolas-matinpalo-8484321"
+    },
+    {
+      "playerId": 8481596,
+      "lastName": {
+        "default": "Pinto"
+      },
+      "firstName": {
+        "default": "Shane"
+      },
+      "playerSlug": "shane-pinto-8481596"
+    },
+    {
+      "playerId": 8482105,
+      "lastName": {
+        "default": "Sanderson"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-sanderson-8482105"
+    },
+    {
+      "playerId": 8481606,
+      "lastName": {
+        "default": "Spence"
+      },
+      "firstName": {
+        "default": "Jordan"
+      },
+      "playerSlug": "jordan-spence-8481606"
+    },
+    {
+      "playerId": 8482116,
+      "lastName": {
+        "default": "Stützle"
+      },
+      "firstName": {
+        "default": "Tim"
+      },
+      "playerSlug": "tim-stützle-8482116"
+    },
+    {
+      "playerId": 8476999,
+      "lastName": {
+        "default": "Ullmark"
+      },
+      "firstName": {
+        "default": "Linus"
+      },
+      "playerSlug": "linus-ullmark-8476999"
+    },
+    {
+      "playerId": 8484759,
+      "lastName": {
+        "default": "Yakemchuk"
+      },
+      "firstName": {
+        "default": "Carter"
+      },
+      "playerSlug": "carter-yakemchuk-8484759"
+    },
+    {
+      "playerId": 8480188,
+      "lastName": {
+        "default": "Zetterlund"
+      },
+      "firstName": {
+        "default": "Fabian"
+      },
+      "playerSlug": "fabian-zetterlund-8480188"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+.venv311/
+
+# Local SportsDataverse historical research store (generated Parquet; do not track)
+docs/win/hockey/nhl/research/sdv_history/
+docs/win/hockey/nhl/research/sdv_history.zip
+
+# NHL regenerated Stage 05 working file
+docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv

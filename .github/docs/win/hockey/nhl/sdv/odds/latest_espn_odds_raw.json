@@ -1,0 +1,550 @@
+{
+  "401892564": {
+    "count": 1,
+    "pageIndex": 1,
+    "pageSize": 25,
+    "pageCount": 1,
+    "items": [
+      {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892564/competitions/401892564/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "MTL -148",
+        "overUnder": 6.5,
+        "spread": 1.5,
+        "overOdds": 102.0,
+        "underOdds": -122.0,
+        "awayTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -148,
+          "spreadOdds": 170.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 2.54,
+              "displayValue": "77/50",
+              "alternateDisplayValue": "+154",
+              "decimal": 2.54,
+              "fraction": "77/50",
+              "american": "+154"
+            },
+            "moneyLine": {
+              "value": 1.6,
+              "displayValue": "50/83",
+              "alternateDisplayValue": "-166",
+              "decimal": 1.6,
+              "fraction": "50/83",
+              "american": "-166"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 2.7,
+              "displayValue": "17/10",
+              "alternateDisplayValue": "+170",
+              "decimal": 2.7,
+              "fraction": "17/10",
+              "american": "+170"
+            },
+            "moneyLine": {
+              "value": 1.67,
+              "displayValue": "25/37",
+              "alternateDisplayValue": "-148",
+              "decimal": 1.67,
+              "fraction": "25/37",
+              "american": "-148"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/10?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 124,
+          "spreadOdds": -205.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.54,
+              "displayValue": "20/37",
+              "alternateDisplayValue": "-185",
+              "decimal": 1.54,
+              "fraction": "20/37",
+              "american": "-185"
+            },
+            "moneyLine": {
+              "value": 2.4,
+              "displayValue": "7/5",
+              "alternateDisplayValue": "+140",
+              "decimal": 2.4,
+              "fraction": "7/5",
+              "american": "+140"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.48,
+              "displayValue": "20/41",
+              "alternateDisplayValue": "-205",
+              "decimal": 1.48,
+              "fraction": "20/41",
+              "american": "-205"
+            },
+            "moneyLine": {
+              "value": 2.24,
+              "displayValue": "31/25",
+              "alternateDisplayValue": "+124",
+              "decimal": 2.24,
+              "fraction": "31/25",
+              "american": "+124"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/4?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806%3Foutcomes%3D0ML86834908_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806%3Foutcomes%3D0ML86834908_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806%3Foutcomes%3D0HC86834908P150_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806%3Foutcomes%3D0HC86834908N150_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806%3Foutcomes%3D0OU86834908O650_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806%3Foutcomes%3D0OU86834908U650_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845806",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 2.1,
+            "displayValue": "11/10",
+            "alternateDisplayValue": "+110",
+            "decimal": 2.1,
+            "fraction": "11/10",
+            "american": "+110"
+          },
+          "under": {
+            "value": 1.76,
+            "displayValue": "10/13",
+            "alternateDisplayValue": "-130",
+            "decimal": 1.76,
+            "fraction": "10/13",
+            "american": "-130"
+          },
+          "total": {
+            "alternateDisplayValue": "6.5",
+            "american": "6.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 2.02,
+            "displayValue": "51/50",
+            "alternateDisplayValue": "+102",
+            "decimal": 2.02,
+            "fraction": "51/50",
+            "american": "+102"
+          },
+          "under": {
+            "value": 1.81,
+            "displayValue": "50/61",
+            "alternateDisplayValue": "-122",
+            "decimal": 1.81,
+            "fraction": "50/61",
+            "american": "-122"
+          },
+          "total": {
+            "alternateDisplayValue": "6.5",
+            "american": "6.5"
+          }
+        },
+        "propBets": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892564/competitions/401892564/odds/100/propBets?lang=en&region=us"
+        }
+      }
+    ]
+  },
+  "401892565": {
+    "count": 1,
+    "pageIndex": 1,
+    "pageSize": 25,
+    "pageCount": 1,
+    "items": [
+      {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892565/competitions/401892565/odds/100?lang=en&region=us",
+        "provider": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/providers/100?lang=en&region=us",
+          "id": "100",
+          "name": "DraftKings",
+          "priority": 1
+        },
+        "details": "COL -125",
+        "overUnder": 6.5,
+        "spread": -1.5,
+        "overOdds": 102.0,
+        "underOdds": -122.0,
+        "awayTeamOdds": {
+          "favorite": false,
+          "underdog": true,
+          "moneyLine": 105,
+          "spreadOdds": -238.0,
+          "open": {
+            "favorite": false,
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.43,
+              "displayValue": "10/23",
+              "alternateDisplayValue": "-230",
+              "decimal": 1.43,
+              "fraction": "10/23",
+              "american": "-230"
+            },
+            "moneyLine": {
+              "value": 2.05,
+              "displayValue": "21/20",
+              "alternateDisplayValue": "+105",
+              "decimal": 2.05,
+              "fraction": "21/20",
+              "american": "+105"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "+1.5",
+              "american": "+1.5"
+            },
+            "spread": {
+              "value": 1.42,
+              "displayValue": "50/119",
+              "alternateDisplayValue": "-238",
+              "decimal": 1.42,
+              "fraction": "50/119",
+              "american": "-238"
+            },
+            "moneyLine": {
+              "value": 2.05,
+              "displayValue": "21/20",
+              "alternateDisplayValue": "+105",
+              "decimal": 2.05,
+              "fraction": "21/20",
+              "american": "+105"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/20?lang=en&region=us"
+          }
+        },
+        "homeTeamOdds": {
+          "favorite": true,
+          "underdog": false,
+          "moneyLine": -125,
+          "spreadOdds": 195.0,
+          "open": {
+            "favorite": true,
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 2.9,
+              "displayValue": "19/10",
+              "alternateDisplayValue": "+190",
+              "decimal": 2.9,
+              "fraction": "19/10",
+              "american": "+190"
+            },
+            "moneyLine": {
+              "value": 1.8,
+              "displayValue": "4/5",
+              "alternateDisplayValue": "-125",
+              "decimal": 1.8,
+              "fraction": "4/5",
+              "american": "-125"
+            }
+          },
+          "current": {
+            "pointSpread": {
+              "alternateDisplayValue": "-1.5",
+              "american": "-1.5"
+            },
+            "spread": {
+              "value": 2.95,
+              "displayValue": "39/20",
+              "alternateDisplayValue": "+195",
+              "decimal": 2.95,
+              "fraction": "39/20",
+              "american": "+195"
+            },
+            "moneyLine": {
+              "value": 1.8,
+              "displayValue": "4/5",
+              "alternateDisplayValue": "-125",
+              "decimal": 1.8,
+              "fraction": "4/5",
+              "american": "-125"
+            }
+          },
+          "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/17?lang=en&region=us"
+          }
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "home",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807%3Foutcomes%3D0ML86834906_1",
+            "text": "Home Bet",
+            "shortText": "Home Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "away",
+              "desktop",
+              "bets",
+              "draftkings"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807%3Foutcomes%3D0ML86834906_3",
+            "text": "Away Bet",
+            "shortText": "Away Bet",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "homeSpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807%3Foutcomes%3D0HC86834906N150_1",
+            "text": "Home Point Spread",
+            "shortText": "Home Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "awaySpread",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807%3Foutcomes%3D0HC86834906P150_3",
+            "text": "Away Point Spread",
+            "shortText": "Away Point Spread",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "over",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807%3Foutcomes%3D0OU86834906O650_1",
+            "text": "Over Odds",
+            "shortText": "Over Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "under",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807%3Foutcomes%3D0OU86834906U650_3",
+            "text": "Under Odds",
+            "shortText": "Under Odds",
+            "isExternal": true,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "game",
+              "desktop",
+              "bets"
+            ],
+            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34845807",
+            "text": "Game",
+            "shortText": "Game",
+            "isExternal": true,
+            "isPremium": false
+          }
+        ],
+        "moneylineWinner": false,
+        "spreadWinner": false,
+        "open": {
+          "over": {
+            "value": 1.74,
+            "displayValue": "20/27",
+            "alternateDisplayValue": "-135",
+            "decimal": 1.74,
+            "fraction": "20/27",
+            "american": "-135"
+          },
+          "under": {
+            "value": 2.14,
+            "displayValue": "57/50",
+            "alternateDisplayValue": "+114",
+            "decimal": 2.14,
+            "fraction": "57/50",
+            "american": "+114"
+          },
+          "total": {
+            "alternateDisplayValue": "5.5",
+            "american": "5.5"
+          }
+        },
+        "current": {
+          "over": {
+            "value": 2.02,
+            "displayValue": "51/50",
+            "alternateDisplayValue": "+102",
+            "decimal": 2.02,
+            "fraction": "51/50",
+            "american": "+102"
+          },
+          "under": {
+            "value": 1.81,
+            "displayValue": "50/61",
+            "alternateDisplayValue": "-122",
+            "decimal": 1.81,
+            "fraction": "50/61",
+            "american": "-122"
+          },
+          "total": {
+            "alternateDisplayValue": "6.5",
+            "american": "6.5"
+          }
+        },
+        "propBets": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892565/competitions/401892565/odds/100/propBets?lang=en&region=us"
+        }
+      }
+    ]
+  }
+}

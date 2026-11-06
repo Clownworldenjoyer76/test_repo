@@ -1,0 +1,195 @@
+
+name: NHL 02 Grade
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nhl-pipeline
+  cancel-in-progress: false
+
+jobs:
+  nhl-markets-rebuild:
+    runs-on: ubuntu-24.04
+
+    env:
+      TZ: America/New_York
+      GH_TOKEN: ${{ github.token }}
+      GIT_TERMINAL_PROMPT: "0"
+
+    steps:
+      - name: Checkout NHL pipeline files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Authenticate Git without embedding tokens in remote URLs.
+          gh auth setup-git --hostname github.com
+
+          # Fetch only the latest commit, without downloading
+          # unnecessary file contents or repository history.
+          git clone \
+            --filter=blob:none \
+            --depth=1 \
+            --sparse \
+            --branch main \
+            "https://github.com/${GITHUB_REPOSITORY}.git" .
+
+          # Materialize only the directories used by this pipeline.
+          git sparse-checkout set \
+            docs/win/hockey/nhl/scripts \
+            docs/win/hockey/nhl/config \
+            docs/win/hockey/nhl/00_intake/drat_raw \
+            docs/win/hockey/nhl/00_intake/sportsbook \
+            docs/win/hockey/nhl/03_edges/secondary_signals \
+            docs/win/hockey/nhl/04_select \
+            docs/win/hockey/nhl/05_final_scores \
+            docs/win/hockey/nhl/odds/snapshots \
+            docs/win/hockey/nhl/errors/04_select \
+            docs/win/hockey/nhl/errors/05_final_scores \
+            docs/win/hockey/nhl/clv \
+            frontend/data/dashboards
+
+          # Verify essential pipeline files are present.
+          test -f docs/win/hockey/nhl/requirements.txt
+          test -f docs/win/hockey/nhl/scripts/04_select/validate_markets_config.py
+          test -f docs/win/hockey/nhl/scripts/04_select/hockey_select_bets.py
+          test -f docs/win/hockey/nhl/scripts/05_final_scores/transform_final_scores.py
+          test -f docs/win/hockey/nhl/scripts/05_final_scores/01_nhl_results_grade.py
+          test -f docs/win/hockey/nhl/scripts/05_final_scores/02_nhl_results_analyze.py
+          test -f docs/win/hockey/nhl/scripts/05_final_scores/03_nhl_results_reports.py
+          test -f docs/win/hockey/nhl/scripts/05_final_scores/04_nhl_clv.py
+          test -f docs/win/hockey/nhl/scripts/05_final_scores/05_nhl_results_dashboard.py
+
+          echo "CHECKOUT: PASS"
+          echo "SPARSE CHECKOUT: PASS"
+          echo "COMMIT: $(git rev-parse HEAD)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r docs/win/hockey/nhl/requirements.txt
+
+      - name: Create required directories
+        run: |
+          mkdir -p docs/win/hockey/nhl/errors/04_select
+          mkdir -p docs/win/hockey/nhl/errors/05_final_scores
+          mkdir -p docs/win/hockey/nhl/04_select
+          mkdir -p docs/win/hockey/nhl/05_final_scores/final_scores
+          mkdir -p docs/win/hockey/nhl/05_final_scores/graded
+          mkdir -p docs/win/hockey/nhl/05_final_scores/intermediate
+          mkdir -p docs/win/hockey/nhl/05_final_scores/reports/moneyline
+          mkdir -p docs/win/hockey/nhl/05_final_scores/reports/puckline
+          mkdir -p docs/win/hockey/nhl/05_final_scores/reports/total
+          mkdir -p docs/win/hockey/nhl/05_final_scores/reports/calibration
+          mkdir -p docs/win/hockey/nhl/05_final_scores/clv
+          mkdir -p docs/win/hockey/nhl/clv
+
+      # 1
+      - name: Validate NHL markets config
+        run: python docs/win/hockey/nhl/scripts/04_select/validate_markets_config.py
+
+      # 2
+      - name: Select NHL bets
+        id: select_bets
+        shell: bash
+        run: |
+          set +e
+
+          python docs/win/hockey/nhl/scripts/04_select/hockey_select_bets.py
+          SELECT_RC=$?
+
+          SELECT_FILE="$(
+            find docs/win/hockey/nhl/04_select \
+              -maxdepth 1 \
+              -type f \
+              -name '*_NHL.csv' \
+              -print \
+              -quit
+          )"
+
+          if [ -z "$SELECT_FILE" ]; then
+            echo "::warning::No NHL select files were produced or found. Grading, analysis, reports, CLV, and dashboard steps will be skipped."
+            echo "has_inputs=false" >> "$GITHUB_OUTPUT"
+            exit "$SELECT_RC"
+          fi
+
+          echo "Selected NHL file found: $SELECT_FILE"
+          echo "has_inputs=true" >> "$GITHUB_OUTPUT"
+
+          if [ "$SELECT_RC" -ne 0 ]; then
+            echo "NHL selection script failed with exit code $SELECT_RC." >&2
+            exit "$SELECT_RC"
+          fi
+
+      # 3
+      - name: Transform NHL final scores
+        if: steps.select_bets.outputs.has_inputs == 'true'
+        run: python docs/win/hockey/nhl/scripts/05_final_scores/transform_final_scores.py
+
+      # 4
+      - name: Grade NHL results
+        if: steps.select_bets.outputs.has_inputs == 'true'
+        run: python docs/win/hockey/nhl/scripts/05_final_scores/01_nhl_results_grade.py
+
+      # 5
+      - name: Analyze NHL results
+        if: steps.select_bets.outputs.has_inputs == 'true'
+        run: python docs/win/hockey/nhl/scripts/05_final_scores/02_nhl_results_analyze.py
+
+      # 6
+      - name: Build NHL reports
+        if: steps.select_bets.outputs.has_inputs == 'true'
+        run: python docs/win/hockey/nhl/scripts/05_final_scores/03_nhl_results_reports.py
+
+      # 7
+      - name: Calculate NHL CLV
+        if: steps.select_bets.outputs.has_inputs == 'true'
+        run: python docs/win/hockey/nhl/scripts/05_final_scores/04_nhl_clv.py
+
+      # 8
+      - name: Build NHL dashboards
+        if: steps.select_bets.outputs.has_inputs == 'true'
+        run: python docs/win/hockey/nhl/scripts/05_final_scores/05_nhl_results_dashboard.py
+
+      - name: Commit NHL markets rebuild outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A docs/win/hockey/nhl/04_select
+          git add -A docs/win/hockey/nhl/05_final_scores
+          git add -A docs/win/hockey/nhl/clv
+          git add -A docs/win/hockey/nhl/errors/04_select
+          git add -A docs/win/hockey/nhl/errors/05_final_scores
+
+          if [ -f frontend/data/dashboards/nhl.json ]; then
+            git add frontend/data/dashboards/nhl.json
+          fi
+
+          echo "--- git status before commit ---"
+          git status --short
+
+          if git diff --cached --quiet; then
+            echo "No NHL markets rebuild changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: NHL markets rebuild $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          git pull --rebase --autostash origin main
+          git push origin main
+
+          echo "COMMIT: $(git rev-parse HEAD)"
+          echo "PUSH: PASS"

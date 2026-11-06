@@ -1,0 +1,40 @@
+{
+  "source": "espn",
+  "generated_at_et": "2026-09-29T12:00:00-04:00",
+  "events": [
+    {
+      "id": "fixture_sb_20260929_001",
+      "status": "pending",
+      "date": "2026-09-29T23:00:00Z",
+      "home": "Montreal Canadiens",
+      "away": "Toronto Maple Leafs"
+    }
+  ],
+  "odds": [
+    {
+      "espn_event_id": "fixture_sb_20260929_001",
+      "provider_id": "53",
+      "provider_name": "Titanbets",
+      "provider_priority": 0,
+      "home_team_odds_current_money_line_american": 110,
+      "away_team_odds_current_money_line_american": -125,
+      "home_team_odds_current_money_line_decimal": 2.1,
+      "away_team_odds_current_money_line_decimal": 1.8,
+      "home_team_odds_current_point_spread_american": 1.5,
+      "away_team_odds_current_point_spread_american": -1.5,
+      "home_team_odds_current_point_spread_alternate_display_value": "+1.5",
+      "away_team_odds_current_point_spread_alternate_display_value": "-1.5",
+      "home_team_odds_current_spread_american": -167,
+      "away_team_odds_current_spread_american": 135,
+      "home_team_odds_current_spread_decimal": 1.6,
+      "away_team_odds_current_spread_decimal": 2.35,
+      "current_total_american": 6.5,
+      "current_total_alternate_display_value": "6.5",
+      "over_under": 6.5,
+      "current_over_american": -110,
+      "current_under_american": -110,
+      "current_over_decimal": 1.91,
+      "current_under_decimal": 1.91
+    }
+  ]
+}

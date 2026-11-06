@@ -1,0 +1,19 @@
+NHL build_games.py summary
+Started: 2026-11-06 08:03:03
+Input directory: docs/win/hockey/nhl/00_intake/reconciled
+Output directory: docs/win/hockey/nhl/00_intake/games
+Log path: docs/win/hockey/nhl/errors/00_intake/build_games.txt
+Canonical game_id source: official NHL schedule via reconcile_game_ids.py
+Historical games files are retained independently of the currently available reconciled/sportsbook input files.
+
+Processing reconciled file: docs/win/hockey/nhl/00_intake/reconciled/NHL_2026_09_29.csv
+Date: 2026_09_29
+Rows written: 1
+Output file: docs/win/hockey/nhl/00_intake/games/2026_09_29_nhl_games.csv
+
+Completed successfully.
+Reconciled files processed: 1
+Games files written: 1
+Total official NHL game rows written: 1
+Historical games files deleted: 0
+Finished: 2026-11-06 08:03:03

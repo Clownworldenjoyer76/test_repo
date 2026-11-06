@@ -1,0 +1,1275 @@
+{
+  "playerId": 8477465,
+  "isActive": true,
+  "currentTeamId": 22,
+  "currentTeamAbbrev": "EDM",
+  "fullTeamName": {
+    "default": "Edmonton Oilers",
+    "fr": "Oilers d'Edmonton"
+  },
+  "teamCommonName": {
+    "default": "Oilers"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Edmonton",
+    "fr": "d'Edmonton"
+  },
+  "firstName": {
+    "default": "Tristan"
+  },
+  "lastName": {
+    "default": "Jarry"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+  "sweaterNumber": 35,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8477465.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8477465.jpg",
+  "heightInInches": 73,
+  "heightInCentimeters": 185,
+  "weightInPounds": 201,
+  "weightInKilograms": 91,
+  "birthDate": "1995-04-29",
+  "birthCity": {
+    "default": "Surrey"
+  },
+  "birthStateProvince": {
+    "default": "British Columbia",
+    "fr": "Colombie-Britannique",
+    "sk": "Britská Kolumbia"
+  },
+  "birthCountry": "CAN",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2013,
+    "teamAbbrev": "PIT",
+    "round": 2,
+    "pickInRound": 14,
+    "overallPick": 44
+  },
+  "playerSlug": "tristan-jarry-8477465",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20252026,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 33,
+        "goalsAgainstAvg": 3.31526,
+        "losses": 9,
+        "otLosses": 3,
+        "savePctg": 0.882212,
+        "shutouts": 2,
+        "wins": 18
+      },
+      "career": {
+        "gamesPlayed": 326,
+        "goalsAgainstAvg": 2.803784,
+        "losses": 106,
+        "otLosses": 34,
+        "savePctg": 0.906946,
+        "shutouts": 23,
+        "wins": 170
+      }
+    },
+    "playoffs": {
+      "subSeason": {
+        "gamesPlayed": 1,
+        "goalsAgainstAvg": 3.841024,
+        "losses": 1,
+        "otLosses": 0,
+        "savePctg": 0.894737,
+        "shutouts": 0,
+        "wins": 0
+      },
+      "career": {
+        "gamesPlayed": 9,
+        "goalsAgainstAvg": 3.092072,
+        "losses": 7,
+        "otLosses": 0,
+        "savePctg": 0.891304,
+        "shutouts": 0,
+        "wins": 2
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 12,
+      "gamesPlayed": 326,
+      "gamesStarted": 310,
+      "goals": 1,
+      "goalsAgainst": 853,
+      "goalsAgainstAvg": 2.803784,
+      "losses": 106,
+      "otLosses": 34,
+      "pim": 22,
+      "savePctg": 0.906946,
+      "shotsAgainst": 9156,
+      "shutouts": 23,
+      "timeOnIce": "18253:53",
+      "wins": 170
+    },
+    "playoffs": {
+      "assists": 0,
+      "gamesPlayed": 9,
+      "gamesStarted": 9,
+      "goals": 0,
+      "goalsAgainst": 30,
+      "goalsAgainstAvg": 3.092072,
+      "losses": 7,
+      "otLosses": 0,
+      "savePctg": 0.891304,
+      "shotsAgainst": 276,
+      "shutouts": 0,
+      "timeOnIce": "582:08",
+      "wins": 2
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-04-26",
+      "gameId": 2025030184,
+      "gameTypeId": 3,
+      "gamesStarted": 1,
+      "goalsAgainst": 4,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "ANA",
+      "penaltyMins": 0,
+      "savePctg": 0.894737,
+      "shotsAgainst": 38,
+      "teamAbbrev": "EDM",
+      "toi": "62:29"
+    },
+    {
+      "gameDate": "2026-04-08",
+      "gameId": 2025021246,
+      "gameTypeId": 2,
+      "gamesStarted": 0,
+      "goalsAgainst": 0,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "SJS",
+      "penaltyMins": 0,
+      "savePctg": 1.0,
+      "shotsAgainst": 4,
+      "teamAbbrev": "EDM",
+      "toi": "20:00"
+    },
+    {
+      "decision": "O",
+      "gameDate": "2026-04-07",
+      "gameId": 2025021241,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 6,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "UTA",
+      "penaltyMins": 0,
+      "savePctg": 0.806452,
+      "shotsAgainst": 31,
+      "teamAbbrev": "EDM",
+      "toi": "60:33"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-04-02",
+      "gameId": 2025021200,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "CHI",
+      "penaltyMins": 0,
+      "savePctg": 0.944444,
+      "shotsAgainst": 18,
+      "teamAbbrev": "EDM",
+      "toi": "59:37"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-03-24",
+      "gameId": 2025021132,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "UTA",
+      "penaltyMins": 0,
+      "savePctg": 0.888889,
+      "shotsAgainst": 18,
+      "teamAbbrev": "EDM",
+      "toi": "60:00"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 26,
+      "goalsAgainstAvg": 1.65,
+      "leagueAbbrev": "Minor-BC",
+      "season": 20092010,
+      "sequence": 1,
+      "teamName": {
+        "default": "North Delta"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainstAvg": 2.31,
+      "leagueAbbrev": "BCMML",
+      "season": 20102011,
+      "sequence": 1,
+      "teamName": {
+        "default": "Greater Van."
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 6,
+      "leagueAbbrev": "BCMML",
+      "season": 20102011,
+      "sequence": 1,
+      "teamName": {
+        "default": "Greater Van."
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 35,
+      "goalsAgainstAvg": 2.93,
+      "leagueAbbrev": "WHL",
+      "losses": 2,
+      "savePctg": 0.894,
+      "season": 20112012,
+      "sequence": 1,
+      "shotsAgainst": 330,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Edmonton"
+      },
+      "ties": 1,
+      "timeOnIce": "718:00",
+      "wins": 8
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 27,
+      "goalsAgainst": 40,
+      "goalsAgainstAvg": 1.61,
+      "leagueAbbrev": "WHL",
+      "losses": 7,
+      "savePctg": 0.936,
+      "season": 20122013,
+      "sequence": 1,
+      "shotsAgainst": 625,
+      "shutouts": 6,
+      "teamName": {
+        "default": "Edmonton"
+      },
+      "ties": 0,
+      "timeOnIce": "1495:00",
+      "wins": 18
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "WHL",
+      "losses": 0,
+      "savePctg": 1.0,
+      "season": 20122013,
+      "sequence": 1,
+      "shotsAgainst": 3,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Edmonton"
+      },
+      "timeOnIce": "27:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 63,
+      "goalsAgainst": 138,
+      "goalsAgainstAvg": 2.24,
+      "leagueAbbrev": "WHL",
+      "losses": 14,
+      "savePctg": 0.914,
+      "season": 20132014,
+      "sequence": 1,
+      "shotsAgainst": 1605,
+      "shutouts": 8,
+      "teamName": {
+        "default": "Edmonton"
+      },
+      "ties": 3,
+      "timeOnIce": "3703:00",
+      "wins": 44
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 21,
+      "goalsAgainst": 46,
+      "goalsAgainstAvg": 2.19,
+      "leagueAbbrev": "WHL",
+      "losses": 5,
+      "savePctg": 0.925,
+      "season": 20132014,
+      "sequence": 1,
+      "shotsAgainst": 610,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Edmonton"
+      },
+      "timeOnIce": "1261:00",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 17,
+      "goalsAgainstAvg": 2.8,
+      "leagueAbbrev": "M-Cup",
+      "losses": 2,
+      "season": 20132014,
+      "sequence": 3,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Edm. Oil Kings"
+      },
+      "timeOnIce": "364:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 55,
+      "goalsAgainst": 147,
+      "goalsAgainstAvg": 2.74,
+      "leagueAbbrev": "WHL",
+      "losses": 26,
+      "otLosses": 6,
+      "savePctg": 0.907,
+      "season": 20142015,
+      "sequence": 18851,
+      "shotsAgainst": 1587,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Edmonton Oil Kings"
+      },
+      "timeOnIce": "3216:10",
+      "wins": 23
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 2.88,
+      "leagueAbbrev": "WHL",
+      "losses": 4,
+      "savePctg": 0.896,
+      "season": 20142015,
+      "sequence": 1,
+      "shotsAgainst": 144,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Edmonton"
+      },
+      "timeOnIce": "312:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 2.88,
+      "leagueAbbrev": "WHL",
+      "losses": 3,
+      "otLosses": 1,
+      "savePctg": 0.896,
+      "season": 20142015,
+      "sequence": 18851,
+      "shotsAgainst": 144,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Edmonton Oil Kings"
+      },
+      "timeOnIce": "312:06",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "goalsAgainst": 87,
+      "goalsAgainstAvg": 2.69,
+      "leagueAbbrev": "AHL",
+      "losses": 13,
+      "otLosses": 3,
+      "savePctg": 0.905,
+      "season": 20152016,
+      "sequence": 1077,
+      "shotsAgainst": 920,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "1943:02",
+      "wins": 17
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 2.24,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.902,
+      "season": 20152016,
+      "sequence": 1077,
+      "shotsAgainst": 41,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "107:01",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 3.063827,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.88,
+      "season": 20162017,
+      "sequence": 1,
+      "shotsAgainst": 25,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "58:45",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 45,
+      "goalsAgainst": 97,
+      "goalsAgainstAvg": 2.15,
+      "leagueAbbrev": "AHL",
+      "losses": 15,
+      "otLosses": 3,
+      "savePctg": 0.925,
+      "season": 20162017,
+      "sequence": 1077,
+      "shotsAgainst": 1300,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "2706:49",
+      "wins": 28
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 26,
+      "gamesStarted": 23,
+      "goals": 0,
+      "goalsAgainst": 63,
+      "goalsAgainstAvg": 2.771395,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 2,
+      "pim": 4,
+      "savePctg": 0.908297,
+      "season": 20172018,
+      "sequence": 1,
+      "shotsAgainst": 687,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "1363:56",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 16,
+      "goalsAgainst": 49,
+      "goalsAgainstAvg": 3.05,
+      "leagueAbbrev": "AHL",
+      "losses": 5,
+      "otLosses": 2,
+      "savePctg": 0.901,
+      "season": 20172018,
+      "sequence": 1077,
+      "shotsAgainst": 494,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "962:46",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 3.31,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.894,
+      "season": 20172018,
+      "sequence": 1077,
+      "shotsAgainst": 94,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "181:04",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 3.498541,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 1,
+      "savePctg": 0.887097,
+      "season": 20182019,
+      "sequence": 1,
+      "shotsAgainst": 62,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "120:03",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 47,
+      "goalsAgainst": 124,
+      "goalsAgainstAvg": 2.66,
+      "leagueAbbrev": "AHL",
+      "losses": 15,
+      "otLosses": 11,
+      "savePctg": 0.915,
+      "season": 20182019,
+      "sequence": 1077,
+      "shotsAgainst": 1464,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "2792:07",
+      "wins": 23
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "gamesStarted": 31,
+      "goals": 0,
+      "goalsAgainst": 78,
+      "goalsAgainstAvg": 2.429294,
+      "leagueAbbrev": "NHL",
+      "losses": 12,
+      "otLosses": 1,
+      "savePctg": 0.920812,
+      "season": 20192020,
+      "sequence": 1,
+      "shotsAgainst": 985,
+      "shutouts": 3,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "1926:29",
+      "wins": 20
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 1.020985,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.952381,
+      "season": 20192020,
+      "sequence": 1,
+      "shotsAgainst": 21,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "58:46",
+      "wins": 0
+    },
+    {
+      "assists": 4,
+      "gameTypeId": 2,
+      "gamesPlayed": 39,
+      "gamesStarted": 38,
+      "goals": 0,
+      "goalsAgainst": 100,
+      "goalsAgainstAvg": 2.745616,
+      "leagueAbbrev": "NHL",
+      "losses": 9,
+      "otLosses": 3,
+      "pim": 8,
+      "savePctg": 0.909091,
+      "season": 20202021,
+      "sequence": 1,
+      "shotsAgainst": 1100,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "2185:18",
+      "wins": 25
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 6,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 21,
+      "goalsAgainstAvg": 3.180881,
+      "leagueAbbrev": "NHL",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.887701,
+      "season": 20202021,
+      "sequence": 1,
+      "shotsAgainst": 187,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "396:07",
+      "wins": 2
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 58,
+      "gamesStarted": 56,
+      "goals": 0,
+      "goalsAgainst": 138,
+      "goalsAgainstAvg": 2.424467,
+      "leagueAbbrev": "NHL",
+      "losses": 18,
+      "otLosses": 6,
+      "pim": 2,
+      "savePctg": 0.919345,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 1711,
+      "shutouts": 4,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "3415:11",
+      "wins": 34
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 3.70561,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.866667,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 30,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "64:46",
+      "wins": 0
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 47,
+      "gamesStarted": 47,
+      "goals": 0,
+      "goalsAgainst": 128,
+      "goalsAgainstAvg": 2.898076,
+      "leagueAbbrev": "NHL",
+      "losses": 13,
+      "otLosses": 7,
+      "pim": 2,
+      "savePctg": 0.909477,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 1414,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "2650:02",
+      "wins": 24
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 51,
+      "gamesStarted": 48,
+      "goals": 1,
+      "goalsAgainst": 133,
+      "goalsAgainstAvg": 2.911734,
+      "leagueAbbrev": "NHL",
+      "losses": 25,
+      "otLosses": 5,
+      "pim": 4,
+      "savePctg": 0.902849,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 1369,
+      "shutouts": 6,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "2740:38",
+      "wins": 19
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 36,
+      "gamesStarted": 35,
+      "goals": 0,
+      "goalsAgainst": 105,
+      "goalsAgainstAvg": 3.118964,
+      "leagueAbbrev": "NHL",
+      "losses": 12,
+      "otLosses": 6,
+      "pim": 2,
+      "savePctg": 0.892894,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 971,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "2019:54",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "goalsAgainst": 32,
+      "goalsAgainstAvg": 2.67,
+      "leagueAbbrev": "AHL",
+      "losses": 5,
+      "otLosses": 1,
+      "savePctg": 0.908,
+      "season": 20242025,
+      "sequence": 1077,
+      "shotsAgainst": 347,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Wilkes-Barre/Scranton Penguins"
+      },
+      "timeOnIce": "718:10",
+      "wins": 6
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "gamesStarted": 13,
+      "goals": 0,
+      "goalsAgainst": 36,
+      "goalsAgainstAvg": 2.6642,
+      "leagueAbbrev": "NHL",
+      "losses": 3,
+      "otLosses": 1,
+      "pim": 0,
+      "savePctg": 0.909091,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 396,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Penguins"
+      },
+      "teamName": {
+        "default": "Pittsburgh Penguins",
+        "fr": "Penguins de Pittsburgh"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Pittsburgh",
+        "fr": "de Pittsburgh"
+      },
+      "timeOnIce": "810:45",
+      "wins": 9
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "gamesStarted": 16,
+      "goals": 0,
+      "goalsAgainst": 62,
+      "goalsAgainstAvg": 3.863463,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 2,
+      "pim": 0,
+      "savePctg": 0.857798,
+      "season": 20252026,
+      "sequence": 2,
+      "shotsAgainst": 436,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Oilers"
+      },
+      "teamName": {
+        "default": "Edmonton Oilers",
+        "fr": "Oilers d'Edmonton"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Edmonton",
+        "fr": "d'Edmonton"
+      },
+      "timeOnIce": "962:52",
+      "wins": 9
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 3.841024,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.894737,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 38,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Oilers"
+      },
+      "teamName": {
+        "default": "Edmonton Oilers",
+        "fr": "Oilers d'Edmonton"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Edmonton",
+        "fr": "d'Edmonton"
+      },
+      "timeOnIce": "62:29",
+      "wins": 0
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8475883,
+      "lastName": {
+        "default": "Andersen"
+      },
+      "firstName": {
+        "default": "Frederik"
+      },
+      "playerSlug": "frederik-andersen-8475883"
+    },
+    {
+      "playerId": 8480803,
+      "lastName": {
+        "default": "Bouchard"
+      },
+      "firstName": {
+        "default": "Evan"
+      },
+      "playerSlug": "evan-bouchard-8480803"
+    },
+    {
+      "playerId": 8482703,
+      "lastName": {
+        "default": "Dach"
+      },
+      "firstName": {
+        "default": "Colton"
+      },
+      "playerSlug": "colton-dach-8482703"
+    },
+    {
+      "playerId": 8477934,
+      "lastName": {
+        "default": "Draisaitl"
+      },
+      "firstName": {
+        "default": "Leon"
+      },
+      "playerSlug": "leon-draisaitl-8477934"
+    },
+    {
+      "playerId": 8475218,
+      "lastName": {
+        "default": "Ekholm"
+      },
+      "firstName": {
+        "default": "Mattias"
+      },
+      "playerSlug": "mattias-ekholm-8475218"
+    },
+    {
+      "playerId": 8480834,
+      "lastName": {
+        "default": "Emberson"
+      },
+      "firstName": {
+        "default": "Ty"
+      },
+      "playerSlug": "ty-emberson-8480834"
+    },
+    {
+      "playerId": 8480029,
+      "lastName": {
+        "default": "Formenton"
+      },
+      "firstName": {
+        "default": "Alex"
+      },
+      "playerSlug": "alex-formenton-8480029"
+    },
+    {
+      "playerId": 8479365,
+      "lastName": {
+        "default": "Frederic"
+      },
+      "firstName": {
+        "default": "Trent"
+      },
+      "playerSlug": "trent-frederic-8479365"
+    },
+    {
+      "playerId": 8483455,
+      "lastName": {
+        "default": "Howard"
+      },
+      "firstName": {
+        "default": "Isaac"
+      },
+      "playerSlug": "isaac-howard-8483455"
+    },
+    {
+      "playerId": 8475786,
+      "lastName": {
+        "default": "Hyman"
+      },
+      "firstName": {
+        "default": "Zach"
+      },
+      "playerSlug": "zach-hyman-8475786"
+    },
+    {
+      "playerId": 8477406,
+      "lastName": {
+        "default": "Janmark"
+      },
+      "firstName": {
+        "default": "Mattias"
+      },
+      "playerSlug": "mattias-janmark-8477406"
+    },
+    {
+      "playerId": 8477465,
+      "lastName": {
+        "default": "Jarry"
+      },
+      "firstName": {
+        "default": "Tristan"
+      },
+      "playerSlug": "tristan-jarry-8477465"
+    },
+    {
+      "playerId": 8479368,
+      "lastName": {
+        "default": "Jones"
+      },
+      "firstName": {
+        "default": "Max"
+      },
+      "playerSlug": "max-jones-8479368"
+    },
+    {
+      "playerId": 8478472,
+      "lastName": {
+        "default": "Joseph"
+      },
+      "firstName": {
+        "default": "Mathieu"
+      },
+      "playerSlug": "mathieu-joseph-8478472"
+    },
+    {
+      "playerId": 8477953,
+      "lastName": {
+        "default": "Kapanen"
+      },
+      "firstName": {
+        "default": "Kasperi"
+      },
+      "playerSlug": "kasperi-kapanen-8477953"
+    },
+    {
+      "playerId": 8482221,
+      "lastName": {
+        "default": "Levi"
+      },
+      "firstName": {
+        "default": "Devon"
+      },
+      "playerSlug": "devon-levi-8482221"
+    },
+    {
+      "playerId": 8478402,
+      "lastName": {
+        "default": "McDavid"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-mcdavid-8478402"
+    },
+    {
+      "playerId": 8486161,
+      "lastName": {
+        "default": "Michaels"
+      },
+      "firstName": {
+        "default": "Owen"
+      },
+      "playerSlug": "owen-michaels-8486161"
+    },
+    {
+      "playerId": 8482166,
+      "lastName": {
+        "default": "Mukhamadullin"
+      },
+      "firstName": {
+        "default": "Shakir"
+      },
+      "playerSlug": "shakir-mukhamadullin-8482166"
+    },
+    {
+      "playerId": 8476473,
+      "lastName": {
+        "default": "Murphy"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-murphy-8476473"
+    },
+    {
+      "playerId": 8476454,
+      "lastName": {
+        "default": "Nugent-Hopkins"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-nugent-hopkins-8476454"
+    },
+    {
+      "playerId": 8481617,
+      "lastName": {
+        "default": "Podkolzin"
+      },
+      "firstName": {
+        "default": "Vasily",
+        "cs": "Vasilij",
+        "fi": "Vasili",
+        "sk": "Vasilij"
+      },
+      "playerSlug": "vasily-podkolzin-8481617"
+    },
+    {
+      "playerId": 8480831,
+      "lastName": {
+        "default": "Regula"
+      },
+      "firstName": {
+        "default": "Alec"
+      },
+      "playerSlug": "alec-regula-8480831"
+    },
+    {
+      "playerId": 8483512,
+      "lastName": {
+        "default": "Savoie"
+      },
+      "firstName": {
+        "default": "Matt"
+      },
+      "playerSlug": "matt-savoie-8483512"
+    },
+    {
+      "playerId": 8478854,
+      "lastName": {
+        "default": "Shea"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-shea-8478854"
+    },
+    {
+      "playerId": 8481056,
+      "lastName": {
+        "default": "Stastney"
+      },
+      "firstName": {
+        "default": "Spencer"
+      },
+      "playerSlug": "spencer-stastney-8481056"
+    },
+    {
+      "playerId": 8478013,
+      "lastName": {
+        "default": "Walman"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-walman-8478013"
+    }
+  ]
+}
