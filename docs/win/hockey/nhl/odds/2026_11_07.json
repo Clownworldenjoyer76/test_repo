@@ -1,6 +1,6 @@
 {
   "run_date": "2026_11_07",
-  "generated_at_et": "2026-11-07T08:45:53.687335-05:00",
+  "generated_at_et": "2026-11-07T09:47:15.630475-05:00",
   "source": "espn",
   "league": "nhl",
   "bookmaker_strategy": {
@@ -329,7 +329,7 @@
     },
     {
       "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892664/competitions/401892664/odds/100?lang=en&region=us",
-      "details": "NYR -130",
+      "details": "NYR -135",
       "over_under": 6.5,
       "spread": 1.5,
       "over_odds": 102.0,
@@ -343,7 +343,7 @@
       "provider_priority": 1,
       "away_team_odds_favorite": true,
       "away_team_odds_underdog": false,
-      "away_team_odds_money_line": -130,
+      "away_team_odds_money_line": -135,
       "away_team_odds_spread_odds": 195.0,
       "away_team_odds_open_favorite": true,
       "away_team_odds_open_point_spread_alternate_display_value": "-1.5",
@@ -368,16 +368,16 @@
       "away_team_odds_current_spread_decimal": 2.95,
       "away_team_odds_current_spread_fraction": "39/20",
       "away_team_odds_current_spread_american": "+195",
-      "away_team_odds_current_money_line_value": 1.76,
-      "away_team_odds_current_money_line_display_value": "10/13",
-      "away_team_odds_current_money_line_alternate_display_value": "-130",
-      "away_team_odds_current_money_line_decimal": 1.76,
-      "away_team_odds_current_money_line_fraction": "10/13",
-      "away_team_odds_current_money_line_american": "-130",
+      "away_team_odds_current_money_line_value": 1.74,
+      "away_team_odds_current_money_line_display_value": "20/27",
+      "away_team_odds_current_money_line_alternate_display_value": "-135",
+      "away_team_odds_current_money_line_decimal": 1.74,
+      "away_team_odds_current_money_line_fraction": "20/27",
+      "away_team_odds_current_money_line_american": "-135",
       "away_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/13?lang=en&region=us",
       "home_team_odds_favorite": false,
       "home_team_odds_underdog": true,
-      "home_team_odds_money_line": 110,
+      "home_team_odds_money_line": 114,
       "home_team_odds_spread_odds": -238.0,
       "home_team_odds_open_favorite": false,
       "home_team_odds_open_point_spread_alternate_display_value": "+1.5",
@@ -402,12 +402,12 @@
       "home_team_odds_current_spread_decimal": 1.42,
       "home_team_odds_current_spread_fraction": "50/119",
       "home_team_odds_current_spread_american": "-238",
-      "home_team_odds_current_money_line_value": 2.1,
-      "home_team_odds_current_money_line_display_value": "11/10",
-      "home_team_odds_current_money_line_alternate_display_value": "+110",
-      "home_team_odds_current_money_line_decimal": 2.1,
-      "home_team_odds_current_money_line_fraction": "11/10",
-      "home_team_odds_current_money_line_american": "+110",
+      "home_team_odds_current_money_line_value": 2.14,
+      "home_team_odds_current_money_line_display_value": "57/50",
+      "home_team_odds_current_money_line_alternate_display_value": "+114",
+      "home_team_odds_current_money_line_decimal": 2.14,
+      "home_team_odds_current_money_line_fraction": "57/50",
+      "home_team_odds_current_money_line_american": "+114",
       "home_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/124292?lang=en&region=us",
       "open_over_value": 2.02,
       "open_over_display_value": "51/50",
@@ -796,7 +796,7 @@
       "away_team_odds_favorite": false,
       "away_team_odds_underdog": true,
       "away_team_odds_money_line": 340,
-      "away_team_odds_spread_odds": 140.0,
+      "away_team_odds_spread_odds": 145.0,
       "away_team_odds_open_favorite": false,
       "away_team_odds_open_point_spread_alternate_display_value": "+1.5",
       "away_team_odds_open_point_spread_american": "+1.5",
@@ -814,12 +814,12 @@
       "away_team_odds_open_money_line_american": "+310",
       "away_team_odds_current_point_spread_alternate_display_value": "+1.5",
       "away_team_odds_current_point_spread_american": "+1.5",
-      "away_team_odds_current_spread_value": 2.4,
-      "away_team_odds_current_spread_display_value": "7/5",
-      "away_team_odds_current_spread_alternate_display_value": "+140",
-      "away_team_odds_current_spread_decimal": 2.4,
-      "away_team_odds_current_spread_fraction": "7/5",
-      "away_team_odds_current_spread_american": "+140",
+      "away_team_odds_current_spread_value": 2.45,
+      "away_team_odds_current_spread_display_value": "29/20",
+      "away_team_odds_current_spread_alternate_display_value": "+145",
+      "away_team_odds_current_spread_decimal": 2.45,
+      "away_team_odds_current_spread_fraction": "29/20",
+      "away_team_odds_current_spread_american": "+145",
       "away_team_odds_current_money_line_value": 4.4,
       "away_team_odds_current_money_line_display_value": "17/5",
       "away_team_odds_current_money_line_alternate_display_value": "+340",
@@ -830,7 +830,7 @@
       "home_team_odds_favorite": true,
       "home_team_odds_underdog": false,
       "home_team_odds_money_line": -440,
-      "home_team_odds_spread_odds": -166.0,
+      "home_team_odds_spread_odds": -175.0,
       "home_team_odds_open_favorite": true,
       "home_team_odds_open_point_spread_alternate_display_value": "-1.5",
       "home_team_odds_open_point_spread_american": "-1.5",
@@ -848,12 +848,12 @@
       "home_team_odds_open_money_line_american": "-395",
       "home_team_odds_current_point_spread_alternate_display_value": "-1.5",
       "home_team_odds_current_point_spread_american": "-1.5",
-      "home_team_odds_current_spread_value": 1.6,
-      "home_team_odds_current_spread_display_value": "50/83",
-      "home_team_odds_current_spread_alternate_display_value": "-166",
-      "home_team_odds_current_spread_decimal": 1.6,
-      "home_team_odds_current_spread_fraction": "50/83",
-      "home_team_odds_current_spread_american": "-166",
+      "home_team_odds_current_spread_value": 1.57,
+      "home_team_odds_current_spread_display_value": "4/7",
+      "home_team_odds_current_spread_alternate_display_value": "-175",
+      "home_team_odds_current_spread_decimal": 1.57,
+      "home_team_odds_current_spread_fraction": "4/7",
+      "home_team_odds_current_spread_american": "-175",
       "home_team_odds_current_money_line_value": 1.22,
       "home_team_odds_current_money_line_display_value": "5/22",
       "home_team_odds_current_money_line_alternate_display_value": "-440",
@@ -1123,8 +1123,8 @@
       "details": "COL -225",
       "over_under": 6.5,
       "spread": -1.5,
-      "over_odds": -108.0,
-      "under_odds": -112.0,
+      "over_odds": -102.0,
+      "under_odds": -118.0,
       "links": "[{'language': 'en-US', 'rel': ['home', 'desktop', 'bets', 'draftkings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187%3Foutcomes%3D0ML87095368_1', 'text': 'Home Bet', 'shortText': 'Home Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['away', 'desktop', 'bets', 'draftkings'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187%3Foutcomes%3D0ML87095368_3', 'text': 'Away Bet', 'shortText': 'Away Bet', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['homeSpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187%3Foutcomes%3D0HC87095368N150_1', 'text': 'Home Point Spread', 'shortText': 'Home Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['awaySpread', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187%3Foutcomes%3D0HC87095368P150_3', 'text': 'Away Point Spread', 'shortText': 'Away Point Spread', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['over', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187%3Foutcomes%3D0OU87095368O650_1', 'text': 'Over Odds', 'shortText': 'Over Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['under', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187%3Foutcomes%3D0OU87095368U650_3', 'text': 'Under Odds', 'shortText': 'Under Odds', 'isExternal': True, 'isPremium': False}, {'language': 'en-US', 'rel': ['game', 'desktop', 'bets'], 'href': 'https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34958187', 'text': 'Game', 'shortText': 'Game', 'isExternal': True, 'isPremium': False}]",
       "moneyline_winner": false,
       "spread_winner": false,
@@ -1214,18 +1214,18 @@
       "open_under_american": "-125",
       "open_total_alternate_display_value": "6.5",
       "open_total_american": "6.5",
-      "current_over_value": 1.92,
-      "current_over_display_value": "25/27",
-      "current_over_alternate_display_value": "-108",
-      "current_over_decimal": 1.92,
-      "current_over_fraction": "25/27",
-      "current_over_american": "-108",
-      "current_under_value": 1.89,
-      "current_under_display_value": "25/28",
-      "current_under_alternate_display_value": "-112",
-      "current_under_decimal": 1.89,
-      "current_under_fraction": "25/28",
-      "current_under_american": "-112",
+      "current_over_value": 1.98,
+      "current_over_display_value": "50/51",
+      "current_over_alternate_display_value": "-102",
+      "current_over_decimal": 1.98,
+      "current_over_fraction": "50/51",
+      "current_over_american": "-102",
+      "current_under_value": 1.84,
+      "current_under_display_value": "50/59",
+      "current_under_alternate_display_value": "-118",
+      "current_under_decimal": 1.84,
+      "current_under_fraction": "50/59",
+      "current_under_american": "-118",
       "current_total_alternate_display_value": "6.5",
       "current_total_american": "6.5",
       "prop_bets_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892671/competitions/401892671/odds/100/propBets?lang=en&region=us",
@@ -1346,7 +1346,7 @@
     },
     {
       "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401892673/competitions/401892673/odds/100?lang=en&region=us",
-      "details": "EDM -355",
+      "details": "EDM -310",
       "over_under": 6.5,
       "spread": -1.5,
       "over_odds": -148.0,
@@ -1360,7 +1360,7 @@
       "provider_priority": 1,
       "away_team_odds_favorite": false,
       "away_team_odds_underdog": true,
-      "away_team_odds_money_line": 280,
+      "away_team_odds_money_line": 250,
       "away_team_odds_spread_odds": 124.0,
       "away_team_odds_open_favorite": false,
       "away_team_odds_open_point_spread_alternate_display_value": "+1.5",
@@ -1385,16 +1385,16 @@
       "away_team_odds_current_spread_decimal": 2.24,
       "away_team_odds_current_spread_fraction": "31/25",
       "away_team_odds_current_spread_american": "+124",
-      "away_team_odds_current_money_line_value": 3.8,
-      "away_team_odds_current_money_line_display_value": "14/5",
-      "away_team_odds_current_money_line_alternate_display_value": "+280",
-      "away_team_odds_current_money_line_decimal": 3.8,
-      "away_team_odds_current_money_line_fraction": "14/5",
-      "away_team_odds_current_money_line_american": "+280",
+      "away_team_odds_current_money_line_value": 3.5,
+      "away_team_odds_current_money_line_display_value": "5/2",
+      "away_team_odds_current_money_line_alternate_display_value": "+250",
+      "away_team_odds_current_money_line_decimal": 3.5,
+      "away_team_odds_current_money_line_fraction": "5/2",
+      "away_team_odds_current_money_line_american": "+250",
       "away_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/22?lang=en&region=us",
       "home_team_odds_favorite": true,
       "home_team_odds_underdog": false,
-      "home_team_odds_money_line": -355,
+      "home_team_odds_money_line": -310,
       "home_team_odds_spread_odds": -148.0,
       "home_team_odds_open_favorite": true,
       "home_team_odds_open_point_spread_alternate_display_value": "-1.5",
@@ -1419,12 +1419,12 @@
       "home_team_odds_current_spread_decimal": 1.67,
       "home_team_odds_current_spread_fraction": "25/37",
       "home_team_odds_current_spread_american": "-148",
-      "home_team_odds_current_money_line_value": 1.28,
-      "home_team_odds_current_money_line_display_value": "20/71",
-      "home_team_odds_current_money_line_alternate_display_value": "-355",
-      "home_team_odds_current_money_line_decimal": 1.28,
-      "home_team_odds_current_money_line_fraction": "20/71",
-      "home_team_odds_current_money_line_american": "-355",
+      "home_team_odds_current_money_line_value": 1.32,
+      "home_team_odds_current_money_line_display_value": "10/31",
+      "home_team_odds_current_money_line_alternate_display_value": "-310",
+      "home_team_odds_current_money_line_decimal": 1.32,
+      "home_team_odds_current_money_line_fraction": "10/31",
+      "home_team_odds_current_money_line_american": "-310",
       "home_team_odds_team_$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/teams/6?lang=en&region=us",
       "open_over_value": 1.83,
       "open_over_display_value": "5/6",
@@ -2583,8 +2583,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $53",
-                "numberAvailable": 1832,
+                "summary": "Tickets as low as $57",
+                "numberAvailable": 1462,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/washington-capitals-tickets-capital-one-arena-11-7-2026/production/7302281?wsUser=717"
@@ -3855,7 +3855,7 @@
             "tickets": [
               {
                 "summary": "Tickets as low as $51",
-                "numberAvailable": 1398,
+                "numberAvailable": 1361,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/nashville-predators-tickets-bridgestone-arena-11-7-2026/production/7301301?wsUser=717"
@@ -5257,7 +5257,7 @@
                     }
                   ]
                 },
-                "details": "NYR -130",
+                "details": "NYR -135",
                 "overUnder": 6.5,
                 "spread": 1.5,
                 "awayTeamOdds": {
@@ -5291,7 +5291,7 @@
                   "shortDisplayName": "ML",
                   "home": {
                     "close": {
-                      "odds": "+110",
+                      "odds": "+114",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -5323,7 +5323,7 @@
                   },
                   "away": {
                     "close": {
-                      "odds": "-130",
+                      "odds": "-135",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -6436,7 +6436,7 @@
             "tickets": [
               {
                 "summary": "Tickets as low as $230",
-                "numberAvailable": 212,
+                "numberAvailable": 194,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/toronto-maple-leafs-tickets-scotiabank-arena-11-7-2026/production/7301099?wsUser=717"
@@ -7679,8 +7679,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $35",
-                "numberAvailable": 1336,
+                "summary": "Tickets as low as $32",
+                "numberAvailable": 974,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/ottawa-senators-tickets-canadian-tire-centre-11-7-2026/production/7301715?wsUser=717"
@@ -8951,8 +8951,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $70",
-                "numberAvailable": 1223,
+                "summary": "Tickets as low as $69",
+                "numberAvailable": 1188,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/new-york-islanders-tickets-ubs-arena-11-7-2026/production/7301406?wsUser=717"
@@ -10225,8 +10225,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $79",
-                "numberAvailable": 965,
+                "summary": "Tickets as low as $78",
+                "numberAvailable": 961,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/carolina-hurricanes-tickets-lenovo-center-11-7-2026/production/7300269?wsUser=717"
@@ -10412,7 +10412,7 @@
                   "home": {
                     "close": {
                       "line": "-1.5",
-                      "odds": "-166",
+                      "odds": "-175",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -10446,7 +10446,7 @@
                   "away": {
                     "close": {
                       "line": "+1.5",
-                      "odds": "+140",
+                      "odds": "+145",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -11499,8 +11499,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $63",
-                "numberAvailable": 1713,
+                "summary": "Tickets as low as $65",
+                "numberAvailable": 1672,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/dallas-stars-tickets-american-airlines-center---tx-11-7-2026/production/7300593?wsUser=717"
@@ -12774,7 +12774,7 @@
             "tickets": [
               {
                 "summary": "Tickets as low as $91",
-                "numberAvailable": 535,
+                "numberAvailable": 547,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/minnesota-wild-tickets-grand-casino-arena-11-7-2026/production/7302129?wsUser=717"
@@ -14048,7 +14048,7 @@
             "tickets": [
               {
                 "summary": "Tickets as low as $123",
-                "numberAvailable": 802,
+                "numberAvailable": 794,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/colorado-avalanche-tickets-ball-arena-11-7-2026/production/7300451?wsUser=717"
@@ -14306,7 +14306,7 @@
                   "over": {
                     "close": {
                       "line": "o6.5",
-                      "odds": "-108",
+                      "odds": "-102",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -14340,7 +14340,7 @@
                   "under": {
                     "close": {
                       "line": "u6.5",
-                      "odds": "-112",
+                      "odds": "-118",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -15315,8 +15315,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $58",
-                "numberAvailable": 2621,
+                "summary": "Tickets as low as $60",
+                "numberAvailable": 2589,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/los-angeles-kings-tickets-cryptocom-arena-11-7-2026/production/7300963?wsUser=717"
@@ -16562,8 +16562,8 @@
             },
             "tickets": [
               {
-                "summary": "Tickets as low as $80",
-                "numberAvailable": 1882,
+                "summary": "Tickets as low as $76",
+                "numberAvailable": 1871,
                 "links": [
                   {
                     "href": "https://www.vividseats.com/edmonton-oilers-tickets-rogers-place-11-7-2026/production/7300967?wsUser=717"
@@ -16616,7 +16616,7 @@
                     }
                   ]
                 },
-                "details": "EDM -355",
+                "details": "EDM -310",
                 "overUnder": 6.5,
                 "spread": -1.5,
                 "awayTeamOdds": {
@@ -16650,7 +16650,7 @@
                   "shortDisplayName": "ML",
                   "home": {
                     "close": {
-                      "odds": "-355",
+                      "odds": "-310",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -16682,7 +16682,7 @@
                   },
                   "away": {
                     "close": {
-                      "odds": "+280",
+                      "odds": "+250",
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -17512,7 +17512,7 @@
             "name": "DraftKings",
             "priority": 1
           },
-          "details": "NYR -130",
+          "details": "NYR -135",
           "overUnder": 6.5,
           "spread": 1.5,
           "overOdds": 102.0,
@@ -17520,7 +17520,7 @@
           "awayTeamOdds": {
             "favorite": true,
             "underdog": false,
-            "moneyLine": -130,
+            "moneyLine": -135,
             "spreadOdds": 195.0,
             "open": {
               "favorite": true,
@@ -17559,12 +17559,12 @@
                 "american": "+195"
               },
               "moneyLine": {
-                "value": 1.76,
-                "displayValue": "10/13",
-                "alternateDisplayValue": "-130",
-                "decimal": 1.76,
-                "fraction": "10/13",
-                "american": "-130"
+                "value": 1.74,
+                "displayValue": "20/27",
+                "alternateDisplayValue": "-135",
+                "decimal": 1.74,
+                "fraction": "20/27",
+                "american": "-135"
               }
             },
             "team": {
@@ -17574,7 +17574,7 @@
           "homeTeamOdds": {
             "favorite": false,
             "underdog": true,
-            "moneyLine": 110,
+            "moneyLine": 114,
             "spreadOdds": -238.0,
             "open": {
               "favorite": false,
@@ -17613,12 +17613,12 @@
                 "american": "-238"
               },
               "moneyLine": {
-                "value": 2.1,
-                "displayValue": "11/10",
-                "alternateDisplayValue": "+110",
-                "decimal": 2.1,
-                "fraction": "11/10",
-                "american": "+110"
+                "value": 2.14,
+                "displayValue": "57/50",
+                "alternateDisplayValue": "+114",
+                "decimal": 2.14,
+                "fraction": "57/50",
+                "american": "+114"
               }
             },
             "team": {
@@ -18617,7 +18617,7 @@
             "favorite": false,
             "underdog": true,
             "moneyLine": 340,
-            "spreadOdds": 140.0,
+            "spreadOdds": 145.0,
             "open": {
               "favorite": false,
               "pointSpread": {
@@ -18647,12 +18647,12 @@
                 "american": "+1.5"
               },
               "spread": {
-                "value": 2.4,
-                "displayValue": "7/5",
-                "alternateDisplayValue": "+140",
-                "decimal": 2.4,
-                "fraction": "7/5",
-                "american": "+140"
+                "value": 2.45,
+                "displayValue": "29/20",
+                "alternateDisplayValue": "+145",
+                "decimal": 2.45,
+                "fraction": "29/20",
+                "american": "+145"
               },
               "moneyLine": {
                 "value": 4.4,
@@ -18671,7 +18671,7 @@
             "favorite": true,
             "underdog": false,
             "moneyLine": -440,
-            "spreadOdds": -166.0,
+            "spreadOdds": -175.0,
             "open": {
               "favorite": true,
               "pointSpread": {
@@ -18701,12 +18701,12 @@
                 "american": "-1.5"
               },
               "spread": {
-                "value": 1.6,
-                "displayValue": "50/83",
-                "alternateDisplayValue": "-166",
-                "decimal": 1.6,
-                "fraction": "50/83",
-                "american": "-166"
+                "value": 1.57,
+                "displayValue": "4/7",
+                "alternateDisplayValue": "-175",
+                "decimal": 1.57,
+                "fraction": "4/7",
+                "american": "-175"
               },
               "moneyLine": {
                 "value": 1.22,
@@ -19433,8 +19433,8 @@
           "details": "COL -225",
           "overUnder": 6.5,
           "spread": -1.5,
-          "overOdds": -108.0,
-          "underOdds": -112.0,
+          "overOdds": -102.0,
+          "underOdds": -118.0,
           "awayTeamOdds": {
             "favorite": false,
             "underdog": true,
@@ -19664,20 +19664,20 @@
           },
           "current": {
             "over": {
-              "value": 1.92,
-              "displayValue": "25/27",
-              "alternateDisplayValue": "-108",
-              "decimal": 1.92,
-              "fraction": "25/27",
-              "american": "-108"
+              "value": 1.98,
+              "displayValue": "50/51",
+              "alternateDisplayValue": "-102",
+              "decimal": 1.98,
+              "fraction": "50/51",
+              "american": "-102"
             },
             "under": {
-              "value": 1.89,
-              "displayValue": "25/28",
-              "alternateDisplayValue": "-112",
-              "decimal": 1.89,
-              "fraction": "25/28",
-              "american": "-112"
+              "value": 1.84,
+              "displayValue": "50/59",
+              "alternateDisplayValue": "-118",
+              "decimal": 1.84,
+              "fraction": "50/59",
+              "american": "-118"
             },
             "total": {
               "alternateDisplayValue": "6.5",
@@ -19978,7 +19978,7 @@
             "name": "DraftKings",
             "priority": 1
           },
-          "details": "EDM -355",
+          "details": "EDM -310",
           "overUnder": 6.5,
           "spread": -1.5,
           "overOdds": -148.0,
@@ -19986,7 +19986,7 @@
           "awayTeamOdds": {
             "favorite": false,
             "underdog": true,
-            "moneyLine": 280,
+            "moneyLine": 250,
             "spreadOdds": 124.0,
             "open": {
               "favorite": false,
@@ -20025,12 +20025,12 @@
                 "american": "+124"
               },
               "moneyLine": {
-                "value": 3.8,
-                "displayValue": "14/5",
-                "alternateDisplayValue": "+280",
-                "decimal": 3.8,
-                "fraction": "14/5",
-                "american": "+280"
+                "value": 3.5,
+                "displayValue": "5/2",
+                "alternateDisplayValue": "+250",
+                "decimal": 3.5,
+                "fraction": "5/2",
+                "american": "+250"
               }
             },
             "team": {
@@ -20040,7 +20040,7 @@
           "homeTeamOdds": {
             "favorite": true,
             "underdog": false,
-            "moneyLine": -355,
+            "moneyLine": -310,
             "spreadOdds": -148.0,
             "open": {
               "favorite": true,
@@ -20079,12 +20079,12 @@
                 "american": "-148"
               },
               "moneyLine": {
-                "value": 1.28,
-                "displayValue": "20/71",
-                "alternateDisplayValue": "-355",
-                "decimal": 1.28,
-                "fraction": "20/71",
-                "american": "-355"
+                "value": 1.32,
+                "displayValue": "10/31",
+                "alternateDisplayValue": "-310",
+                "decimal": 1.32,
+                "fraction": "10/31",
+                "american": "-310"
               }
             },
             "team": {
