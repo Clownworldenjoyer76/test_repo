@@ -1,5 +1,5 @@
 NHL build_games.py summary
-Started: 2026-11-06 08:03:16
+Started: 2026-11-07 13:45:56
 Input directory: docs/win/hockey/nhl/00_intake/reconciled
 Output directory: docs/win/hockey/nhl/00_intake/games
 Log path: docs/win/hockey/nhl/errors/00_intake/build_games.txt
@@ -201,9 +201,14 @@ Date: 2026_11_06
 Rows written: 3
 Output file: docs/win/hockey/nhl/00_intake/games/2026_11_06_nhl_games.csv
 
+Processing reconciled file: docs/win/hockey/nhl/00_intake/reconciled/NHL_2026_11_07.csv
+Date: 2026_11_07
+Rows written: 12
+Output file: docs/win/hockey/nhl/00_intake/games/2026_11_07_nhl_games.csv
+
 Completed successfully.
-Reconciled files processed: 39
-Games files written: 39
-Total official NHL game rows written: 264
+Reconciled files processed: 40
+Games files written: 40
+Total official NHL game rows written: 276
 Historical games files deleted: 0
-Finished: 2026-11-06 08:03:16
+Finished: 2026-11-07 13:45:56
