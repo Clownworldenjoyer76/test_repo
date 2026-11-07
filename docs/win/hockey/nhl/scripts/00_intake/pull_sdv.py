@@ -4317,6 +4317,25 @@ def load_player_strength_snapshots() -> list[dict[str, Any]]:
                     raise RuntimeError(f"Non-finite {metric} for {team}: {path}:{number}")
                 metrics[metric] = number_value
             teams[team] = metrics
+        # A complete league snapshot with negative WAR for every team is not
+        # accepted as a production WAR feature. Preserve the other five
+        # historical strength metrics; mark WAR unavailable without inventing
+        # a replacement-level offset or changing the sign.
+        war_values = [metrics.get("skater_war") for metrics in teams.values()]
+        if (
+            len(teams) == 32
+            and len(war_values) == 32
+            and all(value is not None and value < 0 for value in war_values)
+        ):
+            print(
+                "WARN | lineup-strength/skater_war | all 32 teams have "
+                "negative WAR in " + path.name + "; ignoring WAR until "
+                "player-level source calculation is audited",
+                file=sys.stderr,
+                flush=True,
+            )
+            for metrics in teams.values():
+                metrics["skater_war"] = None
         output.append({
             "asof": asof,
             "history_exclusive_date": exclusive_date,
