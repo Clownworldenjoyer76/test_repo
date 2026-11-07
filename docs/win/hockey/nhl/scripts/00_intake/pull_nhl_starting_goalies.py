@@ -21,28 +21,20 @@ from urllib.request import Request, urlopen
 SOURCE_URL = "https://www.dailyfaceoff.com/starting-goalies"
 OUTPUT_DIR = Path("docs/win/hockey/nhl/00_intake/lineups")
 
-# Exactly the 38 columns selected from the inspected 89-column CSV, in order.
+# Exactly the 30 selected output columns, in the requested order.
 HEADERS = [
     "CapturedUTC",
-    "GameNumber",
     "date",
     "time",
-    "pointSpread",
     "dateGmt",
     "homeTeamId",
     "awayTeamId",
-    "homeTeamName",
-    "awayTeamName",
+    "home_team",
+    "away_team",
     "homeTeamAbbreviation",
     "awayTeamAbbreviation",
-    "homeTeamSlug",
-    "awayTeamSlug",
     "homeGoalieId",
     "awayGoalieId",
-    "homeGoalieLegacyId",
-    "awayGoalieLegacyId",
-    "homeGoalieSlug",
-    "awayGoalieSlug",
     "homeGoalieWins",
     "awayGoalieWins",
     "homeGoalieLosses",
@@ -62,6 +54,13 @@ HEADERS = [
     "homeNewsDetails",
     "awayNewsDetails",
 ]
+
+# Renaming affects CSV column names only; source JSON keys remain unchanged.
+SOURCE_FIELDS = {
+    "home_team": "homeTeamName",
+    "away_team": "awayTeamName",
+}
+
 REQUIRED_FIELDS = (
     "date",
     "time",
@@ -135,10 +134,8 @@ def build_rows(games):
         for field in HEADERS:
             if field == "CapturedUTC":
                 value = captured
-            elif field == "GameNumber":
-                value = index
             else:
-                value = game.get(field)
+                value = game.get(SOURCE_FIELDS.get(field, field))
             if value is None:
                 value = ""
             elif isinstance(value, (list, dict)):
