@@ -10,7 +10,7 @@
   },
   "fatal_errors": [],
   "game_date_new_york": "2026_11_08",
-  "generated_at_utc": "2026-11-08T11:43:51.366650+00:00",
+  "generated_at_utc": "2026-11-08T15:31:37.828454+00:00",
   "paths": {
     "games": [
       "docs/win/hockey/nhl/00_intake/games/2026_11_08_nhl_games.csv"
@@ -53,7 +53,7 @@
       "exists": true,
       "name": "Transform Final Scores",
       "path": "docs/win/hockey/nhl/errors/05_final_scores/transform_final_scores.txt",
-      "status": "2026-11-08T11:43:46.886102+00:00 | WROTE OFFICIAL NHL GAME STATUS: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/05_final_scores/intermediate/nhl_game_status.csv | rows=558"
+      "status": "2026-11-08T15:31:33.756817+00:00 | WROTE OFFICIAL NHL GAME STATUS: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/05_final_scores/intermediate/nhl_game_status.csv | rows=558"
     },
     {
       "exists": true,
@@ -170,8 +170,8 @@
     "name": "NHL Pipeline",
     "ref_name": "main",
     "run_attempt": "1",
-    "run_id": "42476385691",
-    "sha": "63ffe700b05e85e5aaa548ac1c3e02ece393dda0",
+    "run_id": "42494502030",
+    "sha": "f2dbab46b8517fdfd3bdc4df77a7a0f51266aea0",
     "status": "success"
   }
 }
