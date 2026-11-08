@@ -3829,12 +3829,11 @@ def build_game_goalie_features_asof(
 def _shift_player_team_weights(
     prior_shifts: Any,
 ) -> dict[str, dict[str, float]]:
-    """Allocate player value by observed historical shift changes per team.
+    """Allocate each player across historically observed teams in shift data.
 
-    The SDV shift source contains event_team and comma-space-separated ids_on.
-    Allocation by shift changes preserves the full player WAR total even when
-    the player appeared for multiple teams (e.g. traded during the season).
-    It must not infer membership from counts of 2-/3-person combinations.
+    Resolve known UTF-8/Latin-1 mojibake only when the repaired spelling
+    is recognized by SportsDataverse's canonical NHL team-name mapping.
+    Never silently assign an unrecognized team or drop its shifts.
     """
     from sportsdataverse.nhl.nhl_player_impact_constants import team_fullname_to_abbr
 
@@ -3847,13 +3846,40 @@ def _shift_player_team_weights(
             f"Cannot attribute players: shifts missing {sorted(required - set(pdf.columns))}"
         )
 
+    # Normalize each distinct team label once, not once per shift event.
+    # The observed malformed label 'MontrÃ©al Canadiens' decodes to the
+    # recognized official spelling 'Montréal Canadiens'.
+    resolved_teams: dict[str, str | None] = {}
+    repaired_labels: dict[str, str] = {}
+
+    def resolve_team(label: str) -> str | None:
+        if label in resolved_teams:
+            return resolved_teams[label]
+        team = team_fullname_to_abbr(label)
+        candidate = label
+        if team is None:
+            for _ in range(2):
+                try:
+                    decoded = candidate.encode("latin-1").decode("utf-8")
+                except (UnicodeEncodeError, UnicodeDecodeError):
+                    break
+                if decoded == candidate:
+                    break
+                candidate = decoded
+                team = team_fullname_to_abbr(candidate)
+                if team is not None:
+                    repaired_labels[label] = candidate
+                    break
+        resolved_teams[label] = team
+        return team
+
     counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     unknown_teams: set[str] = set()
     for team_full, id_text in zip(pdf["event_team"], pdf["ids_on"]):
         if pd.isna(id_text) or not str(id_text).strip():
             continue
         team_full = str(team_full).strip()
-        team = team_fullname_to_abbr(team_full)
+        team = resolve_team(team_full)
         if team is None:
             unknown_teams.add(team_full)
             continue
@@ -3865,9 +3891,11 @@ def _shift_player_team_weights(
 
     if unknown_teams:
         raise RuntimeError(
-            "Unknown historical shift team labels: "
+            "Unknown historical shift team labels after encoding repair: "
             + repr(sorted(unknown_teams)[:12])
         )
+    for original, corrected in sorted(repaired_labels.items()):
+        print(f"WAR SHIFT TEAM ENCODING REPAIRED | {original!r} -> {corrected!r}", flush=True)
     if not counts:
         raise RuntimeError("No player-team identities decoded from historical shifts")
     return {
