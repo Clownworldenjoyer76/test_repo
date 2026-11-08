@@ -1,22 +1,21 @@
-=== hockey_drat_scraper RUN 2026-11-07T09:47:10.562982-05:00 ===
-2026-11-07T09:47:10.564598-05:00 | Official NHL schedule gate loaded: date=2026_11_07 regular_or_playoff_games=12
-2026-11-07T09:47:10.564626-05:00 | D-Ratings date_time is interpreted as UTC and converted to ET.
-2026-11-07T09:47:13.942658-05:00 | Column count distribution: {11: 44, 8: 16, 6: 3}
-2026-11-07T09:47:13.944504-05:00 | Ignored D-Ratings games outside intake date | date=2026_11_07 ignored_games=16
-2026-11-07T09:47:13.944618-05:00 | INTAKE GATE PASSED | date=2026_11_07 expected_games=12 dratings_games=12 upcoming_predictions=12
-2026-11-07T09:47:13.944636-05:00 | Upcoming games after intake gates: 12
-2026-11-07T09:47:13.944650-05:00 | Completed games retained in raw JSON only: 16
-2026-11-07T09:47:13.944884-05:00 | Removed existing scraper output before rewrite: docs/win/hockey/nhl/00_intake/predictions/scraper/2026_11_07_nhl_predictions.csv
-2026-11-07T09:47:13.950809-05:00 | WROTE validated upcoming scraper copy -> docs/win/hockey/nhl/00_intake/predictions/scraper/2026_11_07_nhl_predictions.csv (12 rows)
-2026-11-07T09:47:14.003112-05:00 | --- SUMMARY ---
-2026-11-07T09:47:14.003186-05:00 | Raw rows scraped: 63
-2026-11-07T09:47:14.003208-05:00 | Games parsed: 28
-2026-11-07T09:47:14.003227-05:00 | Parse errors: 0
-2026-11-07T09:47:14.003245-05:00 | Expected regular-season/playoff NHL games: 12
-2026-11-07T09:47:14.003263-05:00 | Validated upcoming predictions: 12
-2026-11-07T09:47:14.003281-05:00 | Completed retained in raw JSON only: 16
-2026-11-07T09:47:14.003299-05:00 | Files written: 3
-2026-11-07T09:47:14.003318-05:00 |   FILE: docs/win/hockey/nhl/00_intake/drat_raw/rows/2026_11_07_nhl_raw_rows.json (63 rows)
-2026-11-07T09:47:14.003336-05:00 |   FILE: docs/win/hockey/nhl/00_intake/drat_raw/2026_11_07_nhl_raw.json (28 rows)
-2026-11-07T09:47:14.003354-05:00 |   FILE: docs/win/hockey/nhl/00_intake/predictions/scraper/2026_11_07_nhl_predictions.csv (12 rows)
-2026-11-07T09:47:14.003371-05:00 | STATUS: SUCCESS
+=== hockey_drat_scraper RUN 2026-11-08T06:37:06.683510-05:00 ===
+2026-11-08T06:37:06.685159-05:00 | Official NHL schedule gate loaded: date=2026_11_08 regular_or_playoff_games=6
+2026-11-08T06:37:06.685188-05:00 | D-Ratings date_time is interpreted as UTC and converted to ET.
+2026-11-08T06:37:09.558803-05:00 | Column count distribution: {11: 38, 8: 16, 6: 3}
+2026-11-08T06:37:09.560242-05:00 | Ignored D-Ratings games outside intake date | date=2026_11_08 ignored_games=16
+2026-11-08T06:37:09.560317-05:00 | INTAKE GATE PASSED | date=2026_11_08 expected_games=6 dratings_games=6 upcoming_predictions=6
+2026-11-08T06:37:09.560333-05:00 | Upcoming games after intake gates: 6
+2026-11-08T06:37:09.560348-05:00 | Completed games retained in raw JSON only: 16
+2026-11-08T06:37:09.564823-05:00 | WROTE validated upcoming scraper copy -> docs/win/hockey/nhl/00_intake/predictions/scraper/2026_11_08_nhl_predictions.csv (6 rows)
+2026-11-08T06:37:09.630598-05:00 | --- SUMMARY ---
+2026-11-08T06:37:09.630664-05:00 | Raw rows scraped: 57
+2026-11-08T06:37:09.630681-05:00 | Games parsed: 22
+2026-11-08T06:37:09.630696-05:00 | Parse errors: 0
+2026-11-08T06:37:09.630710-05:00 | Expected regular-season/playoff NHL games: 6
+2026-11-08T06:37:09.630724-05:00 | Validated upcoming predictions: 6
+2026-11-08T06:37:09.630738-05:00 | Completed retained in raw JSON only: 16
+2026-11-08T06:37:09.630752-05:00 | Files written: 3
+2026-11-08T06:37:09.630767-05:00 |   FILE: docs/win/hockey/nhl/00_intake/drat_raw/rows/2026_11_08_nhl_raw_rows.json (57 rows)
+2026-11-08T06:37:09.630781-05:00 |   FILE: docs/win/hockey/nhl/00_intake/drat_raw/2026_11_08_nhl_raw.json (22 rows)
+2026-11-08T06:37:09.630795-05:00 |   FILE: docs/win/hockey/nhl/00_intake/predictions/scraper/2026_11_08_nhl_predictions.csv (6 rows)
+2026-11-08T06:37:09.630809-05:00 | STATUS: SUCCESS
