@@ -688,7 +688,7 @@ game_date,market_type,bet_side,failing_condition,rejection_count
 2026_11_08,moneyline,away,ev,5
 2026_11_08,moneyline,home,probability,4
 2026_11_08,moneyline,home,odds,4
-2026_11_08,moneyline,home,ev,4
+2026_11_08,moneyline,home,ev,2
 2026_11_08,puck_line,away,probability,4
 2026_11_08,puck_line,away,odds,4
 2026_11_08,puck_line,away,ev,4
@@ -698,5 +698,5 @@ game_date,market_type,bet_side,failing_condition,rejection_count
 2026_11_08,total,under,probability,1
 2026_11_08,total,under,my_model_probability,4
 2026_11_08,total,under,odds,2
-2026_11_08,total,under,ev,3
-2026_11_08,total,under,kelly,2
+2026_11_08,total,under,ev,4
+2026_11_08,total,under,kelly,3
