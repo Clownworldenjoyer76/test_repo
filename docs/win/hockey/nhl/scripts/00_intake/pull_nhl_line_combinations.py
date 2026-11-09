@@ -22,6 +22,7 @@ from pathlib import Path
 from tempfile import NamedTemporaryFile
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 
 BASE_DIR = Path(__file__).resolve().parents[2]  # docs/win/hockey/nhl
@@ -30,6 +31,8 @@ SCHEDULE_DIR = BASE_DIR / "00_intake" / "nhl_schedule"
 ROSTER_DIR = BASE_DIR / "sdv" / "lineup-strength"
 TEAM_MAP_PATH = BASE_DIR / "config" / "mapping" / "team_map_nhl.csv"
 SOURCE_ROOT = "https://www.dailyfaceoff.com/teams"
+NHL_API_ROOT = "https://api-web.nhle.com/v1"
+NHL_PLAYER_SEARCH = "https://search.d3.nhle.com/api/v1/search/player"
 EASTERN = ZoneInfo("America/New_York")
 
 TEAMS = {
@@ -250,17 +253,77 @@ def roster_index(path):
     return result
 
 
+def fetch_nhl_json(url, attempts=2):
+    """Fetch only the official NHL roster/search APIs, fail on invalid payloads."""
+    last_error = None
+    for retry in range(attempts):
+        try:
+            req = Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; NHLLineups/2.0)",
+                "Accept": "application/json",
+            })
+            with urlopen(req, timeout=20) as response:
+                return json.load(response)
+        except (HTTPError, URLError, OSError, TimeoutError, ValueError, UnicodeError) as exc:
+            last_error = exc
+            if retry + 1 < attempts:
+                time.sleep(1 + retry)
+    raise RuntimeError(f"NHL API request failed: {url}: {last_error}")
+
+
+def nhl_roster_index(payload, context):
+    """Index NHL-issued player IDs from a roster scoped to a specific team."""
+    if not isinstance(payload, dict):
+        raise ValueError(f"{context}: expected NHL roster object")
+    result = {}
+    present_groups = 0
+    for group in ("forwards", "defensemen", "goalies"):
+        entries = payload.get(group)
+        if entries is None:
+            continue
+        if not isinstance(entries, list):
+            raise ValueError(f"{context}: invalid {group} array")
+        present_groups += 1
+        for entry in entries:
+            if not isinstance(entry, dict):
+                raise ValueError(f"{context}: unexpected player record")
+            first, last = entry.get("firstName"), entry.get("lastName")
+            if isinstance(first, dict):
+                first = first.get("default")
+            if isinstance(last, dict):
+                last = last.get("default")
+            key = normalized(f"{first or ''} {last or ''}")
+            if not key:
+                raise ValueError(f"{context}: NHL player missing full name")
+            player_id = numeric_id(entry.get("id"), f"{context}: {key}")
+            result.setdefault(key, set()).add(player_id)
+    if not present_groups:
+        raise ValueError(f"{context}: response contained no NHL roster groups")
+    return result
+
+
 class PlayerResolver:
-    """Resolve a DFO player using same-team SDV rosters only; never fuzzy-match IDs."""
-    def __init__(self, roster_dir=ROSTER_DIR):
+    """Resolve exact team/player identities; never infer an ID from DFO's ID."""
+    def __init__(self, roster_dir=ROSTER_DIR, game_date=None, team_map=None, nhl_fetch=None):
         self.dir = Path(roster_dir)
         self.current = {}
         self.history = {}
-        self.stats = {"current": 0, "historical": 0}
+        self.official_current = {}
+        self.official_season = {}
+        self.search_cache = {}
+        self.failed_api_requests = []
+        self.nhl_fetch = nhl_fetch or fetch_nhl_json
+        self.team_map = team_map or {}
+        self.season = None
+        if game_date:
+            parsed = datetime.strptime(game_date, "%Y-%m-%d").date()
+            season_start = parsed.year if parsed.month >= 7 else parsed.year - 1
+            self.season = f"{season_start}{season_start + 1}"
+        self.stats = {"current": 0, "historical": 0, "nhl_current": 0,
+                      "nhl_season": 0, "nhl_search": 0}
 
     def _load(self, team):
-        path = self.dir / f"latest_{team}_roster.csv"
-        self.current[team] = roster_index(path)
+        self.current[team] = roster_index(self.dir / f"latest_{team}_roster.csv")
 
     def _historical(self, team):
         combined = {}
@@ -271,20 +334,96 @@ class PlayerResolver:
                 combined.setdefault(name, set()).update(ids)
         self.history[team] = combined
 
+    def _official_roster(self, team, current):
+        store = self.official_current if current else self.official_season
+        if team not in store:
+            suffix = "current" if current else self.season
+            url = f"{NHL_API_ROOT}/roster/{team}/{suffix}"
+            try:
+                store[team] = nhl_roster_index(self.nhl_fetch(url), url)
+            except (RuntimeError, ValueError, KeyError) as exc:
+                self.failed_api_requests.append(str(exc))
+                store[team] = {}
+        return store[team]
+
+    def _official_player_search(self, team, player_name, key):
+        """Search NHL players, only accept exact name PLUS official team verification."""
+        cache_key = (team, key)
+        if cache_key in self.search_cache:
+            return self.search_cache[cache_key]
+        url = NHL_PLAYER_SEARCH + "?" + urlencode({
+            "culture": "en-us", "limit": 100, "q": player_name,
+        })
+        try:
+            payload = self.nhl_fetch(url)
+            if not isinstance(payload, list):
+                raise ValueError("NHL search did not return a player array")
+            match_ids = set()
+            for player in payload:
+                if not isinstance(player, dict) or normalized(player.get("name")) != key:
+                    continue
+                player_id = numeric_id(player.get("playerId"), "NHL player search")
+                search_team = str(player.get("teamAbbrev") or "").strip().upper()
+                if search_team == team:
+                    match_ids.add(player_id)
+                    continue
+                # A search result may omit a team for an AHL call-up. Confirm
+                # the team through the official NHL player profile instead.
+                profile = self.nhl_fetch(f"{NHL_API_ROOT}/player/{player_id}/landing")
+                if not isinstance(profile, dict) or numeric_id(profile.get("playerId"), "NHL player profile") != player_id:
+                    raise ValueError(f"NHL profile failed to verify player {player_id}")
+                first = profile.get("firstName")
+                last = profile.get("lastName")
+                if isinstance(first, dict):
+                    first = first.get("default")
+                if isinstance(last, dict):
+                    last = last.get("default")
+                if normalized(f"{first or ''} {last or ''}") != key:
+                    continue
+                profile_team_id = str(profile.get("currentTeamId") or "").strip()
+                if profile_team_id == self.team_map[team]["team_id"]:
+                    match_ids.add(player_id)
+            result = match_ids
+        except (RuntimeError, ValueError, KeyError) as exc:
+            self.failed_api_requests.append(str(exc))
+            result = set()
+        self.search_cache[cache_key] = result
+        return result
+
     def resolve(self, team, player_name):
         if team not in self.current:
             self._load(team)
         key = normalized(player_name)
         matches = self.current[team].get(key, set())
-        source = "current"
-        if not matches:
-            if team not in self.history:
-                self._historical(team)
-            matches = self.history[team].get(key, set())
-            source = "historical"
+        if len(matches) == 1:
+            self.stats["current"] += 1
+            return next(iter(matches))
+        if len(matches) > 1:
+            raise ValueError(f"{team}: {player_name!r} ambiguous latest SDV roster IDs {sorted(matches)}")
+
+        if team not in self.history:
+            self._historical(team)
+        matches = self.history[team].get(key, set())
+        if len(matches) == 1:
+            self.stats["historical"] += 1
+            return next(iter(matches))
+        if len(matches) > 1:
+            raise ValueError(f"{team}: {player_name!r} ambiguous historical SDV roster IDs {sorted(matches)}")
+
+        for source, current in (("nhl_current", True), ("nhl_season", False)):
+            if not current and not self.season:
+                continue
+            matches = self._official_roster(team, current).get(key, set())
+            if len(matches) > 1:
+                raise ValueError(f"{team}: {player_name!r} ambiguous {source} IDs {sorted(matches)}")
+            if len(matches) == 1:
+                self.stats[source] += 1
+                return next(iter(matches))
+        matches = self._official_player_search(team, player_name, key)
         if len(matches) != 1:
-            raise ValueError(f"{team}: {player_name!r} SDV {source} roster match count={len(matches)}; cannot assign NHL player_id")
-        self.stats[source] += 1
+            raise ValueError(f"{team}: {player_name!r} cannot verify unique NHL player ID; "
+                             f"matches={sorted(matches)}; API errors={self.failed_api_requests[-3:]}")
+        self.stats["nhl_search"] += 1
         return next(iter(matches))
 
 
@@ -326,7 +465,7 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
         raise ValueError(f"Expected 32 teams, received {len(pages)}: missing={sorted(set(TEAMS)-set(pages))}")
     teams = read_team_map(team_map_path)
     scheduled = read_schedule(date_value, teams, schedule_dir)
-    resolver = PlayerResolver(roster_dir)
+    resolver = PlayerResolver(roster_dir, game_date=date_value, team_map=teams)
     rows = []
     crosswalk = {}
 
@@ -437,7 +576,8 @@ def main():
     path = write_csv(rows, date_value)
     print(f"CSV: {path}")
     print(f"Teams: 32/32 | Rows: {len(rows)} | Columns: {len(HEADERS)}")
-    print(f"Player crosswalks (unique DFO player IDs): {sum(stats.values())} | latest={stats['current']} historical={stats['historical']}")
+    print(f"Player crosswalks (unique DFO player IDs): {sum(stats.values())} | "
+          + " ".join(f"{key}={value}" for key, value in stats.items()))
     print(f"Rows with scheduled game_id: {sum(bool(row['game_id']) for row in rows)}")
 
 

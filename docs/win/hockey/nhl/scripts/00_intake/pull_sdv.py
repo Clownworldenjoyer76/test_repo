@@ -3826,84 +3826,199 @@ def build_game_goalie_features_asof(
 
 
 
-def _shift_player_team_weights(
+def normalize_historical_shift_team_names(
     prior_shifts: Any,
-) -> dict[str, dict[str, float]]:
-    """Allocate each player across historically observed teams in shift data.
+    prior_pbp: Any | None = None,
+) -> Any:
+    """Normalize NHL shift team names BEFORE SDV stint/RAPM/WAR calculations.
 
-    Resolve known UTF-8/Latin-1 mojibake only when the repaired spelling
-    is recognized by SportsDataverse's canonical NHL team-name mapping.
-    Never silently assign an unrecognized team or drop its shifts.
+    SportsDataverse's build_stints() recognizes canonical team names but does
+    not recognize source mojibake such as 'MontrÃ©al Canadiens'. Fixing only
+    the final player-to-team lookup does not repair omitted upstream stints.
+    Require all identifiable teams in prior PBP games to have matching shifts.
     """
     from sportsdataverse.nhl.nhl_player_impact_constants import team_fullname_to_abbr
 
     if frame_empty(prior_shifts):
-        raise RuntimeError("Cannot attribute player strength: empty shift source")
-    required = {"event_team", "ids_on"}
+        raise RuntimeError("Cannot normalize historical shift teams: empty shifts")
     pdf = as_pandas(prior_shifts)
-    if not required.issubset(pdf.columns):
-        raise RuntimeError(
-            f"Cannot attribute players: shifts missing {sorted(required - set(pdf.columns))}"
-        )
+    required = {"game_id", "game_seconds", "event_team", "ids_on", "ids_off"}
+    missing = required - set(pdf.columns)
+    if missing:
+        raise RuntimeError(f"Historical shifts missing fields: {sorted(missing)}")
 
-    # Normalize each distinct team label once, not once per shift event.
-    # The observed malformed label 'MontrÃ©al Canadiens' decodes to the
-    # recognized official spelling 'Montréal Canadiens'.
-    resolved_teams: dict[str, str | None] = {}
-    repaired_labels: dict[str, str] = {}
-
-    def resolve_team(label: str) -> str | None:
-        if label in resolved_teams:
-            return resolved_teams[label]
-        team = team_fullname_to_abbr(label)
-        candidate = label
-        if team is None:
+    repairs: dict[str, str] = {}
+    team_names: dict[str, str] = {}
+    unknown: set[str] = set()
+    active = (
+        pdf["ids_on"].fillna("").astype(str).str.strip().ne("")
+        | pdf["ids_off"].fillna("").astype(str).str.strip().ne("")
+    )
+    for raw in pdf.loc[active, "event_team"].fillna("").astype(str).unique():
+        canonical = raw.strip()
+        abbr = team_fullname_to_abbr(canonical)
+        if abbr is None:
+            candidate = canonical
             for _ in range(2):
                 try:
-                    decoded = candidate.encode("latin-1").decode("utf-8")
-                except (UnicodeEncodeError, UnicodeDecodeError):
+                    candidate = candidate.encode("latin-1").decode("utf-8")
+                except (UnicodeError, ValueError):
                     break
-                if decoded == candidate:
+                abbr = team_fullname_to_abbr(candidate)
+                if abbr is not None:
+                    canonical = candidate
                     break
-                candidate = decoded
-                team = team_fullname_to_abbr(candidate)
-                if team is not None:
-                    repaired_labels[label] = candidate
-                    break
-        resolved_teams[label] = team
-        return team
-
-    counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
-    unknown_teams: set[str] = set()
-    for team_full, id_text in zip(pdf["event_team"], pdf["ids_on"]):
-        if pd.isna(id_text) or not str(id_text).strip():
+        if abbr is None:
+            unknown.add(raw)
             continue
-        team_full = str(team_full).strip()
-        team = resolve_team(team_full)
-        if team is None:
-            unknown_teams.add(team_full)
-            continue
-        # Use the same comma-space ID convention as SDV's own build_stints.
-        for raw_id in str(id_text).split(", "):
-            player_id = normalize_player_id(raw_id)
-            if player_id and player_id != "0":
-                counts[player_id][team] += 1
-
-    if unknown_teams:
+        team_names[canonical] = abbr
+        if raw != canonical:
+            repairs[raw] = canonical
+    if unknown:
         raise RuntimeError(
-            "Unknown historical shift team labels after encoding repair: "
-            + repr(sorted(unknown_teams)[:12])
+            "Unrecognized source shift team names before RAPM/WAR: "
+            + repr(sorted(unknown)[:15])
         )
-    for original, corrected in sorted(repaired_labels.items()):
-        print(f"WAR SHIFT TEAM ENCODING REPAIRED | {original!r} -> {corrected!r}", flush=True)
-    if not counts:
-        raise RuntimeError("No player-team identities decoded from historical shifts")
-    return {
-        player_id: {
-            team: count / sum(by_team.values())
-            for team, count in sorted(by_team.items())
+    if repairs:
+        for raw, fixed in sorted(repairs.items()):
+            count = int((pdf["event_team"] == raw).sum())
+            print(
+                f"PLAYER-STRENGTH SHIFT TEAM REPAIR | {raw!r} -> {fixed!r} "
+                f"| rows={count}", flush=True,
+            )
+        pdf["event_team"] = pdf["event_team"].replace(repairs)
+
+    # SDV's build_stints() uses team_abbr preferentially when that column
+    # exists; merely repairing event_team would not change its model inputs.
+    # Validate the actual identifier used by the third-party model as well.
+    filled_abbr = False
+    if "team_abbr" in pdf.columns:
+        canonical_abbr = pdf["event_team"].map(team_names)
+        current_abbr = pdf["team_abbr"].fillna("").astype(str).str.strip()
+        inconsistent = active & current_abbr.ne("") & canonical_abbr.notna() & current_abbr.ne(canonical_abbr)
+        if inconsistent.any():
+            details = pdf.loc[inconsistent, ["game_id", "event_team", "team_abbr"]].head(8).to_dict("records")
+            raise RuntimeError(f"Conflicting shift team_abbr identities: {details}")
+        missing_abbr = active & current_abbr.eq("") & canonical_abbr.notna()
+        if missing_abbr.any():
+            pdf.loc[missing_abbr, "team_abbr"] = canonical_abbr.loc[missing_abbr]
+            filled_abbr = True
+            print(f"WAR SHIFT team_abbr RECOVERED | rows={int(missing_abbr.sum())}", flush=True)
+    print(
+        "WAR SHIFT TEAM FIELD | "
+        + ("team_abbr" if "team_abbr" in pdf.columns else "event_team"),
+        flush=True,
+    )
+
+    # Historical source PBP and shifts must describe the same TWO teams for
+    # every matched game. This detects partial team loss (including Montreal)
+    # before the third-party stint builder silently omits those records.
+    if not frame_empty(prior_pbp):
+        pbp = as_pandas(prior_pbp)
+        need = {"game_id", "home_abbr", "away_abbr"}
+        if not need.issubset(pbp.columns):
+            raise RuntimeError(
+                "Cannot verify pre-WAR team coverage: PBP missing "
+                + repr(sorted(need - set(pbp.columns)))
+            )
+        game_teams = pbp[["game_id", "home_abbr", "away_abbr"]].dropna(
+            subset=["game_id"]
+        ).drop_duplicates()
+        expected = {
+            (str(gid), str(abbr).strip())
+            for gid, home, away in game_teams.itertuples(index=False, name=None)
+            for abbr in (home, away)
+            if pd.notna(abbr) and str(abbr).strip()
         }
-        for player_id, by_team in counts.items()
+        shifted = pdf.loc[active, ["game_id", "event_team"]].dropna().drop_duplicates()
+        observed = {
+            (str(gid), team_names.get(str(name).strip()))
+            for gid, name in shifted.itertuples(index=False, name=None)
+        }
+        missing_coverage = sorted(expected - observed)
+        if missing_coverage:
+            raise RuntimeError(
+                f"Historical shift/PBP coverage mismatch: "
+                f"missing_game_team_pairs={len(missing_coverage)} "
+                f"sample={missing_coverage[:12]}; WAR not published"
+            )
+        print(
+            f"WAR GAME-TEAM COVERAGE PASS | pairs={len(expected)} "
+            f"| shift_pairs={len(observed)}", flush=True,
+        )
+
+    changed = bool(repairs) or filled_abbr
+    return pl.from_pandas(pdf) if changed and is_polars_frame(prior_shifts) else (
+        pdf if changed else prior_shifts
+    )
+
+
+def _shift_player_team_weights(
+    prior_shifts: Any,
+) -> dict[str, dict[str, float]]:
+    """Attribute player values by observed time-on-ice for each historical team.
+
+    Count actual seconds spent on the ice, not CHANGE-event counts. A player
+    traded mid-season receives shares proportional to time actually played.
+    Input team names MUST already be canonicalized before all SDV calculations.
+    """
+    from sportsdataverse.nhl.nhl_player_impact_constants import team_fullname_to_abbr
+
+    if frame_empty(prior_shifts):
+        raise RuntimeError("Cannot attribute WAR: empty historical shifts")
+    pdf = as_pandas(prior_shifts)
+    required = {"game_id", "game_seconds", "event_team", "ids_on", "ids_off"}
+    if not required.issubset(pdf.columns):
+        raise RuntimeError(
+            "Cannot attribute WAR: shifts missing "
+            + repr(sorted(required - set(pdf.columns)))
+        )
+    pdf["_seconds"] = pd.to_numeric(pdf["game_seconds"], errors="coerce")
+    if pdf["game_id"].isna().any() or pdf["_seconds"].isna().any():
+        raise RuntimeError("Historical shift records have invalid game/time keys")
+
+    def ids(raw: Any) -> set[str]:
+        if pd.isna(raw) or not str(raw).strip():
+            return set()
+        return {
+            player for entry in str(raw).split(",")
+            if (player := normalize_player_id(entry)) and player != "0"
+        }
+
+    seconds: dict[str, dict[str, float]] = defaultdict(lambda: defaultdict(float))
+    unmapped: set[str] = set()
+    for (_, team_name), group in pdf.groupby(["game_id", "event_team"], sort=False):
+        abbr = team_fullname_to_abbr(str(team_name).strip())
+        if abbr is None:
+            if any(ids(x) for x in group["ids_on"]) or any(ids(x) for x in group["ids_off"]):
+                unmapped.add(str(team_name))
+            continue
+        running: set[str] = set()
+        prior_second: float | None = None
+        for t, at_t in group.groupby("_seconds", sort=True):
+            current_second = float(t)
+            if prior_second is not None:
+                duration = current_second - prior_second
+                if duration < 0:
+                    raise RuntimeError("Unordered shift seconds detected")
+                if duration:
+                    for player in running:
+                        seconds[player][abbr] += duration
+            # All players leaving at a shared timestamp depart before on-ice
+            # sets are sampled, as in SDV's own build_stints implementation.
+            for off in at_t["ids_off"]:
+                running.difference_update(ids(off))
+            for on in at_t["ids_on"]:
+                running.update(ids(on))
+            prior_second = current_second
+    if unmapped:
+        raise RuntimeError(f"Unmapped historical shift teams: {sorted(unmapped)[:15]}")
+    if not seconds:
+        raise RuntimeError("No usable historical skater time-on-ice")
+    return {
+        player: {team: sec / total for team, sec in sorted(by_team.items())}
+        for player, by_team in seconds.items()
+        if (total := sum(by_team.values())) > 0
     }
 
 
@@ -4155,6 +4270,10 @@ def compute_lineup_team_metrics(
     ):
         return {}
 
+    # Canonicalize historical team names before *every* upstream SDV model;
+    # otherwise its stint builder drops malformed Montreal shift records.
+    prior_shifts = normalize_historical_shift_team_names(prior_shifts, prior_pbp)
+
     rapm = nhl.nhl_skater_rapm(
         prior_pbp,
         prior_shifts,
@@ -4250,6 +4369,49 @@ def compute_lineup_team_metrics(
         f"WAR PLAYER-TEAM RECONCILED | player_total={raw_war_total:.8f} "
         f"team_total={team_war_total:.8f}", flush=True,
     )
+
+    # Check the full source WAR identity and expose team components. A repaired
+    # positive league total alone is NOT evidence that individual WAR is right.
+    war_pdf = as_pandas(war)
+    components = ("ev_off", "ev_def", "pp", "pk", "pens", "faceoffs")
+    if all(col in war_pdf.columns for col in (*components, "gar", "war")):
+        from sportsdataverse.nhl.nhl_player_impact_constants import get_constants
+        goals_per_win = get_constants("nhl").goals_per_win
+        source_components = war_pdf.loc[:, components].apply(
+            pd.to_numeric, errors="coerce"
+        )
+        source_gar = pd.to_numeric(war_pdf["gar"], errors="coerce")
+        source_war = pd.to_numeric(war_pdf["war"], errors="coerce")
+        if (
+            source_components.isna().any().any()
+            or source_gar.isna().any()
+            or source_war.isna().any()
+            or (source_components.sum(axis=1) - source_gar).abs().max() > 1e-7
+            or (source_gar / goals_per_win - source_war).abs().max() > 1e-7
+        ):
+            raise RuntimeError("Player-level GAR/WAR component identity failed")
+        by_component = {
+            col: _player_metric_by_team(war, player_team, value_col=col, mode="sum")
+            for col in components
+        }
+        for team, war_value in sorted(metric_maps["skater_war"].items()):
+            parts = {col: by_component[col].get(team, 0.0) for col in components}
+            reconstructed = sum(parts.values()) / goals_per_win
+            if abs(reconstructed - war_value) > 1e-6:
+                raise RuntimeError(
+                    f"Team {team} WAR component reconciliation failed: "
+                    f"{reconstructed:.6f} != {war_value:.6f}"
+                )
+            print(
+                f"WAR TEAM COMPONENT AUDIT | {team} | war={war_value:+.6f} "
+                + " ".join(f"{key}={value:+.4f}" for key, value in parts.items()),
+                flush=True,
+            )
+    else:
+        raise RuntimeError(
+            "Upstream WAR missing required GAR component columns: "
+            + repr(sorted(set((*components, "gar", "war")) - set(war_pdf.columns)))
+        )
 
     teams = sorted(
         {
