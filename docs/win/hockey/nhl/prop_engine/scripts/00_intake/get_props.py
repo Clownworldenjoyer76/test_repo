@@ -5,9 +5,9 @@ Run after the NHL reconciliation step has produced:
   docs/win/hockey/nhl/00_intake/reconciled/NHL_YYYY_MM_DD.csv
 
 ESPN DraftKings (provider 100) does not label both sides of every Total
-market. Over/Under prices are written only when the side can be established
-from an ESPN label, equal prices on both sides, or an exact match to the
-corresponding one-sided threshold price. Unresolved pairs are not exported.
+market. Every observed player/market/betting line is exported, including
+lines with no price or no reliably identified Over/Under side. Unknown
+Over/Under prices are left blank; they never cause a line to be dropped.
 
 Only the seven requested markets are exported. Goals and PowerPlayPoints are
 one-sided 1+ prices represented as an equivalent Over 0.5 betting line.
@@ -197,7 +197,7 @@ def source_record(item: dict) -> dict | None:
     odds_price = price(american.get("value"))
     updated = str(item.get("lastUpdated") or "").strip()
     market_name = (item.get("type") or {}).get("name", "")
-    if not athlete_id or not odds_price or not updated or not isinstance(market_name, str):
+    if not athlete_id or not isinstance(market_name, str):
         return None
     return {
         "athlete_id": athlete_id,
@@ -248,43 +248,52 @@ def normalize_event(event_id: str, game_id: str, date_label: str, raw: list[dict
         })
 
     for (athlete, market, line), group in totals.items():
-        # A normal market has exactly two records at the same betting line.
-        if len(group) != 2:
+        # Export every ESPN betting line, even if zero, one, or several
+        # prices were supplied and their Over/Under sides are unknown.
+        over = ""
+        under = ""
+        updated = max((record["timestamp"] for record in group), default="")
+        athlete_url = group[0]["athlete_url"]
+
+        if len(group) == 1:
+            # An explicit ESPN label identifies the sole available side.
+            if group[0]["side"] == "over":
+                over = group[0]["price"]
+            elif group[0]["side"] == "under":
+                under = group[0]["price"]
+        elif len(group) == 2:
+            explicit_over = [r for r in group if r["side"] == "over"]
+            explicit_under = [r for r in group if r["side"] == "under"]
+            over_record = None
+            under_record = None
+            if len(explicit_over) == 1 and len(explicit_under) == 1:
+                over_record, under_record = explicit_over[0], explicit_under[0]
+            elif len(explicit_over) == 1 and not explicit_under and not group[1 - group.index(explicit_over[0])]["side"]:
+                over_record = explicit_over[0]
+                under_record = next(r for r in group if r is not over_record)
+            elif len(explicit_under) == 1 and not explicit_over and not group[1 - group.index(explicit_under[0])]["side"]:
+                under_record = explicit_under[0]
+                over_record = next(r for r in group if r is not under_record)
+            elif not explicit_over and not explicit_under:
+                if group[0]["price"] and group[0]["price"] == group[1]["price"]:
+                    # Both sides have the same verified price; order is irrelevant.
+                    over_record, under_record = group
+                else:
+                    threshold = line + Decimal("0.5")
+                    matching = equivalent.get((athlete, market, threshold), set())
+                    first_matches = bool(group[0]["price"] and group[0]["price"] in matching)
+                    second_matches = bool(group[1]["price"] and group[1]["price"] in matching)
+                    if first_matches != second_matches:
+                        over_record, under_record = (
+                            (group[0], group[1]) if first_matches else (group[1], group[0])
+                        )
+            if over_record is not None and under_record is not None:
+                over = over_record["price"]
+                under = under_record["price"]
+        # Conflicting or additional rows are not assigned guessed prices.
+        if not over or not under:
             unresolved += 1
-            continue
-        explicit_over = [r for r in group if r["side"] == "over"]
-        explicit_under = [r for r in group if r["side"] == "under"]
-        over_record = None
-        under_record = None
-        if len(explicit_over) == 1 and len(explicit_under) == 1:
-            over_record, under_record = explicit_over[0], explicit_under[0]
-        elif len(explicit_over) == 1 and not explicit_under and not group[1 - group.index(explicit_over[0])]["side"]:
-            over_record = explicit_over[0]
-            under_record = next(r for r in group if r is not over_record)
-        elif len(explicit_under) == 1 and not explicit_over and not group[1 - group.index(explicit_under[0])]["side"]:
-            under_record = explicit_under[0]
-            over_record = next(r for r in group if r is not under_record)
-        elif not explicit_over and not explicit_under:
-            if group[0]["price"] == group[1]["price"]:
-                # Both Over and Under have exactly the same price.
-                over_record, under_record = group
-            else:
-                threshold = line + Decimal("0.5")
-                matching = equivalent.get((athlete, market, threshold), set())
-                first_matches = group[0]["price"] in matching
-                second_matches = group[1]["price"] in matching
-                if first_matches != second_matches:
-                    over_record, under_record = (
-                        (group[0], group[1]) if first_matches else (group[1], group[0])
-                    )
-        if over_record is None or under_record is None:
-            unresolved += 1
-            continue
-        append_row(
-            athlete, market, line, over_record["price"], under_record["price"],
-            max(over_record["timestamp"], under_record["timestamp"]),
-            over_record["athlete_url"],
-        )
+        append_row(athlete, market, line, over, under, updated, athlete_url)
 
     for (athlete, market, line), group in singles.items():
         # Keep the last timestamp's price if ESPN returns duplicates.
@@ -413,7 +422,9 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
         name = names.get(record["player_id"], "")
         if not name:
             unnamed += 1
-            continue
+            # Preserve the player record; the verified ESPN athlete ID
+            # identifies the player when the name endpoint is unavailable.
+            name = record["player_id"]
         complete.append({**record, "player": name})
 
     output = prop_root / "00_intake" / f"{day}_nhl_props_data.csv"
@@ -422,8 +433,8 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
         print(f"WARNING: {len(failed_games)} ESPN games failed: "
               + "; ".join(failed_games), file=sys.stderr)
     if unresolved or unnamed:
-        print(f"WARNING: {unresolved} unresolved Over/Under prices; "
-              f"{unnamed} player names unavailable", file=sys.stderr)
+        print(f"WARNING: {unresolved} rows have missing Over/Under odds (rows retained); "
+              f"{unnamed} names unavailable (ESPN player IDs retained)", file=sys.stderr)
     return output, count, len(games), len(complete)
 
 
