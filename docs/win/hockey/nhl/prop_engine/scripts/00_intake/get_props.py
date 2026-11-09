@@ -11,6 +11,7 @@ Over/Under prices are left blank; they never cause a line to be dropped.
 
 Only the seven requested markets are exported. Goals uses the one-sided
 1+ price at Over 0.5; PowerPlayPoints uses each ESPN N+ price at Over N-0.5.
+The CSV timestamp is the actual UTC time this script collected the ESPN data.
 No non-ESPN odds sources or third-party Python packages are used.
 """
 
@@ -26,7 +27,7 @@ import tempfile
 import time
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
+from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -342,6 +343,24 @@ def load_games(day: str, nhl_root: Path) -> list[tuple[str, str]]:
     return games
 
 
+def captured_at_utc() -> str:
+    """UTC timestamp taken after an ESPN event response was received."""
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def timestamp_is_future(value: str, now_utc: datetime) -> bool:
+    """Detect impossible timestamps in daily CSVs from older versions."""
+    if not value:
+        return False
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            return True
+        return parsed.astimezone(timezone.utc) > now_utc
+    except ValueError:
+        return True
+
+
 def read_existing(path: Path) -> list[dict]:
     if not path.is_file():
         return []
@@ -355,6 +374,12 @@ def read_existing(path: Path) -> list[dict]:
 def merge_and_write(path: Path, new: list[dict]) -> int:
     """Safely update the daily CSV without losing previously fetched odds."""
     existing = read_existing(path)
+    # Never keep timestamps that had not occurred when the CSV was read.
+    # Preserve those rows and their betting lines; only clear their bad time.
+    now_utc = datetime.now(timezone.utc)
+    for record in existing:
+        if timestamp_is_future(str(record.get("timestamp", "")), now_utc):
+            record["timestamp"] = ""
     chosen: dict[tuple[str, ...], dict] = {}
     for record in [*existing, *new]:
         key = tuple(str(record.get(field, "")) for field in
@@ -406,7 +431,13 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
                 source_counts["Goals"] += 1
             elif name == POWER_PLAY_NAME:
                 source_counts["PowerPlayPoints"] += 1
+        # ESPN's lastUpdated can be later than the collection time. It is
+        # not safe to publish as a factual observation timestamp. Record
+        # the time this script actually received the odds instead.
+        observed_at = captured_at_utc()
         event_rows, missing = normalize_event(event_id, game_id, day, raw)
+        for record in event_rows:
+            record["timestamp"] = observed_at
         unresolved += missing
         records.extend(event_rows)
 
