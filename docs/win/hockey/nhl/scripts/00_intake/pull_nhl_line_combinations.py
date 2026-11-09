@@ -4,8 +4,8 @@
 Run from repository root:
     python docs/win/hockey/nhl/scripts/00_intake/pull_nhl_line_combinations.py
 
-Requires existing official NHL schedule and team mapping and SportsDataverse
-team rosters in this repository. Standard-library Python only.
+Uses repository NHL schedule when present and the NHL daily scoreboard otherwise.
+Requires existing team mapping and SportsDataverse team rosters. Standard library only.
 """
 
 from __future__ import annotations
@@ -208,8 +208,64 @@ def read_team_map(path=TEAM_MAP_PATH):
     return teams
 
 
-def read_schedule(date_value, teams, schedule_dir=SCHEDULE_DIR):
+def nhl_daily_schedule(date_value, teams, nhl_fetch=None):
+    """Get game IDs from the NHL's DATE-specific scoreboard (no guessing dates)."""
+    url = f"{NHL_API_ROOT}/score/{date_value}"
+    fetch = nhl_fetch or fetch_nhl_json
+    payload = fetch(url)
+    if not isinstance(payload, dict) or not isinstance(payload.get("games"), list):
+        raise ValueError(f"{url}: missing NHL games array")
+    if payload.get("currentDate") and payload["currentDate"] != date_value:
+        raise ValueError(f"{url}: response date differs from requested {date_value}")
+    schedule = {}
+    seen_games = set()
+    for index, game in enumerate(payload["games"]):
+        context = f"{url} games[{index}]"
+        if not isinstance(game, dict):
+            raise ValueError(f"{context}: game is not an object")
+        if game.get("gameDate") and game["gameDate"] != date_value:
+            raise ValueError(f"{context}: wrong game date {game['gameDate']}")
+        gid = numeric_id(game.get("id"), context)
+        if gid in seen_games:
+            raise ValueError(f"{context}: duplicate game ID {gid}")
+        seen_games.add(gid)
+        abbrs = []
+        for side in ("home", "away"):
+            team_data = game.get(f"{side}Team")
+            if not isinstance(team_data, dict):
+                raise ValueError(f"{context}: missing {side} team")
+            abbr = required(team_data, "abbrev", context).upper()
+            if abbr not in teams:
+                raise ValueError(f"{context}: unknown NHL {side} team {abbr}")
+            if team_data.get("id") is not None:
+                if numeric_id(team_data["id"], context) != teams[abbr]["team_id"]:
+                    raise ValueError(f"{context}: {abbr} team ID mismatches official mapping")
+            if abbr in schedule:
+                raise ValueError(f"{context}: multiple games for {abbr} on {date_value}; game_id ambiguous")
+            abbrs.append(abbr)
+        if abbrs[0] == abbrs[1]:
+            raise ValueError(f"{context}: team playing itself")
+        for abbr in abbrs:
+            schedule[abbr] = gid
+    return schedule
+
+
+def read_schedule(date_value, teams, schedule_dir=SCHEDULE_DIR, nhl_fetch=None):
     path = schedule_dir / f"NHL_{date_value.replace('-', '_')}.csv"
+    if not path.is_file():
+        print(f"Schedule CSV absent: {path.name}; checking official NHL scoreboard", flush=True)
+        try:
+            schedule = nhl_daily_schedule(date_value, teams, nhl_fetch=nhl_fetch)
+        except (RuntimeError, ValueError, TypeError, KeyError, OSError) as exc:
+            # Scraping all 32 team lineups does not depend on there being a local
+            # schedule. Never assign unverifiable game IDs; expose degradation.
+            print(f"WARNING: Official NHL schedule unavailable/invalid: {exc}", flush=True)
+            print("WARNING: Exporting all 32 teams with blank game_id values", flush=True)
+            return {}
+        print(f"Official NHL scoreboard: {len(schedule)//2} games; "
+              f"{len(schedule)} teams matched to game_id", flush=True)
+        return schedule
+
     games = read_csv(path, SCHEDULE_REQUIRED, allow_empty=True)
     schedule = {}
     seen_games = set()
@@ -236,6 +292,8 @@ def read_schedule(date_value, teams, schedule_dir=SCHEDULE_DIR):
             schedule[abbr] = gid
         if game["home_team_abbrev"].upper() == game["away_team_abbrev"].upper():
             raise ValueError(f"{context}: team playing itself")
+    print(f"Local NHL schedule: {len(schedule)//2} games; "
+          f"{len(schedule)} teams matched to game_id", flush=True)
     return schedule
 
 
