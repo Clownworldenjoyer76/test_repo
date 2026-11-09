@@ -103,6 +103,19 @@ UNRESOLVED_HEADERS = (
     "CapturedUTC", "date", "team_abbrev", "dfo_player_id",
     "player_name", "position_group", "reason",
 )
+MISSING_SLOT_HEADERS = (
+    "CapturedUTC", "date", "team_abbrev", "lineup_group",
+    "lineup_category", "position", "reason",
+)
+FIXED_LINEUP_SLOTS = {
+    **{f"f{i}": ("lw", "c", "rw") for i in range(1, 5)},
+    **{f"d{i}": ("ld", "rd") for i in range(1, 4)},
+    "g": ("g1", "g2"),
+    "pp1": tuple(f"sk{i}" for i in range(1, 6)),
+    "pp2": tuple(f"sk{i}" for i in range(1, 6)),
+    "pk1": tuple(f"sk{i}" for i in range(1, 5)),
+    "pk2": tuple(f"sk{i}" for i in range(1, 5)),
+}
 
 
 
@@ -621,6 +634,7 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
     rows = []
     crosswalk = {}
     unresolved = []
+    missing_slots = []
 
     for team in TEAMS:
         page = pages[team]
@@ -635,7 +649,6 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
         players = page.get("players")
         if not isinstance(players, list) or not players:
             raise ValueError(f"{context}: missing player assignments")
-        group_counts = {group: 0 for group in GROUP_CATEGORIES}
         used_slots = set()
         roles_by_dfo_id = {}
         for player in players:
@@ -679,7 +692,6 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
             if assignment_key in used_slots:
                 raise ValueError(f"{context_player}: duplicate lineup slot {assignment_key}")
             used_slots.add(assignment_key)
-            group_counts[group] += 1
             gtd = player.get("gameTimeDecision")
             if not isinstance(gtd, bool):
                 raise ValueError(f"{context_player}: gameTimeDecision must be true/false")
@@ -702,19 +714,25 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                 "lineup_source_url": str(page.get("source") or "").strip(),
                 "lineup_page_url": f"{SOURCE_ROOT}/{TEAMS[team]}/line-combinations",
             })
-        expected_counts = {
-            **{f"f{i}": 3 for i in range(1, 5)},
-            **{f"d{i}": 2 for i in range(1, 4)},
-            "g": 2, "pp1": 5, "pp2": 5, "pk1": 4, "pk2": 4,
-        }
-        unexpected = {g: (group_counts[g], required_count) for g, required_count in expected_counts.items()
-                      if group_counts[g] != required_count}
-        if unexpected:
-            raise ValueError(f"{context}: incomplete lineup assignments: {unexpected}")
+        # DFO pages may omit expected lineup positions; an empty position
+        # means unknown, not an invalid page and not an invented player.
+        # Duplicate/unknown slots are already rejected above.
+        for group, positions in FIXED_LINEUP_SLOTS.items():
+            for position in positions:
+                if (team, group, position) not in used_slots:
+                    missing_slots.append({
+                        "CapturedUTC": captured,
+                        "date": date_value,
+                        "team_abbrev": team,
+                        "lineup_group": group,
+                        "lineup_category": GROUP_CATEGORIES[group],
+                        "position": position,
+                        "reason": "not present in Daily Faceoff source",
+                    })
 
     if not rows or len({r["team_abbrev"] for r in rows}) != 32:
         raise ValueError("Lineup export incomplete")
-    return rows, resolver.stats, unresolved
+    return rows, resolver.stats, unresolved, missing_slots
 
 
 def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
@@ -755,6 +773,26 @@ def write_unresolved(unresolved, date_value, output_dir=LINEUPS_DIR):
     return target
 
 
+def write_missing_slots(missing_slots, date_value, output_dir=LINEUPS_DIR):
+    """Export expected lineup positions absent from DFO, without inventing players."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    target = output_dir / f"{date_value}_line_combinations_missing_slots.csv"
+    temporary = None
+    try:
+        with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=output_dir,
+                                prefix=".lineup_missing_slots_", suffix=".tmp", delete=False) as f:
+            temporary = f.name
+            writer = csv.DictWriter(f, fieldnames=MISSING_SLOT_HEADERS,
+                                    lineterminator="\n", extrasaction="raise")
+            writer.writeheader()
+            writer.writerows(missing_slots)
+        os.replace(temporary, target)
+    finally:
+        if temporary and os.path.exists(temporary):
+            os.unlink(temporary)
+    return target
+
+
 def main():
     if len(TEAMS) != 32 or len(set(TEAMS.values())) != 32:
         raise ValueError("Team list must contain 32 unique NHL team URLs")
@@ -767,15 +805,23 @@ def main():
         print(f"Fetched {index}/32: {abbrev} ({len(pages[abbrev]['players'])} assignments)", flush=True)
         if index < len(TEAMS):
             time.sleep(0.3)
-    rows, stats, unresolved = build_rows(pages, date_value, captured)
+    rows, stats, unresolved, missing_slots = build_rows(pages, date_value, captured)
     path = write_csv(rows, date_value)
     report = write_unresolved(unresolved, date_value)
+    missing_report = write_missing_slots(missing_slots, date_value)
     print(f"CSV: {path}")
     print(f"Unresolved report: {report} | identities: {len(unresolved)}")
+    print(f"Missing lineup slots report: {missing_report} | absent positions: {len(missing_slots)}")
     print(f"Teams: 32/32 | Rows: {len(rows)} | Columns: {len(HEADERS)}")
     print(f"Player crosswalks (unique DFO player IDs): {sum(stats.values())} | "
           + " ".join(f"{key}={value}" for key, value in stats.items()))
     print(f"Rows with scheduled game_id: {sum(bool(row['game_id']) for row in rows)}")
+    if missing_slots:
+        print(f"WARNING: {len(missing_slots)} expected lineup positions absent from "
+              "Daily Faceoff source; existing assignments retained, no players invented", flush=True)
+        for slot in missing_slots:
+            print(f"  MISSING {slot['team_abbrev']} {slot['lineup_group']} "
+                  f"{slot['position']}", flush=True)
     if unresolved:
         print(f"WARNING: {len(unresolved)} team/player identities lack a verified NHL player_id; "
               "their assignment rows were retained with a blank player_id", flush=True)
