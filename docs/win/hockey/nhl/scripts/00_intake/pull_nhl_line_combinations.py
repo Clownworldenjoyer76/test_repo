@@ -297,8 +297,9 @@ def read_schedule(date_value, teams, schedule_dir=SCHEDULE_DIR, nhl_fetch=None):
     return schedule
 
 
-def roster_index(path):
-    records = read_csv(path, ("id", "first_name_default", "last_name_default", "position_group"))
+def roster_index(path, allow_empty=False):
+    records = read_csv(path, ("id", "first_name_default", "last_name_default", "position_group"),
+                       allow_empty=allow_empty)
     result = {}
     for line, item in enumerate(records, start=2):
         context = f"{path} row {line}"
@@ -387,9 +388,22 @@ class PlayerResolver:
         combined = {}
         paths = sorted(self.dir.glob(f"*_{team}_roster.csv"))
         paths = [path for path in paths if not path.name.startswith("latest_")]
+        required_columns = {"id", "first_name_default", "last_name_default", "position_group"}
+        skipped = []
         for path in paths:
-            for name, ids in roster_index(path).items():
+            # Older SDV snapshots sometimes contain only a newline (no roster
+            # schema). Such files are not player-identity evidence. Ignore them
+            # without weakening validation of any populated, compatible roster.
+            with path.open(encoding="utf-8-sig", newline="") as handle:
+                fields = next(csv.reader(handle), [])
+            if not required_columns.issubset(set(fields)):
+                skipped.append(path.name)
+                continue
+            for name, ids in roster_index(path, allow_empty=True).items():
                 combined.setdefault(name, set()).update(ids)
+        if skipped:
+            print(f"{team}: ignored {len(skipped)} archived SDV roster file(s) without "
+                  f"player columns (first: {skipped[0]})", flush=True)
         self.history[team] = combined
 
     def _official_roster(self, team, current):
