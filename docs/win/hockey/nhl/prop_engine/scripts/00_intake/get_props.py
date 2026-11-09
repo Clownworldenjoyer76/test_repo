@@ -12,12 +12,13 @@ Over/Under prices are left blank; they never cause a line to be dropped.
 Only the seven requested markets are exported. Goals uses the one-sided
 1+ price at Over 0.5; PowerPlayPoints uses each ESPN N+ price at Over N-0.5.
 The CSV timestamp is the actual UTC time this script collected the ESPN data.
+Each run replaces today's CSV from the current ESPN responses. Previously
+saved betting lines are never carried over. Each row has a timestamp.
 No non-ESPN odds sources or third-party Python packages are used.
 """
 
 from __future__ import annotations
 
-import argparse
 import csv
 import json
 import os
@@ -348,47 +349,25 @@ def captured_at_utc() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
-def timestamp_is_future(value: str, now_utc: datetime) -> bool:
-    """Detect impossible timestamps in daily CSVs from older versions."""
-    if not value:
-        return False
-    try:
-        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
-        if parsed.tzinfo is None:
-            return True
-        return parsed.astimezone(timezone.utc) > now_utc
-    except ValueError:
-        return True
+def write_daily_csv(path: Path, records: list[dict], *, day: str,
+                    expected_game_ids: set[str]) -> int:
+    """Replace today's entire CSV with the current ESPN pull, never old rows."""
+    chosen: dict[tuple[str, ...], dict[str, str]] = {}
+    for record in records:
+        row = {field: str(record.get(field, "")) for field in OUTPUT_FIELDS}
+        if row["date"] != day or row["game_id"] not in expected_game_ids:
+            raise ValueError(f"Prop row is not from an expected {day} game: {row}")
+        if not row["timestamp"].strip():
+            raise ValueError(f"Prop row has no collection timestamp: {row}")
+        key = tuple(row[field] for field in (
+            "date", "game_id", "player", "line", "market"
+        ))
+        if key in chosen:
+            raise ValueError(f"Duplicate ESPN prop key in current pull: {key}")
+        chosen[key] = row
 
-
-def read_existing(path: Path) -> list[dict]:
-    if not path.is_file():
-        return []
-    with path.open("r", encoding="utf-8-sig", newline="") as handle:
-        reader = csv.DictReader(handle)
-        if tuple(reader.fieldnames or ()) != OUTPUT_FIELDS:
-            raise ValueError(f"Existing CSV has unexpected headers: {path}")
-        return list(reader)
-
-
-def merge_and_write(path: Path, new: list[dict]) -> int:
-    """Safely update the daily CSV without losing previously fetched odds."""
-    existing = read_existing(path)
-    # Never keep timestamps that had not occurred when the CSV was read.
-    # Preserve those rows and their betting lines; only clear their bad time.
-    now_utc = datetime.now(timezone.utc)
-    for record in existing:
-        if timestamp_is_future(str(record.get("timestamp", "")), now_utc):
-            record["timestamp"] = ""
-    chosen: dict[tuple[str, ...], dict] = {}
-    for record in [*existing, *new]:
-        key = tuple(str(record.get(field, "")) for field in
-                    ("date", "game_id", "player", "line", "market"))
-        prior = chosen.get(key)
-        if prior is None or str(record["timestamp"]) >= str(prior["timestamp"]):
-            chosen[key] = {field: str(record.get(field, "")) for field in OUTPUT_FIELDS}
-    rows = sorted(chosen.values(), key=lambda r: (
-        r["game_id"], r["market"], r["player"], r["line"], r["timestamp"]
+    rows = sorted(chosen.values(), key=lambda row: (
+        row["game_id"], row["market"], row["player"], row["line"]
     ))
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = None
@@ -403,7 +382,7 @@ def merge_and_write(path: Path, new: list[dict]) -> int:
             writer.writerows(rows)
         os.replace(temporary, path)
     finally:
-        if temporary and temporary.exists():
+        if temporary is not None and temporary.exists():
             temporary.unlink()
     return len(rows)
 
@@ -441,8 +420,9 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
         unresolved += missing
         records.extend(event_rows)
 
-    if games and len(failed_games) == len(games):
-        raise RuntimeError("Every ESPN game request failed; refusing to replace the daily CSV. "
+    if failed_games:
+        raise RuntimeError("ESPN prop retrieval failed for today's game(s); "
+                           "refusing to write a partial CSV: "
                            + "; ".join(failed_games))
 
     player_urls: dict[str, str] = {}
@@ -472,10 +452,9 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
         complete.append({**record, "player": name})
 
     output = prop_root / "00_intake" / f"{day}_nhl_props_data.csv"
-    count = merge_and_write(output, complete)
-    if failed_games:
-        print(f"WARNING: {len(failed_games)} ESPN games failed: "
-              + "; ".join(failed_games), file=sys.stderr)
+    count = write_daily_csv(
+        output, complete, day=day, expected_game_ids={game_id for _, game_id in games}
+    )
     if unresolved or unnamed:
         print(f"WARNING: {unresolved} rows have missing Over/Under odds (rows retained); "
               f"{unnamed} names unavailable (ESPN player IDs retained)", file=sys.stderr)
@@ -487,24 +466,17 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument(
-        "--date", default=datetime.now(ET).strftime("%Y_%m_%d"),
-        help="NHL game date, YYYY_MM_DD or YYYY-MM-DD (default: today in Eastern Time)",
-    )
-    args = parser.parse_args()
-    day = args.date.replace("-", "_")
-    try:
-        if datetime.strptime(day, "%Y_%m_%d").strftime("%Y_%m_%d") != day:
-            raise ValueError(day)
-    except ValueError:
-        parser.error(f"Invalid --date: {args.date}")
+    # The workflow is for today's games only; do not accept a historical date.
+    if len(sys.argv) != 1:
+        raise SystemExit("ERROR: This script collects today's NHL games only; no date options are supported.")
+    day = datetime.now(ET).strftime("%Y_%m_%d")
     try:
         output, total, games, fresh = run(day)
     except Exception as exc:
-        parser.exit(1, f"ERROR: {exc}\n")
+        print(f"ERROR: {exc}", file=sys.stderr)
+        sys.exit(1)
     print(f"WROTE {output}")
-    print(f"GAMES {games} | NEW ROWS {fresh} | CSV ROWS {total}")
+    print(f"GAMES {games} | ESPN ROWS {fresh} | CSV ROWS {total}")
 
 
 if __name__ == "__main__":
