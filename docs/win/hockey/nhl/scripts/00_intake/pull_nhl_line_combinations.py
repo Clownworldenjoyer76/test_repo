@@ -99,27 +99,16 @@ NAME_VARIANTS = (
     {"zach", "zack", "zachary"},
 )
 
-UNRESOLVED_HEADERS = (
+# The ONE optional diagnostic CSV: resolved name variants and unresolved IDs.
+NAME_MISMATCH_HEADERS = (
     "CapturedUTC", "date", "team_abbrev", "dfo_player_id",
-    "player_name", "position_group", "reason",
+    "dfo_player_name", "position_group", "nhl_roster_name", "nhl_player_id",
+    "match_status", "match_source", "match_method", "roster_candidates", "reason",
 )
-MISSING_SLOT_HEADERS = (
-    "CapturedUTC", "date", "team_abbrev", "lineup_group",
-    "lineup_category", "position", "reason",
-)
-SOURCE_ISSUE_HEADERS = (
-    "CapturedUTC", "date", "team_abbrev", "player_index", "player_name",
-    "lineup_group", "lineup_category", "position", "issue", "details",
-)
-FIXED_LINEUP_SLOTS = {
-    **{f"f{i}": ("lw", "c", "rw") for i in range(1, 5)},
-    **{f"d{i}": ("ld", "rd") for i in range(1, 4)},
-    "g": ("g1", "g2"),
-    "pp1": tuple(f"sk{i}" for i in range(1, 6)),
-    "pp2": tuple(f"sk{i}" for i in range(1, 6)),
-    "pk1": tuple(f"sk{i}" for i in range(1, 5)),
-    "pk2": tuple(f"sk{i}" for i in range(1, 5)),
-}
+
+# Exactly the three report types introduced by previous versions of THIS script.
+# Clean them up after a successful export; never remove unrelated CSVs.
+LEGACY_REPORT_SUFFIXES = ("_unresolved.csv", "_missing_slots.csv", "_source_issues.csv")
 
 
 
@@ -388,6 +377,11 @@ def name_variant_match(source, candidate):
     if len(a) < 2 or len(b) < 2 or a[-1] != b[-1]:
         return False
     first_equivalent = a[0] == b[0] or any({a[0], b[0]} <= variants for variants in NAME_VARIANTS)
+    # Generic short/long first names: Max/Maxwell, Chris/Christopher,
+    # Dan/Daniel. A minimum three-character prefix plus exact surname is
+    # required; same team and same on-ice role are checked by the resolver.
+    if not first_equivalent and min(len(a[0]), len(b[0])) >= 3:
+        first_equivalent = a[0].startswith(b[0]) or b[0].startswith(a[0])
     if not first_equivalent:
         return False
     # A changed given name must be from the explicit nickname list; the
@@ -461,6 +455,7 @@ class PlayerResolver:
         self.official_season_roles = {}
         self.search_cache = {}
         self.failed_api_requests = []
+        self.last_match = None
         self.nhl_fetch = nhl_fetch or fetch_nhl_json
         self.team_map = team_map or {}
         self.season = None
@@ -569,8 +564,41 @@ class PlayerResolver:
         self.search_cache[cache_key] = result
         return result
 
+    def suggestions(self, team, player_name, role=None):
+        """Readable same-surname candidates from loaded, team-scoped rosters.
+
+        These are NOT accepted as NHL IDs. They are diagnostic hints only.
+        """
+        words = normalized(player_name).split()
+        if len(words) < 2:
+            return ""
+        surname = words[-1]
+        options = {}
+        for source, roster_attr, role_attr in (
+            ("current", "current", "current_roles"),
+            ("historical", "history", "history_roles"),
+            ("nhl_current", "official_current", "official_current_roles"),
+            ("nhl_season", "official_season", "official_season_roles"),
+        ):
+            roster = getattr(self, roster_attr).get(team, {})
+            roles = getattr(self, role_attr).get(team, {})
+            for candidate, ids in roster.items():
+                if candidate.split()[-1:] != [surname]:
+                    continue
+                for pid in ids:
+                    if role and roles.get(pid) != role:
+                        continue
+                    options.setdefault(pid, (candidate, source))
+        return "; ".join(f"{name.title()} [NHL {pid}, {source}]" for pid, (name, source)
+                         in sorted(options.items(), key=lambda item: item[0]))[:900]
+
     def resolve(self, team, player_name, role=None):
-        """Resolve a unique NHL ID without guessing across teams or positions."""
+        """Use exact identity first, then a unique same-team, same-role name variant.
+
+        No purely surname-based automatic matches are allowed. The chosen
+        NHL roster name/method are retained for the name-mismatch report.
+        """
+        self.last_match = None
         if role is not None and role not in {"forwards", "defensemen", "goalies"}:
             raise ValueError(f"{team} {player_name}: invalid positional role {role}")
         key = normalized(player_name)
@@ -581,16 +609,23 @@ class PlayerResolver:
                 raise ValueError(f"{team}: {player_name!r} ambiguous {source} roster IDs {sorted(exact)}")
             if exact:
                 self.stats[source] += 1
+                self.last_match = {"nhl_roster_name": key.title(), "source": source, "method": "exact"}
                 return next(iter(exact))
-            variants = set()
+            variants = {}
             for candidate, ids in index.items():
                 if candidate != key and name_variant_match(key, candidate):
-                    variants.update(i for i in ids if not role or positions.get(i) == role)
+                    for pid in ids:
+                        if not role or positions.get(pid) == role:
+                            variants[pid] = candidate
             if len(variants) > 1:
-                raise ValueError(f"{team}: {player_name!r} ambiguous {source} name variants {sorted(variants)}")
+                raise ValueError(f"{team}: {player_name!r} ambiguous {source} name variants "
+                                 f"{sorted(variants)}")
             if variants:
+                pid, matched_name = next(iter(variants.items()))
                 self.stats[source] += 1
-                return next(iter(variants))
+                self.last_match = {"nhl_roster_name": matched_name.title(),
+                                   "source": source, "method": "verified_name_variant"}
+                return pid
             return None
 
         if team not in self.current:
@@ -618,6 +653,7 @@ class PlayerResolver:
             raise ValueError(f"{team}: {player_name!r} cannot verify unique NHL player ID; "
                              f"matches={sorted(matches)}; API errors={self.failed_api_requests[-3:]}")
         self.stats["nhl_search"] += 1
+        self.last_match = {"nhl_roster_name": player_name, "source": "nhl_search", "method": "exact"}
         return next(iter(matches))
 
 
@@ -652,9 +688,8 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
     resolver = PlayerResolver(roster_dir, game_date=date_value, team_map=teams)
     rows = []
     crosswalk = {}
-    unresolved = []
-    missing_slots = []
-    source_issues = []
+    name_mismatches = []
+    source_issues = []  # In-memory only; never emitted as an extra file.
 
     for team in TEAMS:
         page = pages[team]
@@ -753,6 +788,7 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
             identity_key = (team, dfo_id or f"missing_at_row_{i}", normalized(name))
             if identity_key not in crosswalk:
                 if not name:
+                    resolver.last_match = None
                     reason = "Cannot resolve NHL ID: source player name missing"
                     player_id = ""
                 else:
@@ -763,13 +799,21 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                     except (ValueError, FileNotFoundError, RuntimeError, OSError) as exc:
                         player_id = ""
                         reason = str(exc)
+                match = resolver.last_match or {}
                 if not player_id:
                     resolver.stats["unresolved"] += 1
-                    unresolved.append({
+                if not player_id or (match.get("method") == "verified_name_variant"):
+                    position_role = "" if dfo_id in conflicting_roles else (roles_by_dfo_id.get(dfo_id) or "")
+                    name_mismatches.append({
                         "CapturedUTC": captured, "date": date_value,
                         "team_abbrev": team, "dfo_player_id": dfo_id,
-                        "player_name": name,
-                        "position_group": "" if dfo_id in conflicting_roles else (roles_by_dfo_id.get(dfo_id) or ""),
+                        "dfo_player_name": name, "position_group": position_role,
+                        "nhl_roster_name": match.get("nhl_roster_name", ""),
+                        "nhl_player_id": player_id,
+                        "match_status": "matched_variant" if player_id else "unresolved",
+                        "match_source": match.get("source", ""),
+                        "match_method": match.get("method", ""),
+                        "roster_candidates": "" if player_id else resolver.suggestions(team, name, role=position_role or None),
                         "reason": reason,
                     })
                 crosswalk[identity_key] = player_id
@@ -807,30 +851,12 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                 "lineup_page_url": f"{SOURCE_ROOT}/{TEAMS[team]}/line-combinations",
             })
 
-        # Baseline slots are a *reporting reference*, not a requirement. Any
-        # additional observed f5/d4/pp3/pk3 units are audited dynamically.
-        all_groups = set(FIXED_LINEUP_SLOTS) | observed_groups
-        for group in sorted(all_groups):
-            _, expected_positions = expected_unit(group)
-            if not expected_positions:
-                continue
-            category, _ = expected_unit(group)
-            for position in expected_positions:
-                if (team, group, position) not in used_slots:
-                    missing_slots.append({
-                        "CapturedUTC": captured, "date": date_value,
-                        "team_abbrev": team, "lineup_group": group,
-                        "lineup_category": category, "position": position,
-                        "reason": "not present in Daily Faceoff source",
-                    })
-        local_issues = sum(x["team_abbrev"] == team for x in source_issues)
-        if local_issues:
-            print(f"{team}: retained all {len(players)} source assignments; "
-                  f"{local_issues} layout/data warning(s), see source_issues CSV", flush=True)
+        # Source lineups may be incomplete; an empty lineup position is not
+        # a player record and is not fabricated or reported as an error.
 
     if not rows or len({r["team_abbrev"] for r in rows}) != 32:
         raise ValueError("Lineup export incomplete: at least one team had no player assignments")
-    return rows, resolver.stats, unresolved, missing_slots, source_issues
+    return rows, resolver.stats, name_mismatches
 
 
 def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
@@ -851,19 +877,23 @@ def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
     return target
 
 
-def write_unresolved(unresolved, date_value, output_dir=LINEUPS_DIR):
-    """Always refresh the audit file, including a header-only file on success."""
+def write_name_mismatches(mismatches, date_value, output_dir=LINEUPS_DIR):
+    """Write ONE useful diagnostic file, and only when mismatches exist."""
     output_dir.mkdir(parents=True, exist_ok=True)
-    target = output_dir / f"{date_value}_line_combinations_unresolved.csv"
+    target = output_dir / f"{date_value}_line_combinations_name_mismatches.csv"
+    if not mismatches:
+        if target.is_file():
+            target.unlink()  # Prevent stale name-mismatch reports.
+        return None
     temporary = None
     try:
         with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=output_dir,
-                                prefix=".lineup_unresolved_", suffix=".tmp", delete=False) as f:
+                                prefix=".lineup_name_mismatch_", suffix=".tmp", delete=False) as f:
             temporary = f.name
-            writer = csv.DictWriter(f, fieldnames=UNRESOLVED_HEADERS, lineterminator="\n",
+            writer = csv.DictWriter(f, fieldnames=NAME_MISMATCH_HEADERS, lineterminator="\n",
                                     extrasaction="raise")
             writer.writeheader()
-            writer.writerows(unresolved)
+            writer.writerows(mismatches)
         os.replace(temporary, target)
     finally:
         if temporary and os.path.exists(temporary):
@@ -871,44 +901,19 @@ def write_unresolved(unresolved, date_value, output_dir=LINEUPS_DIR):
     return target
 
 
-def write_missing_slots(missing_slots, date_value, output_dir=LINEUPS_DIR):
-    """Export expected lineup positions absent from DFO, without inventing players."""
-    output_dir.mkdir(parents=True, exist_ok=True)
-    target = output_dir / f"{date_value}_line_combinations_missing_slots.csv"
-    temporary = None
-    try:
-        with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=output_dir,
-                                prefix=".lineup_missing_slots_", suffix=".tmp", delete=False) as f:
-            temporary = f.name
-            writer = csv.DictWriter(f, fieldnames=MISSING_SLOT_HEADERS,
-                                    lineterminator="\n", extrasaction="raise")
-            writer.writeheader()
-            writer.writerows(missing_slots)
-        os.replace(temporary, target)
-    finally:
-        if temporary and os.path.exists(temporary):
-            os.unlink(temporary)
-    return target
+def remove_unwanted_previous_reports(output_dir=LINEUPS_DIR):
+    """Remove ONLY CSV report types created by earlier lineup scraper versions.
 
-
-def write_source_issues(source_issues, date_value, output_dir=LINEUPS_DIR):
-    """Explicitly record source variation without discarding any assignments."""
-    output_dir.mkdir(parents=True, exist_ok=True)
-    target = output_dir / f"{date_value}_line_combinations_source_issues.csv"
-    temporary = None
-    try:
-        with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=output_dir,
-                                prefix=".lineup_source_issues_", suffix=".tmp", delete=False) as f:
-            temporary = f.name
-            writer = csv.DictWriter(f, fieldnames=SOURCE_ISSUE_HEADERS,
-                                    lineterminator="\n", extrasaction="raise")
-            writer.writeheader()
-            writer.writerows(source_issues)
-        os.replace(temporary, target)
-    finally:
-        if temporary and os.path.exists(temporary):
-            os.unlink(temporary)
-    return target
+    Includes November 9 if a later day's scrape performs the cleanup. No
+    goalie CSV, schedule CSV, main lineup CSV, or other report is touched.
+    """
+    removed = []
+    for suffix in LEGACY_REPORT_SUFFIXES:
+        for path in output_dir.glob(f"????-??-??_line_combinations{suffix}"):
+            if path.is_file():
+                path.unlink()
+                removed.append(path.name)
+    return sorted(removed)
 
 
 def main():
@@ -923,31 +928,24 @@ def main():
         print(f"Fetched {index}/32: {abbrev} ({len(pages[abbrev]['players'])} assignments)", flush=True)
         if index < len(TEAMS):
             time.sleep(0.3)
-    rows, stats, unresolved, missing_slots, source_issues = build_rows(pages, date_value, captured)
+    rows, stats, name_mismatches = build_rows(pages, date_value, captured)
     path = write_csv(rows, date_value)
-    report = write_unresolved(unresolved, date_value)
-    missing_report = write_missing_slots(missing_slots, date_value)
-    source_issues_report = write_source_issues(source_issues, date_value)
+    mismatch_report = write_name_mismatches(name_mismatches, date_value)
+    removed = remove_unwanted_previous_reports()
     print(f"CSV: {path}")
-    print(f"Unresolved report: {report} | identities: {len(unresolved)}")
-    print(f"Missing lineup slots report: {missing_report} | absent positions: {len(missing_slots)}")
-    print(f"Source layout/data issues report: {source_issues_report} | issues: {len(source_issues)}")
+    if mismatch_report:
+        print(f"Name mismatches CSV: {mismatch_report} | "
+              f"matched={sum(m['match_status'] == 'matched_variant' for m in name_mismatches)} "
+              f"unresolved={sum(m['match_status'] == 'unresolved' for m in name_mismatches)}")
     print(f"Teams: 32/32 | Rows: {len(rows)} | Columns: {len(HEADERS)}")
-    print(f"Player crosswalks (unique DFO player IDs): {sum(stats.values())} | "
+    print(f"Player identities checked: {sum(stats.values())} | "
           + " ".join(f"{key}={value}" for key, value in stats.items()))
     print(f"Rows with scheduled game_id: {sum(bool(row['game_id']) for row in rows)}")
-    if missing_slots:
-        print(f"WARNING: {len(missing_slots)} expected lineup positions absent from "
-              "Daily Faceoff source; existing assignments retained, no players invented", flush=True)
-        for slot in missing_slots:
-            print(f"  MISSING {slot['team_abbrev']} {slot['lineup_group']} "
-                  f"{slot['position']}", flush=True)
-    if unresolved:
-        print(f"WARNING: {len(unresolved)} team/player identities lack a verified NHL player_id; "
-              "their assignment rows were retained with a blank player_id", flush=True)
-        for problem in unresolved:
-            print(f"  UNRESOLVED {problem['team_abbrev']}: "
-                  f"{problem['player_name']} (DFO {problem['dfo_player_id']})", flush=True)
+    if removed:
+        print(f"Removed {len(removed)} unwanted reports from previous script versions: "
+              + ", ".join(removed))
+    if any(m["match_status"] == "unresolved" for m in name_mismatches):
+        print("WARNING: See the name mismatches CSV for unresolved NHL player IDs.")
 
 
 
