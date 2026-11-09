@@ -9,8 +9,8 @@ market. Every observed player/market/betting line is exported, including
 lines with no price or no reliably identified Over/Under side. Unknown
 Over/Under prices are left blank; they never cause a line to be dropped.
 
-Only the seven requested markets are exported. Goals and PowerPlayPoints are
-one-sided 1+ prices represented as an equivalent Over 0.5 betting line.
+Only the seven requested markets are exported. Goals uses the one-sided
+1+ price at Over 0.5; PowerPlayPoints uses each ESPN N+ price at Over N-0.5.
 No non-ESPN odds sources or third-party Python packages are used.
 """
 
@@ -24,7 +24,7 @@ import re
 import sys
 import tempfile
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
@@ -227,8 +227,10 @@ def normalize_event(event_id: str, game_id: str, date_label: str, raw: list[dict
             totals[(athlete, TOTAL_MARKETS[name], line)].append(record)
         elif name == GOALS_NAME:
             singles[(athlete, "Goals", Decimal("0.5"))].append(record)
-        elif name == POWER_PLAY_NAME and line == Decimal("1"):
-            singles[(athlete, "PowerPlayPoints", Decimal("0.5"))].append(record)
+        elif (name == POWER_PLAY_NAME and line is not None
+              and line > 0 and line == line.to_integral_value()):
+            # Preserve every power-play-points betting line ESPN provides.
+            singles[(athlete, "PowerPlayPoints", line - Decimal("0.5"))].append(record)
 
     rows: list[dict] = []
     unresolved = 0
@@ -387,12 +389,23 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
     records: list[dict] = []
     unresolved = 0
     failed_games: list[str] = []
+    source_counts: Counter[str] = Counter()
     for event_id, game_id in games:
         try:
             raw = fetch_props(event_id)
         except Exception as exc:
             failed_games.append(f"{event_id}: {exc}")
             continue
+        # Report what ESPN actually supplied, independently of odds assignment.
+        for item in raw:
+            source_type = item.get("type")
+            name = source_type.get("name") if isinstance(source_type, dict) else None
+            if name in TOTAL_MARKETS:
+                source_counts[TOTAL_MARKETS[name]] += 1
+            elif name == GOALS_NAME:
+                source_counts["Goals"] += 1
+            elif name == POWER_PLAY_NAME:
+                source_counts["PowerPlayPoints"] += 1
         event_rows, missing = normalize_event(event_id, game_id, day, raw)
         unresolved += missing
         records.extend(event_rows)
@@ -435,6 +448,10 @@ def run(day: str, *, nhl_root: Path = NHL_ROOT,
     if unresolved or unnamed:
         print(f"WARNING: {unresolved} rows have missing Over/Under odds (rows retained); "
               f"{unnamed} names unavailable (ESPN player IDs retained)", file=sys.stderr)
+    markets = ("SOG", "Points", "Assists", "Goals", "Blocked_Shots", "Saves", "PowerPlayPoints")
+    print("ESPN SOURCE MARKET RECORDS: " + " ".join(
+        f"{market}={source_counts[market]}" for market in markets
+    ))
     return output, count, len(games), len(complete)
 
 
