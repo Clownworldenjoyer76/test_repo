@@ -1,0 +1,24 @@
+name: NHL Player Props
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  get-props:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get props
+        run: python3 docs/win/hockey/nhl/prop_engine/scripts/00_intake/get_props.py
+
+      - name: Commit CSV
+        run: |
+          git add docs/win/hockey/nhl/prop_engine/00_intake/
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update NHL player props'
+            git push
+          fi
