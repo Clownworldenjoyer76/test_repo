@@ -5,7 +5,8 @@ Run from repository root:
     python docs/win/hockey/nhl/scripts/00_intake/pull_nhl_line_combinations.py
 
 Uses repository NHL schedule when present and the NHL daily scoreboard otherwise.
-Requires existing team mapping and SportsDataverse team rosters. Standard library only.
+Normalizes IDs from team rosters and official NHL records; unresolved players
+are retained with blank IDs and exported in a separate audit CSV. Python stdlib only.
 """
 
 from __future__ import annotations
@@ -87,6 +88,22 @@ GROUP_CATEGORIES = {
     **{f"d{i}": "ev" for i in range(1, 4)},
     "g": "ev", "pp1": "pp", "pp2": "pp", "pk1": "pk", "pk2": "pk", "ir": "oi",
 }
+
+# Verifiable nickname/full-name variations, never generic fuzzy matching.
+# A candidate is accepted ONLY when it is unique within the same team's
+# NHL/SDV roster, with the expected even-strength position group.
+NAME_VARIANTS = (
+    {"alex", "alexander"}, {"gabe", "gabriel"}, {"jacob", "jake"},
+    {"joe", "joseph"}, {"josh", "joshua"}, {"matt", "matthew"},
+    {"nick", "nicholas"}, {"sam", "samuel"},
+    {"zach", "zack", "zachary"},
+)
+
+UNRESOLVED_HEADERS = (
+    "CapturedUTC", "date", "team_abbrev", "dfo_player_id",
+    "player_name", "position_group", "reason",
+)
+
 
 
 class NextDataParser(HTMLParser):
@@ -297,10 +314,11 @@ def read_schedule(date_value, teams, schedule_dir=SCHEDULE_DIR, nhl_fetch=None):
     return schedule
 
 
-def roster_index(path, allow_empty=False):
+def roster_index(path, allow_empty=False, include_roles=False):
     records = read_csv(path, ("id", "first_name_default", "last_name_default", "position_group"),
                        allow_empty=allow_empty)
     result = {}
+    roles = {}
     for line, item in enumerate(records, start=2):
         context = f"{path} row {line}"
         player_id = numeric_id(required(item, "id", context), context)
@@ -308,8 +326,38 @@ def roster_index(path, allow_empty=False):
         key = normalized(name)
         if not key:
             raise ValueError(f"{context}: no normalized player name")
+        role = required(item, "position_group", context).lower()
+        if role not in {"forwards", "defensemen", "goalies"}:
+            raise ValueError(f"{context}: unexpected position_group {role}")
+        if player_id in roles and roles[player_id] != role:
+            raise ValueError(f"{context}: conflicting position group for NHL ID {player_id}")
+        roles[player_id] = role
         result.setdefault(key, set()).add(player_id)
-    return result
+    return (result, roles) if include_roles else result
+
+
+def role_of_lineup_group(group):
+    if group in {"f1", "f2", "f3", "f4"}:
+        return "forwards"
+    if group in {"d1", "d2", "d3"}:
+        return "defensemen"
+    if group == "g":
+        return "goalies"
+    return None
+
+
+def name_variant_match(source, candidate):
+    """Exact surname and first-name equivalence; optional extra middle names."""
+    a, b = normalized(source).split(), normalized(candidate).split()
+    if len(a) < 2 or len(b) < 2 or a[-1] != b[-1]:
+        return False
+    first_equivalent = a[0] == b[0] or any({a[0], b[0]} <= variants for variants in NAME_VARIANTS)
+    if not first_equivalent:
+        return False
+    # A changed given name must be from the explicit nickname list; the
+    # remaining names cannot conflict if both source and candidate supply them.
+    middle_a, middle_b = a[1:-1], b[1:-1]
+    return not (middle_a and middle_b and middle_a != middle_b)
 
 
 def fetch_nhl_json(url, attempts=2):
@@ -330,11 +378,12 @@ def fetch_nhl_json(url, attempts=2):
     raise RuntimeError(f"NHL API request failed: {url}: {last_error}")
 
 
-def nhl_roster_index(payload, context):
+def nhl_roster_index(payload, context, include_roles=False):
     """Index NHL-issued player IDs from a roster scoped to a specific team."""
     if not isinstance(payload, dict):
         raise ValueError(f"{context}: expected NHL roster object")
     result = {}
+    roles = {}
     present_groups = 0
     for group in ("forwards", "defensemen", "goalies"):
         entries = payload.get(group)
@@ -356,9 +405,10 @@ def nhl_roster_index(payload, context):
                 raise ValueError(f"{context}: NHL player missing full name")
             player_id = numeric_id(entry.get("id"), f"{context}: {key}")
             result.setdefault(key, set()).add(player_id)
+            roles[player_id] = group
     if not present_groups:
         raise ValueError(f"{context}: response contained no NHL roster groups")
-    return result
+    return (result, roles) if include_roles else result
 
 
 class PlayerResolver:
@@ -367,8 +417,12 @@ class PlayerResolver:
         self.dir = Path(roster_dir)
         self.current = {}
         self.history = {}
+        self.current_roles = {}
+        self.history_roles = {}
         self.official_current = {}
         self.official_season = {}
+        self.official_current_roles = {}
+        self.official_season_roles = {}
         self.search_cache = {}
         self.failed_api_requests = []
         self.nhl_fetch = nhl_fetch or fetch_nhl_json
@@ -379,13 +433,15 @@ class PlayerResolver:
             season_start = parsed.year if parsed.month >= 7 else parsed.year - 1
             self.season = f"{season_start}{season_start + 1}"
         self.stats = {"current": 0, "historical": 0, "nhl_current": 0,
-                      "nhl_season": 0, "nhl_search": 0}
+                      "nhl_season": 0, "nhl_search": 0, "unresolved": 0}
 
     def _load(self, team):
-        self.current[team] = roster_index(self.dir / f"latest_{team}_roster.csv")
+        self.current[team], self.current_roles[team] = roster_index(
+            self.dir / f"latest_{team}_roster.csv", include_roles=True)
 
     def _historical(self, team):
         combined = {}
+        roles = {}
         paths = sorted(self.dir.glob(f"*_{team}_roster.csv"))
         paths = [path for path in paths if not path.name.startswith("latest_")]
         required_columns = {"id", "first_name_default", "last_name_default", "position_group"}
@@ -399,24 +455,33 @@ class PlayerResolver:
             if not required_columns.issubset(set(fields)):
                 skipped.append(path.name)
                 continue
-            for name, ids in roster_index(path, allow_empty=True).items():
+            index, positions = roster_index(path, allow_empty=True, include_roles=True)
+            for name, ids in index.items():
                 combined.setdefault(name, set()).update(ids)
+            for player_id, group in positions.items():
+                if player_id in roles and roles[player_id] != group:
+                    raise ValueError(f"{path}: conflicting role for {player_id}")
+                roles[player_id] = group
         if skipped:
             print(f"{team}: ignored {len(skipped)} archived SDV roster file(s) without "
                   f"player columns (first: {skipped[0]})", flush=True)
         self.history[team] = combined
+        self.history_roles[team] = roles
 
     def _official_roster(self, team, current):
         store = self.official_current if current else self.official_season
+        role_store = self.official_current_roles if current else self.official_season_roles
         if team not in store:
             suffix = "current" if current else self.season
             url = f"{NHL_API_ROOT}/roster/{team}/{suffix}"
             try:
-                store[team] = nhl_roster_index(self.nhl_fetch(url), url)
+                store[team], role_store[team] = nhl_roster_index(
+                    self.nhl_fetch(url), url, include_roles=True)
             except (RuntimeError, ValueError, KeyError) as exc:
                 self.failed_api_requests.append(str(exc))
                 store[team] = {}
-        return store[team]
+                role_store[team] = {}
+        return store[team], role_store[team]
 
     def _official_player_search(self, team, player_name, key):
         """Search NHL players, only accept exact name PLUS official team verification."""
@@ -462,35 +527,50 @@ class PlayerResolver:
         self.search_cache[cache_key] = result
         return result
 
-    def resolve(self, team, player_name):
+    def resolve(self, team, player_name, role=None):
+        """Resolve a unique NHL ID without guessing across teams or positions."""
+        if role is not None and role not in {"forwards", "defensemen", "goalies"}:
+            raise ValueError(f"{team} {player_name}: invalid positional role {role}")
+        key = normalized(player_name)
+
+        def check(source, index, positions):
+            exact = {i for i in index.get(key, ()) if not role or positions.get(i) == role}
+            if len(exact) > 1:
+                raise ValueError(f"{team}: {player_name!r} ambiguous {source} roster IDs {sorted(exact)}")
+            if exact:
+                self.stats[source] += 1
+                return next(iter(exact))
+            variants = set()
+            for candidate, ids in index.items():
+                if candidate != key and name_variant_match(key, candidate):
+                    variants.update(i for i in ids if not role or positions.get(i) == role)
+            if len(variants) > 1:
+                raise ValueError(f"{team}: {player_name!r} ambiguous {source} name variants {sorted(variants)}")
+            if variants:
+                self.stats[source] += 1
+                return next(iter(variants))
+            return None
+
         if team not in self.current:
             self._load(team)
-        key = normalized(player_name)
-        matches = self.current[team].get(key, set())
-        if len(matches) == 1:
-            self.stats["current"] += 1
-            return next(iter(matches))
-        if len(matches) > 1:
-            raise ValueError(f"{team}: {player_name!r} ambiguous latest SDV roster IDs {sorted(matches)}")
+        matched = check("current", self.current[team], self.current_roles[team])
+        if matched:
+            return matched
 
         if team not in self.history:
             self._historical(team)
-        matches = self.history[team].get(key, set())
-        if len(matches) == 1:
-            self.stats["historical"] += 1
-            return next(iter(matches))
-        if len(matches) > 1:
-            raise ValueError(f"{team}: {player_name!r} ambiguous historical SDV roster IDs {sorted(matches)}")
+        matched = check("historical", self.history[team], self.history_roles[team])
+        if matched:
+            return matched
 
         for source, current in (("nhl_current", True), ("nhl_season", False)):
             if not current and not self.season:
                 continue
-            matches = self._official_roster(team, current).get(key, set())
-            if len(matches) > 1:
-                raise ValueError(f"{team}: {player_name!r} ambiguous {source} IDs {sorted(matches)}")
-            if len(matches) == 1:
-                self.stats[source] += 1
-                return next(iter(matches))
+            index, positions = self._official_roster(team, current)
+            matched = check(source, index, positions)
+            if matched:
+                return matched
+
         matches = self._official_player_search(team, player_name, key)
         if len(matches) != 1:
             raise ValueError(f"{team}: {player_name!r} cannot verify unique NHL player ID; "
@@ -540,6 +620,7 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
     resolver = PlayerResolver(roster_dir, game_date=date_value, team_map=teams)
     rows = []
     crosswalk = {}
+    unresolved = []
 
     for team in TEAMS:
         page = pages[team]
@@ -556,6 +637,16 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
             raise ValueError(f"{context}: missing player assignments")
         group_counts = {group: 0 for group in GROUP_CATEGORIES}
         used_slots = set()
+        roles_by_dfo_id = {}
+        for player in players:
+            if not isinstance(player, dict):
+                continue  # the main validation loop raises below
+            dfo_id = str(player.get("playerId") or "")
+            role = role_of_lineup_group(str(player.get("groupIdentifier") or "").lower())
+            if role and dfo_id in roles_by_dfo_id and roles_by_dfo_id[dfo_id] != role:
+                raise ValueError(f"{context}: player {dfo_id} assigned conflicting EV roles")
+            if role:
+                roles_by_dfo_id[dfo_id] = role
 
         for i, player in enumerate(players):
             context_player = f"{context} player[{i}]"
@@ -570,7 +661,19 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
             if identity_key in crosswalk and crosswalk[identity_key][0] != normalized(name):
                 raise ValueError(f"{context_player}: DFO player ID {dfo_id} used with conflicting names")
             if identity_key not in crosswalk:
-                crosswalk[identity_key] = (normalized(name), resolver.resolve(team, name))
+                try:
+                    player_id = resolver.resolve(team, name, role=roles_by_dfo_id.get(dfo_id))
+                except (ValueError, FileNotFoundError, RuntimeError) as exc:
+                    player_id = ""
+                    resolver.stats["unresolved"] += 1
+                    unresolved.append({
+                        "CapturedUTC": captured, "date": date_value,
+                        "team_abbrev": team, "dfo_player_id": dfo_id,
+                        "player_name": name,
+                        "position_group": roles_by_dfo_id.get(dfo_id) or "",
+                        "reason": str(exc),
+                    })
+                crosswalk[identity_key] = (normalized(name), player_id)
             player_id = crosswalk[identity_key][1]
             assignment_key = (team, group, position)
             if assignment_key in used_slots:
@@ -611,7 +714,7 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
 
     if not rows or len({r["team_abbrev"] for r in rows}) != 32:
         raise ValueError("Lineup export incomplete")
-    return rows, resolver.stats
+    return rows, resolver.stats, unresolved
 
 
 def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
@@ -632,6 +735,26 @@ def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
     return target
 
 
+def write_unresolved(unresolved, date_value, output_dir=LINEUPS_DIR):
+    """Always refresh the audit file, including a header-only file on success."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    target = output_dir / f"{date_value}_line_combinations_unresolved.csv"
+    temporary = None
+    try:
+        with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=output_dir,
+                                prefix=".lineup_unresolved_", suffix=".tmp", delete=False) as f:
+            temporary = f.name
+            writer = csv.DictWriter(f, fieldnames=UNRESOLVED_HEADERS, lineterminator="\n",
+                                    extrasaction="raise")
+            writer.writeheader()
+            writer.writerows(unresolved)
+        os.replace(temporary, target)
+    finally:
+        if temporary and os.path.exists(temporary):
+            os.unlink(temporary)
+    return target
+
+
 def main():
     if len(TEAMS) != 32 or len(set(TEAMS.values())) != 32:
         raise ValueError("Team list must contain 32 unique NHL team URLs")
@@ -644,13 +767,22 @@ def main():
         print(f"Fetched {index}/32: {abbrev} ({len(pages[abbrev]['players'])} assignments)", flush=True)
         if index < len(TEAMS):
             time.sleep(0.3)
-    rows, stats = build_rows(pages, date_value, captured)
+    rows, stats, unresolved = build_rows(pages, date_value, captured)
     path = write_csv(rows, date_value)
+    report = write_unresolved(unresolved, date_value)
     print(f"CSV: {path}")
+    print(f"Unresolved report: {report} | identities: {len(unresolved)}")
     print(f"Teams: 32/32 | Rows: {len(rows)} | Columns: {len(HEADERS)}")
     print(f"Player crosswalks (unique DFO player IDs): {sum(stats.values())} | "
           + " ".join(f"{key}={value}" for key, value in stats.items()))
     print(f"Rows with scheduled game_id: {sum(bool(row['game_id']) for row in rows)}")
+    if unresolved:
+        print(f"WARNING: {len(unresolved)} team/player identities lack a verified NHL player_id; "
+              "their assignment rows were retained with a blank player_id", flush=True)
+        for problem in unresolved:
+            print(f"  UNRESOLVED {problem['team_abbrev']}: "
+                  f"{problem['player_name']} (DFO {problem['dfo_player_id']})", flush=True)
+
 
 
 if __name__ == "__main__":
