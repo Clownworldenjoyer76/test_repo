@@ -107,6 +107,10 @@ MISSING_SLOT_HEADERS = (
     "CapturedUTC", "date", "team_abbrev", "lineup_group",
     "lineup_category", "position", "reason",
 )
+SOURCE_ISSUE_HEADERS = (
+    "CapturedUTC", "date", "team_abbrev", "player_index", "player_name",
+    "lineup_group", "lineup_category", "position", "issue", "details",
+)
 FIXED_LINEUP_SLOTS = {
     **{f"f{i}": ("lw", "c", "rw") for i in range(1, 5)},
     **{f"d{i}": ("ld", "rd") for i in range(1, 4)},
@@ -350,13 +354,32 @@ def roster_index(path, allow_empty=False, include_roles=False):
 
 
 def role_of_lineup_group(group):
-    if group in {"f1", "f2", "f3", "f4"}:
+    """Detect any numbered even-strength line, not just the usual 4F/3D."""
+    group = str(group or "").lower().strip()
+    if re.fullmatch(r"f[1-9][0-9]*", group):
         return "forwards"
-    if group in {"d1", "d2", "d3"}:
+    if re.fullmatch(r"d[1-9][0-9]*", group):
         return "defensemen"
     if group == "g":
         return "goalies"
     return None
+
+
+def expected_unit(group):
+    """Optional expectations used for auditing ONLY; never reject source rows."""
+    if re.fullmatch(r"f[1-9][0-9]*", group):
+        return "ev", ("lw", "c", "rw")
+    if re.fullmatch(r"d[1-9][0-9]*", group):
+        return "ev", ("ld", "rd")
+    if group == "g":
+        return "ev", ("g1", "g2")
+    if re.fullmatch(r"pp[1-9][0-9]*", group):
+        return "pp", tuple(f"sk{i}" for i in range(1, 6))
+    if re.fullmatch(r"pk[1-9][0-9]*", group):
+        return "pk", tuple(f"sk{i}" for i in range(1, 5))
+    if group == "ir":
+        return "oi", ()
+    return None, ()
 
 
 def name_variant_match(source, candidate):
@@ -468,12 +491,18 @@ class PlayerResolver:
             if not required_columns.issubset(set(fields)):
                 skipped.append(path.name)
                 continue
-            index, positions = roster_index(path, allow_empty=True, include_roles=True)
+            try:
+                index, positions = roster_index(path, allow_empty=True, include_roles=True)
+            except (ValueError, csv.Error, UnicodeError, OSError) as exc:
+                skipped.append(f"{path.name} (invalid data: {exc})")
+                continue
             for name, ids in index.items():
                 combined.setdefault(name, set()).update(ids)
             for player_id, group in positions.items():
                 if player_id in roles and roles[player_id] != group:
-                    raise ValueError(f"{path}: conflicting role for {player_id}")
+                    # Archived roster inconsistency: do not choose an identity.
+                    skipped.append(f"{path.name} (conflicting archived role {player_id})")
+                    continue
                 roles[player_id] = group
         if skipped:
             print(f"{team}: ignored {len(skipped)} archived SDV roster file(s) without "
@@ -604,24 +633,14 @@ def timestamp(value, context):
 
 
 def validate_group(player, context):
-    group = required(player, "groupIdentifier", context).lower()
-    category = required(player, "categoryIdentifier", context).lower()
-    position = required(player, "positionIdentifier", context).lower()
-    if group not in GROUP_CATEGORIES or category != GROUP_CATEGORIES[group]:
-        raise ValueError(f"{context}: unknown/conflicting lineup group/category {group}/{category}")
-    if group.startswith("f") and position not in {"lw", "c", "rw"}:
-        raise ValueError(f"{context}: forward with unexpected position {position}")
-    if group.startswith("d") and position not in {"ld", "rd"}:
-        raise ValueError(f"{context}: defensive pair with unexpected position {position}")
-    if group == "g" and position not in {"g1", "g2"}:
-        raise ValueError(f"{context}: goalie slot unexpected {position}")
-    if group.startswith("pp") and position not in {f"sk{j}" for j in range(1, 6)}:
-        raise ValueError(f"{context}: power play slot unexpected {position}")
-    if group.startswith("pk") and position not in {f"sk{j}" for j in range(1, 5)}:
-        raise ValueError(f"{context}: penalty kill slot unexpected {position}")
-    if group == "ir" and not re.fullmatch(r"ir[1-9][0-9]*", position):
-        raise ValueError(f"{context}: injury/off-ice slot unexpected {position}")
-    return group, category, position
+    """Keep DFO's raw assignments; unit structure is not a fixed schema.
+
+    A fourth defensive pair (d4), extra forward line, third power-play unit,
+    or a newly introduced group must not invalidate the other 32 team pages.
+    Empty fields are kept as empty strings and surfaced in source_issues.csv.
+    """
+    return tuple(str(player.get(field) or "").strip().lower() for field in (
+        "groupIdentifier", "categoryIdentifier", "positionIdentifier"))
 
 
 def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
@@ -635,6 +654,7 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
     crosswalk = {}
     unresolved = []
     missing_slots = []
+    source_issues = []
 
     for team in TEAMS:
         page = pages[team]
@@ -642,59 +662,131 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
         if not isinstance(page, dict):
             raise ValueError(f"{context}: invalid page payload")
         if required(page, "teamAbbreviation", context).upper() != team or required(page, "teamSlug", context) != TEAMS[team]:
+            # Wrong team pages cannot safely be attributed to the requested team.
             raise ValueError(f"{context}: wrong team/slug in payload")
         if normalized(required(page, "teamName", context)) != normalized(teams[team]["team"]):
             raise ValueError(f"{context}: team name doesn't match official NHL mapping")
-        last_updated = timestamp(required(page, "updatedAt", context), context)
         players = page.get("players")
         if not isinstance(players, list) or not players:
+            # No lineup data is not a complete 32-team scrape.
             raise ValueError(f"{context}: missing player assignments")
+
+        def note(i, player, issue, details):
+            source_issues.append({
+                "CapturedUTC": captured, "date": date_value, "team_abbrev": team,
+                "player_index": i if i is not None else "",
+                "player_name": str((player or {}).get("name") or "").strip(),
+                "lineup_group": str((player or {}).get("groupIdentifier") or "").strip().lower(),
+                "lineup_category": str((player or {}).get("categoryIdentifier") or "").strip().lower(),
+                "position": str((player or {}).get("positionIdentifier") or "").strip().lower(),
+                "issue": issue, "details": details,
+            })
+
+        try:
+            last_updated = timestamp(required(page, "updatedAt", context), context)
+        except ValueError as exc:
+            last_updated = ""
+            note(None, None, "invalid_lineup_timestamp", str(exc))
+
         used_slots = set()
+        observed_groups = set()
         roles_by_dfo_id = {}
-        for player in players:
+        conflicting_roles = set()
+        source_names_by_dfo_id = {}
+
+        # Even-strength group identifies the player's primary position. Dynamic
+        # F/D numbering is intentional: e.g. d4 is a legitimate DFO group.
+        for i, player in enumerate(players):
             if not isinstance(player, dict):
-                continue  # the main validation loop raises below
-            dfo_id = str(player.get("playerId") or "")
-            role = role_of_lineup_group(str(player.get("groupIdentifier") or "").lower())
-            if role and dfo_id in roles_by_dfo_id and roles_by_dfo_id[dfo_id] != role:
-                raise ValueError(f"{context}: player {dfo_id} assigned conflicting EV roles")
-            if role:
-                roles_by_dfo_id[dfo_id] = role
+                note(i, None, "invalid_player_record", "player array element is not an object")
+                continue
+            dfo_id = str(player.get("playerId") or "").strip()
+            role = role_of_lineup_group(player.get("groupIdentifier"))
+            if role and dfo_id:
+                previous = roles_by_dfo_id.get(dfo_id)
+                if previous and previous != role:
+                    conflicting_roles.add(dfo_id)
+                    note(i, player, "conflicting_even_strength_roles",
+                         f"same DFO player listed as {previous} and {role}; NHL ID must be disambiguated")
+                else:
+                    roles_by_dfo_id[dfo_id] = role
 
         for i, player in enumerate(players):
-            context_player = f"{context} player[{i}]"
             if not isinstance(player, dict):
-                raise ValueError(f"{context_player}: not a JSON object")
-            for field in PLAYER_REQUIRED:
-                required(player, field, context_player)
-            dfo_id = numeric_id(player["playerId"], context_player)
-            name = required(player, "name", context_player)
-            group, category, position = validate_group(player, context_player)
-            identity_key = (team, dfo_id)
-            if identity_key in crosswalk and crosswalk[identity_key][0] != normalized(name):
-                raise ValueError(f"{context_player}: DFO player ID {dfo_id} used with conflicting names")
+                # Preserve source-array coverage with a blank assignment row
+                # rather than pretend this slot never existed.
+                player = {}
+            dfo_id = str(player.get("playerId") or "").strip()
+            if not dfo_id.isdecimal() or int(dfo_id) <= 0:
+                note(i, player, "missing_or_invalid_dfo_player_id", repr(dfo_id))
+                dfo_id = ""
+            name = str(player.get("name") or "").strip()
+            if not name:
+                note(i, player, "missing_player_name", "Cannot resolve player identity")
+            group, category, position = validate_group(player, f"{context} player[{i}]")
+            if not group or not category or not position:
+                note(i, player, "missing_assignment_field",
+                     "Source lacks one or more of groupIdentifier/categoryIdentifier/positionIdentifier")
+            observed_groups.add(group) if group else None
+            expected_category, expected_positions = expected_unit(group)
+            if expected_category is None and group:
+                note(i, player, "new_source_group", "Unrecognized group retained exactly as supplied")
+            elif expected_category and category and category != expected_category:
+                note(i, player, "unexpected_category",
+                     f"expected {expected_category}, source supplied {category}; retained source value")
+            if expected_positions and position and position not in expected_positions:
+                note(i, player, "unusual_source_position",
+                     f"source position is outside usual slots {expected_positions}; retained")
+            assignment_key = (team, group, position)
+            if group and position and assignment_key in used_slots:
+                note(i, player, "duplicate_source_slot",
+                     f"Source repeated group={group!r}, position={position!r}; both rows retained")
+            used_slots.add(assignment_key)
+
+            if dfo_id:
+                old_name = source_names_by_dfo_id.get(dfo_id)
+                if old_name is not None and old_name != normalized(name):
+                    note(i, player, "dfo_id_name_conflict",
+                         f"DFO ID {dfo_id} appears with more than one player name; resolved independently")
+                else:
+                    source_names_by_dfo_id[dfo_id] = normalized(name)
+            identity_key = (team, dfo_id or f"missing_at_row_{i}", normalized(name))
             if identity_key not in crosswalk:
-                try:
-                    player_id = resolver.resolve(team, name, role=roles_by_dfo_id.get(dfo_id))
-                except (ValueError, FileNotFoundError, RuntimeError) as exc:
+                if not name:
+                    reason = "Cannot resolve NHL ID: source player name missing"
                     player_id = ""
+                else:
+                    role = None if dfo_id in conflicting_roles else roles_by_dfo_id.get(dfo_id)
+                    try:
+                        player_id = resolver.resolve(team, name, role=role)
+                        reason = ""
+                    except (ValueError, FileNotFoundError, RuntimeError, OSError) as exc:
+                        player_id = ""
+                        reason = str(exc)
+                if not player_id:
                     resolver.stats["unresolved"] += 1
                     unresolved.append({
                         "CapturedUTC": captured, "date": date_value,
                         "team_abbrev": team, "dfo_player_id": dfo_id,
                         "player_name": name,
-                        "position_group": roles_by_dfo_id.get(dfo_id) or "",
-                        "reason": str(exc),
+                        "position_group": "" if dfo_id in conflicting_roles else (roles_by_dfo_id.get(dfo_id) or ""),
+                        "reason": reason,
                     })
-                crosswalk[identity_key] = (normalized(name), player_id)
-            player_id = crosswalk[identity_key][1]
-            assignment_key = (team, group, position)
-            if assignment_key in used_slots:
-                raise ValueError(f"{context_player}: duplicate lineup slot {assignment_key}")
-            used_slots.add(assignment_key)
+                crosswalk[identity_key] = player_id
+            player_id = crosswalk[identity_key]
+
             gtd = player.get("gameTimeDecision")
-            if not isinstance(gtd, bool):
-                raise ValueError(f"{context_player}: gameTimeDecision must be true/false")
+            if isinstance(gtd, bool):
+                gtd_value = "true" if gtd else "false"
+            elif isinstance(gtd, str) and gtd.strip().lower() in {"true", "false"}:
+                gtd_value = gtd.strip().lower()
+            else:
+                # Missing/null is unknown, not 'false'.
+                gtd_value = ""
+                if gtd is not None:
+                    note(i, player, "invalid_game_time_decision",
+                         f"Unexpected value {gtd!r}; kept blank")
+
             rows.append({
                 "game_id": scheduled.get(team, ""),
                 "CapturedUTC": captured,
@@ -708,31 +800,37 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                 "lineup_category": category,
                 "position": position,
                 "injury_status": str(player.get("injuryStatus") or "").strip().lower(),
-                "game_time_decision": "true" if gtd else "false",
+                "game_time_decision": gtd_value,
                 "lineup_updated_utc": last_updated,
                 "lineup_source_name": str(page.get("sourceName") or "").strip(),
                 "lineup_source_url": str(page.get("source") or "").strip(),
                 "lineup_page_url": f"{SOURCE_ROOT}/{TEAMS[team]}/line-combinations",
             })
-        # DFO pages may omit expected lineup positions; an empty position
-        # means unknown, not an invalid page and not an invented player.
-        # Duplicate/unknown slots are already rejected above.
-        for group, positions in FIXED_LINEUP_SLOTS.items():
-            for position in positions:
+
+        # Baseline slots are a *reporting reference*, not a requirement. Any
+        # additional observed f5/d4/pp3/pk3 units are audited dynamically.
+        all_groups = set(FIXED_LINEUP_SLOTS) | observed_groups
+        for group in sorted(all_groups):
+            _, expected_positions = expected_unit(group)
+            if not expected_positions:
+                continue
+            category, _ = expected_unit(group)
+            for position in expected_positions:
                 if (team, group, position) not in used_slots:
                     missing_slots.append({
-                        "CapturedUTC": captured,
-                        "date": date_value,
-                        "team_abbrev": team,
-                        "lineup_group": group,
-                        "lineup_category": GROUP_CATEGORIES[group],
-                        "position": position,
+                        "CapturedUTC": captured, "date": date_value,
+                        "team_abbrev": team, "lineup_group": group,
+                        "lineup_category": category, "position": position,
                         "reason": "not present in Daily Faceoff source",
                     })
+        local_issues = sum(x["team_abbrev"] == team for x in source_issues)
+        if local_issues:
+            print(f"{team}: retained all {len(players)} source assignments; "
+                  f"{local_issues} layout/data warning(s), see source_issues CSV", flush=True)
 
     if not rows or len({r["team_abbrev"] for r in rows}) != 32:
-        raise ValueError("Lineup export incomplete")
-    return rows, resolver.stats, unresolved, missing_slots
+        raise ValueError("Lineup export incomplete: at least one team had no player assignments")
+    return rows, resolver.stats, unresolved, missing_slots, source_issues
 
 
 def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
@@ -793,6 +891,26 @@ def write_missing_slots(missing_slots, date_value, output_dir=LINEUPS_DIR):
     return target
 
 
+def write_source_issues(source_issues, date_value, output_dir=LINEUPS_DIR):
+    """Explicitly record source variation without discarding any assignments."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    target = output_dir / f"{date_value}_line_combinations_source_issues.csv"
+    temporary = None
+    try:
+        with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=output_dir,
+                                prefix=".lineup_source_issues_", suffix=".tmp", delete=False) as f:
+            temporary = f.name
+            writer = csv.DictWriter(f, fieldnames=SOURCE_ISSUE_HEADERS,
+                                    lineterminator="\n", extrasaction="raise")
+            writer.writeheader()
+            writer.writerows(source_issues)
+        os.replace(temporary, target)
+    finally:
+        if temporary and os.path.exists(temporary):
+            os.unlink(temporary)
+    return target
+
+
 def main():
     if len(TEAMS) != 32 or len(set(TEAMS.values())) != 32:
         raise ValueError("Team list must contain 32 unique NHL team URLs")
@@ -805,13 +923,15 @@ def main():
         print(f"Fetched {index}/32: {abbrev} ({len(pages[abbrev]['players'])} assignments)", flush=True)
         if index < len(TEAMS):
             time.sleep(0.3)
-    rows, stats, unresolved, missing_slots = build_rows(pages, date_value, captured)
+    rows, stats, unresolved, missing_slots, source_issues = build_rows(pages, date_value, captured)
     path = write_csv(rows, date_value)
     report = write_unresolved(unresolved, date_value)
     missing_report = write_missing_slots(missing_slots, date_value)
+    source_issues_report = write_source_issues(source_issues, date_value)
     print(f"CSV: {path}")
     print(f"Unresolved report: {report} | identities: {len(unresolved)}")
     print(f"Missing lineup slots report: {missing_report} | absent positions: {len(missing_slots)}")
+    print(f"Source layout/data issues report: {source_issues_report} | issues: {len(source_issues)}")
     print(f"Teams: 32/32 | Rows: {len(rows)} | Columns: {len(HEADERS)}")
     print(f"Player crosswalks (unique DFO player IDs): {sum(stats.values())} | "
           + " ".join(f"{key}={value}" for key, value in stats.items()))
