@@ -75,7 +75,6 @@ HEADERS = [
     "game_id", "CapturedUTC", "date", "team_id", "team", "team_abbrev",
     "player_id", "player_name", "lineup_group", "lineup_category", "position",
     "injury_status", "game_time_decision", "lineup_updated_utc",
-    "lineup_source_name", "lineup_source_url", "lineup_page_url",
 ]
 
 SCHEDULE_REQUIRED = (
@@ -703,6 +702,10 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
     source_issues = []  # In-memory only; never emitted as an extra file.
 
     for team in TEAMS:
+        # Only teams playing on the selected date can receive a verified game_id.
+        # Do not emit or resolve players from off-day teams.
+        if team not in scheduled:
+            continue
         page = pages[team]
         context = f"Daily Faceoff {team}"
         if not isinstance(page, dict):
@@ -811,6 +814,8 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                         player_id = ""
                         reason = str(exc)
                 match = resolver.last_match or {}
+                if not player_id:
+                    resolver.stats["unresolved"] += 1
                 # A successful match, including a nickname/spelling variant,
                 # is already resolved and must NOT be included in the attention report.
                 # For IR/special-teams-only appearances, the reliable position is
@@ -820,7 +825,6 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                 source_role = "" if dfo_id in conflicting_roles else (roles_by_dfo_id.get(dfo_id) or "")
                 position_role = source_role or verified_role or "unknown"
                 if not player_id:
-                    resolver.stats["unresolved"] += 1
                     if position_role == "unknown":
                         reason = (reason + "; " if reason else "") + "position group not verified"
                     name_mismatches.append({
@@ -864,16 +868,15 @@ def build_rows(pages, date_value, captured, team_map_path=TEAM_MAP_PATH,
                 "injury_status": str(player.get("injuryStatus") or "").strip().lower(),
                 "game_time_decision": gtd_value,
                 "lineup_updated_utc": last_updated,
-                "lineup_source_name": str(page.get("sourceName") or "").strip(),
-                "lineup_source_url": str(page.get("source") or "").strip(),
-                "lineup_page_url": f"{SOURCE_ROOT}/{TEAMS[team]}/line-combinations",
             })
 
         # Source lineups may be incomplete; an empty lineup position is not
         # a player record and is not fabricated or reported as an error.
 
-    if not rows or len({r["team_abbrev"] for r in rows}) != 32:
-        raise ValueError("Lineup export incomplete: at least one team had no player assignments")
+    if {r["team_abbrev"] for r in rows} != set(scheduled):
+        raise ValueError("Lineup export missing one or more scheduled teams")
+    if any(not r["game_id"] for r in rows):
+        raise ValueError("Scheduled lineup export contains a row without game_id")
     return rows, resolver.stats, name_mismatches
 
 
@@ -887,7 +890,7 @@ def write_csv(rows, date_value, output_dir=LINEUPS_DIR):
             temporary = f.name
             writer = csv.DictWriter(f, fieldnames=HEADERS, lineterminator="\n", extrasaction="raise")
             writer.writeheader()
-            writer.writerows(rows)
+            writer.writerows(row for row in rows if row.get("game_id"))
         os.replace(temporary, target)
     finally:
         if temporary and os.path.exists(temporary):
@@ -958,10 +961,11 @@ def main():
               f"needs_attention={len(name_mismatches)}")
     else:
         print("Unresolved name mismatches: 0; no attention report written")
-    print(f"Teams: 32/32 | Rows: {len(rows)} | Columns: {len(HEADERS)}")
+    print(f"Scheduled teams: {len({row['team_abbrev'] for row in rows})} | "
+          f"Rows: {len(rows)} | Columns: {len(HEADERS)}")
     print(f"Player identities checked: {sum(stats.values())} | "
           + " ".join(f"{key}={value}" for key, value in stats.items()))
-    print(f"Rows with scheduled game_id: {sum(bool(row['game_id']) for row in rows)}")
+    print(f"Rows with scheduled game_id: {len(rows)}")
     if removed:
         print(f"Removed {len(removed)} unwanted reports from previous script versions: "
               + ", ".join(removed))
