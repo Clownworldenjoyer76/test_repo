@@ -1,5 +1,5 @@
-[2026-11-09T11:36:44.200624+00:00] START 02_nhl_results_analyze.py
-[2026-11-09T11:36:44.200687+00:00] INPUT_FILE=docs/win/hockey/nhl/05_final_scores/graded/NHL_final.csv
-[2026-11-09T11:36:44.200707+00:00] WORK_FILE=docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
-[2026-11-09T11:36:44.276479+00:00] NHL WORK FILE CREATED | rows=178 | out=docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
-[2026-11-09T11:36:44.276684+00:00] END 02_nhl_results_analyze.py
+[2026-11-10T11:43:26.021994+00:00] START 02_nhl_results_analyze.py
+[2026-11-10T11:43:26.022056+00:00] INPUT_FILE=docs/win/hockey/nhl/05_final_scores/graded/NHL_final.csv
+[2026-11-10T11:43:26.022086+00:00] WORK_FILE=docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
+[2026-11-10T11:43:26.147226+00:00] NHL WORK FILE CREATED | rows=181 | out=docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
+[2026-11-10T11:43:26.147409+00:00] END 02_nhl_results_analyze.py
