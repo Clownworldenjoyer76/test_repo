@@ -30,7 +30,7 @@ import tempfile
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from contextlib import contextmanager
-from dataclasses import dataclass, replace
+from dataclasses import dataclass
 from functools import lru_cache
 from collections import defaultdict
 import json
@@ -4022,50 +4022,6 @@ def _shift_player_team_weights(
     }
 
 
-_WAR_CONFIG_LOCK = threading.RLock()
-
-
-def corrected_nhl_skater_war(prior_pbp: Any, prior_shifts: Any) -> Any:
-    """Correct the SDV WAR units mismatch without modifying installed packages.
-
-    Upstream NHL RAPM coefficients express incremental xG/60 *above league
-    average*. The released WAR formula subtracts absolute replacement xG/60
-    (1.9 off, 2.6 xGA), which makes all teams strongly negative. Translate
-    these rates into the centered RAPM coordinate system for just this call.
-    All original source code, goals-per-win and other constants are preserved.
-    """
-    from sportsdataverse.nhl.nhl_player_impact_constants import LEAGUE_CONSTANTS
-
-    with _WAR_CONFIG_LOCK:
-        cfg = LEAGUE_CONSTANTS["nhl"]
-        if not (
-            0.0 < cfg.replacement_ev_off < cfg.league_xg_rate_ev
-            < cfg.replacement_ev_def
-            and cfg.goals_per_win > 0.0
-        ):
-            raise RuntimeError(
-                "Unexpected SportsDataverse WAR constants; inspect upstream "
-                "before applying centered replacement-rate correction"
-            )
-        corrected_off = cfg.replacement_ev_off - cfg.league_xg_rate_ev
-        corrected_def = cfg.league_xg_rate_ev - cfg.replacement_ev_def
-        revised_cfg = replace(
-            cfg,
-            replacement_ev_off=corrected_off,
-            replacement_ev_def=corrected_def,
-        )
-        print(
-            "WAR REPLACEMENT SCALE FIX | "
-            f"off={cfg.replacement_ev_off}->{corrected_off:.6f} "
-            f"def={cfg.replacement_ev_def}->{corrected_def:.6f}",
-            flush=True,
-        )
-        try:
-            LEAGUE_CONSTANTS["nhl"] = revised_cfg
-            return nhl.nhl_skater_war(prior_pbp, prior_shifts)
-        finally:
-            LEAGUE_CONSTANTS["nhl"] = cfg
-
 
 def _weighted_mean(
     values: pd.Series,
@@ -4270,8 +4226,8 @@ def compute_lineup_team_metrics(
     ):
         return {}
 
-    # Canonicalize historical team names before *every* upstream SDV model;
-    # otherwise its stint builder drops malformed Montreal shift records.
+    # Canonicalize historical team names before all upstream model inputs;
+    # unrecognized club labels otherwise drop player shifts.
     prior_shifts = normalize_historical_shift_team_names(prior_shifts, prior_pbp)
 
     rapm = nhl.nhl_skater_rapm(
@@ -4279,9 +4235,13 @@ def compute_lineup_team_metrics(
         prior_shifts,
     )
 
-    war = clean_war_rows(
-        corrected_nhl_skater_war(prior_pbp, prior_shifts)
-    )
+    # Independently rebuilt 5v5 WAR + official NHL PP/PK, penalty and faceoff
+    # contributions. Uses current season source PBP/shifts and official NHL
+    # game reports, not a CSV or archive in Downloads.
+    from nhl_war_production import compute_all_32_war
+    verified_team_war, war_audit = compute_all_32_war(prior_pbp, prior_shifts)
+    if war_audit["teams"] != 32:
+        raise RuntimeError("Verified NHL WAR must contain all 32 teams")
 
     special = nhl.nhl_special_teams_value(
         prior_pbp,
@@ -4314,14 +4274,7 @@ def compute_lineup_team_metrics(
                 weight_col="toi_minutes",
             )
         ),
-        "skater_war": (
-            _player_metric_by_team(
-                war,
-                player_team,
-                value_col="war",
-                mode="sum",
-            )
-        ),
+        "skater_war": verified_team_war,
         "pp_value": (
             _player_metric_by_team(
                 special,
@@ -4350,68 +4303,15 @@ def compute_lineup_team_metrics(
         ),
     }
 
-    # WAR must reconcile to the player-level output. Never silently drop
-    # unassigned player contributions from the published team totals.
-    war_values = pd.to_numeric(as_pandas(war)["war"], errors="coerce")
-    if war_values.isna().any():
-        raise RuntimeError("Invalid player WAR in SportsDataverse output")
-    raw_war_total = float(war_values.sum())
-    team_war_total = float(sum(metric_maps["skater_war"].values()))
-    if abs(raw_war_total - team_war_total) > 1e-6:
-        raise RuntimeError(
-            f"Player-to-team WAR reconciliation failed: "
-            f"player_total={raw_war_total:.8f}, "
-            f"allocated_team_total={team_war_total:.8f}, "
-            f"difference={raw_war_total-team_war_total:.8f}; "
-            "check unmapped historical shift player IDs"
-        )
-    print(
-        f"WAR PLAYER-TEAM RECONCILED | player_total={raw_war_total:.8f} "
-        f"team_total={team_war_total:.8f}", flush=True,
-    )
-
-    # Check the full source WAR identity and expose team components. A repaired
-    # positive league total alone is NOT evidence that individual WAR is right.
-    war_pdf = as_pandas(war)
-    components = ("ev_off", "ev_def", "pp", "pk", "pens", "faceoffs")
-    if all(col in war_pdf.columns for col in (*components, "gar", "war")):
-        from sportsdataverse.nhl.nhl_player_impact_constants import get_constants
-        goals_per_win = get_constants("nhl").goals_per_win
-        source_components = war_pdf.loc[:, components].apply(
-            pd.to_numeric, errors="coerce"
-        )
-        source_gar = pd.to_numeric(war_pdf["gar"], errors="coerce")
-        source_war = pd.to_numeric(war_pdf["war"], errors="coerce")
-        if (
-            source_components.isna().any().any()
-            or source_gar.isna().any()
-            or source_war.isna().any()
-            or (source_components.sum(axis=1) - source_gar).abs().max() > 1e-7
-            or (source_gar / goals_per_win - source_war).abs().max() > 1e-7
-        ):
-            raise RuntimeError("Player-level GAR/WAR component identity failed")
-        by_component = {
-            col: _player_metric_by_team(war, player_team, value_col=col, mode="sum")
-            for col in components
-        }
-        for team, war_value in sorted(metric_maps["skater_war"].items()):
-            parts = {col: by_component[col].get(team, 0.0) for col in components}
-            reconstructed = sum(parts.values()) / goals_per_win
-            if abs(reconstructed - war_value) > 1e-6:
-                raise RuntimeError(
-                    f"Team {team} WAR component reconciliation failed: "
-                    f"{reconstructed:.6f} != {war_value:.6f}"
-                )
-            print(
-                f"WAR TEAM COMPONENT AUDIT | {team} | war={war_value:+.6f} "
-                + " ".join(f"{key}={value:+.4f}" for key, value in parts.items()),
-                flush=True,
-            )
-    else:
-        raise RuntimeError(
-            "Upstream WAR missing required GAR component columns: "
-            + repr(sorted(set((*components, "gar", "war")) - set(war_pdf.columns)))
-        )
+    # Full official player-game component identity, traded-player allocation,
+    # independent 5v5 model and 32-team reconciliation are verified inside
+    # nhl_war_production.compute_all_32_war before returning team values.
+    if set(metric_maps["skater_war"]) != set(verified_team_war):
+        raise RuntimeError("Verified WAR team mapping changed during aggregation")
+    for team in sorted(verified_team_war):
+        value = metric_maps["skater_war"].get(team)
+        if value is None or not pd.notna(value):
+            raise RuntimeError(f"Missing verified WAR for team {team}")
 
     teams = sorted(
         {
