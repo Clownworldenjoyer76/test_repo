@@ -1,10 +1,10 @@
-=== pull_nhl_schedule RUN 2026-11-09T06:31:29.150403-05:00 ===
-2026-11-09T06:31:29.151497-05:00 | Target dates discovered: 2
-2026-11-09T06:31:29.151521-05:00 | Target date: 2026_09_29
-2026-11-09T06:31:29.151538-05:00 | Target date: 2026_11_09
-2026-11-09T06:31:29.275841-05:00 | WROTE docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_2026_09_29.csv rows=5 using official NHL game_id values
-2026-11-09T06:31:29.373095-05:00 | WROTE docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_2026_11_09.csv rows=3 using official NHL game_id values
-2026-11-09T06:31:29.373123-05:00 | --- SUMMARY ---
-2026-11-09T06:31:29.373140-05:00 | Schedule files written: 2
-2026-11-09T06:31:29.373157-05:00 | Official NHL games written: 8
-2026-11-09T06:31:29.373172-05:00 | STATUS: SUCCESS
+=== pull_nhl_schedule RUN 2026-11-10T06:32:13.233660-05:00 ===
+2026-11-10T06:32:13.235073-05:00 | Target dates discovered: 2
+2026-11-10T06:32:13.235108-05:00 | Target date: 2026_09_29
+2026-11-10T06:32:13.235163-05:00 | Target date: 2026_11_10
+2026-11-10T06:32:13.348807-05:00 | WROTE docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_2026_09_29.csv rows=5 using official NHL game_id values
+2026-11-10T06:32:13.363236-05:00 | WROTE docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_2026_11_10.csv rows=7 using official NHL game_id values
+2026-11-10T06:32:13.363266-05:00 | --- SUMMARY ---
+2026-11-10T06:32:13.363289-05:00 | Schedule files written: 2
+2026-11-10T06:32:13.363311-05:00 | Official NHL games written: 12
+2026-11-10T06:32:13.363333-05:00 | STATUS: SUCCESS

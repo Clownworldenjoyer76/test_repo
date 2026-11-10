@@ -1,27 +1,28 @@
-=== odds_name_normalization RUN 2026-11-09T11:31:47.385882+00:00 ===
-2026-11-09T11:31:47.387032+00:00 | Team map loaded: 39 aliases | source=sportsbook | stable_ids=32
-2026-11-09T11:31:47.387065+00:00 | Files to process: 42
-2026-11-09T11:31:47.387774+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_02.csv
-2026-11-09T11:31:47.388347+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_03.csv
-2026-11-09T11:31:47.388975+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_06.csv
-2026-11-09T11:31:47.389511+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_08.csv
-2026-11-09T11:31:47.390145+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_10.csv
-2026-11-09T11:31:47.390940+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_13.csv
-2026-11-09T11:31:47.391605+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_15.csv
-2026-11-09T11:31:47.392264+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_17.csv
-2026-11-09T11:31:47.392888+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_20.csv
-2026-11-09T11:31:47.393458+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_22.csv
-2026-11-09T11:31:47.394039+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_24.csv
-2026-11-09T11:31:47.394667+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_27.csv
-2026-11-09T11:31:47.395250+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_29.csv
-2026-11-09T11:31:47.395750+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_31.csv
-2026-11-09T11:31:47.396425+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_03.csv
-2026-11-09T11:31:47.397010+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_05.csv
-2026-11-09T11:31:47.397572+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_07.csv
-2026-11-09T11:31:47.398011+00:00 | --- SUMMARY ---
-2026-11-09T11:31:47.398033+00:00 | Files processed: 42
-2026-11-09T11:31:47.398049+00:00 | Rows processed: 285
-2026-11-09T11:31:47.398065+00:00 | Names normalized: 17
-2026-11-09T11:31:47.398079+00:00 | Unmapped teams: 0
-2026-11-09T11:31:47.398114+00:00 | No-map output: docs/win/hockey/nhl/config/mapping/no_map_nhl_odds.csv
-2026-11-09T11:31:47.398133+00:00 | STATUS: SUCCESS
+=== odds_name_normalization RUN 2026-11-10T11:32:32.561807+00:00 ===
+2026-11-10T11:32:32.563351+00:00 | Team map loaded: 39 aliases | source=sportsbook | stable_ids=32
+2026-11-10T11:32:32.563392+00:00 | Files to process: 43
+2026-11-10T11:32:32.564286+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_02.csv
+2026-11-10T11:32:32.564909+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_03.csv
+2026-11-10T11:32:32.565682+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_06.csv
+2026-11-10T11:32:32.566319+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_08.csv
+2026-11-10T11:32:32.567072+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_10.csv
+2026-11-10T11:32:32.567957+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_13.csv
+2026-11-10T11:32:32.568618+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_15.csv
+2026-11-10T11:32:32.569353+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_17.csv
+2026-11-10T11:32:32.570094+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_20.csv
+2026-11-10T11:32:32.570754+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_22.csv
+2026-11-10T11:32:32.571400+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_24.csv
+2026-11-10T11:32:32.572197+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_27.csv
+2026-11-10T11:32:32.572846+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_29.csv
+2026-11-10T11:32:32.573534+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_31.csv
+2026-11-10T11:32:32.574329+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_03.csv
+2026-11-10T11:32:32.574984+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_05.csv
+2026-11-10T11:32:32.575682+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_07.csv
+2026-11-10T11:32:32.576319+00:00 | UPDATED: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_10.csv
+2026-11-10T11:32:32.576553+00:00 | --- SUMMARY ---
+2026-11-10T11:32:32.576590+00:00 | Files processed: 43
+2026-11-10T11:32:32.576628+00:00 | Rows processed: 292
+2026-11-10T11:32:32.576651+00:00 | Names normalized: 18
+2026-11-10T11:32:32.576673+00:00 | Unmapped teams: 0
+2026-11-10T11:32:32.576692+00:00 | No-map output: docs/win/hockey/nhl/config/mapping/no_map_nhl_odds.csv
+2026-11-10T11:32:32.576711+00:00 | STATUS: SUCCESS
