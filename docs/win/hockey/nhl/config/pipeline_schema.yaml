@@ -495,8 +495,8 @@ lineup_player_strength_integration:
       function: sportsdataverse.nhl.nhl_skater_rapm
       aggregation: TOI-weighted mean xg_rapm by team from the prior-game player pool
     skater_war:
-      function: sportsdataverse.nhl.nhl_skater_war
-      aggregation: Sum WAR by team from the prior-game player pool
+      function: nhl_war_production.compute_all_32_war
+      aggregation: Verified official NHL per-game skater WAR, reconciled to teams from pregame-filtered PBP and shifts
     special_teams:
       function: sportsdataverse.nhl.nhl_special_teams_value
       aggregation: Sum pp_value and pk_value by team
