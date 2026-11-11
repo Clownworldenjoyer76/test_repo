@@ -1,268 +1,268 @@
-=== compute_edges RUN 2026-11-10T11:43:05.693163+00:00 ===
-2026-11-10T11:43:05.693260+00:00 | INFO  | INPUT_DIR : /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice
-2026-11-10T11:43:05.693299+00:00 | INFO  | OUTPUT_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges
-2026-11-10T11:43:05.693327+00:00 | INFO  | QUARANTINE_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/errors/03_edges
-2026-11-10T11:43:05.705243+00:00 | INFO  | --- FILE: 2026_09_29_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.733497+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_29_NHL_moneyline.csv (5 accepted rows)
-2026-11-10T11:43:05.733546+00:00 | INFO  | --- FILE: 2026_09_30_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.754118+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_30_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:05.754219+00:00 | INFO  | --- FILE: 2026_10_01_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.774740+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_01_NHL_moneyline.csv (8 accepted rows)
-2026-11-10T11:43:05.774789+00:00 | INFO  | --- FILE: 2026_10_02_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.797510+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_02_NHL_moneyline.csv (5 accepted rows)
-2026-11-10T11:43:05.797559+00:00 | INFO  | --- FILE: 2026_10_03_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.818042+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_03_NHL_moneyline.csv (13 accepted rows)
-2026-11-10T11:43:05.818101+00:00 | INFO  | --- FILE: 2026_10_04_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.835975+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_04_NHL_moneyline.csv (5 accepted rows)
-2026-11-10T11:43:05.836016+00:00 | INFO  | --- FILE: 2026_10_05_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.854600+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_05_NHL_moneyline.csv (4 accepted rows)
-2026-11-10T11:43:05.854649+00:00 | INFO  | --- FILE: 2026_10_06_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.873706+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_06_NHL_moneyline.csv (9 accepted rows)
-2026-11-10T11:43:05.873753+00:00 | INFO  | --- FILE: 2026_10_07_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.891767+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_07_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:05.891812+00:00 | INFO  | --- FILE: 2026_10_08_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.910163+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_08_NHL_moneyline.csv (10 accepted rows)
-2026-11-10T11:43:05.910208+00:00 | INFO  | --- FILE: 2026_10_09_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.927965+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_09_NHL_moneyline.csv (4 accepted rows)
-2026-11-10T11:43:05.928010+00:00 | INFO  | --- FILE: 2026_10_10_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.946923+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_10_NHL_moneyline.csv (14 accepted rows)
-2026-11-10T11:43:05.946967+00:00 | INFO  | --- FILE: 2026_10_11_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.964817+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_11_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:05.964881+00:00 | INFO  | --- FILE: 2026_10_12_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:05.983275+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_12_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:05.983328+00:00 | INFO  | --- FILE: 2026_10_13_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.002458+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_13_NHL_moneyline.csv (16 accepted rows)
-2026-11-10T11:43:06.002497+00:00 | INFO  | --- FILE: 2026_10_14_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.019815+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_14_NHL_moneyline.csv (2 accepted rows)
-2026-11-10T11:43:06.019854+00:00 | INFO  | --- FILE: 2026_10_15_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.037997+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_15_NHL_moneyline.csv (11 accepted rows)
-2026-11-10T11:43:06.038036+00:00 | INFO  | --- FILE: 2026_10_16_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.055317+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_16_NHL_moneyline.csv (2 accepted rows)
-2026-11-10T11:43:06.055355+00:00 | INFO  | --- FILE: 2026_10_17_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.073795+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_17_NHL_moneyline.csv (14 accepted rows)
-2026-11-10T11:43:06.073832+00:00 | INFO  | --- FILE: 2026_10_18_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.091103+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_18_NHL_moneyline.csv (2 accepted rows)
-2026-11-10T11:43:06.091169+00:00 | INFO  | --- FILE: 2026_10_19_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.109373+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_19_NHL_moneyline.csv (4 accepted rows)
-2026-11-10T11:43:06.109419+00:00 | INFO  | --- FILE: 2026_10_20_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.128381+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_20_NHL_moneyline.csv (11 accepted rows)
-2026-11-10T11:43:06.128423+00:00 | INFO  | --- FILE: 2026_10_21_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.146831+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_21_NHL_moneyline.csv (2 accepted rows)
-2026-11-10T11:43:06.146888+00:00 | INFO  | --- FILE: 2026_10_22_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.166438+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_22_NHL_moneyline.csv (12 accepted rows)
-2026-11-10T11:43:06.166482+00:00 | INFO  | --- FILE: 2026_10_23_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.184169+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_23_NHL_moneyline.csv (2 accepted rows)
-2026-11-10T11:43:06.184211+00:00 | INFO  | --- FILE: 2026_10_24_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.202882+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_24_NHL_moneyline.csv (12 accepted rows)
-2026-11-10T11:43:06.202921+00:00 | INFO  | --- FILE: 2026_10_25_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.220897+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_25_NHL_moneyline.csv (5 accepted rows)
-2026-11-10T11:43:06.220934+00:00 | INFO  | --- FILE: 2026_10_26_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.238728+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_26_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:06.238770+00:00 | INFO  | --- FILE: 2026_10_27_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.258296+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_27_NHL_moneyline.csv (11 accepted rows)
-2026-11-10T11:43:06.258340+00:00 | INFO  | --- FILE: 2026_10_28_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.276580+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_28_NHL_moneyline.csv (4 accepted rows)
-2026-11-10T11:43:06.276632+00:00 | INFO  | --- FILE: 2026_10_29_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.295594+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_29_NHL_moneyline.csv (11 accepted rows)
-2026-11-10T11:43:06.295640+00:00 | INFO  | --- FILE: 2026_10_30_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.314264+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_30_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:06.314311+00:00 | INFO  | --- FILE: 2026_10_31_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.333620+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_31_NHL_moneyline.csv (10 accepted rows)
-2026-11-10T11:43:06.333665+00:00 | INFO  | --- FILE: 2026_11_01_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.367767+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_01_NHL_moneyline.csv (5 accepted rows)
-2026-11-10T11:43:06.367811+00:00 | INFO  | --- FILE: 2026_11_02_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.385573+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_02_NHL_moneyline.csv (4 accepted rows)
-2026-11-10T11:43:06.385611+00:00 | INFO  | --- FILE: 2026_11_03_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.404429+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_03_NHL_moneyline.csv (11 accepted rows)
-2026-11-10T11:43:06.404474+00:00 | INFO  | --- FILE: 2026_11_04_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.422985+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_04_NHL_moneyline.csv (4 accepted rows)
-2026-11-10T11:43:06.423030+00:00 | INFO  | --- FILE: 2026_11_05_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.442285+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_05_NHL_moneyline.csv (11 accepted rows)
-2026-11-10T11:43:06.442332+00:00 | INFO  | --- FILE: 2026_11_06_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.460716+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_06_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:06.460759+00:00 | INFO  | --- FILE: 2026_11_07_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.479673+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_07_NHL_moneyline.csv (12 accepted rows)
-2026-11-10T11:43:06.479713+00:00 | INFO  | --- FILE: 2026_11_08_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.497636+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_08_NHL_moneyline.csv (6 accepted rows)
-2026-11-10T11:43:06.497674+00:00 | INFO  | --- FILE: 2026_11_09_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.515081+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_09_NHL_moneyline.csv (3 accepted rows)
-2026-11-10T11:43:06.515118+00:00 | INFO  | --- FILE: 2026_11_10_NHL_moneyline.csv market=moneyline
-2026-11-10T11:43:06.532900+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_10_NHL_moneyline.csv (7 accepted rows)
-2026-11-10T11:43:06.533507+00:00 | INFO  | --- FILE: 2026_09_29_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.550767+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_29_NHL_puck_line.csv (5 accepted rows)
-2026-11-10T11:43:06.550804+00:00 | INFO  | --- FILE: 2026_09_30_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.568044+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_30_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:06.568082+00:00 | INFO  | --- FILE: 2026_10_01_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.586295+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_01_NHL_puck_line.csv (8 accepted rows)
-2026-11-10T11:43:06.586333+00:00 | INFO  | --- FILE: 2026_10_02_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.604343+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_02_NHL_puck_line.csv (5 accepted rows)
-2026-11-10T11:43:06.604382+00:00 | INFO  | --- FILE: 2026_10_03_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.623039+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_03_NHL_puck_line.csv (13 accepted rows)
-2026-11-10T11:43:06.623079+00:00 | INFO  | --- FILE: 2026_10_04_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.641185+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_04_NHL_puck_line.csv (5 accepted rows)
-2026-11-10T11:43:06.641231+00:00 | INFO  | --- FILE: 2026_10_05_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.659642+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_05_NHL_puck_line.csv (4 accepted rows)
-2026-11-10T11:43:06.659682+00:00 | INFO  | --- FILE: 2026_10_06_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.677857+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_06_NHL_puck_line.csv (9 accepted rows)
-2026-11-10T11:43:06.677894+00:00 | INFO  | --- FILE: 2026_10_07_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.695442+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_07_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:06.695480+00:00 | INFO  | --- FILE: 2026_10_08_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.713756+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_08_NHL_puck_line.csv (10 accepted rows)
-2026-11-10T11:43:06.713794+00:00 | INFO  | --- FILE: 2026_10_09_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.731236+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_09_NHL_puck_line.csv (4 accepted rows)
-2026-11-10T11:43:06.731275+00:00 | INFO  | --- FILE: 2026_10_10_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.749974+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_10_NHL_puck_line.csv (14 accepted rows)
-2026-11-10T11:43:06.750012+00:00 | INFO  | --- FILE: 2026_10_11_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.767551+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_11_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:06.767588+00:00 | INFO  | --- FILE: 2026_10_12_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.785424+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_12_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:06.785461+00:00 | INFO  | --- FILE: 2026_10_13_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.804409+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_13_NHL_puck_line.csv (16 accepted rows)
-2026-11-10T11:43:06.804447+00:00 | INFO  | --- FILE: 2026_10_14_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.823088+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_14_NHL_puck_line.csv (2 accepted rows)
-2026-11-10T11:43:06.823126+00:00 | INFO  | --- FILE: 2026_10_15_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.841382+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_15_NHL_puck_line.csv (11 accepted rows)
-2026-11-10T11:43:06.841418+00:00 | INFO  | --- FILE: 2026_10_16_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.859034+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_16_NHL_puck_line.csv (2 accepted rows)
-2026-11-10T11:43:06.859079+00:00 | INFO  | --- FILE: 2026_10_17_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.877823+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_17_NHL_puck_line.csv (14 accepted rows)
-2026-11-10T11:43:06.877861+00:00 | INFO  | --- FILE: 2026_10_18_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.895402+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_18_NHL_puck_line.csv (2 accepted rows)
-2026-11-10T11:43:06.895443+00:00 | INFO  | --- FILE: 2026_10_19_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.913396+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_19_NHL_puck_line.csv (4 accepted rows)
-2026-11-10T11:43:06.913438+00:00 | INFO  | --- FILE: 2026_10_20_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.932739+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_20_NHL_puck_line.csv (11 accepted rows)
-2026-11-10T11:43:06.932783+00:00 | INFO  | --- FILE: 2026_10_21_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.950504+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_21_NHL_puck_line.csv (2 accepted rows)
-2026-11-10T11:43:06.950542+00:00 | INFO  | --- FILE: 2026_10_22_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.968886+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_22_NHL_puck_line.csv (12 accepted rows)
-2026-11-10T11:43:06.968924+00:00 | INFO  | --- FILE: 2026_10_23_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:06.986376+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_23_NHL_puck_line.csv (2 accepted rows)
-2026-11-10T11:43:06.986415+00:00 | INFO  | --- FILE: 2026_10_24_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.004911+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_24_NHL_puck_line.csv (12 accepted rows)
-2026-11-10T11:43:07.004949+00:00 | INFO  | --- FILE: 2026_10_25_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.022956+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_25_NHL_puck_line.csv (5 accepted rows)
-2026-11-10T11:43:07.022996+00:00 | INFO  | --- FILE: 2026_10_26_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.040937+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_26_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:07.040976+00:00 | INFO  | --- FILE: 2026_10_27_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.059411+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_27_NHL_puck_line.csv (11 accepted rows)
-2026-11-10T11:43:07.059447+00:00 | INFO  | --- FILE: 2026_10_28_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.077207+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_28_NHL_puck_line.csv (4 accepted rows)
-2026-11-10T11:43:07.077246+00:00 | INFO  | --- FILE: 2026_10_29_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.095676+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_29_NHL_puck_line.csv (11 accepted rows)
-2026-11-10T11:43:07.095714+00:00 | INFO  | --- FILE: 2026_10_30_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.113755+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_30_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:07.113795+00:00 | INFO  | --- FILE: 2026_10_31_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.132052+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_31_NHL_puck_line.csv (10 accepted rows)
-2026-11-10T11:43:07.132101+00:00 | INFO  | --- FILE: 2026_11_01_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.149953+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_01_NHL_puck_line.csv (5 accepted rows)
-2026-11-10T11:43:07.149992+00:00 | INFO  | --- FILE: 2026_11_02_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.182994+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_02_NHL_puck_line.csv (4 accepted rows)
-2026-11-10T11:43:07.183037+00:00 | INFO  | --- FILE: 2026_11_03_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.201976+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_03_NHL_puck_line.csv (11 accepted rows)
-2026-11-10T11:43:07.202016+00:00 | INFO  | --- FILE: 2026_11_04_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.219631+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_04_NHL_puck_line.csv (4 accepted rows)
-2026-11-10T11:43:07.219674+00:00 | INFO  | --- FILE: 2026_11_05_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.238913+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_05_NHL_puck_line.csv (11 accepted rows)
-2026-11-10T11:43:07.238956+00:00 | INFO  | --- FILE: 2026_11_06_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.256902+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_06_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:07.256943+00:00 | INFO  | --- FILE: 2026_11_07_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.275545+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_07_NHL_puck_line.csv (12 accepted rows)
-2026-11-10T11:43:07.275584+00:00 | INFO  | --- FILE: 2026_11_08_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.293428+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_08_NHL_puck_line.csv (6 accepted rows)
-2026-11-10T11:43:07.293466+00:00 | INFO  | --- FILE: 2026_11_09_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.311159+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_09_NHL_puck_line.csv (3 accepted rows)
-2026-11-10T11:43:07.311205+00:00 | INFO  | --- FILE: 2026_11_10_NHL_puck_line.csv market=puck_line
-2026-11-10T11:43:07.329329+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_10_NHL_puck_line.csv (7 accepted rows)
-2026-11-10T11:43:07.329923+00:00 | INFO  | --- FILE: 2026_09_29_NHL_total.csv market=total
-2026-11-10T11:43:07.347860+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_29_NHL_total.csv (5 accepted rows)
-2026-11-10T11:43:07.347899+00:00 | INFO  | --- FILE: 2026_09_30_NHL_total.csv market=total
-2026-11-10T11:43:07.365597+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_30_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:07.365637+00:00 | INFO  | --- FILE: 2026_10_01_NHL_total.csv market=total
-2026-11-10T11:43:07.383587+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_01_NHL_total.csv (8 accepted rows)
-2026-11-10T11:43:07.383632+00:00 | INFO  | --- FILE: 2026_10_02_NHL_total.csv market=total
-2026-11-10T11:43:07.401537+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_02_NHL_total.csv (5 accepted rows)
-2026-11-10T11:43:07.401573+00:00 | INFO  | --- FILE: 2026_10_03_NHL_total.csv market=total
-2026-11-10T11:43:07.420022+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_03_NHL_total.csv (13 accepted rows)
-2026-11-10T11:43:07.420060+00:00 | INFO  | --- FILE: 2026_10_04_NHL_total.csv market=total
-2026-11-10T11:43:07.437800+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_04_NHL_total.csv (5 accepted rows)
-2026-11-10T11:43:07.437845+00:00 | INFO  | --- FILE: 2026_10_05_NHL_total.csv market=total
-2026-11-10T11:43:07.455579+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_05_NHL_total.csv (4 accepted rows)
-2026-11-10T11:43:07.455616+00:00 | INFO  | --- FILE: 2026_10_06_NHL_total.csv market=total
-2026-11-10T11:43:07.473777+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_06_NHL_total.csv (9 accepted rows)
-2026-11-10T11:43:07.473814+00:00 | INFO  | --- FILE: 2026_10_07_NHL_total.csv market=total
-2026-11-10T11:43:07.491258+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_07_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:07.491297+00:00 | INFO  | --- FILE: 2026_10_08_NHL_total.csv market=total
-2026-11-10T11:43:07.509755+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_08_NHL_total.csv (10 accepted rows)
-2026-11-10T11:43:07.510828+00:00 | INFO  | --- FILE: 2026_10_09_NHL_total.csv market=total
-2026-11-10T11:43:07.528856+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_09_NHL_total.csv (4 accepted rows)
-2026-11-10T11:43:07.528897+00:00 | INFO  | --- FILE: 2026_10_10_NHL_total.csv market=total
-2026-11-10T11:43:07.547980+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_10_NHL_total.csv (14 accepted rows)
-2026-11-10T11:43:07.548021+00:00 | INFO  | --- FILE: 2026_10_11_NHL_total.csv market=total
-2026-11-10T11:43:07.565822+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_11_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:07.565864+00:00 | INFO  | --- FILE: 2026_10_12_NHL_total.csv market=total
-2026-11-10T11:43:07.584227+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_12_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:07.584270+00:00 | INFO  | --- FILE: 2026_10_13_NHL_total.csv market=total
-2026-11-10T11:43:07.603516+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_13_NHL_total.csv (16 accepted rows)
-2026-11-10T11:43:07.603555+00:00 | INFO  | --- FILE: 2026_10_14_NHL_total.csv market=total
-2026-11-10T11:43:07.621577+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_14_NHL_total.csv (2 accepted rows)
-2026-11-10T11:43:07.621621+00:00 | INFO  | --- FILE: 2026_10_15_NHL_total.csv market=total
-2026-11-10T11:43:07.641773+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_15_NHL_total.csv (11 accepted rows)
-2026-11-10T11:43:07.641817+00:00 | INFO  | --- FILE: 2026_10_16_NHL_total.csv market=total
-2026-11-10T11:43:07.660036+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_16_NHL_total.csv (2 accepted rows)
-2026-11-10T11:43:07.660078+00:00 | INFO  | --- FILE: 2026_10_17_NHL_total.csv market=total
-2026-11-10T11:43:07.679072+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_17_NHL_total.csv (14 accepted rows)
-2026-11-10T11:43:07.679113+00:00 | INFO  | --- FILE: 2026_10_18_NHL_total.csv market=total
-2026-11-10T11:43:07.696901+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_18_NHL_total.csv (2 accepted rows)
-2026-11-10T11:43:07.696940+00:00 | INFO  | --- FILE: 2026_10_19_NHL_total.csv market=total
-2026-11-10T11:43:07.714865+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_19_NHL_total.csv (4 accepted rows)
-2026-11-10T11:43:07.714904+00:00 | INFO  | --- FILE: 2026_10_20_NHL_total.csv market=total
-2026-11-10T11:43:07.733484+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_20_NHL_total.csv (11 accepted rows)
-2026-11-10T11:43:07.733526+00:00 | INFO  | --- FILE: 2026_10_21_NHL_total.csv market=total
-2026-11-10T11:43:07.751711+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_21_NHL_total.csv (2 accepted rows)
-2026-11-10T11:43:07.751756+00:00 | INFO  | --- FILE: 2026_10_22_NHL_total.csv market=total
-2026-11-10T11:43:07.771241+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_22_NHL_total.csv (12 accepted rows)
-2026-11-10T11:43:07.771285+00:00 | INFO  | --- FILE: 2026_10_23_NHL_total.csv market=total
-2026-11-10T11:43:07.789563+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_23_NHL_total.csv (2 accepted rows)
-2026-11-10T11:43:07.789607+00:00 | INFO  | --- FILE: 2026_10_24_NHL_total.csv market=total
-2026-11-10T11:43:07.809517+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_24_NHL_total.csv (12 accepted rows)
-2026-11-10T11:43:07.809560+00:00 | INFO  | --- FILE: 2026_10_25_NHL_total.csv market=total
-2026-11-10T11:43:07.828032+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_25_NHL_total.csv (5 accepted rows)
-2026-11-10T11:43:07.828071+00:00 | INFO  | --- FILE: 2026_10_26_NHL_total.csv market=total
-2026-11-10T11:43:07.845769+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_26_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:07.845808+00:00 | INFO  | --- FILE: 2026_10_27_NHL_total.csv market=total
-2026-11-10T11:43:07.864525+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_27_NHL_total.csv (11 accepted rows)
-2026-11-10T11:43:07.864564+00:00 | INFO  | --- FILE: 2026_10_28_NHL_total.csv market=total
-2026-11-10T11:43:07.882334+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_28_NHL_total.csv (4 accepted rows)
-2026-11-10T11:43:07.882373+00:00 | INFO  | --- FILE: 2026_10_29_NHL_total.csv market=total
-2026-11-10T11:43:07.901065+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_29_NHL_total.csv (11 accepted rows)
-2026-11-10T11:43:07.901108+00:00 | INFO  | --- FILE: 2026_10_30_NHL_total.csv market=total
-2026-11-10T11:43:07.919669+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_30_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:07.919713+00:00 | INFO  | --- FILE: 2026_10_31_NHL_total.csv market=total
-2026-11-10T11:43:07.938769+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_31_NHL_total.csv (10 accepted rows)
-2026-11-10T11:43:07.938818+00:00 | INFO  | --- FILE: 2026_11_01_NHL_total.csv market=total
-2026-11-10T11:43:07.957409+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_01_NHL_total.csv (5 accepted rows)
-2026-11-10T11:43:07.957451+00:00 | INFO  | --- FILE: 2026_11_02_NHL_total.csv market=total
-2026-11-10T11:43:07.975713+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_02_NHL_total.csv (4 accepted rows)
-2026-11-10T11:43:07.975757+00:00 | INFO  | --- FILE: 2026_11_03_NHL_total.csv market=total
-2026-11-10T11:43:07.995112+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_03_NHL_total.csv (11 accepted rows)
-2026-11-10T11:43:07.995218+00:00 | INFO  | --- FILE: 2026_11_04_NHL_total.csv market=total
-2026-11-10T11:43:08.029771+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_04_NHL_total.csv (4 accepted rows)
-2026-11-10T11:43:08.029815+00:00 | INFO  | --- FILE: 2026_11_05_NHL_total.csv market=total
-2026-11-10T11:43:08.048463+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_05_NHL_total.csv (11 accepted rows)
-2026-11-10T11:43:08.048502+00:00 | INFO  | --- FILE: 2026_11_06_NHL_total.csv market=total
-2026-11-10T11:43:08.066517+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_06_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:08.066575+00:00 | INFO  | --- FILE: 2026_11_07_NHL_total.csv market=total
-2026-11-10T11:43:08.085856+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_07_NHL_total.csv (12 accepted rows)
-2026-11-10T11:43:08.085900+00:00 | INFO  | --- FILE: 2026_11_08_NHL_total.csv market=total
-2026-11-10T11:43:08.104372+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_08_NHL_total.csv (6 accepted rows)
-2026-11-10T11:43:08.104414+00:00 | INFO  | --- FILE: 2026_11_09_NHL_total.csv market=total
-2026-11-10T11:43:08.122498+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_09_NHL_total.csv (3 accepted rows)
-2026-11-10T11:43:08.122540+00:00 | INFO  | --- FILE: 2026_11_10_NHL_total.csv market=total
-2026-11-10T11:43:08.141076+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_10_NHL_total.csv (7 accepted rows)
+=== compute_edges RUN 2026-11-10T15:36:14.997236+00:00 ===
+2026-11-10T15:36:14.997328+00:00 | INFO  | INPUT_DIR : /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice
+2026-11-10T15:36:14.997366+00:00 | INFO  | OUTPUT_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges
+2026-11-10T15:36:14.997393+00:00 | INFO  | QUARANTINE_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/errors/03_edges
+2026-11-10T15:36:15.008902+00:00 | INFO  | --- FILE: 2026_09_29_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.035655+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_29_NHL_moneyline.csv (5 accepted rows)
+2026-11-10T15:36:15.035702+00:00 | INFO  | --- FILE: 2026_09_30_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.054541+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_30_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.054586+00:00 | INFO  | --- FILE: 2026_10_01_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.075629+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_01_NHL_moneyline.csv (8 accepted rows)
+2026-11-10T15:36:15.075676+00:00 | INFO  | --- FILE: 2026_10_02_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.095070+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_02_NHL_moneyline.csv (5 accepted rows)
+2026-11-10T15:36:15.095114+00:00 | INFO  | --- FILE: 2026_10_03_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.114894+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_03_NHL_moneyline.csv (13 accepted rows)
+2026-11-10T15:36:15.114934+00:00 | INFO  | --- FILE: 2026_10_04_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.132771+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_04_NHL_moneyline.csv (5 accepted rows)
+2026-11-10T15:36:15.132810+00:00 | INFO  | --- FILE: 2026_10_05_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.150427+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_05_NHL_moneyline.csv (4 accepted rows)
+2026-11-10T15:36:15.150469+00:00 | INFO  | --- FILE: 2026_10_06_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.168269+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_06_NHL_moneyline.csv (9 accepted rows)
+2026-11-10T15:36:15.168307+00:00 | INFO  | --- FILE: 2026_10_07_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.185384+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_07_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.185422+00:00 | INFO  | --- FILE: 2026_10_08_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.203288+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_08_NHL_moneyline.csv (10 accepted rows)
+2026-11-10T15:36:15.203325+00:00 | INFO  | --- FILE: 2026_10_09_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.220429+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_09_NHL_moneyline.csv (4 accepted rows)
+2026-11-10T15:36:15.220466+00:00 | INFO  | --- FILE: 2026_10_10_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.238520+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_10_NHL_moneyline.csv (14 accepted rows)
+2026-11-10T15:36:15.238557+00:00 | INFO  | --- FILE: 2026_10_11_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.255699+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_11_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.255736+00:00 | INFO  | --- FILE: 2026_10_12_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.272813+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_12_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.272899+00:00 | INFO  | --- FILE: 2026_10_13_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.291372+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_13_NHL_moneyline.csv (16 accepted rows)
+2026-11-10T15:36:15.291408+00:00 | INFO  | --- FILE: 2026_10_14_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.308341+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_14_NHL_moneyline.csv (2 accepted rows)
+2026-11-10T15:36:15.308378+00:00 | INFO  | --- FILE: 2026_10_15_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.326316+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_15_NHL_moneyline.csv (11 accepted rows)
+2026-11-10T15:36:15.326352+00:00 | INFO  | --- FILE: 2026_10_16_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.343636+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_16_NHL_moneyline.csv (2 accepted rows)
+2026-11-10T15:36:15.343672+00:00 | INFO  | --- FILE: 2026_10_17_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.361624+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_17_NHL_moneyline.csv (14 accepted rows)
+2026-11-10T15:36:15.361660+00:00 | INFO  | --- FILE: 2026_10_18_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.378572+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_18_NHL_moneyline.csv (2 accepted rows)
+2026-11-10T15:36:15.378608+00:00 | INFO  | --- FILE: 2026_10_19_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.395937+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_19_NHL_moneyline.csv (4 accepted rows)
+2026-11-10T15:36:15.395974+00:00 | INFO  | --- FILE: 2026_10_20_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.413989+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_20_NHL_moneyline.csv (11 accepted rows)
+2026-11-10T15:36:15.414025+00:00 | INFO  | --- FILE: 2026_10_21_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.430921+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_21_NHL_moneyline.csv (2 accepted rows)
+2026-11-10T15:36:15.430958+00:00 | INFO  | --- FILE: 2026_10_22_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.448775+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_22_NHL_moneyline.csv (12 accepted rows)
+2026-11-10T15:36:15.448810+00:00 | INFO  | --- FILE: 2026_10_23_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.465814+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_23_NHL_moneyline.csv (2 accepted rows)
+2026-11-10T15:36:15.465880+00:00 | INFO  | --- FILE: 2026_10_24_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.483825+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_24_NHL_moneyline.csv (12 accepted rows)
+2026-11-10T15:36:15.483902+00:00 | INFO  | --- FILE: 2026_10_25_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.501102+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_25_NHL_moneyline.csv (5 accepted rows)
+2026-11-10T15:36:15.501138+00:00 | INFO  | --- FILE: 2026_10_26_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.518361+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_26_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.518398+00:00 | INFO  | --- FILE: 2026_10_27_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.536298+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_27_NHL_moneyline.csv (11 accepted rows)
+2026-11-10T15:36:15.536334+00:00 | INFO  | --- FILE: 2026_10_28_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.554019+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_28_NHL_moneyline.csv (4 accepted rows)
+2026-11-10T15:36:15.554064+00:00 | INFO  | --- FILE: 2026_10_29_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.571998+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_29_NHL_moneyline.csv (11 accepted rows)
+2026-11-10T15:36:15.572034+00:00 | INFO  | --- FILE: 2026_10_30_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.589103+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_30_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.589139+00:00 | INFO  | --- FILE: 2026_10_31_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.606919+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_31_NHL_moneyline.csv (10 accepted rows)
+2026-11-10T15:36:15.606956+00:00 | INFO  | --- FILE: 2026_11_01_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.636576+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_01_NHL_moneyline.csv (5 accepted rows)
+2026-11-10T15:36:15.636619+00:00 | INFO  | --- FILE: 2026_11_02_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.654133+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_02_NHL_moneyline.csv (4 accepted rows)
+2026-11-10T15:36:15.654169+00:00 | INFO  | --- FILE: 2026_11_03_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.671949+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_03_NHL_moneyline.csv (11 accepted rows)
+2026-11-10T15:36:15.671985+00:00 | INFO  | --- FILE: 2026_11_04_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.689398+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_04_NHL_moneyline.csv (4 accepted rows)
+2026-11-10T15:36:15.689434+00:00 | INFO  | --- FILE: 2026_11_05_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.707351+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_05_NHL_moneyline.csv (11 accepted rows)
+2026-11-10T15:36:15.707387+00:00 | INFO  | --- FILE: 2026_11_06_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.724343+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_06_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.724379+00:00 | INFO  | --- FILE: 2026_11_07_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.742252+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_07_NHL_moneyline.csv (12 accepted rows)
+2026-11-10T15:36:15.742289+00:00 | INFO  | --- FILE: 2026_11_08_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.760133+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_08_NHL_moneyline.csv (6 accepted rows)
+2026-11-10T15:36:15.760171+00:00 | INFO  | --- FILE: 2026_11_09_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.777462+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_09_NHL_moneyline.csv (3 accepted rows)
+2026-11-10T15:36:15.777499+00:00 | INFO  | --- FILE: 2026_11_10_NHL_moneyline.csv market=moneyline
+2026-11-10T15:36:15.795178+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_10_NHL_moneyline.csv (7 accepted rows)
+2026-11-10T15:36:15.795729+00:00 | INFO  | --- FILE: 2026_09_29_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.812900+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_29_NHL_puck_line.csv (5 accepted rows)
+2026-11-10T15:36:15.812937+00:00 | INFO  | --- FILE: 2026_09_30_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.830326+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_30_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:15.830364+00:00 | INFO  | --- FILE: 2026_10_01_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.848312+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_01_NHL_puck_line.csv (8 accepted rows)
+2026-11-10T15:36:15.848349+00:00 | INFO  | --- FILE: 2026_10_02_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.865783+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_02_NHL_puck_line.csv (5 accepted rows)
+2026-11-10T15:36:15.865821+00:00 | INFO  | --- FILE: 2026_10_03_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.884151+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_03_NHL_puck_line.csv (13 accepted rows)
+2026-11-10T15:36:15.884187+00:00 | INFO  | --- FILE: 2026_10_04_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.901598+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_04_NHL_puck_line.csv (5 accepted rows)
+2026-11-10T15:36:15.901634+00:00 | INFO  | --- FILE: 2026_10_05_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.919020+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_05_NHL_puck_line.csv (4 accepted rows)
+2026-11-10T15:36:15.919056+00:00 | INFO  | --- FILE: 2026_10_06_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.936904+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_06_NHL_puck_line.csv (9 accepted rows)
+2026-11-10T15:36:15.936943+00:00 | INFO  | --- FILE: 2026_10_07_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.953993+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_07_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:15.954029+00:00 | INFO  | --- FILE: 2026_10_08_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.971943+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_08_NHL_puck_line.csv (10 accepted rows)
+2026-11-10T15:36:15.971979+00:00 | INFO  | --- FILE: 2026_10_09_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:15.989106+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_09_NHL_puck_line.csv (4 accepted rows)
+2026-11-10T15:36:15.989142+00:00 | INFO  | --- FILE: 2026_10_10_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.007357+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_10_NHL_puck_line.csv (14 accepted rows)
+2026-11-10T15:36:16.007392+00:00 | INFO  | --- FILE: 2026_10_11_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.024719+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_11_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:16.024756+00:00 | INFO  | --- FILE: 2026_10_12_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.041810+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_12_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:16.041888+00:00 | INFO  | --- FILE: 2026_10_13_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.060367+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_13_NHL_puck_line.csv (16 accepted rows)
+2026-11-10T15:36:16.060403+00:00 | INFO  | --- FILE: 2026_10_14_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.077495+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_14_NHL_puck_line.csv (2 accepted rows)
+2026-11-10T15:36:16.077532+00:00 | INFO  | --- FILE: 2026_10_15_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.095430+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_15_NHL_puck_line.csv (11 accepted rows)
+2026-11-10T15:36:16.095466+00:00 | INFO  | --- FILE: 2026_10_16_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.112578+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_16_NHL_puck_line.csv (2 accepted rows)
+2026-11-10T15:36:16.112620+00:00 | INFO  | --- FILE: 2026_10_17_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.131116+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_17_NHL_puck_line.csv (14 accepted rows)
+2026-11-10T15:36:16.131153+00:00 | INFO  | --- FILE: 2026_10_18_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.148320+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_18_NHL_puck_line.csv (2 accepted rows)
+2026-11-10T15:36:16.148356+00:00 | INFO  | --- FILE: 2026_10_19_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.165749+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_19_NHL_puck_line.csv (4 accepted rows)
+2026-11-10T15:36:16.165786+00:00 | INFO  | --- FILE: 2026_10_20_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.183721+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_20_NHL_puck_line.csv (11 accepted rows)
+2026-11-10T15:36:16.183757+00:00 | INFO  | --- FILE: 2026_10_21_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.200987+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_21_NHL_puck_line.csv (2 accepted rows)
+2026-11-10T15:36:16.201023+00:00 | INFO  | --- FILE: 2026_10_22_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.219197+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_22_NHL_puck_line.csv (12 accepted rows)
+2026-11-10T15:36:16.219233+00:00 | INFO  | --- FILE: 2026_10_23_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.236381+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_23_NHL_puck_line.csv (2 accepted rows)
+2026-11-10T15:36:16.236418+00:00 | INFO  | --- FILE: 2026_10_24_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.254605+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_24_NHL_puck_line.csv (12 accepted rows)
+2026-11-10T15:36:16.254640+00:00 | INFO  | --- FILE: 2026_10_25_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.272207+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_25_NHL_puck_line.csv (5 accepted rows)
+2026-11-10T15:36:16.272242+00:00 | INFO  | --- FILE: 2026_10_26_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.289511+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_26_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:16.289547+00:00 | INFO  | --- FILE: 2026_10_27_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.307516+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_27_NHL_puck_line.csv (11 accepted rows)
+2026-11-10T15:36:16.307551+00:00 | INFO  | --- FILE: 2026_10_28_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.324908+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_28_NHL_puck_line.csv (4 accepted rows)
+2026-11-10T15:36:16.324945+00:00 | INFO  | --- FILE: 2026_10_29_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.343086+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_29_NHL_puck_line.csv (11 accepted rows)
+2026-11-10T15:36:16.343122+00:00 | INFO  | --- FILE: 2026_10_30_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.360471+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_30_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:16.360507+00:00 | INFO  | --- FILE: 2026_10_31_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.378461+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_31_NHL_puck_line.csv (10 accepted rows)
+2026-11-10T15:36:16.378497+00:00 | INFO  | --- FILE: 2026_11_01_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.395992+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_01_NHL_puck_line.csv (5 accepted rows)
+2026-11-10T15:36:16.396029+00:00 | INFO  | --- FILE: 2026_11_02_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.424735+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_02_NHL_puck_line.csv (4 accepted rows)
+2026-11-10T15:36:16.424777+00:00 | INFO  | --- FILE: 2026_11_03_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.443041+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_03_NHL_puck_line.csv (11 accepted rows)
+2026-11-10T15:36:16.443076+00:00 | INFO  | --- FILE: 2026_11_04_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.460093+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_04_NHL_puck_line.csv (4 accepted rows)
+2026-11-10T15:36:16.460129+00:00 | INFO  | --- FILE: 2026_11_05_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.478052+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_05_NHL_puck_line.csv (11 accepted rows)
+2026-11-10T15:36:16.478088+00:00 | INFO  | --- FILE: 2026_11_06_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.495203+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_06_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:16.495239+00:00 | INFO  | --- FILE: 2026_11_07_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.513384+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_07_NHL_puck_line.csv (12 accepted rows)
+2026-11-10T15:36:16.513421+00:00 | INFO  | --- FILE: 2026_11_08_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.531013+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_08_NHL_puck_line.csv (6 accepted rows)
+2026-11-10T15:36:16.531049+00:00 | INFO  | --- FILE: 2026_11_09_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.548333+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_09_NHL_puck_line.csv (3 accepted rows)
+2026-11-10T15:36:16.548369+00:00 | INFO  | --- FILE: 2026_11_10_NHL_puck_line.csv market=puck_line
+2026-11-10T15:36:16.566270+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_10_NHL_puck_line.csv (7 accepted rows)
+2026-11-10T15:36:16.566804+00:00 | INFO  | --- FILE: 2026_09_29_NHL_total.csv market=total
+2026-11-10T15:36:16.584020+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_29_NHL_total.csv (5 accepted rows)
+2026-11-10T15:36:16.584056+00:00 | INFO  | --- FILE: 2026_09_30_NHL_total.csv market=total
+2026-11-10T15:36:16.601262+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_09_30_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:16.601298+00:00 | INFO  | --- FILE: 2026_10_01_NHL_total.csv market=total
+2026-11-10T15:36:16.619064+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_01_NHL_total.csv (8 accepted rows)
+2026-11-10T15:36:16.619100+00:00 | INFO  | --- FILE: 2026_10_02_NHL_total.csv market=total
+2026-11-10T15:36:16.636602+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_02_NHL_total.csv (5 accepted rows)
+2026-11-10T15:36:16.636638+00:00 | INFO  | --- FILE: 2026_10_03_NHL_total.csv market=total
+2026-11-10T15:36:16.654694+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_03_NHL_total.csv (13 accepted rows)
+2026-11-10T15:36:16.654730+00:00 | INFO  | --- FILE: 2026_10_04_NHL_total.csv market=total
+2026-11-10T15:36:16.672091+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_04_NHL_total.csv (5 accepted rows)
+2026-11-10T15:36:16.672133+00:00 | INFO  | --- FILE: 2026_10_05_NHL_total.csv market=total
+2026-11-10T15:36:16.689529+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_05_NHL_total.csv (4 accepted rows)
+2026-11-10T15:36:16.689565+00:00 | INFO  | --- FILE: 2026_10_06_NHL_total.csv market=total
+2026-11-10T15:36:16.707527+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_06_NHL_total.csv (9 accepted rows)
+2026-11-10T15:36:16.707563+00:00 | INFO  | --- FILE: 2026_10_07_NHL_total.csv market=total
+2026-11-10T15:36:16.724712+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_07_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:16.724749+00:00 | INFO  | --- FILE: 2026_10_08_NHL_total.csv market=total
+2026-11-10T15:36:16.742543+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_08_NHL_total.csv (10 accepted rows)
+2026-11-10T15:36:16.742588+00:00 | INFO  | --- FILE: 2026_10_09_NHL_total.csv market=total
+2026-11-10T15:36:16.760113+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_09_NHL_total.csv (4 accepted rows)
+2026-11-10T15:36:16.760150+00:00 | INFO  | --- FILE: 2026_10_10_NHL_total.csv market=total
+2026-11-10T15:36:16.778445+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_10_NHL_total.csv (14 accepted rows)
+2026-11-10T15:36:16.778480+00:00 | INFO  | --- FILE: 2026_10_11_NHL_total.csv market=total
+2026-11-10T15:36:16.795995+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_11_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:16.796032+00:00 | INFO  | --- FILE: 2026_10_12_NHL_total.csv market=total
+2026-11-10T15:36:16.813327+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_12_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:16.813364+00:00 | INFO  | --- FILE: 2026_10_13_NHL_total.csv market=total
+2026-11-10T15:36:16.832057+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_13_NHL_total.csv (16 accepted rows)
+2026-11-10T15:36:16.832093+00:00 | INFO  | --- FILE: 2026_10_14_NHL_total.csv market=total
+2026-11-10T15:36:16.849217+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_14_NHL_total.csv (2 accepted rows)
+2026-11-10T15:36:16.849252+00:00 | INFO  | --- FILE: 2026_10_15_NHL_total.csv market=total
+2026-11-10T15:36:16.867303+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_15_NHL_total.csv (11 accepted rows)
+2026-11-10T15:36:16.867339+00:00 | INFO  | --- FILE: 2026_10_16_NHL_total.csv market=total
+2026-11-10T15:36:16.884385+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_16_NHL_total.csv (2 accepted rows)
+2026-11-10T15:36:16.884421+00:00 | INFO  | --- FILE: 2026_10_17_NHL_total.csv market=total
+2026-11-10T15:36:16.902591+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_17_NHL_total.csv (14 accepted rows)
+2026-11-10T15:36:16.902633+00:00 | INFO  | --- FILE: 2026_10_18_NHL_total.csv market=total
+2026-11-10T15:36:16.919579+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_18_NHL_total.csv (2 accepted rows)
+2026-11-10T15:36:16.919615+00:00 | INFO  | --- FILE: 2026_10_19_NHL_total.csv market=total
+2026-11-10T15:36:16.936747+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_19_NHL_total.csv (4 accepted rows)
+2026-11-10T15:36:16.936784+00:00 | INFO  | --- FILE: 2026_10_20_NHL_total.csv market=total
+2026-11-10T15:36:16.954773+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_20_NHL_total.csv (11 accepted rows)
+2026-11-10T15:36:16.954810+00:00 | INFO  | --- FILE: 2026_10_21_NHL_total.csv market=total
+2026-11-10T15:36:16.972035+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_21_NHL_total.csv (2 accepted rows)
+2026-11-10T15:36:16.972072+00:00 | INFO  | --- FILE: 2026_10_22_NHL_total.csv market=total
+2026-11-10T15:36:16.990049+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_22_NHL_total.csv (12 accepted rows)
+2026-11-10T15:36:16.990085+00:00 | INFO  | --- FILE: 2026_10_23_NHL_total.csv market=total
+2026-11-10T15:36:17.006982+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_23_NHL_total.csv (2 accepted rows)
+2026-11-10T15:36:17.007018+00:00 | INFO  | --- FILE: 2026_10_24_NHL_total.csv market=total
+2026-11-10T15:36:17.025167+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_24_NHL_total.csv (12 accepted rows)
+2026-11-10T15:36:17.025202+00:00 | INFO  | --- FILE: 2026_10_25_NHL_total.csv market=total
+2026-11-10T15:36:17.042629+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_25_NHL_total.csv (5 accepted rows)
+2026-11-10T15:36:17.042672+00:00 | INFO  | --- FILE: 2026_10_26_NHL_total.csv market=total
+2026-11-10T15:36:17.059905+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_26_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:17.059944+00:00 | INFO  | --- FILE: 2026_10_27_NHL_total.csv market=total
+2026-11-10T15:36:17.077943+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_27_NHL_total.csv (11 accepted rows)
+2026-11-10T15:36:17.077979+00:00 | INFO  | --- FILE: 2026_10_28_NHL_total.csv market=total
+2026-11-10T15:36:17.095318+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_28_NHL_total.csv (4 accepted rows)
+2026-11-10T15:36:17.095355+00:00 | INFO  | --- FILE: 2026_10_29_NHL_total.csv market=total
+2026-11-10T15:36:17.113397+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_29_NHL_total.csv (11 accepted rows)
+2026-11-10T15:36:17.113435+00:00 | INFO  | --- FILE: 2026_10_30_NHL_total.csv market=total
+2026-11-10T15:36:17.131040+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_30_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:17.131080+00:00 | INFO  | --- FILE: 2026_10_31_NHL_total.csv market=total
+2026-11-10T15:36:17.149523+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_10_31_NHL_total.csv (10 accepted rows)
+2026-11-10T15:36:17.149562+00:00 | INFO  | --- FILE: 2026_11_01_NHL_total.csv market=total
+2026-11-10T15:36:17.167184+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_01_NHL_total.csv (5 accepted rows)
+2026-11-10T15:36:17.167222+00:00 | INFO  | --- FILE: 2026_11_02_NHL_total.csv market=total
+2026-11-10T15:36:17.184813+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_02_NHL_total.csv (4 accepted rows)
+2026-11-10T15:36:17.184897+00:00 | INFO  | --- FILE: 2026_11_03_NHL_total.csv market=total
+2026-11-10T15:36:17.203314+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_03_NHL_total.csv (11 accepted rows)
+2026-11-10T15:36:17.203353+00:00 | INFO  | --- FILE: 2026_11_04_NHL_total.csv market=total
+2026-11-10T15:36:17.233905+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_04_NHL_total.csv (4 accepted rows)
+2026-11-10T15:36:17.233952+00:00 | INFO  | --- FILE: 2026_11_05_NHL_total.csv market=total
+2026-11-10T15:36:17.252053+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_05_NHL_total.csv (11 accepted rows)
+2026-11-10T15:36:17.252088+00:00 | INFO  | --- FILE: 2026_11_06_NHL_total.csv market=total
+2026-11-10T15:36:17.269263+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_06_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:17.269305+00:00 | INFO  | --- FILE: 2026_11_07_NHL_total.csv market=total
+2026-11-10T15:36:17.287256+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_07_NHL_total.csv (12 accepted rows)
+2026-11-10T15:36:17.287293+00:00 | INFO  | --- FILE: 2026_11_08_NHL_total.csv market=total
+2026-11-10T15:36:17.305113+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_08_NHL_total.csv (6 accepted rows)
+2026-11-10T15:36:17.305149+00:00 | INFO  | --- FILE: 2026_11_09_NHL_total.csv market=total
+2026-11-10T15:36:17.322352+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_09_NHL_total.csv (3 accepted rows)
+2026-11-10T15:36:17.322390+00:00 | INFO  | --- FILE: 2026_11_10_NHL_total.csv market=total
+2026-11-10T15:36:17.340127+00:00 | INFO  | WROTE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/03_edges/2026_11_10_NHL_total.csv (7 accepted rows)
 
 ========================================================================
-SUMMARY  2026-11-10T11:43:08.141298+00:00
+SUMMARY  2026-11-10T15:36:17.340264+00:00
 ========================================================================
   files_processed  : 129
   rows_processed   : 876
@@ -411,7 +411,7 @@ STATUS: SUCCESS
 ========================================================================
 
 ========================================================================
-SUMMARY  2026-11-10T11:43:08.141581+00:00
+SUMMARY  2026-11-10T15:36:17.340525+00:00
 ========================================================================
   files_processed  : 129
   rows_processed   : 876

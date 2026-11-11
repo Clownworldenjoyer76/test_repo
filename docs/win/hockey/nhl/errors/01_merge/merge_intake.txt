@@ -1,646 +1,653 @@
-=== merge_intake RUN 2026-11-10T11:42:52.517999+00:00 ===
-2026-11-10T11:42:52.518460+00:00 | games files found: 43
-2026-11-10T11:42:52.521573+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_09_29_nhl_games.csv (5 usable rows)
-2026-11-10T11:42:52.521736+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_09_30_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.521910+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_01_nhl_games.csv (8 usable rows)
-2026-11-10T11:42:52.522049+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_02_nhl_games.csv (5 usable rows)
-2026-11-10T11:42:52.522273+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_03_nhl_games.csv (13 usable rows)
-2026-11-10T11:42:52.522404+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_04_nhl_games.csv (5 usable rows)
-2026-11-10T11:42:52.522518+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_05_nhl_games.csv (4 usable rows)
-2026-11-10T11:42:52.522684+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_06_nhl_games.csv (9 usable rows)
-2026-11-10T11:42:52.522793+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_07_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.522965+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_08_nhl_games.csv (10 usable rows)
-2026-11-10T11:42:52.523079+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_09_nhl_games.csv (4 usable rows)
-2026-11-10T11:42:52.523303+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_10_nhl_games.csv (14 usable rows)
-2026-11-10T11:42:52.523411+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_11_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.523514+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_12_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.524356+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_13_nhl_games.csv (16 usable rows)
-2026-11-10T11:42:52.524456+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_14_nhl_games.csv (2 usable rows)
-2026-11-10T11:42:52.524623+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_15_nhl_games.csv (11 usable rows)
-2026-11-10T11:42:52.524715+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_16_nhl_games.csv (2 usable rows)
-2026-11-10T11:42:52.524910+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_17_nhl_games.csv (14 usable rows)
-2026-11-10T11:42:52.524999+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_18_nhl_games.csv (2 usable rows)
-2026-11-10T11:42:52.525113+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_19_nhl_games.csv (4 usable rows)
-2026-11-10T11:42:52.525312+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_20_nhl_games.csv (11 usable rows)
-2026-11-10T11:42:52.525407+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_21_nhl_games.csv (2 usable rows)
-2026-11-10T11:42:52.525589+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_22_nhl_games.csv (12 usable rows)
-2026-11-10T11:42:52.525679+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_23_nhl_games.csv (2 usable rows)
-2026-11-10T11:42:52.525857+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_24_nhl_games.csv (12 usable rows)
-2026-11-10T11:42:52.525977+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_25_nhl_games.csv (5 usable rows)
-2026-11-10T11:42:52.526077+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_26_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.526271+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_27_nhl_games.csv (11 usable rows)
-2026-11-10T11:42:52.526386+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_28_nhl_games.csv (4 usable rows)
-2026-11-10T11:42:52.526551+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_29_nhl_games.csv (11 usable rows)
-2026-11-10T11:42:52.526661+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_30_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.526820+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_31_nhl_games.csv (10 usable rows)
-2026-11-10T11:42:52.526938+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_01_nhl_games.csv (5 usable rows)
-2026-11-10T11:42:52.527048+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_02_nhl_games.csv (4 usable rows)
-2026-11-10T11:42:52.527239+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_03_nhl_games.csv (11 usable rows)
-2026-11-10T11:42:52.527354+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_04_nhl_games.csv (4 usable rows)
-2026-11-10T11:42:52.527522+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_05_nhl_games.csv (11 usable rows)
-2026-11-10T11:42:52.527622+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_06_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.527795+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_07_nhl_games.csv (12 usable rows)
-2026-11-10T11:42:52.527922+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_08_nhl_games.csv (6 usable rows)
-2026-11-10T11:42:52.528020+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_09_nhl_games.csv (3 usable rows)
-2026-11-10T11:42:52.528176+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_10_nhl_games.csv (7 usable rows)
-2026-11-10T11:42:52.528487+00:00 | sportsbook files found: 43
-2026-11-10T11:42:52.528655+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_09_29.csv (5 usable rows)
-2026-11-10T11:42:52.528795+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_09_30.csv (3 usable rows)
-2026-11-10T11:42:52.528993+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_01.csv (8 usable rows)
-2026-11-10T11:42:52.529167+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_02.csv (5 usable rows)
-2026-11-10T11:42:52.529440+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_03.csv (13 usable rows)
-2026-11-10T11:42:52.529595+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_04.csv (5 usable rows)
-2026-11-10T11:42:52.529733+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_05.csv (4 usable rows)
-2026-11-10T11:42:52.529946+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_06.csv (9 usable rows)
-2026-11-10T11:42:52.530077+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_07.csv (3 usable rows)
-2026-11-10T11:42:52.530335+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_08.csv (10 usable rows)
-2026-11-10T11:42:52.530476+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_09.csv (4 usable rows)
-2026-11-10T11:42:52.530747+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_10.csv (14 usable rows)
-2026-11-10T11:42:52.530877+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_11.csv (3 usable rows)
-2026-11-10T11:42:52.531014+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_12.csv (3 usable rows)
-2026-11-10T11:42:52.531365+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_13.csv (16 usable rows)
-2026-11-10T11:42:52.531483+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_14.csv (2 usable rows)
-2026-11-10T11:42:52.531723+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_15.csv (11 usable rows)
-2026-11-10T11:42:52.531842+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_16.csv (2 usable rows)
-2026-11-10T11:42:52.532169+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_17.csv (14 usable rows)
-2026-11-10T11:42:52.532291+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_18.csv (2 usable rows)
-2026-11-10T11:42:52.532435+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_19.csv (4 usable rows)
-2026-11-10T11:42:52.532669+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_20.csv (11 usable rows)
-2026-11-10T11:42:52.532780+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_21.csv (2 usable rows)
-2026-11-10T11:42:52.533044+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_22.csv (12 usable rows)
-2026-11-10T11:42:52.533184+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_23.csv (2 usable rows)
-2026-11-10T11:42:52.533425+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_24.csv (12 usable rows)
-2026-11-10T11:42:52.533580+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_25.csv (5 usable rows)
-2026-11-10T11:42:52.533706+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_26.csv (3 usable rows)
-2026-11-10T11:42:52.533936+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_27.csv (11 usable rows)
-2026-11-10T11:42:52.534083+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_28.csv (4 usable rows)
-2026-11-10T11:42:52.534343+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_29.csv (11 usable rows)
-2026-11-10T11:42:52.534474+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_30.csv (3 usable rows)
-2026-11-10T11:42:52.534696+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_31.csv (10 usable rows)
-2026-11-10T11:42:52.534846+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_01.csv (5 usable rows)
-2026-11-10T11:42:52.534989+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_02.csv (4 usable rows)
-2026-11-10T11:42:52.535243+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_03.csv (11 usable rows)
-2026-11-10T11:42:52.535386+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_04.csv (4 usable rows)
-2026-11-10T11:42:52.535624+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_05.csv (11 usable rows)
-2026-11-10T11:42:52.535753+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_06.csv (3 usable rows)
-2026-11-10T11:42:52.535993+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_07.csv (12 usable rows)
-2026-11-10T11:42:52.536186+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_08.csv (6 usable rows)
-2026-11-10T11:42:52.536345+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_09.csv (3 usable rows)
-2026-11-10T11:42:52.536524+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_10.csv (7 usable rows)
-2026-11-10T11:42:52.536830+00:00 | predictions files found: 43
-2026-11-10T11:42:52.536965+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_09_29.csv (5 usable rows)
-2026-11-10T11:42:52.537088+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_09_30.csv (3 usable rows)
-2026-11-10T11:42:52.537270+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_01.csv (8 usable rows)
-2026-11-10T11:42:52.537397+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_02.csv (5 usable rows)
-2026-11-10T11:42:52.537592+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_03.csv (13 usable rows)
-2026-11-10T11:42:52.537721+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_04.csv (5 usable rows)
-2026-11-10T11:42:52.537843+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_05.csv (4 usable rows)
-2026-11-10T11:42:52.538002+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_06.csv (9 usable rows)
-2026-11-10T11:42:52.538106+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_07.csv (3 usable rows)
-2026-11-10T11:42:52.538300+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_08.csv (10 usable rows)
-2026-11-10T11:42:52.538416+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_09.csv (4 usable rows)
-2026-11-10T11:42:52.538620+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_10.csv (14 usable rows)
-2026-11-10T11:42:52.538724+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_11.csv (3 usable rows)
-2026-11-10T11:42:52.538826+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_12.csv (3 usable rows)
-2026-11-10T11:42:52.539050+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_13.csv (16 usable rows)
-2026-11-10T11:42:52.539159+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_14.csv (2 usable rows)
-2026-11-10T11:42:52.539342+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_15.csv (11 usable rows)
-2026-11-10T11:42:52.539436+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_16.csv (2 usable rows)
-2026-11-10T11:42:52.539646+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_17.csv (14 usable rows)
-2026-11-10T11:42:52.539735+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_18.csv (2 usable rows)
-2026-11-10T11:42:52.539846+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_19.csv (4 usable rows)
-2026-11-10T11:42:52.540026+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_20.csv (11 usable rows)
-2026-11-10T11:42:52.540119+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_21.csv (2 usable rows)
-2026-11-10T11:42:52.540336+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_22.csv (12 usable rows)
-2026-11-10T11:42:52.540435+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_23.csv (2 usable rows)
-2026-11-10T11:42:52.540626+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_24.csv (12 usable rows)
-2026-11-10T11:42:52.540769+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_25.csv (5 usable rows)
-2026-11-10T11:42:52.540871+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_26.csv (3 usable rows)
-2026-11-10T11:42:52.541045+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_27.csv (11 usable rows)
-2026-11-10T11:42:52.541188+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_28.csv (4 usable rows)
-2026-11-10T11:42:52.541373+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_29.csv (11 usable rows)
-2026-11-10T11:42:52.541477+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_30.csv (3 usable rows)
-2026-11-10T11:42:52.541643+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_31.csv (10 usable rows)
-2026-11-10T11:42:52.541774+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_01.csv (5 usable rows)
-2026-11-10T11:42:52.541895+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_02.csv (4 usable rows)
-2026-11-10T11:42:52.542074+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_03.csv (11 usable rows)
-2026-11-10T11:42:52.542210+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_04.csv (4 usable rows)
-2026-11-10T11:42:52.542392+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_05.csv (11 usable rows)
-2026-11-10T11:42:52.542489+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_06.csv (3 usable rows)
-2026-11-10T11:42:52.542674+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_07.csv (12 usable rows)
-2026-11-10T11:42:52.542805+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_08.csv (6 usable rows)
-2026-11-10T11:42:52.542909+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_09.csv (3 usable rows)
-2026-11-10T11:42:52.543049+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_10.csv (7 usable rows)
-2026-11-10T11:42:52.544454+00:00 | SportsDataverse fatigue files found: 2
-2026-11-10T11:42:52.552827+00:00 | Loaded fatigue file: docs/win/hockey/nhl/sdv/fatigue/season_2026_fatigue.csv (570 unique rows)
-2026-11-10T11:42:52.553167+00:00 | Loaded fatigue file: docs/win/hockey/nhl/sdv/fatigue/latest_fatigue.csv (14 unique rows)
-2026-11-10T11:42:52.554620+00:00 | SportsDataverse strict-as-of team-strength files found: 2
-2026-11-10T11:42:52.566703+00:00 | Loaded team-strength file: docs/win/hockey/nhl/sdv/team-strength/season_2026_team_ratings_asof.csv (570 unique strict-as-of rows)
-2026-11-10T11:42:52.567177+00:00 | Loaded team-strength file: docs/win/hockey/nhl/sdv/team-strength/latest_team_ratings_asof.csv (14 unique strict-as-of rows)
-2026-11-10T11:42:52.569500+00:00 | SportsDataverse strict-as-of goalie files found: 2
-2026-11-10T11:42:52.580865+00:00 | Loaded goalie file: docs/win/hockey/nhl/sdv/goalie/season_2026_game_goalie_features_asof.csv (285 unique strict-as-of rows)
-2026-11-10T11:42:52.581334+00:00 | Loaded goalie file: docs/win/hockey/nhl/sdv/goalie/latest_game_goalie_features_asof.csv (7 unique strict-as-of rows)
-2026-11-10T11:42:52.582524+00:00 | SportsDataverse strict-as-of lineup/player files found: 2
-2026-11-10T11:42:52.593425+00:00 | Loaded lineup/player file: docs/win/hockey/nhl/sdv/lineup-strength/season_2026_game_lineup_features_asof.csv (285 unique strict-as-of rows)
-2026-11-10T11:42:52.593898+00:00 | Loaded lineup/player file: docs/win/hockey/nhl/sdv/lineup-strength/latest_game_lineup_features_asof.csv (7 unique strict-as-of rows)
-2026-11-10T11:42:52.596269+00:00 | SportsDataverse prediction override | game_id=2026020040 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
-2026-11-10T11:42:52.596309+00:00 | SportsDataverse prediction override | game_id=2026020041 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
-2026-11-10T11:42:52.596339+00:00 | SportsDataverse prediction override | game_id=2026020042 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
-2026-11-10T11:42:52.596366+00:00 | SportsDataverse prediction override | game_id=2026020043 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
-2026-11-10T11:42:52.596590+00:00 | SportsDataverse prediction override | game_id=2026020040 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
-2026-11-10T11:42:52.596624+00:00 | SportsDataverse prediction override | game_id=2026020041 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
-2026-11-10T11:42:52.596651+00:00 | SportsDataverse prediction override | game_id=2026020042 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
-2026-11-10T11:42:52.596688+00:00 | SportsDataverse prediction override | game_id=2026020043 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
-2026-11-10T11:42:52.597182+00:00 | SportsDataverse prediction override | game_id=2026020044 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597217+00:00 | SportsDataverse prediction override | game_id=2026020045 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597246+00:00 | SportsDataverse prediction override | game_id=2026020046 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597272+00:00 | SportsDataverse prediction override | game_id=2026020047 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597298+00:00 | SportsDataverse prediction override | game_id=2026020049 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597324+00:00 | SportsDataverse prediction override | game_id=2026020048 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597349+00:00 | SportsDataverse prediction override | game_id=2026020050 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597375+00:00 | SportsDataverse prediction override | game_id=2026020051 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597401+00:00 | SportsDataverse prediction override | game_id=2026020052 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
-2026-11-10T11:42:52.597635+00:00 | SportsDataverse prediction override | game_id=2026020044 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597669+00:00 | SportsDataverse prediction override | game_id=2026020045 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597715+00:00 | SportsDataverse prediction override | game_id=2026020046 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597747+00:00 | SportsDataverse prediction override | game_id=2026020047 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597774+00:00 | SportsDataverse prediction override | game_id=2026020049 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597800+00:00 | SportsDataverse prediction override | game_id=2026020048 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597826+00:00 | SportsDataverse prediction override | game_id=2026020050 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597853+00:00 | SportsDataverse prediction override | game_id=2026020051 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.597878+00:00 | SportsDataverse prediction override | game_id=2026020052 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
-2026-11-10T11:42:52.598116+00:00 | SportsDataverse prediction override | game_id=2026020044 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598170+00:00 | SportsDataverse prediction override | game_id=2026020045 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598200+00:00 | SportsDataverse prediction override | game_id=2026020046 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598235+00:00 | SportsDataverse prediction override | game_id=2026020047 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598262+00:00 | SportsDataverse prediction override | game_id=2026020049 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598288+00:00 | SportsDataverse prediction override | game_id=2026020048 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598314+00:00 | SportsDataverse prediction override | game_id=2026020050 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598340+00:00 | SportsDataverse prediction override | game_id=2026020051 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.598365+00:00 | SportsDataverse prediction override | game_id=2026020052 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
-2026-11-10T11:42:52.602480+00:00 | SportsDataverse prediction override | game_id=2026020166 | previous=2026_10_23T043707_ET_predictions.csv | new=2026_10_23T124056_ET_predictions.csv
-2026-11-10T11:42:52.602517+00:00 | SportsDataverse prediction override | game_id=2026020167 | previous=2026_10_23T043707_ET_predictions.csv | new=2026_10_23T124056_ET_predictions.csv
-2026-11-10T11:42:52.602735+00:00 | SportsDataverse prediction override | game_id=2026020166 | previous=2026_10_23T124056_ET_predictions.csv | new=2026_10_23T160308_ET_predictions.csv
-2026-11-10T11:42:52.602769+00:00 | SportsDataverse prediction override | game_id=2026020167 | previous=2026_10_23T124056_ET_predictions.csv | new=2026_10_23T160308_ET_predictions.csv
-2026-11-10T11:42:52.603265+00:00 | SportsDataverse prediction override | game_id=2026020168 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603301+00:00 | SportsDataverse prediction override | game_id=2026020169 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603330+00:00 | SportsDataverse prediction override | game_id=2026020170 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603358+00:00 | SportsDataverse prediction override | game_id=2026020171 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603385+00:00 | SportsDataverse prediction override | game_id=2026020172 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603411+00:00 | SportsDataverse prediction override | game_id=2026020173 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603437+00:00 | SportsDataverse prediction override | game_id=2026020174 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603464+00:00 | SportsDataverse prediction override | game_id=2026020175 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603490+00:00 | SportsDataverse prediction override | game_id=2026020176 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603516+00:00 | SportsDataverse prediction override | game_id=2026020177 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603541+00:00 | SportsDataverse prediction override | game_id=2026020178 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.603566+00:00 | SportsDataverse prediction override | game_id=2026020179 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
-2026-11-10T11:42:52.604216+00:00 | SportsDataverse prediction override | game_id=2026020185 | previous=2026_10_26T044815_ET_predictions.csv | new=2026_10_26T111046_ET_predictions.csv
-2026-11-10T11:42:52.604258+00:00 | SportsDataverse prediction override | game_id=2026020186 | previous=2026_10_26T044815_ET_predictions.csv | new=2026_10_26T111046_ET_predictions.csv
-2026-11-10T11:42:52.604286+00:00 | SportsDataverse prediction override | game_id=2026020187 | previous=2026_10_26T044815_ET_predictions.csv | new=2026_10_26T111046_ET_predictions.csv
-2026-11-10T11:42:52.605419+00:00 | SportsDataverse prediction override | game_id=2026020214 | previous=2026_10_30T043937_ET_predictions.csv | new=2026_10_30T075813_ET_predictions.csv
-2026-11-10T11:42:52.605455+00:00 | SportsDataverse prediction override | game_id=2026020215 | previous=2026_10_30T043937_ET_predictions.csv | new=2026_10_30T075813_ET_predictions.csv
-2026-11-10T11:42:52.605484+00:00 | SportsDataverse prediction override | game_id=2026020216 | previous=2026_10_30T043937_ET_predictions.csv | new=2026_10_30T075813_ET_predictions.csv
-2026-11-10T11:42:52.606547+00:00 | SportsDataverse prediction override | game_id=2026020232 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
-2026-11-10T11:42:52.606582+00:00 | SportsDataverse prediction override | game_id=2026020233 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
-2026-11-10T11:42:52.606611+00:00 | SportsDataverse prediction override | game_id=2026020234 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
-2026-11-10T11:42:52.606638+00:00 | SportsDataverse prediction override | game_id=2026020235 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
-2026-11-10T11:42:52.607438+00:00 | SportsDataverse prediction override | game_id=2026020247 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
-2026-11-10T11:42:52.607473+00:00 | SportsDataverse prediction override | game_id=2026020248 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
-2026-11-10T11:42:52.607501+00:00 | SportsDataverse prediction override | game_id=2026020249 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
-2026-11-10T11:42:52.607527+00:00 | SportsDataverse prediction override | game_id=2026020250 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
-2026-11-10T11:42:52.608053+00:00 | SportsDataverse prediction override | game_id=2026020251 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608088+00:00 | SportsDataverse prediction override | game_id=2026020252 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608116+00:00 | SportsDataverse prediction override | game_id=2026020253 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608164+00:00 | SportsDataverse prediction override | game_id=2026020254 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608196+00:00 | SportsDataverse prediction override | game_id=2026020255 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608223+00:00 | SportsDataverse prediction override | game_id=2026020256 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608250+00:00 | SportsDataverse prediction override | game_id=2026020257 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608277+00:00 | SportsDataverse prediction override | game_id=2026020258 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608303+00:00 | SportsDataverse prediction override | game_id=2026020259 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608335+00:00 | SportsDataverse prediction override | game_id=2026020260 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.608362+00:00 | SportsDataverse prediction override | game_id=2026020261 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
-2026-11-10T11:42:52.609105+00:00 | SportsDataverse prediction override | game_id=2026020265 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609158+00:00 | SportsDataverse prediction override | game_id=2026020266 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609192+00:00 | SportsDataverse prediction override | game_id=2026020267 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609220+00:00 | SportsDataverse prediction override | game_id=2026020268 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609247+00:00 | SportsDataverse prediction override | game_id=2026020269 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609273+00:00 | SportsDataverse prediction override | game_id=2026020270 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609298+00:00 | SportsDataverse prediction override | game_id=2026020271 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609323+00:00 | SportsDataverse prediction override | game_id=2026020272 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609347+00:00 | SportsDataverse prediction override | game_id=2026020273 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609372+00:00 | SportsDataverse prediction override | game_id=2026020274 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609398+00:00 | SportsDataverse prediction override | game_id=2026020275 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609452+00:00 | SportsDataverse prediction override | game_id=2026020276 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
-2026-11-10T11:42:52.609935+00:00 | SportsDataverse prediction override | game_id=2026020277 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
-2026-11-10T11:42:52.609970+00:00 | SportsDataverse prediction override | game_id=2026020278 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
-2026-11-10T11:42:52.609997+00:00 | SportsDataverse prediction override | game_id=2026020280 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
-2026-11-10T11:42:52.610024+00:00 | SportsDataverse prediction override | game_id=2026020279 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
-2026-11-10T11:42:52.610050+00:00 | SportsDataverse prediction override | game_id=2026020281 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
-2026-11-10T11:42:52.610076+00:00 | SportsDataverse prediction override | game_id=2026020282 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
-2026-11-10T11:42:52.610474+00:00 | SportsDataverse prediction override | game_id=2026020286 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610509+00:00 | SportsDataverse prediction override | game_id=2026020287 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610537+00:00 | SportsDataverse prediction override | game_id=2026020288 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610570+00:00 | SportsDataverse prediction override | game_id=2026020291 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610597+00:00 | SportsDataverse prediction override | game_id=2026020289 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610623+00:00 | SportsDataverse prediction override | game_id=2026020290 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610649+00:00 | SportsDataverse prediction override | game_id=2026020292 | previous=2026_11_10T063234_ET_predictions.csv | new=latest_predictions.csv
-2026-11-10T11:42:52.610671+00:00 | SportsDataverse prediction archive loaded: files=59 games=292 dir=docs/win/hockey/nhl/sdv/sdv_predictions
-2026-11-10T11:42:52.611857+00:00 | Dates found from canonical games rows: 43
-2026-11-10T11:42:52.625981+00:00 | Wiped merge CSV outputs: 42
-2026-11-10T11:42:52.626014+00:00 | Wiped merge audit CSV outputs: 127
-2026-11-10T11:42:52.626058+00:00 | Processing game_date: 2026_09_29
-2026-11-10T11:42:52.626081+00:00 | Games rows for date: 5
-2026-11-10T11:42:52.626101+00:00 | Sportsbook rows for date: 5
-2026-11-10T11:42:52.626119+00:00 | Prediction rows for date: 5
-2026-11-10T11:42:52.627727+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_29_NHL_merge_audit.csv (5 rows)
-2026-11-10T11:42:52.627836+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_29_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.627938+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_29_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.628274+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_09_29_NHL_merged.csv (5 rows)
-2026-11-10T11:42:52.628307+00:00 | Date summary 2026_09_29: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.628357+00:00 | Processing game_date: 2026_09_30
-2026-11-10T11:42:52.628380+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.628400+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.628419+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.629185+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_30_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.629292+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_30_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.629389+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_30_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.629623+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_09_30_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.629650+00:00 | Date summary 2026_09_30: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.629695+00:00 | Processing game_date: 2026_10_01
-2026-11-10T11:42:52.629717+00:00 | Games rows for date: 8
-2026-11-10T11:42:52.629737+00:00 | Sportsbook rows for date: 8
-2026-11-10T11:42:52.629755+00:00 | Prediction rows for date: 8
-2026-11-10T11:42:52.631427+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_01_NHL_merge_audit.csv (8 rows)
-2026-11-10T11:42:52.631528+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_01_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.631622+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_01_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.631999+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_01_NHL_merged.csv (8 rows)
-2026-11-10T11:42:52.632026+00:00 | Date summary 2026_10_01: games=8 sportsbook=8 predictions=8 merged=8 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.632076+00:00 | Processing game_date: 2026_10_02
-2026-11-10T11:42:52.632098+00:00 | Games rows for date: 5
-2026-11-10T11:42:52.632118+00:00 | Sportsbook rows for date: 5
-2026-11-10T11:42:52.632174+00:00 | Prediction rows for date: 5
-2026-11-10T11:42:52.633253+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_02_NHL_merge_audit.csv (5 rows)
-2026-11-10T11:42:52.633353+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_02_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.633446+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_02_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.633741+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_02_NHL_merged.csv (5 rows)
-2026-11-10T11:42:52.633769+00:00 | Date summary 2026_10_02: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.633816+00:00 | Processing game_date: 2026_10_03
-2026-11-10T11:42:52.633838+00:00 | Games rows for date: 13
-2026-11-10T11:42:52.633858+00:00 | Sportsbook rows for date: 13
-2026-11-10T11:42:52.633877+00:00 | Prediction rows for date: 13
-2026-11-10T11:42:52.636447+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_03_NHL_merge_audit.csv (13 rows)
-2026-11-10T11:42:52.636546+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_03_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.636639+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_03_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.637203+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_03_NHL_merged.csv (13 rows)
-2026-11-10T11:42:52.637231+00:00 | Date summary 2026_10_03: games=13 sportsbook=13 predictions=13 merged=13 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.637284+00:00 | Processing game_date: 2026_10_04
-2026-11-10T11:42:52.637306+00:00 | Games rows for date: 5
-2026-11-10T11:42:52.637325+00:00 | Sportsbook rows for date: 5
-2026-11-10T11:42:52.637344+00:00 | Prediction rows for date: 5
-2026-11-10T11:42:52.638431+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_04_NHL_merge_audit.csv (5 rows)
-2026-11-10T11:42:52.638529+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_04_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.638620+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_04_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.638913+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_04_NHL_merged.csv (5 rows)
-2026-11-10T11:42:52.638939+00:00 | Date summary 2026_10_04: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.638986+00:00 | Processing game_date: 2026_10_05
-2026-11-10T11:42:52.639007+00:00 | Games rows for date: 4
-2026-11-10T11:42:52.639026+00:00 | Sportsbook rows for date: 4
-2026-11-10T11:42:52.639044+00:00 | Prediction rows for date: 4
-2026-11-10T11:42:52.639939+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_05_NHL_merge_audit.csv (4 rows)
-2026-11-10T11:42:52.640036+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_05_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.640128+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_05_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.640409+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_05_NHL_merged.csv (4 rows)
-2026-11-10T11:42:52.640436+00:00 | Date summary 2026_10_05: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.640485+00:00 | Processing game_date: 2026_10_06
-2026-11-10T11:42:52.640507+00:00 | Games rows for date: 9
-2026-11-10T11:42:52.640526+00:00 | Sportsbook rows for date: 9
-2026-11-10T11:42:52.640544+00:00 | Prediction rows for date: 9
-2026-11-10T11:42:52.642352+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_06_NHL_merge_audit.csv (9 rows)
-2026-11-10T11:42:52.642449+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_06_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.642542+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_06_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.642951+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_06_NHL_merged.csv (9 rows)
-2026-11-10T11:42:52.642978+00:00 | Date summary 2026_10_06: games=9 sportsbook=9 predictions=9 merged=9 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.643026+00:00 | Processing game_date: 2026_10_07
-2026-11-10T11:42:52.643048+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.643067+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.643085+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.643791+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_07_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.643888+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_07_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.643980+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_07_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.644229+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_07_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.644255+00:00 | Date summary 2026_10_07: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.644298+00:00 | Processing game_date: 2026_10_08
-2026-11-10T11:42:52.644319+00:00 | Games rows for date: 10
-2026-11-10T11:42:52.644339+00:00 | Sportsbook rows for date: 10
-2026-11-10T11:42:52.644357+00:00 | Prediction rows for date: 10
-2026-11-10T11:42:52.646323+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_08_NHL_merge_audit.csv (10 rows)
-2026-11-10T11:42:52.646419+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_08_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.646512+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_08_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.646943+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_08_NHL_merged.csv (10 rows)
-2026-11-10T11:42:52.646968+00:00 | Date summary 2026_10_08: games=10 sportsbook=10 predictions=10 merged=10 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.647018+00:00 | Processing game_date: 2026_10_09
-2026-11-10T11:42:52.647039+00:00 | Games rows for date: 4
-2026-11-10T11:42:52.647058+00:00 | Sportsbook rows for date: 4
-2026-11-10T11:42:52.647076+00:00 | Prediction rows for date: 4
-2026-11-10T11:42:52.647987+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_09_NHL_merge_audit.csv (4 rows)
-2026-11-10T11:42:52.648083+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_09_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.648198+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_09_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.648453+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_09_NHL_merged.csv (4 rows)
-2026-11-10T11:42:52.648480+00:00 | Date summary 2026_10_09: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.648523+00:00 | Processing game_date: 2026_10_10
-2026-11-10T11:42:52.648545+00:00 | Games rows for date: 14
-2026-11-10T11:42:52.648564+00:00 | Sportsbook rows for date: 14
-2026-11-10T11:42:52.648583+00:00 | Prediction rows for date: 14
-2026-11-10T11:42:52.651459+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_10_NHL_merge_audit.csv (14 rows)
-2026-11-10T11:42:52.651560+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_10_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.651653+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_10_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.652235+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_10_NHL_merged.csv (14 rows)
-2026-11-10T11:42:52.652263+00:00 | Date summary 2026_10_10: games=14 sportsbook=14 predictions=14 merged=14 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.652325+00:00 | Processing game_date: 2026_10_11
-2026-11-10T11:42:52.652366+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.652400+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.652420+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.653188+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_11_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.653292+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_11_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.653386+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_11_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.653614+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_11_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.653640+00:00 | Date summary 2026_10_11: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.653683+00:00 | Processing game_date: 2026_10_12
-2026-11-10T11:42:52.653704+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.653733+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.653751+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.654482+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_12_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.654580+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_12_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.654673+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_12_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.654899+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_12_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.654927+00:00 | Date summary 2026_10_12: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.654970+00:00 | Processing game_date: 2026_10_13
-2026-11-10T11:42:52.654992+00:00 | Games rows for date: 16
-2026-11-10T11:42:52.655011+00:00 | Sportsbook rows for date: 16
-2026-11-10T11:42:52.655029+00:00 | Prediction rows for date: 16
-2026-11-10T11:42:52.658101+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_13_NHL_merge_audit.csv (16 rows)
-2026-11-10T11:42:52.658231+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_13_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.658327+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_13_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.658938+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_13_NHL_merged.csv (16 rows)
-2026-11-10T11:42:52.658965+00:00 | Date summary 2026_10_13: games=16 sportsbook=16 predictions=16 merged=16 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.659018+00:00 | Processing game_date: 2026_10_14
-2026-11-10T11:42:52.659040+00:00 | Games rows for date: 2
-2026-11-10T11:42:52.659059+00:00 | Sportsbook rows for date: 2
-2026-11-10T11:42:52.659077+00:00 | Prediction rows for date: 2
-2026-11-10T11:42:52.659609+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_14_NHL_merge_audit.csv (2 rows)
-2026-11-10T11:42:52.659707+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_14_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.659799+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_14_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.659997+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_14_NHL_merged.csv (2 rows)
-2026-11-10T11:42:52.660023+00:00 | Date summary 2026_10_14: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.660065+00:00 | Processing game_date: 2026_10_15
-2026-11-10T11:42:52.660086+00:00 | Games rows for date: 11
-2026-11-10T11:42:52.660105+00:00 | Sportsbook rows for date: 11
-2026-11-10T11:42:52.660124+00:00 | Prediction rows for date: 11
-2026-11-10T11:42:52.662306+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_15_NHL_merge_audit.csv (11 rows)
-2026-11-10T11:42:52.662404+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_15_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.662498+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_15_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.662968+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_15_NHL_merged.csv (11 rows)
-2026-11-10T11:42:52.662995+00:00 | Date summary 2026_10_15: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.663044+00:00 | Processing game_date: 2026_10_16
-2026-11-10T11:42:52.663066+00:00 | Games rows for date: 2
-2026-11-10T11:42:52.663085+00:00 | Sportsbook rows for date: 2
-2026-11-10T11:42:52.663104+00:00 | Prediction rows for date: 2
-2026-11-10T11:42:52.663634+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_16_NHL_merge_audit.csv (2 rows)
-2026-11-10T11:42:52.663731+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_16_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.663825+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_16_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.664021+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_16_NHL_merged.csv (2 rows)
-2026-11-10T11:42:52.664046+00:00 | Date summary 2026_10_16: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.664088+00:00 | Processing game_date: 2026_10_17
-2026-11-10T11:42:52.664109+00:00 | Games rows for date: 14
-2026-11-10T11:42:52.664129+00:00 | Sportsbook rows for date: 14
-2026-11-10T11:42:52.664175+00:00 | Prediction rows for date: 14
-2026-11-10T11:42:52.666887+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_17_NHL_merge_audit.csv (14 rows)
-2026-11-10T11:42:52.666987+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_17_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.667095+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_17_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.667685+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_17_NHL_merged.csv (14 rows)
-2026-11-10T11:42:52.667712+00:00 | Date summary 2026_10_17: games=14 sportsbook=14 predictions=14 merged=14 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.667766+00:00 | Processing game_date: 2026_10_18
-2026-11-10T11:42:52.667789+00:00 | Games rows for date: 2
-2026-11-10T11:42:52.667810+00:00 | Sportsbook rows for date: 2
-2026-11-10T11:42:52.667829+00:00 | Prediction rows for date: 2
-2026-11-10T11:42:52.668362+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_18_NHL_merge_audit.csv (2 rows)
-2026-11-10T11:42:52.668459+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_18_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.668553+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_18_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.668750+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_18_NHL_merged.csv (2 rows)
-2026-11-10T11:42:52.668776+00:00 | Date summary 2026_10_18: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.668819+00:00 | Processing game_date: 2026_10_19
-2026-11-10T11:42:52.668841+00:00 | Games rows for date: 4
-2026-11-10T11:42:52.668860+00:00 | Sportsbook rows for date: 4
-2026-11-10T11:42:52.668879+00:00 | Prediction rows for date: 4
-2026-11-10T11:42:52.669777+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_19_NHL_merge_audit.csv (4 rows)
-2026-11-10T11:42:52.669875+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_19_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.669968+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_19_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.670248+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_19_NHL_merged.csv (4 rows)
-2026-11-10T11:42:52.670275+00:00 | Date summary 2026_10_19: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.670333+00:00 | Processing game_date: 2026_10_20
-2026-11-10T11:42:52.670360+00:00 | Games rows for date: 11
-2026-11-10T11:42:52.670380+00:00 | Sportsbook rows for date: 11
-2026-11-10T11:42:52.670399+00:00 | Prediction rows for date: 11
-2026-11-10T11:42:52.672591+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_20_NHL_merge_audit.csv (11 rows)
-2026-11-10T11:42:52.672691+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_20_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.672784+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_20_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.673276+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_20_NHL_merged.csv (11 rows)
-2026-11-10T11:42:52.673304+00:00 | Date summary 2026_10_20: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.673354+00:00 | Processing game_date: 2026_10_21
-2026-11-10T11:42:52.673376+00:00 | Games rows for date: 2
-2026-11-10T11:42:52.673395+00:00 | Sportsbook rows for date: 2
-2026-11-10T11:42:52.673414+00:00 | Prediction rows for date: 2
-2026-11-10T11:42:52.673918+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_21_NHL_merge_audit.csv (2 rows)
-2026-11-10T11:42:52.674017+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_21_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.674110+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_21_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.674342+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_21_NHL_merged.csv (2 rows)
-2026-11-10T11:42:52.674368+00:00 | Date summary 2026_10_21: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.674411+00:00 | Processing game_date: 2026_10_22
-2026-11-10T11:42:52.674433+00:00 | Games rows for date: 12
-2026-11-10T11:42:52.674453+00:00 | Sportsbook rows for date: 12
-2026-11-10T11:42:52.674472+00:00 | Prediction rows for date: 12
-2026-11-10T11:42:52.676821+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_22_NHL_merge_audit.csv (12 rows)
-2026-11-10T11:42:52.676920+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_22_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.677015+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_22_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.677535+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_22_NHL_merged.csv (12 rows)
-2026-11-10T11:42:52.677563+00:00 | Date summary 2026_10_22: games=12 sportsbook=12 predictions=12 merged=12 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.677615+00:00 | Processing game_date: 2026_10_23
-2026-11-10T11:42:52.677637+00:00 | Games rows for date: 2
-2026-11-10T11:42:52.677656+00:00 | Sportsbook rows for date: 2
-2026-11-10T11:42:52.677675+00:00 | Prediction rows for date: 2
-2026-11-10T11:42:52.678214+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_23_NHL_merge_audit.csv (2 rows)
-2026-11-10T11:42:52.678313+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_23_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.678406+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_23_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.678605+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_23_NHL_merged.csv (2 rows)
-2026-11-10T11:42:52.678631+00:00 | Date summary 2026_10_23: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.678673+00:00 | Processing game_date: 2026_10_24
-2026-11-10T11:42:52.678695+00:00 | Games rows for date: 12
-2026-11-10T11:42:52.678714+00:00 | Sportsbook rows for date: 12
-2026-11-10T11:42:52.678732+00:00 | Prediction rows for date: 12
-2026-11-10T11:42:52.681102+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_24_NHL_merge_audit.csv (12 rows)
-2026-11-10T11:42:52.681226+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_24_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.681326+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_24_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.681827+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_24_NHL_merged.csv (12 rows)
-2026-11-10T11:42:52.681854+00:00 | Date summary 2026_10_24: games=12 sportsbook=12 predictions=12 merged=12 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.681919+00:00 | Processing game_date: 2026_10_25
-2026-11-10T11:42:52.681941+00:00 | Games rows for date: 5
-2026-11-10T11:42:52.681961+00:00 | Sportsbook rows for date: 5
-2026-11-10T11:42:52.681980+00:00 | Prediction rows for date: 5
-2026-11-10T11:42:52.683077+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_25_NHL_merge_audit.csv (5 rows)
-2026-11-10T11:42:52.683198+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_25_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.683295+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_25_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.683581+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_25_NHL_merged.csv (5 rows)
-2026-11-10T11:42:52.683607+00:00 | Date summary 2026_10_25: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.683651+00:00 | Processing game_date: 2026_10_26
-2026-11-10T11:42:52.683682+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.683702+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.683720+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.684441+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_26_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.684538+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_26_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.684631+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_26_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.684856+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_26_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.684881+00:00 | Date summary 2026_10_26: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.684924+00:00 | Processing game_date: 2026_10_27
-2026-11-10T11:42:52.684945+00:00 | Games rows for date: 11
-2026-11-10T11:42:52.684964+00:00 | Sportsbook rows for date: 11
-2026-11-10T11:42:52.684983+00:00 | Prediction rows for date: 11
-2026-11-10T11:42:52.687176+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_27_NHL_merge_audit.csv (11 rows)
-2026-11-10T11:42:52.687278+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_27_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.687377+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_27_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.687844+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_27_NHL_merged.csv (11 rows)
-2026-11-10T11:42:52.687871+00:00 | Date summary 2026_10_27: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.687920+00:00 | Processing game_date: 2026_10_28
-2026-11-10T11:42:52.687941+00:00 | Games rows for date: 4
-2026-11-10T11:42:52.687961+00:00 | Sportsbook rows for date: 4
-2026-11-10T11:42:52.687979+00:00 | Prediction rows for date: 4
-2026-11-10T11:42:52.688871+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_28_NHL_merge_audit.csv (4 rows)
-2026-11-10T11:42:52.688971+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_28_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.689066+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_28_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.689356+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_28_NHL_merged.csv (4 rows)
-2026-11-10T11:42:52.689383+00:00 | Date summary 2026_10_28: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.689432+00:00 | Processing game_date: 2026_10_29
-2026-11-10T11:42:52.689454+00:00 | Games rows for date: 11
-2026-11-10T11:42:52.689473+00:00 | Sportsbook rows for date: 11
-2026-11-10T11:42:52.689491+00:00 | Prediction rows for date: 11
-2026-11-10T11:42:52.691664+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_29_NHL_merge_audit.csv (11 rows)
-2026-11-10T11:42:52.691762+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_29_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.691856+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_29_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.692341+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_29_NHL_merged.csv (11 rows)
-2026-11-10T11:42:52.692369+00:00 | Date summary 2026_10_29: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.692417+00:00 | Processing game_date: 2026_10_30
-2026-11-10T11:42:52.692439+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.692459+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.692477+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.693193+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_30_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.693292+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_30_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.693387+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_30_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.693622+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_30_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.693648+00:00 | Date summary 2026_10_30: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.693691+00:00 | Processing game_date: 2026_10_31
-2026-11-10T11:42:52.693713+00:00 | Games rows for date: 10
-2026-11-10T11:42:52.693732+00:00 | Sportsbook rows for date: 10
-2026-11-10T11:42:52.693751+00:00 | Prediction rows for date: 10
-2026-11-10T11:42:52.695738+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_31_NHL_merge_audit.csv (10 rows)
-2026-11-10T11:42:52.695837+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_31_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.695932+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_31_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.696393+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_31_NHL_merged.csv (10 rows)
-2026-11-10T11:42:52.696421+00:00 | Date summary 2026_10_31: games=10 sportsbook=10 predictions=10 merged=10 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.696470+00:00 | Processing game_date: 2026_11_01
-2026-11-10T11:42:52.696491+00:00 | Games rows for date: 5
-2026-11-10T11:42:52.696510+00:00 | Sportsbook rows for date: 5
-2026-11-10T11:42:52.696529+00:00 | Prediction rows for date: 5
-2026-11-10T11:42:52.697615+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_01_NHL_merge_audit.csv (5 rows)
-2026-11-10T11:42:52.697735+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_01_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.697836+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_01_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.698123+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_01_NHL_merged.csv (5 rows)
-2026-11-10T11:42:52.698171+00:00 | Date summary 2026_11_01: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.698218+00:00 | Processing game_date: 2026_11_02
-2026-11-10T11:42:52.698239+00:00 | Games rows for date: 4
-2026-11-10T11:42:52.698259+00:00 | Sportsbook rows for date: 4
-2026-11-10T11:42:52.698278+00:00 | Prediction rows for date: 4
-2026-11-10T11:42:52.699161+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_02_NHL_merge_audit.csv (4 rows)
-2026-11-10T11:42:52.699265+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_02_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.699365+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_02_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.699620+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_02_NHL_merged.csv (4 rows)
-2026-11-10T11:42:52.699646+00:00 | Date summary 2026_11_02: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.699692+00:00 | Processing game_date: 2026_11_03
-2026-11-10T11:42:52.699714+00:00 | Games rows for date: 11
-2026-11-10T11:42:52.699733+00:00 | Sportsbook rows for date: 11
-2026-11-10T11:42:52.699752+00:00 | Prediction rows for date: 11
-2026-11-10T11:42:52.701960+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_03_NHL_merge_audit.csv (11 rows)
-2026-11-10T11:42:52.702059+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_03_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.702177+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_03_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.702645+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_03_NHL_merged.csv (11 rows)
-2026-11-10T11:42:52.702672+00:00 | Date summary 2026_11_03: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.702721+00:00 | Processing game_date: 2026_11_04
-2026-11-10T11:42:52.702743+00:00 | Games rows for date: 4
-2026-11-10T11:42:52.702762+00:00 | Sportsbook rows for date: 4
-2026-11-10T11:42:52.702781+00:00 | Prediction rows for date: 4
-2026-11-10T11:42:52.703691+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_04_NHL_merge_audit.csv (4 rows)
-2026-11-10T11:42:52.703790+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_04_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.703884+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_04_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.704159+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_04_NHL_merged.csv (4 rows)
-2026-11-10T11:42:52.704189+00:00 | Date summary 2026_11_04: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.704233+00:00 | Processing game_date: 2026_11_05
-2026-11-10T11:42:52.704255+00:00 | Games rows for date: 11
-2026-11-10T11:42:52.704275+00:00 | Sportsbook rows for date: 11
-2026-11-10T11:42:52.704293+00:00 | Prediction rows for date: 11
-2026-11-10T11:42:52.706458+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_05_NHL_merge_audit.csv (11 rows)
-2026-11-10T11:42:52.706556+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_05_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.706650+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_05_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.707117+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_05_NHL_merged.csv (11 rows)
-2026-11-10T11:42:52.707165+00:00 | Date summary 2026_11_05: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.707219+00:00 | Processing game_date: 2026_11_06
-2026-11-10T11:42:52.707240+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.707259+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.707277+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.707959+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_06_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.708057+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_06_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.708175+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_06_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.708407+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_06_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.708432+00:00 | Date summary 2026_11_06: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.708480+00:00 | Processing game_date: 2026_11_07
-2026-11-10T11:42:52.708502+00:00 | Games rows for date: 12
-2026-11-10T11:42:52.708521+00:00 | Sportsbook rows for date: 12
-2026-11-10T11:42:52.708540+00:00 | Prediction rows for date: 12
-2026-11-10T11:42:52.710901+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_07_NHL_merge_audit.csv (12 rows)
-2026-11-10T11:42:52.711002+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_07_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.711097+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_07_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.711633+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_07_NHL_merged.csv (12 rows)
-2026-11-10T11:42:52.711661+00:00 | Date summary 2026_11_07: games=12 sportsbook=12 predictions=12 merged=12 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.711712+00:00 | Processing game_date: 2026_11_08
-2026-11-10T11:42:52.711734+00:00 | Games rows for date: 6
-2026-11-10T11:42:52.711753+00:00 | Sportsbook rows for date: 6
-2026-11-10T11:42:52.711772+00:00 | Prediction rows for date: 6
-2026-11-10T11:42:52.713043+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_08_NHL_merge_audit.csv (6 rows)
-2026-11-10T11:42:52.713163+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_08_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.713263+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_08_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.713585+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_08_NHL_merged.csv (6 rows)
-2026-11-10T11:42:52.713611+00:00 | Date summary 2026_11_08: games=6 sportsbook=6 predictions=6 merged=6 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.713657+00:00 | Processing game_date: 2026_11_09
-2026-11-10T11:42:52.713679+00:00 | Games rows for date: 3
-2026-11-10T11:42:52.713699+00:00 | Sportsbook rows for date: 3
-2026-11-10T11:42:52.713717+00:00 | Prediction rows for date: 3
-2026-11-10T11:42:52.714454+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_09_NHL_merge_audit.csv (3 rows)
-2026-11-10T11:42:52.714555+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_09_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.714650+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_09_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.714877+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_09_NHL_merged.csv (3 rows)
-2026-11-10T11:42:52.714902+00:00 | Date summary 2026_11_09: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.714946+00:00 | Processing game_date: 2026_11_10
-2026-11-10T11:42:52.714968+00:00 | Games rows for date: 7
-2026-11-10T11:42:52.714987+00:00 | Sportsbook rows for date: 7
-2026-11-10T11:42:52.715005+00:00 | Prediction rows for date: 7
-2026-11-10T11:42:52.716494+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_10_NHL_merge_audit.csv (7 rows)
-2026-11-10T11:42:52.716601+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_10_NHL_rejected_sportsbook.csv (0 rows)
-2026-11-10T11:42:52.716706+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_10_NHL_rejected_predictions.csv (0 rows)
-2026-11-10T11:42:52.717068+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_10_NHL_merged.csv (7 rows)
-2026-11-10T11:42:52.717106+00:00 | Date summary 2026_11_10: games=7 sportsbook=7 predictions=7 merged=7 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
-2026-11-10T11:42:52.717158+00:00 | --- SUMMARY ---
-2026-11-10T11:42:52.717183+00:00 | Dates processed: 43
-2026-11-10T11:42:52.717204+00:00 | Dates with missing source games: 0
-2026-11-10T11:42:52.717222+00:00 | Games missing prediction and/or sportsbook source: 0
-2026-11-10T11:42:52.717240+00:00 | Dates with hard failures: 0
-2026-11-10T11:42:52.717258+00:00 | Rows merged: 292
-2026-11-10T11:42:52.717283+00:00 | Rejected sportsbook rows: 0
-2026-11-10T11:42:52.717302+00:00 | Rejected prediction rows: 0
-2026-11-10T11:42:52.717320+00:00 | STATUS: SUCCESS
+=== merge_intake RUN 2026-11-10T15:36:02.496035+00:00 ===
+2026-11-10T15:36:02.496498+00:00 | games files found: 43
+2026-11-10T15:36:02.499058+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_09_29_nhl_games.csv (5 usable rows)
+2026-11-10T15:36:02.499211+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_09_30_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.499383+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_01_nhl_games.csv (8 usable rows)
+2026-11-10T15:36:02.499521+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_02_nhl_games.csv (5 usable rows)
+2026-11-10T15:36:02.499721+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_03_nhl_games.csv (13 usable rows)
+2026-11-10T15:36:02.499880+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_04_nhl_games.csv (5 usable rows)
+2026-11-10T15:36:02.500001+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_05_nhl_games.csv (4 usable rows)
+2026-11-10T15:36:02.500168+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_06_nhl_games.csv (9 usable rows)
+2026-11-10T15:36:02.500276+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_07_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.500442+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_08_nhl_games.csv (10 usable rows)
+2026-11-10T15:36:02.500555+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_09_nhl_games.csv (4 usable rows)
+2026-11-10T15:36:02.500756+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_10_nhl_games.csv (14 usable rows)
+2026-11-10T15:36:02.500889+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_11_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.500996+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_12_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.501773+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_13_nhl_games.csv (16 usable rows)
+2026-11-10T15:36:02.501895+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_14_nhl_games.csv (2 usable rows)
+2026-11-10T15:36:02.502066+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_15_nhl_games.csv (11 usable rows)
+2026-11-10T15:36:02.502157+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_16_nhl_games.csv (2 usable rows)
+2026-11-10T15:36:02.502351+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_17_nhl_games.csv (14 usable rows)
+2026-11-10T15:36:02.502441+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_18_nhl_games.csv (2 usable rows)
+2026-11-10T15:36:02.502553+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_19_nhl_games.csv (4 usable rows)
+2026-11-10T15:36:02.502726+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_20_nhl_games.csv (11 usable rows)
+2026-11-10T15:36:02.502820+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_21_nhl_games.csv (2 usable rows)
+2026-11-10T15:36:02.503031+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_22_nhl_games.csv (12 usable rows)
+2026-11-10T15:36:02.503120+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_23_nhl_games.csv (2 usable rows)
+2026-11-10T15:36:02.503300+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_24_nhl_games.csv (12 usable rows)
+2026-11-10T15:36:02.503420+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_25_nhl_games.csv (5 usable rows)
+2026-11-10T15:36:02.503521+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_26_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.503685+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_27_nhl_games.csv (11 usable rows)
+2026-11-10T15:36:02.503796+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_28_nhl_games.csv (4 usable rows)
+2026-11-10T15:36:02.503996+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_29_nhl_games.csv (11 usable rows)
+2026-11-10T15:36:02.504111+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_30_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.504296+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_10_31_nhl_games.csv (10 usable rows)
+2026-11-10T15:36:02.504413+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_01_nhl_games.csv (5 usable rows)
+2026-11-10T15:36:02.504522+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_02_nhl_games.csv (4 usable rows)
+2026-11-10T15:36:02.504690+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_03_nhl_games.csv (11 usable rows)
+2026-11-10T15:36:02.504803+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_04_nhl_games.csv (4 usable rows)
+2026-11-10T15:36:02.504998+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_05_nhl_games.csv (11 usable rows)
+2026-11-10T15:36:02.505100+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_06_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.505275+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_07_nhl_games.csv (12 usable rows)
+2026-11-10T15:36:02.505400+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_08_nhl_games.csv (6 usable rows)
+2026-11-10T15:36:02.505499+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_09_nhl_games.csv (3 usable rows)
+2026-11-10T15:36:02.505648+00:00 | Loaded games file: docs/win/hockey/nhl/00_intake/games/2026_11_10_nhl_games.csv (7 usable rows)
+2026-11-10T15:36:02.505985+00:00 | sportsbook files found: 43
+2026-11-10T15:36:02.506153+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_09_29.csv (5 usable rows)
+2026-11-10T15:36:02.506287+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_09_30.csv (3 usable rows)
+2026-11-10T15:36:02.506592+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_01.csv (8 usable rows)
+2026-11-10T15:36:02.506882+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_02.csv (5 usable rows)
+2026-11-10T15:36:02.507347+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_03.csv (13 usable rows)
+2026-11-10T15:36:02.507531+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_04.csv (5 usable rows)
+2026-11-10T15:36:02.507675+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_05.csv (4 usable rows)
+2026-11-10T15:36:02.507925+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_06.csv (9 usable rows)
+2026-11-10T15:36:02.508060+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_07.csv (3 usable rows)
+2026-11-10T15:36:02.508280+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_08.csv (10 usable rows)
+2026-11-10T15:36:02.508417+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_09.csv (4 usable rows)
+2026-11-10T15:36:02.508686+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_10.csv (14 usable rows)
+2026-11-10T15:36:02.508812+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_11.csv (3 usable rows)
+2026-11-10T15:36:02.508974+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_12.csv (3 usable rows)
+2026-11-10T15:36:02.509271+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_13.csv (16 usable rows)
+2026-11-10T15:36:02.509385+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_14.csv (2 usable rows)
+2026-11-10T15:36:02.509620+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_15.csv (11 usable rows)
+2026-11-10T15:36:02.509736+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_16.csv (2 usable rows)
+2026-11-10T15:36:02.510036+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_17.csv (14 usable rows)
+2026-11-10T15:36:02.510154+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_18.csv (2 usable rows)
+2026-11-10T15:36:02.510294+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_19.csv (4 usable rows)
+2026-11-10T15:36:02.510528+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_20.csv (11 usable rows)
+2026-11-10T15:36:02.510637+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_21.csv (2 usable rows)
+2026-11-10T15:36:02.510910+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_22.csv (12 usable rows)
+2026-11-10T15:36:02.511028+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_23.csv (2 usable rows)
+2026-11-10T15:36:02.511261+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_24.csv (12 usable rows)
+2026-11-10T15:36:02.511415+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_25.csv (5 usable rows)
+2026-11-10T15:36:02.511545+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_26.csv (3 usable rows)
+2026-11-10T15:36:02.511770+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_27.csv (11 usable rows)
+2026-11-10T15:36:02.511936+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_28.csv (4 usable rows)
+2026-11-10T15:36:02.512166+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_29.csv (11 usable rows)
+2026-11-10T15:36:02.512291+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_30.csv (3 usable rows)
+2026-11-10T15:36:02.512512+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_10_31.csv (10 usable rows)
+2026-11-10T15:36:02.512659+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_01.csv (5 usable rows)
+2026-11-10T15:36:02.512799+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_02.csv (4 usable rows)
+2026-11-10T15:36:02.513049+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_03.csv (11 usable rows)
+2026-11-10T15:36:02.513185+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_04.csv (4 usable rows)
+2026-11-10T15:36:02.513472+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_05.csv (11 usable rows)
+2026-11-10T15:36:02.513622+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_06.csv (3 usable rows)
+2026-11-10T15:36:02.513905+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_07.csv (12 usable rows)
+2026-11-10T15:36:02.514079+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_08.csv (6 usable rows)
+2026-11-10T15:36:02.514210+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_09.csv (3 usable rows)
+2026-11-10T15:36:02.514388+00:00 | Loaded sportsbook file: docs/win/hockey/nhl/00_intake/sportsbook/NHL_2026_11_10.csv (7 usable rows)
+2026-11-10T15:36:02.514745+00:00 | predictions files found: 43
+2026-11-10T15:36:02.514905+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_09_29.csv (5 usable rows)
+2026-11-10T15:36:02.515026+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_09_30.csv (3 usable rows)
+2026-11-10T15:36:02.515187+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_01.csv (8 usable rows)
+2026-11-10T15:36:02.515314+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_02.csv (5 usable rows)
+2026-11-10T15:36:02.515507+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_03.csv (13 usable rows)
+2026-11-10T15:36:02.515635+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_04.csv (5 usable rows)
+2026-11-10T15:36:02.515751+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_05.csv (4 usable rows)
+2026-11-10T15:36:02.515938+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_06.csv (9 usable rows)
+2026-11-10T15:36:02.516046+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_07.csv (3 usable rows)
+2026-11-10T15:36:02.516214+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_08.csv (10 usable rows)
+2026-11-10T15:36:02.516329+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_09.csv (4 usable rows)
+2026-11-10T15:36:02.516531+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_10.csv (14 usable rows)
+2026-11-10T15:36:02.516633+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_11.csv (3 usable rows)
+2026-11-10T15:36:02.516733+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_12.csv (3 usable rows)
+2026-11-10T15:36:02.516984+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_13.csv (16 usable rows)
+2026-11-10T15:36:02.517075+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_14.csv (2 usable rows)
+2026-11-10T15:36:02.517247+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_15.csv (11 usable rows)
+2026-11-10T15:36:02.517339+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_16.csv (2 usable rows)
+2026-11-10T15:36:02.517544+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_17.csv (14 usable rows)
+2026-11-10T15:36:02.517632+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_18.csv (2 usable rows)
+2026-11-10T15:36:02.517741+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_19.csv (4 usable rows)
+2026-11-10T15:36:02.517942+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_20.csv (11 usable rows)
+2026-11-10T15:36:02.518038+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_21.csv (2 usable rows)
+2026-11-10T15:36:02.518224+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_22.csv (12 usable rows)
+2026-11-10T15:36:02.518318+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_23.csv (2 usable rows)
+2026-11-10T15:36:02.518511+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_24.csv (12 usable rows)
+2026-11-10T15:36:02.518654+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_25.csv (5 usable rows)
+2026-11-10T15:36:02.518757+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_26.csv (3 usable rows)
+2026-11-10T15:36:02.518954+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_27.csv (11 usable rows)
+2026-11-10T15:36:02.519072+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_28.csv (4 usable rows)
+2026-11-10T15:36:02.519247+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_29.csv (11 usable rows)
+2026-11-10T15:36:02.519348+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_30.csv (3 usable rows)
+2026-11-10T15:36:02.519513+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_10_31.csv (10 usable rows)
+2026-11-10T15:36:02.519635+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_01.csv (5 usable rows)
+2026-11-10T15:36:02.519755+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_02.csv (4 usable rows)
+2026-11-10T15:36:02.519952+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_03.csv (11 usable rows)
+2026-11-10T15:36:02.520065+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_04.csv (4 usable rows)
+2026-11-10T15:36:02.520243+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_05.csv (11 usable rows)
+2026-11-10T15:36:02.520339+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_06.csv (3 usable rows)
+2026-11-10T15:36:02.520528+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_07.csv (12 usable rows)
+2026-11-10T15:36:02.520658+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_08.csv (6 usable rows)
+2026-11-10T15:36:02.520763+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_09.csv (3 usable rows)
+2026-11-10T15:36:02.520924+00:00 | Loaded predictions file: docs/win/hockey/nhl/00_intake/predictions/hockey_2026_11_10.csv (7 usable rows)
+2026-11-10T15:36:02.522316+00:00 | SportsDataverse fatigue files found: 2
+2026-11-10T15:36:02.530327+00:00 | Loaded fatigue file: docs/win/hockey/nhl/sdv/fatigue/season_2026_fatigue.csv (570 unique rows)
+2026-11-10T15:36:02.530647+00:00 | Loaded fatigue file: docs/win/hockey/nhl/sdv/fatigue/latest_fatigue.csv (14 unique rows)
+2026-11-10T15:36:02.532108+00:00 | SportsDataverse strict-as-of team-strength files found: 2
+2026-11-10T15:36:02.544569+00:00 | Loaded team-strength file: docs/win/hockey/nhl/sdv/team-strength/season_2026_team_ratings_asof.csv (570 unique strict-as-of rows)
+2026-11-10T15:36:02.545026+00:00 | Loaded team-strength file: docs/win/hockey/nhl/sdv/team-strength/latest_team_ratings_asof.csv (14 unique strict-as-of rows)
+2026-11-10T15:36:02.547273+00:00 | SportsDataverse strict-as-of goalie files found: 2
+2026-11-10T15:36:02.558587+00:00 | Loaded goalie file: docs/win/hockey/nhl/sdv/goalie/season_2026_game_goalie_features_asof.csv (285 unique strict-as-of rows)
+2026-11-10T15:36:02.559043+00:00 | Loaded goalie file: docs/win/hockey/nhl/sdv/goalie/latest_game_goalie_features_asof.csv (7 unique strict-as-of rows)
+2026-11-10T15:36:02.560221+00:00 | SportsDataverse strict-as-of lineup/player files found: 2
+2026-11-10T15:36:02.571431+00:00 | Loaded lineup/player file: docs/win/hockey/nhl/sdv/lineup-strength/season_2026_game_lineup_features_asof.csv (285 unique strict-as-of rows)
+2026-11-10T15:36:02.571894+00:00 | Loaded lineup/player file: docs/win/hockey/nhl/sdv/lineup-strength/latest_game_lineup_features_asof.csv (7 unique strict-as-of rows)
+2026-11-10T15:36:02.574539+00:00 | SportsDataverse prediction override | game_id=2026020040 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
+2026-11-10T15:36:02.574577+00:00 | SportsDataverse prediction override | game_id=2026020041 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
+2026-11-10T15:36:02.574608+00:00 | SportsDataverse prediction override | game_id=2026020042 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
+2026-11-10T15:36:02.574636+00:00 | SportsDataverse prediction override | game_id=2026020043 | previous=2026_10_05T043742_ET_predictions.csv | new=2026_10_05T174852_ET_predictions.csv
+2026-11-10T15:36:02.574884+00:00 | SportsDataverse prediction override | game_id=2026020040 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
+2026-11-10T15:36:02.574920+00:00 | SportsDataverse prediction override | game_id=2026020041 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
+2026-11-10T15:36:02.574948+00:00 | SportsDataverse prediction override | game_id=2026020042 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
+2026-11-10T15:36:02.574983+00:00 | SportsDataverse prediction override | game_id=2026020043 | previous=2026_10_05T174852_ET_predictions.csv | new=2026_10_05T183541_ET_predictions.csv
+2026-11-10T15:36:02.575479+00:00 | SportsDataverse prediction override | game_id=2026020044 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575514+00:00 | SportsDataverse prediction override | game_id=2026020045 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575543+00:00 | SportsDataverse prediction override | game_id=2026020046 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575571+00:00 | SportsDataverse prediction override | game_id=2026020047 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575598+00:00 | SportsDataverse prediction override | game_id=2026020049 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575624+00:00 | SportsDataverse prediction override | game_id=2026020048 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575650+00:00 | SportsDataverse prediction override | game_id=2026020050 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575677+00:00 | SportsDataverse prediction override | game_id=2026020051 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575703+00:00 | SportsDataverse prediction override | game_id=2026020052 | previous=2026_10_06T043716_ET_predictions.csv | new=2026_10_06T100030_ET_predictions.csv
+2026-11-10T15:36:02.575964+00:00 | SportsDataverse prediction override | game_id=2026020044 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.575998+00:00 | SportsDataverse prediction override | game_id=2026020045 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576027+00:00 | SportsDataverse prediction override | game_id=2026020046 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576055+00:00 | SportsDataverse prediction override | game_id=2026020047 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576082+00:00 | SportsDataverse prediction override | game_id=2026020049 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576108+00:00 | SportsDataverse prediction override | game_id=2026020048 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576135+00:00 | SportsDataverse prediction override | game_id=2026020050 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576162+00:00 | SportsDataverse prediction override | game_id=2026020051 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576188+00:00 | SportsDataverse prediction override | game_id=2026020052 | previous=2026_10_06T100030_ET_predictions.csv | new=2026_10_06T131926_ET_predictions.csv
+2026-11-10T15:36:02.576455+00:00 | SportsDataverse prediction override | game_id=2026020044 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576489+00:00 | SportsDataverse prediction override | game_id=2026020045 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576517+00:00 | SportsDataverse prediction override | game_id=2026020046 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576551+00:00 | SportsDataverse prediction override | game_id=2026020047 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576578+00:00 | SportsDataverse prediction override | game_id=2026020049 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576604+00:00 | SportsDataverse prediction override | game_id=2026020048 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576630+00:00 | SportsDataverse prediction override | game_id=2026020050 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576656+00:00 | SportsDataverse prediction override | game_id=2026020051 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.576683+00:00 | SportsDataverse prediction override | game_id=2026020052 | previous=2026_10_06T131926_ET_predictions.csv | new=2026_10_06T162724_ET_predictions.csv
+2026-11-10T15:36:02.580906+00:00 | SportsDataverse prediction override | game_id=2026020166 | previous=2026_10_23T043707_ET_predictions.csv | new=2026_10_23T124056_ET_predictions.csv
+2026-11-10T15:36:02.580942+00:00 | SportsDataverse prediction override | game_id=2026020167 | previous=2026_10_23T043707_ET_predictions.csv | new=2026_10_23T124056_ET_predictions.csv
+2026-11-10T15:36:02.581160+00:00 | SportsDataverse prediction override | game_id=2026020166 | previous=2026_10_23T124056_ET_predictions.csv | new=2026_10_23T160308_ET_predictions.csv
+2026-11-10T15:36:02.581194+00:00 | SportsDataverse prediction override | game_id=2026020167 | previous=2026_10_23T124056_ET_predictions.csv | new=2026_10_23T160308_ET_predictions.csv
+2026-11-10T15:36:02.581690+00:00 | SportsDataverse prediction override | game_id=2026020168 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581725+00:00 | SportsDataverse prediction override | game_id=2026020169 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581753+00:00 | SportsDataverse prediction override | game_id=2026020170 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581779+00:00 | SportsDataverse prediction override | game_id=2026020171 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581806+00:00 | SportsDataverse prediction override | game_id=2026020172 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581833+00:00 | SportsDataverse prediction override | game_id=2026020173 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581885+00:00 | SportsDataverse prediction override | game_id=2026020174 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581913+00:00 | SportsDataverse prediction override | game_id=2026020175 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581940+00:00 | SportsDataverse prediction override | game_id=2026020176 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581966+00:00 | SportsDataverse prediction override | game_id=2026020177 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.581991+00:00 | SportsDataverse prediction override | game_id=2026020178 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.582017+00:00 | SportsDataverse prediction override | game_id=2026020179 | previous=2026_10_24T043553_ET_predictions.csv | new=2026_10_24T122433_ET_predictions.csv
+2026-11-10T15:36:02.582669+00:00 | SportsDataverse prediction override | game_id=2026020185 | previous=2026_10_26T044815_ET_predictions.csv | new=2026_10_26T111046_ET_predictions.csv
+2026-11-10T15:36:02.582714+00:00 | SportsDataverse prediction override | game_id=2026020186 | previous=2026_10_26T044815_ET_predictions.csv | new=2026_10_26T111046_ET_predictions.csv
+2026-11-10T15:36:02.582743+00:00 | SportsDataverse prediction override | game_id=2026020187 | previous=2026_10_26T044815_ET_predictions.csv | new=2026_10_26T111046_ET_predictions.csv
+2026-11-10T15:36:02.583952+00:00 | SportsDataverse prediction override | game_id=2026020214 | previous=2026_10_30T043937_ET_predictions.csv | new=2026_10_30T075813_ET_predictions.csv
+2026-11-10T15:36:02.583987+00:00 | SportsDataverse prediction override | game_id=2026020215 | previous=2026_10_30T043937_ET_predictions.csv | new=2026_10_30T075813_ET_predictions.csv
+2026-11-10T15:36:02.584016+00:00 | SportsDataverse prediction override | game_id=2026020216 | previous=2026_10_30T043937_ET_predictions.csv | new=2026_10_30T075813_ET_predictions.csv
+2026-11-10T15:36:02.585025+00:00 | SportsDataverse prediction override | game_id=2026020232 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
+2026-11-10T15:36:02.585061+00:00 | SportsDataverse prediction override | game_id=2026020233 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
+2026-11-10T15:36:02.585089+00:00 | SportsDataverse prediction override | game_id=2026020234 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
+2026-11-10T15:36:02.585116+00:00 | SportsDataverse prediction override | game_id=2026020235 | previous=2026_11_02T044418_ET_predictions.csv | new=2026_11_02T094438_ET_predictions.csv
+2026-11-10T15:36:02.585889+00:00 | SportsDataverse prediction override | game_id=2026020247 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
+2026-11-10T15:36:02.585924+00:00 | SportsDataverse prediction override | game_id=2026020248 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
+2026-11-10T15:36:02.585951+00:00 | SportsDataverse prediction override | game_id=2026020249 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
+2026-11-10T15:36:02.585978+00:00 | SportsDataverse prediction override | game_id=2026020250 | previous=2026_11_04T030331_ET_predictions.csv | new=2026_11_04T101218_ET_predictions.csv
+2026-11-10T15:36:02.586517+00:00 | SportsDataverse prediction override | game_id=2026020251 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586551+00:00 | SportsDataverse prediction override | game_id=2026020252 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586579+00:00 | SportsDataverse prediction override | game_id=2026020253 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586606+00:00 | SportsDataverse prediction override | game_id=2026020254 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586632+00:00 | SportsDataverse prediction override | game_id=2026020255 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586658+00:00 | SportsDataverse prediction override | game_id=2026020256 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586684+00:00 | SportsDataverse prediction override | game_id=2026020257 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586709+00:00 | SportsDataverse prediction override | game_id=2026020258 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586734+00:00 | SportsDataverse prediction override | game_id=2026020259 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586766+00:00 | SportsDataverse prediction override | game_id=2026020260 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.586793+00:00 | SportsDataverse prediction override | game_id=2026020261 | previous=2026_11_05T030341_ET_predictions.csv | new=2026_11_05T153745_ET_predictions.csv
+2026-11-10T15:36:02.587561+00:00 | SportsDataverse prediction override | game_id=2026020265 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587595+00:00 | SportsDataverse prediction override | game_id=2026020266 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587622+00:00 | SportsDataverse prediction override | game_id=2026020267 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587649+00:00 | SportsDataverse prediction override | game_id=2026020268 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587676+00:00 | SportsDataverse prediction override | game_id=2026020269 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587702+00:00 | SportsDataverse prediction override | game_id=2026020270 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587728+00:00 | SportsDataverse prediction override | game_id=2026020271 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587753+00:00 | SportsDataverse prediction override | game_id=2026020272 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587779+00:00 | SportsDataverse prediction override | game_id=2026020273 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587804+00:00 | SportsDataverse prediction override | game_id=2026020274 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587830+00:00 | SportsDataverse prediction override | game_id=2026020275 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.587883+00:00 | SportsDataverse prediction override | game_id=2026020276 | previous=2026_11_07T084557_ET_predictions.csv | new=2026_11_07T094719_ET_predictions.csv
+2026-11-10T15:36:02.588354+00:00 | SportsDataverse prediction override | game_id=2026020277 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
+2026-11-10T15:36:02.588387+00:00 | SportsDataverse prediction override | game_id=2026020278 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
+2026-11-10T15:36:02.588414+00:00 | SportsDataverse prediction override | game_id=2026020280 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
+2026-11-10T15:36:02.588441+00:00 | SportsDataverse prediction override | game_id=2026020279 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
+2026-11-10T15:36:02.588467+00:00 | SportsDataverse prediction override | game_id=2026020281 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
+2026-11-10T15:36:02.588493+00:00 | SportsDataverse prediction override | game_id=2026020282 | previous=2026_11_08T063714_ET_predictions.csv | new=2026_11_08T102459_ET_predictions.csv
+2026-11-10T15:36:02.589044+00:00 | SportsDataverse prediction override | game_id=2026020286 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589079+00:00 | SportsDataverse prediction override | game_id=2026020287 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589113+00:00 | SportsDataverse prediction override | game_id=2026020288 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589141+00:00 | SportsDataverse prediction override | game_id=2026020291 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589167+00:00 | SportsDataverse prediction override | game_id=2026020289 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589193+00:00 | SportsDataverse prediction override | game_id=2026020290 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589220+00:00 | SportsDataverse prediction override | game_id=2026020292 | previous=2026_11_10T063234_ET_predictions.csv | new=2026_11_10T102606_ET_predictions.csv
+2026-11-10T15:36:02.589298+00:00 | SportsDataverse prediction override | game_id=2026020286 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589329+00:00 | SportsDataverse prediction override | game_id=2026020287 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589356+00:00 | SportsDataverse prediction override | game_id=2026020288 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589382+00:00 | SportsDataverse prediction override | game_id=2026020291 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589409+00:00 | SportsDataverse prediction override | game_id=2026020289 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589434+00:00 | SportsDataverse prediction override | game_id=2026020290 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589460+00:00 | SportsDataverse prediction override | game_id=2026020292 | previous=2026_11_10T102606_ET_predictions.csv | new=latest_predictions.csv
+2026-11-10T15:36:02.589483+00:00 | SportsDataverse prediction archive loaded: files=60 games=292 dir=docs/win/hockey/nhl/sdv/sdv_predictions
+2026-11-10T15:36:02.590539+00:00 | Dates found from canonical games rows: 43
+2026-11-10T15:36:02.604831+00:00 | Wiped merge CSV outputs: 43
+2026-11-10T15:36:02.604886+00:00 | Wiped merge audit CSV outputs: 130
+2026-11-10T15:36:02.604930+00:00 | Processing game_date: 2026_09_29
+2026-11-10T15:36:02.604953+00:00 | Games rows for date: 5
+2026-11-10T15:36:02.604974+00:00 | Sportsbook rows for date: 5
+2026-11-10T15:36:02.604993+00:00 | Prediction rows for date: 5
+2026-11-10T15:36:02.606583+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_29_NHL_merge_audit.csv (5 rows)
+2026-11-10T15:36:02.606691+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_29_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.606792+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_29_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.607152+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_09_29_NHL_merged.csv (5 rows)
+2026-11-10T15:36:02.607184+00:00 | Date summary 2026_09_29: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.607234+00:00 | Processing game_date: 2026_09_30
+2026-11-10T15:36:02.607257+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.607278+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.607297+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.608073+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_30_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.608174+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_30_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.608271+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_09_30_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.608503+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_09_30_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.608534+00:00 | Date summary 2026_09_30: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.608579+00:00 | Processing game_date: 2026_10_01
+2026-11-10T15:36:02.608602+00:00 | Games rows for date: 8
+2026-11-10T15:36:02.608622+00:00 | Sportsbook rows for date: 8
+2026-11-10T15:36:02.608641+00:00 | Prediction rows for date: 8
+2026-11-10T15:36:02.610282+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_01_NHL_merge_audit.csv (8 rows)
+2026-11-10T15:36:02.610380+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_01_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.610474+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_01_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.610895+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_01_NHL_merged.csv (8 rows)
+2026-11-10T15:36:02.610927+00:00 | Date summary 2026_10_01: games=8 sportsbook=8 predictions=8 merged=8 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.610976+00:00 | Processing game_date: 2026_10_02
+2026-11-10T15:36:02.610998+00:00 | Games rows for date: 5
+2026-11-10T15:36:02.611017+00:00 | Sportsbook rows for date: 5
+2026-11-10T15:36:02.611036+00:00 | Prediction rows for date: 5
+2026-11-10T15:36:02.612118+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_02_NHL_merge_audit.csv (5 rows)
+2026-11-10T15:36:02.612216+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_02_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.612308+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_02_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.612595+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_02_NHL_merged.csv (5 rows)
+2026-11-10T15:36:02.612621+00:00 | Date summary 2026_10_02: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.612668+00:00 | Processing game_date: 2026_10_03
+2026-11-10T15:36:02.612690+00:00 | Games rows for date: 13
+2026-11-10T15:36:02.612710+00:00 | Sportsbook rows for date: 13
+2026-11-10T15:36:02.612728+00:00 | Prediction rows for date: 13
+2026-11-10T15:36:02.615183+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_03_NHL_merge_audit.csv (13 rows)
+2026-11-10T15:36:02.615280+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_03_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.615372+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_03_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.615926+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_03_NHL_merged.csv (13 rows)
+2026-11-10T15:36:02.615954+00:00 | Date summary 2026_10_03: games=13 sportsbook=13 predictions=13 merged=13 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.616005+00:00 | Processing game_date: 2026_10_04
+2026-11-10T15:36:02.616027+00:00 | Games rows for date: 5
+2026-11-10T15:36:02.616046+00:00 | Sportsbook rows for date: 5
+2026-11-10T15:36:02.616064+00:00 | Prediction rows for date: 5
+2026-11-10T15:36:02.617103+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_04_NHL_merge_audit.csv (5 rows)
+2026-11-10T15:36:02.617200+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_04_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.617291+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_04_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.617576+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_04_NHL_merged.csv (5 rows)
+2026-11-10T15:36:02.617602+00:00 | Date summary 2026_10_04: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.617646+00:00 | Processing game_date: 2026_10_05
+2026-11-10T15:36:02.617668+00:00 | Games rows for date: 4
+2026-11-10T15:36:02.617687+00:00 | Sportsbook rows for date: 4
+2026-11-10T15:36:02.617706+00:00 | Prediction rows for date: 4
+2026-11-10T15:36:02.618564+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_05_NHL_merge_audit.csv (4 rows)
+2026-11-10T15:36:02.618659+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_05_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.618748+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_05_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.619022+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_05_NHL_merged.csv (4 rows)
+2026-11-10T15:36:02.619049+00:00 | Date summary 2026_10_05: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.619097+00:00 | Processing game_date: 2026_10_06
+2026-11-10T15:36:02.619118+00:00 | Games rows for date: 9
+2026-11-10T15:36:02.619137+00:00 | Sportsbook rows for date: 9
+2026-11-10T15:36:02.619155+00:00 | Prediction rows for date: 9
+2026-11-10T15:36:02.620885+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_06_NHL_merge_audit.csv (9 rows)
+2026-11-10T15:36:02.620983+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_06_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.621074+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_06_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.621478+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_06_NHL_merged.csv (9 rows)
+2026-11-10T15:36:02.621504+00:00 | Date summary 2026_10_06: games=9 sportsbook=9 predictions=9 merged=9 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.621552+00:00 | Processing game_date: 2026_10_07
+2026-11-10T15:36:02.621581+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.621601+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.621620+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.622308+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_07_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.622402+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_07_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.622534+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_07_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.622813+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_07_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.622874+00:00 | Date summary 2026_10_07: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.622928+00:00 | Processing game_date: 2026_10_08
+2026-11-10T15:36:02.622951+00:00 | Games rows for date: 10
+2026-11-10T15:36:02.622970+00:00 | Sportsbook rows for date: 10
+2026-11-10T15:36:02.622989+00:00 | Prediction rows for date: 10
+2026-11-10T15:36:02.625081+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_08_NHL_merge_audit.csv (10 rows)
+2026-11-10T15:36:02.625180+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_08_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.625273+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_08_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.625705+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_08_NHL_merged.csv (10 rows)
+2026-11-10T15:36:02.625732+00:00 | Date summary 2026_10_08: games=10 sportsbook=10 predictions=10 merged=10 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.625781+00:00 | Processing game_date: 2026_10_09
+2026-11-10T15:36:02.625804+00:00 | Games rows for date: 4
+2026-11-10T15:36:02.625823+00:00 | Sportsbook rows for date: 4
+2026-11-10T15:36:02.625864+00:00 | Prediction rows for date: 4
+2026-11-10T15:36:02.626714+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_09_NHL_merge_audit.csv (4 rows)
+2026-11-10T15:36:02.626810+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_09_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.626925+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_09_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.627179+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_09_NHL_merged.csv (4 rows)
+2026-11-10T15:36:02.627210+00:00 | Date summary 2026_10_09: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.627256+00:00 | Processing game_date: 2026_10_10
+2026-11-10T15:36:02.627278+00:00 | Games rows for date: 14
+2026-11-10T15:36:02.627297+00:00 | Sportsbook rows for date: 14
+2026-11-10T15:36:02.627316+00:00 | Prediction rows for date: 14
+2026-11-10T15:36:02.629922+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_10_NHL_merge_audit.csv (14 rows)
+2026-11-10T15:36:02.630020+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_10_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.630111+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_10_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.630660+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_10_NHL_merged.csv (14 rows)
+2026-11-10T15:36:02.630686+00:00 | Date summary 2026_10_10: games=14 sportsbook=14 predictions=14 merged=14 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.630737+00:00 | Processing game_date: 2026_10_11
+2026-11-10T15:36:02.630758+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.630777+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.630796+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.631486+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_11_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.631588+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_11_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.631685+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_11_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.631933+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_11_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.631959+00:00 | Date summary 2026_10_11: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.632001+00:00 | Processing game_date: 2026_10_12
+2026-11-10T15:36:02.632023+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.632042+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.632060+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.632717+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_12_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.632812+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_12_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.632927+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_12_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.633151+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_12_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.633177+00:00 | Date summary 2026_10_12: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.633219+00:00 | Processing game_date: 2026_10_13
+2026-11-10T15:36:02.633241+00:00 | Games rows for date: 16
+2026-11-10T15:36:02.633261+00:00 | Sportsbook rows for date: 16
+2026-11-10T15:36:02.633279+00:00 | Prediction rows for date: 16
+2026-11-10T15:36:02.636232+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_13_NHL_merge_audit.csv (16 rows)
+2026-11-10T15:36:02.636331+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_13_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.636423+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_13_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.637060+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_13_NHL_merged.csv (16 rows)
+2026-11-10T15:36:02.637088+00:00 | Date summary 2026_10_13: games=16 sportsbook=16 predictions=16 merged=16 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.637141+00:00 | Processing game_date: 2026_10_14
+2026-11-10T15:36:02.637163+00:00 | Games rows for date: 2
+2026-11-10T15:36:02.637183+00:00 | Sportsbook rows for date: 2
+2026-11-10T15:36:02.637207+00:00 | Prediction rows for date: 2
+2026-11-10T15:36:02.637699+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_14_NHL_merge_audit.csv (2 rows)
+2026-11-10T15:36:02.637794+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_14_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.637911+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_14_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.638111+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_14_NHL_merged.csv (2 rows)
+2026-11-10T15:36:02.638137+00:00 | Date summary 2026_10_14: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.638177+00:00 | Processing game_date: 2026_10_15
+2026-11-10T15:36:02.638199+00:00 | Games rows for date: 11
+2026-11-10T15:36:02.638218+00:00 | Sportsbook rows for date: 11
+2026-11-10T15:36:02.638237+00:00 | Prediction rows for date: 11
+2026-11-10T15:36:02.640322+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_15_NHL_merge_audit.csv (11 rows)
+2026-11-10T15:36:02.640419+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_15_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.640510+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_15_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.640996+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_15_NHL_merged.csv (11 rows)
+2026-11-10T15:36:02.641024+00:00 | Date summary 2026_10_15: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.641074+00:00 | Processing game_date: 2026_10_16
+2026-11-10T15:36:02.641096+00:00 | Games rows for date: 2
+2026-11-10T15:36:02.641116+00:00 | Sportsbook rows for date: 2
+2026-11-10T15:36:02.641135+00:00 | Prediction rows for date: 2
+2026-11-10T15:36:02.641639+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_16_NHL_merge_audit.csv (2 rows)
+2026-11-10T15:36:02.641734+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_16_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.641825+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_16_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.642047+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_16_NHL_merged.csv (2 rows)
+2026-11-10T15:36:02.642073+00:00 | Date summary 2026_10_16: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.642115+00:00 | Processing game_date: 2026_10_17
+2026-11-10T15:36:02.642136+00:00 | Games rows for date: 14
+2026-11-10T15:36:02.642155+00:00 | Sportsbook rows for date: 14
+2026-11-10T15:36:02.642173+00:00 | Prediction rows for date: 14
+2026-11-10T15:36:02.644760+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_17_NHL_merge_audit.csv (14 rows)
+2026-11-10T15:36:02.644880+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_17_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.644978+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_17_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.645530+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_17_NHL_merged.csv (14 rows)
+2026-11-10T15:36:02.645557+00:00 | Date summary 2026_10_17: games=14 sportsbook=14 predictions=14 merged=14 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.645609+00:00 | Processing game_date: 2026_10_18
+2026-11-10T15:36:02.645632+00:00 | Games rows for date: 2
+2026-11-10T15:36:02.645651+00:00 | Sportsbook rows for date: 2
+2026-11-10T15:36:02.645669+00:00 | Prediction rows for date: 2
+2026-11-10T15:36:02.646184+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_18_NHL_merge_audit.csv (2 rows)
+2026-11-10T15:36:02.646280+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_18_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.646372+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_18_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.646574+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_18_NHL_merged.csv (2 rows)
+2026-11-10T15:36:02.646600+00:00 | Date summary 2026_10_18: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.646640+00:00 | Processing game_date: 2026_10_19
+2026-11-10T15:36:02.646661+00:00 | Games rows for date: 4
+2026-11-10T15:36:02.646680+00:00 | Sportsbook rows for date: 4
+2026-11-10T15:36:02.646699+00:00 | Prediction rows for date: 4
+2026-11-10T15:36:02.647556+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_19_NHL_merge_audit.csv (4 rows)
+2026-11-10T15:36:02.647652+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_19_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.647743+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_19_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.648018+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_19_NHL_merged.csv (4 rows)
+2026-11-10T15:36:02.648044+00:00 | Date summary 2026_10_19: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.648087+00:00 | Processing game_date: 2026_10_20
+2026-11-10T15:36:02.648108+00:00 | Games rows for date: 11
+2026-11-10T15:36:02.648127+00:00 | Sportsbook rows for date: 11
+2026-11-10T15:36:02.648146+00:00 | Prediction rows for date: 11
+2026-11-10T15:36:02.650215+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_20_NHL_merge_audit.csv (11 rows)
+2026-11-10T15:36:02.650313+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_20_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.650405+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_20_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.650892+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_20_NHL_merged.csv (11 rows)
+2026-11-10T15:36:02.650930+00:00 | Date summary 2026_10_20: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.650979+00:00 | Processing game_date: 2026_10_21
+2026-11-10T15:36:02.651001+00:00 | Games rows for date: 2
+2026-11-10T15:36:02.651020+00:00 | Sportsbook rows for date: 2
+2026-11-10T15:36:02.651039+00:00 | Prediction rows for date: 2
+2026-11-10T15:36:02.651528+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_21_NHL_merge_audit.csv (2 rows)
+2026-11-10T15:36:02.651629+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_21_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.651721+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_21_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.651947+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_21_NHL_merged.csv (2 rows)
+2026-11-10T15:36:02.651973+00:00 | Date summary 2026_10_21: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.652014+00:00 | Processing game_date: 2026_10_22
+2026-11-10T15:36:02.652035+00:00 | Games rows for date: 12
+2026-11-10T15:36:02.652054+00:00 | Sportsbook rows for date: 12
+2026-11-10T15:36:02.652073+00:00 | Prediction rows for date: 12
+2026-11-10T15:36:02.654292+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_22_NHL_merge_audit.csv (12 rows)
+2026-11-10T15:36:02.654389+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_22_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.654481+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_22_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.654997+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_22_NHL_merged.csv (12 rows)
+2026-11-10T15:36:02.655025+00:00 | Date summary 2026_10_22: games=12 sportsbook=12 predictions=12 merged=12 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.655076+00:00 | Processing game_date: 2026_10_23
+2026-11-10T15:36:02.655098+00:00 | Games rows for date: 2
+2026-11-10T15:36:02.655123+00:00 | Sportsbook rows for date: 2
+2026-11-10T15:36:02.655142+00:00 | Prediction rows for date: 2
+2026-11-10T15:36:02.655631+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_23_NHL_merge_audit.csv (2 rows)
+2026-11-10T15:36:02.655726+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_23_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.655817+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_23_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.656062+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_23_NHL_merged.csv (2 rows)
+2026-11-10T15:36:02.656090+00:00 | Date summary 2026_10_23: games=2 sportsbook=2 predictions=2 merged=2 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.656133+00:00 | Processing game_date: 2026_10_24
+2026-11-10T15:36:02.656154+00:00 | Games rows for date: 12
+2026-11-10T15:36:02.656173+00:00 | Sportsbook rows for date: 12
+2026-11-10T15:36:02.656192+00:00 | Prediction rows for date: 12
+2026-11-10T15:36:02.658499+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_24_NHL_merge_audit.csv (12 rows)
+2026-11-10T15:36:02.658598+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_24_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.658689+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_24_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.659202+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_24_NHL_merged.csv (12 rows)
+2026-11-10T15:36:02.659230+00:00 | Date summary 2026_10_24: games=12 sportsbook=12 predictions=12 merged=12 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.659280+00:00 | Processing game_date: 2026_10_25
+2026-11-10T15:36:02.659302+00:00 | Games rows for date: 5
+2026-11-10T15:36:02.659321+00:00 | Sportsbook rows for date: 5
+2026-11-10T15:36:02.659339+00:00 | Prediction rows for date: 5
+2026-11-10T15:36:02.660388+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_25_NHL_merge_audit.csv (5 rows)
+2026-11-10T15:36:02.660485+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_25_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.660577+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_25_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.660885+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_25_NHL_merged.csv (5 rows)
+2026-11-10T15:36:02.660913+00:00 | Date summary 2026_10_25: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.660958+00:00 | Processing game_date: 2026_10_26
+2026-11-10T15:36:02.660980+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.660999+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.661018+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.661685+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_26_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.661781+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_26_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.661902+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_26_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.662144+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_26_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.662169+00:00 | Date summary 2026_10_26: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.662211+00:00 | Processing game_date: 2026_10_27
+2026-11-10T15:36:02.662232+00:00 | Games rows for date: 11
+2026-11-10T15:36:02.662252+00:00 | Sportsbook rows for date: 11
+2026-11-10T15:36:02.662270+00:00 | Prediction rows for date: 11
+2026-11-10T15:36:02.664439+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_27_NHL_merge_audit.csv (11 rows)
+2026-11-10T15:36:02.664539+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_27_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.664631+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_27_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.665127+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_27_NHL_merged.csv (11 rows)
+2026-11-10T15:36:02.665155+00:00 | Date summary 2026_10_27: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.665203+00:00 | Processing game_date: 2026_10_28
+2026-11-10T15:36:02.665225+00:00 | Games rows for date: 4
+2026-11-10T15:36:02.665244+00:00 | Sportsbook rows for date: 4
+2026-11-10T15:36:02.665262+00:00 | Prediction rows for date: 4
+2026-11-10T15:36:02.666128+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_28_NHL_merge_audit.csv (4 rows)
+2026-11-10T15:36:02.666224+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_28_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.666317+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_28_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.666569+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_28_NHL_merged.csv (4 rows)
+2026-11-10T15:36:02.666595+00:00 | Date summary 2026_10_28: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.666637+00:00 | Processing game_date: 2026_10_29
+2026-11-10T15:36:02.666658+00:00 | Games rows for date: 11
+2026-11-10T15:36:02.666678+00:00 | Sportsbook rows for date: 11
+2026-11-10T15:36:02.666696+00:00 | Prediction rows for date: 11
+2026-11-10T15:36:02.668763+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_29_NHL_merge_audit.csv (11 rows)
+2026-11-10T15:36:02.668884+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_29_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.668980+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_29_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.669440+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_29_NHL_merged.csv (11 rows)
+2026-11-10T15:36:02.669466+00:00 | Date summary 2026_10_29: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.669516+00:00 | Processing game_date: 2026_10_30
+2026-11-10T15:36:02.669538+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.669557+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.669575+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.670274+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_30_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.670372+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_30_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.670465+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_30_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.670700+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_30_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.670727+00:00 | Date summary 2026_10_30: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.670768+00:00 | Processing game_date: 2026_10_31
+2026-11-10T15:36:02.670790+00:00 | Games rows for date: 10
+2026-11-10T15:36:02.670809+00:00 | Sportsbook rows for date: 10
+2026-11-10T15:36:02.670827+00:00 | Prediction rows for date: 10
+2026-11-10T15:36:02.672733+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_31_NHL_merge_audit.csv (10 rows)
+2026-11-10T15:36:02.672831+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_31_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.672982+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_10_31_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.673420+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_10_31_NHL_merged.csv (10 rows)
+2026-11-10T15:36:02.673446+00:00 | Date summary 2026_10_31: games=10 sportsbook=10 predictions=10 merged=10 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.673494+00:00 | Processing game_date: 2026_11_01
+2026-11-10T15:36:02.673522+00:00 | Games rows for date: 5
+2026-11-10T15:36:02.673542+00:00 | Sportsbook rows for date: 5
+2026-11-10T15:36:02.673561+00:00 | Prediction rows for date: 5
+2026-11-10T15:36:02.674619+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_01_NHL_merge_audit.csv (5 rows)
+2026-11-10T15:36:02.674715+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_01_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.674808+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_01_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.675121+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_01_NHL_merged.csv (5 rows)
+2026-11-10T15:36:02.675149+00:00 | Date summary 2026_11_01: games=5 sportsbook=5 predictions=5 merged=5 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.675194+00:00 | Processing game_date: 2026_11_02
+2026-11-10T15:36:02.675216+00:00 | Games rows for date: 4
+2026-11-10T15:36:02.675235+00:00 | Sportsbook rows for date: 4
+2026-11-10T15:36:02.675254+00:00 | Prediction rows for date: 4
+2026-11-10T15:36:02.676117+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_02_NHL_merge_audit.csv (4 rows)
+2026-11-10T15:36:02.676215+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_02_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.676309+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_02_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.676561+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_02_NHL_merged.csv (4 rows)
+2026-11-10T15:36:02.676587+00:00 | Date summary 2026_11_02: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.676630+00:00 | Processing game_date: 2026_11_03
+2026-11-10T15:36:02.676651+00:00 | Games rows for date: 11
+2026-11-10T15:36:02.676670+00:00 | Sportsbook rows for date: 11
+2026-11-10T15:36:02.676689+00:00 | Prediction rows for date: 11
+2026-11-10T15:36:02.678803+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_03_NHL_merge_audit.csv (11 rows)
+2026-11-10T15:36:02.678925+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_03_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.679021+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_03_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.679483+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_03_NHL_merged.csv (11 rows)
+2026-11-10T15:36:02.679510+00:00 | Date summary 2026_11_03: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.679559+00:00 | Processing game_date: 2026_11_04
+2026-11-10T15:36:02.679581+00:00 | Games rows for date: 4
+2026-11-10T15:36:02.679600+00:00 | Sportsbook rows for date: 4
+2026-11-10T15:36:02.679619+00:00 | Prediction rows for date: 4
+2026-11-10T15:36:02.680493+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_04_NHL_merge_audit.csv (4 rows)
+2026-11-10T15:36:02.680589+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_04_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.680681+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_04_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.680959+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_04_NHL_merged.csv (4 rows)
+2026-11-10T15:36:02.680985+00:00 | Date summary 2026_11_04: games=4 sportsbook=4 predictions=4 merged=4 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.681027+00:00 | Processing game_date: 2026_11_05
+2026-11-10T15:36:02.681048+00:00 | Games rows for date: 11
+2026-11-10T15:36:02.681067+00:00 | Sportsbook rows for date: 11
+2026-11-10T15:36:02.681086+00:00 | Prediction rows for date: 11
+2026-11-10T15:36:02.683231+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_05_NHL_merge_audit.csv (11 rows)
+2026-11-10T15:36:02.683333+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_05_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.683431+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_05_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.683919+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_05_NHL_merged.csv (11 rows)
+2026-11-10T15:36:02.683947+00:00 | Date summary 2026_11_05: games=11 sportsbook=11 predictions=11 merged=11 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.683996+00:00 | Processing game_date: 2026_11_06
+2026-11-10T15:36:02.684018+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.684036+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.684054+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.684729+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_06_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.684826+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_06_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.684945+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_06_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.685171+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_06_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.685197+00:00 | Date summary 2026_11_06: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.685239+00:00 | Processing game_date: 2026_11_07
+2026-11-10T15:36:02.685260+00:00 | Games rows for date: 12
+2026-11-10T15:36:02.685279+00:00 | Sportsbook rows for date: 12
+2026-11-10T15:36:02.685297+00:00 | Prediction rows for date: 12
+2026-11-10T15:36:02.687551+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_07_NHL_merge_audit.csv (12 rows)
+2026-11-10T15:36:02.687649+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_07_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.687742+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_07_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.688261+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_07_NHL_merged.csv (12 rows)
+2026-11-10T15:36:02.688289+00:00 | Date summary 2026_11_07: games=12 sportsbook=12 predictions=12 merged=12 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.688339+00:00 | Processing game_date: 2026_11_08
+2026-11-10T15:36:02.688361+00:00 | Games rows for date: 6
+2026-11-10T15:36:02.688381+00:00 | Sportsbook rows for date: 6
+2026-11-10T15:36:02.688399+00:00 | Prediction rows for date: 6
+2026-11-10T15:36:02.689643+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_08_NHL_merge_audit.csv (6 rows)
+2026-11-10T15:36:02.689744+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_08_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.689858+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_08_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.690187+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_08_NHL_merged.csv (6 rows)
+2026-11-10T15:36:02.690214+00:00 | Date summary 2026_11_08: games=6 sportsbook=6 predictions=6 merged=6 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.690258+00:00 | Processing game_date: 2026_11_09
+2026-11-10T15:36:02.690279+00:00 | Games rows for date: 3
+2026-11-10T15:36:02.690299+00:00 | Sportsbook rows for date: 3
+2026-11-10T15:36:02.690317+00:00 | Prediction rows for date: 3
+2026-11-10T15:36:02.691000+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_09_NHL_merge_audit.csv (3 rows)
+2026-11-10T15:36:02.691099+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_09_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.691193+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_09_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.691421+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_09_NHL_merged.csv (3 rows)
+2026-11-10T15:36:02.691447+00:00 | Date summary 2026_11_09: games=3 sportsbook=3 predictions=3 merged=3 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.691489+00:00 | Processing game_date: 2026_11_10
+2026-11-10T15:36:02.691516+00:00 | Games rows for date: 7
+2026-11-10T15:36:02.691536+00:00 | Sportsbook rows for date: 7
+2026-11-10T15:36:02.691554+00:00 | Prediction rows for date: 7
+2026-11-10T15:36:02.692949+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_10_NHL_merge_audit.csv (7 rows)
+2026-11-10T15:36:02.693047+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_10_NHL_rejected_sportsbook.csv (0 rows)
+2026-11-10T15:36:02.693145+00:00 | WROTE docs/win/hockey/nhl/01_merge/audit/2026_11_10_NHL_rejected_predictions.csv (0 rows)
+2026-11-10T15:36:02.693494+00:00 | WROTE docs/win/hockey/nhl/01_merge/2026_11_10_NHL_merged.csv (7 rows)
+2026-11-10T15:36:02.693520+00:00 | Date summary 2026_11_10: games=7 sportsbook=7 predictions=7 merged=7 missing_source_games=0 rejected_sportsbook=0 rejected_predictions=0 hard_failure=False
+2026-11-10T15:36:02.693550+00:00 | --- SUMMARY ---
+2026-11-10T15:36:02.693570+00:00 | Dates processed: 43
+2026-11-10T15:36:02.693589+00:00 | Dates with missing source games: 0
+2026-11-10T15:36:02.693608+00:00 | Games missing prediction and/or sportsbook source: 0
+2026-11-10T15:36:02.693627+00:00 | Dates with hard failures: 0
+2026-11-10T15:36:02.693646+00:00 | Rows merged: 292
+2026-11-10T15:36:02.693664+00:00 | Rejected sportsbook rows: 0
+2026-11-10T15:36:02.693683+00:00 | Rejected prediction rows: 0
+2026-11-10T15:36:02.693702+00:00 | STATUS: SUCCESS
