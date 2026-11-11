@@ -1,144 +1,147 @@
-=== apply_total_juice RUN 2026-11-10T15:36:12.991819+00:00 ===
-2026-11-10T15:36:12.995985+00:00 | Wiped total output/quarantine CSVs: 43
-2026-11-10T15:36:12.996028+00:00 | INPUT_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced
-2026-11-10T15:36:12.996056+00:00 | OUTPUT_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice
-2026-11-10T15:36:12.996084+00:00 | JUICE_FILE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/config/juice/nhl_total_juice.csv
-2026-11-10T15:36:12.996109+00:00 | QUARANTINE_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/errors/02_juice
-2026-11-10T15:36:13.005604+00:00 | Input files found: 43
-2026-11-10T15:36:13.005656+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_09_29_NHL_total.csv
-2026-11-10T15:36:13.047261+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_09_29_NHL_total.csv rows=5 applied=5
-2026-11-10T15:36:13.047308+00:00 | FILE SUMMARY: 2026_09_29_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.047525+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_09_30_NHL_total.csv
-2026-11-10T15:36:13.083863+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_09_30_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:13.083914+00:00 | FILE SUMMARY: 2026_09_30_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.084179+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_01_NHL_total.csv
-2026-11-10T15:36:13.124464+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_01_NHL_total.csv rows=8 applied=8
-2026-11-10T15:36:13.124506+00:00 | FILE SUMMARY: 2026_10_01_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.124695+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_02_NHL_total.csv
-2026-11-10T15:36:13.161274+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_02_NHL_total.csv rows=5 applied=5
-2026-11-10T15:36:13.161314+00:00 | FILE SUMMARY: 2026_10_02_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.161507+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_03_NHL_total.csv
-2026-11-10T15:36:13.206985+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_03_NHL_total.csv rows=13 applied=13
-2026-11-10T15:36:13.207026+00:00 | FILE SUMMARY: 2026_10_03_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.207210+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_04_NHL_total.csv
-2026-11-10T15:36:13.240474+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_04_NHL_total.csv rows=5 applied=5
-2026-11-10T15:36:13.240513+00:00 | FILE SUMMARY: 2026_10_04_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.240687+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_05_NHL_total.csv
-2026-11-10T15:36:13.272477+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_05_NHL_total.csv rows=4 applied=4
-2026-11-10T15:36:13.272516+00:00 | FILE SUMMARY: 2026_10_05_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.272700+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_06_NHL_total.csv
-2026-11-10T15:36:13.311858+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_06_NHL_total.csv rows=9 applied=9
-2026-11-10T15:36:13.311900+00:00 | FILE SUMMARY: 2026_10_06_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.312093+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_07_NHL_total.csv
-2026-11-10T15:36:13.341819+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_07_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:13.341880+00:00 | FILE SUMMARY: 2026_10_07_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.342055+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_08_NHL_total.csv
-2026-11-10T15:36:13.382993+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_08_NHL_total.csv rows=10 applied=10
-2026-11-10T15:36:13.383031+00:00 | FILE SUMMARY: 2026_10_08_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.383212+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_09_NHL_total.csv
-2026-11-10T15:36:13.414619+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_09_NHL_total.csv rows=4 applied=4
-2026-11-10T15:36:13.414656+00:00 | FILE SUMMARY: 2026_10_09_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.414865+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_10_NHL_total.csv
-2026-11-10T15:36:13.462227+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_10_NHL_total.csv rows=14 applied=14
-2026-11-10T15:36:13.462264+00:00 | FILE SUMMARY: 2026_10_10_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.462443+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_11_NHL_total.csv
-2026-11-10T15:36:13.492376+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_11_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:13.492413+00:00 | FILE SUMMARY: 2026_10_11_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.492596+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_12_NHL_total.csv
-2026-11-10T15:36:13.522349+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_12_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:13.522386+00:00 | FILE SUMMARY: 2026_10_12_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.522580+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_13_NHL_total.csv
-2026-11-10T15:36:13.573118+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_13_NHL_total.csv rows=16 applied=16
-2026-11-10T15:36:13.573155+00:00 | FILE SUMMARY: 2026_10_13_NHL_total.csv input=16 accepted=16 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.573335+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_14_NHL_total.csv
-2026-11-10T15:36:13.602026+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_14_NHL_total.csv rows=2 applied=2
-2026-11-10T15:36:13.602066+00:00 | FILE SUMMARY: 2026_10_14_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.602258+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_15_NHL_total.csv
-2026-11-10T15:36:13.644625+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_15_NHL_total.csv rows=11 applied=11
-2026-11-10T15:36:13.644663+00:00 | FILE SUMMARY: 2026_10_15_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.644877+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_16_NHL_total.csv
-2026-11-10T15:36:13.672997+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_16_NHL_total.csv rows=2 applied=2
-2026-11-10T15:36:13.673034+00:00 | FILE SUMMARY: 2026_10_16_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.673210+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_17_NHL_total.csv
-2026-11-10T15:36:13.721039+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_17_NHL_total.csv rows=14 applied=14
-2026-11-10T15:36:13.721077+00:00 | FILE SUMMARY: 2026_10_17_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.721264+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_18_NHL_total.csv
-2026-11-10T15:36:13.749278+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_18_NHL_total.csv rows=2 applied=2
-2026-11-10T15:36:13.749316+00:00 | FILE SUMMARY: 2026_10_18_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.749494+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_19_NHL_total.csv
-2026-11-10T15:36:13.780648+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_19_NHL_total.csv rows=4 applied=4
-2026-11-10T15:36:13.780684+00:00 | FILE SUMMARY: 2026_10_19_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.780894+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_20_NHL_total.csv
-2026-11-10T15:36:13.823229+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_20_NHL_total.csv rows=11 applied=11
-2026-11-10T15:36:13.823266+00:00 | FILE SUMMARY: 2026_10_20_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.823447+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_21_NHL_total.csv
-2026-11-10T15:36:13.851477+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_21_NHL_total.csv rows=2 applied=2
-2026-11-10T15:36:13.851514+00:00 | FILE SUMMARY: 2026_10_21_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.851690+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_22_NHL_total.csv
-2026-11-10T15:36:13.895547+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_22_NHL_total.csv rows=12 applied=12
-2026-11-10T15:36:13.895584+00:00 | FILE SUMMARY: 2026_10_22_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.895765+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_23_NHL_total.csv
-2026-11-10T15:36:13.923860+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_23_NHL_total.csv rows=2 applied=2
-2026-11-10T15:36:13.923900+00:00 | FILE SUMMARY: 2026_10_23_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.924074+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_24_NHL_total.csv
-2026-11-10T15:36:13.980423+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_24_NHL_total.csv rows=12 applied=12
-2026-11-10T15:36:13.980462+00:00 | FILE SUMMARY: 2026_10_24_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:13.980662+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_25_NHL_total.csv
-2026-11-10T15:36:14.013303+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_25_NHL_total.csv rows=5 applied=5
-2026-11-10T15:36:14.013340+00:00 | FILE SUMMARY: 2026_10_25_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.013524+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_26_NHL_total.csv
-2026-11-10T15:36:14.043303+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_26_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:14.043340+00:00 | FILE SUMMARY: 2026_10_26_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.043515+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_27_NHL_total.csv
-2026-11-10T15:36:14.085541+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_27_NHL_total.csv rows=11 applied=11
-2026-11-10T15:36:14.085579+00:00 | FILE SUMMARY: 2026_10_27_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.085759+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_28_NHL_total.csv
-2026-11-10T15:36:14.117646+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_28_NHL_total.csv rows=4 applied=4
-2026-11-10T15:36:14.117688+00:00 | FILE SUMMARY: 2026_10_28_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.117938+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_29_NHL_total.csv
-2026-11-10T15:36:14.161161+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_29_NHL_total.csv rows=11 applied=11
-2026-11-10T15:36:14.161198+00:00 | FILE SUMMARY: 2026_10_29_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.161387+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_30_NHL_total.csv
-2026-11-10T15:36:14.191005+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_30_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:14.191042+00:00 | FILE SUMMARY: 2026_10_30_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.191220+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_31_NHL_total.csv
-2026-11-10T15:36:14.231672+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_31_NHL_total.csv rows=10 applied=10
-2026-11-10T15:36:14.231710+00:00 | FILE SUMMARY: 2026_10_31_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.231914+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_01_NHL_total.csv
-2026-11-10T15:36:14.264647+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_01_NHL_total.csv rows=5 applied=5
-2026-11-10T15:36:14.264683+00:00 | FILE SUMMARY: 2026_11_01_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.264883+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_02_NHL_total.csv
-2026-11-10T15:36:14.296115+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_02_NHL_total.csv rows=4 applied=4
-2026-11-10T15:36:14.296151+00:00 | FILE SUMMARY: 2026_11_02_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.296327+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_03_NHL_total.csv
-2026-11-10T15:36:14.338529+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_03_NHL_total.csv rows=11 applied=11
-2026-11-10T15:36:14.338569+00:00 | FILE SUMMARY: 2026_11_03_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.338781+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_04_NHL_total.csv
-2026-11-10T15:36:14.370118+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_04_NHL_total.csv rows=4 applied=4
-2026-11-10T15:36:14.370155+00:00 | FILE SUMMARY: 2026_11_04_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.370336+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_05_NHL_total.csv
-2026-11-10T15:36:14.412728+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_05_NHL_total.csv rows=11 applied=11
-2026-11-10T15:36:14.412767+00:00 | FILE SUMMARY: 2026_11_05_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.412977+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_06_NHL_total.csv
-2026-11-10T15:36:14.442472+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_06_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:14.442509+00:00 | FILE SUMMARY: 2026_11_06_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.442686+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_07_NHL_total.csv
-2026-11-10T15:36:14.487008+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_07_NHL_total.csv rows=12 applied=12
-2026-11-10T15:36:14.487047+00:00 | FILE SUMMARY: 2026_11_07_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.487237+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_08_NHL_total.csv
-2026-11-10T15:36:14.521893+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_08_NHL_total.csv rows=6 applied=6
-2026-11-10T15:36:14.521932+00:00 | FILE SUMMARY: 2026_11_08_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.522137+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_09_NHL_total.csv
-2026-11-10T15:36:14.551971+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_09_NHL_total.csv rows=3 applied=3
-2026-11-10T15:36:14.552010+00:00 | FILE SUMMARY: 2026_11_09_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.552189+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_10_NHL_total.csv
-2026-11-10T15:36:14.588529+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_10_NHL_total.csv rows=7 applied=7
-2026-11-10T15:36:14.588568+00:00 | FILE SUMMARY: 2026_11_10_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
-2026-11-10T15:36:14.588756+00:00 | --- SUMMARY ---
-2026-11-10T15:36:14.588785+00:00 | Files processed: 43
-2026-11-10T15:36:14.588809+00:00 | Files written: 43
-2026-11-10T15:36:14.588829+00:00 | Rows applied: 292
-2026-11-10T15:36:14.588876+00:00 | Rows quarantined bad: 0
-2026-11-10T15:36:14.588900+00:00 | Rows quarantined no band: 0
-2026-11-10T15:36:14.588920+00:00 | Rows quarantined total: 0
-2026-11-10T15:36:14.588940+00:00 | STATUS: SUCCESS
+=== apply_total_juice RUN 2026-11-11T17:29:07.372404+00:00 ===
+2026-11-11T17:29:07.376866+00:00 | Wiped total output/quarantine CSVs: 43
+2026-11-11T17:29:07.376912+00:00 | INPUT_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced
+2026-11-11T17:29:07.376941+00:00 | OUTPUT_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice
+2026-11-11T17:29:07.376970+00:00 | JUICE_FILE: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/config/juice/nhl_total_juice.csv
+2026-11-11T17:29:07.376995+00:00 | QUARANTINE_DIR: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/errors/02_juice
+2026-11-11T17:29:07.388776+00:00 | Input files found: 44
+2026-11-11T17:29:07.388868+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_09_29_NHL_total.csv
+2026-11-11T17:29:07.434823+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_09_29_NHL_total.csv rows=5 applied=5
+2026-11-11T17:29:07.434869+00:00 | FILE SUMMARY: 2026_09_29_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.435084+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_09_30_NHL_total.csv
+2026-11-11T17:29:07.472714+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_09_30_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:07.472760+00:00 | FILE SUMMARY: 2026_09_30_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.473004+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_01_NHL_total.csv
+2026-11-11T17:29:07.514003+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_01_NHL_total.csv rows=8 applied=8
+2026-11-11T17:29:07.514048+00:00 | FILE SUMMARY: 2026_10_01_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.514318+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_02_NHL_total.csv
+2026-11-11T17:29:07.547639+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_02_NHL_total.csv rows=5 applied=5
+2026-11-11T17:29:07.547689+00:00 | FILE SUMMARY: 2026_10_02_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.547883+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_03_NHL_total.csv
+2026-11-11T17:29:07.593816+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_03_NHL_total.csv rows=13 applied=13
+2026-11-11T17:29:07.593863+00:00 | FILE SUMMARY: 2026_10_03_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.594170+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_04_NHL_total.csv
+2026-11-11T17:29:07.628186+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_04_NHL_total.csv rows=5 applied=5
+2026-11-11T17:29:07.628233+00:00 | FILE SUMMARY: 2026_10_04_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.628530+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_05_NHL_total.csv
+2026-11-11T17:29:07.660686+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_05_NHL_total.csv rows=4 applied=4
+2026-11-11T17:29:07.660729+00:00 | FILE SUMMARY: 2026_10_05_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.660933+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_06_NHL_total.csv
+2026-11-11T17:29:07.699688+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_06_NHL_total.csv rows=9 applied=9
+2026-11-11T17:29:07.699726+00:00 | FILE SUMMARY: 2026_10_06_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.699925+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_07_NHL_total.csv
+2026-11-11T17:29:07.729380+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_07_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:07.729422+00:00 | FILE SUMMARY: 2026_10_07_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.729614+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_08_NHL_total.csv
+2026-11-11T17:29:07.769732+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_08_NHL_total.csv rows=10 applied=10
+2026-11-11T17:29:07.769771+00:00 | FILE SUMMARY: 2026_10_08_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.769957+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_09_NHL_total.csv
+2026-11-11T17:29:07.801025+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_09_NHL_total.csv rows=4 applied=4
+2026-11-11T17:29:07.801065+00:00 | FILE SUMMARY: 2026_10_09_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.801286+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_10_NHL_total.csv
+2026-11-11T17:29:07.847679+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_10_NHL_total.csv rows=14 applied=14
+2026-11-11T17:29:07.847719+00:00 | FILE SUMMARY: 2026_10_10_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.847940+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_11_NHL_total.csv
+2026-11-11T17:29:07.877754+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_11_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:07.877795+00:00 | FILE SUMMARY: 2026_10_11_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.877993+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_12_NHL_total.csv
+2026-11-11T17:29:07.907976+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_12_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:07.908020+00:00 | FILE SUMMARY: 2026_10_12_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.908290+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_13_NHL_total.csv
+2026-11-11T17:29:07.958542+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_13_NHL_total.csv rows=16 applied=16
+2026-11-11T17:29:07.958586+00:00 | FILE SUMMARY: 2026_10_13_NHL_total.csv input=16 accepted=16 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.958900+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_14_NHL_total.csv
+2026-11-11T17:29:07.987319+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_14_NHL_total.csv rows=2 applied=2
+2026-11-11T17:29:07.987362+00:00 | FILE SUMMARY: 2026_10_14_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:07.987564+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_15_NHL_total.csv
+2026-11-11T17:29:08.030889+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_15_NHL_total.csv rows=11 applied=11
+2026-11-11T17:29:08.030940+00:00 | FILE SUMMARY: 2026_10_15_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.031317+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_16_NHL_total.csv
+2026-11-11T17:29:08.060776+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_16_NHL_total.csv rows=2 applied=2
+2026-11-11T17:29:08.060820+00:00 | FILE SUMMARY: 2026_10_16_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.061079+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_17_NHL_total.csv
+2026-11-11T17:29:08.108153+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_17_NHL_total.csv rows=14 applied=14
+2026-11-11T17:29:08.108205+00:00 | FILE SUMMARY: 2026_10_17_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.108516+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_18_NHL_total.csv
+2026-11-11T17:29:08.136838+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_18_NHL_total.csv rows=2 applied=2
+2026-11-11T17:29:08.136880+00:00 | FILE SUMMARY: 2026_10_18_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.137097+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_19_NHL_total.csv
+2026-11-11T17:29:08.168679+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_19_NHL_total.csv rows=4 applied=4
+2026-11-11T17:29:08.168719+00:00 | FILE SUMMARY: 2026_10_19_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.168943+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_20_NHL_total.csv
+2026-11-11T17:29:08.211879+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_20_NHL_total.csv rows=11 applied=11
+2026-11-11T17:29:08.211922+00:00 | FILE SUMMARY: 2026_10_20_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.212156+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_21_NHL_total.csv
+2026-11-11T17:29:08.240890+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_21_NHL_total.csv rows=2 applied=2
+2026-11-11T17:29:08.240935+00:00 | FILE SUMMARY: 2026_10_21_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.241199+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_22_NHL_total.csv
+2026-11-11T17:29:08.286266+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_22_NHL_total.csv rows=12 applied=12
+2026-11-11T17:29:08.286312+00:00 | FILE SUMMARY: 2026_10_22_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.286637+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_23_NHL_total.csv
+2026-11-11T17:29:08.315278+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_23_NHL_total.csv rows=2 applied=2
+2026-11-11T17:29:08.315322+00:00 | FILE SUMMARY: 2026_10_23_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.315527+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_24_NHL_total.csv
+2026-11-11T17:29:08.373031+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_24_NHL_total.csv rows=12 applied=12
+2026-11-11T17:29:08.373074+00:00 | FILE SUMMARY: 2026_10_24_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.373378+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_25_NHL_total.csv
+2026-11-11T17:29:08.406617+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_25_NHL_total.csv rows=5 applied=5
+2026-11-11T17:29:08.406660+00:00 | FILE SUMMARY: 2026_10_25_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.406926+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_26_NHL_total.csv
+2026-11-11T17:29:08.437164+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_26_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:08.437208+00:00 | FILE SUMMARY: 2026_10_26_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.437444+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_27_NHL_total.csv
+2026-11-11T17:29:08.479727+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_27_NHL_total.csv rows=11 applied=11
+2026-11-11T17:29:08.479770+00:00 | FILE SUMMARY: 2026_10_27_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.480047+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_28_NHL_total.csv
+2026-11-11T17:29:08.511652+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_28_NHL_total.csv rows=4 applied=4
+2026-11-11T17:29:08.511696+00:00 | FILE SUMMARY: 2026_10_28_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.511931+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_29_NHL_total.csv
+2026-11-11T17:29:08.554342+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_29_NHL_total.csv rows=11 applied=11
+2026-11-11T17:29:08.554385+00:00 | FILE SUMMARY: 2026_10_29_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.554630+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_30_NHL_total.csv
+2026-11-11T17:29:08.584968+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_30_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:08.585012+00:00 | FILE SUMMARY: 2026_10_30_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.585270+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_10_31_NHL_total.csv
+2026-11-11T17:29:08.626219+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_10_31_NHL_total.csv rows=10 applied=10
+2026-11-11T17:29:08.626286+00:00 | FILE SUMMARY: 2026_10_31_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.626575+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_01_NHL_total.csv
+2026-11-11T17:29:08.660076+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_01_NHL_total.csv rows=5 applied=5
+2026-11-11T17:29:08.660120+00:00 | FILE SUMMARY: 2026_11_01_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.660365+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_02_NHL_total.csv
+2026-11-11T17:29:08.692808+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_02_NHL_total.csv rows=4 applied=4
+2026-11-11T17:29:08.692851+00:00 | FILE SUMMARY: 2026_11_02_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.693106+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_03_NHL_total.csv
+2026-11-11T17:29:08.736237+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_03_NHL_total.csv rows=11 applied=11
+2026-11-11T17:29:08.736305+00:00 | FILE SUMMARY: 2026_11_03_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.736653+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_04_NHL_total.csv
+2026-11-11T17:29:08.769157+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_04_NHL_total.csv rows=4 applied=4
+2026-11-11T17:29:08.769201+00:00 | FILE SUMMARY: 2026_11_04_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.769469+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_05_NHL_total.csv
+2026-11-11T17:29:08.813006+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_05_NHL_total.csv rows=11 applied=11
+2026-11-11T17:29:08.813050+00:00 | FILE SUMMARY: 2026_11_05_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.813347+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_06_NHL_total.csv
+2026-11-11T17:29:08.842970+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_06_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:08.843008+00:00 | FILE SUMMARY: 2026_11_06_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.843190+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_07_NHL_total.csv
+2026-11-11T17:29:08.886637+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_07_NHL_total.csv rows=12 applied=12
+2026-11-11T17:29:08.886676+00:00 | FILE SUMMARY: 2026_11_07_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.886872+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_08_NHL_total.csv
+2026-11-11T17:29:08.921037+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_08_NHL_total.csv rows=6 applied=6
+2026-11-11T17:29:08.921075+00:00 | FILE SUMMARY: 2026_11_08_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.921283+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_09_NHL_total.csv
+2026-11-11T17:29:08.950957+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_09_NHL_total.csv rows=3 applied=3
+2026-11-11T17:29:08.950999+00:00 | FILE SUMMARY: 2026_11_09_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.951239+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_10_NHL_total.csv
+2026-11-11T17:29:08.987191+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_10_NHL_total.csv rows=7 applied=7
+2026-11-11T17:29:08.987231+00:00 | FILE SUMMARY: 2026_11_10_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:08.987446+00:00 | Processing input: /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/01_merge/01_merguiced/2026_11_11_NHL_total.csv
+2026-11-11T17:29:09.022619+00:00 | WROTE /home/runner/work/test_repo/test_repo/docs/win/hockey/nhl/02_juice/2026_11_11_NHL_total.csv rows=6 applied=6
+2026-11-11T17:29:09.022656+00:00 | FILE SUMMARY: 2026_11_11_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-11-11T17:29:09.022837+00:00 | --- SUMMARY ---
+2026-11-11T17:29:09.022866+00:00 | Files processed: 44
+2026-11-11T17:29:09.022889+00:00 | Files written: 44
+2026-11-11T17:29:09.022911+00:00 | Rows applied: 298
+2026-11-11T17:29:09.022932+00:00 | Rows quarantined bad: 0
+2026-11-11T17:29:09.022952+00:00 | Rows quarantined no band: 0
+2026-11-11T17:29:09.022973+00:00 | Rows quarantined total: 0
+2026-11-11T17:29:09.022993+00:00 | STATUS: SUCCESS
