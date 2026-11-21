@@ -1,0 +1,785 @@
+{
+  "playerId": 8482076,
+  "isActive": true,
+  "currentTeamId": 1,
+  "currentTeamAbbrev": "NJD",
+  "fullTeamName": {
+    "default": "New Jersey Devils",
+    "fr": "Devils du New Jersey"
+  },
+  "teamCommonName": {
+    "default": "Devils"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "New Jersey",
+    "fr": "du New Jersey"
+  },
+  "firstName": {
+    "default": "Nico"
+  },
+  "lastName": {
+    "default": "Daws"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+  "sweaterNumber": 50,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8482076.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8482076.jpg",
+  "heightInInches": 76,
+  "heightInCentimeters": 193,
+  "weightInPounds": 205,
+  "weightInKilograms": 93,
+  "birthDate": "2000-12-22",
+  "birthCity": {
+    "default": "Munich",
+    "cs": "Mnichov",
+    "de": "München",
+    "fi": "München",
+    "sk": "Mnichov",
+    "sv": "München"
+  },
+  "birthCountry": "DEU",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2020,
+    "teamAbbrev": "NJD",
+    "round": 3,
+    "pickInRound": 22,
+    "overallPick": 84
+  },
+  "playerSlug": "nico-daws-8482076",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 1,
+        "goalsAgainstAvg": 6.013363,
+        "losses": 1,
+        "otLosses": 0,
+        "savePctg": 0.8125,
+        "shutouts": 0,
+        "wins": 0
+      },
+      "career": {
+        "gamesPlayed": 56,
+        "goalsAgainstAvg": 3.018928,
+        "losses": 25,
+        "otLosses": 1,
+        "savePctg": 0.896333,
+        "shutouts": 1,
+        "wins": 24
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 1,
+      "gamesPlayed": 56,
+      "gamesStarted": 51,
+      "goals": 0,
+      "goalsAgainst": 147,
+      "goalsAgainstAvg": 3.018928,
+      "losses": 25,
+      "otLosses": 1,
+      "pim": 0,
+      "savePctg": 0.896333,
+      "shotsAgainst": 1418,
+      "shutouts": 1,
+      "timeOnIce": "2921:34",
+      "wins": 24
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-10-03",
+      "gameId": 2026020029,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 6,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "NYI",
+      "penaltyMins": 0,
+      "savePctg": 0.8125,
+      "shotsAgainst": 32,
+      "teamAbbrev": "NJD",
+      "toi": "59:52"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "leagueAbbrev": "SCTA U16",
+      "season": 20142015,
+      "sequence": 87572,
+      "teamName": {
+        "default": "Burlington Eagles U16 AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 34,
+      "leagueAbbrev": "SCTA U16",
+      "season": 20152016,
+      "sequence": 87572,
+      "teamName": {
+        "default": "Burlington Eagles U16 AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 42,
+      "goalsAgainstAvg": 4.06,
+      "leagueAbbrev": "OHL",
+      "losses": 7,
+      "otLosses": 2,
+      "savePctg": 0.88,
+      "season": 20172018,
+      "sequence": 6238,
+      "shotsAgainst": 349,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Guelph Storm"
+      },
+      "timeOnIce": "621:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 6.0,
+      "leagueAbbrev": "OHL",
+      "losses": 0,
+      "savePctg": 0.826,
+      "season": 20172018,
+      "sequence": 6238,
+      "shotsAgainst": 23,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Guelph Storm"
+      },
+      "timeOnIce": "40:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainst": 61,
+      "goalsAgainstAvg": 3.25,
+      "leagueAbbrev": "OHL",
+      "losses": 5,
+      "otLosses": 3,
+      "savePctg": 0.893,
+      "season": 20182019,
+      "sequence": 6238,
+      "shotsAgainst": 570,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Guelph Storm"
+      },
+      "timeOnIce": "1126:00",
+      "wins": 10
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 4.81,
+      "leagueAbbrev": "OHL",
+      "losses": 0,
+      "savePctg": 0.8,
+      "season": 20182019,
+      "sequence": 6238,
+      "shotsAgainst": 15,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Guelph Storm"
+      },
+      "timeOnIce": "37:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 38,
+      "goalsAgainst": 93,
+      "goalsAgainstAvg": 2.48,
+      "leagueAbbrev": "OHL",
+      "losses": 8,
+      "otLosses": 6,
+      "savePctg": 0.924,
+      "season": 20192020,
+      "sequence": 6238,
+      "shotsAgainst": 1228,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Guelph Storm"
+      },
+      "timeOnIce": "2254:00",
+      "wins": 23
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 5.83,
+      "leagueAbbrev": "WJC-20",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.84,
+      "season": 20192020,
+      "sequence": 17216,
+      "shotsAgainst": 50,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Canada U20"
+      },
+      "timeOnIce": "82:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 28,
+      "goalsAgainstAvg": 2.9,
+      "leagueAbbrev": "DEL",
+      "losses": 6,
+      "otLosses": 0,
+      "savePctg": 0.898,
+      "season": 20202021,
+      "sequence": 4618,
+      "shotsAgainst": 274,
+      "shutouts": 1,
+      "teamName": {
+        "default": "ERC Ingolstadt"
+      },
+      "timeOnIce": "580:00",
+      "wins": 4
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 25,
+      "gamesStarted": 23,
+      "goals": 0,
+      "goalsAgainst": 66,
+      "goalsAgainstAvg": 3.114349,
+      "leagueAbbrev": "NHL",
+      "losses": 11,
+      "otLosses": 1,
+      "savePctg": 0.893031,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 617,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "1271:32",
+      "wins": 10
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "goalsAgainst": 51,
+      "goalsAgainstAvg": 2.54,
+      "leagueAbbrev": "AHL",
+      "losses": 4,
+      "otLosses": 2,
+      "savePctg": 0.916,
+      "season": 20212022,
+      "sequence": 152247,
+      "shotsAgainst": 605,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "1205:00",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 3.01,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 2,
+      "savePctg": 0.891,
+      "season": 20212022,
+      "sequence": 152247,
+      "shotsAgainst": 110,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "240:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "goalsAgainst": 88,
+      "goalsAgainstAvg": 2.7,
+      "leagueAbbrev": "AHL",
+      "losses": 14,
+      "otLosses": 3,
+      "savePctg": 0.904,
+      "season": 20222023,
+      "sequence": 152247,
+      "shotsAgainst": 917,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "1953:00",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 6,
+      "goalsAgainst": 16,
+      "goalsAgainstAvg": 2.57,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 3,
+      "savePctg": 0.92,
+      "season": 20222023,
+      "sequence": 152247,
+      "shotsAgainst": 201,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "373:00",
+      "wins": 3
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "gamesStarted": 20,
+      "goals": 0,
+      "goalsAgainst": 60,
+      "goalsAgainstAvg": 3.146713,
+      "leagueAbbrev": "NHL",
+      "losses": 11,
+      "otLosses": 0,
+      "savePctg": 0.894366,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 568,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "1144:03",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "WC",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.833,
+      "season": 20232024,
+      "sequence": 17155,
+      "shotsAgainst": 6,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Canada"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 28,
+      "goalsAgainstAvg": 2.89,
+      "leagueAbbrev": "AHL",
+      "losses": 6,
+      "otLosses": 2,
+      "savePctg": 0.89,
+      "season": 20232024,
+      "sequence": 152247,
+      "shotsAgainst": 255,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "580:44",
+      "wins": 2
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "gamesStarted": 4,
+      "goals": 0,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 1.597867,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.938596,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 114,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "262:51",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 34,
+      "goalsAgainst": 103,
+      "goalsAgainstAvg": 3.16,
+      "leagueAbbrev": "AHL",
+      "losses": 20,
+      "otLosses": 1,
+      "savePctg": 0.893,
+      "season": 20242025,
+      "sequence": 152247,
+      "shotsAgainst": 960,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "1955:50",
+      "wins": 11
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 2.619134,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.908046,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 87,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "183:16",
+      "wins": 2
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 6.013363,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.8125,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 32,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "59:52",
+      "wins": 0
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8474596,
+      "lastName": {
+        "default": "Allen"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-allen-8474596"
+    },
+    {
+      "playerId": 8480003,
+      "lastName": {
+        "default": "Boqvist"
+      },
+      "firstName": {
+        "default": "Jesper"
+      },
+      "playerSlug": "jesper-boqvist-8480003"
+    },
+    {
+      "playerId": 8479407,
+      "lastName": {
+        "default": "Bratt"
+      },
+      "firstName": {
+        "default": "Jesper"
+      },
+      "playerSlug": "jesper-bratt-8479407"
+    },
+    {
+      "playerId": 8477015,
+      "lastName": {
+        "default": "Brown"
+      },
+      "firstName": {
+        "default": "Connor"
+      },
+      "playerSlug": "connor-brown-8477015"
+    },
+    {
+      "playerId": 8480990,
+      "lastName": {
+        "default": "Chisholm"
+      },
+      "firstName": {
+        "default": "Declan"
+      },
+      "playerSlug": "declan-chisholm-8480990"
+    },
+    {
+      "playerId": 8482076,
+      "lastName": {
+        "default": "Daws"
+      },
+      "firstName": {
+        "default": "Nico"
+      },
+      "playerSlug": "nico-daws-8482076"
+    },
+    {
+      "playerId": 8475455,
+      "lastName": {
+        "default": "Dillon"
+      },
+      "firstName": {
+        "default": "Brenden"
+      },
+      "playerSlug": "brenden-dillon-8475455"
+    },
+    {
+      "playerId": 8482146,
+      "lastName": {
+        "default": "Evangelista"
+      },
+      "firstName": {
+        "default": "Luke"
+      },
+      "playerSlug": "luke-evangelista-8482146"
+    },
+    {
+      "playerId": 8479996,
+      "lastName": {
+        "default": "Glass"
+      },
+      "firstName": {
+        "default": "Cody"
+      },
+      "playerSlug": "cody-glass-8479996"
+    },
+    {
+      "playerId": 8481721,
+      "lastName": {
+        "default": "Gritsyuk"
+      },
+      "firstName": {
+        "default": "Arseny"
+      },
+      "playerSlug": "arseny-gritsyuk-8481721"
+    },
+    {
+      "playerId": 8476462,
+      "lastName": {
+        "default": "Hamilton"
+      },
+      "firstName": {
+        "default": "Dougie"
+      },
+      "playerSlug": "dougie-hamilton-8476462"
+    },
+    {
+      "playerId": 8480002,
+      "lastName": {
+        "default": "Hischier"
+      },
+      "firstName": {
+        "default": "Nico"
+      },
+      "playerSlug": "nico-hischier-8480002"
+    },
+    {
+      "playerId": 8481559,
+      "lastName": {
+        "default": "Hughes"
+      },
+      "firstName": {
+        "default": "Jack"
+      },
+      "playerSlug": "jack-hughes-8481559"
+    },
+    {
+      "playerId": 8482684,
+      "lastName": {
+        "default": "Hughes"
+      },
+      "firstName": {
+        "default": "Luke"
+      },
+      "playerSlug": "luke-hughes-8482684"
+    },
+    {
+      "playerId": 8483695,
+      "lastName": {
+        "default": "Lombardi"
+      },
+      "firstName": {
+        "default": "Amadeus"
+      },
+      "playerSlug": "amadeus-lombardi-8483695"
+    },
+    {
+      "playerId": 8477511,
+      "lastName": {
+        "default": "Mantha"
+      },
+      "firstName": {
+        "default": "Anthony"
+      },
+      "playerSlug": "anthony-mantha-8477511"
+    },
+    {
+      "playerId": 8478414,
+      "lastName": {
+        "default": "Meier"
+      },
+      "firstName": {
+        "default": "Timo"
+      },
+      "playerSlug": "timo-meier-8478414"
+    },
+    {
+      "playerId": 8482110,
+      "lastName": {
+        "default": "Mercer"
+      },
+      "firstName": {
+        "default": "Dawson"
+      },
+      "playerSlug": "dawson-mercer-8482110"
+    },
+    {
+      "playerId": 8476474,
+      "lastName": {
+        "default": "Noesen"
+      },
+      "firstName": {
+        "default": "Stefan"
+      },
+      "playerSlug": "stefan-noesen-8476474"
+    },
+    {
+      "playerId": 8477488,
+      "lastName": {
+        "default": "Pesce"
+      },
+      "firstName": {
+        "default": "Brett"
+      },
+      "playerSlug": "brett-pesce-8477488"
+    },
+    {
+      "playerId": 8482465,
+      "lastName": {
+        "default": "Poirier"
+      },
+      "firstName": {
+        "default": "Rémi"
+      },
+      "playerSlug": "remi-poirier-8482465"
+    },
+    {
+      "playerId": 8478542,
+      "lastName": {
+        "default": "Rodrigues"
+      },
+      "firstName": {
+        "default": "Evan"
+      },
+      "playerSlug": "evan-rodrigues-8478542"
+    },
+    {
+      "playerId": 8478399,
+      "lastName": {
+        "default": "Siegenthaler"
+      },
+      "firstName": {
+        "default": "Jonas"
+      },
+      "playerSlug": "jonas-siegenthaler-8478399"
+    }
+  ]
+}

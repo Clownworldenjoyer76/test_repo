@@ -1,0 +1,1003 @@
+{
+  "playerId": 8481519,
+  "isActive": true,
+  "currentTeamId": 16,
+  "currentTeamAbbrev": "CHI",
+  "fullTeamName": {
+    "default": "Chicago Blackhawks",
+    "fr": "Blackhawks de Chicago"
+  },
+  "teamCommonName": {
+    "default": "Blackhawks"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Chicago",
+    "fr": "de Chicago"
+  },
+  "firstName": {
+    "default": "Spencer"
+  },
+  "lastName": {
+    "default": "Knight"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+  "sweaterNumber": 30,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CHI/8481519.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8481519.jpg",
+  "heightInInches": 75,
+  "heightInCentimeters": 191,
+  "weightInPounds": 191,
+  "weightInKilograms": 87,
+  "birthDate": "2001-04-19",
+  "birthCity": {
+    "default": "Darien"
+  },
+  "birthStateProvince": {
+    "default": "Connecticut"
+  },
+  "birthCountry": "USA",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2019,
+    "teamAbbrev": "FLA",
+    "round": 1,
+    "pickInRound": 13,
+    "overallPick": 13
+  },
+  "playerSlug": "spencer-knight-8481519",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20252026,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 55,
+        "goalsAgainstAvg": 2.823958,
+        "losses": 25,
+        "otLosses": 11,
+        "savePctg": 0.902085,
+        "shutouts": 3,
+        "wins": 19
+      },
+      "career": {
+        "gamesPlayed": 150,
+        "goalsAgainstAvg": 2.828614,
+        "losses": 58,
+        "otLosses": 20,
+        "savePctg": 0.90348,
+        "shutouts": 8,
+        "wins": 68
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 4,
+      "gamesPlayed": 150,
+      "gamesStarted": 140,
+      "goals": 0,
+      "goalsAgainst": 406,
+      "goalsAgainstAvg": 2.828614,
+      "losses": 58,
+      "otLosses": 20,
+      "savePctg": 0.90348,
+      "shotsAgainst": 4196,
+      "shutouts": 8,
+      "timeOnIce": "8611:59",
+      "wins": 68
+    },
+    "playoffs": {
+      "assists": 0,
+      "gamesPlayed": 2,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 2.063034,
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.933333,
+      "shotsAgainst": 60,
+      "shutouts": 0,
+      "timeOnIce": "116:20",
+      "wins": 1
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "W",
+      "gameDate": "2026-04-15",
+      "gameId": 2025021305,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "SJS",
+      "penaltyMins": 0,
+      "savePctg": 0.882353,
+      "shotsAgainst": 17,
+      "teamAbbrev": "CHI",
+      "toi": "60:00"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-04-13",
+      "gameId": 2025021288,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 5,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "BUF",
+      "penaltyMins": 0,
+      "savePctg": 0.807692,
+      "shotsAgainst": 26,
+      "teamAbbrev": "CHI",
+      "toi": "59:41"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-04-09",
+      "gameId": 2025021255,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 7,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "CAR",
+      "penaltyMins": 0,
+      "savePctg": 0.681818,
+      "shotsAgainst": 22,
+      "teamAbbrev": "CHI",
+      "toi": "59:55"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-04-06",
+      "gameId": 2025021231,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "SJS",
+      "penaltyMins": 0,
+      "savePctg": 0.869565,
+      "shotsAgainst": 23,
+      "teamAbbrev": "CHI",
+      "toi": "58:41"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-04-02",
+      "gameId": 2025021200,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "EDM",
+      "penaltyMins": 0,
+      "savePctg": 0.969697,
+      "shotsAgainst": 33,
+      "teamAbbrev": "CHI",
+      "toi": "53:21"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalsAgainstAvg": 1.89,
+      "leagueAbbrev": "USHS-Prep",
+      "savePctg": 0.935,
+      "season": 20162017,
+      "sequence": 28392,
+      "teamName": {
+        "default": "Avon Old Farms School"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 25,
+      "goalsAgainstAvg": 2.55,
+      "leagueAbbrev": "NTDP",
+      "savePctg": 0.915,
+      "season": 20172018,
+      "sequence": 11,
+      "teamName": {
+        "default": "U.S. National U17 Team"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainstAvg": 2.58,
+      "leagueAbbrev": "NTDP",
+      "savePctg": 0.903,
+      "season": 20172018,
+      "sequence": 12,
+      "teamName": {
+        "default": "U.S. National U18 Team"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 2.42,
+      "leagueAbbrev": "WJC-18",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.901,
+      "season": 20172018,
+      "sequence": 17253,
+      "shotsAgainst": 121,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USA U18"
+      },
+      "timeOnIce": "298:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 82,
+      "goalsAgainstAvg": 2.58,
+      "leagueAbbrev": "USDP",
+      "savePctg": 0.903,
+      "season": 20172018,
+      "sequence": 19564,
+      "shotsAgainst": 320,
+      "shutouts": 0,
+      "teamName": {
+        "default": "U.S. National U18 Team"
+      },
+      "timeOnIce": "721:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 25,
+      "goalsAgainst": 51,
+      "goalsAgainstAvg": 2.55,
+      "leagueAbbrev": "USDP",
+      "savePctg": 0.915,
+      "season": 20172018,
+      "sequence": 19734,
+      "shotsAgainst": 600,
+      "shutouts": 1,
+      "teamName": {
+        "default": "U.S. National U17 Team"
+      },
+      "timeOnIce": "1201:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainst": 52,
+      "goalsAgainstAvg": 3.18,
+      "leagueAbbrev": "USHL",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.902,
+      "season": 20172018,
+      "sequence": 52486,
+      "shotsAgainst": 528,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USNTDP Juniors"
+      },
+      "timeOnIce": "983:00",
+      "wins": 13
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 2.33,
+      "leagueAbbrev": "WHC-17",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.881,
+      "season": 20172018,
+      "sequence": 61270,
+      "shotsAgainst": 59,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USA U17"
+      },
+      "timeOnIce": "180:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 1.51,
+      "leagueAbbrev": "WJC-18",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.936,
+      "season": 20182019,
+      "sequence": 17253,
+      "shotsAgainst": 141,
+      "shutouts": 1,
+      "teamName": {
+        "default": "USA U18"
+      },
+      "timeOnIce": "358:00",
+      "wins": 5
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "goalsAgainst": 78,
+      "goalsAgainstAvg": 2.36,
+      "leagueAbbrev": "NTDP",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.913,
+      "season": 20182019,
+      "sequence": 20767,
+      "shotsAgainst": 895,
+      "shutouts": 2,
+      "teamName": {
+        "default": "U.S. National U18 Team"
+      },
+      "timeOnIce": "1980:00",
+      "wins": 32
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 16,
+      "goalsAgainst": 31,
+      "goalsAgainstAvg": 2.21,
+      "leagueAbbrev": "USHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.903,
+      "season": 20182019,
+      "sequence": 52486,
+      "shotsAgainst": 320,
+      "shutouts": 1,
+      "teamName": {
+        "default": "USNTDP Juniors"
+      },
+      "timeOnIce": "841:00",
+      "wins": 15
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "goalsAgainst": 65,
+      "goalsAgainstAvg": 1.97,
+      "leagueAbbrev": "NCAA",
+      "losses": 8,
+      "otLosses": 2,
+      "savePctg": 0.931,
+      "season": 20192020,
+      "sequence": 9670,
+      "shotsAgainst": 937,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Boston College"
+      },
+      "timeOnIce": "1979:00",
+      "wins": 23
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 2.49,
+      "leagueAbbrev": "WJC-20",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.913,
+      "season": 20192020,
+      "sequence": 17276,
+      "shotsAgainst": 115,
+      "shutouts": 0,
+      "teamName": {
+        "default": "USA U20"
+      },
+      "timeOnIce": "241:00",
+      "wins": 2
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 2.319959,
+      "leagueAbbrev": "NHL",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.919192,
+      "season": 20202021,
+      "sequence": 1,
+      "shotsAgainst": 99,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "206:54",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "goalsAgainst": 47,
+      "goalsAgainstAvg": 2.18,
+      "leagueAbbrev": "NCAA",
+      "losses": 4,
+      "otLosses": 1,
+      "savePctg": 0.932,
+      "season": 20202021,
+      "sequence": 9670,
+      "shotsAgainst": 691,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Boston College"
+      },
+      "timeOnIce": "1296:00",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 1.63,
+      "leagueAbbrev": "WJC-20",
+      "losses": 1,
+      "savePctg": 0.94,
+      "season": 20202021,
+      "sequence": 17276,
+      "shotsAgainst": 149,
+      "shutouts": 3,
+      "teamName": {
+        "default": "USA U20"
+      },
+      "timeOnIce": "332:00",
+      "wins": 5
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 2.063034,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.933333,
+      "season": 20202021,
+      "sequence": 1,
+      "shotsAgainst": 60,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "116:20",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 32,
+      "gamesStarted": 27,
+      "goals": 0,
+      "goalsAgainst": 81,
+      "goalsAgainstAvg": 2.792729,
+      "leagueAbbrev": "NHL",
+      "losses": 9,
+      "otLosses": 3,
+      "savePctg": 0.907534,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 876,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "1740:14",
+      "wins": 19
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 11,
+      "goalsAgainst": 30,
+      "goalsAgainstAvg": 2.95,
+      "leagueAbbrev": "AHL",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.905,
+      "season": 20212022,
+      "sequence": 2357,
+      "shotsAgainst": 316,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Charlotte Checkers"
+      },
+      "timeOnIce": "611:00",
+      "wins": 7
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "gamesStarted": 19,
+      "goals": 0,
+      "goalsAgainst": 62,
+      "goalsAgainstAvg": 3.182886,
+      "leagueAbbrev": "NHL",
+      "losses": 8,
+      "otLosses": 3,
+      "savePctg": 0.901116,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 627,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "1168:45",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 2.01,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.918,
+      "season": 20222023,
+      "sequence": 2357,
+      "shotsAgainst": 49,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Charlotte Checkers"
+      },
+      "timeOnIce": "119:31",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 45,
+      "goalsAgainst": 104,
+      "goalsAgainstAvg": 2.41,
+      "leagueAbbrev": "AHL",
+      "losses": 14,
+      "otLosses": 5,
+      "savePctg": 0.905,
+      "season": 20232024,
+      "sequence": 2357,
+      "shotsAgainst": 1095,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Charlotte Checkers"
+      },
+      "timeOnIce": "2584:16",
+      "wins": 25
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 1.87,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 5,
+      "savePctg": 0.925,
+      "season": 20232024,
+      "sequence": 2357,
+      "shotsAgainst": 53,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Charlotte Checkers"
+      },
+      "timeOnIce": "128:07",
+      "wins": 1
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "gamesStarted": 21,
+      "goals": 0,
+      "goalsAgainst": 52,
+      "goalsAgainstAvg": 2.402896,
+      "leagueAbbrev": "NHL",
+      "losses": 8,
+      "otLosses": 1,
+      "savePctg": 0.907143,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 560,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "1298:26",
+      "wins": 12
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 15,
+      "gamesStarted": 15,
+      "goals": 0,
+      "goalsAgainst": 48,
+      "goalsAgainstAvg": 3.184373,
+      "leagueAbbrev": "NHL",
+      "losses": 8,
+      "otLosses": 2,
+      "savePctg": 0.895787,
+      "season": 20242025,
+      "sequence": 2,
+      "shotsAgainst": 451,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Blackhawks"
+      },
+      "teamName": {
+        "default": "Chicago Blackhawks",
+        "fr": "Blackhawks de Chicago"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Chicago",
+        "fr": "de Chicago"
+      },
+      "timeOnIce": "904:25",
+      "wins": 5
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 55,
+      "gamesStarted": 55,
+      "goals": 0,
+      "goalsAgainst": 155,
+      "goalsAgainstAvg": 2.823958,
+      "leagueAbbrev": "NHL",
+      "losses": 25,
+      "otLosses": 11,
+      "pim": 0,
+      "savePctg": 0.902085,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 1583,
+      "shutouts": 3,
+      "teamCommonName": {
+        "default": "Blackhawks"
+      },
+      "teamName": {
+        "default": "Chicago Blackhawks",
+        "fr": "Blackhawks de Chicago"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Chicago",
+        "fr": "de Chicago"
+      },
+      "timeOnIce": "3293:15",
+      "wins": 19
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8477479,
+      "lastName": {
+        "default": "Bertuzzi"
+      },
+      "firstName": {
+        "default": "Tyler"
+      },
+      "playerSlug": "tyler-bertuzzi-8477479"
+    },
+    {
+      "playerId": 8484793,
+      "lastName": {
+        "default": "Boisvert"
+      },
+      "firstName": {
+        "default": "Sacha"
+      },
+      "playerSlug": "sacha-boisvert-8484793"
+    },
+    {
+      "playerId": 8481524,
+      "lastName": {
+        "default": "Byram"
+      },
+      "firstName": {
+        "default": "Bowen"
+      },
+      "playerSlug": "bowen-byram-8481524"
+    },
+    {
+      "playerId": 8474013,
+      "lastName": {
+        "default": "Cole"
+      },
+      "firstName": {
+        "default": "Ian"
+      },
+      "playerSlug": "ian-cole-8474013"
+    },
+    {
+      "playerId": 8482807,
+      "lastName": {
+        "default": "Del Mastro"
+      },
+      "firstName": {
+        "default": "Ethan"
+      },
+      "playerSlug": "ethan-del-mastro-8482807"
+    },
+    {
+      "playerId": 8477987,
+      "lastName": {
+        "default": "Donato"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-donato-8477987"
+    },
+    {
+      "playerId": 8485391,
+      "lastName": {
+        "default": "Frondell"
+      },
+      "firstName": {
+        "default": "Anton"
+      },
+      "playerSlug": "anton-frondell-8485391"
+    },
+    {
+      "playerId": 8483450,
+      "lastName": {
+        "default": "Greene"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-greene-8483450"
+    },
+    {
+      "playerId": 8478413,
+      "lastName": {
+        "default": "Greenway"
+      },
+      "firstName": {
+        "default": "Jordan"
+      },
+      "playerSlug": "jordan-greenway-8478413"
+    },
+    {
+      "playerId": 8482176,
+      "lastName": {
+        "default": "Kaiser"
+      },
+      "firstName": {
+        "default": "Wyatt"
+      },
+      "playerSlug": "wyatt-kaiser-8482176"
+    },
+    {
+      "playerId": 8474141,
+      "lastName": {
+        "default": "Kane"
+      },
+      "firstName": {
+        "default": "Patrick"
+      },
+      "playerSlug": "patrick-kane-8474141"
+    },
+    {
+      "playerId": 8484390,
+      "lastName": {
+        "default": "Kantserov"
+      },
+      "firstName": {
+        "default": "Roman"
+      },
+      "playerSlug": "roman-kantserov-8484390"
+    },
+    {
+      "playerId": 8481519,
+      "lastName": {
+        "default": "Knight"
+      },
+      "firstName": {
+        "default": "Spencer"
+      },
+      "playerSlug": "spencer-knight-8481519"
+    },
+    {
+      "playerId": 8483466,
+      "lastName": {
+        "default": "Korchinski"
+      },
+      "firstName": {
+        "default": "Kevin"
+      },
+      "playerSlug": "kevin-korchinski-8483466"
+    },
+    {
+      "playerId": 8484185,
+      "lastName": {
+        "default": "Lardis"
+      },
+      "firstName": {
+        "default": "Nick"
+      },
+      "playerSlug": "nick-lardis-8484185"
+    },
+    {
+      "playerId": 8484783,
+      "lastName": {
+        "default": "Levshunov"
+      },
+      "firstName": {
+        "default": "Artyom"
+      },
+      "playerSlug": "artyom-levshunov-8484783"
+    },
+    {
+      "playerId": 8478233,
+      "lastName": {
+        "default": "Mangiapane"
+      },
+      "firstName": {
+        "default": "Andrew"
+      },
+      "playerSlug": "andrew-mangiapane-8478233"
+    },
+    {
+      "playerId": 8484197,
+      "lastName": {
+        "default": "Moore"
+      },
+      "firstName": {
+        "default": "Oliver"
+      },
+      "playerSlug": "oliver-moore-8484197"
+    },
+    {
+      "playerId": 8483493,
+      "lastName": {
+        "default": "Nazar"
+      },
+      "firstName": {
+        "default": "Frank"
+      },
+      "playerSlug": "frank-nazar-8483493"
+    },
+    {
+      "playerId": 8483506,
+      "lastName": {
+        "default": "Rinzel"
+      },
+      "firstName": {
+        "default": "Sam"
+      },
+      "playerSlug": "sam-rinzel-8483506"
+    },
+    {
+      "playerId": 8482172,
+      "lastName": {
+        "default": "Slaggert"
+      },
+      "firstName": {
+        "default": "Landon"
+      },
+      "playerSlug": "landon-slaggert-8482172"
+    },
+    {
+      "playerId": 8482062,
+      "lastName": {
+        "default": "Smith"
+      },
+      "firstName": {
+        "default": "Cole"
+      },
+      "playerSlug": "cole-smith-8482062"
+    },
+    {
+      "playerId": 8482821,
+      "lastName": {
+        "default": "Soderblom",
+        "cs": "Söderblom",
+        "fi": "Söderblom",
+        "sk": "Söderblom",
+        "sv": "Söderblom"
+      },
+      "firstName": {
+        "default": "Arvid"
+      },
+      "playerSlug": "arvid-soderblom-8482821"
+    },
+    {
+      "playerId": 8476882,
+      "lastName": {
+        "default": "Teravainen",
+        "cs": "Teräväinen",
+        "fi": "Teräväinen",
+        "sk": "Teräväinen",
+        "sv": "Teräväinen"
+      },
+      "firstName": {
+        "default": "Teuvo"
+      },
+      "playerSlug": "teuvo-teravainen-8476882"
+    },
+    {
+      "playerId": 8476952,
+      "lastName": {
+        "default": "Toninato"
+      },
+      "firstName": {
+        "default": "Dominic"
+      },
+      "playerSlug": "dominic-toninato-8476952"
+    },
+    {
+      "playerId": 8481568,
+      "lastName": {
+        "default": "Vlasic"
+      },
+      "firstName": {
+        "default": "Alex"
+      },
+      "playerSlug": "alex-vlasic-8481568"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+
+FATIGUE_FEATURE_COLUMNS = [
+    "home_days_rest",
+    "away_days_rest",
+    "home_back_to_back",
+    "away_back_to_back",
+    "home_games_in_4_days",
+    "away_games_in_4_days",
+    "home_three_in_four",
+    "away_three_in_four",
+    "home_games_in_6_days",
+    "away_games_in_6_days",
+    "home_four_in_six",
+    "away_four_in_six",
+    "home_games_in_7_days",
+    "away_games_in_7_days",
+    "rest_differential",
+]
+
+TEAM_STRENGTH_FEATURE_COLUMNS = [
+    "home_adj_xgf",
+    "away_adj_xgf",
+    "adj_xgf_differential",
+    "home_adj_xga",
+    "away_adj_xga",
+    "adj_xga_differential",
+    "home_adj_xg_net",
+    "away_adj_xg_net",
+    "adj_xg_net_differential",
+    "home_adj_gf",
+    "away_adj_gf",
+    "adj_gf_differential",
+    "home_adj_ga",
+    "away_adj_ga",
+    "adj_ga_differential",
+    "home_off_rank",
+    "away_off_rank",
+    "off_rank_differential",
+    "home_def_rank",
+    "away_def_rank",
+    "def_rank_differential",
+    "home_net_rank",
+    "away_net_rank",
+    "net_rank_differential",
+    "home_net_z",
+    "away_net_z",
+    "net_z_differential",
+]
+
+LINEUP_NUMERIC_FEATURE_COLUMNS = [
+    "home_skater_rapm",
+    "away_skater_rapm",
+    "skater_rapm_differential",
+    "home_skater_war",
+    "away_skater_war",
+    "skater_war_differential",
+    "home_pp_value",
+    "away_pp_value",
+    "pp_value_differential",
+    "home_pk_value",
+    "away_pk_value",
+    "pk_value_differential",
+    "home_forward_line_strength",
+    "away_forward_line_strength",
+    "forward_line_strength_differential",
+    "home_defense_pair_strength",
+    "away_defense_pair_strength",
+    "defense_pair_strength_differential",
+]
+
+LINEUP_METADATA_COLUMNS = [
+    "home_lineup_status",
+    "away_lineup_status",
+    "home_lineup_observed_at",
+    "away_lineup_observed_at",
+    "home_lineup_source",
+    "away_lineup_source",
+]
+
+LINEUP_FEATURE_COLUMNS = [
+    *LINEUP_NUMERIC_FEATURE_COLUMNS,
+    *LINEUP_METADATA_COLUMNS,
+]
+
+GOALIE_FEATURE_COLUMNS = [
+    "home_expected_starter",
+    "away_expected_starter",
+    "home_starter_gsax",
+    "away_starter_gsax",
+    "home_backup_gsax",
+    "away_backup_gsax",
+    "starter_gsax_differential",
+    "home_goalie_status",
+    "away_goalie_status",
+    "home_goalie_status_observed_at",
+    "away_goalie_status_observed_at",
+    "home_goalie_status_source",
+    "away_goalie_status_source",
+]
+
+GOALIE_NUMERIC_FEATURE_COLUMNS = [
+    "home_starter_gsax",
+    "away_starter_gsax",
+    "home_backup_gsax",
+    "away_backup_gsax",
+    "starter_gsax_differential",
+]
+
+SDV_PREDICTION_COLUMNS = [
+    "sdv_home_win_prob",
+    "sdv_exp_margin",
+    "sdv_exp_total",
+]

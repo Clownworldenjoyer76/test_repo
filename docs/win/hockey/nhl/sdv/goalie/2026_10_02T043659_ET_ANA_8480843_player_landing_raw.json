@@ -1,0 +1,1370 @@
+{
+  "playerId": 8480843,
+  "isActive": true,
+  "currentTeamId": 24,
+  "currentTeamAbbrev": "ANA",
+  "fullTeamName": {
+    "default": "Anaheim Ducks",
+    "fr": "Ducks d'Anaheim"
+  },
+  "teamCommonName": {
+    "default": "Ducks"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Anaheim",
+    "fr": "d'Anaheim"
+  },
+  "firstName": {
+    "default": "Lukas",
+    "cs": "Lukáš",
+    "sk": "Lukáš"
+  },
+  "lastName": {
+    "default": "Dostal",
+    "cs": "Dostál",
+    "sk": "Dostál"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+  "sweaterNumber": 1,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/ANA/8480843.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8480843.jpg",
+  "heightInInches": 74,
+  "heightInCentimeters": 188,
+  "weightInPounds": 190,
+  "weightInKilograms": 86,
+  "birthDate": "2000-06-22",
+  "birthCity": {
+    "default": "Brno"
+  },
+  "birthCountry": "CZE",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2018,
+    "teamAbbrev": "ANA",
+    "round": 3,
+    "pickInRound": 23,
+    "overallPick": 85
+  },
+  "playerSlug": "lukas-dostal-8480843",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20252026,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 56,
+        "goalsAgainstAvg": 3.102878,
+        "losses": 20,
+        "otLosses": 4,
+        "savePctg": 0.888301,
+        "shutouts": 0,
+        "wins": 30
+      },
+      "career": {
+        "gamesPlayed": 177,
+        "goalsAgainstAvg": 3.226205,
+        "losses": 78,
+        "otLosses": 17,
+        "savePctg": 0.898185,
+        "shutouts": 2,
+        "wins": 72
+      }
+    },
+    "playoffs": {
+      "subSeason": {
+        "gamesPlayed": 12,
+        "goalsAgainstAvg": 3.536534,
+        "losses": 6,
+        "otLosses": 0,
+        "savePctg": 0.869718,
+        "shutouts": 0,
+        "wins": 6
+      },
+      "career": {
+        "gamesPlayed": 12,
+        "goalsAgainstAvg": 3.536532,
+        "losses": 6,
+        "otLosses": 0,
+        "savePctg": 0.869718,
+        "shutouts": 0,
+        "wins": 6
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 1,
+      "gamesPlayed": 177,
+      "gamesStarted": 162,
+      "goals": 0,
+      "goalsAgainst": 533,
+      "goalsAgainstAvg": 3.226205,
+      "losses": 78,
+      "otLosses": 17,
+      "pim": 16,
+      "savePctg": 0.898185,
+      "shotsAgainst": 5235,
+      "shutouts": 2,
+      "timeOnIce": "9912:34",
+      "wins": 72
+    },
+    "playoffs": {
+      "assists": 0,
+      "gamesPlayed": 12,
+      "gamesStarted": 12,
+      "goals": 0,
+      "goalsAgainst": 37,
+      "goalsAgainstAvg": 3.536532,
+      "losses": 6,
+      "otLosses": 0,
+      "savePctg": 0.869718,
+      "shotsAgainst": 284,
+      "shutouts": 0,
+      "timeOnIce": "627:44",
+      "wins": 6
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-05-14",
+      "gameId": 2025030246,
+      "gameTypeId": 3,
+      "gamesStarted": 1,
+      "goalsAgainst": 5,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "VGK",
+      "penaltyMins": 0,
+      "savePctg": 0.761905,
+      "shotsAgainst": 21,
+      "teamAbbrev": "ANA",
+      "toi": "55:31"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-05-12",
+      "gameId": 2025030245,
+      "gameTypeId": 3,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "VGK",
+      "penaltyMins": 0,
+      "savePctg": 0.90625,
+      "shotsAgainst": 32,
+      "teamAbbrev": "ANA",
+      "toi": "64:10"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-05-10",
+      "gameId": 2025030244,
+      "gameTypeId": 3,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "VGK",
+      "penaltyMins": 0,
+      "savePctg": 0.857143,
+      "shotsAgainst": 21,
+      "teamAbbrev": "ANA",
+      "toi": "59:53"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-05-08",
+      "gameId": 2025030243,
+      "gameTypeId": 3,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "VGK",
+      "penaltyMins": 0,
+      "savePctg": 0.625,
+      "shotsAgainst": 8,
+      "teamAbbrev": "ANA",
+      "toi": "20:00"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-05-06",
+      "gameId": 2025030242,
+      "gameTypeId": 3,
+      "gamesStarted": 1,
+      "goalsAgainst": 1,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "VGK",
+      "penaltyMins": 0,
+      "savePctg": 0.954545,
+      "shotsAgainst": 22,
+      "teamAbbrev": "ANA",
+      "toi": "60:00"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "Czech U16",
+      "savePctg": 1.0,
+      "season": 20122013,
+      "sequence": 83447,
+      "teamName": {
+        "default": "HC Kometa Brno U16"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 35,
+      "goalsAgainstAvg": 2.26,
+      "leagueAbbrev": "Czech U16",
+      "savePctg": 0.921,
+      "season": 20132014,
+      "sequence": 83447,
+      "teamName": {
+        "default": "HC Kometa Brno U16"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainstAvg": 2.45,
+      "leagueAbbrev": "Czech U16",
+      "savePctg": 0.934,
+      "season": 20132014,
+      "sequence": 83150,
+      "teamName": {
+        "default": "HC Kometa Brno U16"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 34,
+      "goalsAgainstAvg": 2.04,
+      "leagueAbbrev": "Czech U16",
+      "savePctg": 0.939,
+      "season": 20142015,
+      "sequence": 83447,
+      "teamName": {
+        "default": "HC Kometa Brno U16"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainstAvg": 1.47,
+      "leagueAbbrev": "Czech U16",
+      "savePctg": 0.952,
+      "season": 20142015,
+      "sequence": 83150,
+      "teamName": {
+        "default": "HC Kometa Brno U16"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "goalsAgainst": 31,
+      "goalsAgainstAvg": 4.38,
+      "leagueAbbrev": "Czechia U20",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.891,
+      "season": 20152016,
+      "sequence": 35977,
+      "shotsAgainst": 285,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      },
+      "timeOnIce": "425:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 25,
+      "goalsAgainst": 69,
+      "goalsAgainstAvg": 2.82,
+      "leagueAbbrev": "Czechia U18",
+      "losses": 9,
+      "otLosses": 0,
+      "savePctg": 0.909,
+      "season": 20152016,
+      "sequence": 42444,
+      "shotsAgainst": 760,
+      "shutouts": 2,
+      "teamName": {
+        "default": "HC Kometa Brno U18"
+      },
+      "timeOnIce": "1470:00",
+      "wins": 16
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 1.61,
+      "leagueAbbrev": "Czechia U16",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.957,
+      "season": 20152016,
+      "sequence": 84980,
+      "shotsAgainst": 514,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HC Kometa Brno U16"
+      },
+      "timeOnIce": "818:00",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 10,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 2.11,
+      "leagueAbbrev": "Czechia U18",
+      "losses": 1,
+      "savePctg": 0.932,
+      "season": 20152016,
+      "sequence": 42444,
+      "shotsAgainst": 322,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HC Kometa Brno U18"
+      },
+      "timeOnIce": "626:00",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 39,
+      "goalsAgainst": 98,
+      "goalsAgainstAvg": 2.53,
+      "leagueAbbrev": "Czechia U20",
+      "losses": 13,
+      "otLosses": 0,
+      "savePctg": 0.925,
+      "season": 20162017,
+      "sequence": 35977,
+      "shotsAgainst": 1301,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      },
+      "timeOnIce": "2326:00",
+      "wins": 26
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainstAvg": 2.15,
+      "leagueAbbrev": "WHC-17",
+      "savePctg": 0.924,
+      "season": 20162017,
+      "sequence": 61320,
+      "teamName": {
+        "default": "Czechia U17"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 12,
+      "goalsAgainst": 37,
+      "goalsAgainstAvg": 3.07,
+      "leagueAbbrev": "Czechia U20",
+      "losses": 6,
+      "savePctg": 0.896,
+      "season": 20162017,
+      "sequence": 35977,
+      "shotsAgainst": 355,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      },
+      "timeOnIce": "722:00",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "Czechia U18",
+      "losses": 0,
+      "savePctg": 1.0,
+      "season": 20162017,
+      "sequence": 42444,
+      "shotsAgainst": 21,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HC Kometa Brno U18"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainst": 49,
+      "goalsAgainstAvg": 2.43,
+      "leagueAbbrev": "Czechia2",
+      "losses": 10,
+      "otLosses": 0,
+      "savePctg": 0.921,
+      "season": 20172018,
+      "sequence": 15160,
+      "shotsAgainst": 619,
+      "shutouts": 2,
+      "teamName": {
+        "default": "SK Horacka Slavia Trebic"
+      },
+      "timeOnIce": "1212:00",
+      "wins": 10
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 14,
+      "goalsAgainstAvg": 3.34,
+      "leagueAbbrev": "WJC-18",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.905,
+      "season": 20172018,
+      "sequence": 17013,
+      "shotsAgainst": 148,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Czechia U18"
+      },
+      "timeOnIce": "251:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 42,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "Czechia U20",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.919,
+      "season": 20172018,
+      "sequence": 35977,
+      "shotsAgainst": 518,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      },
+      "timeOnIce": "841:00",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.0,
+      "leagueAbbrev": "Czechia U18",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.933,
+      "season": 20172018,
+      "sequence": 42444,
+      "shotsAgainst": 30,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HC Kometa Brno U18"
+      },
+      "timeOnIce": "60:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "goalsAgainstAvg": 1.4,
+      "leagueAbbrev": "Czech U20",
+      "savePctg": 0.959,
+      "season": 20172018,
+      "sequence": 34145,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 1.4,
+      "leagueAbbrev": "Czechia U20",
+      "losses": 0,
+      "savePctg": 0.959,
+      "season": 20172018,
+      "sequence": 35977,
+      "shotsAgainst": 242,
+      "shutouts": 2,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      },
+      "timeOnIce": "430:00",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 18,
+      "goalsAgainstAvg": 1.8,
+      "leagueAbbrev": "Liiga",
+      "losses": 4,
+      "otLosses": 2,
+      "savePctg": 0.922,
+      "season": 20182019,
+      "sequence": 889,
+      "shotsAgainst": 230,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Ilves"
+      },
+      "timeOnIce": "601:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.0,
+      "leagueAbbrev": "Mestis",
+      "losses": 0,
+      "otLosses": 1,
+      "savePctg": 0.938,
+      "season": 20182019,
+      "sequence": 7327,
+      "shotsAgainst": 32,
+      "shutouts": 0,
+      "teamName": {
+        "default": "KOOVEE"
+      },
+      "timeOnIce": "62:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "Czechia",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.852,
+      "season": 20182019,
+      "sequence": 13876,
+      "shotsAgainst": 27,
+      "shutouts": 0,
+      "teamName": {
+        "default": "HC Kometa Brno"
+      },
+      "timeOnIce": "80:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 24,
+      "goalsAgainst": 61,
+      "goalsAgainstAvg": 2.5,
+      "leagueAbbrev": "Czechia2",
+      "losses": 9,
+      "otLosses": 0,
+      "savePctg": 0.915,
+      "season": 20182019,
+      "sequence": 15160,
+      "shotsAgainst": 719,
+      "shutouts": 3,
+      "teamName": {
+        "default": "SK Horacka Slavia Trebic"
+      },
+      "timeOnIce": "1465:00",
+      "wins": 15
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 1.25,
+      "leagueAbbrev": "WJC-20",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.957,
+      "season": 20182019,
+      "sequence": 17046,
+      "shotsAgainst": 115,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Czechia U20"
+      },
+      "timeOnIce": "239:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "Czechia U19",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 1.0,
+      "season": 20182019,
+      "sequence": 36918,
+      "shotsAgainst": 27,
+      "shutouts": 1,
+      "teamName": {
+        "default": "HC Kometa Brno U20"
+      },
+      "timeOnIce": "65:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "goalsAgainst": 19,
+      "goalsAgainstAvg": 2.49,
+      "leagueAbbrev": "Liiga",
+      "losses": 5,
+      "otLosses": 2,
+      "savePctg": 0.907,
+      "season": 20182019,
+      "sequence": 889,
+      "shotsAgainst": 205,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Ilves"
+      },
+      "timeOnIce": "457:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 43,
+      "goalsAgainst": 77,
+      "goalsAgainstAvg": 1.78,
+      "leagueAbbrev": "Liiga",
+      "losses": 8,
+      "otLosses": 6,
+      "savePctg": 0.928,
+      "season": 20192020,
+      "sequence": 889,
+      "shotsAgainst": 1063,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Ilves"
+      },
+      "timeOnIce": "2592:00",
+      "wins": 27
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 4.03,
+      "leagueAbbrev": "WJC-20",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.878,
+      "season": 20192020,
+      "sequence": 17046,
+      "shotsAgainst": 98,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Czechia U20"
+      },
+      "timeOnIce": "179:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 11,
+      "goalsAgainst": 18,
+      "goalsAgainstAvg": 1.64,
+      "leagueAbbrev": "Liiga",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.941,
+      "season": 20202021,
+      "sequence": 889,
+      "shotsAgainst": 307,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Ilves"
+      },
+      "timeOnIce": "659:00",
+      "wins": 10
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 24,
+      "goalsAgainst": 68,
+      "goalsAgainstAvg": 2.87,
+      "leagueAbbrev": "AHL",
+      "losses": 9,
+      "otLosses": 0,
+      "savePctg": 0.916,
+      "season": 20202021,
+      "sequence": 85177,
+      "shotsAgainst": 813,
+      "shutouts": 0,
+      "teamName": {
+        "default": "San Diego Gulls"
+      },
+      "timeOnIce": "1424:00",
+      "wins": 15
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 2.55,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.935,
+      "season": 20202021,
+      "sequence": 85177,
+      "shotsAgainst": 124,
+      "shutouts": 0,
+      "teamName": {
+        "default": "San Diego Gulls"
+      },
+      "timeOnIce": "188:00",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 2.978406,
+      "leagueAbbrev": "NHL",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.907407,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 108,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Ducks"
+      },
+      "teamName": {
+        "default": "Anaheim Ducks",
+        "fr": "Ducks d'Anaheim"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Anaheim",
+        "fr": "d'Anaheim"
+      },
+      "timeOnIce": "201:27",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "WC",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.944,
+      "season": 20212022,
+      "sequence": 17015,
+      "shotsAgainst": 18,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Czechia"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 40,
+      "goalsAgainst": 95,
+      "goalsAgainstAvg": 2.6,
+      "leagueAbbrev": "AHL",
+      "losses": 14,
+      "otLosses": 3,
+      "savePctg": 0.916,
+      "season": 20212022,
+      "sequence": 85177,
+      "shotsAgainst": 1133,
+      "shutouts": 2,
+      "teamName": {
+        "default": "San Diego Gulls"
+      },
+      "timeOnIce": "2189:00",
+      "wins": 18
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 4.9,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 6,
+      "savePctg": 0.85,
+      "season": 20212022,
+      "sequence": 85177,
+      "shotsAgainst": 60,
+      "shutouts": 0,
+      "teamName": {
+        "default": "San Diego Gulls"
+      },
+      "timeOnIce": "110:00",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "gamesStarted": 17,
+      "goals": 0,
+      "goalsAgainst": 67,
+      "goalsAgainstAvg": 3.782758,
+      "leagueAbbrev": "NHL",
+      "losses": 10,
+      "otLosses": 3,
+      "savePctg": 0.901325,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 679,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Ducks"
+      },
+      "teamName": {
+        "default": "Anaheim Ducks",
+        "fr": "Ducks d'Anaheim"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Anaheim",
+        "fr": "d'Anaheim"
+      },
+      "timeOnIce": "1062:43",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 34,
+      "goalsAgainst": 91,
+      "goalsAgainstAvg": 2.97,
+      "leagueAbbrev": "AHL",
+      "losses": 21,
+      "otLosses": 0,
+      "savePctg": 0.912,
+      "season": 20222023,
+      "sequence": 85177,
+      "shotsAgainst": 1039,
+      "shutouts": 3,
+      "teamName": {
+        "default": "San Diego Gulls"
+      },
+      "timeOnIce": "1836:00",
+      "wins": 11
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 44,
+      "gamesStarted": 38,
+      "goals": 0,
+      "goalsAgainst": 129,
+      "goalsAgainstAvg": 3.33216,
+      "leagueAbbrev": "NHL",
+      "losses": 23,
+      "otLosses": 3,
+      "pim": 8,
+      "savePctg": 0.901527,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 1310,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Ducks"
+      },
+      "teamName": {
+        "default": "Anaheim Ducks",
+        "fr": "Ducks d'Anaheim"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Anaheim",
+        "fr": "d'Anaheim"
+      },
+      "timeOnIce": "2322:49",
+      "wins": 14
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 8,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 1.58,
+      "leagueAbbrev": "WC",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.939,
+      "season": 20232024,
+      "sequence": 17015,
+      "shotsAgainst": 213,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Czechia"
+      },
+      "timeOnIce": "492:18",
+      "wins": 6
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 54,
+      "gamesStarted": 49,
+      "goals": 0,
+      "goalsAgainst": 158,
+      "goalsAgainstAvg": 3.100417,
+      "leagueAbbrev": "NHL",
+      "losses": 23,
+      "otLosses": 7,
+      "savePctg": 0.902769,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 1625,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Ducks"
+      },
+      "teamName": {
+        "default": "Anaheim Ducks",
+        "fr": "Ducks d'Anaheim"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Anaheim",
+        "fr": "d'Anaheim"
+      },
+      "timeOnIce": "3057:39",
+      "wins": 23
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 56,
+      "gamesStarted": 55,
+      "goals": 0,
+      "goalsAgainst": 169,
+      "goalsAgainstAvg": 3.102878,
+      "leagueAbbrev": "NHL",
+      "losses": 20,
+      "otLosses": 4,
+      "pim": 8,
+      "savePctg": 0.888301,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 1513,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Ducks"
+      },
+      "teamName": {
+        "default": "Anaheim Ducks",
+        "fr": "Ducks d'Anaheim"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Anaheim",
+        "fr": "d'Anaheim"
+      },
+      "timeOnIce": "3267:56",
+      "wins": 30
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 12,
+      "gamesStarted": 12,
+      "goals": 0,
+      "goalsAgainst": 37,
+      "goalsAgainstAvg": 3.536534,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.869718,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 284,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Ducks"
+      },
+      "teamName": {
+        "default": "Anaheim Ducks",
+        "fr": "Ducks d'Anaheim"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Anaheim",
+        "fr": "d'Anaheim"
+      },
+      "timeOnIce": "627:44",
+      "wins": 6
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8476316,
+      "lastName": {
+        "default": "Brossoit"
+      },
+      "firstName": {
+        "default": "Laurent"
+      },
+      "playerSlug": "laurent-brossoit-8476316"
+    },
+    {
+      "playerId": 8484153,
+      "lastName": {
+        "default": "Carlsson"
+      },
+      "firstName": {
+        "default": "Leo"
+      },
+      "playerSlug": "leo-carlsson-8484153"
+    },
+    {
+      "playerId": 8481538,
+      "lastName": {
+        "default": "Caulfield"
+      },
+      "firstName": {
+        "default": "Judd"
+      },
+      "playerSlug": "judd-caulfield-8481538"
+    },
+    {
+      "playerId": 8482118,
+      "lastName": {
+        "default": "Colangelo"
+      },
+      "firstName": {
+        "default": "Sam"
+      },
+      "playerSlug": "sam-colangelo-8482118"
+    },
+    {
+      "playerId": 8480843,
+      "lastName": {
+        "default": "Dostal",
+        "cs": "Dostál",
+        "sk": "Dostál"
+      },
+      "firstName": {
+        "default": "Lukas",
+        "cs": "Lukáš",
+        "sk": "Lukáš"
+      },
+      "playerSlug": "lukas-dostal-8480843"
+    },
+    {
+      "playerId": 8482081,
+      "lastName": {
+        "default": "Farrell"
+      },
+      "firstName": {
+        "default": "Sean"
+      },
+      "playerSlug": "sean-farrell-8482081"
+    },
+    {
+      "playerId": 8483445,
+      "lastName": {
+        "default": "Gauthier"
+      },
+      "firstName": {
+        "default": "Cutter"
+      },
+      "playerSlug": "cutter-gauthier-8483445"
+    },
+    {
+      "playerId": 8475798,
+      "lastName": {
+        "default": "Granlund"
+      },
+      "firstName": {
+        "default": "Mikael"
+      },
+      "playerSlug": "mikael-granlund-8475798"
+    },
+    {
+      "playerId": 8478421,
+      "lastName": {
+        "default": "Greer"
+      },
+      "firstName": {
+        "default": "A.J."
+      },
+      "playerSlug": "anthony-john-(aj)-greer-8478421"
+    },
+    {
+      "playerId": 8480468,
+      "lastName": {
+        "default": "Hamblin"
+      },
+      "firstName": {
+        "default": "James"
+      },
+      "playerSlug": "james-hamblin-8480468"
+    },
+    {
+      "playerId": 8481563,
+      "lastName": {
+        "default": "Helleson"
+      },
+      "firstName": {
+        "default": "Drew"
+      },
+      "playerSlug": "drew-helleson-8481563"
+    },
+    {
+      "playerId": 8482731,
+      "lastName": {
+        "default": "Hinds"
+      },
+      "firstName": {
+        "default": "Tyson"
+      },
+      "playerSlug": "tyson-hinds-8482731"
+    },
+    {
+      "playerId": 8478024,
+      "lastName": {
+        "default": "Husso"
+      },
+      "firstName": {
+        "default": "Ville"
+      },
+      "playerSlug": "ville-husso-8478024"
+    },
+    {
+      "playerId": 8475324,
+      "lastName": {
+        "default": "Jensen"
+      },
+      "firstName": {
+        "default": "Nick"
+      },
+      "playerSlug": "nick-jensen-8475324"
+    },
+    {
+      "playerId": 8473986,
+      "lastName": {
+        "default": "Killorn"
+      },
+      "firstName": {
+        "default": "Alex"
+      },
+      "playerSlug": "alex-killorn-8473986"
+    },
+    {
+      "playerId": 8486052,
+      "lastName": {
+        "default": "Klepov"
+      },
+      "firstName": {
+        "default": "Nikita"
+      },
+      "playerSlug": "nikita-klepov-8486052"
+    },
+    {
+      "playerId": 8481605,
+      "lastName": {
+        "default": "LaCombe"
+      },
+      "firstName": {
+        "default": "Jackson"
+      },
+      "playerSlug": "jackson-lacombe-8481605"
+    },
+    {
+      "playerId": 8483482,
+      "lastName": {
+        "default": "Luneau"
+      },
+      "firstName": {
+        "default": "Tristan"
+      },
+      "playerSlug": "tristan-luneau-8483482"
+    },
+    {
+      "playerId": 8482408,
+      "lastName": {
+        "default": "Malott",
+        "cs": "Malottt",
+        "de": "Malottt",
+        "es": "Malottt",
+        "fi": "Malottt",
+        "sk": "Malottt",
+        "sv": "Malottt"
+      },
+      "firstName": {
+        "default": "Jeff"
+      },
+      "playerSlug": "jeff-malott-8482408"
+    },
+    {
+      "playerId": 8485400,
+      "lastName": {
+        "default": "McQueen"
+      },
+      "firstName": {
+        "default": "Roger"
+      },
+      "playerSlug": "roger-mcqueen-8485400"
+    },
+    {
+      "playerId": 8483490,
+      "lastName": {
+        "default": "Mintyukov",
+        "cs": "Mintjukov",
+        "fi": "Mintjukov",
+        "sk": "Mintjukov"
+      },
+      "firstName": {
+        "default": "Pavel"
+      },
+      "playerSlug": "pavel-mintyukov-8483490"
+    },
+    {
+      "playerId": 8484262,
+      "lastName": {
+        "default": "Mitchell"
+      },
+      "firstName": {
+        "default": "Travis"
+      },
+      "playerSlug": "travis-mitchell-8484262"
+    },
+    {
+      "playerId": 8482178,
+      "lastName": {
+        "default": "Moore"
+      },
+      "firstName": {
+        "default": "Ian"
+      },
+      "playerSlug": "ian-moore-8482178"
+    },
+    {
+      "playerId": 8481754,
+      "lastName": {
+        "default": "Nesterenko"
+      },
+      "firstName": {
+        "default": "Nikita"
+      },
+      "playerSlug": "nikita-nesterenko-8481754"
+    },
+    {
+      "playerId": 8486072,
+      "lastName": {
+        "default": "Nordmark"
+      },
+      "firstName": {
+        "default": "Marcus"
+      },
+      "playerSlug": "marcus-nordmark-8486072"
+    },
+    {
+      "playerId": 8480068,
+      "lastName": {
+        "default": "Poehling"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-poehling-8480068"
+    },
+    {
+      "playerId": 8481461,
+      "lastName": {
+        "default": "Schueneman"
+      },
+      "firstName": {
+        "default": "Corey"
+      },
+      "playerSlug": "corey-schueneman-8481461"
+    },
+    {
+      "playerId": 8484762,
+      "lastName": {
+        "default": "Sennecke"
+      },
+      "firstName": {
+        "default": "Beckett"
+      },
+      "playerSlug": "beckett-sennecke-8484762"
+    },
+    {
+      "playerId": 8484859,
+      "lastName": {
+        "default": "Solberg"
+      },
+      "firstName": {
+        "default": "Stian"
+      },
+      "playerSlug": "stian-solberg-8484859"
+    },
+    {
+      "playerId": 8478366,
+      "lastName": {
+        "default": "Vatrano"
+      },
+      "firstName": {
+        "default": "Frank"
+      },
+      "playerSlug": "frank-vatrano-8478366"
+    },
+    {
+      "playerId": 8483521,
+      "lastName": {
+        "default": "Warren"
+      },
+      "firstName": {
+        "default": "Noah"
+      },
+      "playerSlug": "noah-warren-8483521"
+    },
+    {
+      "playerId": 8485512,
+      "lastName": {
+        "default": "Washe"
+      },
+      "firstName": {
+        "default": "Tim"
+      },
+      "playerSlug": "tim-washe-8485512"
+    },
+    {
+      "playerId": 8480808,
+      "lastName": {
+        "default": "Woo"
+      },
+      "firstName": {
+        "default": "Jett"
+      },
+      "playerSlug": "jett-woo-8480808"
+    }
+  ]
+}

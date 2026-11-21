@@ -1,0 +1,135 @@
+name: NHL Manual Data Intake
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Manual DRatings table type
+        type: choice
+        required: true
+        options:
+          - Predictions
+          - Final Scores
+      time_basis:
+        description: Pasted DRatings times are already Eastern or are UTC
+        type: choice
+        default: et
+        required: true
+        options:
+          - et
+          - utc
+      game_date:
+        description: Prediction target date YYYY_MM_DD (blank uses current Eastern date); ignored for finals
+        type: string
+        required: false
+        default: ''
+      raw_text:
+        description: Paste the DRatings NHL table
+        type: string
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nhl-pipeline
+  cancel-in-progress: false
+
+jobs:
+  nhl-manual-intake:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: Ensure official schedule exists for manual predictions
+        if: ${{ inputs.source == 'Predictions' }}
+        shell: bash
+        env:
+          GAME_DATE: ${{ inputs.game_date }}
+        run: |
+          set -euo pipefail
+          python -m pip install requests
+          python - <<'PYCODE'
+          import importlib.util
+          import os
+          import re
+          from datetime import datetime
+          from pathlib import Path
+          import requests
+
+          from zoneinfo import ZoneInfo
+          date = os.environ.get('GAME_DATE', '') or datetime.now(ZoneInfo('America/New_York')).strftime('%Y_%m_%d')
+          if not re.fullmatch(r'\d{4}_\d{2}_\d{2}', date):
+              raise ValueError(f'Invalid game date: {date!r}')
+          path = Path(f'docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_{date}.csv')
+          if path.exists():
+              print(f'Existing official NHL schedule: {path}')
+          else:
+              script = Path('docs/win/hockey/nhl/scripts/00_intake/pull_nhl_schedule.py')
+              spec = importlib.util.spec_from_file_location('nhl_official_schedule', script)
+              module = importlib.util.module_from_spec(spec)
+              spec.loader.exec_module(module)
+              session = requests.Session()
+              payload = module.request_schedule(session, date)
+              games = module.games_for_target_date(payload, date)
+              rows = [module.build_schedule_row(g, date) for g in games]
+              rows.sort(key=lambda r: (r['game_time'], r['game_id']))
+              module.validate_rows(rows, date)
+              module.write_schedule_file(date, rows)
+              print(f'Fetched official NHL schedule: {path}; rows={len(rows)}')
+          PYCODE
+
+      - name: Validate and write NHL DRatings manual data
+        shell: bash
+        env:
+          RAW_TEXT: ${{ inputs.raw_text }}
+          SOURCE: ${{ inputs.source }}
+          TIME_BASIS: ${{ inputs.time_basis }}
+          GAME_DATE: ${{ inputs.game_date }}
+        run: |
+          set -euo pipefail
+          printf '%s' "$RAW_TEXT" > "$RUNNER_TEMP/nhl_manual_dratings.txt"
+          case "$SOURCE" in
+            Predictions)
+              DATE_ARG=()
+              if [[ -n "$GAME_DATE" ]]; then DATE_ARG=(--date "$GAME_DATE"); fi
+              python docs/win/hockey/nhl/scripts/00_intake/hockey_manual_predictions.py \
+                --raw-file "$RUNNER_TEMP/nhl_manual_dratings.txt" \
+                --time-basis "$TIME_BASIS" "${DATE_ARG[@]}"
+              ;;
+            'Final Scores')
+              python docs/win/hockey/nhl/scripts/00_intake/hockey_manual_final_scores.py \
+                --raw-file "$RUNNER_TEMP/nhl_manual_dratings.txt" \
+                --time-basis "$TIME_BASIS"
+              ;;
+            *) echo "::error::Unsupported manual source: $SOURCE"; exit 1 ;;
+          esac
+
+      - name: Commit only manual NHL source outputs
+        shell: bash
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- docs/win/hockey/nhl/00_intake/drat_raw
+          if [[ "$SOURCE" == 'Predictions' ]]; then
+            git add -A -- docs/win/hockey/nhl/00_intake/predictions/scraper
+          fi
+          if git diff --cached --quiet; then
+            echo 'Manual source already identical; no new commit needed.'
+          else
+            git commit -m "manual: NHL DRatings $SOURCE"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

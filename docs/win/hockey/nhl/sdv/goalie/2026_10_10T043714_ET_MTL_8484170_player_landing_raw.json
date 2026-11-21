@@ -1,0 +1,731 @@
+{
+  "playerId": 8484170,
+  "isActive": true,
+  "currentTeamId": 8,
+  "currentTeamAbbrev": "MTL",
+  "fullTeamName": {
+    "default": "Montréal Canadiens",
+    "fr": "Canadiens de Montréal"
+  },
+  "teamCommonName": {
+    "default": "Canadiens"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Montréal",
+    "fr": "de Montréal"
+  },
+  "firstName": {
+    "default": "Jacob"
+  },
+  "lastName": {
+    "default": "Fowler"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+  "sweaterNumber": 32,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8484170.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8484170.jpg",
+  "heightInInches": 73,
+  "heightInCentimeters": 185,
+  "weightInPounds": 223,
+  "weightInKilograms": 101,
+  "birthDate": "2004-11-24",
+  "birthCity": {
+    "default": "Melbourne"
+  },
+  "birthStateProvince": {
+    "default": "Florida",
+    "fr": "Floride"
+  },
+  "birthCountry": "USA",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2023,
+    "teamAbbrev": "MTL",
+    "round": 3,
+    "pickInRound": 5,
+    "overallPick": 69
+  },
+  "playerSlug": "jacob-fowler-8484170",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 1,
+        "goalsAgainstAvg": 3.056892,
+        "losses": 1,
+        "otLosses": 0,
+        "savePctg": 0.833333,
+        "shutouts": 0,
+        "wins": 0
+      },
+      "career": {
+        "gamesPlayed": 18,
+        "goalsAgainstAvg": 2.46825,
+        "losses": 7,
+        "otLosses": 2,
+        "savePctg": 0.905579,
+        "shutouts": 1,
+        "wins": 9
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 0,
+      "gamesPlayed": 18,
+      "gamesStarted": 18,
+      "goals": 0,
+      "goalsAgainst": 44,
+      "goalsAgainstAvg": 2.46825,
+      "losses": 7,
+      "otLosses": 2,
+      "pim": 0,
+      "savePctg": 0.905579,
+      "shotsAgainst": 466,
+      "shutouts": 1,
+      "timeOnIce": "1069:35",
+      "wins": 9
+    },
+    "playoffs": {
+      "assists": 0,
+      "gamesPlayed": 1,
+      "gamesStarted": 0,
+      "goals": 0,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 7.157056,
+      "otLosses": 0,
+      "savePctg": 0.5,
+      "shotsAgainst": 2,
+      "shutouts": 0,
+      "timeOnIce": "8:23"
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "L",
+      "gameDate": "2026-10-08",
+      "gameId": 2026020058,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "NSH",
+      "penaltyMins": 0,
+      "savePctg": 0.833333,
+      "shotsAgainst": 18,
+      "teamAbbrev": "MTL",
+      "toi": "58:53"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 1.73,
+      "leagueAbbrev": "NAPHL 16U",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.932,
+      "season": 20192020,
+      "sequence": 48820,
+      "shotsAgainst": 176,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Florida Alliance 16U AAA"
+      },
+      "timeOnIce": "353:32",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "NAPHL 16U",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.904,
+      "season": 20192020,
+      "sequence": 48820,
+      "shotsAgainst": 94,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Florida Alliance 16U AAA"
+      },
+      "timeOnIce": "153:09",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalsAgainstAvg": 2.14,
+      "leagueAbbrev": "18U AAA",
+      "savePctg": 0.945,
+      "season": 20202021,
+      "sequence": 149588,
+      "teamName": {
+        "default": "South Kent School 18U Prep"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 18,
+      "goalsAgainst": 35,
+      "goalsAgainstAvg": 2.18,
+      "leagueAbbrev": "USHL",
+      "losses": 4,
+      "otLosses": 1,
+      "savePctg": 0.927,
+      "season": 20212022,
+      "sequence": 27206,
+      "shotsAgainst": 477,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Youngstown Phantoms"
+      },
+      "timeOnIce": "963:22",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 21,
+      "goalsAgainstAvg": 1.68,
+      "leagueAbbrev": "18U AAA",
+      "savePctg": 0.928,
+      "season": 20212022,
+      "sequence": 149588,
+      "teamName": {
+        "default": "South Kent School 18U Prep"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "PHC",
+      "savePctg": 0.923,
+      "season": 20212022,
+      "sequence": 150571,
+      "shotsAgainst": 156,
+      "shutouts": 1,
+      "teamName": {
+        "default": "South Kent School 18U Prep"
+      },
+      "timeOnIce": "240:00"
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 3.07,
+      "leagueAbbrev": "USHL",
+      "losses": 1,
+      "otLosses": 1,
+      "savePctg": 0.889,
+      "season": 20212022,
+      "sequence": 27206,
+      "shotsAgainst": 27,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Youngstown Phantoms"
+      },
+      "timeOnIce": "58:35",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 40,
+      "goalsAgainst": 88,
+      "goalsAgainstAvg": 2.28,
+      "leagueAbbrev": "USHL",
+      "losses": 9,
+      "otLosses": 3,
+      "savePctg": 0.921,
+      "season": 20222023,
+      "sequence": 27206,
+      "shotsAgainst": 1117,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Youngstown Phantoms"
+      },
+      "timeOnIce": "2318:23",
+      "wins": 27
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 9,
+      "goalsAgainst": 13,
+      "goalsAgainstAvg": 1.36,
+      "leagueAbbrev": "USHL",
+      "losses": 1,
+      "otLosses": 3,
+      "savePctg": 0.952,
+      "season": 20222023,
+      "sequence": 27206,
+      "shotsAgainst": 273,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Youngstown Phantoms"
+      },
+      "timeOnIce": "575:28",
+      "wins": 8
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 39,
+      "goalsAgainst": 83,
+      "goalsAgainstAvg": 2.14,
+      "leagueAbbrev": "NCAA",
+      "losses": 6,
+      "otLosses": 1,
+      "savePctg": 0.926,
+      "season": 20232024,
+      "sequence": 9670,
+      "shotsAgainst": 1121,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Boston College"
+      },
+      "timeOnIce": "2327:00",
+      "wins": 32
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 2.59,
+      "leagueAbbrev": "WJC-20",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.889,
+      "season": 20232024,
+      "sequence": 17276,
+      "shotsAgainst": 72,
+      "teamName": {
+        "default": "USA U20"
+      },
+      "timeOnIce": "185:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 35,
+      "goalsAgainst": 56,
+      "goalsAgainstAvg": 1.63,
+      "leagueAbbrev": "NCAA",
+      "losses": 7,
+      "otLosses": 2,
+      "savePctg": 0.94,
+      "season": 20242025,
+      "sequence": 9670,
+      "shotsAgainst": 931,
+      "shutouts": 7,
+      "teamName": {
+        "default": "Boston College"
+      },
+      "timeOnIce": "2063:00",
+      "wins": 25
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 2.32,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.914,
+      "season": 20242025,
+      "sequence": 222817,
+      "shotsAgainst": 81,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Laval Rocket"
+      },
+      "timeOnIce": "181:19",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 8,
+      "goalsAgainst": 16,
+      "goalsAgainstAvg": 2.48,
+      "leagueAbbrev": "AHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.902,
+      "season": 20242025,
+      "sequence": 222817,
+      "shotsAgainst": 164,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Laval Rocket"
+      },
+      "timeOnIce": "387:05",
+      "wins": 3
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 17,
+      "gamesStarted": 17,
+      "goals": 0,
+      "goalsAgainst": 41,
+      "goalsAgainstAvg": 2.433957,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 2,
+      "pim": 0,
+      "savePctg": 0.908482,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 448,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Canadiens"
+      },
+      "teamName": {
+        "default": "Montréal Canadiens",
+        "fr": "Canadiens de Montréal"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Montréal",
+        "fr": "de Montréal"
+      },
+      "timeOnIce": "1010:42",
+      "wins": 9
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "gamesStarted": 0,
+      "goals": 0,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 7.157058,
+      "leagueAbbrev": "NHL",
+      "losses": 0,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.5,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 2,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canadiens"
+      },
+      "teamName": {
+        "default": "Montréal Canadiens",
+        "fr": "Canadiens de Montréal"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Montréal",
+        "fr": "de Montréal"
+      },
+      "timeOnIce": "8:23",
+      "wins": 0
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 1,
+      "goals": 0,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 3.056892,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.833333,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 18,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canadiens"
+      },
+      "teamName": {
+        "default": "Montréal Canadiens",
+        "fr": "Canadiens de Montréal"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Montréal",
+        "fr": "de Montréal"
+      },
+      "timeOnIce": "58:53",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 1.53,
+      "leagueAbbrev": "AHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.945,
+      "season": 20262027,
+      "sequence": 222817,
+      "shotsAgainst": 55,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Laval Rocket"
+      },
+      "timeOnIce": "117:44",
+      "wins": 1
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8476981,
+      "lastName": {
+        "default": "Anderson"
+      },
+      "firstName": {
+        "default": "Josh"
+      },
+      "playerSlug": "josh-anderson-8476981"
+    },
+    {
+      "playerId": 8482737,
+      "lastName": {
+        "default": "Bolduc"
+      },
+      "firstName": {
+        "default": "Zachary"
+      },
+      "playerSlug": "zachary-bolduc-8482737"
+    },
+    {
+      "playerId": 8478851,
+      "lastName": {
+        "default": "Carrier"
+      },
+      "firstName": {
+        "default": "Alexandre"
+      },
+      "playerSlug": "alexandre-carrier-8478851"
+    },
+    {
+      "playerId": 8481540,
+      "lastName": {
+        "default": "Caufield"
+      },
+      "firstName": {
+        "default": "Cole"
+      },
+      "playerSlug": "cole-caufield-8481540"
+    },
+    {
+      "playerId": 8481523,
+      "lastName": {
+        "default": "Dach"
+      },
+      "firstName": {
+        "default": "Kirby"
+      },
+      "playerSlug": "kirby-dach-8481523"
+    },
+    {
+      "playerId": 8476479,
+      "lastName": {
+        "default": "Danault"
+      },
+      "firstName": {
+        "default": "Phillip"
+      },
+      "playerSlug": "phillip-danault-8476479"
+    },
+    {
+      "playerId": 8484984,
+      "lastName": {
+        "default": "Demidov"
+      },
+      "firstName": {
+        "default": "Ivan"
+      },
+      "playerSlug": "ivan-demidov-8484984"
+    },
+    {
+      "playerId": 8482487,
+      "lastName": {
+        "default": "Dobes"
+      },
+      "firstName": {
+        "default": "Jakub"
+      },
+      "playerSlug": "jakub-dobes-8482487"
+    },
+    {
+      "playerId": 8480865,
+      "lastName": {
+        "default": "Dobson"
+      },
+      "firstName": {
+        "default": "Noah"
+      },
+      "playerSlug": "noah-dobson-8480865"
+    },
+    {
+      "playerId": 8483686,
+      "lastName": {
+        "default": "Engstrom"
+      },
+      "firstName": {
+        "default": "Adam"
+      },
+      "playerSlug": "adam-engstrom-8483686"
+    },
+    {
+      "playerId": 8478133,
+      "lastName": {
+        "default": "Evans"
+      },
+      "firstName": {
+        "default": "Jake"
+      },
+      "playerSlug": "jake-evans-8478133"
+    },
+    {
+      "playerId": 8484170,
+      "lastName": {
+        "default": "Fowler"
+      },
+      "firstName": {
+        "default": "Jacob"
+      },
+      "playerSlug": "jacob-fowler-8484170"
+    },
+    {
+      "playerId": 8483457,
+      "lastName": {
+        "default": "Hutson"
+      },
+      "firstName": {
+        "default": "Lane"
+      },
+      "playerSlug": "lane-hutson-8483457"
+    },
+    {
+      "playerId": 8482775,
+      "lastName": {
+        "default": "Kapanen"
+      },
+      "firstName": {
+        "default": "Oliver"
+      },
+      "playerSlug": "oliver-kapanen-8482775"
+    },
+    {
+      "playerId": 8475184,
+      "lastName": {
+        "default": "Kreider"
+      },
+      "firstName": {
+        "default": "Chris"
+      },
+      "playerSlug": "chris-kreider-8475184"
+    },
+    {
+      "playerId": 8476875,
+      "lastName": {
+        "default": "Matheson"
+      },
+      "firstName": {
+        "default": "Mike"
+      },
+      "playerSlug": "mike-matheson-8476875"
+    },
+    {
+      "playerId": 8478470,
+      "lastName": {
+        "default": "Montembeault"
+      },
+      "firstName": {
+        "default": "Samuel"
+      },
+      "playerSlug": "samuel-montembeault-8478470"
+    },
+    {
+      "playerId": 8481618,
+      "lastName": {
+        "default": "Newhook"
+      },
+      "firstName": {
+        "default": "Alex"
+      },
+      "playerSlug": "alex-newhook-8481618"
+    },
+    {
+      "playerId": 8483515,
+      "lastName": {
+        "default": "Slafkovský"
+      },
+      "firstName": {
+        "default": "Juraj"
+      },
+      "playerSlug": "juraj-slafkovský-8483515"
+    },
+    {
+      "playerId": 8481593,
+      "lastName": {
+        "default": "Struble"
+      },
+      "firstName": {
+        "default": "Jayden"
+      },
+      "playerSlug": "jayden-struble-8481593"
+    },
+    {
+      "playerId": 8480018,
+      "lastName": {
+        "default": "Suzuki"
+      },
+      "firstName": {
+        "default": "Nick"
+      },
+      "playerSlug": "nick-suzuki-8480018"
+    },
+    {
+      "playerId": 8480074,
+      "lastName": {
+        "default": "Texier"
+      },
+      "firstName": {
+        "default": "Alexandre"
+      },
+      "playerSlug": "alexandre-texier-8480074"
+    },
+    {
+      "playerId": 8482964,
+      "lastName": {
+        "default": "Xhekaj"
+      },
+      "firstName": {
+        "default": "Arber"
+      },
+      "playerSlug": "arber-xhekaj-8482964"
+    },
+    {
+      "playerId": 8484403,
+      "lastName": {
+        "default": "Xhekaj"
+      },
+      "firstName": {
+        "default": "Florian"
+      },
+      "playerSlug": "florian-xhekaj-8484403"
+    }
+  ]
+}

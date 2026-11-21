@@ -1,0 +1,910 @@
+{
+  "playerId": 8482445,
+  "isActive": true,
+  "currentTeamId": 20,
+  "currentTeamAbbrev": "CGY",
+  "fullTeamName": {
+    "default": "Calgary Flames",
+    "fr": "Flames de Calgary"
+  },
+  "teamCommonName": {
+    "default": "Flames"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Calgary",
+    "fr": "de Calgary"
+  },
+  "firstName": {
+    "default": "Devin"
+  },
+  "lastName": {
+    "default": "Cooley"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+  "sweaterNumber": 1,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8482445.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8482445.jpg",
+  "heightInInches": 77,
+  "heightInCentimeters": 196,
+  "weightInPounds": 192,
+  "weightInKilograms": 87,
+  "birthDate": "1997-05-25",
+  "birthCity": {
+    "default": "Los Gatos"
+  },
+  "birthStateProvince": {
+    "default": "California",
+    "fr": "Californie",
+    "sk": "Kalifornia",
+    "sv": "Kalifornien"
+  },
+  "birthCountry": "USA",
+  "shootsCatches": "L",
+  "playerSlug": "devin-cooley-8482445",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 3,
+        "goalsAgainstAvg": 4.010025,
+        "losses": 2,
+        "otLosses": 0,
+        "savePctg": 0.868132,
+        "shutouts": 0,
+        "wins": 1
+      },
+      "career": {
+        "gamesPlayed": 40,
+        "goalsAgainstAvg": 3.110458,
+        "losses": 15,
+        "otLosses": 7,
+        "savePctg": 0.899115,
+        "shutouts": 0,
+        "wins": 13
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 1,
+      "gamesPlayed": 40,
+      "gamesStarted": 35,
+      "goals": 0,
+      "goalsAgainst": 114,
+      "goalsAgainstAvg": 3.110458,
+      "losses": 15,
+      "otLosses": 7,
+      "pim": 2,
+      "savePctg": 0.899115,
+      "shotsAgainst": 1130,
+      "shutouts": 0,
+      "timeOnIce": "2199:02",
+      "wins": 13
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "W",
+      "gameDate": "2026-10-18",
+      "gameId": 2026020136,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 2,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "CAR",
+      "penaltyMins": 0,
+      "savePctg": 0.944444,
+      "shotsAgainst": 36,
+      "teamAbbrev": "CGY",
+      "toi": "59:47"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-10-08",
+      "gameId": 2026020064,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 7,
+      "homeRoadFlag": "H",
+      "opponentAbbrev": "COL",
+      "penaltyMins": 0,
+      "savePctg": 0.766667,
+      "shotsAgainst": 30,
+      "teamAbbrev": "CGY",
+      "toi": "60:00"
+    },
+    {
+      "decision": "L",
+      "gameDate": "2026-10-03",
+      "gameId": 2026020033,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "VAN",
+      "penaltyMins": 0,
+      "savePctg": 0.88,
+      "shotsAgainst": 25,
+      "teamAbbrev": "CGY",
+      "toi": "59:46"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 8,
+      "goalsAgainstAvg": 2.25,
+      "leagueAbbrev": "NAPHL 14U",
+      "savePctg": 0.897,
+      "season": 20112012,
+      "sequence": 173525,
+      "teamName": {
+        "default": "San Jose Jr. Sharks 14U AAA"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainstAvg": 2.53,
+      "leagueAbbrev": "NAPHL 14U",
+      "savePctg": 0.813,
+      "season": 20112012,
+      "sequence": 173525,
+      "teamName": {
+        "default": "San Jose Jr. Sharks 14U AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 9,
+      "goalsAgainstAvg": 2.0,
+      "leagueAbbrev": "NAPHL 16U",
+      "savePctg": 0.911,
+      "season": 20132014,
+      "sequence": 107150,
+      "teamName": {
+        "default": "San Jose Jr. Sharks 16U AAA"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainstAvg": 2.0,
+      "leagueAbbrev": "NAPHL 16U",
+      "savePctg": 0.925,
+      "season": 20132014,
+      "sequence": 107150,
+      "teamName": {
+        "default": "San Jose Jr. Sharks 16U AAA"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 15,
+      "goalsAgainst": 35,
+      "goalsAgainstAvg": 2.39,
+      "leagueAbbrev": "NAPHL 18U",
+      "losses": 8,
+      "otLosses": 3,
+      "savePctg": 0.916,
+      "season": 20142015,
+      "sequence": 57371,
+      "shotsAgainst": 415,
+      "shutouts": 1,
+      "teamName": {
+        "default": "San Jose Jr. Sharks 18U AAA"
+      },
+      "timeOnIce": "748:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 7,
+      "goalsAgainstAvg": 3.52,
+      "leagueAbbrev": "NAPHL 18U",
+      "losses": 2,
+      "savePctg": 0.877,
+      "season": 20142015,
+      "sequence": 57371,
+      "shotsAgainst": 57,
+      "shutouts": 0,
+      "teamName": {
+        "default": "San Jose Jr. Sharks 18U AAA"
+      },
+      "timeOnIce": "101:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 19,
+      "goalsAgainst": 65,
+      "goalsAgainstAvg": 4.28,
+      "leagueAbbrev": "USHL",
+      "losses": 6,
+      "otLosses": 2,
+      "savePctg": 0.873,
+      "season": 20152016,
+      "sequence": 6276,
+      "shotsAgainst": 510,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Muskegon Lumberjacks"
+      },
+      "timeOnIce": "911:00",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 10,
+      "goalsAgainst": 29,
+      "goalsAgainstAvg": 3.05,
+      "leagueAbbrev": "NAHL",
+      "losses": 6,
+      "otLosses": 1,
+      "savePctg": 0.909,
+      "season": 20162017,
+      "sequence": 13404,
+      "shotsAgainst": 317,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Springfield Jr. Blues"
+      },
+      "timeOnIce": "571:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 28,
+      "goalsAgainstAvg": 2.45,
+      "leagueAbbrev": "BCHL",
+      "losses": 3,
+      "otLosses": 0,
+      "savePctg": 0.887,
+      "season": 20162017,
+      "sequence": 111754,
+      "shotsAgainst": 248,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Wenatchee Wild"
+      },
+      "timeOnIce": "686:00",
+      "wins": 7
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 5.45,
+      "leagueAbbrev": "BCHL",
+      "losses": 2,
+      "savePctg": 0.828,
+      "season": 20162017,
+      "sequence": 111754,
+      "shotsAgainst": 29,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Wenatchee Wild"
+      },
+      "timeOnIce": "55:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "NCAA",
+      "losses": 0,
+      "savePctg": 0.929,
+      "season": 20172018,
+      "sequence": 20900,
+      "shotsAgainst": 14,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Univ. of Denver"
+      },
+      "ties": 0,
+      "timeOnIce": "20:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 20,
+      "goalsAgainst": 36,
+      "goalsAgainstAvg": 1.85,
+      "leagueAbbrev": "NCAA",
+      "losses": 6,
+      "otLosses": 2,
+      "savePctg": 0.934,
+      "season": 20182019,
+      "sequence": 20900,
+      "shotsAgainst": 548,
+      "shutouts": 4,
+      "teamName": {
+        "default": "Univ. of Denver"
+      },
+      "timeOnIce": "1169:00",
+      "wins": 11
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 9,
+      "goalsAgainst": 18,
+      "goalsAgainstAvg": 2.08,
+      "leagueAbbrev": "NCAA",
+      "losses": 3,
+      "otLosses": 2,
+      "savePctg": 0.908,
+      "season": 20192020,
+      "sequence": 20900,
+      "shotsAgainst": 195,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Univ. of Denver"
+      },
+      "timeOnIce": "519:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 0,
+      "savePctg": 0.895,
+      "season": 20202021,
+      "sequence": 957,
+      "shotsAgainst": 57,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Chicago Wolves"
+      },
+      "timeOnIce": "120:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalsAgainst": 60,
+      "goalsAgainstAvg": 2.95,
+      "leagueAbbrev": "ECHL",
+      "losses": 7,
+      "otLosses": 2,
+      "savePctg": 0.911,
+      "season": 20202021,
+      "sequence": 2565,
+      "shotsAgainst": 671,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Florida Everblades"
+      },
+      "timeOnIce": "1221:00",
+      "wins": 12
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 0,
+      "goalsAgainstAvg": 0.0,
+      "leagueAbbrev": "ECHL",
+      "losses": 0,
+      "savePctg": 1.0,
+      "season": 20202021,
+      "sequence": 2565,
+      "shotsAgainst": 14,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Florida Everblades"
+      },
+      "timeOnIce": "25:00",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 24,
+      "goalsAgainst": 66,
+      "goalsAgainstAvg": 3.06,
+      "leagueAbbrev": "AHL",
+      "losses": 10,
+      "otLosses": 2,
+      "savePctg": 0.898,
+      "season": 20212022,
+      "sequence": 1017,
+      "shotsAgainst": 647,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Milwaukee Admirals"
+      },
+      "timeOnIce": "1294:00",
+      "wins": 9
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 1.36,
+      "leagueAbbrev": "ECHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.954,
+      "season": 20212022,
+      "sequence": 2565,
+      "shotsAgainst": 87,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Florida Everblades"
+      },
+      "timeOnIce": "177:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 7,
+      "goalsAgainst": 17,
+      "goalsAgainstAvg": 2.96,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 2,
+      "savePctg": 0.926,
+      "season": 20212022,
+      "sequence": 1017,
+      "shotsAgainst": 230,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Milwaukee Admirals"
+      },
+      "timeOnIce": "345:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 26,
+      "goalsAgainst": 73,
+      "goalsAgainstAvg": 2.93,
+      "leagueAbbrev": "AHL",
+      "losses": 8,
+      "otLosses": 2,
+      "savePctg": 0.909,
+      "season": 20222023,
+      "sequence": 1017,
+      "shotsAgainst": 799,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Milwaukee Admirals"
+      },
+      "timeOnIce": "1497:00",
+      "wins": 15
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainst": 9,
+      "goalsAgainstAvg": 2.29,
+      "leagueAbbrev": "AHL",
+      "losses": 2,
+      "otLosses": 2,
+      "savePctg": 0.916,
+      "season": 20222023,
+      "sequence": 1017,
+      "shotsAgainst": 107,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Milwaukee Admirals"
+      },
+      "timeOnIce": "236:00",
+      "wins": 2
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 25,
+      "goalsAgainstAvg": 4.975398,
+      "leagueAbbrev": "NHL",
+      "losses": 3,
+      "otLosses": 1,
+      "savePctg": 0.869792,
+      "season": 20232024,
+      "sequence": 2,
+      "shotsAgainst": 192,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Sharks"
+      },
+      "teamName": {
+        "default": "San Jose Sharks",
+        "fr": "Sharks de San Jose"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "San Jose",
+        "fr": "de San Jose"
+      },
+      "timeOnIce": "301:29",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 14,
+      "goalsAgainst": 52,
+      "goalsAgainstAvg": 3.77,
+      "leagueAbbrev": "AHL",
+      "losses": 6,
+      "otLosses": 2,
+      "savePctg": 0.891,
+      "season": 20232024,
+      "sequence": 1047,
+      "shotsAgainst": 475,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Rochester Americans"
+      },
+      "timeOnIce": "828:00",
+      "wins": 6
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 46,
+      "goalsAgainst": 127,
+      "goalsAgainstAvg": 2.94,
+      "leagueAbbrev": "AHL",
+      "losses": 17,
+      "otLosses": 5,
+      "savePctg": 0.905,
+      "season": 20242025,
+      "sequence": 359017,
+      "shotsAgainst": 1336,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Calgary Wranglers"
+      },
+      "timeOnIce": "2588:00",
+      "wins": 21
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 31,
+      "gamesStarted": 26,
+      "goals": 0,
+      "goalsAgainst": 77,
+      "goalsAgainstAvg": 2.689173,
+      "leagueAbbrev": "NHL",
+      "losses": 10,
+      "otLosses": 6,
+      "pim": 2,
+      "savePctg": 0.909091,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 847,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "1718:00",
+      "wins": 10
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 4.010025,
+      "leagueAbbrev": "NHL",
+      "losses": 2,
+      "otLosses": 0,
+      "pim": 0,
+      "savePctg": 0.868132,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 91,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "179:33",
+      "wins": 1
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8474150,
+      "lastName": {
+        "default": "Backlund"
+      },
+      "firstName": {
+        "default": "Mikael"
+      },
+      "playerSlug": "mikael-backlund-8474150"
+    },
+    {
+      "playerId": 8480860,
+      "lastName": {
+        "default": "Bahl"
+      },
+      "firstName": {
+        "default": "Kevin"
+      },
+      "playerSlug": "kevin-bahl-8480860"
+    },
+    {
+      "playerId": 8484154,
+      "lastName": {
+        "default": "Castagna"
+      },
+      "firstName": {
+        "default": "Jonathan"
+      },
+      "playerSlug": "jonathan-castagna-8484154"
+    },
+    {
+      "playerId": 8482445,
+      "lastName": {
+        "default": "Cooley"
+      },
+      "firstName": {
+        "default": "Devin"
+      },
+      "playerSlug": "devin-cooley-8482445"
+    },
+    {
+      "playerId": 8482679,
+      "lastName": {
+        "default": "Coronato"
+      },
+      "firstName": {
+        "default": "Matt"
+      },
+      "playerSlug": "matt-coronato-8482679"
+    },
+    {
+      "playerId": 8480797,
+      "lastName": {
+        "default": "Farabee"
+      },
+      "firstName": {
+        "default": "Joel"
+      },
+      "playerSlug": "joel-farabee-8480797"
+    },
+    {
+      "playerId": 8480028,
+      "lastName": {
+        "default": "Frost"
+      },
+      "firstName": {
+        "default": "Morgan"
+      },
+      "playerSlug": "morgan-frost-8480028"
+    },
+    {
+      "playerId": 8484860,
+      "lastName": {
+        "default": "Gridin"
+      },
+      "firstName": {
+        "default": "Matvei"
+      },
+      "playerSlug": "matvei-gridin-8484860"
+    },
+    {
+      "playerId": 8477810,
+      "lastName": {
+        "default": "Hanley"
+      },
+      "firstName": {
+        "default": "Joel"
+      },
+      "playerSlug": "joel-hanley-8477810"
+    },
+    {
+      "playerId": 8484180,
+      "lastName": {
+        "default": "Honzek"
+      },
+      "firstName": {
+        "default": "Samuel"
+      },
+      "playerSlug": "samuel-honzek-8484180"
+    },
+    {
+      "playerId": 8476456,
+      "lastName": {
+        "default": "Huberdeau"
+      },
+      "firstName": {
+        "default": "Jonathan"
+      },
+      "playerSlug": "jonathan-huberdeau-8476456"
+    },
+    {
+      "playerId": 8480259,
+      "lastName": {
+        "default": "Jones"
+      },
+      "firstName": {
+        "default": "Ben"
+      },
+      "playerSlug": "ben-jones-8480259"
+    },
+    {
+      "playerId": 8483609,
+      "lastName": {
+        "default": "Klapka"
+      },
+      "firstName": {
+        "default": "Adam"
+      },
+      "playerSlug": "adam-klapka-8483609"
+    },
+    {
+      "playerId": 8482165,
+      "lastName": {
+        "default": "Kuznetsov"
+      },
+      "firstName": {
+        "default": "Yan"
+      },
+      "playerSlug": "yan-kuznetsov-8482165"
+    },
+    {
+      "playerId": 8478136,
+      "lastName": {
+        "default": "Middleton"
+      },
+      "firstName": {
+        "default": "Jake",
+        "cs": "Jacob",
+        "de": "Jacob",
+        "es": "Jacob",
+        "fi": "Jacob",
+        "sk": "Jacob",
+        "sv": "Jacob"
+      },
+      "playerSlug": "jacob-middleton-8478136"
+    },
+    {
+      "playerId": 8483495,
+      "lastName": {
+        "default": "Nemec"
+      },
+      "firstName": {
+        "default": "Simon",
+        "cs": "Šimon",
+        "sk": "Šimon"
+      },
+      "playerSlug": "simon-nemec-8483495"
+    },
+    {
+      "playerId": 8482747,
+      "lastName": {
+        "default": "Othmann"
+      },
+      "firstName": {
+        "default": "Brennan"
+      },
+      "playerSlug": "brennan-othmann-8482747"
+    },
+    {
+      "playerId": 8484768,
+      "lastName": {
+        "default": "Parekh"
+      },
+      "firstName": {
+        "default": "Zayne"
+      },
+      "playerSlug": "zayne-parekh-8484768"
+    },
+    {
+      "playerId": 8481028,
+      "lastName": {
+        "default": "Pospisil",
+        "cs": "Pospíšil",
+        "sk": "Pospíšil"
+      },
+      "firstName": {
+        "default": "Martin"
+      },
+      "playerSlug": "martin-pospisil-8481028"
+    },
+    {
+      "playerId": 8481068,
+      "lastName": {
+        "default": "Sharangovich",
+        "cs": "Šarangovič",
+        "fi": "Sharanhovitsh",
+        "sk": "Šarangovič"
+      },
+      "firstName": {
+        "default": "Yegor",
+        "cs": "Jegor",
+        "fi": "Jahor",
+        "sk": "Jegor"
+      },
+      "playerSlug": "yegor-sharangovich-8481068"
+    },
+    {
+      "playerId": 8476458,
+      "lastName": {
+        "default": "Strome"
+      },
+      "firstName": {
+        "default": "Ryan"
+      },
+      "playerSlug": "ryan-strome-8476458"
+    },
+    {
+      "playerId": 8484234,
+      "lastName": {
+        "default": "Suniev"
+      },
+      "firstName": {
+        "default": "Aydar"
+      },
+      "playerSlug": "aydar-suniev-8484234"
+    },
+    {
+      "playerId": 8484958,
+      "lastName": {
+        "default": "Tsyplakov",
+        "cs": "Cyplakov",
+        "sk": "Cyplakov"
+      },
+      "firstName": {
+        "default": "Maxim",
+        "fi": "Maksim"
+      },
+      "playerSlug": "maksim-tsyplakov-8484958"
+    },
+    {
+      "playerId": 8480727,
+      "lastName": {
+        "default": "Whitecloud"
+      },
+      "firstName": {
+        "default": "Zach"
+      },
+      "playerSlug": "zach-whitecloud-8480727"
+    },
+    {
+      "playerId": 8481692,
+      "lastName": {
+        "default": "Wolf"
+      },
+      "firstName": {
+        "default": "Dustin"
+      },
+      "playerSlug": "dustin-wolf-8481692"
+    }
+  ]
+}

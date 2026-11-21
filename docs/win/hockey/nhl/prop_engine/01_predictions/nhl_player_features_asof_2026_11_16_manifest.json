@@ -1,0 +1,65 @@
+{
+  "builder_version": "2026-11-17-asof-v2-prop-engine-rolefix1",
+  "mode": "slate",
+  "generated_utc": "2026-11-18T15:27:13.906143+00:00",
+  "strict_history_policy": "source game_date < target game_date; no same-day target outcomes used",
+  "snapshot_policy": "CapturedUTC strictly before official NHL start_time_utc and no later than requested prediction as-of UTC; blank updates do not override nonblank for the same goalie ID; changing goalie ID resets prior status",
+  "prediction_as_of_utc": "2026-11-16T20:51:30Z",
+  "player_candidates_historical": "target-table participation derived postgame; history features themselves use only prior-day games",
+  "no_pregame_history_timestamp": "historical target outcomes have only game_date; date-strict exclusion is deliberately conservative",
+  "power_play_points": "NOT GENERATED; power_play_goals is separate",
+  "historical_source": "G:\\hockey\\docs\\win\\hockey\\nhl\\prop_engine\\data\\nhl_historical_player_game_targets_2009_2026.csv",
+  "historical_source_sha256": "07d08e3ec18f6d523e90dbda69b3440a18207182a0526d4a5004d0af1a914d9e",
+  "historical_input": {
+    "rows": 889458,
+    "played": 848119,
+    "not_played": 41339,
+    "seasons": [
+      "2009-10",
+      "2010-11",
+      "2011-12",
+      "2012-13",
+      "2013-14",
+      "2014-15",
+      "2015-16",
+      "2016-17",
+      "2017-18",
+      "2018-19",
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26",
+      "2026-27"
+    ],
+    "first_date": "2009-10-01",
+    "last_date": "2026-11-16"
+  },
+  "goalie_source_dir": "G:\\hockey\\docs\\win\\hockey\\nhl\\00_intake\\lineups",
+  "dated_goalie_files": 6,
+  "team_ratings_asof": "G:\\hockey\\docs\\win\\hockey\\nhl\\sdv\\team-strength\\latest_team_ratings_asof.csv",
+  "team_rating_source_rows": 6,
+  "slate_date": "2026-11-16",
+  "output_counts": {
+    "non_ev_lineup_rows_skipped": 89,
+    "lineup_candidates": 80,
+    "feature_rows": 80
+  },
+  "feature_date_first": "2026-11-16",
+  "feature_date_last": "2026-11-16",
+  "output_file": "nhl_player_features_asof_2026_11_16.csv",
+  "summary_file": "nhl_player_features_asof_2026_11_16_summary.csv",
+  "season_summary": {
+    "2026-27": {
+      "rows": 80,
+      "with_prior_player_history": 80,
+      "with_prior_team_history": 80,
+      "with_prior_opponent_history": 80,
+      "with_pregame_goalie_id": 80
+    }
+  },
+  "snapshot_availability_note": "Verified schedule start, prestart captured goalies and ratings only",
+  "output_sha256": "141d3bafaa64ebc2bff58f284fb393f0ac2682ebe49e77a9fcab6128debddcb0"
+}

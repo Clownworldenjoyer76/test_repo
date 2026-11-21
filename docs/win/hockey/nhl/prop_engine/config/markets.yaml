@@ -1,0 +1,116 @@
+# EDITABLE NHL prop filters. Ranges are INCLUSIVE; multiple ranges are OR.
+# These are initial numeric selection rules, NOT backtested profitability thresholds.
+# Missing prices bypass odds filters. Use 'best_prob', 'over', 'under', or 'both'.
+# Probability is 0.00 to 1.00. Lines use actual sportsbook thresholds;
+# goals_against uses the prediction threshold if no sportsbook line exists.
+
+shots_on_goal:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.30, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: false
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+
+points:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.40, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: false
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+
+assists:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.45, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: false
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+
+goals:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.35, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: false
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+
+blocked_shots:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.40, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: false
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+
+power_play_points:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.35, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: false
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+saves:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+
+goals_against:
+  enabled: true
+  pick_preference: best_prob
+  over:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]
+  under:
+    enabled: true
+    line: [[0.5, 15.5]]
+    prob: [[0.0, 1.0]]
+    odds: [[-500, 500]]

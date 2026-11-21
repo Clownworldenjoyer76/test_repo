@@ -1,0 +1,643 @@
+{
+  "season": "20262027",
+  "gameType": 2,
+  "skaters": [
+    {
+      "playerId": 8471215,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8471215.png",
+      "firstName": {
+        "default": "Evgeni",
+        "cs": "Jevgenij",
+        "fi": "Jevgeni",
+        "sk": "Jevgenij"
+      },
+      "lastName": {
+        "default": "Malkin"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 8,
+      "goals": 4,
+      "assists": 2,
+      "points": 6,
+      "plusMinus": 1,
+      "penaltyMinutes": 2,
+      "powerPlayGoals": 2,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 18,
+      "shootingPctg": 0.222222,
+      "avgTimeOnIcePerGame": 1087.625,
+      "avgShiftsPerGame": 19.25,
+      "faceoffWinPctg": 0.6
+    },
+    {
+      "playerId": 8471675,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8471675.png",
+      "firstName": {
+        "default": "Sidney"
+      },
+      "lastName": {
+        "default": "Crosby"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 8,
+      "goals": 2,
+      "assists": 3,
+      "points": 5,
+      "plusMinus": -4,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 20,
+      "shootingPctg": 0.1,
+      "avgTimeOnIcePerGame": 1185.625,
+      "avgShiftsPerGame": 22.5,
+      "faceoffWinPctg": 0.538462
+    },
+    {
+      "playerId": 8471724,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8471724.png",
+      "firstName": {
+        "default": "Kris"
+      },
+      "lastName": {
+        "default": "Letang"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 8,
+      "goals": 0,
+      "assists": 3,
+      "points": 3,
+      "plusMinus": 1,
+      "penaltyMinutes": 6,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 16,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 1189.5,
+      "avgShiftsPerGame": 22.125,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8474578,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8474578.png",
+      "firstName": {
+        "default": "Erik"
+      },
+      "lastName": {
+        "default": "Karlsson"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 8,
+      "goals": 0,
+      "assists": 8,
+      "points": 8,
+      "plusMinus": 0,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 13,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 1362.75,
+      "avgShiftsPerGame": 23.5,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8475810,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8475810.png",
+      "firstName": {
+        "default": "Bryan"
+      },
+      "lastName": {
+        "default": "Rust"
+      },
+      "positionCode": "R",
+      "gamesPlayed": 5,
+      "goals": 3,
+      "assists": 0,
+      "points": 3,
+      "plusMinus": -3,
+      "penaltyMinutes": 2,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 8,
+      "shootingPctg": 0.375,
+      "avgTimeOnIcePerGame": 1116.2,
+      "avgShiftsPerGame": 22.4,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8476483,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8476483.png",
+      "firstName": {
+        "default": "Rickard"
+      },
+      "lastName": {
+        "default": "Rakell"
+      },
+      "positionCode": "R",
+      "gamesPlayed": 8,
+      "goals": 0,
+      "assists": 2,
+      "points": 2,
+      "plusMinus": -2,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 19,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 1187.375,
+      "avgShiftsPerGame": 22.5,
+      "faceoffWinPctg": 0.4
+    },
+    {
+      "playerId": 8477845,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8477845.png",
+      "firstName": {
+        "default": "Trevor"
+      },
+      "lastName": {
+        "default": "van Riemsdyk"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 5,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "plusMinus": -1,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 2,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 1128.4,
+      "avgShiftsPerGame": 21.4,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8478438,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8478438.png",
+      "firstName": {
+        "default": "Tommy"
+      },
+      "lastName": {
+        "default": "Novak"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 8,
+      "goals": 3,
+      "assists": 2,
+      "points": 5,
+      "plusMinus": 2,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 1,
+      "overtimeGoals": 1,
+      "shots": 14,
+      "shootingPctg": 0.214286,
+      "avgTimeOnIcePerGame": 924.25,
+      "avgShiftsPerGame": 20.125,
+      "faceoffWinPctg": 0.344086
+    },
+    {
+      "playerId": 8479398,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8479398.png",
+      "firstName": {
+        "default": "Samuel"
+      },
+      "lastName": {
+        "default": "Girard"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 8,
+      "goals": 1,
+      "assists": 6,
+      "points": 7,
+      "plusMinus": -2,
+      "penaltyMinutes": 2,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 12,
+      "shootingPctg": 0.083333,
+      "avgTimeOnIcePerGame": 1179.125,
+      "avgShiftsPerGame": 21.375,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8480842,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8480842.png",
+      "firstName": {
+        "default": "Filip"
+      },
+      "lastName": {
+        "default": "Hallander"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 2,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "plusMinus": 4,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 3,
+      "shootingPctg": 0.333333,
+      "avgTimeOnIcePerGame": 617.0,
+      "avgShiftsPerGame": 16.5,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8480980,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8480980.png",
+      "firstName": {
+        "default": "Connor"
+      },
+      "lastName": {
+        "default": "Dewar"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 8,
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "plusMinus": 0,
+      "penaltyMinutes": 2,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 10,
+      "shootingPctg": 0.1,
+      "avgTimeOnIcePerGame": 791.625,
+      "avgShiftsPerGame": 18.375,
+      "faceoffWinPctg": 0.166667
+    },
+    {
+      "playerId": 8481056,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481056.png",
+      "firstName": {
+        "default": "Spencer"
+      },
+      "lastName": {
+        "default": "Stastney"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 3,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "plusMinus": 0,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 2,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 880.0,
+      "avgShiftsPerGame": 17.3333,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8481481,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481481.png",
+      "firstName": {
+        "default": "Blake"
+      },
+      "lastName": {
+        "default": "Lizotte"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 8,
+      "goals": 0,
+      "assists": 3,
+      "points": 3,
+      "plusMinus": -1,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 11,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 785.25,
+      "avgShiftsPerGame": 18.625,
+      "faceoffWinPctg": 0.411765
+    },
+    {
+      "playerId": 8481527,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481527.png",
+      "firstName": {
+        "default": "Kaedan"
+      },
+      "lastName": {
+        "default": "Korczak"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 8,
+      "goals": 0,
+      "assists": 4,
+      "points": 4,
+      "plusMinus": 0,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 9,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 1061.75,
+      "avgShiftsPerGame": 20.875,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8481582,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481582.png",
+      "firstName": {
+        "default": "Nick"
+      },
+      "lastName": {
+        "default": "Robertson"
+      },
+      "positionCode": "L",
+      "gamesPlayed": 8,
+      "goals": 4,
+      "assists": 0,
+      "points": 4,
+      "plusMinus": 6,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 1,
+      "gameWinningGoals": 1,
+      "overtimeGoals": 0,
+      "shots": 16,
+      "shootingPctg": 0.25,
+      "avgTimeOnIcePerGame": 720.125,
+      "avgShiftsPerGame": 16.875,
+      "faceoffWinPctg": 1.0
+    },
+    {
+      "playerId": 8481725,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481725.png",
+      "firstName": {
+        "default": "Elmer"
+      },
+      "lastName": {
+        "default": "Soderblom",
+        "sv": "Söderblom"
+      },
+      "positionCode": "L",
+      "gamesPlayed": 3,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "plusMinus": -1,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 0,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 638.6667,
+      "avgShiftsPerGame": 14.0,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8482148,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8482148.png",
+      "firstName": {
+        "default": "Hendrix"
+      },
+      "lastName": {
+        "default": "Lapierre"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 6,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "plusMinus": -2,
+      "penaltyMinutes": 2,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 3,
+      "shootingPctg": 0.333333,
+      "avgTimeOnIcePerGame": 718.6667,
+      "avgShiftsPerGame": 17.1667,
+      "faceoffWinPctg": 0.35
+    },
+    {
+      "playerId": 8482475,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8482475.png",
+      "firstName": {
+        "default": "Egor"
+      },
+      "lastName": {
+        "default": "Chinakhov",
+        "cs": "Činachov",
+        "fi": "Tshinahov",
+        "sk": "Činachov"
+      },
+      "positionCode": "R",
+      "gamesPlayed": 7,
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "plusMinus": -1,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 1,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 13,
+      "shootingPctg": 0.076923,
+      "avgTimeOnIcePerGame": 953.7143,
+      "avgShiftsPerGame": 20.7143,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8482758,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8482758.png",
+      "firstName": {
+        "default": "Ville"
+      },
+      "lastName": {
+        "default": "Koivunen"
+      },
+      "positionCode": "R",
+      "gamesPlayed": 6,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "plusMinus": 3,
+      "penaltyMinutes": 4,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 6,
+      "shootingPctg": 0.166667,
+      "avgTimeOnIcePerGame": 816.8333,
+      "avgShiftsPerGame": 17.1667,
+      "faceoffWinPctg": 1.0
+    },
+    {
+      "playerId": 8483398,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8483398.png",
+      "firstName": {
+        "default": "Declan"
+      },
+      "lastName": {
+        "default": "Carlile"
+      },
+      "positionCode": "D",
+      "gamesPlayed": 8,
+      "goals": 2,
+      "assists": 2,
+      "points": 4,
+      "plusMinus": -1,
+      "penaltyMinutes": 6,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 12,
+      "shootingPctg": 0.166667,
+      "avgTimeOnIcePerGame": 1129.75,
+      "avgShiftsPerGame": 21.625,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8483808,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8483808.png",
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "lastName": {
+        "default": "Kuzmenko"
+      },
+      "positionCode": "L",
+      "gamesPlayed": 4,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "plusMinus": -3,
+      "penaltyMinutes": 0,
+      "powerPlayGoals": 0,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 6,
+      "shootingPctg": 0.0,
+      "avgTimeOnIcePerGame": 704.5,
+      "avgShiftsPerGame": 15.0,
+      "faceoffWinPctg": 0.0
+    },
+    {
+      "playerId": 8485414,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8485414.png",
+      "firstName": {
+        "default": "Ben"
+      },
+      "lastName": {
+        "default": "Kindel"
+      },
+      "positionCode": "C",
+      "gamesPlayed": 7,
+      "goals": 2,
+      "assists": 2,
+      "points": 4,
+      "plusMinus": -4,
+      "penaltyMinutes": 2,
+      "powerPlayGoals": 1,
+      "shorthandedGoals": 0,
+      "gameWinningGoals": 0,
+      "overtimeGoals": 0,
+      "shots": 17,
+      "shootingPctg": 0.117647,
+      "avgTimeOnIcePerGame": 1040.0,
+      "avgShiftsPerGame": 19.7143,
+      "faceoffWinPctg": 0.454545
+    }
+  ],
+  "goalies": [
+    {
+      "playerId": 8481668,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8481668.png",
+      "firstName": {
+        "default": "Arturs"
+      },
+      "lastName": {
+        "default": "Silovs",
+        "cs": "Šilovs",
+        "sk": "Šilovs"
+      },
+      "gamesPlayed": 5,
+      "gamesStarted": 5,
+      "wins": 3,
+      "losses": 2,
+      "overtimeLosses": 0,
+      "goalsAgainstAverage": 3.200889,
+      "savePercentage": 0.875,
+      "shotsAgainst": 128,
+      "saves": 112,
+      "goalsAgainst": 16,
+      "shutouts": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "penaltyMinutes": 0,
+      "timeOnIce": 17995
+    },
+    {
+      "playerId": 8483703,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8483703.png",
+      "firstName": {
+        "default": "Sergei"
+      },
+      "lastName": {
+        "default": "Murashov"
+      },
+      "gamesPlayed": 3,
+      "gamesStarted": 3,
+      "wins": 0,
+      "losses": 2,
+      "overtimeLosses": 1,
+      "goalsAgainstAverage": 2.994455,
+      "savePercentage": 0.910891,
+      "shotsAgainst": 101,
+      "saves": 92,
+      "goalsAgainst": 9,
+      "shutouts": 0,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "penaltyMinutes": 0,
+      "timeOnIce": 10820
+    }
+  ]
+}

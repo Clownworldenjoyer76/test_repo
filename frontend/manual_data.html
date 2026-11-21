@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>NHL / Manual DRatings</title>
+<style>
+:root{--bg:#080b10;--panel:#111822;--line:#25313d;--text:#e9eef6;--muted:#9eacba;--ok:#35d49a;--bad:#ff7685;--blue:#8ec9ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh}
+header{border-bottom:1px solid var(--line);padding:24px clamp(16px,4vw,48px);display:flex;justify-content:space-between;align-items:center;gap:16px}
+h1{margin:0;font-size:23px;letter-spacing:1px}h1 span{color:var(--ok)}.sub{color:var(--muted);font-size:12px;margin:6px 0 0}
+main{max-width:1100px;margin:28px auto;padding:0 20px 56px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px}
+.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:0 0 22px}label{display:block;font-weight:600;margin:0 0 7px;font-size:12px;color:var(--muted)}
+select,input,textarea{width:100%;border:1px solid #3c4a59;border-radius:6px;background:#080c13;color:var(--text);padding:11px 12px;font:14px inherit;outline:none}
+select:focus,input:focus,textarea:focus{border-color:var(--ok)}textarea{min-height:335px;resize:vertical;font:13px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace}
+.info{border-left:3px solid var(--blue);background:#102132;padding:12px 15px;border-radius:4px;color:#d7e8f7;line-height:1.5;margin-bottom:22px}
+.help{font-size:12px;color:var(--muted);line-height:1.55;margin-top:6px}.actions{margin-top:18px;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+button{background:var(--ok);color:#07140f;border:0;padding:12px 26px;border-radius:6px;font-weight:750;cursor:pointer;font-size:13px}button:hover{filter:brightness(1.06)}button:disabled{opacity:.55;cursor:wait}
+.check{display:flex;gap:9px;align-items:center;margin:0}.check input{width:auto;accent-color:var(--ok)}.check span{font-size:13px;color:var(--text)}
+#result{margin-top:18px;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px 0;line-height:1.5;font-size:13px}#result.good{color:var(--ok)}#result.bad{color:var(--bad)}a{color:var(--blue)}
+@media(max-width:620px){.controls{grid-template-columns:1fr}.panel{padding:16px}header{padding:20px 16px}h1{font-size:19px}}
+</style>
+</head>
+<body>
+<header><div><h1>NHL <span>/</span> MANUAL DATA</h1><p class="sub">DRatings fallback intake · Clownworldenjoyer76/hockey</p></div><span class="sub" id="state">Ready</span></header>
+<main><section class="panel">
+<div class="info" id="advice">Predictions: paste the complete NHL table, or a partial table when the repository already has valid predictions for the remaining scheduled games. The server checks the official NHL schedule before publishing.</div>
+<div class="controls">
+  <div><label for="source">Source</label><select id="source"><option value="Predictions">Predictions</option><option value="Final Scores">Final Scores</option></select></div>
+  <div><label for="time_basis">Pasted game times</label><select id="time_basis"><option value="et">Eastern time (as displayed)</option><option value="utc">UTC (convert to Eastern)</option></select></div>
+  <div id="date-wrap"><label for="game_date">Prediction game date (optional)</label><input id="game_date" placeholder="YYYY_MM_DD — blank uses current Eastern date" maxlength="10"><div class="help">Must match the pasted games. The normal pipeline processes today's Eastern slate.</div></div>
+  <div><label for="token">GitHub fine-grained token</label><input type="password" id="token" autocomplete="off" spellcheck="false" placeholder="Token with Actions: write for hockey"><div class="help">Used only for this request. Not saved in your browser. Never paste a token into the DRatings text.</div></div>
+</div>
+<label for="raw">Paste copied DRatings NHL table</label>
+<textarea id="raw" spellcheck="false" placeholder="Paste the DRatings Upcoming Games or Final Games table here (plain text, tab-separated, Markdown or HTML)."></textarea>
+<div class="actions"><button id="submit" type="button">Submit to GitHub Actions</button></div>
+<div id="result" role="status" aria-live="polite"></div>
+<div class="help">Submission (HTTP 204) means GitHub accepted the workflow request, not that the pipeline succeeded. Review <a href="https://github.com/Clownworldenjoyer76/hockey/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a> for the intake commit. The MANUAL NHL 01 Pipeline is launched separately from GitHub Actions. Manual final scores update DRatings reference records; official NHL scores remain authoritative for grading.</div>
+</section></main>
+<script>
+'use strict';
+const OWNER='Clownworldenjoyer76',REPO='hockey',FLOW='manual_data.yml',REF='main';
+const source=document.getElementById('source'),dateWrap=document.getElementById('date-wrap'),advice=document.getElementById('advice');
+source.addEventListener('change',()=>{
+ const isFinal=source.value==='Final Scores';
+ dateWrap.hidden=isFinal;
+ advice.textContent=isFinal
+  ? 'Final Scores: paste one or more completed NHL game rows. Scores are added only as DRatings checks; the NHL API remains authoritative for settlement. Existing completed results are not overwritten.'
+  : 'Predictions: paste the complete NHL table, or a partial table when valid existing scraper rows cover every remaining scheduled game. Incomplete or mismatched slates are rejected.';
+});
+const btn=document.getElementById('submit'),result=document.getElementById('result'),state=document.getElementById('state');
+btn.addEventListener('click',async()=>{
+ const token=document.getElementById('token').value.trim();
+ const raw=document.getElementById('raw').value;
+ const date=source.value==='Predictions'?document.getElementById('game_date').value.trim():'';
+ const basis=document.getElementById('time_basis').value;
+ if(!token||!raw.trim()){result.className='bad';result.textContent='Enter the token and paste DRatings game data.';return}
+ if(date&&!/^\d{4}_\d{2}_\d{2}$/.test(date)){result.className='bad';result.textContent='Game date must be YYYY_MM_DD.';return}
+ if(raw.length>60000){result.className='bad';result.textContent='Pasted text exceeds the GitHub workflow input limit (60,000 characters).';return}
+ btn.disabled=true;state.textContent='Submitting';result.className='';result.textContent='Sending to GitHub Actions…';
+ try{
+  const url=`https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${FLOW}/dispatches`;
+  const response=await fetch(url,{method:'POST',headers:{'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Authorization':`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({ref:REF,inputs:{source:source.value,time_basis:basis,game_date:date,raw_text:raw}})});
+  if(response.status!==204){const msg=await response.json().catch(()=>({}));throw new Error(`GitHub HTTP ${response.status}: ${msg.message||'dispatch failed'}`)}
+  result.className='good';result.textContent='Workflow submitted. Check GitHub Actions for parsing and the file commit. Run MANUAL NHL 01 Pipeline separately from GitHub Actions.';
+  state.textContent='Submitted';
+ }catch(e){result.className='bad';result.textContent=String(e.message||e);state.textContent='Failed'}
+ finally{btn.disabled=false}
+});
+</script>
+</body>
+</html>

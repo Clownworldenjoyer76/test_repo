@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "market": "assists",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "blocked_shots",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "goals",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "goals_against",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "points",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "power_play_points",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 67,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "saves",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    },
+    {
+      "market": "shots_on_goal",
+      "max_abs_prediction_difference": 0.0,
+      "max_rel_prediction_difference": 0.0,
+      "samples_tested": 384,
+      "features": 63,
+      "trees": 75,
+      "status": "PASS"
+    }
+  ],
+  "source_shas": {
+    "nhl_item5_research_models.joblib": "930de136f266433801a0e2f53beb5cd3cff5b4e290d6a5b00aaf740bacda8dd9",
+    "nhl_item5_ppp_research_model.joblib": "df6cfa72c8ad6701626b335d4b86a4abd875eee4009b0b268fff67ec90c58d39"
+  }
+}

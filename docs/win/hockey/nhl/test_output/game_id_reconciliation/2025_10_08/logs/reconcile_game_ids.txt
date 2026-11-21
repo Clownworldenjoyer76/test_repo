@@ -1,0 +1,18 @@
+=== reconcile_game_ids RUN 2026-11-18T08:07:18.256634-05:00 ===
+2026-11-18T08:07:18.258115-05:00 | Stable NHL team identities loaded: 32
+2026-11-18T08:07:18.259682-05:00 | Sportsbook files found: 1
+2026-11-18T08:07:18.259704-05:00 | Prediction files found: 1
+2026-11-18T08:07:18.259717-05:00 | Dates to reconcile: 1
+2026-11-18T08:07:18.259849-05:00 | Raw ESPN game IDs indexed: 1
+2026-11-18T08:07:18.260903-05:00 | DATE 2025_10_08 | official_schedule=4 | sportsbook=1 | predictions=1 | reconciled=1 | orientation_corrections=2 | failures=0 | audit=docs/win/hockey/nhl/00_intake/reconciled/audit/NHL_2025_10_08_reconciliation.csv
+2026-11-18T08:07:18.260919-05:00 | ORIENTATION CORRECTED | source=sportsbook | file=docs/win/hockey/nhl/00_intake/sportsbook/NHL_2025_10_08.csv | row=2 | date=2025_10_08 | original_away=Toronto Maple Leafs | original_home=Montreal Canadiens | official_away=Montreal Canadiens | official_home=Toronto Maple Leafs | official_game_id=2025020004
+2026-11-18T08:07:18.260933-05:00 | ORIENTATION CORRECTED | source=prediction | file=docs/win/hockey/nhl/00_intake/predictions/hockey_2025_10_08.csv | row=2 | date=2025_10_08 | original_away=Toronto Maple Leafs | original_home=Montreal Canadiens | official_away=Montreal Canadiens | official_home=Toronto Maple Leafs | official_game_id=2025020004
+2026-11-18T08:07:18.357938-05:00 | --- SUMMARY ---
+2026-11-18T08:07:18.357975-05:00 | Dates processed: 1
+2026-11-18T08:07:18.357992-05:00 | Exactly reconciled games: 1
+2026-11-18T08:07:18.358010-05:00 | ESPN start times replaced with official NHL start times: 0
+2026-11-18T08:07:18.358024-05:00 | Home/away source rows corrected to official NHL orientation: 2
+2026-11-18T08:07:18.358038-05:00 | All sportsbook game_id values are official NHL game IDs.
+2026-11-18T08:07:18.358053-05:00 | All sportsbook provider IDs are preserved as sportsbook_event_id.
+2026-11-18T08:07:18.358067-05:00 | All D-Ratings prediction game_id values are official NHL game IDs.
+2026-11-18T08:07:18.358080-05:00 | STATUS: SUCCESS

@@ -1,0 +1,10 @@
+=== pull_nhl_schedule RUN 2026-11-18T08:07:17.761086-05:00 ===
+2026-11-18T08:07:17.762123-05:00 | Target dates discovered: 2
+2026-11-18T08:07:17.762144-05:00 | Target date: 2025_10_08
+2026-11-18T08:07:17.762156-05:00 | Target date: 2026_11_18
+2026-11-18T08:07:18.137403-05:00 | WROTE docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_2025_10_08.csv rows=4 using official NHL game_id values
+2026-11-18T08:07:18.210219-05:00 | WROTE docs/win/hockey/nhl/00_intake/nhl_schedule/NHL_2026_11_18.csv rows=3 using official NHL game_id values
+2026-11-18T08:07:18.210245-05:00 | --- SUMMARY ---
+2026-11-18T08:07:18.210257-05:00 | Schedule files written: 2
+2026-11-18T08:07:18.210270-05:00 | Official NHL games written: 7
+2026-11-18T08:07:18.210282-05:00 | STATUS: SUCCESS

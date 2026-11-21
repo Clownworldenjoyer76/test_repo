@@ -1,0 +1,40 @@
+[2026-08-31T15:36:04.594959+00:00] START 03_nhl_results_reports.py
+[2026-08-31T15:36:04.595267+00:00] INPUT_FILE=docs\win\hockey\nhl\05_final_scores\intermediate\work_nhl.csv
+[2026-08-31T15:36:04.595548+00:00] REPORT_ROOT=docs\win\hockey\nhl\05_final_scores\reports
+[2026-08-31T15:36:05.007152+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_ev.csv | rows=9
+[2026-08-31T15:36:05.010024+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_ev_home_away_summary.csv | rows=18
+[2026-08-31T15:36:05.038997+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_kelly.csv | rows=6
+[2026-08-31T15:36:05.040720+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_kelly_home_away_summary.csv | rows=12
+[2026-08-31T15:36:05.069389+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_odds.csv | rows=9
+[2026-08-31T15:36:05.070946+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_odds_home_away_summary.csv | rows=18
+[2026-08-31T15:36:05.099606+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_win_prob.csv | rows=7
+[2026-08-31T15:36:05.101194+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\moneyline\nhl_moneyline_by_win_prob_home_away_summary.csv | rows=14
+[2026-08-31T15:36:05.129400+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_ev.csv | rows=9
+[2026-08-31T15:36:05.131011+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_ev_home_away_summary.csv | rows=17
+[2026-08-31T15:36:05.159110+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_kelly.csv | rows=7
+[2026-08-31T15:36:05.160624+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_kelly_home_away_summary.csv | rows=12
+[2026-08-31T15:36:05.188318+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_odds.csv | rows=9
+[2026-08-31T15:36:05.190281+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_odds_home_away_summary.csv | rows=18
+[2026-08-31T15:36:05.222748+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_side.csv | rows=2
+[2026-08-31T15:36:05.224335+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_side_home_away_summary.csv | rows=2
+[2026-08-31T15:36:05.251781+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_win_prob.csv | rows=7
+[2026-08-31T15:36:05.253331+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\puckline\nhl_puck_line_by_win_prob_home_away_summary.csv | rows=14
+[2026-08-31T15:36:05.281065+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_ev.csv | rows=9
+[2026-08-31T15:36:05.282596+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_ev_home_away_summary.csv | rows=18
+[2026-08-31T15:36:05.310189+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_kelly.csv | rows=6
+[2026-08-31T15:36:05.311670+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_kelly_home_away_summary.csv | rows=12
+[2026-08-31T15:36:05.341417+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_odds.csv | rows=6
+[2026-08-31T15:36:05.343441+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_odds_home_away_summary.csv | rows=12
+[2026-08-31T15:36:05.370916+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_side.csv | rows=2
+[2026-08-31T15:36:05.372425+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_side_home_away_summary.csv | rows=2
+[2026-08-31T15:36:05.399827+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_total_range.csv | rows=4
+[2026-08-31T15:36:05.401643+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_total_range_home_away_summary.csv | rows=8
+[2026-08-31T15:36:05.429464+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_win_prob.csv | rows=6
+[2026-08-31T15:36:05.431010+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\total\nhl_total_by_win_prob_home_away_summary.csv | rows=11
+[2026-08-31T15:36:05.490660+00:00] WROTE MARKET TALLY | docs\win\hockey\nhl\05_final_scores\nhl_market_tally.csv | rows=3
+[2026-08-31T15:36:05.519871+00:00] CALIBRATION INPUT | win_loss_rows=7130 | pushes_excluded=122
+[2026-08-31T15:36:05.535883+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\calibration\nhl_calibration_metrics.csv | rows=4
+[2026-08-31T15:36:05.583425+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\calibration\nhl_probability_calibration.csv | rows=27
+[2026-08-31T15:36:05.598907+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\calibration\nhl_expected_vs_realized.csv | rows=4
+[2026-08-31T15:36:11.535182+00:00] WROTE REPORT | docs\win\hockey\nhl\05_final_scores\reports\calibration\nhl_walk_forward_performance.csv | rows=844
+[2026-08-31T15:36:11.536948+00:00] END 03_nhl_results_reports.py

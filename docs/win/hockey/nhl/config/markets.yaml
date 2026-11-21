@@ -1,0 +1,171 @@
+markets:
+  nhl:
+  # SEE BOTTOM OF FILE FOR DETAILS.
+    secondary_model:
+      enabled: true
+      selection_mode: high_disagreement_requires_secondary_support
+      unavailable_behavior: use_primary
+      min_train_rows: 100
+      disagreement_quantile: 0.75
+      derived_signal_by_market:
+        moneyline: weighted
+        puck_line: meta
+        total: meta
+##########################################################################################################################################################       
+##########################################################################################################################################################
+# ── Moneyline ────────────────────────────────────#######################################################################################################
+##########################################################################################################################################################       
+    moneyline:
+      enabled: true
+      pick_preference: best_prob
+      home:
+        enabled: true
+        my_model_prob_bands:
+          - [0.70, 1.00]
+        prob_bands:
+          - [0.00, 1.00]
+        odds_bands:
+          - [-500, 500]
+        ev_bands:
+          - [0.00, 999.9999]
+        kelly_bands:
+          - [0.0, 999.9999]
+
+      away:
+        enabled: true
+        my_model_prob_bands:
+          - [0.60, 1.00]
+        prob_bands:
+          - [0.0, 0.499]
+          - [0.7, 1.00]
+        odds_bands:
+          - [-500, 500]
+        ev_bands:
+          - [0.00, 999.9999]
+        kelly_bands:
+          - [0.0, 999.9999]
+##########################################################################################################################################################       
+##########################################################################################################################################################
+# ── PUCK LINE  ────────────────────────────────────######################################################################################################
+##########################################################################################################################################################
+    puck_line:
+      enabled: true
+      pick_preference: best_my_model_prob
+      home:
+        enabled: true
+        prob_bands:
+          - [0.70, 1.0]
+        line_bands:
+          - [-5.0, 5.0]
+        my_model_prob_bands:
+          - [0.60, 0.6499]
+          - [0.70, 1.0]
+        odds_bands:
+          - [-500, -200]
+        ev_bands:
+          - [0.00, 100.0]
+        kelly_bands:
+          - [0.0, 999.9999]
+
+      away:
+        enabled: true
+        prob_bands:
+          - [0.70, 1.0]
+        line_bands:
+          - [-5.0, 5.0]
+        my_model_prob_bands:
+          - [0.65, 1.0]
+        odds_bands:
+          - [-999, -150]
+          - [-109, 100]
+        ev_bands:
+          - [0.00, 100.0]
+        kelly_bands:
+          - [0.0, 999.9999]
+##########################################################################################################################################################       
+##########################################################################################################################################################
+# ── TOTAL      ────────────────────────────────────######################################################################################################
+##########################################################################################################################################################
+    total:
+      enabled: true
+      pick_preference: best_prob
+
+      over:
+        enabled: true
+        prob_bands:
+          - [0.60, 1.00]
+        line_bands:
+          - [0.0, 100.0]
+        my_model_prob_bands:
+          - [0.0, 1.0]
+        odds_bands:
+          - [-500, 500]
+        ev_bands:
+          - [0.00, 999.9999]
+        kelly_bands:
+          - [0.0, 999.9999]
+
+      under:
+        enabled: true
+        prob_bands:
+          - [0.55, 1.00]
+        line_bands:
+          - [0.0, 100.0]
+        my_model_prob_bands:
+          - [0.0, 1.0]
+        odds_bands:
+          - [-500, 500]
+        ev_bands:
+          - [0.04, 0.05]
+        kelly_bands:
+          - [0.0, 999.9999]
+
+          
+##########################################################################################
+##### NOTES ON FILTERS ###################################################################
+##########################################################################################
+    ## NOTES ON FILTERES AND MARKETS.YAML:
+    # markets:
+    #   nhl:
+    ###################################################
+    # SECONDARY PREDICTION CHECK
+    ###################################################
+    # secondary_model:
+      # TRUE: Compare D-Ratings predictions against SportsDataverse and a combined prediction.
+      # FALSE: Use only the normal betting filters.
+#      enabled: true
+      # If D-Ratings and SportsDataverse disagree by an unusually large amount:
+      # KEEP the bet if SportsDataverse OR the combined prediction favors the bet.
+      # REJECT the bet if neither favors it.
+#      selection_mode: high_disagreement_requires_secondary_support
+      # If the additional predictions cannot be calculated, skip this check. Keep bets that pass the normal filters.
+#      unavailable_behavior: use_primary
+      # Require at least 100 usable completed historical games before training the combined prediction models.
+#    min_train_rows: 100
+      # Calculate the differences between D-Ratings and SportsDataverse predictions for previous games.
+      # Classify today's difference as HIGH if it is among the largest 25% of those historical differences.
+#     disagreement_quantile: 0.75
+      # HOW THE COMBINED PREDICTIONS ARE CALCULATED:
+      # WEIGHTED: Average the two predictions using weights,learned from previous game results.
+      # META: Use a mathematical model trained on previous game results, both predictions, and their differences.
+      # The methods below were selected using 2025-26 testing.
+#      derived_signal_by_market:
+#        moneyline: weighted
+#        puck_line: meta
+#        total: meta
+###############################################################
+###############################################################
+# moneyline:
+#      pick_preference: pick one below:
+          # best_my_model_prob
+          # best_ev = one moneyline side max per game, highest EV; best_prob = one moneyline side max per game, highest model probability
+          # best_prob = one moneyline side max per game, highest model probability
+          # all = can select both sides if both pass
+          # best_my_model_prob
+  # home:
+   #     enabled: true
+        # based on home_model_prob_moneyline from the moneyline EV file
+       # prob_bands:
+        #  - [0.00, 1.00]
+        # Direct probability produced by the configured NHL secondary model.
+        #my_model_prob_bands:

@@ -1,0 +1,650 @@
+=== apply_total_juice RUN 2026-08-31T15:34:59.477979+00:00 ===
+2026-08-31T15:34:59.480499+00:00 | Wiped total output/quarantine CSVs: 0
+2026-08-31T15:34:59.480770+00:00 | INPUT_DIR: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced
+2026-08-31T15:34:59.481010+00:00 | OUTPUT_DIR: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice
+2026-08-31T15:34:59.481264+00:00 | JUICE_FILE: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\config\juice\nhl_total_juice.csv
+2026-08-31T15:34:59.481714+00:00 | QUARANTINE_DIR: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\errors\02_juice
+2026-08-31T15:34:59.495177+00:00 | Input files found: 211
+2026-08-31T15:34:59.495500+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_07_NHL_total.csv
+2026-08-31T15:34:59.522559+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_07_NHL_total.csv rows=3 applied=3
+2026-08-31T15:34:59.522877+00:00 | FILE SUMMARY: 2025_10_07_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.523246+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_08_NHL_total.csv
+2026-08-31T15:34:59.548656+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_08_NHL_total.csv rows=4 applied=4
+2026-08-31T15:34:59.548915+00:00 | FILE SUMMARY: 2025_10_08_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.549255+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_09_NHL_total.csv
+2026-08-31T15:34:59.587802+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_09_NHL_total.csv rows=14 applied=14
+2026-08-31T15:34:59.588085+00:00 | FILE SUMMARY: 2025_10_09_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.588460+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_11_NHL_total.csv
+2026-08-31T15:34:59.630642+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_11_NHL_total.csv rows=16 applied=16
+2026-08-31T15:34:59.630913+00:00 | FILE SUMMARY: 2025_10_11_NHL_total.csv input=16 accepted=16 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.631296+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_12_NHL_total.csv
+2026-08-31T15:34:59.652677+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_12_NHL_total.csv rows=1 applied=1
+2026-08-31T15:34:59.652929+00:00 | FILE SUMMARY: 2025_10_12_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.653284+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_13_NHL_total.csv
+2026-08-31T15:34:59.686236+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_13_NHL_total.csv rows=10 applied=10
+2026-08-31T15:34:59.686529+00:00 | FILE SUMMARY: 2025_10_13_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.686871+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_14_NHL_total.csv
+2026-08-31T15:34:59.717155+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_14_NHL_total.csv rows=8 applied=8
+2026-08-31T15:34:59.717433+00:00 | FILE SUMMARY: 2025_10_14_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.717781+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_15_NHL_total.csv
+2026-08-31T15:34:59.743640+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_15_NHL_total.csv rows=4 applied=4
+2026-08-31T15:34:59.743898+00:00 | FILE SUMMARY: 2025_10_15_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.744261+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_16_NHL_total.csv
+2026-08-31T15:34:59.778915+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_16_NHL_total.csv rows=11 applied=11
+2026-08-31T15:34:59.779167+00:00 | FILE SUMMARY: 2025_10_16_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.779527+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_17_NHL_total.csv
+2026-08-31T15:34:59.804545+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_17_NHL_total.csv rows=4 applied=4
+2026-08-31T15:34:59.804800+00:00 | FILE SUMMARY: 2025_10_17_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.805162+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_18_NHL_total.csv
+2026-08-31T15:34:59.842520+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_18_NHL_total.csv rows=13 applied=13
+2026-08-31T15:34:59.842771+00:00 | FILE SUMMARY: 2025_10_18_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.843135+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_19_NHL_total.csv
+2026-08-31T15:34:59.868398+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_19_NHL_total.csv rows=4 applied=4
+2026-08-31T15:34:59.868651+00:00 | FILE SUMMARY: 2025_10_19_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.868992+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_20_NHL_total.csv
+2026-08-31T15:34:59.896600+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_20_NHL_total.csv rows=5 applied=5
+2026-08-31T15:34:59.896866+00:00 | FILE SUMMARY: 2025_10_20_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.897241+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_21_NHL_total.csv
+2026-08-31T15:34:59.931411+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_21_NHL_total.csv rows=10 applied=10
+2026-08-31T15:34:59.931668+00:00 | FILE SUMMARY: 2025_10_21_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.932025+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_22_NHL_total.csv
+2026-08-31T15:34:59.955546+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_22_NHL_total.csv rows=3 applied=3
+2026-08-31T15:34:59.955796+00:00 | FILE SUMMARY: 2025_10_22_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.956163+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_23_NHL_total.csv
+2026-08-31T15:34:59.991880+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_23_NHL_total.csv rows=12 applied=12
+2026-08-31T15:34:59.992138+00:00 | FILE SUMMARY: 2025_10_23_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-08-31T15:34:59.992519+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_24_NHL_total.csv
+2026-08-31T15:35:00.018416+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_24_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.018748+00:00 | FILE SUMMARY: 2025_10_24_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.019149+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_25_NHL_total.csv
+2026-08-31T15:35:00.056995+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_25_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:00.057249+00:00 | FILE SUMMARY: 2025_10_25_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.057609+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_26_NHL_total.csv
+2026-08-31T15:35:00.087806+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_26_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:00.088055+00:00 | FILE SUMMARY: 2025_10_26_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.088401+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_27_NHL_total.csv
+2026-08-31T15:35:00.110561+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_27_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:00.110820+00:00 | FILE SUMMARY: 2025_10_27_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.111166+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_28_NHL_total.csv
+2026-08-31T15:35:00.153427+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_28_NHL_total.csv rows=16 applied=16
+2026-08-31T15:35:00.153680+00:00 | FILE SUMMARY: 2025_10_28_NHL_total.csv input=16 accepted=16 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.154098+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_29_NHL_total.csv
+2026-08-31T15:35:00.175115+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_29_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:00.175375+00:00 | FILE SUMMARY: 2025_10_29_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.175723+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_30_NHL_total.csv
+2026-08-31T15:35:00.211133+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_30_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:00.211390+00:00 | FILE SUMMARY: 2025_10_30_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.211770+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_10_31_NHL_total.csv
+2026-08-31T15:35:00.235209+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_10_31_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:00.235465+00:00 | FILE SUMMARY: 2025_10_31_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.235813+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_01_NHL_total.csv
+2026-08-31T15:35:00.273628+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_01_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:00.273915+00:00 | FILE SUMMARY: 2025_11_01_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.274338+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_02_NHL_total.csv
+2026-08-31T15:35:00.301424+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_02_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:00.301678+00:00 | FILE SUMMARY: 2025_11_02_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.302042+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_03_NHL_total.csv
+2026-08-31T15:35:00.326827+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_03_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.327081+00:00 | FILE SUMMARY: 2025_11_03_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.327427+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_04_NHL_total.csv
+2026-08-31T15:35:00.360347+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_04_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:00.360597+00:00 | FILE SUMMARY: 2025_11_04_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.360963+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_05_NHL_total.csv
+2026-08-31T15:35:00.388185+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_05_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:00.388444+00:00 | FILE SUMMARY: 2025_11_05_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.388818+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_06_NHL_total.csv
+2026-08-31T15:35:00.421835+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_06_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:00.422107+00:00 | FILE SUMMARY: 2025_11_06_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.422541+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_07_NHL_total.csv
+2026-08-31T15:35:00.449585+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_07_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.449926+00:00 | FILE SUMMARY: 2025_11_07_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.450609+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_08_NHL_total.csv
+2026-08-31T15:35:00.502449+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_08_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:00.502736+00:00 | FILE SUMMARY: 2025_11_08_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.503227+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_09_NHL_total.csv
+2026-08-31T15:35:00.539849+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_09_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:00.540123+00:00 | FILE SUMMARY: 2025_11_09_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.540632+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_10_NHL_total.csv
+2026-08-31T15:35:00.566445+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_10_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.566741+00:00 | FILE SUMMARY: 2025_11_10_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.567129+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_11_NHL_total.csv
+2026-08-31T15:35:00.601460+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_11_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:00.601847+00:00 | FILE SUMMARY: 2025_11_11_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.602450+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_12_NHL_total.csv
+2026-08-31T15:35:00.633297+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_12_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.633563+00:00 | FILE SUMMARY: 2025_11_12_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.633937+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_13_NHL_total.csv
+2026-08-31T15:35:00.668497+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_13_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:00.668752+00:00 | FILE SUMMARY: 2025_11_13_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.669139+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_14_NHL_total.csv
+2026-08-31T15:35:00.693887+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_14_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.694139+00:00 | FILE SUMMARY: 2025_11_14_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.694528+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_15_NHL_total.csv
+2026-08-31T15:35:00.731998+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_15_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:00.732254+00:00 | FILE SUMMARY: 2025_11_15_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.732611+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_16_NHL_total.csv
+2026-08-31T15:35:00.758790+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_16_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:00.759089+00:00 | FILE SUMMARY: 2025_11_16_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.759442+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_17_NHL_total.csv
+2026-08-31T15:35:00.786859+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_17_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:00.787116+00:00 | FILE SUMMARY: 2025_11_17_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.787467+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_18_NHL_total.csv
+2026-08-31T15:35:00.817485+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_18_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:00.817741+00:00 | FILE SUMMARY: 2025_11_18_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.818086+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_19_NHL_total.csv
+2026-08-31T15:35:00.842921+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_19_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.843206+00:00 | FILE SUMMARY: 2025_11_19_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.843576+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_20_NHL_total.csv
+2026-08-31T15:35:00.878980+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_20_NHL_total.csv rows=12 applied=12
+2026-08-31T15:35:00.879237+00:00 | FILE SUMMARY: 2025_11_20_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.879598+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_21_NHL_total.csv
+2026-08-31T15:35:00.904376+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_21_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:00.904629+00:00 | FILE SUMMARY: 2025_11_21_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.904968+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_22_NHL_total.csv
+2026-08-31T15:35:00.940427+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_22_NHL_total.csv rows=12 applied=12
+2026-08-31T15:35:00.940680+00:00 | FILE SUMMARY: 2025_11_22_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.941033+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_23_NHL_total.csv
+2026-08-31T15:35:00.968369+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_23_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:00.968620+00:00 | FILE SUMMARY: 2025_11_23_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.968964+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_24_NHL_total.csv
+2026-08-31T15:35:00.997676+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_24_NHL_total.csv rows=7 applied=7
+2026-08-31T15:35:00.997958+00:00 | FILE SUMMARY: 2025_11_24_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:00.998337+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_25_NHL_total.csv
+2026-08-31T15:35:01.019444+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_25_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:01.019714+00:00 | FILE SUMMARY: 2025_11_25_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.020134+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_26_NHL_total.csv
+2026-08-31T15:35:01.061242+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_26_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:01.061515+00:00 | FILE SUMMARY: 2025_11_26_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.061972+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_28_NHL_total.csv
+2026-08-31T15:35:01.104037+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_28_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:01.104333+00:00 | FILE SUMMARY: 2025_11_28_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.104756+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_29_NHL_total.csv
+2026-08-31T15:35:01.141581+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_29_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:01.141850+00:00 | FILE SUMMARY: 2025_11_29_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.142311+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_11_30_NHL_total.csv
+2026-08-31T15:35:01.168225+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_11_30_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:01.168490+00:00 | FILE SUMMARY: 2025_11_30_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.168867+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_01_NHL_total.csv
+2026-08-31T15:35:01.196106+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_01_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.196368+00:00 | FILE SUMMARY: 2025_12_01_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.196801+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_02_NHL_total.csv
+2026-08-31T15:35:01.234170+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_02_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:01.237357+00:00 | FILE SUMMARY: 2025_12_02_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.238016+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_03_NHL_total.csv
+2026-08-31T15:35:01.265881+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_03_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.266164+00:00 | FILE SUMMARY: 2025_12_03_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.266620+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_04_NHL_total.csv
+2026-08-31T15:35:01.300607+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_04_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:01.300879+00:00 | FILE SUMMARY: 2025_12_04_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.301300+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_05_NHL_total.csv
+2026-08-31T15:35:01.329925+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_05_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.330219+00:00 | FILE SUMMARY: 2025_12_05_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.330674+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_06_NHL_total.csv
+2026-08-31T15:35:01.367698+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_06_NHL_total.csv rows=12 applied=12
+2026-08-31T15:35:01.367969+00:00 | FILE SUMMARY: 2025_12_06_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.368414+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_07_NHL_total.csv
+2026-08-31T15:35:01.400798+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_07_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:01.401076+00:00 | FILE SUMMARY: 2025_12_07_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.401522+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_08_NHL_total.csv
+2026-08-31T15:35:01.428539+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_08_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.428807+00:00 | FILE SUMMARY: 2025_12_08_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.429242+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_09_NHL_total.csv
+2026-08-31T15:35:01.467927+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_09_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:01.468190+00:00 | FILE SUMMARY: 2025_12_09_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.468636+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_10_NHL_total.csv
+2026-08-31T15:35:01.496200+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_10_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:01.496472+00:00 | FILE SUMMARY: 2025_12_10_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.496930+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_11_NHL_total.csv
+2026-08-31T15:35:01.535628+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_11_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:01.535885+00:00 | FILE SUMMARY: 2025_12_11_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.536261+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_12_NHL_total.csv
+2026-08-31T15:35:01.559825+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_12_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:01.560145+00:00 | FILE SUMMARY: 2025_12_12_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.560614+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_13_NHL_total.csv
+2026-08-31T15:35:01.599370+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_13_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:01.599629+00:00 | FILE SUMMARY: 2025_12_13_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.600038+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_14_NHL_total.csv
+2026-08-31T15:35:01.630256+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_14_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:01.630517+00:00 | FILE SUMMARY: 2025_12_14_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.630943+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_15_NHL_total.csv
+2026-08-31T15:35:01.657788+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_15_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.658318+00:00 | FILE SUMMARY: 2025_12_15_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.658954+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_16_NHL_total.csv
+2026-08-31T15:35:01.694672+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_16_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:01.694936+00:00 | FILE SUMMARY: 2025_12_16_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.695374+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_17_NHL_total.csv
+2026-08-31T15:35:01.722468+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_17_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.722747+00:00 | FILE SUMMARY: 2025_12_17_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.723125+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_18_NHL_total.csv
+2026-08-31T15:35:01.757964+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_18_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:01.758221+00:00 | FILE SUMMARY: 2025_12_18_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.758637+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_19_NHL_total.csv
+2026-08-31T15:35:01.785855+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_19_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:01.786137+00:00 | FILE SUMMARY: 2025_12_19_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.786501+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_20_NHL_total.csv
+2026-08-31T15:35:01.824680+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_20_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:01.824984+00:00 | FILE SUMMARY: 2025_12_20_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.825494+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_21_NHL_total.csv
+2026-08-31T15:35:01.874414+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_21_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:01.874700+00:00 | FILE SUMMARY: 2025_12_21_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.875179+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_22_NHL_total.csv
+2026-08-31T15:35:01.901596+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_22_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:01.901861+00:00 | FILE SUMMARY: 2025_12_22_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.902228+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_23_NHL_total.csv
+2026-08-31T15:35:01.932521+00:00 | ROW QUARANTINE: 2025_12_23_NHL_total.csv idx=11 reason=bad_total_values
+2026-08-31T15:35:01.943635+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_23_NHL_total.csv rows=12 applied=12
+2026-08-31T15:35:01.943896+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\errors\02_juice\2025_12_23_NHL_total_quarantine.csv rows=1
+2026-08-31T15:35:01.944138+00:00 | FILE SUMMARY: 2025_12_23_NHL_total.csv input=13 accepted=12 quarantined=1 bad=1 no_band=0
+2026-08-31T15:35:01.944607+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_27_NHL_total.csv
+2026-08-31T15:35:01.982886+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_27_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:01.983144+00:00 | FILE SUMMARY: 2025_12_27_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:01.983517+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_28_NHL_total.csv
+2026-08-31T15:35:02.010382+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_28_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.010642+00:00 | FILE SUMMARY: 2025_12_28_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.011062+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_29_NHL_total.csv
+2026-08-31T15:35:02.046664+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_29_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:02.046935+00:00 | FILE SUMMARY: 2025_12_29_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.047405+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_30_NHL_total.csv
+2026-08-31T15:35:02.074086+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_30_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.074352+00:00 | FILE SUMMARY: 2025_12_30_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.074739+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2025_12_31_NHL_total.csv
+2026-08-31T15:35:02.108907+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2025_12_31_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:02.109184+00:00 | FILE SUMMARY: 2025_12_31_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.109623+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_01_NHL_total.csv
+2026-08-31T15:35:02.140430+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_01_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:02.140696+00:00 | FILE SUMMARY: 2026_01_01_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.141048+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_02_NHL_total.csv
+2026-08-31T15:35:02.166456+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_02_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:02.166723+00:00 | FILE SUMMARY: 2026_01_02_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.167076+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_03_NHL_total.csv
+2026-08-31T15:35:02.204446+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_03_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:02.204712+00:00 | FILE SUMMARY: 2026_01_03_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.205068+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_04_NHL_total.csv
+2026-08-31T15:35:02.232125+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_04_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.232414+00:00 | FILE SUMMARY: 2026_01_04_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.232774+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_05_NHL_total.csv
+2026-08-31T15:35:02.259436+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_05_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.259718+00:00 | FILE SUMMARY: 2026_01_05_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.260121+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_06_NHL_total.csv
+2026-08-31T15:35:02.293446+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_06_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:02.293725+00:00 | FILE SUMMARY: 2026_01_06_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.294187+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_07_NHL_total.csv
+2026-08-31T15:35:02.322011+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_07_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.322304+00:00 | FILE SUMMARY: 2026_01_07_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.322669+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_08_NHL_total.csv
+2026-08-31T15:35:02.358675+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_08_NHL_total.csv rows=12 applied=12
+2026-08-31T15:35:02.358942+00:00 | FILE SUMMARY: 2026_01_08_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.359323+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_09_NHL_total.csv
+2026-08-31T15:35:02.383296+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_09_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:02.383559+00:00 | FILE SUMMARY: 2026_01_09_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.383912+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_10_NHL_total.csv
+2026-08-31T15:35:02.422764+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_10_NHL_total.csv rows=14 applied=14
+2026-08-31T15:35:02.423026+00:00 | FILE SUMMARY: 2026_01_10_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.423390+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_11_NHL_total.csv
+2026-08-31T15:35:02.450489+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_11_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.450756+00:00 | FILE SUMMARY: 2026_01_11_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.451153+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_12_NHL_total.csv
+2026-08-31T15:35:02.484990+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_12_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:02.485254+00:00 | FILE SUMMARY: 2026_01_12_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.485608+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_13_NHL_total.csv
+2026-08-31T15:35:02.518798+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_13_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:02.519060+00:00 | FILE SUMMARY: 2026_01_13_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.519422+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_14_NHL_total.csv
+2026-08-31T15:35:02.544870+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_14_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:02.545135+00:00 | FILE SUMMARY: 2026_01_14_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.545538+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_15_NHL_total.csv
+2026-08-31T15:35:02.578757+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_15_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:02.579022+00:00 | FILE SUMMARY: 2026_01_15_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.579412+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_16_NHL_total.csv
+2026-08-31T15:35:02.605982+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_16_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:02.606280+00:00 | FILE SUMMARY: 2026_01_16_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.606643+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_17_NHL_total.csv
+2026-08-31T15:35:02.672889+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_17_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:02.673153+00:00 | FILE SUMMARY: 2026_01_17_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.673585+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_18_NHL_total.csv
+2026-08-31T15:35:02.746896+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_18_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:02.747163+00:00 | FILE SUMMARY: 2026_01_18_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.747608+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_19_NHL_total.csv
+2026-08-31T15:35:02.781015+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_19_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:02.781274+00:00 | FILE SUMMARY: 2026_01_19_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.781635+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_20_NHL_total.csv
+2026-08-31T15:35:02.812155+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_20_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:02.812416+00:00 | FILE SUMMARY: 2026_01_20_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.812806+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_21_NHL_total.csv
+2026-08-31T15:35:02.842174+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_21_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:02.842448+00:00 | FILE SUMMARY: 2026_01_21_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.842809+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_22_NHL_total.csv
+2026-08-31T15:35:02.873733+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_22_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:02.874000+00:00 | FILE SUMMARY: 2026_01_22_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.874354+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_23_NHL_total.csv
+2026-08-31T15:35:02.906596+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_23_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:02.906858+00:00 | FILE SUMMARY: 2026_01_23_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.907214+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_24_NHL_total.csv
+2026-08-31T15:35:02.938977+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_24_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:02.939236+00:00 | FILE SUMMARY: 2026_01_24_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.939619+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_25_NHL_total.csv
+2026-08-31T15:35:02.967452+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_25_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:02.967712+00:00 | FILE SUMMARY: 2026_01_25_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.968063+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_26_NHL_total.csv
+2026-08-31T15:35:02.992901+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_26_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:02.993170+00:00 | FILE SUMMARY: 2026_01_26_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:02.994343+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_27_NHL_total.csv
+2026-08-31T15:35:03.029726+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_27_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:03.029991+00:00 | FILE SUMMARY: 2026_01_27_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.030410+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_28_NHL_total.csv
+2026-08-31T15:35:03.054086+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_28_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:03.054347+00:00 | FILE SUMMARY: 2026_01_28_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.054692+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_29_NHL_total.csv
+2026-08-31T15:35:03.094541+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_29_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:03.094812+00:00 | FILE SUMMARY: 2026_01_29_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.095222+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_30_NHL_total.csv
+2026-08-31T15:35:03.116423+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_30_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:03.116685+00:00 | FILE SUMMARY: 2026_01_30_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.117032+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_01_31_NHL_total.csv
+2026-08-31T15:35:03.155679+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_01_31_NHL_total.csv rows=14 applied=14
+2026-08-31T15:35:03.155939+00:00 | FILE SUMMARY: 2026_01_31_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.156297+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_01_NHL_total.csv
+2026-08-31T15:35:03.180065+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_01_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:03.180357+00:00 | FILE SUMMARY: 2026_02_01_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.180757+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_02_NHL_total.csv
+2026-08-31T15:35:03.213932+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_02_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:03.214195+00:00 | FILE SUMMARY: 2026_02_02_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.214563+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_03_NHL_total.csv
+2026-08-31T15:35:03.243734+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_03_NHL_total.csv rows=7 applied=7
+2026-08-31T15:35:03.244001+00:00 | FILE SUMMARY: 2026_02_03_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.244419+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_04_NHL_total.csv
+2026-08-31T15:35:03.278107+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_04_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:03.278374+00:00 | FILE SUMMARY: 2026_02_04_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.278814+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_05_NHL_total.csv
+2026-08-31T15:35:03.308015+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_05_NHL_total.csv rows=7 applied=7
+2026-08-31T15:35:03.308274+00:00 | FILE SUMMARY: 2026_02_05_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.308662+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_25_NHL_total.csv
+2026-08-31T15:35:03.339152+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_25_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:03.339421+00:00 | FILE SUMMARY: 2026_02_25_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.339770+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_26_NHL_total.csv
+2026-08-31T15:35:03.375620+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_26_NHL_total.csv rows=12 applied=12
+2026-08-31T15:35:03.375882+00:00 | FILE SUMMARY: 2026_02_26_NHL_total.csv input=12 accepted=12 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.376323+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_27_NHL_total.csv
+2026-08-31T15:35:03.401699+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_27_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:03.401964+00:00 | FILE SUMMARY: 2026_02_27_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.402315+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_02_28_NHL_total.csv
+2026-08-31T15:35:03.439361+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_02_28_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:03.439621+00:00 | FILE SUMMARY: 2026_02_28_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.439981+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_01_NHL_total.csv
+2026-08-31T15:35:03.467943+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_01_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:03.468247+00:00 | FILE SUMMARY: 2026_03_01_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.468598+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_02_NHL_total.csv
+2026-08-31T15:35:03.496693+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_02_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:03.496956+00:00 | FILE SUMMARY: 2026_03_02_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.497347+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_03_NHL_total.csv
+2026-08-31T15:35:03.532330+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_03_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:03.532602+00:00 | FILE SUMMARY: 2026_03_03_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.532983+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_04_NHL_total.csv
+2026-08-31T15:35:03.559434+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_04_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:03.559694+00:00 | FILE SUMMARY: 2026_03_04_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.560051+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_05_NHL_total.csv
+2026-08-31T15:35:03.590601+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_05_NHL_total.csv rows=8 applied=8
+2026-08-31T15:35:03.590860+00:00 | FILE SUMMARY: 2026_03_05_NHL_total.csv input=8 accepted=8 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.591220+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_06_NHL_total.csv
+2026-08-31T15:35:03.620924+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_06_NHL_total.csv rows=7 applied=7
+2026-08-31T15:35:03.621189+00:00 | FILE SUMMARY: 2026_03_06_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.621545+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_07_NHL_total.csv
+2026-08-31T15:35:03.656104+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_07_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:03.656364+00:00 | FILE SUMMARY: 2026_03_07_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.656720+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_08_NHL_total.csv
+2026-08-31T15:35:03.685661+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_08_NHL_total.csv rows=7 applied=7
+2026-08-31T15:35:03.685921+00:00 | FILE SUMMARY: 2026_03_08_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.686291+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_09_NHL_total.csv
+2026-08-31T15:35:03.713027+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_09_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:03.713322+00:00 | FILE SUMMARY: 2026_03_09_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.713740+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_10_NHL_total.csv
+2026-08-31T15:35:03.750864+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_10_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:03.751129+00:00 | FILE SUMMARY: 2026_03_10_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.751483+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_11_NHL_total.csv
+2026-08-31T15:35:03.773528+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_11_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:03.773791+00:00 | FILE SUMMARY: 2026_03_11_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.774132+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_12_NHL_total.csv
+2026-08-31T15:35:03.813220+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_12_NHL_total.csv rows=14 applied=14
+2026-08-31T15:35:03.813480+00:00 | FILE SUMMARY: 2026_03_12_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.813887+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_13_NHL_total.csv
+2026-08-31T15:35:03.836185+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_13_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:03.836472+00:00 | FILE SUMMARY: 2026_03_13_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.836817+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_14_NHL_total.csv
+2026-08-31T15:35:03.875198+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_14_NHL_total.csv rows=14 applied=14
+2026-08-31T15:35:03.875458+00:00 | FILE SUMMARY: 2026_03_14_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.875814+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_15_NHL_total.csv
+2026-08-31T15:35:03.905456+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_15_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:03.905719+00:00 | FILE SUMMARY: 2026_03_15_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.906072+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_16_NHL_total.csv
+2026-08-31T15:35:03.932793+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_16_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:03.933061+00:00 | FILE SUMMARY: 2026_03_16_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.933417+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_17_NHL_total.csv
+2026-08-31T15:35:03.976281+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_17_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:03.976583+00:00 | FILE SUMMARY: 2026_03_17_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:03.976983+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_18_NHL_total.csv
+2026-08-31T15:35:04.004970+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_18_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:04.005241+00:00 | FILE SUMMARY: 2026_03_18_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.005593+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_19_NHL_total.csv
+2026-08-31T15:35:04.040537+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_19_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:04.040820+00:00 | FILE SUMMARY: 2026_03_19_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.041229+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_20_NHL_total.csv
+2026-08-31T15:35:04.067721+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_20_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:04.067983+00:00 | FILE SUMMARY: 2026_03_20_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.068336+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_21_NHL_total.csv
+2026-08-31T15:35:04.102721+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_21_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:04.102986+00:00 | FILE SUMMARY: 2026_03_21_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.103343+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_22_NHL_total.csv
+2026-08-31T15:35:04.135081+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_22_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:04.135340+00:00 | FILE SUMMARY: 2026_03_22_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.135697+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_23_NHL_total.csv
+2026-08-31T15:35:04.156632+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_23_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:04.156889+00:00 | FILE SUMMARY: 2026_03_23_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.157238+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_24_NHL_total.csv
+2026-08-31T15:35:04.197141+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_24_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:04.197406+00:00 | FILE SUMMARY: 2026_03_24_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.197815+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_25_NHL_total.csv
+2026-08-31T15:35:04.220010+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_25_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:04.220269+00:00 | FILE SUMMARY: 2026_03_25_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.220644+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_26_NHL_total.csv
+2026-08-31T15:35:04.257693+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_26_NHL_total.csv rows=13 applied=13
+2026-08-31T15:35:04.257970+00:00 | FILE SUMMARY: 2026_03_26_NHL_total.csv input=13 accepted=13 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.258324+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_27_NHL_total.csv
+2026-08-31T15:35:04.280911+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_27_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:04.281177+00:00 | FILE SUMMARY: 2026_03_27_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.281553+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_28_NHL_total.csv
+2026-08-31T15:35:04.321624+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_28_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:04.321883+00:00 | FILE SUMMARY: 2026_03_28_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.322241+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_29_NHL_total.csv
+2026-08-31T15:35:04.350565+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_29_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:04.350834+00:00 | FILE SUMMARY: 2026_03_29_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.351186+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_30_NHL_total.csv
+2026-08-31T15:35:04.377646+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_30_NHL_total.csv rows=5 applied=5
+2026-08-31T15:35:04.377952+00:00 | FILE SUMMARY: 2026_03_30_NHL_total.csv input=5 accepted=5 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.378336+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_03_31_NHL_total.csv
+2026-08-31T15:35:04.411588+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_03_31_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:04.411859+00:00 | FILE SUMMARY: 2026_03_31_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.412318+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_01_NHL_total.csv
+2026-08-31T15:35:04.436002+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_01_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:04.436261+00:00 | FILE SUMMARY: 2026_04_01_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.436609+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_02_NHL_total.csv
+2026-08-31T15:35:04.475530+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_02_NHL_total.csv rows=14 applied=14
+2026-08-31T15:35:04.475798+00:00 | FILE SUMMARY: 2026_04_02_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.476172+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_03_NHL_total.csv
+2026-08-31T15:35:04.501181+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_03_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:04.501447+00:00 | FILE SUMMARY: 2026_04_03_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.501824+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_04_NHL_total.csv
+2026-08-31T15:35:04.541463+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_04_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:04.541730+00:00 | FILE SUMMARY: 2026_04_04_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.542089+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_05_NHL_total.csv
+2026-08-31T15:35:04.571068+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_05_NHL_total.csv rows=7 applied=7
+2026-08-31T15:35:04.571327+00:00 | FILE SUMMARY: 2026_04_05_NHL_total.csv input=7 accepted=7 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.571685+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_06_NHL_total.csv
+2026-08-31T15:35:04.596686+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_06_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:04.596947+00:00 | FILE SUMMARY: 2026_04_06_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.597342+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_07_NHL_total.csv
+2026-08-31T15:35:04.632588+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_07_NHL_total.csv rows=11 applied=11
+2026-08-31T15:35:04.632852+00:00 | FILE SUMMARY: 2026_04_07_NHL_total.csv input=11 accepted=11 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.633229+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_08_NHL_total.csv
+2026-08-31T15:35:04.656872+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_08_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:04.657128+00:00 | FILE SUMMARY: 2026_04_08_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.657476+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_09_NHL_total.csv
+2026-08-31T15:35:04.696735+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_09_NHL_total.csv rows=14 applied=14
+2026-08-31T15:35:04.697007+00:00 | FILE SUMMARY: 2026_04_09_NHL_total.csv input=14 accepted=14 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.697448+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_11_NHL_total.csv
+2026-08-31T15:35:04.737985+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_11_NHL_total.csv rows=15 applied=15
+2026-08-31T15:35:04.738245+00:00 | FILE SUMMARY: 2026_04_11_NHL_total.csv input=15 accepted=15 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.738608+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_12_NHL_total.csv
+2026-08-31T15:35:04.766649+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_12_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:04.766933+00:00 | FILE SUMMARY: 2026_04_12_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.767318+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_13_NHL_total.csv
+2026-08-31T15:35:04.807137+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_13_NHL_total.csv rows=10 applied=10
+2026-08-31T15:35:04.807420+00:00 | FILE SUMMARY: 2026_04_13_NHL_total.csv input=10 accepted=10 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.807865+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_14_NHL_total.csv
+2026-08-31T15:35:04.843982+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_14_NHL_total.csv rows=9 applied=9
+2026-08-31T15:35:04.844313+00:00 | FILE SUMMARY: 2026_04_14_NHL_total.csv input=9 accepted=9 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.845031+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_15_NHL_total.csv
+2026-08-31T15:35:04.874370+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_15_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:04.874637+00:00 | FILE SUMMARY: 2026_04_15_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.874992+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_16_NHL_total.csv
+2026-08-31T15:35:04.903981+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_16_NHL_total.csv rows=6 applied=6
+2026-08-31T15:35:04.904244+00:00 | FILE SUMMARY: 2026_04_16_NHL_total.csv input=6 accepted=6 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.904757+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_18_NHL_total.csv
+2026-08-31T15:35:04.928692+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_18_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:04.928967+00:00 | FILE SUMMARY: 2026_04_18_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.929387+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_19_NHL_total.csv
+2026-08-31T15:35:04.954699+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_19_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:04.954962+00:00 | FILE SUMMARY: 2026_04_19_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.955315+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_20_NHL_total.csv
+2026-08-31T15:35:04.980560+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_20_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:04.980820+00:00 | FILE SUMMARY: 2026_04_20_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:04.981191+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_21_NHL_total.csv
+2026-08-31T15:35:05.006355+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_21_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:05.006661+00:00 | FILE SUMMARY: 2026_04_21_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.007019+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_22_NHL_total.csv
+2026-08-31T15:35:05.030958+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_22_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.031266+00:00 | FILE SUMMARY: 2026_04_22_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.031684+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_23_NHL_total.csv
+2026-08-31T15:35:05.055382+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_23_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.055654+00:00 | FILE SUMMARY: 2026_04_23_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.056024+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_24_NHL_total.csv
+2026-08-31T15:35:05.079579+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_24_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.079844+00:00 | FILE SUMMARY: 2026_04_24_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.080260+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_25_NHL_total.csv
+2026-08-31T15:35:05.104041+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_25_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.104299+00:00 | FILE SUMMARY: 2026_04_25_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.104646+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_26_NHL_total.csv
+2026-08-31T15:35:05.129798+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_26_NHL_total.csv rows=4 applied=4
+2026-08-31T15:35:05.130074+00:00 | FILE SUMMARY: 2026_04_26_NHL_total.csv input=4 accepted=4 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.130591+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_27_NHL_total.csv
+2026-08-31T15:35:05.152990+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_27_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.153246+00:00 | FILE SUMMARY: 2026_04_27_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.153588+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_28_NHL_total.csv
+2026-08-31T15:35:05.176855+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_28_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.177112+00:00 | FILE SUMMARY: 2026_04_28_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.177456+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_29_NHL_total.csv
+2026-08-31T15:35:05.200847+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_29_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.201105+00:00 | FILE SUMMARY: 2026_04_29_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.201478+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_04_30_NHL_total.csv
+2026-08-31T15:35:05.223594+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_04_30_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.223850+00:00 | FILE SUMMARY: 2026_04_30_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.224200+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_01_NHL_total.csv
+2026-08-31T15:35:05.247809+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_01_NHL_total.csv rows=3 applied=3
+2026-08-31T15:35:05.248090+00:00 | FILE SUMMARY: 2026_05_01_NHL_total.csv input=3 accepted=3 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.248501+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_02_NHL_total.csv
+2026-08-31T15:35:05.269247+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_02_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.269503+00:00 | FILE SUMMARY: 2026_05_02_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.269848+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_03_NHL_total.csv
+2026-08-31T15:35:05.291762+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_03_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.292026+00:00 | FILE SUMMARY: 2026_05_03_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.292372+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_04_NHL_total.csv
+2026-08-31T15:35:05.314697+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_04_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.314964+00:00 | FILE SUMMARY: 2026_05_04_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.315414+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_05_NHL_total.csv
+2026-08-31T15:35:05.336560+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_05_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.336819+00:00 | FILE SUMMARY: 2026_05_05_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.337169+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_06_NHL_total.csv
+2026-08-31T15:35:05.359334+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_06_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.359592+00:00 | FILE SUMMARY: 2026_05_06_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.359937+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_07_NHL_total.csv
+2026-08-31T15:35:05.380730+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_07_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.380998+00:00 | FILE SUMMARY: 2026_05_07_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.381412+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_08_NHL_total.csv
+2026-08-31T15:35:05.405021+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_08_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.405290+00:00 | FILE SUMMARY: 2026_05_08_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.405643+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_09_NHL_total.csv
+2026-08-31T15:35:05.427914+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_09_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.428178+00:00 | FILE SUMMARY: 2026_05_09_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.428523+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_10_NHL_total.csv
+2026-08-31T15:35:05.450820+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_10_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.451085+00:00 | FILE SUMMARY: 2026_05_10_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.451536+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_11_NHL_total.csv
+2026-08-31T15:35:05.472621+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_11_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.472884+00:00 | FILE SUMMARY: 2026_05_11_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.473276+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_12_NHL_total.csv
+2026-08-31T15:35:05.495948+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_12_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.496212+00:00 | FILE SUMMARY: 2026_05_12_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.496569+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_13_NHL_total.csv
+2026-08-31T15:35:05.517307+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_13_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.517596+00:00 | FILE SUMMARY: 2026_05_13_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.517951+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_14_NHL_total.csv
+2026-08-31T15:35:05.540531+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_14_NHL_total.csv rows=2 applied=2
+2026-08-31T15:35:05.540791+00:00 | FILE SUMMARY: 2026_05_14_NHL_total.csv input=2 accepted=2 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.541140+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_16_NHL_total.csv
+2026-08-31T15:35:05.562276+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_16_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.562547+00:00 | FILE SUMMARY: 2026_05_16_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.562917+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_18_NHL_total.csv
+2026-08-31T15:35:05.583609+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_18_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.583900+00:00 | FILE SUMMARY: 2026_05_18_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.584269+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_20_NHL_total.csv
+2026-08-31T15:35:05.604992+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_20_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.605251+00:00 | FILE SUMMARY: 2026_05_20_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.605657+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_21_NHL_total.csv
+2026-08-31T15:35:05.626993+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_21_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.627266+00:00 | FILE SUMMARY: 2026_05_21_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.627658+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_22_NHL_total.csv
+2026-08-31T15:35:05.649796+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_22_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.650058+00:00 | FILE SUMMARY: 2026_05_22_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.650481+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_23_NHL_total.csv
+2026-08-31T15:35:05.671387+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_23_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.671645+00:00 | FILE SUMMARY: 2026_05_23_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.671991+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_24_NHL_total.csv
+2026-08-31T15:35:05.692415+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_24_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.692669+00:00 | FILE SUMMARY: 2026_05_24_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.693010+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_25_NHL_total.csv
+2026-08-31T15:35:05.714186+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_25_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.714512+00:00 | FILE SUMMARY: 2026_05_25_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.714871+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_26_NHL_total.csv
+2026-08-31T15:35:05.735794+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_26_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.736055+00:00 | FILE SUMMARY: 2026_05_26_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.736431+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_27_NHL_total.csv
+2026-08-31T15:35:05.757664+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_27_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.757951+00:00 | FILE SUMMARY: 2026_05_27_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.758312+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_05_29_NHL_total.csv
+2026-08-31T15:35:05.779137+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_05_29_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.779419+00:00 | FILE SUMMARY: 2026_05_29_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.779798+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_06_02_NHL_total.csv
+2026-08-31T15:35:05.800755+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_06_02_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.801028+00:00 | FILE SUMMARY: 2026_06_02_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.801372+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_06_04_NHL_total.csv
+2026-08-31T15:35:05.822148+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_06_04_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.822410+00:00 | FILE SUMMARY: 2026_06_04_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.822758+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_06_06_NHL_total.csv
+2026-08-31T15:35:05.843769+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_06_06_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.844044+00:00 | FILE SUMMARY: 2026_06_06_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.844392+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_06_09_NHL_total.csv
+2026-08-31T15:35:05.865563+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_06_09_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.865822+00:00 | FILE SUMMARY: 2026_06_09_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.866172+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_06_11_NHL_total.csv
+2026-08-31T15:35:05.903852+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_06_11_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.904195+00:00 | FILE SUMMARY: 2026_06_11_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.904781+00:00 | Processing input: C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\01_merge\01_merguiced\2026_06_14_NHL_total.csv
+2026-08-31T15:35:05.928400+00:00 | WROTE C:\Users\Mat\AppData\Local\Temp\nhl_full_2025_2026_backtest_8131y9mn\docs\win\hockey\nhl\02_juice\2026_06_14_NHL_total.csv rows=1 applied=1
+2026-08-31T15:35:05.928660+00:00 | FILE SUMMARY: 2026_06_14_NHL_total.csv input=1 accepted=1 quarantined=0 bad=0 no_band=0
+2026-08-31T15:35:05.929013+00:00 | --- SUMMARY ---
+2026-08-31T15:35:05.929291+00:00 | Files processed: 211
+2026-08-31T15:35:05.929551+00:00 | Files written: 211
+2026-08-31T15:35:05.929795+00:00 | Rows applied: 1393
+2026-08-31T15:35:05.930033+00:00 | Rows quarantined bad: 1
+2026-08-31T15:35:05.930270+00:00 | Rows quarantined no band: 0
+2026-08-31T15:35:05.930507+00:00 | Rows quarantined total: 1
+2026-08-31T15:35:05.930743+00:00 | STATUS: SUCCESS

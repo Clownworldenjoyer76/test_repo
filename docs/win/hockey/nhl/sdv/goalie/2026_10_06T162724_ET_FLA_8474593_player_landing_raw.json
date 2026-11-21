@@ -1,0 +1,1623 @@
+{
+  "playerId": 8474593,
+  "isActive": true,
+  "currentTeamId": 13,
+  "currentTeamAbbrev": "FLA",
+  "fullTeamName": {
+    "default": "Florida Panthers",
+    "fr": "Panthers de la Floride"
+  },
+  "teamCommonName": {
+    "default": "Panthers"
+  },
+  "teamPlaceNameWithPreposition": {
+    "default": "Florida",
+    "fr": "de la Floride"
+  },
+  "firstName": {
+    "default": "Jacob"
+  },
+  "lastName": {
+    "default": "Markstrom",
+    "cs": "Markström",
+    "fi": "Markström",
+    "sk": "Markström",
+    "sv": "Markström"
+  },
+  "badges": [],
+  "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+  "sweaterNumber": 25,
+  "position": "G",
+  "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8474593.png",
+  "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8474593.jpg",
+  "heightInInches": 78,
+  "heightInCentimeters": 198,
+  "weightInPounds": 207,
+  "weightInKilograms": 94,
+  "birthDate": "1990-01-31",
+  "birthCity": {
+    "default": "Gavle"
+  },
+  "birthCountry": "SWE",
+  "shootsCatches": "L",
+  "draftDetails": {
+    "year": 2008,
+    "teamAbbrev": "FLA",
+    "round": 2,
+    "pickInRound": 1,
+    "overallPick": 31
+  },
+  "playerSlug": "jacob-markstrom-8474593",
+  "inTop100AllTime": 0,
+  "inHHOF": 0,
+  "featuredStats": {
+    "season": 20262027,
+    "regularSeason": {
+      "subSeason": {
+        "gamesPlayed": 2,
+        "goalsAgainstAvg": 1.399326,
+        "losses": 0,
+        "otLosses": 1,
+        "savePctg": 0.914286,
+        "shutouts": 1,
+        "wins": 1
+      },
+      "career": {
+        "gamesPlayed": 580,
+        "goalsAgainstAvg": 2.727907,
+        "losses": 231,
+        "otLosses": 65,
+        "savePctg": 0.906546,
+        "shutouts": 26,
+        "wins": 265
+      }
+    }
+  },
+  "careerTotals": {
+    "regularSeason": {
+      "assists": 23,
+      "gamesPlayed": 580,
+      "gamesStarted": 562,
+      "goals": 0,
+      "goalsAgainst": 1519,
+      "goalsAgainstAvg": 2.727907,
+      "losses": 231,
+      "otLosses": 65,
+      "pim": 55,
+      "savePctg": 0.906546,
+      "shotsAgainst": 16254,
+      "shutouts": 26,
+      "timeOnIce": "33410:12",
+      "wins": 265
+    },
+    "playoffs": {
+      "assists": 1,
+      "gamesPlayed": 31,
+      "gamesStarted": 31,
+      "goals": 0,
+      "goalsAgainst": 91,
+      "goalsAgainstAvg": 2.87555,
+      "losses": 17,
+      "otLosses": 0,
+      "savePctg": 0.91122,
+      "shotsAgainst": 1025,
+      "shutouts": 2,
+      "timeOnIce": "1898:46",
+      "wins": 14
+    }
+  },
+  "shopLink": "#TODO",
+  "twitterLink": "#TODO",
+  "watchLink": "#TODO",
+  "last5Games": [
+    {
+      "decision": "O",
+      "gameDate": "2026-10-04",
+      "gameId": 2026020037,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 3,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "ANA",
+      "penaltyMins": 0,
+      "savePctg": 0.85,
+      "shotsAgainst": 20,
+      "teamAbbrev": "FLA",
+      "toi": "63:43"
+    },
+    {
+      "decision": "W",
+      "gameDate": "2026-09-29",
+      "gameId": 2026020001,
+      "gameTypeId": 2,
+      "gamesStarted": 1,
+      "goalsAgainst": 0,
+      "homeRoadFlag": "R",
+      "opponentAbbrev": "CAR",
+      "penaltyMins": 0,
+      "savePctg": 1.0,
+      "shotsAgainst": 15,
+      "teamAbbrev": "FLA",
+      "toi": "64:55"
+    }
+  ],
+  "seasonTotals": [
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 13,
+      "goalsAgainst": 27,
+      "goalsAgainstAvg": 2.05,
+      "leagueAbbrev": "Swe-U18",
+      "season": 20062007,
+      "sequence": 1,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas U18"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 2.77,
+      "leagueAbbrev": "Swe-Jr.",
+      "season": 20062007,
+      "sequence": 2,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas Jr."
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 3,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 1.86,
+      "leagueAbbrev": "Swe-U18",
+      "season": 20062007,
+      "sequence": 1,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Brynas U18"
+      }
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 9.76,
+      "leagueAbbrev": "Swe-Jr.",
+      "season": 20062007,
+      "sequence": 2,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas Jr."
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 3.0,
+      "leagueAbbrev": "Swe-U18",
+      "season": 20072008,
+      "sequence": 1,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas U18"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalsAgainst": 44,
+      "goalsAgainstAvg": 2.0,
+      "leagueAbbrev": "Swe-Jr.",
+      "season": 20072008,
+      "sequence": 2,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Brynas Jr."
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "goalsAgainst": 22,
+      "goalsAgainstAvg": 3.12,
+      "leagueAbbrev": "Sweden",
+      "season": 20072008,
+      "sequence": 3,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 9,
+      "goalsAgainst": 15,
+      "goalsAgainstAvg": 1.78,
+      "leagueAbbrev": "Sweden-Q",
+      "season": 20072008,
+      "sequence": 4,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Brynas"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 18,
+      "goalsAgainstAvg": 3.04,
+      "leagueAbbrev": "WJ18-A",
+      "losses": 2,
+      "season": 20072008,
+      "sequence": 5,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": ""
+      },
+      "ties": 0,
+      "timeOnIce": "355:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 9,
+      "goalsAgainstAvg": 1.78,
+      "leagueAbbrev": "SHL",
+      "savePctg": 0.931,
+      "season": 20072008,
+      "sequence": 819,
+      "teamName": {
+        "default": "Brynäs IF"
+      }
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 35,
+      "goalsAgainst": 79,
+      "goalsAgainstAvg": 2.38,
+      "leagueAbbrev": "Sweden",
+      "season": 20082009,
+      "sequence": 1,
+      "shutouts": 3,
+      "teamName": {
+        "default": "Brynas"
+      },
+      "timeOnIce": "1992:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 1.61,
+      "leagueAbbrev": "WJC-A",
+      "losses": 1,
+      "season": 20082009,
+      "sequence": 3,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": ""
+      },
+      "ties": 0,
+      "timeOnIce": "298:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 1,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 2.02,
+      "leagueAbbrev": "Sweden",
+      "season": 20082009,
+      "sequence": 1,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas"
+      },
+      "timeOnIce": "59:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 43,
+      "goalsAgainst": 85,
+      "goalsAgainstAvg": 2.01,
+      "leagueAbbrev": "Sweden",
+      "season": 20092010,
+      "sequence": 1,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Brynas"
+      },
+      "timeOnIce": "2542:00"
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 5,
+      "goalsAgainst": 11,
+      "goalsAgainstAvg": 2.21,
+      "leagueAbbrev": "WJC-A",
+      "losses": 1,
+      "season": 20092010,
+      "sequence": 3,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": ""
+      },
+      "ties": 0,
+      "timeOnIce": "299:00",
+      "wins": 4
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 1.33,
+      "leagueAbbrev": "WC-A",
+      "losses": 0,
+      "savePctg": 0.944444,
+      "season": 20092010,
+      "sequence": 5,
+      "shotsAgainst": 72,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": ""
+      },
+      "ties": 0,
+      "timeOnIce": "180:00",
+      "wins": 3
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 4,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 3.21,
+      "leagueAbbrev": "Sweden",
+      "season": 20092010,
+      "sequence": 1,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas"
+      },
+      "timeOnIce": "224:00"
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 2,
+      "goalsAgainst": 6,
+      "goalsAgainstAvg": 3.03,
+      "leagueAbbrev": "Swe-Jr.",
+      "season": 20092010,
+      "sequence": 2,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Brynas Jr."
+      },
+      "timeOnIce": "119:00"
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "gamesStarted": 0,
+      "goals": 0,
+      "goalsAgainst": 2,
+      "goalsAgainstAvg": 3.013812,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.857143,
+      "season": 20102011,
+      "sequence": 1,
+      "shotsAgainst": 14,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "39:49",
+      "wins": 0
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 37,
+      "goalsAgainst": 108,
+      "goalsAgainstAvg": 2.98,
+      "leagueAbbrev": "AHL",
+      "losses": 20,
+      "savePctg": 0.907,
+      "season": 20102011,
+      "sequence": 2,
+      "shotsAgainst": 1051,
+      "shutouts": 1,
+      "teamName": {
+        "default": "Rochester"
+      },
+      "ties": 1,
+      "timeOnIce": "2174:00",
+      "wins": 16
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 7,
+      "gamesStarted": 6,
+      "goals": 0,
+      "goalsAgainst": 17,
+      "goalsAgainstAvg": 2.661448,
+      "leagueAbbrev": "NHL",
+      "losses": 4,
+      "otLosses": 1,
+      "savePctg": 0.923423,
+      "season": 20112012,
+      "sequence": 1,
+      "shotsAgainst": 222,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "383:15",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 32,
+      "goalsAgainst": 71,
+      "goalsAgainstAvg": 2.32,
+      "leagueAbbrev": "AHL",
+      "losses": 12,
+      "savePctg": 0.927,
+      "season": 20112012,
+      "sequence": 2,
+      "shotsAgainst": 979,
+      "shutouts": 1,
+      "teamName": {
+        "default": "San Antonio"
+      },
+      "ties": 1,
+      "timeOnIce": "1839:00",
+      "wins": 17
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 8,
+      "goalsAgainst": 26,
+      "goalsAgainstAvg": 2.85,
+      "leagueAbbrev": "AHL",
+      "losses": 4,
+      "savePctg": 0.907,
+      "season": 20112012,
+      "sequence": 2,
+      "shotsAgainst": 279,
+      "shutouts": 0,
+      "teamName": {
+        "default": "San Antonio"
+      },
+      "timeOnIce": "546:00",
+      "wins": 4
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "gamesStarted": 23,
+      "goals": 0,
+      "goalsAgainst": 68,
+      "goalsAgainstAvg": 3.223382,
+      "leagueAbbrev": "NHL",
+      "losses": 14,
+      "otLosses": 1,
+      "savePctg": 0.90073,
+      "season": 20122013,
+      "sequence": 1,
+      "shotsAgainst": 685,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "1265:45",
+      "wins": 8
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 1.58,
+      "leagueAbbrev": "WC-A",
+      "losses": 1,
+      "savePctg": 0.934211,
+      "season": 20122013,
+      "sequence": 2,
+      "shotsAgainst": 76,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamName": {
+        "default": "Sweden",
+        "cs": "Švédsko",
+        "de": "Schweden",
+        "es": "Suecia",
+        "fi": "Ruotsi",
+        "fr": "Suède",
+        "sk": "Švédsko",
+        "sv": "Sverige"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": ""
+      },
+      "ties": 0,
+      "timeOnIce": "190:00",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "goalsAgainst": 87,
+      "goalsAgainstAvg": 2.65,
+      "leagueAbbrev": "AHL",
+      "losses": 15,
+      "savePctg": 0.92,
+      "season": 20122013,
+      "sequence": 3,
+      "shotsAgainst": 1081,
+      "shutouts": 3,
+      "teamName": {
+        "default": "San Antonio"
+      },
+      "ties": 2,
+      "timeOnIce": "1972:00",
+      "wins": 16
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 12,
+      "gamesStarted": 9,
+      "goals": 0,
+      "goalsAgainst": 36,
+      "goalsAgainstAvg": 3.519155,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 3,
+      "savePctg": 0.873684,
+      "season": 20132014,
+      "sequence": 1,
+      "shotsAgainst": 285,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "613:47",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 4,
+      "gamesStarted": 3,
+      "goals": 0,
+      "goalsAgainst": 10,
+      "goalsAgainstAvg": 3.006511,
+      "leagueAbbrev": "NHL",
+      "losses": 2,
+      "otLosses": 0,
+      "savePctg": 0.868421,
+      "season": 20132014,
+      "sequence": 2,
+      "shotsAgainst": 76,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "199:34",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 29,
+      "goalsAgainst": 72,
+      "goalsAgainstAvg": 2.56,
+      "leagueAbbrev": "AHL",
+      "losses": 11,
+      "savePctg": 0.918,
+      "season": 20132014,
+      "sequence": 3,
+      "shotsAgainst": 875,
+      "shutouts": 2,
+      "teamName": {
+        "default": "San Antonio"
+      },
+      "ties": 3,
+      "timeOnIce": "1688:00",
+      "wins": 12
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 3,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 4,
+      "goalsAgainstAvg": 3.091453,
+      "leagueAbbrev": "NHL",
+      "losses": 1,
+      "otLosses": 0,
+      "savePctg": 0.878788,
+      "season": 20142015,
+      "sequence": 1,
+      "shotsAgainst": 33,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "77:38",
+      "wins": 1
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 32,
+      "goalsAgainst": 59,
+      "goalsAgainstAvg": 1.88,
+      "leagueAbbrev": "AHL",
+      "losses": 7,
+      "otLosses": 3,
+      "savePctg": 0.934,
+      "season": 20142015,
+      "sequence": 152247,
+      "shotsAgainst": 895,
+      "shutouts": 5,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "1879:36",
+      "wins": 22
+    },
+    {
+      "gameTypeId": 3,
+      "gamesPlayed": 23,
+      "goalsAgainst": 51,
+      "goalsAgainstAvg": 2.11,
+      "leagueAbbrev": "AHL",
+      "losses": 11,
+      "otLosses": 0,
+      "savePctg": 0.925,
+      "season": 20142015,
+      "sequence": 152247,
+      "shotsAgainst": 682,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "1449:40",
+      "wins": 12
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 33,
+      "gamesStarted": 30,
+      "goals": 0,
+      "goalsAgainst": 84,
+      "goalsAgainstAvg": 2.728109,
+      "leagueAbbrev": "NHL",
+      "losses": 14,
+      "otLosses": 4,
+      "pim": 4,
+      "savePctg": 0.91498,
+      "season": 20152016,
+      "sequence": 1,
+      "shotsAgainst": 988,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "1847:26",
+      "wins": 13
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 19,
+      "goalsAgainstAvg": 3.16,
+      "leagueAbbrev": "WC",
+      "losses": 3,
+      "savePctg": 0.896,
+      "season": 20152016,
+      "sequence": 6815,
+      "shotsAgainst": 182,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "360:47",
+      "wins": 2
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 5,
+      "goalsAgainstAvg": 2.4,
+      "leagueAbbrev": "AHL",
+      "losses": 0,
+      "otLosses": 2,
+      "savePctg": 0.909,
+      "season": 20152016,
+      "sequence": 152247,
+      "shotsAgainst": 55,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Utica Comets"
+      },
+      "timeOnIce": "125:00",
+      "wins": 1
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 26,
+      "gamesStarted": 23,
+      "goals": 0,
+      "goalsAgainst": 62,
+      "goalsAgainstAvg": 2.625325,
+      "leagueAbbrev": "NHL",
+      "losses": 11,
+      "otLosses": 3,
+      "pim": 2,
+      "savePctg": 0.910405,
+      "season": 20162017,
+      "sequence": 1,
+      "shotsAgainst": 692,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "1416:58",
+      "wins": 10
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 1,
+      "goalsAgainst": 1,
+      "goalsAgainstAvg": 1.0,
+      "leagueAbbrev": "WCup",
+      "losses": 0,
+      "savePctg": 0.964,
+      "season": 20162017,
+      "sequence": 8596,
+      "shotsAgainst": 28,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "60:00",
+      "wins": 1
+    },
+    {
+      "assists": 3,
+      "gameTypeId": 2,
+      "gamesPlayed": 60,
+      "gamesStarted": 57,
+      "goals": 0,
+      "goalsAgainst": 154,
+      "goalsAgainstAvg": 2.706725,
+      "leagueAbbrev": "NHL",
+      "losses": 26,
+      "otLosses": 7,
+      "pim": 4,
+      "savePctg": 0.911748,
+      "season": 20172018,
+      "sequence": 1,
+      "shotsAgainst": 1745,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "3413:43",
+      "wins": 23
+    },
+    {
+      "assists": 3,
+      "gameTypeId": 2,
+      "gamesPlayed": 60,
+      "gamesStarted": 60,
+      "goals": 0,
+      "goalsAgainst": 166,
+      "goalsAgainstAvg": 2.767421,
+      "leagueAbbrev": "NHL",
+      "losses": 23,
+      "otLosses": 9,
+      "pim": 2,
+      "savePctg": 0.912447,
+      "season": 20182019,
+      "sequence": 1,
+      "shotsAgainst": 1896,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "3599:01",
+      "wins": 28
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "goalsAgainst": 8,
+      "goalsAgainstAvg": 4.0,
+      "leagueAbbrev": "WC",
+      "losses": 1,
+      "savePctg": 0.843,
+      "season": 20182019,
+      "sequence": 6815,
+      "shotsAgainst": 51,
+      "shutouts": 0,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "120:00",
+      "wins": 1
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 2,
+      "gamesPlayed": 43,
+      "gamesStarted": 43,
+      "goals": 0,
+      "goalsAgainst": 117,
+      "goalsAgainstAvg": 2.750908,
+      "leagueAbbrev": "NHL",
+      "losses": 16,
+      "otLosses": 4,
+      "pim": 4,
+      "savePctg": 0.917606,
+      "season": 20192020,
+      "sequence": 1,
+      "shotsAgainst": 1420,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "2551:53",
+      "wins": 23
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 14,
+      "gamesStarted": 14,
+      "goals": 0,
+      "goalsAgainst": 40,
+      "goalsAgainstAvg": 2.853122,
+      "leagueAbbrev": "NHL",
+      "losses": 6,
+      "otLosses": 0,
+      "savePctg": 0.918534,
+      "season": 20192020,
+      "sequence": 1,
+      "shotsAgainst": 491,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Canucks"
+      },
+      "teamName": {
+        "default": "Vancouver Canucks",
+        "fr": "Canucks de Vancouver"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Vancouver",
+        "fr": "de Vancouver"
+      },
+      "timeOnIce": "841:11",
+      "wins": 8
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 43,
+      "gamesStarted": 43,
+      "goals": 0,
+      "goalsAgainst": 111,
+      "goalsAgainstAvg": 2.67692,
+      "leagueAbbrev": "NHL",
+      "losses": 19,
+      "otLosses": 2,
+      "pim": 2,
+      "savePctg": 0.904393,
+      "season": 20202021,
+      "sequence": 1,
+      "shotsAgainst": 1161,
+      "shutouts": 3,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "2487:56",
+      "wins": 22
+    },
+    {
+      "assists": 3,
+      "gameTypeId": 2,
+      "gamesPlayed": 63,
+      "gamesStarted": 63,
+      "goals": 0,
+      "goalsAgainst": 137,
+      "goalsAgainstAvg": 2.224123,
+      "leagueAbbrev": "NHL",
+      "losses": 15,
+      "otLosses": 9,
+      "pim": 10,
+      "savePctg": 0.921893,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 1754,
+      "shutouts": 9,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "3695:50",
+      "wins": 37
+    },
+    {
+      "assists": 1,
+      "gameTypeId": 3,
+      "gamesPlayed": 12,
+      "gamesStarted": 12,
+      "goals": 0,
+      "goalsAgainst": 35,
+      "goalsAgainstAvg": 2.947572,
+      "leagueAbbrev": "NHL",
+      "losses": 7,
+      "otLosses": 0,
+      "savePctg": 0.90113,
+      "season": 20212022,
+      "sequence": 1,
+      "shotsAgainst": 354,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "712:27",
+      "wins": 5
+    },
+    {
+      "assists": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 59,
+      "gamesStarted": 58,
+      "goals": 0,
+      "goalsAgainst": 166,
+      "goalsAgainstAvg": 2.920104,
+      "leagueAbbrev": "NHL",
+      "losses": 21,
+      "otLosses": 12,
+      "pim": 14,
+      "savePctg": 0.892348,
+      "season": 20222023,
+      "sequence": 1,
+      "shotsAgainst": 1542,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "3410:50",
+      "wins": 23
+    },
+    {
+      "assists": 5,
+      "gameTypeId": 2,
+      "gamesPlayed": 48,
+      "gamesStarted": 48,
+      "goals": 0,
+      "goalsAgainst": 131,
+      "goalsAgainstAvg": 2.776288,
+      "leagueAbbrev": "NHL",
+      "losses": 23,
+      "otLosses": 2,
+      "savePctg": 0.905004,
+      "season": 20232024,
+      "sequence": 1,
+      "shotsAgainst": 1379,
+      "shutouts": 2,
+      "teamCommonName": {
+        "default": "Flames"
+      },
+      "teamName": {
+        "default": "Calgary Flames",
+        "fr": "Flames de Calgary"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Calgary",
+        "fr": "de Calgary"
+      },
+      "timeOnIce": "2831:07",
+      "wins": 23
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 49,
+      "gamesStarted": 49,
+      "goals": 0,
+      "goalsAgainst": 121,
+      "goalsAgainstAvg": 2.500844,
+      "leagueAbbrev": "NHL",
+      "losses": 16,
+      "otLosses": 6,
+      "savePctg": 0.900329,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 1214,
+      "shutouts": 4,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "2903:01",
+      "wins": 26
+    },
+    {
+      "gameTypeId": 2,
+      "gamesPlayed": 6,
+      "goalsAgainst": 12,
+      "goalsAgainstAvg": 2.14,
+      "leagueAbbrev": "WC",
+      "losses": 2,
+      "savePctg": 0.894,
+      "season": 20242025,
+      "sequence": 6815,
+      "shotsAgainst": 113,
+      "shutouts": 2,
+      "teamName": {
+        "default": "Sweden"
+      },
+      "timeOnIce": "335:54",
+      "wins": 4
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 3,
+      "gamesPlayed": 5,
+      "gamesStarted": 5,
+      "goals": 0,
+      "goalsAgainst": 16,
+      "goalsAgainstAvg": 2.781533,
+      "leagueAbbrev": "NHL",
+      "losses": 4,
+      "otLosses": 0,
+      "savePctg": 0.911111,
+      "season": 20242025,
+      "sequence": 1,
+      "shotsAgainst": 180,
+      "shutouts": 0,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "345:08",
+      "wins": 1
+    },
+    {
+      "assists": 4,
+      "gameTypeId": 2,
+      "gamesPlayed": 44,
+      "gamesStarted": 43,
+      "goals": 0,
+      "goalsAgainst": 130,
+      "goalsAgainstAvg": 3.066018,
+      "leagueAbbrev": "NHL",
+      "losses": 19,
+      "otLosses": 1,
+      "pim": 13,
+      "savePctg": 0.883199,
+      "season": 20252026,
+      "sequence": 1,
+      "shotsAgainst": 1113,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "New Jersey",
+        "fr": "du New Jersey"
+      },
+      "timeOnIce": "2544:01",
+      "wins": 23
+    },
+    {
+      "assists": 0,
+      "gameTypeId": 2,
+      "gamesPlayed": 2,
+      "gamesStarted": 2,
+      "goals": 0,
+      "goalsAgainst": 3,
+      "goalsAgainstAvg": 1.399326,
+      "leagueAbbrev": "NHL",
+      "losses": 0,
+      "otLosses": 1,
+      "pim": 0,
+      "savePctg": 0.914286,
+      "season": 20262027,
+      "sequence": 1,
+      "shotsAgainst": 35,
+      "shutouts": 1,
+      "teamCommonName": {
+        "default": "Panthers"
+      },
+      "teamName": {
+        "default": "Florida Panthers",
+        "fr": "Panthers de la Floride"
+      },
+      "teamPlaceNameWithPreposition": {
+        "default": "Florida",
+        "fr": "de la Floride"
+      },
+      "timeOnIce": "128:38",
+      "wins": 1
+    }
+  ],
+  "currentTeamRoster": [
+    {
+      "playerId": 8484304,
+      "lastName": {
+        "default": "Balinskis"
+      },
+      "firstName": {
+        "default": "Uvis"
+      },
+      "playerSlug": "uvis-balinskis-8484304"
+    },
+    {
+      "playerId": 8477493,
+      "lastName": {
+        "default": "Barkov"
+      },
+      "firstName": {
+        "default": "Aleksander"
+      },
+      "playerSlug": "aleksander-barkov-8477493"
+    },
+    {
+      "playerId": 8477935,
+      "lastName": {
+        "default": "Bennett"
+      },
+      "firstName": {
+        "default": "Sam"
+      },
+      "playerSlug": "sam-bennett-8477935"
+    },
+    {
+      "playerId": 8477932,
+      "lastName": {
+        "default": "Ekblad"
+      },
+      "firstName": {
+        "default": "Aaron"
+      },
+      "playerSlug": "aaron-ekblad-8477932"
+    },
+    {
+      "playerId": 8474189,
+      "lastName": {
+        "default": "Eller"
+      },
+      "firstName": {
+        "default": "Lars"
+      },
+      "playerSlug": "lars-eller-8474189"
+    },
+    {
+      "playerId": 8478055,
+      "lastName": {
+        "default": "Forsling"
+      },
+      "firstName": {
+        "default": "Gustav"
+      },
+      "playerSlug": "gustav-forsling-8478055"
+    },
+    {
+      "playerId": 8479981,
+      "lastName": {
+        "default": "Gadjovich"
+      },
+      "firstName": {
+        "default": "Jonah"
+      },
+      "playerSlug": "jonah-gadjovich-8479981"
+    },
+    {
+      "playerId": 8475462,
+      "lastName": {
+        "default": "Gudas"
+      },
+      "firstName": {
+        "default": "Radko"
+      },
+      "playerSlug": "radko-gudas-8475462"
+    },
+    {
+      "playerId": 8477903,
+      "lastName": {
+        "default": "Hathaway"
+      },
+      "firstName": {
+        "default": "Garnet"
+      },
+      "playerSlug": "garnet-hathaway-8477903"
+    },
+    {
+      "playerId": 8478147,
+      "lastName": {
+        "default": "Imama"
+      },
+      "firstName": {
+        "default": "Bokondji"
+      },
+      "playerSlug": "bokondji-imama-8478147"
+    },
+    {
+      "playerId": 8477495,
+      "lastName": {
+        "default": "Jones"
+      },
+      "firstName": {
+        "default": "Seth"
+      },
+      "playerSlug": "seth-jones-8477495"
+    },
+    {
+      "playerId": 8475179,
+      "lastName": {
+        "default": "Kulikov"
+      },
+      "firstName": {
+        "default": "Dmitry",
+        "cs": "Dmitrij",
+        "fi": "Dmitri",
+        "sk": "Dmitrij"
+      },
+      "playerSlug": "dmitry-kulikov-8475179"
+    },
+    {
+      "playerId": 8482113,
+      "lastName": {
+        "default": "Lundell"
+      },
+      "firstName": {
+        "default": "Anton"
+      },
+      "playerSlug": "anton-lundell-8482113"
+    },
+    {
+      "playerId": 8480185,
+      "lastName": {
+        "default": "Luostarinen"
+      },
+      "firstName": {
+        "default": "Eetu"
+      },
+      "playerSlug": "eetu-luostarinen-8480185"
+    },
+    {
+      "playerId": 8473419,
+      "lastName": {
+        "default": "Marchand"
+      },
+      "firstName": {
+        "default": "Brad"
+      },
+      "playerSlug": "brad-marchand-8473419"
+    },
+    {
+      "playerId": 8474593,
+      "lastName": {
+        "default": "Markstrom",
+        "cs": "Markström",
+        "fi": "Markström",
+        "sk": "Markström",
+        "sv": "Markström"
+      },
+      "firstName": {
+        "default": "Jacob"
+      },
+      "playerSlug": "jacob-markstrom-8474593"
+    },
+    {
+      "playerId": 8478859,
+      "lastName": {
+        "default": "Mikkola"
+      },
+      "firstName": {
+        "default": "Niko"
+      },
+      "playerSlug": "niko-mikkola-8478859"
+    },
+    {
+      "playerId": 8477933,
+      "lastName": {
+        "default": "Reinhart"
+      },
+      "firstName": {
+        "default": "Sam"
+      },
+      "playerSlug": "sam-reinhart-8477933"
+    },
+    {
+      "playerId": 8481033,
+      "lastName": {
+        "default": "Schmid"
+      },
+      "firstName": {
+        "default": "Akira"
+      },
+      "playerSlug": "akira-schmid-8481033"
+    },
+    {
+      "playerId": 8480801,
+      "lastName": {
+        "default": "Tkachuk"
+      },
+      "firstName": {
+        "default": "Brady"
+      },
+      "playerSlug": "brady-tkachuk-8480801"
+    },
+    {
+      "playerId": 8479314,
+      "lastName": {
+        "default": "Tkachuk"
+      },
+      "firstName": {
+        "default": "Matthew"
+      },
+      "playerSlug": "matthew-tkachuk-8479314"
+    },
+    {
+      "playerId": 8477409,
+      "lastName": {
+        "default": "Verhaeghe"
+      },
+      "firstName": {
+        "default": "Carter"
+      },
+      "playerSlug": "carter-verhaeghe-8477409"
+    },
+    {
+      "playerId": 8483771,
+      "lastName": {
+        "default": "Vilmanis"
+      },
+      "firstName": {
+        "default": "Sandis"
+      },
+      "playerSlug": "sandis-vilmanis-8483771"
+    }
+  ]
+}

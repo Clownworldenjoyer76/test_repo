@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_8_MARKETS",
+  "season": "2026-27",
+  "through": "2026-11-16",
+  "first_date": "2026-09-29",
+  "target_dates": 49,
+  "games": 332,
+  "target_rows": 13280,
+  "played_skaters_verified_ppp": 11951,
+  "proxy_candidate_players": 14705,
+  "graded_player_markets": 69656,
+  "markets": [
+    "assists",
+    "blocked_shots",
+    "goals",
+    "goals_against",
+    "points",
+    "power_play_points",
+    "saves",
+    "shots_on_goal"
+  ],
+  "proxy_selection_policy": "last 3 previous completed TEAM games only; date-strict",
+  "snapshot_results_preserved_separately": true,
+  "historical_overlay_records": 788503,
+  "source_targets": "G:\\hockey\\docs\\win\\hockey\\nhl\\prop_engine\\data\\nhl_historical_player_game_targets_2009_2026.csv",
+  "source_targets_sha256": "07d08e3ec18f6d523e90dbda69b3440a18207182a0526d4a5004d0af1a914d9e",
+  "source_models_sha256": "b67773d90c63b2ca26d1b561ab7d7a73ba28e6e7ab4e253bd649e4cc04114522",
+  "expected_feature_builder_version": "2026-11-17-asof-v2-prop-engine-rolefix1",
+  "scope_warning": "Proxy candidates are hypothetical and not archived pregame lineup snapshots; evaluated only where they played",
+  "existing_scripts_modified": false,
+  "generated_utc": "2026-11-18T16:27:12+00:00"
+}
